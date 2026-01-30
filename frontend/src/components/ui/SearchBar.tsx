@@ -146,17 +146,15 @@ const SearchBar = memo(function SearchBar() {
       case 'country':
         navigate('/country/' + result.id)
         break
-      case 'person':
-        navigate('/person/' + result.id)
-        break
-      case 'event':
-        navigate('/event/' + result.id)
-        break
-      case 'conflict':
-        navigate('/conflict/' + result.id)
-        break
       case 'book':
-        navigate('/book/' + result.id)
+        // Navigate to books page with search pre-filled
+        navigate('/books?search=' + encodeURIComponent(result.title))
+        break
+      case 'person':
+      case 'event':
+      case 'conflict':
+        // These pages don't exist yet - navigate to glossary with context
+        navigate('/glossary?search=' + encodeURIComponent(result.title))
         break
     }
   }, [navigate])

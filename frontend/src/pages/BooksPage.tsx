@@ -1,5 +1,5 @@
 import { memo, useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 
 interface Book {
@@ -20,7 +20,7 @@ interface Book {
   authors: { id: string; name: string; role: string }[]
 }
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const API_BASE = import.meta.env.VITE_API_URL || '/api/v1'
 
 async function fetchBooks(params: {
   skip?: number
@@ -36,19 +36,19 @@ async function fetchBooks(params: {
   if (params.topic) searchParams.set('topic', params.topic)
   if (params.search) searchParams.set('search', params.search)
   
-  const res = await fetch(`${API_BASE}/api/v1/books?${searchParams}`)
+  const res = await fetch(`${API_BASE}/books?${searchParams}`)
   if (!res.ok) throw new Error('Failed to fetch books')
   return res.json()
 }
 
 async function fetchBookTypes(): Promise<{ types: string[] }> {
-  const res = await fetch(`${API_BASE}/api/v1/books/types`)
+  const res = await fetch(`${API_BASE}/books/types`)
   if (!res.ok) throw new Error('Failed to fetch book types')
   return res.json()
 }
 
 async function fetchTopics(): Promise<{ topics: string[] }> {
-  const res = await fetch(`${API_BASE}/api/v1/books/topics`)
+  const res = await fetch(`${API_BASE}/books/topics`)
   if (!res.ok) throw new Error('Failed to fetch topics')
   return res.json()
 }
@@ -158,10 +158,12 @@ const BookCard = memo(function BookCard({ book }: { book: Book }) {
 })
 
 const BooksPage = memo(function BooksPage() {
-  const [search, setSearch] = useState('')
+  const [searchParams] = useSearchParams()
+  const initialSearch = searchParams.get('search') || ''
+  const [search, setSearch] = useState(initialSearch)
   const [selectedType, setSelectedType] = useState<string | null>(null)
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null)
-  const [debouncedSearch, setDebouncedSearch] = useState('')
+  const [debouncedSearch, setDebouncedSearch] = useState(initialSearch)
   
   // Debounce search
   useEffect(() => {

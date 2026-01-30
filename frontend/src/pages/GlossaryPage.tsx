@@ -1,5 +1,5 @@
 import { memo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 
 interface GlossaryTerm {
   term: string
@@ -188,7 +188,9 @@ const glossaryTerms: GlossaryTerm[] = [
 const categories = [...new Set(glossaryTerms.map(t => t.category))]
 
 const GlossaryPage = memo(function GlossaryPage() {
-  const [searchQuery, setSearchQuery] = useState('')
+  const [searchParams] = useSearchParams()
+  const initialSearch = searchParams.get('search') || ''
+  const [searchQuery, setSearchQuery] = useState(initialSearch)
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
   const [expandedTerm, setExpandedTerm] = useState<string | null>(null)
 
