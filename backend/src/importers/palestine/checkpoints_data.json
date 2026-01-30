@@ -1,0 +1,1766 @@
+[
+  {
+    "name": "Qalandia Terminal",
+    "name_arabic": "معبر قلنديا",
+    "checkpoint_type": "terminal",
+    "governorate": "Jerusalem",
+    "lat": 31.8631,
+    "lon": 35.2236,
+    "established": 2001,
+    "restrictions": "Full terminal with biometric scanning. Average wait 2-4 hours.",
+    "infrastructure": "Concrete walls, CCTV, X-ray machines"
+  },
+  {
+    "name": "Checkpoint 300 (Bethlehem)",
+    "name_arabic": "حاجز 300",
+    "checkpoint_type": "terminal",
+    "governorate": "Bethlehem",
+    "lat": 31.7167,
+    "lon": 35.2097,
+    "established": 2005,
+    "restrictions": "Terminal separating Bethlehem from Jerusalem.",
+    "infrastructure": "Full terminal, biometric systems"
+  },
+  {
+    "name": "Erez Terminal",
+    "name_arabic": "معبر إيرز",
+    "checkpoint_type": "terminal",
+    "governorate": "Gaza",
+    "lat": 31.5556,
+    "lon": 34.5569,
+    "established": 1994,
+    "restrictions": "Only pedestrian crossing from Gaza. Most Gazans banned since 2007.",
+    "infrastructure": "1km covered walkway"
+  },
+  {
+    "name": "Kerem Shalom Terminal",
+    "name_arabic": "معبر كرم أبو سالم",
+    "checkpoint_type": "terminal",
+    "governorate": "Gaza",
+    "lat": 31.2244,
+    "lon": 34.2917,
+    "established": 2005,
+    "restrictions": "Only commercial crossing to Gaza.",
+    "infrastructure": "Cargo terminal"
+  },
+  {
+    "name": "Allenby Bridge Terminal",
+    "name_arabic": "معبر جسر اللنبي",
+    "checkpoint_type": "terminal",
+    "governorate": "Jericho",
+    "lat": 31.8753,
+    "lon": 35.5394,
+    "established": 1967,
+    "restrictions": "Only exit for Palestinians to Jordan.",
+    "infrastructure": "Full terminal complex"
+  },
+  {
+    "name": "Jalameh Terminal",
+    "name_arabic": "معبر جلمة",
+    "checkpoint_type": "terminal",
+    "governorate": "Jenin",
+    "lat": 32.5022,
+    "lon": 35.2839,
+    "established": 2003,
+    "restrictions": "Workers from Jenin. Permit required.",
+    "infrastructure": "Terminal building"
+  },
+  {
+    "name": "Tarqumiya Checkpoint",
+    "name_arabic": "حاجز ترقوميا",
+    "checkpoint_type": "terminal",
+    "governorate": "Hebron",
+    "lat": 31.5703,
+    "lon": 34.9814,
+    "established": 1996,
+    "restrictions": "Worker crossing for Hebron area.",
+    "infrastructure": "Terminal building"
+  },
+  {
+    "name": "Meitar Checkpoint",
+    "name_arabic": "معبر ميتار",
+    "checkpoint_type": "terminal",
+    "governorate": "Hebron",
+    "lat": 31.3553,
+    "lon": 34.9333,
+    "established": 1999,
+    "restrictions": "Southern crossing for South Hebron Hills.",
+    "infrastructure": "Terminal complex"
+  },
+  {
+    "name": "Qalqiliya Terminal",
+    "name_arabic": "معبر قلقيلية",
+    "checkpoint_type": "terminal",
+    "governorate": "Qalqilya",
+    "lat": 32.1917,
+    "lon": 34.9708,
+    "established": 2003,
+    "restrictions": "City surrounded by wall. Only exit.",
+    "infrastructure": "Terminal at wall opening"
+  },
+  {
+    "name": "Irtah Terminal",
+    "name_arabic": "معبر إرتاح",
+    "checkpoint_type": "terminal",
+    "governorate": "Tulkarm",
+    "lat": 32.2939,
+    "lon": 35.0319,
+    "established": 2009,
+    "restrictions": "Worker crossing. Pre-dawn queues.",
+    "infrastructure": "Modern terminal"
+  },
+  {
+    "name": "A-Ram Checkpoint",
+    "name_arabic": "حاجز الرام",
+    "checkpoint_type": "permanent",
+    "governorate": "Jerusalem",
+    "lat": 31.8522,
+    "lon": 35.2261,
+    "established": 2001,
+    "restrictions": "Separates A-Ram from Jerusalem.",
+    "infrastructure": "Wall, turnstiles"
+  },
+  {
+    "name": "Shuafat Camp Checkpoint",
+    "name_arabic": "حاجز مخيم شعفاط",
+    "checkpoint_type": "permanent",
+    "governorate": "Jerusalem",
+    "lat": 31.8106,
+    "lon": 35.2342,
+    "established": 2006,
+    "restrictions": "100,000 residents trapped behind wall.",
+    "infrastructure": "Terminal-style checkpoint"
+  },
+  {
+    "name": "Hizma Checkpoint",
+    "name_arabic": "حاجز حزما",
+    "checkpoint_type": "permanent",
+    "governorate": "Jerusalem",
+    "lat": 31.8353,
+    "lon": 35.2569,
+    "established": 2004,
+    "restrictions": "Controls access between Hizma and Jerusalem.",
+    "infrastructure": "Guard tower"
+  },
+  {
+    "name": "Container Checkpoint",
+    "name_arabic": "حاجز الكونتينر",
+    "checkpoint_type": "permanent",
+    "governorate": "Jerusalem",
+    "lat": 31.7303,
+    "lon": 35.2797,
+    "established": 1991,
+    "restrictions": "Divides northern and southern West Bank.",
+    "infrastructure": "Large complex"
+  },
+  {
+    "name": "Jaba Checkpoint",
+    "name_arabic": "حاجز جبع",
+    "checkpoint_type": "permanent",
+    "governorate": "Jerusalem",
+    "lat": 31.8422,
+    "lon": 35.2756,
+    "established": 2003,
+    "restrictions": "On road between Ramallah and Jericho.",
+    "infrastructure": "Permanent structure"
+  },
+  {
+    "name": "DCO Bethlehem",
+    "name_arabic": "حاجز DCO بيت لحم",
+    "checkpoint_type": "permanent",
+    "governorate": "Bethlehem",
+    "lat": 31.7039,
+    "lon": 35.2006,
+    "established": 2000,
+    "restrictions": "Military coordination office.",
+    "infrastructure": "Administrative building"
+  },
+  {
+    "name": "Rachels Tomb Gate",
+    "name_arabic": "بوابة قبر راحيل",
+    "checkpoint_type": "permanent",
+    "governorate": "Bethlehem",
+    "lat": 31.7197,
+    "lon": 35.2081,
+    "established": 2005,
+    "restrictions": "Religious site fortified.",
+    "infrastructure": "Wall and gate"
+  },
+  {
+    "name": "Aida Camp Checkpoint",
+    "name_arabic": "حاجز مخيم عايدة",
+    "checkpoint_type": "permanent",
+    "governorate": "Bethlehem",
+    "lat": 31.715,
+    "lon": 35.2044,
+    "established": 2005,
+    "restrictions": "Camp entrance next to wall.",
+    "infrastructure": "Military tower"
+  },
+  {
+    "name": "Har Homa Checkpoint",
+    "name_arabic": "حاجز هار حوما",
+    "checkpoint_type": "permanent",
+    "governorate": "Bethlehem",
+    "lat": 31.7394,
+    "lon": 35.2275,
+    "established": 1997,
+    "restrictions": "Settlement on confiscated land.",
+    "infrastructure": "Full checkpoint"
+  },
+  {
+    "name": "Al-Khader Gate",
+    "name_arabic": "بوابة الخضر",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Bethlehem",
+    "lat": 31.7119,
+    "lon": 35.1478,
+    "established": 2003,
+    "restrictions": "Farmers access behind wall.",
+    "infrastructure": "Wall gate"
+  },
+  {
+    "name": "Battir Gate",
+    "name_arabic": "بوابة بتير",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Bethlehem",
+    "lat": 31.7236,
+    "lon": 35.1319,
+    "established": 2015,
+    "restrictions": "UNESCO site.",
+    "infrastructure": "Gate structure"
+  },
+  {
+    "name": "Checkpoint 56 (Shuhada)",
+    "name_arabic": "حاجز 56 - شارع الشهداء",
+    "checkpoint_type": "permanent",
+    "governorate": "Hebron",
+    "lat": 31.5247,
+    "lon": 35.1103,
+    "established": 1994,
+    "restrictions": "Palestinians banned from Shuhada Street.",
+    "infrastructure": "Full checkpoint"
+  },
+  {
+    "name": "Gilbert Checkpoint",
+    "name_arabic": "حاجز جلبرت",
+    "checkpoint_type": "permanent",
+    "governorate": "Hebron",
+    "lat": 31.5239,
+    "lon": 35.1117,
+    "established": 1997,
+    "restrictions": "Tel Rumeida entrance.",
+    "infrastructure": "Caged turnstile"
+  },
+  {
+    "name": "Ibrahimi Mosque Checkpoint",
+    "name_arabic": "حاجز الحرم الإبراهيمي",
+    "checkpoint_type": "permanent",
+    "governorate": "Hebron",
+    "lat": 31.5244,
+    "lon": 35.1108,
+    "established": 1994,
+    "restrictions": "After Goldstein massacre.",
+    "infrastructure": "Multiple checkpoints"
+  },
+  {
+    "name": "Checkpoint 160",
+    "name_arabic": "حاجز 160",
+    "checkpoint_type": "permanent",
+    "governorate": "Hebron",
+    "lat": 31.5256,
+    "lon": 35.1114,
+    "established": 2001,
+    "restrictions": "Old city souq access.",
+    "infrastructure": "Turnstiles"
+  },
+  {
+    "name": "Pharmacy Checkpoint",
+    "name_arabic": "حاجز الصيدلية",
+    "checkpoint_type": "permanent",
+    "governorate": "Hebron",
+    "lat": 31.5233,
+    "lon": 35.1111,
+    "established": 2000,
+    "restrictions": "Near settler enclave.",
+    "infrastructure": "Guard post"
+  },
+  {
+    "name": "Abu Rish Checkpoint",
+    "name_arabic": "حاجز أبو ريش",
+    "checkpoint_type": "permanent",
+    "governorate": "Hebron",
+    "lat": 31.5228,
+    "lon": 35.1094,
+    "established": 2001,
+    "restrictions": "Southern old city.",
+    "infrastructure": "Checkpoint booth"
+  },
+  {
+    "name": "Tarpat Checkpoint",
+    "name_arabic": "حاجز ترباط",
+    "checkpoint_type": "permanent",
+    "governorate": "Hebron",
+    "lat": 31.5261,
+    "lon": 35.1097,
+    "established": 1998,
+    "restrictions": "Near Avraham Avinu.",
+    "infrastructure": "Turnstiles"
+  },
+  {
+    "name": "Beit Hadassah",
+    "name_arabic": "حاجز بيت هداسا",
+    "checkpoint_type": "permanent",
+    "governorate": "Hebron",
+    "lat": 31.5236,
+    "lon": 35.1111,
+    "established": 1980,
+    "restrictions": "Settler enclave.",
+    "infrastructure": "Military post"
+  },
+  {
+    "name": "Kiryat Arba Checkpoint",
+    "name_arabic": "حاجز كريات أربع",
+    "checkpoint_type": "permanent",
+    "governorate": "Hebron",
+    "lat": 31.5278,
+    "lon": 35.1264,
+    "established": 1972,
+    "restrictions": "Largest Hebron settlement.",
+    "infrastructure": "Full checkpoint"
+  },
+  {
+    "name": "Masafer Yatta Checkpoint",
+    "name_arabic": "حاجز مسافر يطا",
+    "checkpoint_type": "permanent",
+    "governorate": "Hebron",
+    "lat": 31.37,
+    "lon": 35.12,
+    "established": 1999,
+    "restrictions": "Firing Zone 918 access.",
+    "infrastructure": "Gate to military zone"
+  },
+  {
+    "name": "Susiya Checkpoint",
+    "name_arabic": "حاجز سوسيا",
+    "checkpoint_type": "permanent",
+    "governorate": "Hebron",
+    "lat": 31.3967,
+    "lon": 35.1111,
+    "established": 2001,
+    "restrictions": "Near threatened village.",
+    "infrastructure": "Military post"
+  },
+  {
+    "name": "Huwwara Checkpoint",
+    "name_arabic": "حاجز حوارة",
+    "checkpoint_type": "permanent",
+    "governorate": "Nablus",
+    "lat": 32.1489,
+    "lon": 35.2622,
+    "established": 1995,
+    "restrictions": "Site of settler pogrom Feb 2023.",
+    "infrastructure": "Large complex"
+  },
+  {
+    "name": "Zatara (Tapuah)",
+    "name_arabic": "حاجز زعترة - تفوح",
+    "checkpoint_type": "permanent",
+    "governorate": "Nablus",
+    "lat": 32.1017,
+    "lon": 35.2397,
+    "established": 1993,
+    "restrictions": "All north-south traffic checked.",
+    "infrastructure": "Major checkpoint"
+  },
+  {
+    "name": "Beit Furik Checkpoint",
+    "name_arabic": "حاجز بيت فوريك",
+    "checkpoint_type": "permanent",
+    "governorate": "Nablus",
+    "lat": 32.1897,
+    "lon": 35.3167,
+    "established": 2001,
+    "restrictions": "Village encircled.",
+    "infrastructure": "Permanent checkpoint"
+  },
+  {
+    "name": "Yitzhar Junction",
+    "name_arabic": "حاجز مفرق يتسهار",
+    "checkpoint_type": "permanent",
+    "governorate": "Nablus",
+    "lat": 32.135,
+    "lon": 35.255,
+    "established": 1995,
+    "restrictions": "Near violent Yitzhar settlement.",
+    "infrastructure": "Military post"
+  },
+  {
+    "name": "Beita Checkpoint",
+    "name_arabic": "حاجز بيتا",
+    "checkpoint_type": "permanent",
+    "governorate": "Nablus",
+    "lat": 32.1333,
+    "lon": 35.25,
+    "established": 2021,
+    "restrictions": "After protests against Evyatar.",
+    "infrastructure": "New checkpoint"
+  },
+  {
+    "name": "Itamar Checkpoint",
+    "name_arabic": "حاجز إيتمار",
+    "checkpoint_type": "permanent",
+    "governorate": "Nablus",
+    "lat": 32.1833,
+    "lon": 35.3333,
+    "established": 1984,
+    "restrictions": "Violent settler settlement.",
+    "infrastructure": "Full checkpoint"
+  },
+  {
+    "name": "DCO Beit El",
+    "name_arabic": "حاجز DCO بيت إيل",
+    "checkpoint_type": "permanent",
+    "governorate": "Ramallah",
+    "lat": 31.9447,
+    "lon": 35.2336,
+    "established": 1995,
+    "restrictions": "Military coordination.",
+    "infrastructure": "Military base"
+  },
+  {
+    "name": "Beit El Checkpoint",
+    "name_arabic": "حاجز بيت إيل",
+    "checkpoint_type": "permanent",
+    "governorate": "Ramallah",
+    "lat": 31.9431,
+    "lon": 35.2333,
+    "established": 1970,
+    "restrictions": "Near large settlement.",
+    "infrastructure": "Full checkpoint"
+  },
+  {
+    "name": "Ofer Prison Checkpoint",
+    "name_arabic": "حاجز سجن عوفر",
+    "checkpoint_type": "permanent",
+    "governorate": "Ramallah",
+    "lat": 31.8808,
+    "lon": 35.1667,
+    "established": 1988,
+    "restrictions": "Prison and military court.",
+    "infrastructure": "Prison entrance"
+  },
+  {
+    "name": "Psagot Checkpoint",
+    "name_arabic": "حاجز بساغوت",
+    "checkpoint_type": "permanent",
+    "governorate": "Ramallah",
+    "lat": 31.9033,
+    "lon": 35.235,
+    "established": 1981,
+    "restrictions": "Settlement overlooking Ramallah.",
+    "infrastructure": "Full checkpoint"
+  },
+  {
+    "name": "Nabi Saleh Checkpoint",
+    "name_arabic": "حاجز النبي صالح",
+    "checkpoint_type": "partial",
+    "governorate": "Ramallah",
+    "lat": 31.9667,
+    "lon": 35.1167,
+    "established": 2009,
+    "restrictions": "Protest village.",
+    "infrastructure": "Mobile checkpoint"
+  },
+  {
+    "name": "Bilin Gate",
+    "name_arabic": "بوابة بلعين",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Ramallah",
+    "lat": 31.9583,
+    "lon": 35.0583,
+    "established": 2005,
+    "restrictions": "Famous protest village.",
+    "infrastructure": "Gate in fence"
+  },
+  {
+    "name": "Nilin Gate",
+    "name_arabic": "بوابة نعلين",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Ramallah",
+    "lat": 31.95,
+    "lon": 35.0333,
+    "established": 2008,
+    "restrictions": "Major protest site.",
+    "infrastructure": "Wall gate"
+  },
+  {
+    "name": "Al-Jalama Checkpoint",
+    "name_arabic": "حاجز الجلمة",
+    "checkpoint_type": "permanent",
+    "governorate": "Jenin",
+    "lat": 32.5022,
+    "lon": 35.2839,
+    "established": 1967,
+    "restrictions": "Northern crossing near Haifa.",
+    "infrastructure": "Major checkpoint"
+  },
+  {
+    "name": "Jenin Camp Checkpoint",
+    "name_arabic": "حاجز مخيم جنين",
+    "checkpoint_type": "partial",
+    "governorate": "Jenin",
+    "lat": 32.4639,
+    "lon": 35.2972,
+    "established": 2002,
+    "restrictions": "Site of 2002 massacre.",
+    "infrastructure": "Checkpoint"
+  },
+  {
+    "name": "Bartaa Checkpoint",
+    "name_arabic": "حاجز برطعة",
+    "checkpoint_type": "permanent",
+    "governorate": "Jenin",
+    "lat": 32.4667,
+    "lon": 35.1,
+    "established": 2003,
+    "restrictions": "Village split by wall.",
+    "infrastructure": "Terminal-style"
+  },
+  {
+    "name": "Dotan Checkpoint",
+    "name_arabic": "حاجز دوثان",
+    "checkpoint_type": "permanent",
+    "governorate": "Jenin",
+    "lat": 32.4167,
+    "lon": 35.2333,
+    "established": 1993,
+    "restrictions": "Southern Jenin.",
+    "infrastructure": "Permanent post"
+  },
+  {
+    "name": "Hamra Checkpoint",
+    "name_arabic": "حاجز الحمرا",
+    "checkpoint_type": "permanent",
+    "governorate": "Jordan Valley",
+    "lat": 32.1383,
+    "lon": 35.4661,
+    "established": 1997,
+    "restrictions": "Major entrance from Nablus.",
+    "infrastructure": "Full complex"
+  },
+  {
+    "name": "Tayasir Checkpoint",
+    "name_arabic": "حاجز تياسير",
+    "checkpoint_type": "permanent",
+    "governorate": "Jordan Valley",
+    "lat": 32.2758,
+    "lon": 35.4389,
+    "established": 1995,
+    "restrictions": "Northern entrance.",
+    "infrastructure": "Permanent structure"
+  },
+  {
+    "name": "Tomer Checkpoint",
+    "name_arabic": "حاجز تومر",
+    "checkpoint_type": "permanent",
+    "governorate": "Jordan Valley",
+    "lat": 32.05,
+    "lon": 35.4917,
+    "established": 1998,
+    "restrictions": "Near settlement.",
+    "infrastructure": "Guard post"
+  },
+  {
+    "name": "Bekaot Checkpoint",
+    "name_arabic": "حاجز بكعوت",
+    "checkpoint_type": "permanent",
+    "governorate": "Jordan Valley",
+    "lat": 32.2,
+    "lon": 35.5167,
+    "established": 1998,
+    "restrictions": "Settlement.",
+    "infrastructure": "Guard post"
+  },
+  {
+    "name": "Jayyus Gate North",
+    "name_arabic": "بوابة جيوس الشمالية",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Qalqilya",
+    "lat": 32.195,
+    "lon": 35.0356,
+    "established": 2003,
+    "restrictions": "Village lost 72% of land. 3 openings daily.",
+    "infrastructure": "Wall gate"
+  },
+  {
+    "name": "Jayyus Gate South",
+    "name_arabic": "بوابة جيوس الجنوبية",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Qalqilya",
+    "lat": 32.185,
+    "lon": 35.0356,
+    "established": 2003,
+    "restrictions": "Agricultural access.",
+    "infrastructure": "Gate"
+  },
+  {
+    "name": "Azzun Atma Gate",
+    "name_arabic": "بوابة عزون عتمة",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Qalqilya",
+    "lat": 32.1583,
+    "lon": 35.0083,
+    "established": 2003,
+    "restrictions": "Village encircled.",
+    "infrastructure": "Gate"
+  },
+  {
+    "name": "Kafr Qaddum",
+    "name_arabic": "حاجز كفر قدوم",
+    "checkpoint_type": "permanent",
+    "governorate": "Qalqilya",
+    "lat": 32.2,
+    "lon": 35.0833,
+    "established": 2003,
+    "restrictions": "Weekly protest village. Road blocked.",
+    "infrastructure": "Road gate"
+  },
+  {
+    "name": "Ennab Checkpoint",
+    "name_arabic": "حاجز عناب",
+    "checkpoint_type": "permanent",
+    "governorate": "Tulkarm",
+    "lat": 32.3131,
+    "lon": 35.0986,
+    "established": 1995,
+    "restrictions": "Eastern access. All traffic checked.",
+    "infrastructure": "Major checkpoint"
+  },
+  {
+    "name": "Jubara Checkpoint",
+    "name_arabic": "حاجز جبارة",
+    "checkpoint_type": "permanent",
+    "governorate": "Tulkarm",
+    "lat": 32.3333,
+    "lon": 35.1,
+    "established": 2002,
+    "restrictions": "Village trapped in seam zone.",
+    "infrastructure": "Wall gate"
+  },
+  {
+    "name": "Qaffin Gate",
+    "name_arabic": "بوابة قفين",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Tulkarm",
+    "lat": 32.4,
+    "lon": 35.05,
+    "established": 2003,
+    "restrictions": "Village surrounded on 3 sides.",
+    "infrastructure": "Main exit"
+  },
+  {
+    "name": "Ariel Checkpoint",
+    "name_arabic": "حاجز أريئيل",
+    "checkpoint_type": "permanent",
+    "governorate": "Salfit",
+    "lat": 32.1056,
+    "lon": 35.1722,
+    "established": 1982,
+    "restrictions": "Large settlement bloc.",
+    "infrastructure": "Full checkpoint"
+  },
+  {
+    "name": "Barkan Industrial Zone",
+    "name_arabic": "حاجز منطقة بركان",
+    "checkpoint_type": "permanent",
+    "governorate": "Salfit",
+    "lat": 32.075,
+    "lon": 35.1167,
+    "established": 1981,
+    "restrictions": "Industrial zone.",
+    "infrastructure": "Full checkpoint"
+  },
+  {
+    "name": "Qalandia Tower",
+    "name_arabic": "برج قلنديا",
+    "checkpoint_type": "observation_tower",
+    "governorate": "Jerusalem",
+    "lat": 31.8633,
+    "lon": 35.2233,
+    "established": 2002,
+    "restrictions": "Monitors checkpoint.",
+    "infrastructure": "CCTV tower"
+  },
+  {
+    "name": "Huwwara Tower",
+    "name_arabic": "برج حوارة",
+    "checkpoint_type": "observation_tower",
+    "governorate": "Nablus",
+    "lat": 32.15,
+    "lon": 35.2617,
+    "established": 2003,
+    "restrictions": "Overlooks checkpoint.",
+    "infrastructure": "Military tower"
+  },
+  {
+    "name": "Container Tower",
+    "name_arabic": "برج الكونتينر",
+    "checkpoint_type": "observation_tower",
+    "governorate": "Jerusalem",
+    "lat": 31.7308,
+    "lon": 35.28,
+    "established": 2002,
+    "restrictions": "Monitors traffic.",
+    "infrastructure": "Steel tower"
+  },
+  {
+    "name": "Shuhada Tower",
+    "name_arabic": "برج شارع الشهداء",
+    "checkpoint_type": "observation_tower",
+    "governorate": "Hebron",
+    "lat": 31.525,
+    "lon": 35.11,
+    "established": 1994,
+    "restrictions": "Monitors H2.",
+    "infrastructure": "Military post"
+  },
+  {
+    "name": "Beit Ummar Roadblock",
+    "name_arabic": "سواتر بيت أمر",
+    "checkpoint_type": "roadblock",
+    "governorate": "Hebron",
+    "lat": 31.6167,
+    "lon": 35.1,
+    "established": 2001,
+    "restrictions": "Earth mound blocking village.",
+    "infrastructure": "Earth mound"
+  },
+  {
+    "name": "Yatta Roadblock",
+    "name_arabic": "سواتر يطا",
+    "checkpoint_type": "roadblock",
+    "governorate": "Hebron",
+    "lat": 31.45,
+    "lon": 35.0833,
+    "established": 2001,
+    "restrictions": "Restricts town access.",
+    "infrastructure": "Earth mound"
+  },
+  {
+    "name": "Burin Roadblock",
+    "name_arabic": "سواتر بورين",
+    "checkpoint_type": "roadblock",
+    "governorate": "Nablus",
+    "lat": 32.1333,
+    "lon": 35.2333,
+    "established": 2002,
+    "restrictions": "Frequent settler attacks.",
+    "infrastructure": "Earth mound"
+  },
+  {
+    "name": "Route 60 Flying Zone",
+    "name_arabic": "منطقة حواجز طريق 60",
+    "checkpoint_type": "flying",
+    "governorate": "Multiple",
+    "lat": 31.9,
+    "lon": 35.2,
+    "established": 1993,
+    "restrictions": "Random checkpoints on main road.",
+    "infrastructure": "Mobile units"
+  },
+  {
+    "name": "Nablus Flying Zone",
+    "name_arabic": "منطقة حواجز نابلس",
+    "checkpoint_type": "flying",
+    "governorate": "Nablus",
+    "lat": 32.22,
+    "lon": 35.26,
+    "established": 2001,
+    "restrictions": "Constant random checkpoints.",
+    "infrastructure": "Jeeps, barriers"
+  },
+  {
+    "name": "Hebron Flying Zone",
+    "name_arabic": "منطقة حواجز الخليل",
+    "checkpoint_type": "flying",
+    "governorate": "Hebron",
+    "lat": 31.53,
+    "lon": 35.1,
+    "established": 1994,
+    "restrictions": "Random checkpoints.",
+    "infrastructure": "Mobile units"
+  },
+  {
+    "name": "Anata Checkpoint",
+    "name_arabic": "حاجز عناتا",
+    "checkpoint_type": "permanent",
+    "governorate": "Jerusalem",
+    "lat": 31.8167,
+    "lon": 35.2667,
+    "established": 2004
+  },
+  {
+    "name": "Bir Nabala Gate",
+    "name_arabic": "بوابة بير نبالا",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Jerusalem",
+    "lat": 31.85,
+    "lon": 35.1833,
+    "established": 2006
+  },
+  {
+    "name": "Al-Jib Checkpoint",
+    "name_arabic": "حاجز الجيب",
+    "checkpoint_type": "partial",
+    "governorate": "Jerusalem",
+    "lat": 31.85,
+    "lon": 35.1667,
+    "established": 2003
+  },
+  {
+    "name": "Beit Sahour Checkpoint",
+    "name_arabic": "حاجز بيت ساحور",
+    "checkpoint_type": "partial",
+    "governorate": "Bethlehem",
+    "lat": 31.7056,
+    "lon": 35.2292,
+    "established": 2002
+  },
+  {
+    "name": "Abu Ghneim Checkpoint",
+    "name_arabic": "حاجز أبو غنيم",
+    "checkpoint_type": "permanent",
+    "governorate": "Bethlehem",
+    "lat": 31.735,
+    "lon": 35.225,
+    "established": 1997
+  },
+  {
+    "name": "Kfar Etzion Junction",
+    "name_arabic": "مفرق كفار عتصيون",
+    "checkpoint_type": "permanent",
+    "governorate": "Bethlehem",
+    "lat": 31.6417,
+    "lon": 35.125,
+    "established": 1970
+  },
+  {
+    "name": "Tarrama Checkpoint",
+    "name_arabic": "حاجز طرامة",
+    "checkpoint_type": "permanent",
+    "governorate": "Hebron",
+    "lat": 31.515,
+    "lon": 35.105,
+    "established": 2000
+  },
+  {
+    "name": "Abu Sneina Checkpoint",
+    "name_arabic": "حاجز أبو سنينة",
+    "checkpoint_type": "partial",
+    "governorate": "Hebron",
+    "lat": 31.5183,
+    "lon": 35.1017,
+    "established": 2002
+  },
+  {
+    "name": "Shuyukh Junction",
+    "name_arabic": "مفرق الشيوخ",
+    "checkpoint_type": "partial",
+    "governorate": "Hebron",
+    "lat": 31.5417,
+    "lon": 35.1333,
+    "established": 2002
+  },
+  {
+    "name": "Sabastiya Checkpoint",
+    "name_arabic": "حاجز سبسطية",
+    "checkpoint_type": "partial",
+    "governorate": "Nablus",
+    "lat": 32.275,
+    "lon": 35.1917,
+    "established": 2005
+  },
+  {
+    "name": "Balata Camp Checkpoint",
+    "name_arabic": "حاجز مخيم بلاطة",
+    "checkpoint_type": "partial",
+    "governorate": "Nablus",
+    "lat": 32.2167,
+    "lon": 35.2833,
+    "established": 2002
+  },
+  {
+    "name": "Askar Camp Checkpoint",
+    "name_arabic": "حاجز مخيم عسكر",
+    "checkpoint_type": "partial",
+    "governorate": "Nablus",
+    "lat": 32.2333,
+    "lon": 35.3,
+    "established": 2002
+  },
+  {
+    "name": "Duma Checkpoint",
+    "name_arabic": "حاجز دوما",
+    "checkpoint_type": "partial",
+    "governorate": "Nablus",
+    "lat": 32.0667,
+    "lon": 35.3667,
+    "established": 2015
+  },
+  {
+    "name": "Amari Camp Checkpoint",
+    "name_arabic": "حاجز مخيم الأمعري",
+    "checkpoint_type": "partial",
+    "governorate": "Ramallah",
+    "lat": 31.9028,
+    "lon": 35.2117,
+    "established": 2002
+  },
+  {
+    "name": "Kafr Aqab Checkpoint",
+    "name_arabic": "حاجز كفر عقب",
+    "checkpoint_type": "partial",
+    "governorate": "Ramallah",
+    "lat": 31.875,
+    "lon": 35.2083,
+    "established": 2003
+  },
+  {
+    "name": "Burqin Checkpoint",
+    "name_arabic": "حاجز برقين",
+    "checkpoint_type": "partial",
+    "governorate": "Jenin",
+    "lat": 32.4417,
+    "lon": 35.2583,
+    "established": 2002
+  },
+  {
+    "name": "Kafr Dan Checkpoint",
+    "name_arabic": "حاجز كفر دان",
+    "checkpoint_type": "partial",
+    "governorate": "Jenin",
+    "lat": 32.4667,
+    "lon": 35.25,
+    "established": 2002
+  },
+  {
+    "name": "Bala Checkpoint",
+    "name_arabic": "حاجز بلعا",
+    "checkpoint_type": "partial",
+    "governorate": "Tulkarm",
+    "lat": 32.3333,
+    "lon": 35.1667,
+    "established": 2002
+  },
+  {
+    "name": "Attil Checkpoint",
+    "name_arabic": "حاجز عتيل",
+    "checkpoint_type": "partial",
+    "governorate": "Tulkarm",
+    "lat": 32.3667,
+    "lon": 35.05,
+    "established": 2002
+  },
+  {
+    "name": "Hableh Checkpoint",
+    "name_arabic": "حاجز حبلة",
+    "checkpoint_type": "permanent",
+    "governorate": "Qalqilya",
+    "lat": 32.1667,
+    "lon": 34.9667,
+    "established": 2003
+  },
+  {
+    "name": "Az-Zawiya Checkpoint",
+    "name_arabic": "حاجز الزاوية",
+    "checkpoint_type": "partial",
+    "governorate": "Salfit",
+    "lat": 32.0583,
+    "lon": 35.0833,
+    "established": 2003
+  },
+  {
+    "name": "Wadi Maleh Checkpoint",
+    "name_arabic": "حاجز وادي المالح",
+    "checkpoint_type": "partial",
+    "governorate": "Tubas",
+    "lat": 32.3333,
+    "lon": 35.45,
+    "established": 2005
+  },
+  {
+    "name": "Zubeidat Checkpoint",
+    "name_arabic": "حاجز الزبيدات",
+    "checkpoint_type": "partial",
+    "governorate": "Jordan Valley",
+    "lat": 32.1667,
+    "lon": 35.5333,
+    "established": 2003
+  },
+  {
+    "name": "Idhna Roadblock",
+    "name_arabic": "سواتر إذنا",
+    "checkpoint_type": "roadblock",
+    "governorate": "Hebron",
+    "lat": 31.55,
+    "lon": 34.9833,
+    "established": 2003
+  },
+  {
+    "name": "Surif Roadblock",
+    "name_arabic": "سواتر صوريف",
+    "checkpoint_type": "roadblock",
+    "governorate": "Hebron",
+    "lat": 31.6,
+    "lon": 35.0333,
+    "established": 2002
+  },
+  {
+    "name": "Ofer Tower",
+    "name_arabic": "برج عوفر",
+    "checkpoint_type": "observation_tower",
+    "governorate": "Ramallah",
+    "lat": 31.881,
+    "lon": 35.167,
+    "established": 1988
+  },
+  {
+    "name": "Beit El Tower",
+    "name_arabic": "برج بيت إيل",
+    "checkpoint_type": "observation_tower",
+    "governorate": "Ramallah",
+    "lat": 31.9433,
+    "lon": 35.2335,
+    "established": 1978
+  },
+  {
+    "name": "Wadi Qana Gate",
+    "name_arabic": "بوابة وادي قانا",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Salfit",
+    "lat": 32.1,
+    "lon": 35.05,
+    "established": 2005
+  },
+  {
+    "name": "Beit Hanina Checkpoint",
+    "name_arabic": "حاجز بيت حنينا",
+    "checkpoint_type": "permanent",
+    "governorate": "Jerusalem",
+    "lat": 31.8333,
+    "lon": 35.2167,
+    "established": 2004
+  },
+  {
+    "name": "Dahiyat al-Barid",
+    "name_arabic": "حاجز ضاحية البريد",
+    "checkpoint_type": "permanent",
+    "governorate": "Jerusalem",
+    "lat": 31.8583,
+    "lon": 35.2333,
+    "established": 2005
+  },
+  {
+    "name": "Ras Khamis Checkpoint",
+    "name_arabic": "حاجز رأس خميس",
+    "checkpoint_type": "permanent",
+    "governorate": "Jerusalem",
+    "lat": 31.805,
+    "lon": 35.24,
+    "established": 2007
+  },
+  {
+    "name": "Al-Arub Camp",
+    "name_arabic": "حاجز مخيم العروب",
+    "checkpoint_type": "partial",
+    "governorate": "Bethlehem",
+    "lat": 31.6083,
+    "lon": 35.1167,
+    "established": 2002
+  },
+  {
+    "name": "Mazmoria Checkpoint",
+    "name_arabic": "حاجز المزمورية",
+    "checkpoint_type": "partial",
+    "governorate": "Bethlehem",
+    "lat": 31.65,
+    "lon": 35.1333,
+    "established": 2003
+  },
+  {
+    "name": "Wadi Nis Checkpoint",
+    "name_arabic": "حاجز وادي النيص",
+    "checkpoint_type": "partial",
+    "governorate": "Bethlehem",
+    "lat": 31.6833,
+    "lon": 35.15,
+    "established": 2002
+  },
+  {
+    "name": "Gush Etzion Tunnel",
+    "name_arabic": "نفق غوش عتصيون",
+    "checkpoint_type": "permanent",
+    "governorate": "Bethlehem",
+    "lat": 31.6583,
+    "lon": 35.1333,
+    "established": 2002
+  },
+  {
+    "name": "Wadi al-Joz Checkpoint",
+    "name_arabic": "حاجز وادي الجوز",
+    "checkpoint_type": "partial",
+    "governorate": "Hebron",
+    "lat": 31.52,
+    "lon": 35.105,
+    "established": 2001
+  },
+  {
+    "name": "Jabal ar-Rahman",
+    "name_arabic": "حاجز جبل الرحمة",
+    "checkpoint_type": "partial",
+    "governorate": "Hebron",
+    "lat": 31.5283,
+    "lon": 35.1167,
+    "established": 2003
+  },
+  {
+    "name": "Wadi Abu al-Hummus",
+    "name_arabic": "حاجز وادي أبو الحمص",
+    "checkpoint_type": "partial",
+    "governorate": "Hebron",
+    "lat": 31.53,
+    "lon": 35.12,
+    "established": 2004
+  },
+  {
+    "name": "Khallet Sakariya",
+    "name_arabic": "حاجز خلة سكريا",
+    "checkpoint_type": "partial",
+    "governorate": "Hebron",
+    "lat": 31.5083,
+    "lon": 35.1333,
+    "established": 2005
+  },
+  {
+    "name": "Beit Einun Checkpoint",
+    "name_arabic": "حاجز بيت عينون",
+    "checkpoint_type": "partial",
+    "governorate": "Hebron",
+    "lat": 31.5583,
+    "lon": 35.1083,
+    "established": 2003
+  },
+  {
+    "name": "Taffouh Checkpoint",
+    "name_arabic": "حاجز تفوح",
+    "checkpoint_type": "partial",
+    "governorate": "Hebron",
+    "lat": 31.5667,
+    "lon": 35.0167,
+    "established": 2002
+  },
+  {
+    "name": "Beit Kahil Checkpoint",
+    "name_arabic": "حاجز بيت كاحل",
+    "checkpoint_type": "partial",
+    "governorate": "Hebron",
+    "lat": 31.575,
+    "lon": 35.0333,
+    "established": 2003
+  },
+  {
+    "name": "Khursa Checkpoint",
+    "name_arabic": "حاجز خرسا",
+    "checkpoint_type": "partial",
+    "governorate": "Hebron",
+    "lat": 31.4833,
+    "lon": 35.0167,
+    "established": 2004
+  },
+  {
+    "name": "Dahriya South",
+    "name_arabic": "حاجز الظاهرية الجنوبي",
+    "checkpoint_type": "partial",
+    "governorate": "Hebron",
+    "lat": 31.3917,
+    "lon": 34.975,
+    "established": 2003
+  },
+  {
+    "name": "Tell Checkpoint",
+    "name_arabic": "حاجز تل",
+    "checkpoint_type": "partial",
+    "governorate": "Nablus",
+    "lat": 32.2,
+    "lon": 35.25,
+    "established": 2001
+  },
+  {
+    "name": "Fara Camp Checkpoint",
+    "name_arabic": "حاجز مخيم الفارعة",
+    "checkpoint_type": "partial",
+    "governorate": "Nablus",
+    "lat": 32.25,
+    "lon": 35.3667,
+    "established": 2002
+  },
+  {
+    "name": "Aqraba Checkpoint",
+    "name_arabic": "حاجز عقربا",
+    "checkpoint_type": "partial",
+    "governorate": "Nablus",
+    "lat": 32.1167,
+    "lon": 35.3583,
+    "established": 2002
+  },
+  {
+    "name": "Odala Checkpoint",
+    "name_arabic": "حاجز أودلة",
+    "checkpoint_type": "partial",
+    "governorate": "Nablus",
+    "lat": 32.1667,
+    "lon": 35.35,
+    "established": 2003
+  },
+  {
+    "name": "Majdal Bani Fadil",
+    "name_arabic": "حاجز مجدل بني فاضل",
+    "checkpoint_type": "partial",
+    "governorate": "Nablus",
+    "lat": 32.1333,
+    "lon": 35.3167,
+    "established": 2004
+  },
+  {
+    "name": "Jalud Checkpoint",
+    "name_arabic": "حاجز جالود",
+    "checkpoint_type": "partial",
+    "governorate": "Nablus",
+    "lat": 32.1,
+    "lon": 35.3333,
+    "established": 2003
+  },
+  {
+    "name": "Al-Bireh Checkpoint",
+    "name_arabic": "حاجز البيرة",
+    "checkpoint_type": "partial",
+    "governorate": "Ramallah",
+    "lat": 31.9083,
+    "lon": 35.2167,
+    "established": 2001
+  },
+  {
+    "name": "Ein Misbah Checkpoint",
+    "name_arabic": "حاجز عين مصباح",
+    "checkpoint_type": "partial",
+    "governorate": "Ramallah",
+    "lat": 31.9333,
+    "lon": 35.2,
+    "established": 2002
+  },
+  {
+    "name": "Umm al-Sharayet",
+    "name_arabic": "حاجز أم الشرايط",
+    "checkpoint_type": "partial",
+    "governorate": "Ramallah",
+    "lat": 31.9167,
+    "lon": 35.225,
+    "established": 2003
+  },
+  {
+    "name": "Beit Ur al-Tahta",
+    "name_arabic": "حاجز بيت عور التحتا",
+    "checkpoint_type": "partial",
+    "governorate": "Ramallah",
+    "lat": 31.875,
+    "lon": 35.0667,
+    "established": 2003
+  },
+  {
+    "name": "Beit Ur al-Fauqa",
+    "name_arabic": "حاجز بيت عور الفوقا",
+    "checkpoint_type": "partial",
+    "governorate": "Ramallah",
+    "lat": 31.8833,
+    "lon": 35.0833,
+    "established": 2003
+  },
+  {
+    "name": "Safa Checkpoint",
+    "name_arabic": "حاجز صفا",
+    "checkpoint_type": "partial",
+    "governorate": "Ramallah",
+    "lat": 31.9333,
+    "lon": 35.0833,
+    "established": 2004
+  },
+  {
+    "name": "Kober Checkpoint",
+    "name_arabic": "حاجز كوبر",
+    "checkpoint_type": "partial",
+    "governorate": "Ramallah",
+    "lat": 31.9833,
+    "lon": 35.1667,
+    "established": 2002
+  },
+  {
+    "name": "Deir Nidham Checkpoint",
+    "name_arabic": "حاجز دير نظام",
+    "checkpoint_type": "partial",
+    "governorate": "Ramallah",
+    "lat": 31.975,
+    "lon": 35.15,
+    "established": 2003
+  },
+  {
+    "name": "Silat al-Dahr",
+    "name_arabic": "حاجز صيلة الظهر",
+    "checkpoint_type": "partial",
+    "governorate": "Jenin",
+    "lat": 32.3667,
+    "lon": 35.2833,
+    "established": 2003
+  },
+  {
+    "name": "Jalqamus Checkpoint",
+    "name_arabic": "حاجز جلقموس",
+    "checkpoint_type": "partial",
+    "governorate": "Jenin",
+    "lat": 32.4,
+    "lon": 35.3,
+    "established": 2002
+  },
+  {
+    "name": "Misliya Checkpoint",
+    "name_arabic": "حاجز مسلية",
+    "checkpoint_type": "partial",
+    "governorate": "Jenin",
+    "lat": 32.3833,
+    "lon": 35.3167,
+    "established": 2003
+  },
+  {
+    "name": "Bir al-Basha Checkpoint",
+    "name_arabic": "حاجز بئر الباشا",
+    "checkpoint_type": "partial",
+    "governorate": "Jenin",
+    "lat": 32.4333,
+    "lon": 35.2167,
+    "established": 2003
+  },
+  {
+    "name": "Arrana Checkpoint",
+    "name_arabic": "حاجز عرانة",
+    "checkpoint_type": "partial",
+    "governorate": "Jenin",
+    "lat": 32.4833,
+    "lon": 35.2667,
+    "established": 2002
+  },
+  {
+    "name": "Jaba Jenin",
+    "name_arabic": "حاجز جبع جنين",
+    "checkpoint_type": "partial",
+    "governorate": "Jenin",
+    "lat": 32.3667,
+    "lon": 35.2,
+    "established": 2003
+  },
+  {
+    "name": "Kafr Zibad Checkpoint",
+    "name_arabic": "حاجز كفر زيباد",
+    "checkpoint_type": "partial",
+    "governorate": "Tulkarm",
+    "lat": 32.35,
+    "lon": 35.1,
+    "established": 2003
+  },
+  {
+    "name": "Illar Checkpoint",
+    "name_arabic": "حاجز علار",
+    "checkpoint_type": "partial",
+    "governorate": "Tulkarm",
+    "lat": 32.3833,
+    "lon": 35.1333,
+    "established": 2002
+  },
+  {
+    "name": "Shweika Checkpoint",
+    "name_arabic": "حاجز شويكة",
+    "checkpoint_type": "partial",
+    "governorate": "Tulkarm",
+    "lat": 32.3333,
+    "lon": 35.05,
+    "established": 2003
+  },
+  {
+    "name": "Jarushiya Gate",
+    "name_arabic": "بوابة جاروشية",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Tulkarm",
+    "lat": 32.3167,
+    "lon": 35.0167,
+    "established": 2003
+  },
+  {
+    "name": "Azzun Village Gate",
+    "name_arabic": "بوابة قرية عزون",
+    "checkpoint_type": "partial",
+    "governorate": "Qalqilya",
+    "lat": 32.1667,
+    "lon": 35.05,
+    "established": 2002
+  },
+  {
+    "name": "Isla Checkpoint",
+    "name_arabic": "حاجز عزلة",
+    "checkpoint_type": "partial",
+    "governorate": "Qalqilya",
+    "lat": 32.15,
+    "lon": 35.0333,
+    "established": 2003
+  },
+  {
+    "name": "Sanniriya Checkpoint",
+    "name_arabic": "حاجز سنيريا",
+    "checkpoint_type": "partial",
+    "governorate": "Qalqilya",
+    "lat": 32.1333,
+    "lon": 35.0667,
+    "established": 2004
+  },
+  {
+    "name": "Biddya Checkpoint",
+    "name_arabic": "حاجز بديا",
+    "checkpoint_type": "partial",
+    "governorate": "Qalqilya",
+    "lat": 32.1167,
+    "lon": 35.0917,
+    "established": 2003
+  },
+  {
+    "name": "Rafat Checkpoint",
+    "name_arabic": "حاجز رافات",
+    "checkpoint_type": "partial",
+    "governorate": "Salfit",
+    "lat": 32.075,
+    "lon": 35.0667,
+    "established": 2004
+  },
+  {
+    "name": "Kafr ad-Dik Checkpoint",
+    "name_arabic": "حاجز كفر الديك",
+    "checkpoint_type": "partial",
+    "governorate": "Salfit",
+    "lat": 32.0833,
+    "lon": 35.0833,
+    "established": 2003
+  },
+  {
+    "name": "Iskaka Checkpoint",
+    "name_arabic": "حاجز إسكاكا",
+    "checkpoint_type": "partial",
+    "governorate": "Salfit",
+    "lat": 32.1333,
+    "lon": 35.1333,
+    "established": 2004
+  },
+  {
+    "name": "Yasuf Checkpoint",
+    "name_arabic": "حاجز ياسوف",
+    "checkpoint_type": "partial",
+    "governorate": "Salfit",
+    "lat": 32.15,
+    "lon": 35.1333,
+    "established": 2003
+  },
+  {
+    "name": "Khirbet Ibziq Tubas",
+    "name_arabic": "حاجز خربة إبزيق",
+    "checkpoint_type": "partial",
+    "governorate": "Tubas",
+    "lat": 32.35,
+    "lon": 35.4333,
+    "established": 2010
+  },
+  {
+    "name": "Ain al-Beida",
+    "name_arabic": "حاجز عين البيضا",
+    "checkpoint_type": "partial",
+    "governorate": "Jordan Valley",
+    "lat": 32.2833,
+    "lon": 35.5,
+    "established": 2003
+  },
+  {
+    "name": "Bardala Checkpoint",
+    "name_arabic": "حاجز بردلة",
+    "checkpoint_type": "partial",
+    "governorate": "Jordan Valley",
+    "lat": 32.3167,
+    "lon": 35.5167,
+    "established": 2004
+  },
+  {
+    "name": "Ein al-Hilweh",
+    "name_arabic": "حاجز عين الحلوة",
+    "checkpoint_type": "partial",
+    "governorate": "Jordan Valley",
+    "lat": 32.35,
+    "lon": 35.5,
+    "established": 2005
+  },
+  {
+    "name": "Marj Naaja Checkpoint",
+    "name_arabic": "حاجز مرج نعجة",
+    "checkpoint_type": "partial",
+    "governorate": "Jordan Valley",
+    "lat": 32.0167,
+    "lon": 35.4833,
+    "established": 2004
+  },
+  {
+    "name": "Furush Beit Dajan",
+    "name_arabic": "حاجز فروش بيت دجن",
+    "checkpoint_type": "partial",
+    "governorate": "Jordan Valley",
+    "lat": 32.15,
+    "lon": 35.4833,
+    "established": 2005
+  },
+  {
+    "name": "Nuba Roadblock",
+    "name_arabic": "سواتر نوبا",
+    "checkpoint_type": "roadblock",
+    "governorate": "Hebron",
+    "lat": 31.5833,
+    "lon": 34.9667,
+    "established": 2003
+  },
+  {
+    "name": "Beit Awwa Roadblock",
+    "name_arabic": "سواتر بيت عوا",
+    "checkpoint_type": "roadblock",
+    "governorate": "Hebron",
+    "lat": 31.4833,
+    "lon": 34.9333,
+    "established": 2002
+  },
+  {
+    "name": "Kobar Roadblock",
+    "name_arabic": "سواتر كوبر",
+    "checkpoint_type": "roadblock",
+    "governorate": "Ramallah",
+    "lat": 31.9833,
+    "lon": 35.1667,
+    "established": 2002
+  },
+  {
+    "name": "Turmusaya Roadblock",
+    "name_arabic": "سواتر ترمسعيا",
+    "checkpoint_type": "roadblock",
+    "governorate": "Ramallah",
+    "lat": 31.9833,
+    "lon": 35.25,
+    "established": 2002
+  },
+  {
+    "name": "Sinjil Roadblock",
+    "name_arabic": "سواتر سنجل",
+    "checkpoint_type": "roadblock",
+    "governorate": "Ramallah",
+    "lat": 32.0,
+    "lon": 35.25,
+    "established": 2002
+  },
+  {
+    "name": "Madama Roadblock",
+    "name_arabic": "سواتر مادما",
+    "checkpoint_type": "roadblock",
+    "governorate": "Nablus",
+    "lat": 32.1333,
+    "lon": 35.25,
+    "established": 2002
+  },
+  {
+    "name": "Asira Roadblock",
+    "name_arabic": "سواتر عصيرة",
+    "checkpoint_type": "roadblock",
+    "governorate": "Nablus",
+    "lat": 32.1333,
+    "lon": 35.2167,
+    "established": 2003
+  },
+  {
+    "name": "Fahma Roadblock",
+    "name_arabic": "سواتر فحمة",
+    "checkpoint_type": "roadblock",
+    "governorate": "Jenin",
+    "lat": 32.3833,
+    "lon": 35.2667,
+    "established": 2002
+  },
+  {
+    "name": "Psagot Tower",
+    "name_arabic": "برج بساغوت",
+    "checkpoint_type": "observation_tower",
+    "governorate": "Ramallah",
+    "lat": 31.9035,
+    "lon": 35.2352,
+    "established": 1982
+  },
+  {
+    "name": "Kiryat Arba Tower",
+    "name_arabic": "برج كريات أربع",
+    "checkpoint_type": "observation_tower",
+    "governorate": "Hebron",
+    "lat": 31.528,
+    "lon": 35.1266,
+    "established": 1975
+  },
+  {
+    "name": "Ariel Tower",
+    "name_arabic": "برج أريئيل",
+    "checkpoint_type": "observation_tower",
+    "governorate": "Salfit",
+    "lat": 32.1058,
+    "lon": 35.1724,
+    "established": 1985
+  },
+  {
+    "name": "Kedumim Tower",
+    "name_arabic": "برج كدوميم",
+    "checkpoint_type": "observation_tower",
+    "governorate": "Qalqilya",
+    "lat": 32.1835,
+    "lon": 35.0835,
+    "established": 1988
+  },
+  {
+    "name": "Beit Amin Gate",
+    "name_arabic": "بوابة بيت أمين",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Qalqilya",
+    "lat": 32.1417,
+    "lon": 35.0417,
+    "established": 2004
+  },
+  {
+    "name": "Zufin Gate",
+    "name_arabic": "بوابة تسوفين",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Qalqilya",
+    "lat": 32.1583,
+    "lon": 35.025,
+    "established": 2003
+  },
+  {
+    "name": "Arab ar-Ramadin South",
+    "name_arabic": "بوابة عرب الرمادين الجنوبية",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Qalqilya",
+    "lat": 32.125,
+    "lon": 35.0083,
+    "established": 2005
+  },
+  {
+    "name": "Khirbet Jubara Gate",
+    "name_arabic": "بوابة خربة جبارة",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Tulkarm",
+    "lat": 32.325,
+    "lon": 35.0083,
+    "established": 2003
+  },
+  {
+    "name": "Deir Ballut Gate",
+    "name_arabic": "بوابة دير بلوط",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Salfit",
+    "lat": 32.0417,
+    "lon": 35.0333,
+    "established": 2004
+  },
+  {
+    "name": "Kafr Kasim Gate",
+    "name_arabic": "بوابة كفر قاسم",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Salfit",
+    "lat": 32.05,
+    "lon": 35.0167,
+    "established": 2003
+  },
+  {
+    "name": "Azzun Gate",
+    "name_arabic": "بوابة عزون",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Qalqilya",
+    "lat": 32.165,
+    "lon": 35.0417,
+    "established": 2003
+  },
+  {
+    "name": "Izbat at-Tabib",
+    "name_arabic": "بوابة عزبة الطبيب",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Qalqilya",
+    "lat": 32.1333,
+    "lon": 35.025,
+    "established": 2004
+  },
+  {
+    "name": "Beit Furik East Gate",
+    "name_arabic": "بوابة بيت فوريك الشرقية",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Nablus",
+    "lat": 32.19,
+    "lon": 35.32,
+    "established": 2003
+  },
+  {
+    "name": "Asira North Gate",
+    "name_arabic": "بوابة عصيرة الشمالية",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Nablus",
+    "lat": 32.252,
+    "lon": 35.235,
+    "established": 2004
+  },
+  {
+    "name": "Urif Gate",
+    "name_arabic": "بوابة عوريف",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Nablus",
+    "lat": 32.118,
+    "lon": 35.268,
+    "established": 2003
+  },
+  {
+    "name": "Qaryut Gate",
+    "name_arabic": "بوابة قريوت",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Nablus",
+    "lat": 32.035,
+    "lon": 35.268,
+    "established": 2004
+  },
+  {
+    "name": "Azmut Gate",
+    "name_arabic": "بوابة عزموط",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Nablus",
+    "lat": 32.235,
+    "lon": 35.318,
+    "established": 2003
+  },
+  {
+    "name": "Salem Gate",
+    "name_arabic": "بوابة سالم",
+    "checkpoint_type": "agricultural_gate",
+    "governorate": "Nablus",
+    "lat": 32.218,
+    "lon": 35.302,
+    "established": 2003
+  }
+]

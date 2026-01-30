@@ -1,0 +1,2602 @@
+[
+  {
+    "title": "Capital: Volume 1",
+    "author": "Karl Marx",
+    "publication_year": 1867,
+    "description": "Marx magnum opus analyzing the capitalist mode of production, introducing concepts of surplus value, commodity fetishism, and the labor theory of value.",
+    "topics": [
+      "political economy",
+      "capitalism",
+      "labor",
+      "exploitation"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.1,
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1867-c1/"
+  },
+  {
+    "title": "The Communist Manifesto",
+    "author": "Karl Marx and Friedrich Engels",
+    "publication_year": 1848,
+    "description": "The foundational text of modern communism, outlining class struggle, the nature of capitalism, and the goals of communist revolution.",
+    "topics": [
+      "communism",
+      "class struggle",
+      "revolution",
+      "history"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 3.9,
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+  },
+  {
+    "title": "Wage Labour and Capital",
+    "author": "Karl Marx",
+    "publication_year": 1849,
+    "description": "An accessible introduction to Marx economic theories, explaining the relationship between labor and capital.",
+    "topics": [
+      "political economy",
+      "labor",
+      "wages",
+      "capitalism"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.0,
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1847/wage-labour/"
+  },
+  {
+    "title": "The German Ideology",
+    "author": "Karl Marx and Friedrich Engels",
+    "publication_year": 1846,
+    "description": "Develops historical materialism and critiques German idealist philosophy.",
+    "topics": [
+      "historical materialism",
+      "ideology",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 3.9,
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1845/german-ideology/"
+  },
+  {
+    "title": "Grundrisse",
+    "author": "Karl Marx",
+    "publication_year": 1858,
+    "description": "Marx notebooks outlining his critique of political economy, containing important discussions of automation and human development.",
+    "topics": [
+      "political economy",
+      "automation",
+      "communism"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.2,
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1857/grundrisse/"
+  },
+  {
+    "title": "State and Revolution",
+    "author": "Vladimir Lenin",
+    "publication_year": 1917,
+    "description": "Lenin theory of the state as an instrument of class rule and the necessity of its eventual withering away.",
+    "topics": [
+      "state theory",
+      "revolution",
+      "dictatorship of proletariat"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.1,
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1917/staterev/"
+  },
+  {
+    "title": "Imperialism, the Highest Stage of Capitalism",
+    "author": "Vladimir Lenin",
+    "publication_year": 1917,
+    "description": "Analysis of imperialism as monopoly capitalism, explaining colonial exploitation and inter-imperialist rivalry.",
+    "topics": [
+      "imperialism",
+      "colonialism",
+      "monopoly capital",
+      "war"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.0,
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1916/imp-hsc/"
+  },
+  {
+    "title": "What Is To Be Done?",
+    "author": "Vladimir Lenin",
+    "publication_year": 1902,
+    "description": "Lenin argument for a disciplined vanguard party to lead the working class.",
+    "topics": [
+      "party organization",
+      "vanguardism",
+      "revolutionary strategy"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 3.9,
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1901/witbd/"
+  },
+  {
+    "title": "Reform or Revolution",
+    "author": "Rosa Luxemburg",
+    "publication_year": 1900,
+    "description": "Luxemburg polemic against Eduard Bernstein revisionism, arguing that reforms cannot transform capitalism.",
+    "topics": [
+      "reformism",
+      "revolution",
+      "revisionism",
+      "social democracy"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.1,
+    "marxists_archive_url": "https://www.marxists.org/archive/luxemburg/1900/reform-revolution/"
+  },
+  {
+    "title": "The Accumulation of Capital",
+    "author": "Rosa Luxemburg",
+    "publication_year": 1913,
+    "description": "Luxemburg major economic work analyzing capitalism need for non-capitalist markets.",
+    "topics": [
+      "political economy",
+      "imperialism",
+      "accumulation",
+      "crisis"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.0,
+    "marxists_archive_url": "https://www.marxists.org/archive/luxemburg/1913/accumulation-capital/"
+  },
+  {
+    "title": "The Mass Strike",
+    "author": "Rosa Luxemburg",
+    "publication_year": 1906,
+    "description": "Analysis of the 1905 Russian Revolution and the role of mass strikes in revolutionary struggle.",
+    "topics": [
+      "mass strike",
+      "revolution",
+      "spontaneity",
+      "working class"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.2,
+    "marxists_archive_url": "https://www.marxists.org/archive/luxemburg/1906/mass-strike/"
+  },
+  {
+    "title": "Prison Notebooks",
+    "author": "Antonio Gramsci",
+    "publication_year": 1948,
+    "description": "Gramsci brilliant writings on hegemony, civil society, intellectuals, and revolutionary strategy.",
+    "topics": [
+      "hegemony",
+      "civil society",
+      "intellectuals",
+      "culture"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.2,
+    "marxists_archive_url": "https://www.marxists.org/archive/gramsci/prison_notebooks/"
+  },
+  {
+    "title": "The Conquest of Bread",
+    "author": "Peter Kropotkin",
+    "publication_year": 1892,
+    "description": "Kropotkin vision of anarchist communism, arguing for the abolition of private property and wage labor.",
+    "topics": [
+      "anarchism",
+      "communism",
+      "mutual aid",
+      "economics"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.1,
+    "marxists_archive_url": "https://www.marxists.org/reference/archive/kropotkin-peter/1892/bread.htm"
+  },
+  {
+    "title": "Mutual Aid: A Factor of Evolution",
+    "author": "Peter Kropotkin",
+    "publication_year": 1902,
+    "description": "Kropotkin scientific argument that cooperation, not competition, is the primary factor in evolution.",
+    "topics": [
+      "mutual aid",
+      "evolution",
+      "cooperation",
+      "society"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.2,
+    "marxists_archive_url": "https://www.marxists.org/reference/archive/kropotkin-peter/1902/mutual-aid/"
+  },
+  {
+    "title": "God and the State",
+    "author": "Mikhail Bakunin",
+    "publication_year": 1882,
+    "description": "Bakunin fierce critique of religion and the state as twin pillars of oppression.",
+    "topics": [
+      "anarchism",
+      "religion",
+      "state",
+      "authority"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.0,
+    "marxists_archive_url": "https://www.marxists.org/reference/archive/bakunin/works/godstate/"
+  },
+  {
+    "title": "Anarchism and Other Essays",
+    "author": "Emma Goldman",
+    "publication_year": 1910,
+    "description": "Goldman essays on anarchism, women liberation, free love, and social struggle.",
+    "topics": [
+      "anarchism",
+      "feminism",
+      "free love",
+      "social struggle"
+    ],
+    "book_type": "essays",
+    "significance": "major",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "Living My Life",
+    "author": "Emma Goldman",
+    "publication_year": 1931,
+    "description": "Goldman epic autobiography covering her life as an anarchist agitator.",
+    "topics": [
+      "anarchism",
+      "autobiography",
+      "revolution",
+      "feminism"
+    ],
+    "book_type": "autobiography",
+    "significance": "major",
+    "goodreads_rating": 4.3
+  },
+  {
+    "title": "The Wretched of the Earth",
+    "author": "Frantz Fanon",
+    "publication_year": 1961,
+    "description": "Fanon searing analysis of colonialism and decolonization. Essential anti-colonial text.",
+    "topics": [
+      "colonialism",
+      "decolonization",
+      "violence",
+      "psychology"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.2
+  },
+  {
+    "title": "Black Skin, White Masks",
+    "author": "Frantz Fanon",
+    "publication_year": 1952,
+    "description": "Fanon psychological study of the effects of colonialism and racism on Black consciousness.",
+    "topics": [
+      "colonialism",
+      "race",
+      "psychology",
+      "identity"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "How Europe Underdeveloped Africa",
+    "author": "Walter Rodney",
+    "publication_year": 1972,
+    "description": "Rodney Marxist analysis of how European colonialism systematically underdeveloped Africa.",
+    "topics": [
+      "colonialism",
+      "Africa",
+      "underdevelopment",
+      "imperialism"
+    ],
+    "book_type": "history",
+    "significance": "major",
+    "goodreads_rating": 4.3
+  },
+  {
+    "title": "Pedagogy of the Oppressed",
+    "author": "Paulo Freire",
+    "publication_year": 1968,
+    "description": "Freire revolutionary approach to education as liberation, critiquing banking education.",
+    "topics": [
+      "education",
+      "liberation",
+      "consciousness",
+      "praxis"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "Discourse on Colonialism",
+    "author": "Aime Cesaire",
+    "publication_year": 1950,
+    "description": "Cesaire poetic and devastating critique of European colonialism.",
+    "topics": [
+      "colonialism",
+      "humanism",
+      "civilization",
+      "barbarism"
+    ],
+    "book_type": "essay",
+    "significance": "major",
+    "goodreads_rating": 4.3
+  },
+  {
+    "title": "Guerrilla Warfare",
+    "author": "Che Guevara",
+    "publication_year": 1961,
+    "description": "Guevara manual on guerrilla warfare based on the Cuban Revolution experience.",
+    "topics": [
+      "guerrilla warfare",
+      "revolution",
+      "strategy",
+      "Cuba"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 3.9,
+    "marxists_archive_url": "https://www.marxists.org/archive/guevara/1961/guerrilla-warfare/"
+  },
+  {
+    "title": "The Motorcycle Diaries",
+    "author": "Che Guevara",
+    "publication_year": 1993,
+    "description": "Guevara journal of his youthful journey across South America.",
+    "topics": [
+      "travel",
+      "Latin America",
+      "poverty",
+      "consciousness"
+    ],
+    "book_type": "autobiography",
+    "significance": "major",
+    "goodreads_rating": 4.0
+  },
+  {
+    "title": "The Origin of the Family, Private Property and the State",
+    "author": "Friedrich Engels",
+    "publication_year": 1884,
+    "description": "Engels analysis of how the family and women oppression arose with private property.",
+    "topics": [
+      "family",
+      "women oppression",
+      "private property",
+      "state"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.0,
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1884/origin-family/"
+  },
+  {
+    "title": "Woman, Race and Class",
+    "author": "Angela Davis",
+    "publication_year": 1981,
+    "description": "Davis groundbreaking analysis of the intersection of gender, race, and class.",
+    "topics": [
+      "feminism",
+      "race",
+      "class",
+      "intersectionality"
+    ],
+    "book_type": "history",
+    "significance": "foundational",
+    "goodreads_rating": 4.4
+  },
+  {
+    "title": "Are Prisons Obsolete?",
+    "author": "Angela Davis",
+    "publication_year": 2003,
+    "description": "Davis argument for prison abolition, tracing the prison-industrial complex roots in slavery.",
+    "topics": [
+      "prison abolition",
+      "racism",
+      "capitalism",
+      "justice"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.3
+  },
+  {
+    "title": "Caliban and the Witch",
+    "author": "Silvia Federici",
+    "publication_year": 2004,
+    "description": "Federici analysis of the witch hunts as primitive accumulation.",
+    "topics": [
+      "witch hunts",
+      "primitive accumulation",
+      "feminism",
+      "capitalism"
+    ],
+    "book_type": "history",
+    "significance": "major",
+    "goodreads_rating": 4.3
+  },
+  {
+    "title": "The Second Sex",
+    "author": "Simone de Beauvoir",
+    "publication_year": 1949,
+    "description": "De Beauvoir foundational feminist text analyzing women oppression.",
+    "topics": [
+      "feminism",
+      "existentialism",
+      "women oppression",
+      "gender"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "Black Reconstruction in America",
+    "author": "W.E.B. Du Bois",
+    "publication_year": 1935,
+    "description": "Du Bois Marxist reinterpretation of Reconstruction, centering Black agency.",
+    "topics": [
+      "Reconstruction",
+      "slavery",
+      "race",
+      "labor"
+    ],
+    "book_type": "history",
+    "significance": "foundational",
+    "goodreads_rating": 4.4
+  },
+  {
+    "title": "The Souls of Black Folk",
+    "author": "W.E.B. Du Bois",
+    "publication_year": 1903,
+    "description": "Du Bois classic essays on race in America, introducing double consciousness.",
+    "topics": [
+      "race",
+      "double consciousness",
+      "America",
+      "identity"
+    ],
+    "book_type": "essays",
+    "significance": "foundational",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "Black Marxism",
+    "author": "Cedric Robinson",
+    "publication_year": 1983,
+    "description": "Robinson analysis of the Black radical tradition. Introduces racial capitalism.",
+    "topics": [
+      "Black radicalism",
+      "Marxism",
+      "racial capitalism",
+      "history"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.3
+  },
+  {
+    "title": "The Autobiography of Malcolm X",
+    "author": "Malcolm X with Alex Haley",
+    "publication_year": 1965,
+    "description": "Malcolm X powerful life story, from street hustler to revolutionary internationalist.",
+    "topics": [
+      "Black liberation",
+      "autobiography",
+      "Islam",
+      "revolution"
+    ],
+    "book_type": "autobiography",
+    "significance": "foundational",
+    "goodreads_rating": 4.4
+  },
+  {
+    "title": "Revolutionary Suicide",
+    "author": "Huey P. Newton",
+    "publication_year": 1973,
+    "description": "Black Panther Party co-founder autobiography and political philosophy.",
+    "topics": [
+      "Black Panthers",
+      "revolution",
+      "autobiography",
+      "politics"
+    ],
+    "book_type": "autobiography",
+    "significance": "major",
+    "goodreads_rating": 4.3
+  },
+  {
+    "title": "Assata: An Autobiography",
+    "author": "Assata Shakur",
+    "publication_year": 1987,
+    "description": "Black Liberation Army member account of her political awakening and escape to Cuba.",
+    "topics": [
+      "Black liberation",
+      "autobiography",
+      "FBI",
+      "revolution"
+    ],
+    "book_type": "autobiography",
+    "significance": "major",
+    "goodreads_rating": 4.5
+  },
+  {
+    "title": "The Black Jacobins",
+    "author": "C.L.R. James",
+    "publication_year": 1938,
+    "description": "James classic history of the Haitian Revolution and Toussaint Louverture.",
+    "topics": [
+      "Haiti",
+      "revolution",
+      "slavery",
+      "colonialism"
+    ],
+    "book_type": "history",
+    "significance": "foundational",
+    "goodreads_rating": 4.2,
+    "marxists_archive_url": "https://www.marxists.org/archive/james-clr/works/black-jacobins/"
+  },
+  {
+    "title": "History and Class Consciousness",
+    "author": "Gyorgy Lukacs",
+    "publication_year": 1923,
+    "description": "Lukacs influential work introducing reification and totality to Marxist theory.",
+    "topics": [
+      "reification",
+      "class consciousness",
+      "totality",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.1,
+    "marxists_archive_url": "https://www.marxists.org/archive/lukacs/works/history/"
+  },
+  {
+    "title": "One-Dimensional Man",
+    "author": "Herbert Marcuse",
+    "publication_year": 1964,
+    "description": "Marcuse critique of advanced industrial society and how it contains opposition.",
+    "topics": [
+      "consumer society",
+      "ideology",
+      "liberation",
+      "technology"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.0
+  },
+  {
+    "title": "Eros and Civilization",
+    "author": "Herbert Marcuse",
+    "publication_year": 1955,
+    "description": "Marcuse synthesis of Marx and Freud, envisioning a non-repressive civilization.",
+    "topics": [
+      "psychoanalysis",
+      "liberation",
+      "civilization",
+      "eros"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.0
+  },
+  {
+    "title": "Dialectic of Enlightenment",
+    "author": "Theodor Adorno and Max Horkheimer",
+    "publication_year": 1944,
+    "description": "Frankfurt School critique of instrumental reason and the culture industry.",
+    "topics": [
+      "Enlightenment",
+      "reason",
+      "culture industry",
+      "barbarism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.0
+  },
+  {
+    "title": "Minima Moralia",
+    "author": "Theodor Adorno",
+    "publication_year": 1951,
+    "description": "Adorno aphoristic reflections on damaged life under late capitalism.",
+    "topics": [
+      "everyday life",
+      "capitalism",
+      "ethics",
+      "culture"
+    ],
+    "book_type": "philosophy",
+    "significance": "major",
+    "goodreads_rating": 4.2
+  },
+  {
+    "title": "Capitalist Realism",
+    "author": "Mark Fisher",
+    "publication_year": 2009,
+    "description": "Fisher analysis of how capitalism colonizes the imagination, making alternatives unthinkable.",
+    "topics": [
+      "capitalism",
+      "ideology",
+      "culture",
+      "mental health"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.2
+  },
+  {
+    "title": "The Shock Doctrine",
+    "author": "Naomi Klein",
+    "publication_year": 2007,
+    "description": "Klein expose of how disaster capitalism exploits crises to impose neoliberal policies.",
+    "topics": [
+      "neoliberalism",
+      "disaster capitalism",
+      "shock therapy",
+      "imperialism"
+    ],
+    "book_type": "journalism",
+    "significance": "major",
+    "goodreads_rating": 4.2
+  },
+  {
+    "title": "This Changes Everything: Capitalism vs. The Climate",
+    "author": "Naomi Klein",
+    "publication_year": 2014,
+    "description": "Klein argument that addressing climate change requires challenging capitalism itself.",
+    "topics": [
+      "climate change",
+      "capitalism",
+      "environment",
+      "activism"
+    ],
+    "book_type": "journalism",
+    "significance": "major",
+    "goodreads_rating": 4.0
+  },
+  {
+    "title": "A People History of the United States",
+    "author": "Howard Zinn",
+    "publication_year": 1980,
+    "description": "Zinn landmark history from the perspective of workers, slaves, immigrants, and women.",
+    "topics": [
+      "American history",
+      "labor",
+      "social movements",
+      "imperialism"
+    ],
+    "book_type": "history",
+    "significance": "foundational",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "Debt: The First 5,000 Years",
+    "author": "David Graeber",
+    "publication_year": 2011,
+    "description": "Graeber anthropological history of debt, challenging economic orthodoxy.",
+    "topics": [
+      "debt",
+      "money",
+      "anthropology",
+      "economics"
+    ],
+    "book_type": "history",
+    "significance": "major",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "Bullshit Jobs",
+    "author": "David Graeber",
+    "publication_year": 2018,
+    "description": "Graeber analysis of pointless work under capitalism.",
+    "topics": [
+      "work",
+      "capitalism",
+      "bureaucracy",
+      "meaning"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 3.9
+  },
+  {
+    "title": "The New Jim Crow",
+    "author": "Michelle Alexander",
+    "publication_year": 2010,
+    "description": "Alexander analysis of mass incarceration as a new system of racial control.",
+    "topics": [
+      "mass incarceration",
+      "racism",
+      "criminal justice",
+      "civil rights"
+    ],
+    "book_type": "journalism",
+    "significance": "foundational",
+    "goodreads_rating": 4.5
+  },
+  {
+    "title": "The Great Transformation",
+    "author": "Karl Polanyi",
+    "publication_year": 1944,
+    "description": "Polanyi analysis of the market economy as a historical aberration.",
+    "topics": [
+      "market society",
+      "commodification",
+      "history",
+      "economics"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "Late Capitalism",
+    "author": "Ernest Mandel",
+    "publication_year": 1972,
+    "description": "Mandel comprehensive Marxist analysis of postwar capitalism.",
+    "topics": [
+      "late capitalism",
+      "political economy",
+      "crisis",
+      "imperialism"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.1,
+    "marxists_archive_url": "https://www.marxists.org/archive/mandel/1972/latecap/"
+  },
+  {
+    "title": "A Brief History of Neoliberalism",
+    "author": "David Harvey",
+    "publication_year": 2005,
+    "description": "Harvey accessible account of neoliberalism rise and its devastating effects.",
+    "topics": [
+      "neoliberalism",
+      "history",
+      "capitalism",
+      "class"
+    ],
+    "book_type": "history",
+    "significance": "major",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "The Limits to Capital",
+    "author": "David Harvey",
+    "publication_year": 1982,
+    "description": "Harvey comprehensive reading of Marx Capital with attention to geography.",
+    "topics": [
+      "political economy",
+      "geography",
+      "Marx",
+      "crisis"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.2
+  },
+  {
+    "title": "The Making of the English Working Class",
+    "author": "E.P. Thompson",
+    "publication_year": 1963,
+    "description": "Thompson monumental history of working-class formation in England.",
+    "topics": [
+      "working class",
+      "history",
+      "England",
+      "class formation"
+    ],
+    "book_type": "history",
+    "significance": "foundational",
+    "goodreads_rating": 4.2
+  },
+  {
+    "title": "Labor and Monopoly Capital",
+    "author": "Harry Braverman",
+    "publication_year": 1974,
+    "description": "Braverman analysis of the degradation of work under monopoly capitalism.",
+    "topics": [
+      "labor process",
+      "deskilling",
+      "monopoly capital",
+      "management"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "Strike!",
+    "author": "Jeremy Brecher",
+    "publication_year": 1972,
+    "description": "Brecher history of mass strikes in America, emphasizing rank-and-file militancy.",
+    "topics": [
+      "strikes",
+      "labor",
+      "American history",
+      "working class"
+    ],
+    "book_type": "history",
+    "significance": "major",
+    "goodreads_rating": 4.2
+  },
+  {
+    "title": "The Ecology of Freedom",
+    "author": "Murray Bookchin",
+    "publication_year": 1982,
+    "description": "Bookchin synthesis of anarchism and ecology. Foundation of social ecology.",
+    "topics": [
+      "social ecology",
+      "anarchism",
+      "hierarchy",
+      "nature"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.2
+  },
+  {
+    "title": "Less Is More",
+    "author": "Jason Hickel",
+    "publication_year": 2020,
+    "description": "Hickel argument for degrowth as the only way to address climate change.",
+    "topics": [
+      "degrowth",
+      "climate",
+      "capitalism",
+      "well-being"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.3
+  },
+  {
+    "title": "The Divide",
+    "author": "Jason Hickel",
+    "publication_year": 2017,
+    "description": "Hickel analysis of global inequality as a product of colonialism and neoliberalism.",
+    "topics": [
+      "global inequality",
+      "development",
+      "colonialism",
+      "neoliberalism"
+    ],
+    "book_type": "journalism",
+    "significance": "major",
+    "goodreads_rating": 4.4
+  },
+  {
+    "title": "Society of the Spectacle",
+    "author": "Guy Debord",
+    "publication_year": 1967,
+    "description": "Debord Situationist critique of consumer society. Influenced May 1968.",
+    "topics": [
+      "spectacle",
+      "alienation",
+      "consumer society",
+      "situationism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.0,
+    "marxists_archive_url": "https://www.marxists.org/reference/archive/debord/society.htm"
+  },
+  {
+    "title": "The Revolution of Everyday Life",
+    "author": "Raoul Vaneigem",
+    "publication_year": 1967,
+    "description": "Vaneigem passionate call for transforming daily life.",
+    "topics": [
+      "everyday life",
+      "situationism",
+      "revolution",
+      "creativity"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "The Jungle",
+    "author": "Upton Sinclair",
+    "publication_year": 1906,
+    "description": "Sinclair muckraking novel exposing conditions in the meatpacking industry.",
+    "topics": [
+      "labor",
+      "immigration",
+      "meatpacking",
+      "socialism"
+    ],
+    "book_type": "fiction",
+    "significance": "major",
+    "goodreads_rating": 3.8
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "publication_year": 1939,
+    "description": "Steinbeck epic of the Joad family during the Great Depression.",
+    "topics": [
+      "Great Depression",
+      "labor",
+      "migration",
+      "capitalism"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational",
+    "goodreads_rating": 4.0
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "publication_year": 1949,
+    "description": "Orwell dystopian novel warning against totalitarianism.",
+    "topics": [
+      "totalitarianism",
+      "surveillance",
+      "propaganda",
+      "freedom"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational",
+    "goodreads_rating": 4.2
+  },
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "publication_year": 1945,
+    "description": "Orwell allegorical critique of the Russian Revolution betrayal.",
+    "topics": [
+      "revolution",
+      "Stalinism",
+      "power",
+      "corruption"
+    ],
+    "book_type": "fiction",
+    "significance": "major",
+    "goodreads_rating": 4.0
+  },
+  {
+    "title": "Homage to Catalonia",
+    "author": "George Orwell",
+    "publication_year": 1938,
+    "description": "Orwell memoir of fighting with the POUM militia in the Spanish Civil War.",
+    "topics": [
+      "Spanish Civil War",
+      "anarchism",
+      "POUM",
+      "revolution"
+    ],
+    "book_type": "memoir",
+    "significance": "major",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "The Dispossessed",
+    "author": "Ursula K. Le Guin",
+    "publication_year": 1974,
+    "description": "Le Guin anarchist utopia exploring the tensions between freedom and solidarity.",
+    "topics": [
+      "anarchism",
+      "utopia",
+      "science fiction",
+      "freedom"
+    ],
+    "book_type": "fiction",
+    "significance": "major",
+    "goodreads_rating": 4.2
+  },
+  {
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "publication_year": 1969,
+    "description": "Le Guin groundbreaking exploration of gender and society.",
+    "topics": [
+      "gender",
+      "society",
+      "science fiction",
+      "anthropology"
+    ],
+    "book_type": "fiction",
+    "significance": "major",
+    "goodreads_rating": 4.1
+  },
+  {
+    "title": "The Jakarta Method",
+    "author": "Vincent Bevins",
+    "publication_year": 2020,
+    "description": "Bevins account of US-backed anti-communist mass killings in Indonesia. Essential Cold War history.",
+    "topics": [
+      "Cold War",
+      "Indonesia",
+      "anti-communism",
+      "US imperialism"
+    ],
+    "book_type": "history",
+    "significance": "major",
+    "goodreads_rating": 4.5
+  },
+  {
+    "title": "Half-Earth Socialism",
+    "author": "Troy Vettese and Drew Pendergrass",
+    "publication_year": 2022,
+    "description": "A utopian vision combining ecological rewilding with socialist planning.",
+    "topics": [
+      "ecosocialism",
+      "planning",
+      "rewilding",
+      "utopia"
+    ],
+    "book_type": "theory",
+    "significance": "emerging",
+    "goodreads_rating": 4.0
+  },
+  {
+    "title": "Abolition Geography",
+    "author": "Ruth Wilson Gilmore",
+    "publication_year": 2022,
+    "description": "Collection of Gilmore essays on prison abolition and racial capitalism.",
+    "topics": [
+      "abolition",
+      "geography",
+      "racial capitalism",
+      "prisons"
+    ],
+    "book_type": "essays",
+    "significance": "major",
+    "goodreads_rating": 4.4
+  },
+  {
+    "title": "Freedom Dreams",
+    "author": "Robin D.G. Kelley",
+    "publication_year": 2002,
+    "description": "Kelley exploration of Black radical imagination and visionary politics.",
+    "topics": [
+      "Black radicalism",
+      "utopia",
+      "imagination",
+      "social movements"
+    ],
+    "book_type": "history",
+    "significance": "major",
+    "goodreads_rating": 4.3
+  },
+  {
+    "title": "Democracy for the Few",
+    "author": "Michael Parenti",
+    "publication_year": 1974,
+    "description": "Parenti critique of American democracy as serving elite interests.",
+    "topics": [
+      "democracy",
+      "American politics",
+      "class",
+      "power"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.3
+  },
+  {
+    "title": "Blackshirts and Reds",
+    "author": "Michael Parenti",
+    "publication_year": 1997,
+    "description": "Parenti defense of actually existing socialism and critique of liberal anti-communism.",
+    "topics": [
+      "communism",
+      "fascism",
+      "anti-communism",
+      "Cold War"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.2
+  },
+  {
+    "title": "The History of the Russian Revolution",
+    "author": "Leon Trotsky",
+    "publication_year": 1930,
+    "description": "Trotsky magisterial history of 1917, combining vivid narrative with Marxist analysis.",
+    "topics": [
+      "Russian Revolution",
+      "history",
+      "Bolsheviks",
+      "Marxism"
+    ],
+    "book_type": "history",
+    "significance": "foundational",
+    "goodreads_rating": 4.3,
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1930/hrr/"
+  },
+  {
+    "title": "The Revolution Betrayed",
+    "author": "Leon Trotsky",
+    "publication_year": 1936,
+    "description": "Trotsky Marxist analysis of Stalinist degeneration and the Soviet bureaucracy.",
+    "topics": [
+      "Soviet Union",
+      "Stalinism",
+      "bureaucracy",
+      "socialism"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.1,
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1936/revbet/"
+  },
+  {
+    "title": "Permanent Revolution",
+    "author": "Leon Trotsky",
+    "publication_year": 1930,
+    "description": "Trotsky theory of permanent revolution, arguing socialist revolution must spread internationally.",
+    "topics": [
+      "revolution",
+      "theory",
+      "internationalism",
+      "development"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.0,
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1931/tpr/"
+  },
+  {
+    "title": "The Civil War in France",
+    "author": "Karl Marx",
+    "publication_year": 1871,
+    "description": "Marx analysis of the Paris Commune, the first workers government.",
+    "topics": [
+      "Paris Commune",
+      "revolution",
+      "state",
+      "workers power"
+    ],
+    "book_type": "history",
+    "significance": "major",
+    "goodreads_rating": 4.1,
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1871/civil-war-france/"
+  },
+  {
+    "title": "The Eighteenth Brumaire of Louis Bonaparte",
+    "author": "Karl Marx",
+    "publication_year": 1852,
+    "description": "Marx brilliant analysis of Louis Bonaparte coup, history repeating as tragedy then farce.",
+    "topics": [
+      "France",
+      "politics",
+      "history",
+      "class struggle"
+    ],
+    "book_type": "history",
+    "significance": "major",
+    "goodreads_rating": 4.0,
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1852/18th-brumaire/"
+  },
+  {
+    "title": "Socialism: Utopian and Scientific",
+    "author": "Friedrich Engels",
+    "publication_year": 1880,
+    "description": "Engels accessible summary of the development of socialist thought.",
+    "topics": [
+      "socialism",
+      "utopia",
+      "science",
+      "history"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.1,
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1880/soc-utop/"
+  },
+  {
+    "title": "Anti-Duhring",
+    "author": "Friedrich Engels",
+    "publication_year": 1878,
+    "description": "Engels comprehensive defense of Marxism covering philosophy, political economy, and socialism.",
+    "topics": [
+      "philosophy",
+      "political economy",
+      "socialism",
+      "science"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.0,
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1877/anti-duhring/"
+  },
+  {
+    "title": "Ten Days That Shook the World",
+    "author": "John Reed",
+    "publication_year": 1919,
+    "description": "Reed eyewitness account of the Russian Revolution. Vivid journalism from inside the revolution.",
+    "topics": [
+      "Russian Revolution",
+      "journalism",
+      "Bolsheviks",
+      "history"
+    ],
+    "book_type": "journalism",
+    "significance": "major",
+    "goodreads_rating": 4.0,
+    "marxists_archive_url": "https://www.marxists.org/archive/reed/1919/10days/10days/"
+  },
+  {
+    "title": "Why Marx Was Right",
+    "author": "Terry Eagleton",
+    "publication_year": 2011,
+    "description": "Eagleton systematically refutes the most common objections to Marxism with wit and clarity.",
+    "topics": [
+      "Marxism",
+      "philosophy",
+      "politics",
+      "economics"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.0
+  },
+  {
+    "title": "The Rights of Man",
+    "author": "Thomas Paine",
+    "publication_year": 1791,
+    "description": "Paine defense of the French Revolution and argument for natural rights.",
+    "topics": [
+      "rights",
+      "revolution",
+      "democracy",
+      "welfare"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 4.0
+  },
+  {
+    "title": "A Vindication of the Rights of Woman",
+    "author": "Mary Wollstonecraft",
+    "publication_year": 1792,
+    "description": "Wollstonecraft foundational feminist text arguing for women education and equality.",
+    "topics": [
+      "feminism",
+      "rights",
+      "education",
+      "equality"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "goodreads_rating": 3.8
+  },
+  {
+    "title": "Racecraft",
+    "author": "Karen E. Fields and Barbara J. Fields",
+    "publication_year": 2012,
+    "description": "Analysis of race as ideology rather than biology, comparing racial thinking to witchcraft.",
+    "topics": [
+      "race",
+      "ideology",
+      "racism",
+      "history"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "goodreads_rating": 4.2
+  },
+  {
+    "title": "Capital: Volume 2",
+    "author": "Karl Marx",
+    "publication_year": 1885,
+    "description": "Analysis of the circulation process of capital.",
+    "topics": [
+      "political economy",
+      "capitalism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1885-c2/"
+  },
+  {
+    "title": "Capital: Volume 3",
+    "author": "Karl Marx",
+    "publication_year": 1894,
+    "description": "The process of capitalist production as a whole.",
+    "topics": [
+      "political economy",
+      "capitalism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1894-c3/"
+  },
+  {
+    "title": "Critique of the Gotha Programme",
+    "author": "Karl Marx",
+    "publication_year": 1875,
+    "description": "Critique of social democratic reformism.",
+    "topics": [
+      "socialism",
+      "social democracy",
+      "labor"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1875/gotha/"
+  },
+  {
+    "title": "A Contribution to the Critique of Political Economy",
+    "author": "Karl Marx",
+    "publication_year": 1859,
+    "description": "Early formulation of historical materialism.",
+    "topics": [
+      "political economy",
+      "materialism"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1859/critique-pol-economy/"
+  },
+  {
+    "title": "Theories of Surplus Value",
+    "author": "Karl Marx",
+    "publication_year": 1862,
+    "description": "Critical history of economic thought.",
+    "topics": [
+      "political economy",
+      "surplus value"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1863/theories-surplus-value/"
+  },
+  {
+    "title": "Economic and Philosophic Manuscripts of 1844",
+    "author": "Karl Marx",
+    "publication_year": 1844,
+    "description": "Early writings on alienation and humanism.",
+    "topics": [
+      "alienation",
+      "humanism",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1844/manuscripts/preface.htm"
+  },
+  {
+    "title": "The Poverty of Philosophy",
+    "author": "Karl Marx",
+    "publication_year": 1847,
+    "description": "Critique of Proudhon's petit-bourgeois socialism.",
+    "topics": [
+      "political economy",
+      "socialism"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1847/poverty-philosophy/"
+  },
+  {
+    "title": "The Condition of the Working Class in England",
+    "author": "Friedrich Engels",
+    "publication_year": 1845,
+    "description": "Early study of industrial capitalism's effects.",
+    "topics": [
+      "working class",
+      "industrialization",
+      "England"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1845/condition-working-class/"
+  },
+  {
+    "title": "Dialectics of Nature",
+    "author": "Friedrich Engels",
+    "publication_year": 1883,
+    "description": "Application of dialectics to natural sciences.",
+    "topics": [
+      "dialectics",
+      "science",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1883/don/"
+  },
+  {
+    "title": "Ludwig Feuerbach and the End of Classical German Philosophy",
+    "author": "Friedrich Engels",
+    "publication_year": 1886,
+    "description": "Marx and Engels's relationship to Hegelian philosophy.",
+    "topics": [
+      "philosophy",
+      "materialism",
+      "Hegel"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1886/ludwig-feuerbach/"
+  },
+  {
+    "title": "The State and Revolution",
+    "author": "Vladimir Lenin",
+    "publication_year": 1917,
+    "description": "On the nature of the state and revolution.",
+    "topics": [
+      "state",
+      "revolution",
+      "dictatorship of proletariat"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1917/staterev/"
+  },
+  {
+    "title": "Left-Wing Communism: An Infantile Disorder",
+    "author": "Vladimir Lenin",
+    "publication_year": 1920,
+    "description": "Critique of ultra-left tendencies.",
+    "topics": [
+      "tactics",
+      "party",
+      "ultra-leftism"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1920/lwc/"
+  },
+  {
+    "title": "Materialism and Empirio-criticism",
+    "author": "Vladimir Lenin",
+    "publication_year": 1909,
+    "description": "Defense of dialectical materialism.",
+    "topics": [
+      "philosophy",
+      "materialism",
+      "epistemology"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1908/mec/"
+  },
+  {
+    "title": "The Development of Capitalism in Russia",
+    "author": "Vladimir Lenin",
+    "publication_year": 1899,
+    "description": "Analysis of Russian economic development.",
+    "topics": [
+      "capitalism",
+      "Russia",
+      "agrarian question"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1899/devel/"
+  },
+  {
+    "title": "Two Tactics of Social-Democracy in the Democratic Revolution",
+    "author": "Vladimir Lenin",
+    "publication_year": 1905,
+    "description": "Strategy for the 1905 revolution.",
+    "topics": [
+      "revolution",
+      "tactics",
+      "democracy"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1905/tactics/"
+  },
+  {
+    "title": "The Proletarian Revolution and the Renegade Kautsky",
+    "author": "Vladimir Lenin",
+    "publication_year": 1918,
+    "description": "Critique of social democratic betrayal.",
+    "topics": [
+      "social democracy",
+      "revolution",
+      "reformism"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1918/prrk/"
+  },
+  {
+    "title": "Philosophical Notebooks",
+    "author": "Vladimir Lenin",
+    "publication_year": 1914,
+    "description": "Notes on Hegel and dialectics.",
+    "topics": [
+      "philosophy",
+      "dialectics",
+      "Hegel"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1914/cons-am/"
+  },
+  {
+    "title": "The Junius Pamphlet",
+    "author": "Rosa Luxemburg",
+    "publication_year": 1915,
+    "description": "Anti-war manifesto during WWI.",
+    "topics": [
+      "war",
+      "imperialism",
+      "internationalism"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/luxemburg/1915/junius/"
+  },
+  {
+    "title": "The Russian Revolution",
+    "author": "Rosa Luxemburg",
+    "publication_year": 1918,
+    "description": "Critical support for Russian Revolution.",
+    "topics": [
+      "Russian Revolution",
+      "democracy",
+      "socialism"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/"
+  },
+  {
+    "title": "The Permanent Revolution",
+    "author": "Leon Trotsky",
+    "publication_year": 1930,
+    "description": "Theory of uninterrupted revolution.",
+    "topics": [
+      "permanent revolution",
+      "revolution",
+      "development"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1931/tpr/"
+  },
+  {
+    "title": "History of the Russian Revolution",
+    "author": "Leon Trotsky",
+    "publication_year": 1930,
+    "description": "Comprehensive history of 1917.",
+    "topics": [
+      "Russian Revolution",
+      "history",
+      "1917"
+    ],
+    "book_type": "history",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1930/hrr/"
+  },
+  {
+    "title": "Results and Prospects",
+    "author": "Leon Trotsky",
+    "publication_year": 1906,
+    "description": "Early formulation of permanent revolution.",
+    "topics": [
+      "permanent revolution",
+      "Russia"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1931/tpr/rp-index.htm"
+  },
+  {
+    "title": "Literature and Revolution",
+    "author": "Leon Trotsky",
+    "publication_year": 1924,
+    "description": "Marxist approach to art and culture.",
+    "topics": [
+      "culture",
+      "literature",
+      "art"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1924/lit_revo/"
+  },
+  {
+    "title": "The Transitional Program",
+    "author": "Leon Trotsky",
+    "publication_year": 1938,
+    "description": "Program for the Fourth International.",
+    "topics": [
+      "transitional demands",
+      "program",
+      "revolution"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1938/tp/"
+  },
+  {
+    "title": "Terrorism and Communism",
+    "author": "Leon Trotsky",
+    "publication_year": 1920,
+    "description": "Defense of revolutionary dictatorship.",
+    "topics": [
+      "revolution",
+      "dictatorship",
+      "terror"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1920/terrcom/"
+  },
+  {
+    "title": "Their Morals and Ours",
+    "author": "Leon Trotsky",
+    "publication_year": 1938,
+    "description": "On revolutionary ethics.",
+    "topics": [
+      "ethics",
+      "morality",
+      "revolution"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1938/morals/"
+  },
+  {
+    "title": "Selections from Political Writings 1910-1920",
+    "author": "Antonio Gramsci",
+    "publication_year": 1977,
+    "description": "Early political writings.",
+    "topics": [
+      "Italy",
+      "councils",
+      "revolution"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Modern Prince",
+    "author": "Antonio Gramsci",
+    "publication_year": 1947,
+    "description": "On the revolutionary party.",
+    "topics": [
+      "party",
+      "politics",
+      "leadership"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "On Contradiction",
+    "author": "Mao Zedong",
+    "publication_year": 1937,
+    "description": "Dialectical analysis of contradictions.",
+    "topics": [
+      "dialectics",
+      "contradiction",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_17.htm"
+  },
+  {
+    "title": "On Practice",
+    "author": "Mao Zedong",
+    "publication_year": 1937,
+    "description": "On the relationship of theory and practice.",
+    "topics": [
+      "epistemology",
+      "practice",
+      "theory"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_16.htm"
+  },
+  {
+    "title": "On Protracted War",
+    "author": "Mao Zedong",
+    "publication_year": 1938,
+    "description": "Strategy for anti-Japanese resistance.",
+    "topics": [
+      "war",
+      "strategy",
+      "guerrilla warfare"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "On New Democracy",
+    "author": "Mao Zedong",
+    "publication_year": 1940,
+    "description": "Theory of new democratic revolution.",
+    "topics": [
+      "revolution",
+      "democracy",
+      "China"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Combat Liberalism",
+    "author": "Mao Zedong",
+    "publication_year": 1937,
+    "description": "Against unprincipled politics.",
+    "topics": [
+      "party discipline",
+      "liberalism"
+    ],
+    "book_type": "theory",
+    "significance": "minor"
+  },
+  {
+    "title": "Quotations from Chairman Mao",
+    "author": "Mao Zedong",
+    "publication_year": 1964,
+    "description": "The Little Red Book.",
+    "topics": [
+      "revolution",
+      "party",
+      "culture"
+    ],
+    "book_type": "anthology",
+    "significance": "major"
+  },
+  {
+    "title": "A Dying Colonialism",
+    "author": "Frantz Fanon",
+    "publication_year": 1959,
+    "description": "On the Algerian revolution.",
+    "topics": [
+      "Algeria",
+      "revolution",
+      "colonialism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Toward the African Revolution",
+    "author": "Frantz Fanon",
+    "publication_year": 1964,
+    "description": "Political essays on Africa.",
+    "topics": [
+      "Africa",
+      "revolution",
+      "colonialism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Neocolonialism: The Last Stage of Imperialism",
+    "author": "Kwame Nkrumah",
+    "publication_year": 1965,
+    "description": "Analysis of neo-colonialism.",
+    "topics": [
+      "neocolonialism",
+      "imperialism",
+      "Africa"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Class Struggle in Africa",
+    "author": "Kwame Nkrumah",
+    "publication_year": 1970,
+    "description": "Marxist analysis of African class structure.",
+    "topics": [
+      "Africa",
+      "class",
+      "revolution"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Open Veins of Latin America",
+    "author": "Eduardo Galeano",
+    "publication_year": 1971,
+    "description": "History of Latin American exploitation.",
+    "topics": [
+      "Latin America",
+      "imperialism",
+      "exploitation"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The African Origin of Civilization",
+    "author": "Cheikh Anta Diop",
+    "publication_year": 1974,
+    "description": "African contributions to world civilization.",
+    "topics": [
+      "Africa",
+      "history",
+      "civilization"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Orientalism",
+    "author": "Edward Said",
+    "publication_year": 1978,
+    "description": "Critique of Western representations of the East.",
+    "topics": [
+      "orientalism",
+      "colonialism",
+      "culture"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Culture and Imperialism",
+    "author": "Edward Said",
+    "publication_year": 1993,
+    "description": "On imperialism and cultural production.",
+    "topics": [
+      "imperialism",
+      "culture",
+      "literature"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Question of Palestine",
+    "author": "Edward Said",
+    "publication_year": 1979,
+    "description": "On Palestinian identity and struggle.",
+    "topics": [
+      "Palestine",
+      "Zionism",
+      "colonialism"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Fields, Factories and Workshops",
+    "author": "Peter Kropotkin",
+    "publication_year": 1899,
+    "description": "On decentralized production.",
+    "topics": [
+      "economics",
+      "decentralization",
+      "production"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Statism and Anarchy",
+    "author": "Mikhail Bakunin",
+    "publication_year": 1873,
+    "description": "Critique of Marxist statism.",
+    "topics": [
+      "state",
+      "anarchism",
+      "Marx"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/reference/archive/bakunin/works/1873/statism-anarchy.htm"
+  },
+  {
+    "title": "Woman and Socialism",
+    "author": "August Bebel",
+    "publication_year": 1879,
+    "description": "Early socialist-feminist text.",
+    "topics": [
+      "feminism",
+      "socialism",
+      "women"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/bebel/1879/woman-socialism/"
+  },
+  {
+    "title": "Women, Race and Class",
+    "author": "Angela Davis",
+    "publication_year": 1981,
+    "description": "Intersectional analysis of oppression.",
+    "topics": [
+      "feminism",
+      "race",
+      "class"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Freedom is a Constant Struggle",
+    "author": "Angela Davis",
+    "publication_year": 2016,
+    "description": "On solidarity and resistance.",
+    "topics": [
+      "solidarity",
+      "Palestine",
+      "racism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Dialectic of Sex",
+    "author": "Shulamith Firestone",
+    "publication_year": 1970,
+    "description": "Radical feminist-Marxist synthesis.",
+    "topics": [
+      "feminism",
+      "reproduction",
+      "revolution"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Revolution at Point Zero",
+    "author": "Silvia Federici",
+    "publication_year": 2012,
+    "description": "On reproductive labor.",
+    "topics": [
+      "feminism",
+      "labor",
+      "reproduction"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Patriarchy and Accumulation on a World Scale",
+    "author": "Maria Mies",
+    "publication_year": 1986,
+    "description": "Global analysis of patriarchy and capitalism.",
+    "topics": [
+      "feminism",
+      "capitalism",
+      "imperialism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "By Any Means Necessary",
+    "author": "Malcolm X",
+    "publication_year": 1970,
+    "description": "Speeches and writings.",
+    "topics": [
+      "Black liberation",
+      "revolution",
+      "self-defense"
+    ],
+    "book_type": "speeches",
+    "significance": "major"
+  },
+  {
+    "title": "Blood in My Eye",
+    "author": "George Jackson",
+    "publication_year": 1971,
+    "description": "Revolutionary theory from prison.",
+    "topics": [
+      "prison",
+      "revolution",
+      "Black liberation"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Soledad Brother",
+    "author": "George Jackson",
+    "publication_year": 1970,
+    "description": "Prison letters.",
+    "topics": [
+      "prison",
+      "racism",
+      "revolution"
+    ],
+    "book_type": "memoir",
+    "significance": "major"
+  },
+  {
+    "title": "Marxism and the Negro Problem",
+    "author": "C.L.R. James",
+    "publication_year": 1948,
+    "description": "On race and class in America.",
+    "topics": [
+      "race",
+      "Marxism",
+      "America"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/james-clr/works/1948/09/negro-question.htm"
+  },
+  {
+    "title": "Escape from Freedom",
+    "author": "Erich Fromm",
+    "publication_year": 1941,
+    "description": "Psychology of authoritarianism.",
+    "topics": [
+      "psychology",
+      "fascism",
+      "freedom"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Art of Loving",
+    "author": "Erich Fromm",
+    "publication_year": 1956,
+    "description": "On love and society.",
+    "topics": [
+      "love",
+      "capitalism",
+      "alienation"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Theory of the Novel",
+    "author": "Georg Lukacs",
+    "publication_year": 1916,
+    "description": "Literary theory.",
+    "topics": [
+      "literature",
+      "novel",
+      "aesthetics"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Illuminations",
+    "author": "Walter Benjamin",
+    "publication_year": 1968,
+    "description": "Essays on culture and history.",
+    "topics": [
+      "culture",
+      "history",
+      "art"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Arcades Project",
+    "author": "Walter Benjamin",
+    "publication_year": 1999,
+    "description": "Unfinished work on modernity.",
+    "topics": [
+      "modernity",
+      "capitalism",
+      "culture"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Manufacturing Consent",
+    "author": "Noam Chomsky and Edward Herman",
+    "publication_year": 1988,
+    "description": "Propaganda model of media.",
+    "topics": [
+      "media",
+      "propaganda",
+      "democracy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Profit Over People",
+    "author": "Noam Chomsky",
+    "publication_year": 1999,
+    "description": "Critique of neoliberalism.",
+    "topics": [
+      "neoliberalism",
+      "capitalism",
+      "democracy"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Hegemony or Survival",
+    "author": "Noam Chomsky",
+    "publication_year": 2003,
+    "description": "On American imperialism.",
+    "topics": [
+      "imperialism",
+      "America",
+      "foreign policy"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Failed States",
+    "author": "Noam Chomsky",
+    "publication_year": 2006,
+    "description": "Critique of US policy.",
+    "topics": [
+      "America",
+      "democracy",
+      "imperialism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "This Changes Everything",
+    "author": "Naomi Klein",
+    "publication_year": 2014,
+    "description": "Capitalism vs the climate.",
+    "topics": [
+      "climate",
+      "capitalism",
+      "environment"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "No Logo",
+    "author": "Naomi Klein",
+    "publication_year": 1999,
+    "description": "Critique of brand culture.",
+    "topics": [
+      "brands",
+      "globalization",
+      "consumerism"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "The Enigma of Capital",
+    "author": "David Harvey",
+    "publication_year": 2010,
+    "description": "On capitalist crises.",
+    "topics": [
+      "capitalism",
+      "crisis",
+      "finance"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Spaces of Global Capitalism",
+    "author": "David Harvey",
+    "publication_year": 2006,
+    "description": "Geography of capitalism.",
+    "topics": [
+      "geography",
+      "capitalism",
+      "neoliberalism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The New Imperialism",
+    "author": "David Harvey",
+    "publication_year": 2003,
+    "description": "On contemporary imperialism.",
+    "topics": [
+      "imperialism",
+      "accumulation",
+      "dispossession"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Ghosts of My Life",
+    "author": "Mark Fisher",
+    "publication_year": 2014,
+    "description": "On hauntology and lost futures.",
+    "topics": [
+      "culture",
+      "hauntology",
+      "depression"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Empire",
+    "author": "Michael Hardt and Antonio Negri",
+    "publication_year": 2000,
+    "description": "On globalized sovereignty.",
+    "topics": [
+      "empire",
+      "globalization",
+      "sovereignty"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Multitude",
+    "author": "Michael Hardt and Antonio Negri",
+    "publication_year": 2004,
+    "description": "On war and democracy in age of empire.",
+    "topics": [
+      "multitude",
+      "democracy",
+      "empire"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Commonwealth",
+    "author": "Michael Hardt and Antonio Negri",
+    "publication_year": 2009,
+    "description": "On the common.",
+    "topics": [
+      "commons",
+      "revolution",
+      "biopolitics"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Society of the Spectacle",
+    "author": "Guy Debord",
+    "publication_year": 1967,
+    "description": "Situationist critique of capitalism.",
+    "topics": [
+      "spectacle",
+      "capitalism",
+      "alienation"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Revolution of Everyday Life",
+    "author": "Raoul Vaneigem",
+    "publication_year": 1967,
+    "description": "Situationist manifesto.",
+    "topics": [
+      "everyday life",
+      "revolution",
+      "alienation"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Silent Spring",
+    "author": "Rachel Carson",
+    "publication_year": 1962,
+    "description": "Foundational environmental text.",
+    "topics": [
+      "environment",
+      "pesticides",
+      "ecology"
+    ],
+    "book_type": "journalism",
+    "significance": "foundational"
+  },
+  {
+    "title": "Post-Scarcity Anarchism",
+    "author": "Murray Bookchin",
+    "publication_year": 1971,
+    "description": "Technology and liberation.",
+    "topics": [
+      "technology",
+      "anarchism",
+      "ecology"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Less is More",
+    "author": "Jason Hickel",
+    "publication_year": 2020,
+    "description": "Case for degrowth.",
+    "topics": [
+      "degrowth",
+      "capitalism",
+      "climate"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Fossil Capital",
+    "author": "Andreas Malm",
+    "publication_year": 2016,
+    "description": "Origins of fossil fuel economy.",
+    "topics": [
+      "climate",
+      "capitalism",
+      "energy"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "How to Blow Up a Pipeline",
+    "author": "Andreas Malm",
+    "publication_year": 2021,
+    "description": "On climate activism tactics.",
+    "topics": [
+      "climate",
+      "sabotage",
+      "activism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Nickel and Dimed",
+    "author": "Barbara Ehrenreich",
+    "publication_year": 2001,
+    "description": "On low-wage America.",
+    "topics": [
+      "poverty",
+      "labor",
+      "America"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "A People's History of the United States",
+    "author": "Howard Zinn",
+    "publication_year": 1980,
+    "description": "History from below.",
+    "topics": [
+      "America",
+      "history",
+      "people's history"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Ethnic Cleansing of Palestine",
+    "author": "Ilan Pappe",
+    "publication_year": 2006,
+    "description": "On the Nakba.",
+    "topics": [
+      "Palestine",
+      "Nakba",
+      "ethnic cleansing"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "Ten Myths About Israel",
+    "author": "Ilan Pappe",
+    "publication_year": 2017,
+    "description": "Debunking Zionist narratives.",
+    "topics": [
+      "Palestine",
+      "Israel",
+      "Zionism"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The Hundred Years' War on Palestine",
+    "author": "Rashid Khalidi",
+    "publication_year": 2020,
+    "description": "History of Palestinian dispossession.",
+    "topics": [
+      "Palestine",
+      "colonialism",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Palestinian Identity",
+    "author": "Rashid Khalidi",
+    "publication_year": 1997,
+    "description": "Construction of Palestinian national identity.",
+    "topics": [
+      "Palestine",
+      "identity",
+      "nationalism"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The Iron Cage",
+    "author": "Rashid Khalidi",
+    "publication_year": 2006,
+    "description": "Palestinian struggle for statehood.",
+    "topics": [
+      "Palestine",
+      "statehood",
+      "colonialism"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Gaza: An Inquest into Its Martyrdom",
+    "author": "Norman Finkelstein",
+    "publication_year": 2018,
+    "description": "Documentation of Gaza's destruction.",
+    "topics": [
+      "Gaza",
+      "war crimes",
+      "Palestine"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The Holocaust Industry",
+    "author": "Norman Finkelstein",
+    "publication_year": 2000,
+    "description": "On exploitation of Jewish suffering.",
+    "topics": [
+      "Holocaust",
+      "Israel",
+      "politics"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Image and Reality of the Israel-Palestine Conflict",
+    "author": "Norman Finkelstein",
+    "publication_year": 1995,
+    "description": "Critique of Zionist historiography.",
+    "topics": [
+      "Palestine",
+      "Israel",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "On the Arab-Israeli War",
+    "author": "Isaac Deutscher",
+    "publication_year": 1967,
+    "description": "Marxist analysis of the conflict.",
+    "topics": [
+      "Palestine",
+      "Israel",
+      "Marxism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Easter Rebellion",
+    "author": "Max Caulfield",
+    "publication_year": 1963,
+    "description": "Account of 1916 Rising.",
+    "topics": [
+      "Ireland",
+      "1916",
+      "revolution"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Ireland: Her Own",
+    "author": "T.A. Jackson",
+    "publication_year": 1946,
+    "description": "Marxist history of Ireland.",
+    "topics": [
+      "Ireland",
+      "Marxism",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Labour in Irish History",
+    "author": "James Connolly",
+    "publication_year": 1910,
+    "description": "On Irish labor movement.",
+    "topics": [
+      "Ireland",
+      "labor",
+      "socialism"
+    ],
+    "book_type": "history",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/connolly/1910/labour/"
+  },
+  {
+    "title": "The Reconquest of Ireland",
+    "author": "James Connolly",
+    "publication_year": 1915,
+    "description": "On Irish independence and socialism.",
+    "topics": [
+      "Ireland",
+      "socialism",
+      "independence"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/connolly/1915/rcni/"
+  },
+  {
+    "title": "Ten Men Dead",
+    "author": "David Beresford",
+    "publication_year": 1987,
+    "description": "Account of 1981 hunger strikes.",
+    "topics": [
+      "Ireland",
+      "hunger strikes",
+      "IRA"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "Armed Struggle",
+    "author": "Richard English",
+    "publication_year": 2003,
+    "description": "History of the IRA.",
+    "topics": [
+      "Ireland",
+      "IRA",
+      "armed struggle"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "A Secret History of the IRA",
+    "author": "Ed Moloney",
+    "publication_year": 2002,
+    "description": "Inside the republican movement.",
+    "topics": [
+      "Ireland",
+      "IRA",
+      "peace process"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  }
+]

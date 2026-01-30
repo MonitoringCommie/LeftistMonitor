@@ -1,0 +1,1040 @@
+{
+  "metadata": {
+    "description": "Documentation of Kurdish villages destroyed by Turkey, primarily during the 1990s conflict",
+    "sources": [
+      "Human Rights Watch reports",
+      "KHRP (Kurdish Human Rights Project) documentation",
+      "Turkish Parliament Human Rights Commission (1997-1998)",
+      "Internal Displacement Monitoring Centre"
+    ],
+    "total_destroyed_villages_estimate": "3,428-4,000",
+    "total_displaced_population": "378,335-1,000,000",
+    "period": "1984-1999 (peak 1993-1995)"
+  },
+  "destroyed_villages": [
+    {
+      "name": "Roboski (Uludere)",
+      "name_kurdish": "Roboski",
+      "province": "Sirnak",
+      "district": "Uludere",
+      "coordinates": [
+        37.3833,
+        42.85
+      ],
+      "population_before": 350,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation",
+      "current_status": "partially_resettled",
+      "notes": "Site of 2011 airstrike killing 34 civilians"
+    },
+    {
+      "name": "Lice",
+      "name_kurdish": "Lice",
+      "province": "Diyarbakir",
+      "district": "Lice",
+      "coordinates": [
+        38.4569,
+        40.6478
+      ],
+      "population_before": 25000,
+      "destruction_year": 1993,
+      "destruction_type": "burned",
+      "current_status": "partially_rebuilt",
+      "notes": "Major town burned by Turkish military in October 1993"
+    },
+    {
+      "name": "Cizre villages",
+      "name_kurdish": "Cizira Botan",
+      "province": "Sirnak",
+      "district": "Cizre",
+      "coordinates": [
+        37.3261,
+        42.1958
+      ],
+      "population_before": 15000,
+      "destruction_year": 1993,
+      "destruction_type": "forced_evacuation",
+      "current_status": "partially_resettled"
+    },
+    {
+      "name": "Kulp villages",
+      "name_kurdish": "Pasur",
+      "province": "Diyarbakir",
+      "district": "Kulp",
+      "coordinates": [
+        38.5,
+        40.9833
+      ],
+      "population_before": 8000,
+      "destruction_year": 1994,
+      "destruction_type": "burned",
+      "current_status": "abandoned"
+    },
+    {
+      "name": "Silopi villages",
+      "name_kurdish": "Silopiya",
+      "province": "Sirnak",
+      "district": "Silopi",
+      "coordinates": [
+        37.25,
+        42.4667
+      ],
+      "population_before": 12000,
+      "destruction_year": 1993,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Semdinli villages",
+      "name_kurdish": "Semzinan",
+      "province": "Hakkari",
+      "district": "Semdinli",
+      "coordinates": [
+        37.3,
+        44.5667
+      ],
+      "population_before": 10000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Yuksekova villages",
+      "name_kurdish": "Gever",
+      "province": "Hakkari",
+      "district": "Yuksekova",
+      "coordinates": [
+        37.5717,
+        44.2906
+      ],
+      "population_before": 15000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Cukurca villages",
+      "name_kurdish": "Cukurca",
+      "province": "Hakkari",
+      "district": "Cukurca",
+      "coordinates": [
+        37.25,
+        43.6167
+      ],
+      "population_before": 8000,
+      "destruction_year": 1993,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Sirnak centrum",
+      "name_kurdish": "Sirnex",
+      "province": "Sirnak",
+      "district": "Sirnak",
+      "coordinates": [
+        37.5167,
+        42.45
+      ],
+      "population_before": 20000,
+      "destruction_year": 1992,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Beytussebap villages",
+      "name_kurdish": "Elkiya",
+      "province": "Sirnak",
+      "district": "Beytussebap",
+      "coordinates": [
+        37.5833,
+        43.1833
+      ],
+      "population_before": 6000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Hakkari centrum",
+      "name_kurdish": "Colemerg",
+      "province": "Hakkari",
+      "district": "Hakkari",
+      "coordinates": [
+        37.5783,
+        43.7408
+      ],
+      "population_before": 12000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Tunceli villages",
+      "name_kurdish": "Dersim",
+      "province": "Tunceli",
+      "district": "Tunceli",
+      "coordinates": [
+        39.1078,
+        39.5483
+      ],
+      "population_before": 15000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation",
+      "notes": "Site of 1937-38 Dersim massacre"
+    },
+    {
+      "name": "Ovacik villages",
+      "name_kurdish": "Pulur",
+      "province": "Tunceli",
+      "district": "Ovacik",
+      "coordinates": [
+        39.35,
+        39.25
+      ],
+      "population_before": 5000,
+      "destruction_year": 1994,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Bingol villages",
+      "name_kurdish": "Cewlik",
+      "province": "Bingol",
+      "district": "Bingol",
+      "coordinates": [
+        38.885,
+        40.4983
+      ],
+      "population_before": 18000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Solhan villages",
+      "name_kurdish": "Solax",
+      "province": "Bingol",
+      "district": "Solhan",
+      "coordinates": [
+        38.9667,
+        41.05
+      ],
+      "population_before": 7000,
+      "destruction_year": 1994,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Batman villages",
+      "name_kurdish": "Iluh",
+      "province": "Batman",
+      "district": "Batman",
+      "coordinates": [
+        37.8917,
+        41.135
+      ],
+      "population_before": 10000,
+      "destruction_year": 1993,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Sason villages",
+      "name_kurdish": "Sason",
+      "province": "Batman",
+      "district": "Sason",
+      "coordinates": [
+        38.1333,
+        41.3833
+      ],
+      "population_before": 8000,
+      "destruction_year": 1993,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Mardin villages",
+      "name_kurdish": "Merdine",
+      "province": "Mardin",
+      "district": "Mardin",
+      "coordinates": [
+        37.3212,
+        40.7245
+      ],
+      "population_before": 12000,
+      "destruction_year": 1993,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Nusaybin villages",
+      "name_kurdish": "Nisebine",
+      "province": "Mardin",
+      "district": "Nusaybin",
+      "coordinates": [
+        37.075,
+        41.2167
+      ],
+      "population_before": 8000,
+      "destruction_year": 1993,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Midyat villages",
+      "name_kurdish": "Midyat",
+      "province": "Mardin",
+      "district": "Midyat",
+      "coordinates": [
+        37.4167,
+        41.3333
+      ],
+      "population_before": 6000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Bitlis villages",
+      "name_kurdish": "Bidlis",
+      "province": "Bitlis",
+      "district": "Bitlis",
+      "coordinates": [
+        38.4,
+        42.1167
+      ],
+      "population_before": 10000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Mutki villages",
+      "name_kurdish": "Motki",
+      "province": "Bitlis",
+      "district": "Mutki",
+      "coordinates": [
+        38.4167,
+        41.5
+      ],
+      "population_before": 5000,
+      "destruction_year": 1994,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Siirt villages",
+      "name_kurdish": "Sert",
+      "province": "Siirt",
+      "district": "Siirt",
+      "coordinates": [
+        37.9333,
+        41.95
+      ],
+      "population_before": 12000,
+      "destruction_year": 1993,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Pervari villages",
+      "name_kurdish": "Pervari",
+      "province": "Siirt",
+      "district": "Pervari",
+      "coordinates": [
+        37.9333,
+        42.6
+      ],
+      "population_before": 6000,
+      "destruction_year": 1994,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Eruh villages",
+      "name_kurdish": "Eruh",
+      "province": "Siirt",
+      "district": "Eruh",
+      "coordinates": [
+        37.75,
+        42.1667
+      ],
+      "population_before": 8000,
+      "destruction_year": 1993,
+      "destruction_type": "burned",
+      "notes": "Site of first PKK action in 1984"
+    },
+    {
+      "name": "Van villages",
+      "name_kurdish": "Wan",
+      "province": "Van",
+      "district": "Van",
+      "coordinates": [
+        38.4942,
+        43.38
+      ],
+      "population_before": 15000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Baskale villages",
+      "name_kurdish": "Baskale",
+      "province": "Van",
+      "district": "Baskale",
+      "coordinates": [
+        38.05,
+        44.0167
+      ],
+      "population_before": 7000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Catak villages",
+      "name_kurdish": "Catax",
+      "province": "Van",
+      "district": "Catak",
+      "coordinates": [
+        38.0167,
+        43.0667
+      ],
+      "population_before": 6000,
+      "destruction_year": 1994,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Ozalp villages",
+      "name_kurdish": "Agiri Ozalp",
+      "province": "Van",
+      "district": "Ozalp",
+      "coordinates": [
+        38.6667,
+        43.9833
+      ],
+      "population_before": 5000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Mus villages",
+      "name_kurdish": "Mus",
+      "province": "Mus",
+      "district": "Mus",
+      "coordinates": [
+        38.7333,
+        41.5
+      ],
+      "population_before": 12000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Varto villages",
+      "name_kurdish": "Gimgim",
+      "province": "Mus",
+      "district": "Varto",
+      "coordinates": [
+        39.1667,
+        41.45
+      ],
+      "population_before": 6000,
+      "destruction_year": 1994,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Agri villages",
+      "name_kurdish": "Agiri",
+      "province": "Agri",
+      "district": "Agri",
+      "coordinates": [
+        39.7211,
+        43.0517
+      ],
+      "population_before": 10000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Dogubayazit villages",
+      "name_kurdish": "Bazid",
+      "province": "Agri",
+      "district": "Dogubayazit",
+      "coordinates": [
+        39.55,
+        44.0833
+      ],
+      "population_before": 8000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Kars villages",
+      "name_kurdish": "Qers",
+      "province": "Kars",
+      "district": "Kars",
+      "coordinates": [
+        40.6167,
+        43.1
+      ],
+      "population_before": 6000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Igdir villages",
+      "name_kurdish": "Idir",
+      "province": "Igdir",
+      "district": "Igdir",
+      "coordinates": [
+        39.92,
+        44.045
+      ],
+      "population_before": 5000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Erzurum villages",
+      "name_kurdish": "Erzurum",
+      "province": "Erzurum",
+      "district": "Erzurum",
+      "coordinates": [
+        39.9,
+        41.27
+      ],
+      "population_before": 8000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Hinis villages",
+      "name_kurdish": "Xinis",
+      "province": "Erzurum",
+      "district": "Hinis",
+      "coordinates": [
+        39.3667,
+        41.7
+      ],
+      "population_before": 5000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Urfa villages",
+      "name_kurdish": "Riha",
+      "province": "Sanliurfa",
+      "district": "Sanliurfa",
+      "coordinates": [
+        37.1591,
+        38.7969
+      ],
+      "population_before": 10000,
+      "destruction_year": 1993,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Siverek villages",
+      "name_kurdish": "Siverek",
+      "province": "Sanliurfa",
+      "district": "Siverek",
+      "coordinates": [
+        37.7556,
+        39.3167
+      ],
+      "population_before": 8000,
+      "destruction_year": 1993,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Viransehir villages",
+      "name_kurdish": "Werdansehr",
+      "province": "Sanliurfa",
+      "district": "Viransehir",
+      "coordinates": [
+        37.2333,
+        39.7667
+      ],
+      "population_before": 6000,
+      "destruction_year": 1993,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Adiyaman villages",
+      "name_kurdish": "Adiyaman",
+      "province": "Adiyaman",
+      "district": "Adiyaman",
+      "coordinates": [
+        37.7644,
+        38.2786
+      ],
+      "population_before": 5000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Malatya villages",
+      "name_kurdish": "Meletiye",
+      "province": "Malatya",
+      "district": "Malatya",
+      "coordinates": [
+        38.3552,
+        38.3095
+      ],
+      "population_before": 6000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Elazig villages",
+      "name_kurdish": "Xarpet",
+      "province": "Elazig",
+      "district": "Elazig",
+      "coordinates": [
+        38.681,
+        39.2264
+      ],
+      "population_before": 7000,
+      "destruction_year": 1994,
+      "destruction_type": "forced_evacuation"
+    },
+    {
+      "name": "Mazgirt villages",
+      "name_kurdish": "Mazgird",
+      "province": "Tunceli",
+      "district": "Mazgirt",
+      "coordinates": [
+        39.0167,
+        39.6
+      ],
+      "population_before": 4000,
+      "destruction_year": 1994,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Hozat villages",
+      "name_kurdish": "Xozat",
+      "province": "Tunceli",
+      "district": "Hozat",
+      "coordinates": [
+        39.1,
+        39.2167
+      ],
+      "population_before": 3000,
+      "destruction_year": 1994,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Nazimiye villages",
+      "name_kurdish": "Duzgun",
+      "province": "Tunceli",
+      "district": "Nazimiye",
+      "coordinates": [
+        39.15,
+        39.85
+      ],
+      "population_before": 2500,
+      "destruction_year": 1994,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Dicle villages",
+      "name_kurdish": "Piran",
+      "province": "Diyarbakir",
+      "district": "Dicle",
+      "coordinates": [
+        38.3667,
+        40.0833
+      ],
+      "population_before": 5000,
+      "destruction_year": 1993,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Hazro villages",
+      "name_kurdish": "Hezro",
+      "province": "Diyarbakir",
+      "district": "Hazro",
+      "coordinates": [
+        38.25,
+        40.7833
+      ],
+      "population_before": 4000,
+      "destruction_year": 1993,
+      "destruction_type": "burned"
+    },
+    {
+      "name": "Silvan villages",
+      "name_kurdish": "Farqin",
+      "province": "Diyarbakir",
+      "district": "Silvan",
+      "coordinates": [
+        38.1417,
+        41.0083
+      ],
+      "population_before": 8000,
+      "destruction_year": 1993,
+      "destruction_type": "forced_evacuation"
+    }
+  ],
+  "provinces_summary": [
+    {
+      "province": "Sirnak",
+      "name_kurdish": "Sirnex",
+      "villages_destroyed": 454,
+      "population_displaced": 59200
+    },
+    {
+      "province": "Hakkari",
+      "name_kurdish": "Colemerg",
+      "villages_destroyed": 367,
+      "population_displaced": 45000
+    },
+    {
+      "province": "Diyarbakir",
+      "name_kurdish": "Amed",
+      "villages_destroyed": 355,
+      "population_displaced": 85000
+    },
+    {
+      "province": "Mardin",
+      "name_kurdish": "Merdine",
+      "villages_destroyed": 245,
+      "population_displaced": 35000
+    },
+    {
+      "province": "Siirt",
+      "name_kurdish": "Sert",
+      "villages_destroyed": 238,
+      "population_displaced": 32000
+    },
+    {
+      "province": "Tunceli",
+      "name_kurdish": "Dersim",
+      "villages_destroyed": 220,
+      "population_displaced": 25000
+    },
+    {
+      "province": "Van",
+      "name_kurdish": "Wan",
+      "villages_destroyed": 218,
+      "population_displaced": 30000
+    },
+    {
+      "province": "Bingol",
+      "name_kurdish": "Cewlik",
+      "villages_destroyed": 214,
+      "population_displaced": 28000
+    },
+    {
+      "province": "Batman",
+      "name_kurdish": "Iluh",
+      "villages_destroyed": 198,
+      "population_displaced": 25000
+    },
+    {
+      "province": "Bitlis",
+      "name_kurdish": "Bidlis",
+      "villages_destroyed": 186,
+      "population_displaced": 22000
+    },
+    {
+      "province": "Mus",
+      "name_kurdish": "Mus",
+      "villages_destroyed": 168,
+      "population_displaced": 20000
+    },
+    {
+      "province": "Agri",
+      "name_kurdish": "Agiri",
+      "villages_destroyed": 152,
+      "population_displaced": 18000
+    },
+    {
+      "province": "Sanliurfa",
+      "name_kurdish": "Riha",
+      "villages_destroyed": 143,
+      "population_displaced": 16000
+    },
+    {
+      "province": "Erzurum",
+      "name_kurdish": "Erzurum",
+      "villages_destroyed": 98,
+      "population_displaced": 12000
+    },
+    {
+      "province": "Elazig",
+      "name_kurdish": "Xarpet",
+      "villages_destroyed": 86,
+      "population_displaced": 10000
+    },
+    {
+      "province": "Adiyaman",
+      "name_kurdish": "Adiyaman",
+      "villages_destroyed": 54,
+      "population_displaced": 6000
+    },
+    {
+      "province": "Malatya",
+      "name_kurdish": "Meletiye",
+      "villages_destroyed": 32,
+      "population_displaced": 4000
+    }
+  ],
+  "dam_projects": [
+    {
+      "name": "Ilisu Dam",
+      "name_kurdish": "Bendava Ilisu",
+      "river": "Tigris",
+      "coordinates": [
+        37.4583,
+        41.7833
+      ],
+      "status": "completed_2020",
+      "villages_flooded": 199,
+      "population_displaced": 78000,
+      "notes": "Flooded 12,000-year-old town of Hasankeyf"
+    },
+    {
+      "name": "Keban Dam",
+      "name_kurdish": "Bendava Keban",
+      "river": "Euphrates",
+      "coordinates": [
+        38.8,
+        38.75
+      ],
+      "status": "completed_1975",
+      "villages_flooded": 160,
+      "population_displaced": 30000
+    },
+    {
+      "name": "Karakaya Dam",
+      "name_kurdish": "Bendava Karakaya",
+      "river": "Euphrates",
+      "coordinates": [
+        38.2,
+        38.95
+      ],
+      "status": "completed_1987",
+      "villages_flooded": 83,
+      "population_displaced": 45000
+    },
+    {
+      "name": "Ataturk Dam",
+      "name_kurdish": "Bendava Ataturk",
+      "river": "Euphrates",
+      "coordinates": [
+        37.5,
+        38.3333
+      ],
+      "status": "completed_1990",
+      "villages_flooded": 156,
+      "population_displaced": 55000
+    },
+    {
+      "name": "Birecik Dam",
+      "name_kurdish": "Bendava Birecik",
+      "river": "Euphrates",
+      "coordinates": [
+        37.0167,
+        37.9667
+      ],
+      "status": "completed_2001",
+      "villages_flooded": 30,
+      "population_displaced": 10000
+    },
+    {
+      "name": "Silvan Dam",
+      "name_kurdish": "Bendava Farqin",
+      "river": "Batman",
+      "coordinates": [
+        38.2,
+        41.2
+      ],
+      "status": "under_construction",
+      "villages_flooded": 82,
+      "population_displaced": 15000
+    }
+  ],
+  "massacres": [
+    {
+      "name": "Dersim Massacre",
+      "name_kurdish": "Komkujiya Dersim",
+      "date": "1937-1938",
+      "location": "Tunceli Province",
+      "coordinates": [
+        39.1078,
+        39.5483
+      ],
+      "death_toll_low": 13000,
+      "death_toll_high": 70000,
+      "perpetrator": "Turkish Army"
+    },
+    {
+      "name": "Zilan Massacre",
+      "name_kurdish": "Komkujiya Zilan",
+      "date": "1930-07-13",
+      "location": "Van Province",
+      "coordinates": [
+        38.95,
+        43.5
+      ],
+      "death_toll_low": 5000,
+      "death_toll_high": 47000,
+      "perpetrator": "Turkish Army"
+    },
+    {
+      "name": "Roboski Massacre",
+      "name_kurdish": "Komkujiya Roboski",
+      "date": "2011-12-28",
+      "location": "Uludere, Sirnak",
+      "coordinates": [
+        37.3833,
+        42.85
+      ],
+      "death_toll_low": 34,
+      "death_toll_high": 34,
+      "perpetrator": "Turkish Air Force"
+    },
+    {
+      "name": "Cizre Basement Massacres",
+      "name_kurdish": "Komkujiya Bodrumo Cizre",
+      "date": "2015-2016",
+      "location": "Cizre, Sirnak",
+      "coordinates": [
+        37.3261,
+        42.1958
+      ],
+      "death_toll_low": 177,
+      "death_toll_high": 200,
+      "perpetrator": "Turkish security forces"
+    },
+    {
+      "name": "Lice Massacre",
+      "name_kurdish": "Komkujiya Lice",
+      "date": "1993-10-22",
+      "location": "Lice, Diyarbakir",
+      "coordinates": [
+        38.4569,
+        40.6478
+      ],
+      "death_toll_low": 30,
+      "death_toll_high": 50,
+      "perpetrator": "Turkish Army"
+    },
+    {
+      "name": "Sur District Destruction",
+      "name_kurdish": "Hilwesandina Suro",
+      "date": "2015-2016",
+      "location": "Sur, Diyarbakir",
+      "coordinates": [
+        37.9117,
+        40.2306
+      ],
+      "death_toll_low": 30,
+      "death_toll_high": 100,
+      "perpetrator": "Turkish security forces"
+    }
+  ],
+  "political_prisoners": {
+    "total_estimate_2023": 21000,
+    "kurdish_political_prisoners": 12000,
+    "notable": [
+      {
+        "name": "Selahattin Demirtas",
+        "role": "Former HDP Co-Chair",
+        "imprisoned_since": "2016-11-04"
+      },
+      {
+        "name": "Figen Yuksekdag",
+        "role": "Former HDP Co-Chair",
+        "imprisoned_since": "2016-11-04"
+      },
+      {
+        "name": "Abdullah Ocalan",
+        "role": "PKK founder",
+        "imprisoned_since": "1999-02-15",
+        "location": "Imrali Island Prison"
+      }
+    ]
+  },
+  "historical_events": [
+    {
+      "name": "Sheikh Said Rebellion",
+      "name_kurdish": "Serildana Seyh Seid",
+      "date": "1925",
+      "death_toll": 15000
+    },
+    {
+      "name": "Ararat Rebellion",
+      "name_kurdish": "Serildana Agiri",
+      "date": "1927-1930",
+      "death_toll": 50000
+    },
+    {
+      "name": "PKK Founded",
+      "name_kurdish": "Damezrandina PKK",
+      "date": "1978-11-27"
+    },
+    {
+      "name": "PKK Insurgency Begins",
+      "name_kurdish": "Destpeka Serildana PKK",
+      "date": "1984-08-15"
+    },
+    {
+      "name": "Emergency Rule Declared",
+      "date": "1987"
+    },
+    {
+      "name": "Ocalan Captured",
+      "date": "1999-02-15"
+    },
+    {
+      "name": "Peace Process Begins",
+      "name_kurdish": "Destpeka Prossesa Asiti",
+      "date": "2013"
+    },
+    {
+      "name": "Peace Process Collapse",
+      "date": "2015-07-24"
+    },
+    {
+      "name": "HDP Crackdown",
+      "date": "2016-11-04"
+    },
+    {
+      "name": "Afrin Operation",
+      "name_kurdish": "Operasyona Efrine",
+      "date": "2018-01-20",
+      "displaced": 300000
+    },
+    {
+      "name": "Northeast Syria Invasion",
+      "date": "2019-10-09",
+      "displaced": 200000
+    }
+  ],
+  "cultural_suppression": {
+    "language_bans": [
+      {
+        "period": "1924-1991",
+        "description": "Kurdish language banned in public sphere"
+      },
+      {
+        "period": "1983 Law 2932",
+        "description": "Kurdish publications and music banned"
+      },
+      {
+        "period": "Until 2002",
+        "description": "Kurdish names for children prohibited"
+      }
+    ],
+    "place_name_changes": [
+      {
+        "original": "Diyarbekir",
+        "changed_to": "Diyarbakir"
+      },
+      {
+        "original": "Agiri",
+        "changed_to": "Agri"
+      },
+      {
+        "original": "Dersim",
+        "changed_to": "Tunceli"
+      },
+      {
+        "original": "Colemerg",
+        "changed_to": "Hakkari"
+      },
+      {
+        "original": "Amed",
+        "changed_to": "Diyarbakir"
+      },
+      {
+        "original": "Wan",
+        "changed_to": "Van"
+      }
+    ]
+  }
+}

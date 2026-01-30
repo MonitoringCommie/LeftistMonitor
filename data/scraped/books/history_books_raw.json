@@ -1,0 +1,28 @@
+[
+  {
+    "book": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q107986299"
+    },
+    "pubDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1973-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Vicente Blanco Gaspar's book"
+    },
+    "bookLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "International aggression"
+    },
+    "authorLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Vicente Blanco Gaspar"
+    }
+  }
+]

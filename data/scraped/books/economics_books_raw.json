@@ -1,0 +1,101 @@
+[
+  {
+    "book": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q107157121"
+    },
+    "pubDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2011-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "book by Marcelo Mu\u00f1oz"
+    },
+    "bookLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "China 2050"
+    },
+    "authorLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Marcelo Mu\u00f1oz"
+    }
+  },
+  {
+    "book": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q115164817"
+    },
+    "pubDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2022-10-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "a book by Kim Nan do"
+    },
+    "bookLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "\ud2b8\ub80c\ub4dc \ucf54\ub9ac\uc544 2023"
+    },
+    "authorLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kim Nan Do"
+    }
+  },
+  {
+    "book": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q115688830"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Carl Menger's 1871 book"
+    },
+    "bookLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Principes of Economics"
+    },
+    "authorLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Carl Menger"
+    }
+  },
+  {
+    "book": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q110321020"
+    },
+    "pubDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2021-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Book written by Nijat Muradzada"
+    },
+    "bookLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "B\u0259sit \u0130qtisadiyyat"
+    },
+    "authorLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Nijat Muradzada"
+    }
+  }
+]

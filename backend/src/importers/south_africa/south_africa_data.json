@@ -1,0 +1,401 @@
+{
+  "region": "South Africa",
+  "system": "Apartheid",
+  "period_start": 1948,
+  "period_end": 1994,
+  "context": "Apartheid was a system of institutionalized racial segregation and white supremacy in South Africa from 1948 to 1994. It involved the forcible removal of millions of Black South Africans, the creation of Bantustans (homelands), pass laws restricting movement, and systematic violence against the Black majority.",
+  "massacres": [
+    {
+      "name": "Sharpeville Massacre",
+      "date": "1960-03-21",
+      "location": "Sharpeville, Transvaal",
+      "coordinates": [
+        -26.6833,
+        27.8667
+      ],
+      "death_toll": 69,
+      "injured": 180,
+      "perpetrator": "South African Police",
+      "description": "Police opened fire on a crowd of Black protesters demonstrating against pass laws. Most victims shot in the back while fleeing.",
+      "notes": "Sparked international condemnation and led to ANC and PAC being banned. Marked turning point toward armed struggle."
+    },
+    {
+      "name": "Soweto Uprising",
+      "date": "1976-06-16",
+      "location": "Soweto, Johannesburg",
+      "coordinates": [
+        -26.2678,
+        27.8586
+      ],
+      "death_toll": 176,
+      "death_toll_high": 700,
+      "perpetrator": "South African Police",
+      "description": "Students protesting mandatory Afrikaans education were fired upon by police. Violence spread nationwide.",
+      "notes": "Hector Pieterson (12) among first killed. His photo became iconic image of apartheid brutality. Now commemorated as Youth Day."
+    },
+    {
+      "name": "Langa Massacre",
+      "date": "1985-03-21",
+      "location": "Langa, Uitenhage",
+      "coordinates": [
+        -33.75,
+        25.4167
+      ],
+      "death_toll": 20,
+      "perpetrator": "South African Police",
+      "description": "Police opened fire on funeral procession commemorating Sharpeville Massacre anniversary.",
+      "notes": "Part of state of emergency period crackdowns."
+    },
+    {
+      "name": "Boipatong Massacre",
+      "date": "1992-06-17",
+      "location": "Boipatong, Transvaal",
+      "coordinates": [
+        -26.7,
+        27.8333
+      ],
+      "death_toll": 45,
+      "perpetrator": "IFP hostel dwellers with alleged police complicity",
+      "description": "Attack on ANC-supporting township during negotiations period.",
+      "notes": "ANC temporarily withdrew from negotiations. Evidence of police/military involvement."
+    },
+    {
+      "name": "Bisho Massacre",
+      "date": "1992-09-07",
+      "location": "Bisho, Ciskei",
+      "coordinates": [
+        -32.85,
+        27.45
+      ],
+      "death_toll": 28,
+      "perpetrator": "Ciskei Defence Force",
+      "description": "Soldiers opened fire on ANC march demanding reincorporation of Ciskei homeland.",
+      "notes": "Exposed violence of Bantustan system even during transition period."
+    },
+    {
+      "name": "Trust Feed Massacre",
+      "date": "1988-12-03",
+      "location": "Trust Feed, KwaZulu-Natal",
+      "coordinates": [
+        -29.4167,
+        30.0833
+      ],
+      "death_toll": 11,
+      "perpetrator": "Police with IFP members",
+      "description": "Police captain led attack on UDF supporters, killing 11 including women and children.",
+      "notes": "First case where police officer convicted for massacre. Exposed police-IFP collusion."
+    },
+    {
+      "name": "Sebokeng Massacre",
+      "date": "1990-03-26",
+      "location": "Sebokeng",
+      "coordinates": [
+        -26.5667,
+        27.8333
+      ],
+      "death_toll": 12,
+      "perpetrator": "South African Police",
+      "description": "Police opened fire on protesters celebrating unbanning of ANC.",
+      "notes": "Occurred just weeks after Mandela's release, showing continuity of state violence."
+    }
+  ],
+  "bantustans": [
+    {
+      "name": "Transkei",
+      "type": "homeland",
+      "location": "Eastern Cape",
+      "coordinates": [
+        -31.5,
+        28.5
+      ],
+      "established": 1963,
+      "independence_declared": 1976,
+      "population": 3500000,
+      "notes": "First Bantustan to declare 'independence'. Never internationally recognized."
+    },
+    {
+      "name": "Bophuthatswana",
+      "type": "homeland",
+      "location": "North West/Northern Cape",
+      "coordinates": [
+        -25.5,
+        25.5
+      ],
+      "established": 1972,
+      "independence_declared": 1977,
+      "population": 2400000,
+      "notes": "Fragmented into seven non-contiguous pieces. Contained Sun City casino."
+    },
+    {
+      "name": "Venda",
+      "type": "homeland",
+      "location": "Limpopo",
+      "coordinates": [
+        -22.9667,
+        30.45
+      ],
+      "established": 1973,
+      "independence_declared": 1979,
+      "population": 700000,
+      "notes": "Smallest Bantustan. Known for resistance movements."
+    },
+    {
+      "name": "Ciskei",
+      "type": "homeland",
+      "location": "Eastern Cape",
+      "coordinates": [
+        -32.85,
+        27.45
+      ],
+      "established": 1972,
+      "independence_declared": 1981,
+      "population": 1000000,
+      "notes": "Site of Bisho massacre. Brutal military rule under Oupa Gqozo."
+    },
+    {
+      "name": "KwaZulu",
+      "type": "homeland",
+      "location": "KwaZulu-Natal",
+      "coordinates": [
+        -28.5,
+        31.0
+      ],
+      "established": 1970,
+      "population": 5500000,
+      "notes": "Never declared 'independence'. Ruled by Mangosuthu Buthelezi/IFP. Site of political violence."
+    },
+    {
+      "name": "Lebowa",
+      "type": "homeland",
+      "location": "Limpopo",
+      "coordinates": [
+        -24.0,
+        29.5
+      ],
+      "established": 1972,
+      "population": 2800000,
+      "notes": "Northern Sotho homeland. Fragmented territory."
+    },
+    {
+      "name": "QwaQwa",
+      "type": "homeland",
+      "location": "Free State",
+      "coordinates": [
+        -28.55,
+        28.8
+      ],
+      "established": 1974,
+      "population": 500000,
+      "notes": "Smallest self-governing territory. Southern Sotho homeland."
+    },
+    {
+      "name": "Gazankulu",
+      "type": "homeland",
+      "location": "Limpopo/Mpumalanga",
+      "coordinates": [
+        -23.8333,
+        30.8333
+      ],
+      "established": 1971,
+      "population": 700000,
+      "notes": "Tsonga/Shangaan homeland. Fragmented across four pieces."
+    },
+    {
+      "name": "KaNgwane",
+      "type": "homeland",
+      "location": "Mpumalanga",
+      "coordinates": [
+        -25.75,
+        31.0
+      ],
+      "established": 1981,
+      "population": 500000,
+      "notes": "Swazi homeland. Government nearly ceded it to Swaziland."
+    },
+    {
+      "name": "KwaNdebele",
+      "type": "homeland",
+      "location": "Mpumalanga",
+      "coordinates": [
+        -25.1667,
+        29.0
+      ],
+      "established": 1981,
+      "population": 400000,
+      "notes": "Last Bantustan created. Resistance to 'independence' led to state of emergency."
+    }
+  ],
+  "prisons": [
+    {
+      "name": "Robben Island Prison",
+      "type": "political_prison",
+      "location": "Robben Island, Cape Town",
+      "coordinates": [
+        -33.8076,
+        18.3714
+      ],
+      "established": 1961,
+      "closed": 1991,
+      "notes": "Maximum security prison for political prisoners including Nelson Mandela (18 years), Walter Sisulu, Ahmed Kathrada. Now UNESCO World Heritage Site."
+    },
+    {
+      "name": "Pollsmoor Prison",
+      "type": "prison",
+      "location": "Tokai, Cape Town",
+      "coordinates": [
+        -34.0667,
+        18.4667
+      ],
+      "notes": "Where Mandela was transferred in 1982. Site of secret negotiations with government."
+    },
+    {
+      "name": "Victor Verster Prison",
+      "type": "prison",
+      "location": "Paarl, Western Cape",
+      "coordinates": [
+        -33.8167,
+        18.95
+      ],
+      "notes": "Where Mandela spent final years of imprisonment in relative comfort. Released from here Feb 11, 1990."
+    },
+    {
+      "name": "John Vorster Square",
+      "type": "detention_center",
+      "location": "Johannesburg",
+      "coordinates": [
+        -26.2,
+        28.05
+      ],
+      "notes": "Security police headquarters. Site of numerous deaths in detention including Steve Biko (initially detained)."
+    }
+  ],
+  "forced_removals": [
+    {
+      "name": "Sophiatown Removal",
+      "date": "1955-02-09",
+      "location": "Sophiatown, Johannesburg",
+      "coordinates": [
+        -26.1833,
+        27.9833
+      ],
+      "population_removed": 60000,
+      "notes": "Vibrant multiracial neighborhood destroyed. Renamed Triomf (Triumph). Residents moved to Soweto."
+    },
+    {
+      "name": "District Six Removal",
+      "date": "1966",
+      "location": "District Six, Cape Town",
+      "coordinates": [
+        -33.9333,
+        18.4333
+      ],
+      "population_removed": 60000,
+      "notes": "Inner-city mixed community declared white. 60,000 removed to Cape Flats. Area bulldozed, mostly never redeveloped."
+    },
+    {
+      "name": "Cato Manor Removal",
+      "date": "1958",
+      "location": "Cato Manor, Durban",
+      "coordinates": [
+        -29.85,
+        30.9333
+      ],
+      "population_removed": 120000,
+      "notes": "Large informal settlement cleared. Site of 1949 anti-Indian riots and 1959 beer hall protests."
+    }
+  ],
+  "historical_events": [
+    {
+      "name": "National Party Election Victory",
+      "date": "1948-05-26",
+      "description": "National Party wins election on platform of apartheid (apartness), beginning systematic racial segregation.",
+      "notes": "D.F. Malan becomes Prime Minister. Afrikaner nationalism dominant."
+    },
+    {
+      "name": "Population Registration Act",
+      "date": "1950-07-07",
+      "description": "Required classification of all South Africans by race: White, Coloured, Indian, or Native (Black).",
+      "notes": "Foundation of apartheid legal system. Determined where one could live, work, go to school."
+    },
+    {
+      "name": "Group Areas Act",
+      "date": "1950-07-07",
+      "description": "Enforced residential segregation by race, leading to forced removals.",
+      "notes": "Led to destruction of communities like Sophiatown and District Six."
+    },
+    {
+      "name": "Pass Laws Act",
+      "date": "1952-07-01",
+      "description": "Required Black South Africans to carry passbooks controlling movement into white areas.",
+      "notes": "Most hated apartheid law. Sharpeville massacre was protest against pass laws."
+    },
+    {
+      "name": "Rivonia Trial",
+      "date": "1964-06-12",
+      "description": "Nelson Mandela and other ANC leaders sentenced to life imprisonment.",
+      "notes": "Mandela's speech from dock: 'an ideal for which I am prepared to die.'"
+    },
+    {
+      "name": "Steve Biko Murdered",
+      "date": "1977-09-12",
+      "description": "Black Consciousness leader Steve Biko died from injuries sustained during police torture.",
+      "notes": "Police claimed he died from hunger strike. Truth emerged later. Inspired song 'Biko' by Peter Gabriel."
+    },
+    {
+      "name": "P.W. Botha's Rubicon Speech",
+      "date": "1985-08-15",
+      "description": "Expected reform speech instead hardened apartheid stance, leading to international sanctions.",
+      "notes": "Chase Manhattan called in loans. Beginning of economic isolation."
+    },
+    {
+      "name": "State of Emergency Declared",
+      "date": "1986-06-12",
+      "description": "Nationwide state of emergency giving security forces sweeping powers.",
+      "notes": "Thousands detained without trial. Media restrictions imposed."
+    },
+    {
+      "name": "Mandela Released",
+      "date": "1990-02-11",
+      "description": "Nelson Mandela released from Victor Verster Prison after 27 years.",
+      "notes": "Walked out hand-in-hand with Winnie Mandela. Beginning of transition."
+    },
+    {
+      "name": "First Democratic Election",
+      "date": "1994-04-27",
+      "description": "First election where all South Africans could vote. ANC wins with 62%.",
+      "notes": "Mandela becomes first Black president. Now celebrated as Freedom Day."
+    }
+  ],
+  "resistance_figures": [
+    {
+      "name": "Nelson Mandela",
+      "role": "ANC leader, President",
+      "notes": "Imprisoned 1962-1990. First democratically elected President 1994-1999."
+    },
+    {
+      "name": "Steve Biko",
+      "role": "Black Consciousness Movement founder",
+      "notes": "Murdered in police custody 1977. 'The most potent weapon of the oppressor is the mind of the oppressed.'"
+    },
+    {
+      "name": "Walter Sisulu",
+      "role": "ANC leader",
+      "notes": "Mandela's mentor. 26 years on Robben Island."
+    },
+    {
+      "name": "Oliver Tambo",
+      "role": "ANC President in exile",
+      "notes": "Led ANC from exile 1967-1991. Built international anti-apartheid movement."
+    },
+    {
+      "name": "Chris Hani",
+      "role": "SACP/MK leader",
+      "notes": "Assassinated 1993. His death nearly derailed peace process."
+    },
+    {
+      "name": "Winnie Madikizela-Mandela",
+      "role": "ANC leader, activist",
+      "notes": "Known as 'Mother of the Nation'. Kept struggle alive during Mandela's imprisonment."
+    }
+  ]
+}

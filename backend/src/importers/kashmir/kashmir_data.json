@@ -1,0 +1,705 @@
+{
+  "metadata": {
+    "description": "Documentation of Indian occupation of Kashmir, one of the world's most militarized zones",
+    "sources": [
+      "Jammu Kashmir Coalition of Civil Society (JKCCS)",
+      "Association of Parents of Disappeared Persons (APDP)",
+      "Human Rights Watch reports",
+      "Amnesty International",
+      "UN Human Rights Council reports",
+      "State Human Rights Commission (SHRC)"
+    ],
+    "military_presence": "700,000+ Indian troops",
+    "ratio": "1 soldier per 17 civilians (highest in the world)",
+    "period": "1947-present (intensified after 1989)"
+  },
+  "military_installations": [
+    {
+      "name": "Badami Bagh Cantonment",
+      "location": "Srinagar",
+      "coordinates": [
+        34.0837,
+        74.7973
+      ],
+      "type": "army_cantonment",
+      "established": 1947,
+      "notes": "Main army headquarters in Kashmir"
+    },
+    {
+      "name": "Sharifabad Camp",
+      "location": "Budgam",
+      "coordinates": [
+        33.95,
+        74.7167
+      ],
+      "type": "interrogation_center",
+      "notes": "Documented torture site"
+    },
+    {
+      "name": "Cargo Camp",
+      "location": "Srinagar",
+      "coordinates": [
+        34.05,
+        74.8
+      ],
+      "type": "detention_center",
+      "notes": "Known detention and interrogation facility"
+    },
+    {
+      "name": "Hari Niwas",
+      "location": "Srinagar",
+      "coordinates": [
+        34.09,
+        74.81
+      ],
+      "type": "army_camp",
+      "notes": "Historic palace converted to military use"
+    },
+    {
+      "name": "Papa-2",
+      "location": "Srinagar",
+      "coordinates": [
+        34.08,
+        74.8
+      ],
+      "type": "interrogation_center",
+      "notes": "Notorious torture center, documented by HRW"
+    },
+    {
+      "name": "Kupwara Camps",
+      "location": "Kupwara",
+      "coordinates": [
+        34.53,
+        74.26
+      ],
+      "type": "forward_base",
+      "notes": "Multiple camps near LoC"
+    },
+    {
+      "name": "Baramulla Cantonment",
+      "location": "Baramulla",
+      "coordinates": [
+        34.2,
+        74.34
+      ],
+      "type": "army_cantonment",
+      "notes": "Major military base"
+    },
+    {
+      "name": "Uri Camp",
+      "location": "Uri",
+      "coordinates": [
+        34.08,
+        74.05
+      ],
+      "type": "forward_base",
+      "notes": "Near Line of Control"
+    },
+    {
+      "name": "Handwara Camp",
+      "location": "Handwara",
+      "coordinates": [
+        34.4,
+        74.28
+      ],
+      "type": "army_camp",
+      "notes": "Site of civilian protests"
+    },
+    {
+      "name": "Pulwama Camp",
+      "location": "Pulwama",
+      "coordinates": [
+        33.87,
+        74.92
+      ],
+      "type": "paramilitary_camp",
+      "notes": "CRPF base"
+    },
+    {
+      "name": "Awantipora Camp",
+      "location": "Awantipora",
+      "coordinates": [
+        33.92,
+        75.01
+      ],
+      "type": "army_camp",
+      "notes": "Major installation"
+    },
+    {
+      "name": "Shopian Camp",
+      "location": "Shopian",
+      "coordinates": [
+        33.72,
+        74.83
+      ],
+      "type": "army_camp",
+      "notes": "South Kashmir base"
+    },
+    {
+      "name": "Anantnag Cantonment",
+      "location": "Anantnag",
+      "coordinates": [
+        33.73,
+        75.15
+      ],
+      "type": "army_cantonment",
+      "notes": "South Kashmir headquarters"
+    },
+    {
+      "name": "Kulgam Camp",
+      "location": "Kulgam",
+      "coordinates": [
+        33.64,
+        75.02
+      ],
+      "type": "army_camp",
+      "notes": "South Kashmir operations"
+    },
+    {
+      "name": "Bandipora Camp",
+      "location": "Bandipora",
+      "coordinates": [
+        34.42,
+        74.64
+      ],
+      "type": "army_camp",
+      "notes": "North Kashmir base"
+    },
+    {
+      "name": "Ganderbal Camp",
+      "location": "Ganderbal",
+      "coordinates": [
+        34.23,
+        74.78
+      ],
+      "type": "army_camp",
+      "notes": "Central Kashmir base"
+    }
+  ],
+  "checkpoints": [
+    {
+      "name": "Lal Chowk Checkpoint",
+      "location": "Srinagar",
+      "coordinates": [
+        34.075,
+        74.8
+      ],
+      "type": "permanent",
+      "notes": "City center checkpoint"
+    },
+    {
+      "name": "Jehangir Chowk",
+      "location": "Srinagar",
+      "coordinates": [
+        34.07,
+        74.79
+      ],
+      "type": "permanent",
+      "notes": "Major intersection checkpoint"
+    },
+    {
+      "name": "Batmaloo Checkpoint",
+      "location": "Srinagar",
+      "coordinates": [
+        34.06,
+        74.78
+      ],
+      "type": "permanent",
+      "notes": "Residential area checkpoint"
+    },
+    {
+      "name": "Rambagh Checkpoint",
+      "location": "Srinagar",
+      "coordinates": [
+        34.04,
+        74.81
+      ],
+      "type": "permanent",
+      "notes": "Entry/exit checkpoint"
+    },
+    {
+      "name": "Pantha Chowk",
+      "location": "Srinagar",
+      "coordinates": [
+        34.02,
+        74.83
+      ],
+      "type": "permanent",
+      "notes": "Highway checkpoint"
+    },
+    {
+      "name": "Qamarwari Checkpoint",
+      "location": "Srinagar",
+      "coordinates": [
+        34.09,
+        74.76
+      ],
+      "type": "permanent",
+      "notes": "North Srinagar checkpoint"
+    },
+    {
+      "name": "Nowgam Checkpoint",
+      "location": "Srinagar",
+      "coordinates": [
+        34.0,
+        74.75
+      ],
+      "type": "permanent",
+      "notes": "Budgam road checkpoint"
+    },
+    {
+      "name": "Bemina Checkpoint",
+      "location": "Srinagar",
+      "coordinates": [
+        34.05,
+        74.74
+      ],
+      "type": "permanent",
+      "notes": "West Srinagar checkpoint"
+    },
+    {
+      "name": "Sopore Checkpoint",
+      "location": "Sopore",
+      "coordinates": [
+        34.3,
+        74.47
+      ],
+      "type": "permanent",
+      "notes": "North Kashmir major checkpoint"
+    },
+    {
+      "name": "Baramulla Checkpoint",
+      "location": "Baramulla",
+      "coordinates": [
+        34.2,
+        74.34
+      ],
+      "type": "permanent",
+      "notes": "Highway checkpoint"
+    },
+    {
+      "name": "Anantnag Checkpoint",
+      "location": "Anantnag",
+      "coordinates": [
+        33.73,
+        75.15
+      ],
+      "type": "permanent",
+      "notes": "South Kashmir major checkpoint"
+    },
+    {
+      "name": "Pulwama Checkpoint",
+      "location": "Pulwama",
+      "coordinates": [
+        33.87,
+        74.92
+      ],
+      "type": "permanent",
+      "notes": "Highway checkpoint"
+    }
+  ],
+  "massacres": [
+    {
+      "name": "Gawkadal Massacre",
+      "date": "1990-01-21",
+      "location": "Srinagar",
+      "coordinates": [
+        34.075,
+        74.8
+      ],
+      "death_toll_low": 50,
+      "death_toll_high": 100,
+      "perpetrator": "CRPF",
+      "description": "Paramilitary forces opened fire on peaceful protesters at Gawkadal Bridge"
+    },
+    {
+      "name": "Handwara Massacre",
+      "date": "1990-01-25",
+      "location": "Handwara",
+      "coordinates": [
+        34.4,
+        74.28
+      ],
+      "death_toll_low": 17,
+      "death_toll_high": 25,
+      "perpetrator": "BSF",
+      "description": "Border Security Force fired on protesters"
+    },
+    {
+      "name": "Zakura and Tengpora Massacre",
+      "date": "1990-03-01",
+      "location": "Srinagar",
+      "coordinates": [
+        34.13,
+        74.82
+      ],
+      "death_toll_low": 33,
+      "death_toll_high": 50,
+      "perpetrator": "CRPF",
+      "description": "Funeral procession attacked"
+    },
+    {
+      "name": "Hawal Massacre",
+      "date": "1990-05-21",
+      "location": "Srinagar",
+      "coordinates": [
+        34.09,
+        74.81
+      ],
+      "death_toll_low": 60,
+      "death_toll_high": 100,
+      "perpetrator": "Indian Army",
+      "description": "Funeral of Mirwaiz Muhammad Farooq attacked"
+    },
+    {
+      "name": "Kupwara Massacre",
+      "date": "1994-01-25",
+      "location": "Kupwara",
+      "coordinates": [
+        34.53,
+        74.26
+      ],
+      "death_toll_low": 27,
+      "death_toll_high": 30,
+      "perpetrator": "BSF",
+      "description": "BSF fired on civilians after militants attacked their convoy"
+    },
+    {
+      "name": "Bijbehara Massacre",
+      "date": "1993-10-22",
+      "location": "Bijbehara",
+      "coordinates": [
+        33.79,
+        75.1
+      ],
+      "death_toll_low": 51,
+      "death_toll_high": 60,
+      "perpetrator": "BSF",
+      "description": "BSF opened fire on protesters near a mosque"
+    },
+    {
+      "name": "Sopore Massacre",
+      "date": "1993-01-06",
+      "location": "Sopore",
+      "coordinates": [
+        34.3,
+        74.47
+      ],
+      "death_toll_low": 55,
+      "death_toll_high": 57,
+      "perpetrator": "BSF",
+      "description": "BSF set fire to buildings and shot civilians"
+    },
+    {
+      "name": "Kunan Poshpora Mass Rape",
+      "date": "1991-02-23",
+      "location": "Kunan Poshpora",
+      "coordinates": [
+        34.57,
+        74.29
+      ],
+      "death_toll_low": 0,
+      "death_toll_high": 0,
+      "perpetrator": "Indian Army 4th Rajputana Rifles",
+      "description": "Mass rape of 23-100 women during a search operation",
+      "notes": "Documented mass rape, case never prosecuted"
+    },
+    {
+      "name": "Chattabal Massacre",
+      "date": "1990-05-01",
+      "location": "Srinagar",
+      "coordinates": [
+        34.06,
+        74.79
+      ],
+      "death_toll_low": 21,
+      "death_toll_high": 25,
+      "perpetrator": "CRPF",
+      "description": "CRPF fired on funeral procession"
+    },
+    {
+      "name": "Pathribal Fake Encounter",
+      "date": "2000-03-25",
+      "location": "Pathribal",
+      "coordinates": [
+        33.98,
+        75.32
+      ],
+      "death_toll_low": 5,
+      "death_toll_high": 5,
+      "perpetrator": "Indian Army",
+      "description": "Five civilians killed in staged encounter, later proven fake"
+    },
+    {
+      "name": "Machil Fake Encounter",
+      "date": "2010-04-30",
+      "location": "Machil",
+      "coordinates": [
+        34.65,
+        74.3
+      ],
+      "death_toll_low": 3,
+      "death_toll_high": 3,
+      "perpetrator": "Indian Army",
+      "description": "Three young men killed in fake encounter for cash rewards"
+    },
+    {
+      "name": "Shopian Double Rape and Murder",
+      "date": "2009-05-29",
+      "location": "Shopian",
+      "coordinates": [
+        33.72,
+        74.83
+      ],
+      "death_toll_low": 2,
+      "death_toll_high": 2,
+      "perpetrator": "Security forces",
+      "description": "Two women raped and killed, bodies found in stream"
+    }
+  ],
+  "mass_graves": [
+    {
+      "name": "Uri Mass Graves",
+      "location": "Uri",
+      "coordinates": [
+        34.08,
+        74.05
+      ],
+      "discovered": 2008,
+      "bodies_low": 203,
+      "bodies_high": 300,
+      "notes": "SHRC documented unmarked graves"
+    },
+    {
+      "name": "Baramulla Mass Graves",
+      "location": "Baramulla",
+      "coordinates": [
+        34.2,
+        74.34
+      ],
+      "discovered": 2009,
+      "bodies_low": 150,
+      "bodies_high": 200,
+      "notes": "Unmarked graves near military camps"
+    },
+    {
+      "name": "Bandipora Mass Graves",
+      "location": "Bandipora",
+      "coordinates": [
+        34.42,
+        74.64
+      ],
+      "discovered": 2011,
+      "bodies_low": 574,
+      "bodies_high": 600,
+      "notes": "Largest documented site"
+    },
+    {
+      "name": "Kupwara Mass Graves",
+      "location": "Kupwara",
+      "coordinates": [
+        34.53,
+        74.26
+      ],
+      "discovered": 2008,
+      "bodies_low": 203,
+      "bodies_high": 250,
+      "notes": "Near Line of Control"
+    }
+  ],
+  "communication_blackouts": [
+    {
+      "start_date": "2016-07-08",
+      "end_date": "2016-11-20",
+      "duration_days": 135,
+      "trigger": "Killing of Burhan Wani",
+      "notes": "Longest internet shutdown until 2019"
+    },
+    {
+      "start_date": "2019-08-05",
+      "end_date": "2021-02-05",
+      "duration_days": 550,
+      "trigger": "Abrogation of Article 370",
+      "notes": "Longest internet shutdown in a democracy, 4G restored Feb 2021"
+    },
+    {
+      "start_date": "2017-04-17",
+      "end_date": "2017-04-26",
+      "duration_days": 9,
+      "trigger": "Srinagar by-election violence",
+      "notes": "Social media banned"
+    },
+    {
+      "start_date": "2018-06-16",
+      "end_date": "2018-06-17",
+      "duration_days": 2,
+      "trigger": "Eid ceasefire end",
+      "notes": "Preventive shutdown"
+    }
+  ],
+  "pellet_gun_casualties": {
+    "period": "2010-2020",
+    "total_injured": 5870,
+    "blinded": 500,
+    "partially_blinded": 1500,
+    "notes": "India is only country using pellet guns for crowd control, creates 'dead eyes' generation"
+  },
+  "enforced_disappearances": {
+    "total_documented": 8000,
+    "period": "1989-present",
+    "half_widows": 1500,
+    "notes": "APDP has documented over 8,000 cases of enforced disappearances"
+  },
+  "political_prisoners": [
+    {
+      "name": "Yasin Malik",
+      "organization": "JKLF",
+      "detained_since": "2019-02-22",
+      "charges": "Terror funding",
+      "notes": "Life sentence 2022"
+    },
+    {
+      "name": "Asiya Andrabi",
+      "organization": "Dukhtaran-e-Millat",
+      "detained_since": "2018",
+      "charges": "Unlawful activities",
+      "notes": "Women's rights activist"
+    },
+    {
+      "name": "Masrat Alam",
+      "organization": "Muslim League",
+      "detained_since": "2015",
+      "charges": "Various",
+      "notes": "Arrested multiple times"
+    },
+    {
+      "name": "Shabir Shah",
+      "organization": "JKDFP",
+      "detained_since": "2017",
+      "charges": "Terror funding",
+      "notes": "Veteran separatist leader"
+    },
+    {
+      "name": "Muhammad Ashraf Sehrai",
+      "organization": "Tehreek-e-Hurriyat",
+      "detained_since": "2020",
+      "died": "2021-05-05",
+      "notes": "Died in custody, denied proper medical care"
+    },
+    {
+      "name": "Khurram Parvez",
+      "organization": "JKCCS",
+      "detained_since": "2021-11-22",
+      "charges": "UAPA",
+      "notes": "Human rights defender, documented mass graves"
+    }
+  ],
+  "historical_events": [
+    {
+      "name": "Partition and First Kashmir War",
+      "date": "1947",
+      "description": "Kashmir's ruler acceded to India amid tribal invasion backed by Pakistan"
+    },
+    {
+      "name": "UN Resolution 47",
+      "date": "1948-04-21",
+      "description": "UN called for plebiscite to determine Kashmir's future - never implemented"
+    },
+    {
+      "name": "Article 370 Enacted",
+      "date": "1949",
+      "description": "Special autonomous status granted to Jammu and Kashmir"
+    },
+    {
+      "name": "Second Kashmir War",
+      "date": "1965",
+      "description": "Indo-Pakistani War over Kashmir"
+    },
+    {
+      "name": "Simla Agreement",
+      "date": "1972-07-02",
+      "description": "Ceasefire line becomes Line of Control"
+    },
+    {
+      "name": "1987 Election Rigging",
+      "date": "1987",
+      "description": "Widely seen as rigged election, sparked armed uprising"
+    },
+    {
+      "name": "Armed Uprising Begins",
+      "date": "1989",
+      "description": "Beginning of armed resistance against Indian rule"
+    },
+    {
+      "name": "AFSPA Imposed",
+      "date": "1990-07-05",
+      "description": "Armed Forces Special Powers Act imposed, giving military immunity"
+    },
+    {
+      "name": "Kashmir Pandit Exodus",
+      "date": "1990",
+      "description": "Exodus of Kashmiri Hindu Pandits from valley",
+      "notes": "Complex event with multiple causes"
+    },
+    {
+      "name": "Human Rights Commission Report",
+      "date": "2008",
+      "description": "SHRC confirms 2,730+ unmarked graves in North Kashmir"
+    },
+    {
+      "name": "2010 Uprising",
+      "date": "2010",
+      "description": "Massive protests after teenager killed, 112 killed by forces"
+    },
+    {
+      "name": "Burhan Wani Killed",
+      "date": "2016-07-08",
+      "description": "Popular militant commander killed, sparked massive uprising"
+    },
+    {
+      "name": "Article 370 Abrogated",
+      "date": "2019-08-05",
+      "description": "India revoked Kashmir's special status, imposed lockdown"
+    },
+    {
+      "name": "Statehood Revoked",
+      "date": "2019-10-31",
+      "description": "Jammu and Kashmir downgraded to Union Territory"
+    }
+  ],
+  "laws_enabling_impunity": [
+    {
+      "name": "Armed Forces Special Powers Act (AFSPA)",
+      "enacted": 1990,
+      "description": "Grants military forces immunity from prosecution for killings, arrests without warrant"
+    },
+    {
+      "name": "Public Safety Act (PSA)",
+      "enacted": 1978,
+      "description": "Allows detention without trial for up to 2 years, used against thousands"
+    },
+    {
+      "name": "Unlawful Activities Prevention Act (UAPA)",
+      "enacted": 1967,
+      "amended": 2019,
+      "description": "Used to designate individuals as terrorists, difficult to get bail"
+    },
+    {
+      "name": "Disturbed Areas Act",
+      "enacted": 1990,
+      "description": "Declares entire region as 'disturbed area' allowing military operations"
+    }
+  ],
+  "demographic_changes": {
+    "domicile_law_2020": {
+      "description": "New law allows non-Kashmiris to become permanent residents",
+      "domiciles_issued": 4100000,
+      "period": "2020-2023",
+      "notes": "Critics call it demographic engineering similar to Israeli settlements"
+    },
+    "land_laws_2020": {
+      "description": "Allows non-residents to buy land in Kashmir",
+      "notes": "Removed protections that existed since 1927"
+    }
+  }
+}

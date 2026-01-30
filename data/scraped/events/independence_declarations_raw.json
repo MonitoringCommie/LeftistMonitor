@@ -1,0 +1,1774 @@
+[
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16414371"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1918-05-28T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1918 Azerbaijani legal document"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Independence of Azerbaijan"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Azerbaijan Democratic Republic"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q166981"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1918-02-16T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Lithuanian 16 February 1918 declaration of independence"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Act of Independence of Lithuania"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Lithuania"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q97215532"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Act of Independence of Lithuania"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Lithuania"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1182065"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1835-10-28T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "proclamation of sovereignty by United Tribes of New Zealand, created 1835, ratified 1836"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "The Declaration of the Independence of New Zealand"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "United Tribes of New Zealand"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2823577"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1990-03-11T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "act declaring the independence of Lithuania from the USSR"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Act of the Re-Establishment of the State of Lithuania"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Lithuania"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q13030722"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q13030722"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q277167"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of Ukrainian independence, announced by the Organization of Ukrainian Nationalists led by Stepan Bandera; did not become effective due to Nazi invasion"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Act of restoration of the Ukrainian state"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ukrainian national government (1941)"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2268588"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1813-11-06T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "the first Mexican legal historical document which established the separation of Mexico from Spanish rule"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Solemn Act of the Declaration of Independence of Northern America"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Mexico"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q223732"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1948-05-14T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1948 declaration of Israel's independence"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of the Establishment of the State of Israel"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Palestine"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q97367440"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1977-06-27T00:00:00Z"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of independence of Djibouti"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Djibouti"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16642507"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1990-10-11T00:00:00Z"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of State Sovereignty of Bashkortostan"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q19151479"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration signed on August 23, 1990 in Yerevan, Armenia"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Independence of Armenia"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Armenia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q281097"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of independence"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Albanian Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Albania"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2918225"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1825 document declaring Bolivia's independence from Spain"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Bolivian Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Bolivia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q13076194"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1948-01-04T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Document"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Burmese Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Myanmar"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3248484"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1816-07-09T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "historical proclamation of Argentinean independence"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Argentine Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Argentina"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q19151463"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1990-08-30T00:00:00Z"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "The Declaration of the Tatar Soviet Socialist Republic State Sovereignty"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2004618"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Slovak National Council's Declaration of Independence of the Slovak Nation"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1186774"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1836-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Document of Texan Indpendence from Mexico"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Texas Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Republic of Texas"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q277167"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of Ukrainian independence, announced by the Organization of Ukrainian Nationalists led by Stepan Bandera; did not become effective due to Nazi invasion"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Act of restoration of the Ukrainian state"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ukrainian State"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q69772"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1898-06-12T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "proclamation of independence of the Philippine Islands from the colonial rule of Spain"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Philippine Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Philippines"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2616398"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "independence of Suriname"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3042660"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Independence of Belgium"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Belgium"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12170143"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "legal document"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Fourth Universal of the Ukrainian Central Council"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3089201"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1903-11-03T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "historical event in 1903, establishing the Republic of Panama"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "separation of Panama from Colombia"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Colombia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5801144"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1825-08-25T00:00:00Z"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Uruguayan Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Uruguay"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q123465892"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1983-12-31T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "historical process"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "independence of Brunei"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Brunei"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q598496"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of Scottish independence"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Arbroath"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12593144"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of Korean independence from the Japanese empire, proclaimed by protesters at the March 1st Movement of 1919"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Proclamation of Korean Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Korea under Japanese rule"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2487988"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Manifesto of the Province of Flanders"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Belgium"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q20026269"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Vietnamese Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Empire of Vietnam"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3089201"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1903-11-03T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "historical event in 1903, establishing the Republic of Panama"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "separation of Panama from Colombia"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Panama"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12868917"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1918-05-26T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Independence for the Democratic Republic of Georgia"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Georgian Declaration of Independence, 1918"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Democratic Republic of Georgia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5801137"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Act of Independence of Peru"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Act of independence of Peru"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Peru"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q122463041"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Northern Cyprus Declaration of Independence"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1661772"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1945-08-17T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1945 document declaring Indonesian independence from the Netherlands"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Proclamation of Indonesian Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Indonesia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q123151333"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Circassian declaration of independence (1857)"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Circassia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2412892"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "founding act of the Republic of Estonia from 1918"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Estonian Declaration of Independence"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q106712325"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Proclamation of the Establishment of Manchukuo"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Manchukuo"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3042666"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1838-02-22T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1838 declaration of independence of Quebec"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Independence of Lower Canada"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Lower Canada"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q861510"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2008-02-17T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of independence for Kosovo"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2008 Kosovo declaration of independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kosovo"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7091483"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration which restored the independent Republic of Latvia in 1990"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "On the Restoration of Independence of the Republic of Latvia"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Latvia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q634839"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1581-08-05T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of independence by many of the provinces of the Netherlands from the allegiance to Philip II of Spain, during the Dutch Revolt"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Act of Abjuration"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Seventeen Provinces"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1816561"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1988-11-15T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "statement written by Mahmoud Darwish and proclaimed by Yasser Arafat"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Palestinian Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Palestine"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q83470"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Belarusian constitution adoption"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Third Constituent Charter"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q15925292"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2014-03-11T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2014 declaration of Crimean independence and intent to join Russia"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of Independence of the Republic of Crimea"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Republic of Crimea"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6541120"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "document written by Hilary Teague and adopted by the Liberian Constitutional Convention on 26 July 1847 to announce the independence of Liberia from the US"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Liberian Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Liberia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q277182"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ukrainian secession from the USSR"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Independence of Ukraine"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ukraine"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2492369"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Purported and unproven colonial declaration of independence document"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Mecklenburg Declaration of Independence"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1915698"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1775-05-31T00:00:00Z"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Mecklenburg Resolves"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q19412011"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q19412011"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Captaincy General of Guatemala"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q136033291"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Sovereignty (Uzbekistan)"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Uzbekistan"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3042670"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1919-01-21T00:00:00Z"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Irish Declaration of Independence"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12593144"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of Korean independence from the Japanese empire, proclaimed by protesters at the March 1st Movement of 1919"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Proclamation of Korean Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "South Korea"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q305993"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of independence"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Austrian Declaration of Independence"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1628090"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1908-09-22T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Independence of a Country"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Bulgarian Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Bulgaria"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q25487937"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1948-05-14T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "event (for the document, see Q223732)"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of Israeli independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Israel"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6895819"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1991 Moldovan legal document"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Moldovan Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Moldova"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q17502440"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1804-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "document declaring Haiti as an independent nation"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Haitian Declaration of Independence"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2094010"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1990-07-27T00:00:00Z"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of State Sovereignty of the Belarusian Soviet Socialist Republic"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16597792"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q16597792"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Dominican Republic"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12182342"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q12182342"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Syria"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q127912"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1776-07-04T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1776 assertion of colonial America's independence from Great Britain"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "United States Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "United States"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1994771"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "adopted by the Parliament of Finland on 6 December 1917"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Finnish Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Finland"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q48899"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1822-09-07T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Call to arms triggering the Independence of Brazil"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cry of Ipiranga"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Brazil"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1657253"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1818 Proclamation"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Chilean Declaration of Independence"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5249426"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of May 30, 1918"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Independence of Armenia (1918)"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5249466"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1860 proclamation related to the U.S. Civil War"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of the Immediate Causes Which Induce and Justify the Secession of South Carolina from the Federal Union"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7247434"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "document declaring the independence of Singapore from Malaysia"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Proclamation of Singapore"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Singapore"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3382350"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1811-07-05T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "the declaration of independence from the Spanish monarchy"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Venezuela Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Venezuela"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3063789"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1810 war leading to Colombian Independence"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Colombian War of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Colombia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12580571"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1919 act of the Korean independence movement"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "February 8 Declaration of Independence"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12595592"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "document published in February 1919"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Independence of Korea"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5683732"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1842-11-25T00:00:00Z"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Act of Independence of Paraguay"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Paraguay"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q111982453"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1991-11-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Independence declaration"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Independence of the Chechen Republic"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Chechen Republic of Ichkeria"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q104303142"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Somaliland secedes from Somalia"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Somaliland Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Somaliland"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q60846805"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1975-11-28T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1975 declaration of independence"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1975 proclamation of independence from East Timor"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Portuguese Empire"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1131780"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1821-09-28T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "document proclaiming Mexican independence from Spain, ratified 28 September 1821"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Independence of the Mexican Empire"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Mexico"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5656901"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1821-11-28T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1821 proclamation of independence from Spain"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Independence Act of Panama"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Panama"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1475298"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "document officially proclaimed on 31 August 1957, by Tunku Abdul Rahman, the first Chief Minister of the Federation of Malaya"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Malayan Declaration of Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Malaysia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2893011"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1810-07-20T00:00:00Z"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Act of Independence of Colombia"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Viceroyalty of New Granada"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q27067584"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1818-01-01T00:00:00Z"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Independence of Chile"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Chile"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3508048"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "declaration of independence from the Austro-Hungarian empire"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Czechoslovak declaration of independence"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5654256"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1811-11-05T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Independent Movement of Central America"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Independence of Central America"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6085931"
+    },
+    "date": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1821-11-10T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "historical event in the city of Los Santos, Panama, marking the beginning of the struggle for independence from Spain"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "First Call for Independence"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Panama"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1925172"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "September 1945 declaration of independence"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Declaration of Independence of the Democratic Republic of Vietnam"
+    }
+  }
+]

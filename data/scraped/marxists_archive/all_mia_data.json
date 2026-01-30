@@ -1,0 +1,2308 @@
+{
+  "authors": [
+    {
+      "name": "Engels Biography",
+      "url": "https://www.marxists.org/archive/../archive/lenin/works/1895/misc/engels-bio.htm"
+    },
+    {
+      "name": "Biography",
+      "url": "https://www.marxists.org/archive/../archive/morris/bio/index.htm"
+    },
+    {
+      "name": "In all advanced countries we see the privileges of the capitalist bourgeoisie yielding step by step to democratic organisations.",
+      "url": "https://www.marxists.org/archive/../reference/archive/bernstein/works/1899/evsoc/preface.htm"
+    },
+    {
+      "name": "Eduard Bernstein",
+      "url": "https://www.marxists.org/archive/../reference/archive/bernstein/index.htm"
+    },
+    {
+      "name": "Jean Jaur\u00e8s",
+      "url": "https://www.marxists.org/archive/../archive/jaures/index.htm"
+    },
+    {
+      "name": "Hjalmar Branting",
+      "url": "https://www.marxists.org/archive/../archive/branting/index.htm"
+    },
+    {
+      "name": "Georgy Gapon",
+      "url": "https://www.marxists.org/archive/../archive/gapon/index.htm"
+    },
+    {
+      "name": "Alexander Kerensky",
+      "url": "https://www.marxists.org/archive/../reference/archive/kerensky/index.htm"
+    },
+    {
+      "name": "Bruno Rizzi",
+      "url": "https://www.marxists.org/archive/../archive/rizzi/index.htm"
+    },
+    {
+      "name": "Oscar Wilde",
+      "url": "https://www.marxists.org/archive/../reference/archive/wilde-oscar/index.htm"
+    },
+    {
+      "name": "George Bernard Shaw",
+      "url": "https://www.marxists.org/archive/../reference/archive/shaw/index.htm"
+    },
+    {
+      "name": "H.G. Wells",
+      "url": "https://www.marxists.org/archive/../reference/archive/hgwells/index.htm"
+    },
+    {
+      "name": "Josef Stalin",
+      "url": "https://www.marxists.org/archive/../reference/archive/stalin/index.htm"
+    },
+    {
+      "name": "Vyacheslav Molotov",
+      "url": "https://www.marxists.org/archive/../archive/molotov/index.htm"
+    },
+    {
+      "name": "Pietro Secchia",
+      "url": "https://www.marxists.org/archive/../archive/secchia/index.htm"
+    },
+    {
+      "name": "Biography",
+      "url": "https://www.marxists.org/archive/../archive/mariateg/biography/index.htm"
+    },
+    {
+      "name": "Josef Stalin",
+      "url": "https://www.marxists.org/archive/../reference/archive/stalin/index.htm"
+    },
+    {
+      "name": "Georgi Dimitrov",
+      "url": "https://www.marxists.org/archive/../reference/archive/dimitrov/index.htm"
+    },
+    {
+      "name": "Vyacheslav Molotov",
+      "url": "https://www.marxists.org/archive/../archive/molotov/index.htm"
+    },
+    {
+      "name": "Nikita Khrushchev",
+      "url": "https://www.marxists.org/archive/../archive/khrushchev/index.htm"
+    },
+    {
+      "name": "Dmitry Manuilsky",
+      "url": "https://www.marxists.org/archive/../archive/manuilsky/index.htm"
+    },
+    {
+      "name": "Lavrenti Beria",
+      "url": "https://www.marxists.org/archive/../archive/beria/index.htm"
+    },
+    {
+      "name": "Georgy Malenkov",
+      "url": "https://www.marxists.org/archive/../archive/malenkov/index.htm"
+    },
+    {
+      "name": "Nikolai Bulganin",
+      "url": "https://www.marxists.org/archive/../archive/bulganin/index.htm"
+    },
+    {
+      "name": "Mikhail Suslov",
+      "url": "https://www.marxists.org/archive/../archive/suslov/index.htm"
+    },
+    {
+      "name": "Maurice Thorez",
+      "url": "https://www.marxists.org/archive/../reference/archive/thorez/index.htm"
+    },
+    {
+      "name": "Claudia Jones",
+      "url": "https://www.marxists.org/archive/../archive/jones-claudia/index.htm"
+    },
+    {
+      "name": "The final victory of socialism in the first country to emancipate itself is impossible without the combined efforts of the proletarians of several countries, and the unfolding of the world revolution will be the more rapid and thorough, the more effective the assistance rendered by the first socialist country to the workers and laboring masses of all other countries.",
+      "url": "https://www.marxists.org/archive/../reference/archive/stalin/works/1924/12.htm"
+    },
+    {
+      "name": "R. Page Arnot",
+      "url": "https://www.marxists.org/archive/../archive/arnot-page/index.htm"
+    },
+    {
+      "name": "Thomas Bell",
+      "url": "https://www.marxists.org/archive/../archive/bell/index.htm"
+    },
+    {
+      "name": "B. F. Bradley",
+      "url": "https://www.marxists.org/archive/../archive/bradley/index.htm"
+    },
+    {
+      "name": "Tom Brown",
+      "url": "https://www.marxists.org/archive/../archive/brown-tom/index.htm"
+    },
+    {
+      "name": "Emile Burns",
+      "url": "https://www.marxists.org/archive/../archive/burns-emile/index.htm"
+    },
+    {
+      "name": "J. R. Campbell",
+      "url": "https://www.marxists.org/archive/../archive/campbell-jr/index.htm"
+    },
+    {
+      "name": "Maurice Conforth",
+      "url": "https://www.marxists.org/archive/../archive/cornforth/index.htm"
+    },
+    {
+      "name": "Idris Cox",
+      "url": "https://www.marxists.org/archive/../archive/cox/index.htm"
+    },
+    {
+      "name": "Helen Crawfurd",
+      "url": "https://www.marxists.org/archive/../archive/crawfurd/index.htm"
+    },
+    {
+      "name": "Maurice Dobb",
+      "url": "https://www.marxists.org/archive/../archive/dobb/index.htm"
+    },
+    {
+      "name": "Clemens Dutt",
+      "url": "https://www.marxists.org/archive/../archive/dutt-clemens/index.htm"
+    },
+    {
+      "name": "Joseph Fineberg",
+      "url": "https://www.marxists.org/archive/../archive/fineberg/index.htm"
+    },
+    {
+      "name": "Ralph Fox",
+      "url": "https://www.marxists.org/archive/../archive/fox/index.htm"
+    },
+    {
+      "name": "Will Gallacher",
+      "url": "https://www.marxists.org/archive/../archive/gallacher/index.htm"
+    },
+    {
+      "name": "John Gollan",
+      "url": "https://www.marxists.org/archive/../archive/gollan/index.htm"
+    },
+    {
+      "name": "Wal Hannington",
+      "url": "https://www.marxists.org/archive/../archive/hannington/index.htm"
+    },
+    {
+      "name": "Arthur Horner",
+      "url": "https://www.marxists.org/archive/../archive/horner/index.htm"
+    },
+    {
+      "name": "J. F. Horrabin",
+      "url": "https://www.marxists.org/archive/../archive/horrabin/index.htm"
+    },
+    {
+      "name": "Albert Inkpin",
+      "url": "https://www.marxists.org/archive/../archive/inkpin/index.htm"
+    },
+    {
+      "name": "T. A. Jackson",
+      "url": "https://www.marxists.org/archive/../archive/jackson-ta/index.htm"
+    },
+    {
+      "name": "Monty Johnstone",
+      "url": "https://www.marxists.org/archive/../archive/johnstone/index.htm"
+    },
+    {
+      "name": "James Klugmann",
+      "url": "https://www.marxists.org/archive/../archive/klugmann/index.htm"
+    },
+    {
+      "name": "Arthur MacManus",
+      "url": "https://www.marxists.org/archive/../archive/mcmanus/index.htm"
+    },
+    {
+      "name": "A. L. Morton",
+      "url": "https://www.marxists.org/archive/../archive/morton/index.htm"
+    },
+    {
+      "name": "J. T. Walton Newbold",
+      "url": "https://www.marxists.org/archive/../archive/newbold/index.htm"
+    },
+    {
+      "name": "Eden & Cedar Paul",
+      "url": "https://www.marxists.org/archive/../archive/paul/index.htm"
+    },
+    {
+      "name": "William Paul",
+      "url": "https://www.marxists.org/archive/../archive/paul-william/index.htm"
+    },
+    {
+      "name": "Marjorie Pollitt",
+      "url": "https://www.marxists.org/archive/../archive/pollitt-marjorie/index.htm"
+    },
+    {
+      "name": "R. W. Postgate",
+      "url": "https://www.marxists.org/archive/../archive/postgate/index.htm"
+    },
+    {
+      "name": "Stewart Purkis",
+      "url": "https://www.marxists.org/archive/../archive/purkis/index.htm"
+    },
+    {
+      "name": "Tom Quelch",
+      "url": "https://www.marxists.org/archive/../archive/quelch-tom/index.htm"
+    },
+    {
+      "name": "Bert Ramelson",
+      "url": "https://www.marxists.org/archive/../archive/ramelson/index.htm"
+    },
+    {
+      "name": "Andrew Rothstein",
+      "url": "https://www.marxists.org/archive/../archive/rothstein-andrew/index.htm"
+    },
+    {
+      "name": "Theodor Rothstein",
+      "url": "https://www.marxists.org/archive/../archive/rothstein/index.htm"
+    },
+    {
+      "name": "William Rust",
+      "url": "https://www.marxists.org/archive/../archive/rust/index.htm"
+    },
+    {
+      "name": "Shapurji Saklatvala",
+      "url": "https://www.marxists.org/archive/../archive/saklatvala/index.htm"
+    },
+    {
+      "name": "John Strachey",
+      "url": "https://www.marxists.org/archive/../archive/strachey/index.htm"
+    },
+    {
+      "name": "Beth Turner",
+      "url": "https://www.marxists.org/archive/../archive/turner-beth/index.htm"
+    },
+    {
+      "name": "Ellen Wilkinson",
+      "url": "https://www.marxists.org/archive/../archive/wilkinson/index.htm"
+    },
+    {
+      "name": "Joseph Winternitz",
+      "url": "https://www.marxists.org/archive/../archive/winternitz/index.htm"
+    },
+    {
+      "name": "Tom Wintringham",
+      "url": "https://www.marxists.org/archive/../archive/wintringham/index.htm"
+    },
+    {
+      "name": "Jack Woddis",
+      "url": "https://www.marxists.org/archive/../archive/woddis/index.htm"
+    },
+    {
+      "name": "Hewlett Johnson",
+      "url": "https://www.marxists.org/archive/../archive/johnson-hewlett/index.htm"
+    },
+    {
+      "name": "J. T. Murphy",
+      "url": "https://www.marxists.org/archive/../archive/murphy-jt/index.htm"
+    },
+    {
+      "name": "Harry Pollitt",
+      "url": "https://www.marxists.org/archive/../archive/pollitt/index.htm"
+    },
+    {
+      "name": "R. Palme Dutt",
+      "url": "https://www.marxists.org/archive/../archive/dutt/index.htm"
+    },
+    {
+      "name": "Wilfred Burchett",
+      "url": "https://www.marxists.org/archive/../archive/burchett/index.htm"
+    },
+    {
+      "name": "Lance Sharkey",
+      "url": "https://www.marxists.org/archive/../archive/sharkey/index.htm"
+    },
+    {
+      "name": "Fred Rose",
+      "url": "https://www.marxists.org/archive/../archive/rose/index.htm"
+    },
+    {
+      "name": "Huberto Alvarado",
+      "url": "https://www.marxists.org/archive/../archive/alvarado/index.htm"
+    },
+    {
+      "name": "Biography",
+      "url": "https://www.marxists.org/archive/../archive/alvarado/index.htm"
+    },
+    {
+      "name": "R\u0131za Y\u00fcr\u00fcko\u011fl\u00fc",
+      "url": "https://www.marxists.org/archive/../archive/yurukoglu/index.htm"
+    },
+    {
+      "name": "Enver Hoxha",
+      "url": "https://www.marxists.org/archive/../reference/archive/hoxha/index.htm"
+    },
+    {
+      "name": "Bill Bland",
+      "url": "https://www.marxists.org/archive/../archive/bland/index.htm"
+    },
+    {
+      "name": "I. V. Michurin",
+      "url": "https://www.marxists.org/archive/../reference/archive/michurin/index.htm"
+    },
+    {
+      "name": "N. A. Semashko",
+      "url": "https://www.marxists.org/archive/../archive/semashko/index.htm"
+    },
+    {
+      "name": "Vitaly Vygodsky",
+      "url": "https://www.marxists.org/archive/../archive/vygodsky/index.htm"
+    },
+    {
+      "name": "Alexander Spirkin",
+      "url": "https://www.marxists.org/archive/../reference/archive/spirkin/works/dialectical-materialism/index.html"
+    },
+    {
+      "name": "Anton Makarenko",
+      "url": "https://www.marxists.org/archive/../reference/archive/makarenko/index.html"
+    },
+    {
+      "name": "T. D. Lysenko",
+      "url": "https://www.marxists.org/archive/../reference/archive/lysenko/index.htm"
+    },
+    {
+      "name": "Jean-Paul Sartre",
+      "url": "https://www.marxists.org/archive/../reference/archive/sartre/index.htm"
+    },
+    {
+      "name": "Louis Althusser",
+      "url": "https://www.marxists.org/archive/../reference/archive/althusser/index.htm"
+    },
+    {
+      "name": "Guy Debord",
+      "url": "https://www.marxists.org/archive/../reference/archive/debord/index.htm"
+    },
+    {
+      "name": "Benny L\u00e9vy",
+      "url": "https://www.marxists.org/archive/../archive/levy-benny/index.htm"
+    },
+    {
+      "name": "Walter Benjamin",
+      "url": "https://www.marxists.org/archive/../reference/archive/benjamin/index.htm"
+    },
+    {
+      "name": "Max Horkheimer",
+      "url": "https://www.marxists.org/archive/../reference/archive/horkheimer/index.htm"
+    },
+    {
+      "name": "Leo Lowenthal",
+      "url": "https://www.marxists.org/archive/../reference/archive/lowenthal/index.htm"
+    },
+    {
+      "name": "Theodor Adorno",
+      "url": "https://www.marxists.org/archive/../reference/archive/adorno/index.htm"
+    },
+    {
+      "name": "Herbert Marcuse",
+      "url": "https://www.marxists.org/archive/../reference/archive/marcuse/index.htm"
+    },
+    {
+      "name": "J\u00fcrgen Habermas",
+      "url": "https://www.marxists.org/archive/../reference/archive/habermas/index.htm"
+    },
+    {
+      "name": "J. Posadas",
+      "url": "https://www.marxists.org/archive/../archive/posadas/index.htm"
+    },
+    {
+      "name": "Ludvik Hass",
+      "url": "https://www.marxists.org/archive/../archive/hass/index.htm"
+    },
+    {
+      "name": "Abram Leon",
+      "url": "https://www.marxists.org/archive/../archive/leon-abram/index.htm"
+    },
+    {
+      "name": "Biography",
+      "url": "https://www.marxists.org/archive/../archive/draper/biog/intro.htm"
+    },
+    {
+      "name": "Deng Xiaoping",
+      "url": "https://www.marxists.org/archive/../reference/archive/deng-xiaoping/index.htm"
+    },
+    {
+      "name": "Ota \u0160ik",
+      "url": "https://www.marxists.org/archive/../archive/sik/index.htm"
+    },
+    {
+      "name": "Mao Zedong",
+      "url": "https://www.marxists.org/archive/../reference/archive/mao/index.htm"
+    },
+    {
+      "name": "Lin Biao",
+      "url": "https://www.marxists.org/archive/../reference/archive/lin-biao/index.htm"
+    },
+    {
+      "name": "Zhou Enlai",
+      "url": "https://www.marxists.org/archive/../reference/archive/zhou-enlai/index.htm"
+    },
+    {
+      "name": "Peng Zhen",
+      "url": "https://www.marxists.org/archive/../reference/archive/peng-zhen/index.htm"
+    },
+    {
+      "name": "Zhu De",
+      "url": "https://www.marxists.org/archive/../reference/archive/zhu-de/index.htm"
+    },
+    {
+      "name": "Liu Shaoqi",
+      "url": "https://www.marxists.org/archive/../reference/archive/liu-shaoqi/index.htm"
+    },
+    {
+      "name": "Zhang Chunqiao",
+      "url": "https://www.marxists.org/archive/../reference/archive/zhang/index.htm"
+    },
+    {
+      "name": "The revolutionary war is a war of the masses; only mobilizing the masses and relying on them can wage it.",
+      "url": "https://www.marxists.org/archive/../reference/archive/mao/selected-works/volume-1/mswv1_10.htm"
+    },
+    {
+      "name": "Hua Guofeng",
+      "url": "https://www.marxists.org/archive/../reference/archive/hua-guofeng/index.htm"
+    },
+    {
+      "name": "Song Renqiong",
+      "url": "https://www.marxists.org/archive/../archive/song/index.htm"
+    },
+    {
+      "name": "Charu Mazumdar",
+      "url": "https://www.marxists.org/archive/../reference/archive/mazumdar/index.htm"
+    },
+    {
+      "name": "Vinod Mishra",
+      "url": "https://www.marxists.org/archive/../reference/archive/mishra/index.htm"
+    },
+    {
+      "name": "Pol Pot",
+      "url": "https://www.marxists.org/archive/../archive/pol-pot/index.htm"
+    },
+    {
+      "name": "Ho Chi Minh",
+      "url": "https://www.marxists.org/archive/../reference/archive/ho-chi-minh/index.htm"
+    },
+    {
+      "name": "Pham Van Dong",
+      "url": "https://www.marxists.org/archive/../reference/archive/pham/index.htm"
+    },
+    {
+      "name": "Le Duan",
+      "url": "https://www.marxists.org/archive/../reference/archive/le-duan/index.htm"
+    },
+    {
+      "name": "Lu Xun",
+      "url": "https://www.marxists.org/archive/../archive/lu-xun/index.htm"
+    },
+    {
+      "name": "Messali Hadj",
+      "url": "https://www.marxists.org/archive/../archive/messali-hadj/index.htm"
+    },
+    {
+      "name": "Edward Said",
+      "url": "https://www.marxists.org/archive/../archive/said/index.htm"
+    },
+    {
+      "name": "Ghassan Kanafani",
+      "url": "https://www.marxists.org/archive/../archive/kanafani/index.htm"
+    },
+    {
+      "name": "Fidel Castro",
+      "url": "https://www.marxists.org/archive/../history/cuba/archive/castro/index.htm"
+    },
+    {
+      "name": "Baruch Hirson",
+      "url": "https://www.marxists.org/archive/../archive/hirson/index.htm"
+    },
+    {
+      "name": "Biography",
+      "url": "https://www.marxists.org/archive/../archive/hirson/biography.htm"
+    },
+    {
+      "name": "Neville Alexander",
+      "url": "https://www.marxists.org/archive/../archive/alexander/index.htm"
+    },
+    {
+      "name": "Thomas Sankara",
+      "url": "https://www.marxists.org/archive/../archive/sankara/index.htm"
+    },
+    {
+      "name": "Toussaint Louverture",
+      "url": "https://www.marxists.org/archive/../reference/archive/toussaint-louverture/index.htm"
+    },
+    {
+      "name": "I don't believe in fighting today in any one front, but on all fronts. In fact I'm a Black Nationalist Freedom Fighter. Islam is my religion, but I believe my religion is my personal business.... The economic philosophy of Black Nationalism only means that we should own and operate and control the economy of our community.",
+      "url": "https://www.marxists.org/archive/../reference/archive/malcolm-x/index.htm"
+    },
+    {
+      "name": "Malcolm X",
+      "url": "https://www.marxists.org/archive/../reference/archive/malcolm-x/index.htm"
+    },
+    {
+      "name": "Julien La Mettrie",
+      "url": "https://www.marxists.org/archive/../reference/archive/la-mettrie/index.htm"
+    },
+    {
+      "name": "Holbach",
+      "url": "https://www.marxists.org/archive/../reference/archive/holbach/index.htm"
+    },
+    {
+      "name": "Auguste Blanqui",
+      "url": "https://www.marxists.org/archive/../reference/archive/blanqui/index.htm"
+    },
+    {
+      "name": "It is my duty as a proletarian, deprived of all the rights of the city, to reject the competence of a court where only the privileged classes who are not my peers sit in judgment over me.",
+      "url": "https://www.marxists.org/archive/../reference/archive/blanqui/1832/defence-speech.htm"
+    },
+    {
+      "name": "Thomas More",
+      "url": "https://www.marxists.org/archive/../reference/archive/more/works/utopia/index.html"
+    },
+    {
+      "name": "James Harrington",
+      "url": "https://www.marxists.org/archive/../reference/archive/harrington-james/index.htm"
+    },
+    {
+      "name": "Charles Fourier",
+      "url": "https://www.marxists.org/archive/../reference/archive/fourier/index.htm"
+    },
+    {
+      "name": "Edward Bellamy",
+      "url": "https://www.marxists.org/archive/../reference/archive/bellamy-ed/index.htm"
+    },
+    {
+      "name": "Petr Kropotkin",
+      "url": "https://www.marxists.org/archive/../reference/archive/kropotkin-peter/index.htm"
+    },
+    {
+      "name": "Ravachol",
+      "url": "https://www.marxists.org/archive/../reference/archive/ravachol/index.htm"
+    },
+    {
+      "name": "Biography",
+      "url": "https://www.marxists.org/archive/../reference/archive/ravachol/biography.htm"
+    },
+    {
+      "name": "Zo d\u2019Axa",
+      "url": "https://www.marxists.org/archive/../reference/archive/zo-daxa/index.htm"
+    },
+    {
+      "name": "Bernard Lazare",
+      "url": "https://www.marxists.org/archive/../reference/archive/lazare-bernard/index.htm"
+    },
+    {
+      "name": "Biography",
+      "url": "https://www.marxists.org/archive/../reference/archive/lazare-bernard/biography.htm"
+    },
+    {
+      "name": "Emile Henry",
+      "url": "https://www.marxists.org/archive/../reference/archive/henry/index.htm"
+    },
+    {
+      "name": "Sebastien Faure",
+      "url": "https://www.marxists.org/archive/../reference/archive/faure/index.htm"
+    },
+    {
+      "name": "Andre Lorulot",
+      "url": "https://www.marxists.org/archive/../reference/archive/lorulot/index.htm"
+    },
+    {
+      "name": "Mikhail Bakunin",
+      "url": "https://www.marxists.org/archive/../reference/archive/bakunin/index.htm"
+    },
+    {
+      "name": "James Guillaume",
+      "url": "https://www.marxists.org/archive/../reference/archive/guillaume/index.htm"
+    },
+    {
+      "name": "Errico Malatesta",
+      "url": "https://www.marxists.org/archive/../archive/malatesta/index.htm"
+    },
+    {
+      "name": "Alexander Berkman",
+      "url": "https://www.marxists.org/archive/../reference/archive/berkman/index.htm"
+    },
+    {
+      "name": "Nestor Makhno",
+      "url": "https://www.marxists.org/archive/../reference/archive/makhno-nestor/index.htm"
+    },
+    {
+      "name": "Emma Goldman",
+      "url": "https://www.marxists.org/archive/../reference/archive/goldman/index.htm"
+    },
+    {
+      "name": "Rudolf Rocker",
+      "url": "https://www.marxists.org/archive/../reference/archive/rocker-rudolf/misc/anarchism-anarcho-syndicalism.htm"
+    },
+    {
+      "name": "Fredy Perlman",
+      "url": "https://www.marxists.org/archive/../reference/archive/perlman-fredy/index.htm"
+    },
+    {
+      "name": "Mary Wollstonecraft",
+      "url": "https://www.marxists.org/archive/../reference/archive/wollstonecraft-mary/index.htm"
+    },
+    {
+      "name": "Harriet Taylor",
+      "url": "https://www.marxists.org/archive/../reference/archive/mill-john-stuart/1869/subjection-women/index.htm"
+    },
+    {
+      "name": "Nicholas Chernyshevsky",
+      "url": "https://www.marxists.org/archive/../reference/archive/chernyshevsky/index.htm"
+    },
+    {
+      "name": "Henry Noel Brailsford",
+      "url": "https://www.marxists.org/archive/../history/archive/brailsford/index.htm"
+    },
+    {
+      "name": "Something new was being created. Something that had never been before in human history. I wanted to have a share in it, I wanted at least to understand it. Was it only the comradeship and joy of battle that always come to compensate for bitter times of struggle? Or was it really something new in the world!",
+      "url": "https://www.marxists.org/archive/../reference/archive/strong-anna-louise/1925/first_time/ch01.htm"
+    },
+    {
+      "name": "Upton Sinclair",
+      "url": "https://www.marxists.org/archive/../reference/archive/sinclair-upton/works/jungle/index.htm"
+    },
+    {
+      "name": "Helen Keller",
+      "url": "https://www.marxists.org/archive/../reference/archive/keller-helen/index.htm"
+    },
+    {
+      "name": "Athur Ransome",
+      "url": "https://www.marxists.org/archive/../history/archive/ransome/index.htm"
+    },
+    {
+      "name": "Arthur Rosenberg",
+      "url": "https://www.marxists.org/archive/../archive/rosenberg/index.htm"
+    },
+    {
+      "name": "Peter Fryer",
+      "url": "https://www.marxists.org/archive/../archive/fryer/index.htm"
+    },
+    {
+      "name": "Anna Louise Strong",
+      "url": "https://www.marxists.org/archive/../reference/archive/strong-anna-louise/index.htm"
+    },
+    {
+      "name": "Attila J\u00f3zsef",
+      "url": "https://www.marxists.org/archive/../archive/jozsef/index.htm"
+    },
+    {
+      "name": "Alice Field",
+      "url": "https://www.marxists.org/archive/../reference/archive/field-alice/index.html"
+    },
+    {
+      "name": "Howard Zinn",
+      "url": "https://www.marxists.org/archive/../archive/zinn/index.htm"
+    },
+    {
+      "name": "Daniel Singer",
+      "url": "https://www.marxists.org/archive/../archive/singer/index.htm"
+    },
+    {
+      "name": "John Pilger",
+      "url": "https://www.marxists.org/archive/../archive/pilger/index.htm"
+    },
+    {
+      "name": "Sun-Tzu",
+      "url": "https://www.marxists.org/archive/../reference/archive/sun-tzu/works/art-of-war/index.htm"
+    },
+    {
+      "name": "Nicolo Machiavelli",
+      "url": "https://www.marxists.org/archive/../reference/archive/machiavelli/index.htm"
+    },
+    {
+      "name": "Biography",
+      "url": "https://www.marxists.org/archive/../reference/archive/machiavelli/biography.htm"
+    },
+    {
+      "name": "Gerrard Winstanley",
+      "url": "https://www.marxists.org/archive/../reference/archive/winstanley/index.htm"
+    },
+    {
+      "name": "In tracing the causes that have degraded woman, I have confined my observations to such as universally act upon the morals and manners of the whole sex, ... I only contend that the men who have been placed in similar situations have acquired a similar character.",
+      "url": "https://www.marxists.org/archive/../reference/archive/wollstonecraft-mary/1792/vindication-rights-woman/ch04.htm"
+    },
+    {
+      "name": "Thomas Paine",
+      "url": "https://www.marxists.org/archive/../reference/archive/paine/index.htm"
+    },
+    {
+      "name": "General Carl von Clausewitz",
+      "url": "https://www.marxists.org/archive/../reference/archive/clausewitz/index.htm"
+    },
+    {
+      "name": "Louis-Ren\u00e9 Villerm\u00e9",
+      "url": "https://www.marxists.org/archive/../archive/villerme/index.htm"
+    },
+    {
+      "name": "Alexis de Tocqueville",
+      "url": "https://www.marxists.org/archive/../reference/archive/de-tocqueville/index.htm"
+    },
+    {
+      "name": "Moses Hess",
+      "url": "https://www.marxists.org/archive/../archive/hess/index.htm"
+    },
+    {
+      "name": "George Washington Plunkett",
+      "url": "https://www.marxists.org/archive/../reference/archive/plunkett-george/tammany-hall/index.htm"
+    },
+    {
+      "name": "Edgar Morin",
+      "url": "https://www.marxists.org/archive/../archive/morin/index.htm"
+    },
+    {
+      "name": "Francis Bacon",
+      "url": "https://www.marxists.org/archive/../reference/archive/bacon/index.htm"
+    },
+    {
+      "name": "Blaise Pascal",
+      "url": "https://www.marxists.org/archive/../reference/archive/pascal/index.htm"
+    },
+    {
+      "name": "Rene Descartes",
+      "url": "https://www.marxists.org/archive/../reference/archive/descartes/index.htm"
+    },
+    {
+      "name": "Spinoza",
+      "url": "https://www.marxists.org/archive/../reference/archive/spinoza/index.htm"
+    },
+    {
+      "name": "Fran\u00e7ois Voltaire",
+      "url": "https://www.marxists.org/archive/../reference/archive/voltaire/index.htm"
+    },
+    {
+      "name": "Denis Diderot",
+      "url": "https://www.marxists.org/archive/../reference/archive/diderot/index.htm"
+    },
+    {
+      "name": "Johann Gottfried Herder",
+      "url": "https://www.marxists.org/archive/../archive/herder/index.htm"
+    },
+    {
+      "name": "Friedrich Jacobi",
+      "url": "https://www.marxists.org/archive/../reference/archive/jacobi/index.htm"
+    },
+    {
+      "name": "Johann Gottlieb Fichte",
+      "url": "https://www.marxists.org/archive/../archive/fichte/index.htm"
+    },
+    {
+      "name": "Friedrich Schelling",
+      "url": "https://www.marxists.org/archive/../archive/schelling/index.htm"
+    },
+    {
+      "name": "G W F Hegel",
+      "url": "https://www.marxists.org/archive/../reference/archive/hegel/index.htm"
+    },
+    {
+      "name": "Heinrich Heine",
+      "url": "https://www.marxists.org/archive/../reference/archive/heine/index.htm"
+    },
+    {
+      "name": "Moses Hess",
+      "url": "https://www.marxists.org/archive/../archive/hess/index.htm"
+    },
+    {
+      "name": "Auguste Comte",
+      "url": "https://www.marxists.org/archive/../reference/archive/comte/index.htm"
+    },
+    {
+      "name": "Percy Bysshe Shelley",
+      "url": "https://www.marxists.org/archive/../archive/shelley/index.htm"
+    },
+    {
+      "name": "Biography",
+      "url": "https://www.marxists.org/archive/../archive/shelley/index.htm#biography"
+    },
+    {
+      "name": "Max Stirner",
+      "url": "https://www.marxists.org/archive/../reference/archive/stirner/index.htm"
+    },
+    {
+      "name": "Ludwig Feuerbach",
+      "url": "https://www.marxists.org/archive/../reference/archive/feuerbach/index.htm"
+    },
+    {
+      "name": "JB Baillie",
+      "url": "https://www.marxists.org/archive/../reference/archive/baillie/origin/index.htm"
+    },
+    {
+      "name": "John McTaggart",
+      "url": "https://www.marxists.org/archive/../reference/archive/mctaggart/index.htm"
+    },
+    {
+      "name": "GW Cunningham",
+      "url": "https://www.marxists.org/archive/../reference/archive/cunningham/thought-reality/index.htm"
+    },
+    {
+      "name": "Rebecca Cooper",
+      "url": "https://www.marxists.org/archive/../reference/archive/cooper/hegel-marx/index.htm"
+    },
+    {
+      "name": "Benedetto Croce",
+      "url": "https://www.marxists.org/archive/../reference/archive/croce/index.htm"
+    },
+    {
+      "name": "Max Weber",
+      "url": "https://www.marxists.org/archive/../reference/archive/weber/index.htm"
+    },
+    {
+      "name": "Cyril Smith",
+      "url": "https://www.marxists.org/archive/../reference/archive/smith-cyril/index.htm"
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "url": "https://www.marxists.org/archive/../reference/archive/nietzsche/index.htm"
+    },
+    {
+      "name": "Jean-Marie Guyau",
+      "url": "https://www.marxists.org/archive/../archive/guyau/index.htm"
+    },
+    {
+      "name": "Adam Smith",
+      "url": "https://www.marxists.org/archive/../reference/archive/smith-adam/index.htm"
+    },
+    {
+      "name": "John Stuart Mill",
+      "url": "https://www.marxists.org/archive/../reference/archive/mill-john-stuart/index.htm"
+    },
+    {
+      "name": "Charles Darwin",
+      "url": "https://www.marxists.org/archive/../reference/archive/darwin/works/origins/index.htm"
+    },
+    {
+      "name": "Lewis Henry Morgan",
+      "url": "https://www.marxists.org/archive/../reference/archive/morgan-lewis/index.htm"
+    },
+    {
+      "name": "Albert Einstein",
+      "url": "https://www.marxists.org/archive/../reference/archive/einstein/index.htm"
+    }
+  ],
+  "works": [
+    {
+      "title": "Marx-Engels Archive Home Page",
+      "url": "https://www.marxists.org/archive/marx/works/../index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Theses on Feuerbach",
+      "url": "https://www.marxists.org/archive/marx/works/1845/theses/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Principles of Communism",
+      "url": "https://www.marxists.org/archive/marx/works/1847/11/prin-com.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "The Communist Manifesto",
+      "url": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Wage-Labor and Capital",
+      "url": "https://www.marxists.org/archive/marx/works/1847/wage-labour/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Preface to A Contribution to the Critique of Political Economy",
+      "url": "https://www.marxists.org/archive/marx/works/1859/critique-pol-economy/preface-abs.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Capital, Volume 1",
+      "url": "https://www.marxists.org/archive/marx/works/1867-c1/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "The Civil War in France",
+      "url": "https://www.marxists.org/archive/marx/works/1871/civil-war-france/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Critique of the Gotha Program",
+      "url": "https://www.marxists.org/archive/marx/works/1875/gotha/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Socialism: Utopian and Scientific",
+      "url": "https://www.marxists.org/archive/marx/works/1880/soc-utop/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Ludwig Feuerbach & the End of Classical German Philosophy",
+      "url": "https://www.marxists.org/archive/marx/works/1886/ludwig-feuerbach/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Selected Works in eBook, PDF and Audiobook formats",
+      "url": "https://www.marxists.org/archive/marx/works/download/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Selected Works on Historical Materialism",
+      "url": "https://www.marxists.org/archive/marx/works/subject/hist-mat/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Collected Works",
+      "url": "https://www.marxists.org/archive/marx/works/cw/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Selected Works",
+      "url": "https://www.marxists.org/archive/marx/works/sw/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Date Index",
+      "url": "https://www.marxists.org/archive/marx/works/date/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Subject Index",
+      "url": "https://www.marxists.org/archive/marx/works/subject/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Letters",
+      "url": "https://www.marxists.org/archive/marx/works/../letters/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Marx Quotes",
+      "url": "https://www.marxists.org/archive/marx/works/subject/quotes/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Biography",
+      "url": "https://www.marxists.org/archive/marx/works/../bio/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Images",
+      "url": "https://www.marxists.org/archive/marx/works/../photo/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Study Guides",
+      "url": "https://www.marxists.org/archive/marx/works/subject/guides/index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Marx/Engels Archive",
+      "url": "https://www.marxists.org/archive/marx/works/../index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Marxists Internet Archive",
+      "url": "https://www.marxists.org/archive/marx/works/../../../index.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Contact",
+      "url": "https://www.marxists.org/archive/marx/works/../../../admin/volunteers/biographies/ablunden.htm",
+      "year": null,
+      "author": "Marx"
+    },
+    {
+      "title": "Marx-Engels Archive Home Page",
+      "url": "https://www.marxists.org/archive/marx/works/../index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Theses on Feuerbach",
+      "url": "https://www.marxists.org/archive/marx/works/1845/theses/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Principles of Communism",
+      "url": "https://www.marxists.org/archive/marx/works/1847/11/prin-com.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "The Communist Manifesto",
+      "url": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Wage-Labor and Capital",
+      "url": "https://www.marxists.org/archive/marx/works/1847/wage-labour/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Preface to A Contribution to the Critique of Political Economy",
+      "url": "https://www.marxists.org/archive/marx/works/1859/critique-pol-economy/preface-abs.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Capital, Volume 1",
+      "url": "https://www.marxists.org/archive/marx/works/1867-c1/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "The Civil War in France",
+      "url": "https://www.marxists.org/archive/marx/works/1871/civil-war-france/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Critique of the Gotha Program",
+      "url": "https://www.marxists.org/archive/marx/works/1875/gotha/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Socialism: Utopian and Scientific",
+      "url": "https://www.marxists.org/archive/marx/works/1880/soc-utop/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Ludwig Feuerbach & the End of Classical German Philosophy",
+      "url": "https://www.marxists.org/archive/marx/works/1886/ludwig-feuerbach/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Selected Works in eBook, PDF and Audiobook formats",
+      "url": "https://www.marxists.org/archive/marx/works/download/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Selected Works on Historical Materialism",
+      "url": "https://www.marxists.org/archive/marx/works/subject/hist-mat/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Collected Works",
+      "url": "https://www.marxists.org/archive/marx/works/cw/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Selected Works",
+      "url": "https://www.marxists.org/archive/marx/works/sw/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Date Index",
+      "url": "https://www.marxists.org/archive/marx/works/date/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Subject Index",
+      "url": "https://www.marxists.org/archive/marx/works/subject/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Letters",
+      "url": "https://www.marxists.org/archive/marx/works/../letters/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Marx Quotes",
+      "url": "https://www.marxists.org/archive/marx/works/subject/quotes/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Biography",
+      "url": "https://www.marxists.org/archive/marx/works/../bio/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Images",
+      "url": "https://www.marxists.org/archive/marx/works/../photo/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Study Guides",
+      "url": "https://www.marxists.org/archive/marx/works/subject/guides/index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Marx/Engels Archive",
+      "url": "https://www.marxists.org/archive/marx/works/../index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Marxists Internet Archive",
+      "url": "https://www.marxists.org/archive/marx/works/../../../index.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "Contact",
+      "url": "https://www.marxists.org/archive/marx/works/../../../admin/volunteers/biographies/ablunden.htm",
+      "year": null,
+      "author": "Engels"
+    },
+    {
+      "title": "V.I. Lenin Internet Archive:",
+      "url": "https://www.marxists.org/archive/lenin/works/../index.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "Collected Works",
+      "url": "https://www.marxists.org/archive/lenin/works/cw/index.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "LIA Director>",
+      "url": "https://www.marxists.org/archive/lenin/works/../../../admin/volunteers/biographies/dwalters.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "Selected Works",
+      "url": "https://www.marxists.org/archive/lenin/works/sw/index.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "Year Index",
+      "url": "https://www.marxists.org/archive/lenin/works/date/index.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "All Works\u2014By Title",
+      "url": "https://www.marxists.org/archive/lenin/works/../by-title.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "All Works\u2014By Date",
+      "url": "https://www.marxists.org/archive/lenin/works/../by-date.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "Lenin Subject Index",
+      "url": "https://www.marxists.org/archive/lenin/works/subject/index.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "Lenin Quotes",
+      "url": "https://www.marxists.org/archive/lenin/works/../quotes.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "A Note on\n\t\t  \u201cNotes\u201d and \n\t\t  Other IssuesConcerningLenin Collected Works",
+      "url": "https://www.marxists.org/archive/lenin/works/note.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "Lenin Internet Archive",
+      "url": "https://www.marxists.org/archive/lenin/works/../index.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "Marxists Internet \n\t      Archive",
+      "url": "https://www.marxists.org/archive/lenin/works/../../../archive/index.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "D. Walters",
+      "url": "https://www.marxists.org/archive/lenin/works/../../../admin/volunteers/biographies/dwalters.htm",
+      "year": null,
+      "author": "Lenin"
+    },
+    {
+      "title": "languages as possible",
+      "url": "https://www.marxists.org/archive/trotsky/works/../../../xlang/trotsky.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Administrator of the Trotsky Internet Archive",
+      "url": "https://www.marxists.org/archive/trotsky/works/../../../admin/volunteers/biographies/dwalters.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "1901\u20131910",
+      "url": "https://www.marxists.org/archive/trotsky/works/#a1901",
+      "year": "1901",
+      "author": "Trotsky"
+    },
+    {
+      "title": "1911\u20131917",
+      "url": "https://www.marxists.org/archive/trotsky/works/#a1911",
+      "year": "1911",
+      "author": "Trotsky"
+    },
+    {
+      "title": "1918\u20131919",
+      "url": "https://www.marxists.org/archive/trotsky/works/#a1918",
+      "year": "1918",
+      "author": "Trotsky"
+    },
+    {
+      "title": "1925\u20131926",
+      "url": "https://www.marxists.org/archive/trotsky/works/#a1925",
+      "year": "1925",
+      "author": "Trotsky"
+    },
+    {
+      "title": "1928\u20131929",
+      "url": "https://www.marxists.org/archive/trotsky/works/#a1928",
+      "year": "1928",
+      "author": "Trotsky"
+    },
+    {
+      "title": "e-book format is here",
+      "url": "https://www.marxists.org/archive/trotsky/works/../../../ebooks/trotsky/index.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "is available here",
+      "url": "https://www.marxists.org/archive/trotsky/works/01-biblio.pdf",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Selected Quotations and Passages from Leon Trotsky",
+      "url": "https://www.marxists.org/archive/trotsky/works/../quotes.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Selected Works",
+      "url": "https://www.marxists.org/archive/trotsky/works/sw.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Leon Trotsky on China",
+      "url": "https://www.marxists.org/archive/trotsky/works/../china/index.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Leon Trotsky on Britain",
+      "url": "https://www.marxists.org/archive/trotsky/works/../britain/index.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "The Rise of German Fascism",
+      "url": "https://www.marxists.org/archive/trotsky/works/../germany/index.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "The Spanish Revolution",
+      "url": "https://www.marxists.org/archive/trotsky/works/../spain/index.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Our Revolution: Essays in Working Class and International Revolution, 1904\u20131917",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1918/ourrevo/index.htm",
+      "year": "1904",
+      "author": "Trotsky"
+    },
+    {
+      "title": "Literature and Art",
+      "url": "https://www.marxists.org/archive/trotsky/works/art/index.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Letters to Belgium",
+      "url": "https://www.marxists.org/archive/trotsky/works/../belgium/index.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Trotsky on Women",
+      "url": "https://www.marxists.org/archive/trotsky/works/../women/index.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "On Black Nationalism",
+      "url": "https://www.marxists.org/archive/trotsky/works/1940/negro1.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Political Profiles",
+      "url": "https://www.marxists.org/archive/trotsky/works/../profiles/index.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "On the Philosophy of the Superman",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1900/12/nietzsche.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "On Optimism and Pessimism; on the 20th Century and on Many Other Issues",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1901/xx/20thcent.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Report of the Siberian Delegation",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1903/xx/siberian.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Our Political Tasks",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1904/tasks/index.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "The Proletariat and the Revolution",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1918/ourrevo/ch02.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "The events in Petersburg",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1918/ourrevo/ch03.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Political Letter II",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1905/03/pol-letter.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Open Letter to Professor P.N. Miliukov",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1905/08/letter.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Results and Prospects",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1931/tpr/rp-index.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "The Year 1905",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1907/1905/index.htm",
+      "year": "1905",
+      "author": "Trotsky"
+    },
+    {
+      "title": "Click Here for PDF version",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1907/1905/1905.pdf",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "The Soviet and the Revolution",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1918/ourrevo/ch05.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Preface toMy Round Trip",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1918/ourrevo/ch06.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Leo Tolstoy, Poet & Rebel",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1908/09/tolstoy.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "The Bankruptcy of Individual Terrorism",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1909/xx/tia09.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "The Young Turks",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1909/01/1909-turks.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "The Intelligentsia and Socialism",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1910/xx/intell.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Why Marxists Oppose Individual Terrorism",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1911/11/tia09.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "War and the International",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1914/war/index.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Click Here for PDF version",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1914/war/warintl.pdf",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Why the German Social-Democracy Failed",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1915/03/1915-war.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "First Year of the War",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1915/first-year-of-war.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Clemency!",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1916/05/clemency.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "The National Principle",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1916/national-principle.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "The Big Lie: The Defence of Small Nations",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1916/small-nations.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "On the Events in Dublin",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1916/07/dublin.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "On the Paris Commune",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1917/03/commune.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "The Lessons of the Great Year",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1918/ourrevo/ch07.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "On the Eve of a Revolution",
+      "url": "https://www.marxists.org/archive/trotsky/works/../1918/ourrevo/ch08.htm",
+      "year": null,
+      "author": "Trotsky"
+    },
+    {
+      "title": "Marxist Writers",
+      "url": "https://www.marxists.org/archive/luxemburg/../index.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The Russian Revolution",
+      "url": "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/index.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Biography",
+      "url": "https://www.marxists.org/archive/luxemburg/../../glossary/people/l/u.htm#luxemburg-rosa",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Photo Collection",
+      "url": "https://www.marxists.org/archive/luxemburg/img/index.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "What Are the Origins of May Day?",
+      "url": "https://www.marxists.org/archive/luxemburg/1894/02/may-day.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The Polish Question at the International Congress in London",
+      "url": "https://www.marxists.org/archive/luxemburg/1896/07/polish-question.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Social Democracy and the National Struggles in Turkey",
+      "url": "https://www.marxists.org/archive/luxemburg/1896/10/10.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The Industrial Development of Poland",
+      "url": "https://www.marxists.org/archive/luxemburg/1898/industrial-poland/index.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Opportunism and the art of the possible",
+      "url": "https://www.marxists.org/archive/luxemburg/1898/09/30.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Speeches to Stuttgart Congress",
+      "url": "https://www.marxists.org/archive/luxemburg/1898/10/04.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "A question of tactics",
+      "url": "https://www.marxists.org/archive/luxemburg/1899/07/tactics.html",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Speech to the Hanover Congress",
+      "url": "https://www.marxists.org/archive/luxemburg/1899/10/11.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The Dreyfus Affair and the Millerand Case",
+      "url": "https://www.marxists.org/archive/luxemburg/1899/11/dreyfus-affair.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Militia and Militarism",
+      "url": "https://www.marxists.org/archive/luxemburg/1899/02/26.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "In Defense of Nationality",
+      "url": "https://www.marxists.org/archive/luxemburg/1900/nationality/index.html",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Reform or Revolution",
+      "url": "https://www.marxists.org/archive/luxemburg/1900/reform-revolution/index.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The Socialist Crisis in France",
+      "url": "https://www.marxists.org/archive/luxemburg/1901/socialist-crisis-france/index.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "To the National Council of the French Worker\u2019s Party",
+      "url": "https://www.marxists.org/archive/luxemburg/1901/05/05.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Martinique",
+      "url": "https://www.marxists.org/archive/luxemburg/1902/05/15.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The Eight Hour Day at the Party Congress",
+      "url": "https://www.marxists.org/archive/luxemburg/1902/09/19.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "An anti-clerical policy of Socialism",
+      "url": "https://www.marxists.org/archive/luxemburg/1903/01/01.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "In Memory of the Proletarian Party",
+      "url": "https://www.marxists.org/archive/luxemburg/1903/02/proletariat-party.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Marxist Theory and the Proletariat",
+      "url": "https://www.marxists.org/archive/luxemburg/1903/03/14-abs.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Stagnation and Progress of Marxism",
+      "url": "https://www.marxists.org/archive/luxemburg/1903/misc/stagnation.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Lassalle and the Revolution",
+      "url": "https://www.marxists.org/archive/luxemburg/1904/03/lassalle.html",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "In the Storm",
+      "url": "https://www.marxists.org/archive/luxemburg/1904/05/01.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Social Democracy and Parliamentarism",
+      "url": "https://www.marxists.org/archive/luxemburg/1904/06/05.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Organizational Questions of the Russian Social Democracy",
+      "url": "https://www.marxists.org/archive/luxemburg/1904/questions-rsd/index.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The Polish Question and the Socialist Movement",
+      "url": "https://www.marxists.org/archive/luxemburg/1905/misc/polish-question.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The Revolution in Russia",
+      "url": "https://www.marxists.org/archive/luxemburg/1905/02/08.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Socialism and the Churches",
+      "url": "https://www.marxists.org/archive/luxemburg/1905/misc/socialism-churches.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The Mass Strike",
+      "url": "https://www.marxists.org/archive/luxemburg/1906/mass-strike/index.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Riot and Revolution",
+      "url": "https://www.marxists.org/archive/luxemburg/1906/misc/riot-revolution.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Blanquism and Social Democracy",
+      "url": "https://www.marxists.org/archive/luxemburg/1906/06/blanquism.html",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Two Methods of Trade-Union Policy",
+      "url": "https://www.marxists.org/archive/luxemburg/1907/10/24.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "25th anniversary of Marx\u2019s death",
+      "url": "https://www.marxists.org/archive/luxemburg/1908/03/15.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The First May as a Day of Working-Class Struggle",
+      "url": "https://www.marxists.org/archive/luxemburg/1908/09/mayday.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "On the Question of Budget Approval",
+      "url": "https://www.marxists.org/archive/luxemburg/1908/09/budget.html",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The Party School",
+      "url": "https://www.marxists.org/archive/luxemburg/1908/09/14.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The National Question",
+      "url": "https://www.marxists.org/archive/luxemburg/1909/national-question/index.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Revolutionary Hangover",
+      "url": "https://www.marxists.org/archive/luxemburg/1909/04/hangover.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "The Next Step",
+      "url": "https://www.marxists.org/archive/luxemburg/1910/03/15.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Attrition or Struggle?",
+      "url": "https://www.marxists.org/archive/luxemburg/../../history/etol/newspape/workers-action-uk/Workers Action no143 June 1979.pdf#page=11",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Part 2",
+      "url": "https://www.marxists.org/archive/luxemburg/../../history/etol/newspape/workers-action-uk/Workers Action no144 June 1979.pdf#page=8",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Part 3",
+      "url": "https://www.marxists.org/archive/luxemburg/../../history/etol/newspape/workers-action-uk/Workers Action no145 June 1979.pdf#page=8",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "concluding remarks: alternate translation",
+      "url": "https://www.marxists.org/archive/luxemburg/1910/theory-practice/postscript.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Theory & Practice",
+      "url": "https://www.marxists.org/archive/luxemburg/1910/theory-practice/index.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Concerning Morocco",
+      "url": "https://www.marxists.org/archive/luxemburg/1911/07/24.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Peace Utopias",
+      "url": "https://www.marxists.org/archive/luxemburg/1911/05/11.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "Mass Action",
+      "url": "https://www.marxists.org/archive/luxemburg/1911/08/29.htm",
+      "year": null,
+      "author": "Luxemburg"
+    },
+    {
+      "title": "M.I.A. Library",
+      "url": "https://www.marxists.org/archive/gramsci/../index.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Lawrence & Wishart",
+      "url": "https://www.marxists.org/archive/gramsci/mailto:sally@lwbooks.co.uk",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Hoare gave the MIA permission",
+      "url": "https://www.marxists.org/archive/gramsci/hoare_permission_for_spn.txt",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Mitchell Abidor",
+      "url": "https://www.marxists.org/archive/gramsci/../../admin/volunteers/biographies/mabidor.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Creative Commons (Attribute & ShareAlike)",
+      "url": "https://www.marxists.org/archive/gramsci/../../admin/legal/cc/by-sa.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Encyclopedia of Marxism",
+      "url": "https://www.marxists.org/archive/gramsci/../../glossary/people/g/r.htm#antonio-gramsci",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "An Introduction to Gramsci\u2019s Life and Thought",
+      "url": "https://www.marxists.org/archive/gramsci/intro.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Gramsci\u2019s Arrest",
+      "url": "https://www.marxists.org/archive/gramsci/schucht-letter.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Newspapers and the Workers",
+      "url": "https://www.marxists.org/archive/gramsci/1916/12/newspapers.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Men or machines?",
+      "url": "https://www.marxists.org/archive/gramsci/1916/12/men_or_machines.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Character",
+      "url": "https://www.marxists.org/archive/gramsci/1917/03/character.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The Revolution Against \u2019Capital\u2019",
+      "url": "https://www.marxists.org/archive/gramsci/1917/12/revolution-against-capital.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "alternate translation",
+      "url": "https://www.marxists.org/archive/gramsci/1917/12/revolution-against-capital-alt.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "One Year of History",
+      "url": "https://www.marxists.org/archive/gramsci/1918/03/one-year.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Red Ink",
+      "url": "https://www.marxists.org/archive/gramsci/1919/04/red-ink.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The Price of History",
+      "url": "https://www.marxists.org/archive/gramsci/1919/06/price-history.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Workers\u2019 democracy",
+      "url": "https://www.marxists.org/archive/gramsci/1919/06/workers-democracy.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The conquest of the state",
+      "url": "https://www.marxists.org/archive/gramsci/1919/07/conquest-state.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Workers and peasants",
+      "url": "https://www.marxists.org/archive/gramsci/1919/08/workers-peasants.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The development of the revolution",
+      "url": "https://www.marxists.org/archive/gramsci/1919/09/development-revolution.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Chronicles of the new order",
+      "url": "https://www.marxists.org/archive/gramsci/1919/09/chronicles.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "To the section commissars of the FIAT-Brevetti workshops",
+      "url": "https://www.marxists.org/archive/gramsci/1919/09/fiat.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Unions and councils",
+      "url": "https://www.marxists.org/archive/gramsci/1919/10/unions-councils.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Unions and the dictatorship",
+      "url": "https://www.marxists.org/archive/gramsci/1919/10/unions-dictatorship.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Revolutionaries and elections",
+      "url": "https://www.marxists.org/archive/gramsci/1919/11/elections.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The problem of power",
+      "url": "https://www.marxists.org/archive/gramsci/1919/11/problem-power.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The events of 2\u20133 December (1919)",
+      "url": "https://www.marxists.org/archive/gramsci/1919/12/events-december.htm",
+      "year": "1919",
+      "author": "Gramsci"
+    },
+    {
+      "title": "Workers and peasants",
+      "url": "https://www.marxists.org/archive/gramsci/1920/01/workers-peasants.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Split or Disorder?",
+      "url": "https://www.marxists.org/archive/gramsci/1920/12/split-disorder.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The ape people",
+      "url": "https://www.marxists.org/archive/gramsci/1921/01/ape-people.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "War is war",
+      "url": "https://www.marxists.org/archive/gramsci/1921/01/war-is-war.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The Turin factory council movement",
+      "url": "https://www.marxists.org/archive/gramsci/1921/03/turin_councils.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The Communists and the Elections",
+      "url": "https://www.marxists.org/archive/gramsci/1921/04/communists_elections.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Men of Flesh and Blood",
+      "url": "https://www.marxists.org/archive/gramsci/1921/05/flesh-blood.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The \u201cArditi del Popolo\u201d",
+      "url": "https://www.marxists.org/archive/gramsci/1921/07/arditi_del_popolo.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The Two Fascisms",
+      "url": "https://www.marxists.org/archive/gramsci/1921/08/two_fascisms.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The Grimace of Gwynplaine",
+      "url": "https://www.marxists.org/archive/gramsci/1921/08/gwynplaine.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The Agrarian Struggle in Italy",
+      "url": "https://www.marxists.org/archive/gramsci/1921/08/agrarian_struggle.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The tactic of failure",
+      "url": "https://www.marxists.org/archive/gramsci/1921/09/tactic-failure.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Parties and Masses",
+      "url": "https://www.marxists.org/archive/gramsci/1921/09/parties-masses.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The Genoa Conference and Italy",
+      "url": "https://www.marxists.org/archive/gramsci/1922/04/genoa.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Lessons",
+      "url": "https://www.marxists.org/archive/gramsci/1922/05/lessons.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "To Comrades Cachin, Monmousseou, Treint, Semard, Jacobet al.",
+      "url": "https://www.marxists.org/archive/gramsci/../trotsky/1923/03/ecci.html",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "The Vatican",
+      "url": "https://www.marxists.org/archive/gramsci/1924/03/vatican.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Against Pessimism",
+      "url": "https://www.marxists.org/archive/gramsci/1924/03/pessimism.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "part 1",
+      "url": "https://www.marxists.org/archive/gramsci/../../history/international/comintern/sections/britain/periodicals/communist_review/1924/v5-n08-dec-1924-communist-review-goog-hathi.pdf#page=19",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "part 2",
+      "url": "https://www.marxists.org/archive/gramsci/../../history/international/comintern/sections/britain/periodicals/communist_review/1925/v5-n09-jan-1925-communist-review-goog-hathi.pdf#page=39",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Neither Fascism nor Liberalism: Sovietism!",
+      "url": "https://www.marxists.org/archive/gramsci/1924/10/fascism-liberalism.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Introduction to the First Course of the Party School",
+      "url": "https://www.marxists.org/archive/gramsci/1925/05/intro_party_school.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Speech to the Italian parliament",
+      "url": "https://www.marxists.org/archive/gramsci/1925/05/speech.htm",
+      "year": null,
+      "author": "Gramsci"
+    },
+    {
+      "title": "Note on spelling and transliteration",
+      "url": "https://www.marxists.org/reference/archive/mao/#n1",
+      "year": null,
+      "author": "Mao"
+    },
+    {
+      "title": "Biography",
+      "url": "https://www.marxists.org/reference/archive/mao/../../../glossary/people/m/a.htm#mao-tse-tung",
+      "year": null,
+      "author": "Mao"
+    },
+    {
+      "title": "All Works by Date",
+      "url": "https://www.marxists.org/reference/archive/mao/selected-works/date-index.htm",
+      "year": null,
+      "author": "Mao"
+    },
+    {
+      "title": "Selected Works by Volume",
+      "url": "https://www.marxists.org/reference/archive/mao/selected-works/index.htm",
+      "year": null,
+      "author": "Mao"
+    },
+    {
+      "title": "Works in PDF",
+      "url": "https://www.marxists.org/reference/archive/mao/works/pdf/index.htm",
+      "year": null,
+      "author": "Mao"
+    },
+    {
+      "title": "Poetry",
+      "url": "https://www.marxists.org/reference/archive/mao/selected-works/poems/index.htm",
+      "year": null,
+      "author": "Mao"
+    },
+    {
+      "title": "Images",
+      "url": "https://www.marxists.org/reference/archive/mao/images/index.htm",
+      "year": null,
+      "author": "Mao"
+    },
+    {
+      "title": "Note on spelling and  transliteration:",
+      "url": "https://www.marxists.org/reference/archive/mao/#b1",
+      "year": null,
+      "author": "Mao"
+    },
+    {
+      "title": "Chinese Communism",
+      "url": "https://www.marxists.org/reference/archive/mao/../../../subject/china/index.htm",
+      "year": null,
+      "author": "Mao"
+    },
+    {
+      "title": "Contact",
+      "url": "https://www.marxists.org/reference/archive/mao/../../../admin/volunteers/biographies/mike.htm",
+      "year": null,
+      "author": "Mao"
+    },
+    {
+      "title": "Marxist Writers",
+      "url": "https://www.marxists.org/archive/guevara/../index.htm",
+      "year": null,
+      "author": "Che Guevara"
+    },
+    {
+      "title": "Marxist Writers",
+      "url": "https://www.marxists.org/archive/guevara/../index.htm",
+      "year": null,
+      "author": "Che Guevara"
+    },
+    {
+      "title": "Cuban History",
+      "url": "https://www.marxists.org/archive/guevara/../../history/cuba/index.htm",
+      "year": null,
+      "author": "Che Guevara"
+    },
+    {
+      "title": "Marxist Internet Archive",
+      "url": "https://www.marxists.org/archive/guevara/../../index.htm",
+      "year": null,
+      "author": "Che Guevara"
+    },
+    {
+      "title": "Brian Baggins",
+      "url": "https://www.marxists.org/archive/guevara/../../admin/volunteers/steering.htm#emeritus",
+      "year": null,
+      "author": "Che Guevara"
+    },
+    {
+      "title": "Subjects",
+      "url": "https://www.marxists.org/subject/africa/fanon/../../index.htm",
+      "year": null,
+      "author": "Fanon"
+    },
+    {
+      "title": "Africa",
+      "url": "https://www.marxists.org/subject/africa/fanon/../index.htm",
+      "year": null,
+      "author": "Fanon"
+    },
+    {
+      "title": "Biography",
+      "url": "https://www.marxists.org/subject/africa/fanon/../../../glossary/people/f/a.htm#fanon-frantz",
+      "year": null,
+      "author": "Fanon"
+    },
+    {
+      "title": "National Culture and the Fight for Freedom",
+      "url": "https://www.marxists.org/subject/africa/fanon/national-culture.htm",
+      "year": null,
+      "author": "Fanon"
+    },
+    {
+      "title": "The Pitfalls of National Consciousness",
+      "url": "https://www.marxists.org/subject/africa/fanon/pitfalls-national.htm",
+      "year": null,
+      "author": "Fanon"
+    },
+    {
+      "title": "The Wretched of the Earth. Conclusion",
+      "url": "https://www.marxists.org/subject/africa/fanon/conclusion.htm",
+      "year": null,
+      "author": "Fanon"
+    },
+    {
+      "title": "Preface to \u201cWretched of the Earth\u201d",
+      "url": "https://www.marxists.org/subject/africa/fanon/../../../reference/archive/sartre/1961/preface.htm",
+      "year": null,
+      "author": "Fanon"
+    },
+    {
+      "title": "African Socialism Revisited",
+      "url": "https://www.marxists.org/subject/africa/fanon/../nkrumah/1967/african-socialism-revisited.htm",
+      "year": null,
+      "author": "Fanon"
+    },
+    {
+      "title": "All Cultures are Not Equal",
+      "url": "https://www.marxists.org/subject/africa/fanon/../malik/not-equal.htm",
+      "year": null,
+      "author": "Fanon"
+    },
+    {
+      "title": "Marxism and Anti-Imperialism in Africa",
+      "url": "https://www.marxists.org/subject/africa/fanon/../index.htm",
+      "year": null,
+      "author": "Fanon"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Historical Materialism",
+      "url": "../archive/marx/works/subject/hist-mat/index.htm"
+    }
+  ]
+}

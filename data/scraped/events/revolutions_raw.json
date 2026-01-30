@@ -1,0 +1,5323 @@
+[
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q24951395"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1908 Haitian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Republic of Haiti (1859\u20131957)"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Haiti"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1908-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1908-12-02T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q129581788"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q129581788"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kufa"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q134623331"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cibae\u00f1o Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "First Republic (Dominican Republic)"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cibao"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1857-07-07T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1858-06-21T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1857\u20131858 revolution in the Dominican Republic"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q123944461"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Khalji Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Delhi Sultanate"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1290-02-08T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1290-06-20T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in the Delhi Sultanate"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q97642232"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Neuch\u00e2tel revolution"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in Neuch\u00e2tel in 1848"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12055219"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q12055219"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q108749815"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Circassian Revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Circassia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q135012695"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Progressive and Popular Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Burkina Faso"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2025-04-06T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Burkina Faso Revolution"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q91271784"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Chinese revolutions"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1911-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1976-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "series of political revolutions in China"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q17015429"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of 1848 in Luxembourg"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Luxembourg"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q25397029"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1859 Haitian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Second Empire of Haiti"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Port-au-Prince"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1858-10-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1859-01-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q15733401"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of Dignity"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ukraine"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Mariinskyi Park"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2013-11-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2014-02-23T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2014 revolution in Ukraine"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q35583796"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Abd al-Rahman ibn Muhammad ibn al-Ash'ath's revolt"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Umayyad Caliphate"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "0700-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "0704-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "rebellion of Abd al-Rahman ibn Muhammad ibn al-Ash'ath against Umayyads"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q25633349"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q25633349"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q28663218"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Coro Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Venezuela"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in Venezuela"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q13605743"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2013 Egyptian coup d'\u00e9tat"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Egypt"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Heliopolis Palace"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Military coup overthrowing Mohamed Morsi"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q9068538"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ethiopian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ethiopian Empire"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1974-02-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1974 period of sociopolitical upheaval in Ethiopia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q19356877"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Quetzalteque Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Guatemala"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1897-09-02T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1897-09-14T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q19688873"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Tragic Week"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Guatemala"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1920-04-08T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1920-04-14T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16625168"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of the Seven Chiefs"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Argentina"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Santa Fe"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1580-06-10T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1580-07-11T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q20063201"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Serene Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Taiwan"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "series of peaceful reform initiatives aimed at promoting and completing Taiwan's democratization process by the then President of the Republic of China and Chairman of the Chinese Kuomintang, Lee Teng-hui"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6107215"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of May 1811"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Viceroyalty of the R\u00edo de la Plata"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Asunci\u00f3n"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in Paraguay"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q125692807"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q125692807"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Russia"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Dagestan"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12203914"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolt of Cairo (1800)"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Egypt"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cairo"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1800-03-20T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1800-04-18T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "A revolt during the French Campaign in Egypt"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11703010"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Spanish Revolution of 1854"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kingdom of Spain"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1854-06-28T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1854-07-28T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in 1854"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6107220"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ecuadorian Revolution of 1944"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ecuador"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q13605743"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2013 Egyptian coup d'\u00e9tat"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Egypt"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Suez"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Military coup overthrowing Mohamed Morsi"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11703023"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of 1934 in Cantabria"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Second Spanish Republic"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cantabria"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1934-10-05T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1934-10-18T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q60744017"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Quiet Revolution"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "period of sociopolitical and cultural change in Ireland"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q137690829"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of 1848\u20131849 in the Papal States"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Papal States"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q8044582"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Xinhai Revolution in Xinjiang"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Xinjiang"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1911-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1912-01-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q13605743"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2013 Egyptian coup d'\u00e9tat"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Egypt"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Tahrir Square"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Military coup overthrowing Mohamed Morsi"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q14746872"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Syrian revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Syria"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2011-03-15T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2012-06-12T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "early stage of protests in 2011"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q28717261"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "The Resistance of Al-Sabihaiya and Muhammad Al-Kablouti (1871)"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q136821254"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of 1905 in Belarus"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q112555199"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of July 17"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ecuador"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1851 revolution in Ecuador"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12809896"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Zaydi Revolt"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Umayyad Caliphate"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kufa"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Hasan ibn Zayd\u2019\u016bl-Alav\u00ee"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q22314611"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Spanish Revolution of 1848"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kingdom of Spain"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1848-03-26T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1848-05-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q122929851"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Odjak of Algiers Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Regency of Algiers"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Algiers"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1659-06-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1659-09-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1659 revolution"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6107265"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Tricolor Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Uruguay"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "unsuccessful revolution in Uruguay in 1875"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q13605743"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2013 Egyptian coup d'\u00e9tat"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Egypt"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Port Said"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Military coup overthrowing Mohamed Morsi"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q15634716"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "June 2013 Egyptian protests"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Egypt"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Protests occurred in Egypt on 30 June 2013."
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q20106628"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of 1933"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Andorra"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1933-04-05T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1934-07-23T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1933 pro-democracy uprising in Andorra"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q132861153"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Aftermath of the July Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Bangladesh"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2024-08-05T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "events after the end of July Revolution of Bangladesh"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q17017738"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Decembrist revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Argentina"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1828-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1831-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "war in Argentina"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q136387966"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cretan Revolt of 1895-1898"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Greece"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Crete"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6895752"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Moldavian Revolution of 1848"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Unsuccessful Romanian liberal movement"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6107179"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of 1934 in the Basque Country"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Second Spanish Republic"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Basque Autonomous Community"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q104845861"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kalimantan Physical Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Dutch East Indies"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Borneo"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1945-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1949-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1945\u20131950 armed conflict in Indonesia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11391276"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "August Revolution theory"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Empire of Japan"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q126029324"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Sena revolution of Bengal"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "mid 12th century revolution in Bengal"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q25397037"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1915 Haitian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Republic of Haiti (1859\u20131957)"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Haiti"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1915-07-27T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1915-07-28T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q25397027"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1820 Haitian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kingdom of Haiti"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Haiti"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1820-09-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1820-10-26T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q19605695"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of 1951, Nepal"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Nepal"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "political movement against the direct rule by the Rana dynasty of Nepal"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6107192"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q6107192"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Bolivia"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cochabamba"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q136747398"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q136747398"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Czechoslovakia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16708757"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ukrainian national revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cossack Hetmanate"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1648-01-25T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1676-09-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1648\u20131676 revolution"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7318712"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution in the Kingdom of Poland"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Congress Poland"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Russian Empire"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1905-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1907-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "20th-century insurrection in Poland"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q85743519"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Athenian Revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Classical Athens"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "-0507-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "political transformation of Athens ca. 508 BCE"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6107187"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q6107187"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Upper Peru"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cochabamba"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q25397030"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1876 Haitian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Republic of Haiti (1859\u20131957)"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Haiti"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1875-05-15T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1876-04-15T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q123925308"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Chechen Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Soviet Union"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Checheno-Ingush Autonomous Soviet Socialist Republic"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1991-08-19T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1991-09-15T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1991 popular uprising in Chechnya"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q13605743"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2013 Egyptian coup d'\u00e9tat"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Egypt"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Alexandria"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Military coup overthrowing Mohamed Morsi"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q15733401"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of Dignity"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ukraine"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Maidan Nezalezhnosti"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2013-11-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2014-02-23T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2014 revolution in Ukraine"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q109363077"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q109363077"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Agraciada Beach"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16707899"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Sokoto Revolution"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1804-02-21T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1808-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution in West Africa 1804"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q106434952"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q106434952"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16976566"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Abkhazian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Republic of Abkhazia"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2014-04-29T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2014-08-24T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2014 episode in the history of Abkhazia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6507837"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Le Van Khoi revolt"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Southern Vietnam"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1833-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1835-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1833\u20131835 revolt in Vietnam"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6107206"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Tuxtepec revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Mexico"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q109364443"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q109364443"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q109368361"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q109368361"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q109594380"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q109594380"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6464343"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "La Paz Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Bolivia"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "La Paz"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1809 revolt in La Paz, Rio de la Plata"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q104845861"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kalimantan Physical Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Indonesia"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Borneo"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1945-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1949-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1945\u20131950 armed conflict in Indonesia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16931679"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Overthrow of the Roman monarchy"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Roman Kingdom"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ancient Rome"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "-0509-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "-0508-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Political revolution (traditionally 509 BC) which expelled the last king of Rome and established the Roman Republic"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q106419770"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q106419770"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Germany"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q7318720"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of the Restorers"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Buenos Aires"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1833-10-11T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1833-11-03T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "rebellion that took place in Buenos Aires in 1833"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q25514330"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q25514330"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Abbasid Caliphate"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q57497418"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q57497418"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Spain"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q17086661"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of 1859"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1859-01-05T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1859-05-21T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q121245739"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q121245739"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q129716811"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q129716811"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Abbasid Caliphate"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Upper Mesopotamia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q9068534"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of 11 September 1852"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Argentina"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1852-09-11T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "coup d'etat by the ruling class of Buenos Aires against the rest of the Argentine Confederation. It resulted in the Province of Buenos Aires declaring independence as the State of Buenos Aires, which lasted for ten years"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q16422057"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "J\u00f8rgen J\u00f8rgensen's Revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Norwegian Iceland"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1809-06-26T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1809-08-22T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in Iceland"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q85288797"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "The events of the 1989 Romanian Revolution in Cluj-Napoca"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Romania"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cluj-Napoca"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q124477961"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q124477961"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q25397035"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1888 Haitian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Republic of Haiti (1859\u20131957)"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Haiti"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1887-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1888-08-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution occurred in Haiti in 1888"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q25397024"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Reform Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Republic of Haiti (1820\u20131849)"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Haiti"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1843-01-27T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1843-03-26T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1843 revolution in Haiti"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q61750249"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Veintemilla Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ecuador"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ecuador"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1876-09-08T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1876-12-26T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q136387966"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cretan Revolt of 1895-1898"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ottoman Empire"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Crete"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q12577605"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Three Districts Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Republic of China"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution in North of then Xinjiang province in 1944, in Republic of China"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q122296634"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of 1946"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Haiti"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q17028780"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolt of Tyre"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Tyre"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "0996-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "0998-05-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "siege by the Fatimids"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q112205193"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Luxembourg communist revolution"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "failed communist revolution"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q9068529"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolution of the 44"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "El Salvador"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1894 revolution in El Salvador"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q10746587"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "March Revolution (Ecuador)"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ecuador"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ecuador"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1845-03-06T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1845-06-17T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "March 1845 revolution in Ecuador"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q8690"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1966\u20131976 Maoist sociopolitical movement in China"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cultural Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "People's Republic of China"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1966-05-16T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1976-10-06T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q42976"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "second of two 1917 revolutions in Russia"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "October Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Russian Republic"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1917-11-07T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1917-11-08T00:00:00Z"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Saint Petersburg"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6534"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in France from 1789 to 1799"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "French Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "France"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1789-07-14T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1799-11-09T00:00:00Z"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "France"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q33761"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "protests and revolutions in the Arab world in the 2010s"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Arab Spring"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2010-12-18T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2012-12-01T00:00:00Z"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Arab world"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q11264"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in Cuba culminating in 1959"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cuban Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cuba"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1953-07-26T00:00:00Z"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cuba"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6107175"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "civil war in Uruguay"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Uruguayan revolution of 1904"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Uruguay"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Uruguay"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q8729"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1917\u201323 transition from monarchy to USSR"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Russian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Russian Empire"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Russian Empire"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q769960"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1945 uprising led by Viet Minh"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "August Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Vietnam"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Vietnam"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1945-08-16T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1945-08-30T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q799097"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1848/1849 regional uprising in the Grand Duchy of Baden"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Baden Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Grand Duchy of Baden"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5408962"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1897 uprising in Uruguay"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Uruguayan revolution of 1897"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Uruguay"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q214426"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "nationwide armed struggle in Mexico (1910\u20131920)"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Mexican Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Mexico"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Mexico"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1910-11-20T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1920-05-21T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q682258"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1989-1990 process disestablishing the GDR"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Die Wende and Peaceful Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "German Democratic Republic"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2081446"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Military and political event which led to the creation of the Mongolian People's Republic"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Outer Mongolian Revolution of 1921"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Outer Mongolia"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Outer Mongolia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q473716"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "European Revolution of 1848"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Hungarian Revolution of 1848"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Hungary"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kingdom of Hungary"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1848-03-15T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1849-10-04T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q689128"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1791 slave revolt in the French colony of Saint-Domingue"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Haitian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Saint-Domingue"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Saint-Domingue"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1791-08-14T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1804-01-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3458360"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "First Burkinab\u00e8 Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Burkina Faso"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4301694"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "popular uprisal against Monaco's ruler in 1910"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Monegasque Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Monaco"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Monaco"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1910-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1911-01-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q459162"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2005 revolution in Kyrgyzstan"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Tulip Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kyrgyzstan"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kyrgyzstan"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2005-03-22T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2005-04-11T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q808928"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution from 1848 till 1849 in Berlin"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "March Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "German Confederation"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Berlin"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q838980"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1810 revolution in Buenos Aires"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "May Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Viceroyalty of the R\u00edo de la Plata"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Buenos Aires"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4298662"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1908 restoration of constitutional rule in the Ottoman Empire"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Young Turk Revolution of 1908"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ottoman Empire"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ottoman Empire"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q193245"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1974 revolution in Portugal"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Carnation Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Portugal"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Portugal"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q489416"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "popular uprising in South Korea in April 1960 by labor and student groups, precipitated by the killing of a high school student by a tear-gas shell in March; led to the resignation of the president S. Rhee and the transition to the Second Republic"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "April Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "First Republic of South Korea"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6107157"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q6107157"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Guatemala"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Guatemala City"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1865-04-14T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1871-06-30T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q236023"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kyrgyz Revolution of 2010"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kyrgyzstan"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2010-04-06T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2010-12-14T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q689527"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in Hungary"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Aster Revolution"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q622774"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "one of a wave of revolutions in 1848 in Europe"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "French Revolution of 1848"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "France"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "July Monarchy"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1848-02-22T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1848-12-02T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2120252"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1932 overthrow of Thai King Prajadhipok; constitutional monarchy established"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Siamese revolution of 1932"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Siam"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1341539"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "April 1978 coup in Afghanistan"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Saur Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Republic of Afghanistan"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Afghanistan"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1978-04-27T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1978-04-28T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q441920"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "508\u2013507 BCE revolt by the people of\u00a0Athens"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Athenian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Classical Athens"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "-0507-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "-0506-01-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1822923"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Portuguese revolution establishing a constitutional monarchy"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Liberal Revolution of 1820"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Portugal"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Porto"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2584397"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Greek military uprising"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "3 September 1843 Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kingdom of Greece"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Old Royal Palace"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4391827"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1917\u20131925 overthrow of the Emirate of Bukhara"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Bukharan Revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Turkestan"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q180548"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "transition from hunter gatherer to settled peoples"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "neolithic revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Fertile Crescent"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "-8000-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "-2000-01-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q955802"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "changing cultural demographics by force in Iran after 1979 revolution"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Iranian Cultural Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Iran"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1540751"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1868 revolution in Spain that deposed Queen Isabella II"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Glorious Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Felipe VI of Spain"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Spain"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1868-09-19T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1868-09-27T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2584397"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Greek military uprising"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "3 September 1843 Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kingdom of Greece"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Syntagma Square"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4162685"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "period of ethnic violence in Rwanda (1959\u20131961)"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Rwandan Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ruanda-Urundi"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1959-11-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1961-09-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3571687"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Spanish Rebellion"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cry of Asencio"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Soriano Department"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1495317"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "event in Rhode Island preceding the American Revolution"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Gasp\u00e9e affair"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4868689"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Batavian Revolution in Amsterdam"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1527921"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "conflict"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Li\u00e8ge Revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Li\u00e8ge"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q189508"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "British revolution of 1688"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Glorious Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kingdom of England"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "British Isles"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1688-12-28T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1689-01-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5378358"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "English Revolution"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2745716"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Rebellion in Brazil"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Paulista Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Brazil"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "S\u00e3o Paulo"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1924-07-05T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1924-07-28T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q836386"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "series of protests and political events that took place in Ukraine from late November 2004 to January 2005"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Orange Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ukraine"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2004-11-22T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2005-01-23T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q6107169"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q6107169"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Uruguay"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q732219"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "coup d'\u00e9tat in Portugal"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "28 May 1926 coup d'\u00e9tat"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Portugal"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Portugal"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q780048"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "radical reforms that created the Turkish nation state"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Atat\u00fcrk's reforms"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Turkey"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3727804"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in Venezuela"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Restorative Liberal Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Venezuela"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1899-05-23T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1899-10-23T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q214028"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "July 1830 revolution in France"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "July Revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "France"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1830-07-27T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1830-07-29T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q891367"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "political process in\u00a0Venezuela\u00a0led by the late Hugo Ch\u00e1vez"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Bolivarian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Venezuela"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1999-01-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1822896"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "process of political and economic transformation in Ecuador"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Liberal Revolution of Ecuador"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Ecuador"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1895-06-05T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1912-01-28T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2288826"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolutionary movement"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution of Ayutla"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Mexico"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Mexico"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1854-03-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2620180"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "feudal revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Carolingian Empire"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1654764"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1849 Baden Revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Grand Duchy of Baden"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1849-05-12T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1849-07-23T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5436689"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Fascist Revolution"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204213"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1989 popular uprising in Romania against the regime of Nicolae Ceau\u0219escu"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Romanian Revolution (1989)"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Romania"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Socialist Republic of Romania"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1989-12-15T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1989-12-27T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1332160"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "armed conflict and diplomatic struggle between Indonesia and the Dutch Empire"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Indonesian National Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Indonesia"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Indonesia"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1945-08-17T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1949-12-27T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q422082"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1896\u20131898 conflict against Spanish colonial authorities"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Philippine Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Philippines"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Philippines"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1896-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1898-01-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3773164"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Various labor unions, parties, and militias with de facto power in Catalonia during the Spanish Civil War"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolutionary Catalonia"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Spain"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1993171"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1919 revolution in Egypt"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1919 Egyptian revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Sultanate of Egypt"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Sultanate of Egypt"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5792513"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q5792513"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Viceroyalty of the R\u00edo de la Plata"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Banda Oriental"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q223933"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "conflict which led to the secession of the southern provinces from the United Kingdom of the Netherlands and the establishment of an independent Kingdom of Belgium"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Belgian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "United Kingdom of the Netherlands"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Southern Netherlands"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1830-08-25T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1831-07-21T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q190517"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in China that overthrew the Qing dynasty and established the Republic of China"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Xinhai Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Republic of China"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Qing dynasty"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1911-10-10T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1912-02-12T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5526246"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "armed conflict (1891\u20131893)"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Garza Revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Coahuila"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1891-09-15T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1893-03-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q896479"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "armed insurrection that occurred in the Austrian Netherlands"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Brabant Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Austrian Netherlands"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Austrian Netherlands"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1789-10-24T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1790-12-03T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2603206"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "period between the Dutch and Batavian Republics"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Batavian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Dutch Republic"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1368440"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "a movement for the Constitution of Iran monarchy in 1905 to 1909"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Constitutionalization attempts in Iran"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Iran"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Iran"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1905-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1911-01-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q190517"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in China that overthrew the Qing dynasty and established the Republic of China"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Xinhai Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "China"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Qing dynasty"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1911-10-10T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1912-02-12T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204213"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1989 popular uprising in Romania against the regime of Nicolae Ceau\u0219escu"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Romanian Revolution (1989)"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Romania"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Timi\u0219oara"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1989-12-15T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1989-12-27T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2380231"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "short-lived unrecognised socialist state in Alsace-Lorraine during the German Revolution of November 1918"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Alsace-Lorraine Soviet Republic"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Weimar Republic"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2175943"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Liberal and Romanian nationalist uprising"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Wallachian Revolution of 1848"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Dealul Spirii"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q184310"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2005 anti-Syrian protest movement in Lebanon"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Cedar Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Lebanon"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2005-02-14T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2005-04-27T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q219470"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2003 popular uprising against corrupt leadership in Georgia"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Rose Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Georgia"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Georgia"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q182817"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "democratization process in Czechoslovakia in 1989"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Velvet Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Czechoslovakia"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Czechoslovakia"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1989-11-17T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1989-12-29T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1463516"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "20th century armed conflict in Nicaragua"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Nicaraguan Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Nicaragua"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Nicaragua"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1990-02-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q101534"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "first of two revolutions in Russia in 1917"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "February Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Russian Empire"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Russian Empire"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1917-03-08T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1917-03-16T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5163326"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "turbulent process of Islamic Republic stabilization"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "consolidation of the Iranian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Iran"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Iran"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1979-02-14T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1983-12-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204213"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1989 popular uprising in Romania against the regime of Nicolae Ceau\u0219escu"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Romanian Revolution (1989)"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Romania"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Arad"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1989-12-15T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1989-12-27T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204213"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1989 popular uprising in Romania against the regime of Nicolae Ceau\u0219escu"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Romanian Revolution (1989)"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Romania"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Bra\u0219ov"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1989-12-15T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1989-12-27T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1780431"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "military overthrow of King Farouk"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1952 Egyptian revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Kingdom of Egypt"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Egypt"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5933860"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "overthrow of the Umayyad Caliphate by the Abbasids in 750"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Abbasid Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Umayyad Caliphate"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Khorasan"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "0746-06-13T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "0750-07-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q101534"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "first of two revolutions in Russia in 1917"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "February Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Russian Empire"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Saint Petersburg"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1917-03-08T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1917-03-16T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q204213"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1989 popular uprising in Romania against the regime of Nicolae Ceau\u0219escu"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Romanian Revolution (1989)"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Romania"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Bucharest"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1989-12-15T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1989-12-27T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q75844"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution in Zanzibar in 1964"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Zanzibar Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Zanzibar Islands"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Zanzibar Archipelago"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q192769"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution establishing the United States of America"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "American Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "United States"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Thirteen Colonies"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1765-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1783-01-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4554827"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "failed attempt to overthrow Chile's government"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1851 Chilean Revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Chile"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1851-04-20T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1851-12-31T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q170306"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution between 1918-19 in Germany"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "German Revolution of 1918\u20131919"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "German Reich"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Germany"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1918-10-24T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5944417"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Quito's revolutionary process"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Real Audiencia de Quito"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Quito"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2592295"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1932 civil war in Brazil"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Constitutionalist Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Brazil"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "S\u00e3o Paulo"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1932-07-09T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1932-10-02T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5614269"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "popular uprising that overthrew dictator Jorge Ubico in 1944"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Guatemalan Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Guatemala"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q184928"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "wave of mass political and social unrest that spread through vast areas of the Russian Empire"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Russian Revolution of 1905"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Russian Empire"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Russia"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1905-01-22T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1907-06-16T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1783955"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Restoration of democracy in Nepal"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1990 People's Movement"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Nepal"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1990-02-18T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1990-04-08T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1982745"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "workers' social revolution"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Spanish Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Spanish Republic at War"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q126065"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1978\u20131979 revolution that overthrew the monarchy"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Iranian Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Iran"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Iran"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1978-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1979-02-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q3501141"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q3501141"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Novi Sad"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2477405"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "transformation in agriculture in the Old World during the Islamic Golden Age (8th to 13th centuries)"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Arab Agricultural Revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Old World"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2092429"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "early 19th century events in the history of Serbia"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Serbian Revolution"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Balkans"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q5792513"
+    },
+    "eventLabel": {
+      "type": "literal",
+      "value": "Q5792513"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Uruguay"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Banda Oriental"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q170306"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution between 1918-19 in Germany"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "German Revolution of 1918\u20131919"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "German Reich"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "German Empire"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1918-10-24T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1780431"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "military overthrow of King Farouk"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1952 Egyptian revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Republic of Egypt"
+    },
+    "locationLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Egypt"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1068139"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1963\u20131979 reforms by the Shah of Iran"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "White Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Iran"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1963-01-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1979-01-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q2998936"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "historical event in Greece"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "11 September 1922 Revolution"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Greece"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q1331281"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1836 coup d'etat in Portugal"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "September Revolution in Portugal"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Portugal"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1836-09-09T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q690959"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "revolution"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Revolutions of 1848 in the Habsburg areas"
+    },
+    "countryLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Austrian Empire"
+    },
+    "startDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1848-03-01T00:00:00Z"
+    },
+    "endDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1848-11-01T00:00:00Z"
+    }
+  },
+  {
+    "event": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q4391832"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "1917\u20131924 overthrow of the Khanate of Khiva"
+    },
+    "eventLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Khivan Revolution"
+    }
+  }
+]

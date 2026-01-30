@@ -1,0 +1,101 @@
+[
+  {
+    "book": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q111525460"
+    },
+    "pubDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "1997-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "book by Aliyi Ekineh"
+    },
+    "bookLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Nigeria. Foundations of Disintegration"
+    }
+  },
+  {
+    "book": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q107022527"
+    },
+    "pubDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2021-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Claudio Feijoo's book"
+    },
+    "bookLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "China's great dream"
+    },
+    "authorLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Claudio Feijoo"
+    }
+  },
+  {
+    "book": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q108802101"
+    },
+    "pubDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2018-11-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "2018 book by Fred Dub\u00e9"
+    },
+    "bookLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Une pip\u00e9e d'opium pour les enfants"
+    },
+    "authorLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Fred Dub\u00e9"
+    }
+  },
+  {
+    "book": {
+      "type": "uri",
+      "value": "http://www.wikidata.org/entity/Q136924530"
+    },
+    "pubDate": {
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "type": "literal",
+      "value": "2025-01-01T00:00:00Z"
+    },
+    "description": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "a telling book for Uganda\u2019s contemporary circumstances by Jimmy Spire Ssentogo"
+    },
+    "bookLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "What Died When We Lived"
+    },
+    "authorLabel": {
+      "xml:lang": "en",
+      "type": "literal",
+      "value": "Jimmy Spire Sssentogo"
+    }
+  }
+]

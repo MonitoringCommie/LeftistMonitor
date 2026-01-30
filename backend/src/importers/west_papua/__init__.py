@@ -1,0 +1,1 @@
+from .west_papua_importer import WestPapuaImporter

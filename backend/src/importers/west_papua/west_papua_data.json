@@ -1,0 +1,362 @@
+{
+  "region": "West Papua",
+  "occupier": "Indonesia",
+  "occupation_start": 1963,
+  "context": "West Papua was a Dutch colony until 1962. Indonesia invaded in 1963 and annexed it through a fraudulent 'Act of Free Choice' in 1969 where only 1,026 hand-picked Papuans were allowed to vote under military coercion. The indigenous Papuan population has faced genocide, with estimates of 100,000-500,000 killed since 1963.",
+  "military_installations": [
+    {
+      "name": "Kodam XVII/Cenderawasih Headquarters",
+      "type": "military_command",
+      "location": "Jayapura",
+      "coordinates": [
+        -2.5333,
+        140.7167
+      ],
+      "established": 1963,
+      "notes": "Main Indonesian military command for Papua region. Coordinates counterinsurgency operations."
+    },
+    {
+      "name": "Sentani Air Base",
+      "type": "air_base",
+      "location": "Jayapura",
+      "coordinates": [
+        -2.5769,
+        140.5164
+      ],
+      "established": 1963,
+      "notes": "Major Indonesian Air Force base used for military operations and troop transport."
+    },
+    {
+      "name": "Biak Naval Base",
+      "type": "naval_base",
+      "location": "Biak Island",
+      "coordinates": [
+        -1.1833,
+        136.0833
+      ],
+      "established": 1965,
+      "notes": "Indonesian Navy base controlling maritime access to Papua."
+    },
+    {
+      "name": "Timika Military Base",
+      "type": "military_base",
+      "location": "Timika",
+      "coordinates": [
+        -4.5333,
+        136.8833
+      ],
+      "established": 1977,
+      "notes": "Protects Freeport mine, site of numerous human rights abuses."
+    },
+    {
+      "name": "Wamena Military Post",
+      "type": "military_post",
+      "location": "Wamena, Highlands",
+      "coordinates": [
+        -4.1,
+        138.95
+      ],
+      "established": 1970,
+      "notes": "Controls access to Central Highlands, site of repeated massacres."
+    },
+    {
+      "name": "Merauke Military Base",
+      "type": "military_base",
+      "location": "Merauke",
+      "coordinates": [
+        -8.4933,
+        140.4017
+      ],
+      "established": 1963,
+      "notes": "Southern Papua base, involved in transmigration program enforcement."
+    },
+    {
+      "name": "Nabire Military Post",
+      "type": "military_post",
+      "location": "Nabire",
+      "coordinates": [
+        -3.3667,
+        135.5
+      ],
+      "established": 1969,
+      "notes": "Central coast military presence."
+    },
+    {
+      "name": "Sorong Naval Base",
+      "type": "naval_base",
+      "location": "Sorong",
+      "coordinates": [
+        -0.8833,
+        131.25
+      ],
+      "established": 1965,
+      "notes": "Western Papua naval installation."
+    }
+  ],
+  "massacres": [
+    {
+      "name": "Biak Massacre",
+      "date": "1998-07-06",
+      "location": "Biak Island",
+      "coordinates": [
+        -1.1833,
+        136.0833
+      ],
+      "death_toll_low": 100,
+      "death_toll_high": 200,
+      "perpetrator": "Indonesian military (TNI)",
+      "description": "Indonesian forces opened fire on peaceful independence demonstrators raising the Morning Star flag. Bodies were loaded onto ships and dumped at sea.",
+      "notes": "Eyewitness accounts describe torture, rape, and execution of prisoners. Many bodies never recovered."
+    },
+    {
+      "name": "Wamena Massacre (2019)",
+      "date": "2019-09-23",
+      "location": "Wamena, Highlands",
+      "coordinates": [
+        -4.1,
+        138.95
+      ],
+      "death_toll_low": 33,
+      "death_toll_high": 50,
+      "perpetrator": "Indonesian security forces and militia",
+      "description": "Violence erupted after racist abuse of Papuan students. Security forces and Javanese settlers attacked Papuans.",
+      "notes": "Part of broader 2019 uprising across Papua following racist incidents in Java."
+    },
+    {
+      "name": "Paniai Lakes Massacre",
+      "date": "2014-12-08",
+      "location": "Paniai, Highlands",
+      "coordinates": [
+        -3.7333,
+        136.3667
+      ],
+      "death_toll_low": 4,
+      "death_toll_high": 17,
+      "perpetrator": "Indonesian military",
+      "description": "Soldiers opened fire on crowd protesting earlier beating of Papuan youths by military.",
+      "notes": "One of many documented shootings of unarmed protesters."
+    },
+    {
+      "name": "Wasior Massacre",
+      "date": "2001-06-13",
+      "location": "Wasior, West Papua",
+      "coordinates": [
+        -2.7167,
+        134.5167
+      ],
+      "death_toll_low": 5,
+      "death_toll_high": 31,
+      "perpetrator": "Brimob (Indonesian police mobile brigade)",
+      "description": "Police counterinsurgency operation resulted in extrajudicial killings, torture, and village destruction.",
+      "notes": "Rare case where Indonesian human rights court investigated (2013)."
+    },
+    {
+      "name": "Wamena Massacre (2000)",
+      "date": "2000-10-06",
+      "location": "Wamena, Highlands",
+      "coordinates": [
+        -4.1,
+        138.95
+      ],
+      "death_toll_low": 31,
+      "death_toll_high": 100,
+      "perpetrator": "Indonesian military",
+      "description": "Military attacked pro-independence rally, killing civilians and burning homes.",
+      "notes": "Part of broader crackdown on independence movement after 1999 Timor referendum."
+    },
+    {
+      "name": "Mapenduma Hostage Crisis",
+      "date": "1996-05-15",
+      "location": "Mapenduma, Highlands",
+      "coordinates": [
+        -4.05,
+        139.5
+      ],
+      "death_toll_low": 8,
+      "death_toll_high": 15,
+      "perpetrator": "Indonesian military (Kopassus)",
+      "description": "Military 'rescue' operation resulted in deaths of hostages and villagers, followed by reprisals.",
+      "notes": "Operation was cover for military operations against OPM."
+    },
+    {
+      "name": "Tembagapura Killings",
+      "date": "1977-07-01",
+      "location": "Tembagapura (Freeport area)",
+      "coordinates": [
+        -4.2667,
+        137.1167
+      ],
+      "death_toll_low": 800,
+      "death_toll_high": 2000,
+      "perpetrator": "Indonesian military",
+      "description": "Aerial bombardment and ground assault on villages near Freeport mine during OPM uprising.",
+      "notes": "One of the largest single massacres, largely undocumented due to media blackout."
+    }
+  ],
+  "resource_extraction": [
+    {
+      "name": "Grasberg Mine (Freeport-McMoRan)",
+      "type": "copper_gold_mine",
+      "location": "Tembagapura, Mimika",
+      "coordinates": [
+        -4.0544,
+        137.1183
+      ],
+      "established": 1967,
+      "notes": "World's largest gold mine, second largest copper mine. Has generated over $50 billion in revenue. Indigenous Amungme and Kamoro peoples displaced. Indonesian military provides 'security' paid by Freeport - documented human rights abuses.",
+      "operator": "Freeport-McMoRan (US) / Indonesia",
+      "environmental_damage": "Massive tailings dumped into rivers, destroying ecosystems over 230 sq km"
+    },
+    {
+      "name": "BP Tangguh LNG",
+      "type": "natural_gas",
+      "location": "Bintuni Bay",
+      "coordinates": [
+        -2.45,
+        133.6833
+      ],
+      "established": 2009,
+      "notes": "Major LNG project operated by BP. Indigenous communities displaced without adequate compensation.",
+      "operator": "BP (UK)"
+    },
+    {
+      "name": "Merauke Integrated Food and Energy Estate (MIFEE)",
+      "type": "agribusiness",
+      "location": "Merauke",
+      "coordinates": [
+        -8.4933,
+        140.4017
+      ],
+      "established": 2010,
+      "notes": "Massive land grab for palm oil and food production. Over 2.5 million hectares targeted, displacing indigenous Malind people.",
+      "operator": "Various Indonesian and international corporations"
+    },
+    {
+      "name": "Logging Concessions",
+      "type": "logging",
+      "location": "Various",
+      "coordinates": [
+        -3.5,
+        136.0
+      ],
+      "notes": "Vast logging operations have destroyed millions of hectares of rainforest, displacing indigenous communities dependent on forests.",
+      "environmental_damage": "Papua has one of highest deforestation rates in Indonesia"
+    }
+  ],
+  "transmigration_settlements": [
+    {
+      "name": "Arso Transmigration",
+      "location": "Keerom Regency",
+      "coordinates": [
+        -2.8833,
+        140.7833
+      ],
+      "established": 1984,
+      "population_settled": 15000,
+      "notes": "Part of systematic program to move Javanese settlers to Papua, reducing indigenous majority."
+    },
+    {
+      "name": "Merauke Transmigration",
+      "location": "Merauke",
+      "coordinates": [
+        -8.4933,
+        140.4017
+      ],
+      "established": 1982,
+      "population_settled": 50000,
+      "notes": "Large-scale settlement of Javanese in traditional Malind territory."
+    },
+    {
+      "name": "Timika Transmigration",
+      "location": "Timika",
+      "coordinates": [
+        -4.5333,
+        136.8833
+      ],
+      "established": 1978,
+      "population_settled": 20000,
+      "notes": "Settlements to support Freeport mine labor needs."
+    },
+    {
+      "name": "Jayapura Transmigration",
+      "location": "Jayapura area",
+      "coordinates": [
+        -2.5333,
+        140.7167
+      ],
+      "established": 1975,
+      "population_settled": 30000,
+      "notes": "Capital city area heavily settled with non-Papuans."
+    }
+  ],
+  "restricted_zones": [
+    {
+      "name": "Central Highlands",
+      "type": "restricted_area",
+      "coordinates": [
+        -4.0,
+        138.5
+      ],
+      "notes": "Foreign journalists and NGOs effectively banned. Military operations ongoing against OPM."
+    },
+    {
+      "name": "Nduga Regency",
+      "type": "military_operation_zone",
+      "coordinates": [
+        -4.3,
+        138.3
+      ],
+      "notes": "Since 2018 massive military operation displacing over 45,000 people."
+    }
+  ],
+  "political_prisoners": [
+    {
+      "name": "Filep Karma",
+      "detention_start": "2004-12-01",
+      "detention_end": "2015-11-19",
+      "facility": "Abepura Prison",
+      "charges": "Treason for raising Morning Star flag",
+      "sentence_years": 15,
+      "notes": "Leading political prisoner, arrested for peaceful flag-raising. Released after 11 years."
+    },
+    {
+      "name": "Victor Yeimo",
+      "detention_start": "2021-05-09",
+      "facility": "Various",
+      "charges": "Treason",
+      "notes": "Spokesperson for West Papua National Committee (KNPB), arrested during crackdown."
+    }
+  ],
+  "historical_events": [
+    {
+      "name": "New York Agreement",
+      "date": "1962-08-15",
+      "description": "Netherlands ceded West Papua to UN administration, then to Indonesia, without Papuan consent.",
+      "notes": "Agreement made between colonial powers over the heads of Papuans."
+    },
+    {
+      "name": "Act of Free Choice (Act of No Choice)",
+      "date": "1969-08-02",
+      "description": "Fraudulent referendum where only 1,026 hand-picked Papuans voted under military coercion to join Indonesia.",
+      "notes": "UN supervised but did not validate. Known to Papuans as 'Act of No Choice' (Pepera)."
+    },
+    {
+      "name": "OPM Formation",
+      "date": "1965-01-01",
+      "description": "Free Papua Movement (OPM) founded to resist Indonesian occupation.",
+      "notes": "Has waged low-level armed resistance for over 50 years."
+    },
+    {
+      "name": "Morning Star Flag Declaration",
+      "date": "1961-12-01",
+      "description": "Morning Star flag first raised as symbol of West Papuan independence under Dutch.",
+      "notes": "Raising the flag remains illegal under Indonesian law, punishable by 15 years prison."
+    },
+    {
+      "name": "2019 West Papua Uprising",
+      "date": "2019-08-19",
+      "description": "Largest protests in decades following racist abuse of Papuan students in Java.",
+      "notes": "Indonesian military deployed, internet cut, hundreds arrested."
+    }
+  ]
+}

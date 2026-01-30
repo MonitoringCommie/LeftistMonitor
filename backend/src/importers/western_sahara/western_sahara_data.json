@@ -1,0 +1,341 @@
+{
+  "berm": {
+    "name": "Moroccan Sand Berm",
+    "name_arabic": "الجدار الرملي المغربي",
+    "total_length_km": 2720,
+    "construction_start": 1980,
+    "construction_end": 1987,
+    "sections": [
+      {
+        "name": "Berm 1",
+        "year": 1980,
+        "length_km": 480,
+        "from": "Zag",
+        "to": "Jdiriya"
+      },
+      {
+        "name": "Berm 2",
+        "year": 1981,
+        "length_km": 350,
+        "from": "Smara",
+        "to": "Mahbes"
+      },
+      {
+        "name": "Berm 3",
+        "year": 1982,
+        "length_km": 250,
+        "from": "Farsia",
+        "to": "Bir Lahlou"
+      },
+      {
+        "name": "Berm 4",
+        "year": 1984,
+        "length_km": 380,
+        "from": "Awsard",
+        "to": "Dakhla"
+      },
+      {
+        "name": "Berm 5",
+        "year": 1985,
+        "length_km": 460,
+        "from": "Southern extension",
+        "to": "Mauritanian border"
+      },
+      {
+        "name": "Berm 6",
+        "year": 1987,
+        "length_km": 550,
+        "from": "Final extension",
+        "to": "Atlantic coast"
+      }
+    ],
+    "infrastructure": "Sand/stone wall 2-3m high, ditches, radar, electronic sensors, military bases every 5km",
+    "landmines": "Estimated 7-10 million landmines along the berm",
+    "description": "The world's longest functional military barrier, dividing Western Sahara into Moroccan-controlled west and Polisario-controlled east",
+    "legal_status": "Illegal under international law - Western Sahara is a Non-Self-Governing Territory"
+  },
+  "military_bases": [
+    {
+      "name": "Laayoune Military Base",
+      "name_arabic": "قاعدة العيون العسكرية",
+      "lat": 27.1536,
+      "lon": -13.2033,
+      "type": "major_base",
+      "established": 1976
+    },
+    {
+      "name": "Dakhla Military Base",
+      "name_arabic": "قاعدة الداخلة العسكرية",
+      "lat": 23.7147,
+      "lon": -15.9369,
+      "type": "major_base",
+      "established": 1979
+    },
+    {
+      "name": "Smara Garrison",
+      "name_arabic": "حامية السمارة",
+      "lat": 26.7394,
+      "lon": -11.6717,
+      "type": "garrison",
+      "established": 1976
+    },
+    {
+      "name": "Boujdour Base",
+      "name_arabic": "قاعدة بوجدور",
+      "lat": 26.1256,
+      "lon": -14.4847,
+      "type": "garrison",
+      "established": 1976
+    },
+    {
+      "name": "Awsard Outpost",
+      "name_arabic": "موقع أوسرد",
+      "lat": 22.55,
+      "lon": -14.3333,
+      "type": "outpost",
+      "established": 1984
+    },
+    {
+      "name": "Mahbes Forward Base",
+      "name_arabic": "قاعدة المحبس الأمامية",
+      "lat": 27.4167,
+      "lon": -9.0,
+      "type": "forward_base",
+      "established": 1981
+    },
+    {
+      "name": "Farsia Military Post",
+      "name_arabic": "موقع فرسية العسكري",
+      "lat": 27.0833,
+      "lon": -9.5,
+      "type": "military_post",
+      "established": 1982
+    },
+    {
+      "name": "Guelta Zemmur Base",
+      "name_arabic": "قاعدة قلتة زمور",
+      "lat": 25.15,
+      "lon": -12.15,
+      "type": "garrison",
+      "established": 1979
+    },
+    {
+      "name": "Bir Lahlou Area (contested)",
+      "name_arabic": "منطقة بئر لحلو",
+      "lat": 26.1167,
+      "lon": -9.65,
+      "type": "contested_area",
+      "established": null
+    },
+    {
+      "name": "Tifariti (Polisario)",
+      "name_arabic": "تفاريتي",
+      "lat": 26.15,
+      "lon": -10.5833,
+      "type": "polisario_controlled",
+      "established": null
+    }
+  ],
+  "refugee_camps": [
+    {
+      "name": "Laayoune Camp",
+      "name_arabic": "مخيم العيون",
+      "lat": 27.6722,
+      "lon": -8.1361,
+      "population_estimate": 40000,
+      "established": 1976,
+      "named_after": "Laayoune city"
+    },
+    {
+      "name": "Awserd Camp",
+      "name_arabic": "مخيم أوسرد",
+      "lat": 27.5833,
+      "lon": -8.0833,
+      "population_estimate": 35000,
+      "established": 1976,
+      "named_after": "Awserd region"
+    },
+    {
+      "name": "Smara Camp",
+      "name_arabic": "مخيم السمارة",
+      "lat": 27.65,
+      "lon": -8.15,
+      "population_estimate": 45000,
+      "established": 1976,
+      "named_after": "Smara city"
+    },
+    {
+      "name": "Dakhla Camp",
+      "name_arabic": "مخيم الداخلة",
+      "lat": 27.6167,
+      "lon": -8.1,
+      "population_estimate": 35000,
+      "established": 1976,
+      "named_after": "Dakhla city"
+    },
+    {
+      "name": "Rabouni (Administrative)",
+      "name_arabic": "الرابوني",
+      "lat": 27.5578,
+      "lon": -8.0586,
+      "population_estimate": 5000,
+      "established": 1976,
+      "named_after": "Administrative center for SADR"
+    }
+  ],
+  "settler_population": [
+    {
+      "year": 1975,
+      "moroccan_settlers": 0,
+      "sahrawi_population": 74000,
+      "notes": "Pre-invasion"
+    },
+    {
+      "year": 1976,
+      "moroccan_settlers": 20000,
+      "sahrawi_population": 35000,
+      "notes": "Green March and occupation begins, mass exodus"
+    },
+    {
+      "year": 1980,
+      "moroccan_settlers": 50000,
+      "sahrawi_population": 30000,
+      "notes": "Settlement incentives begin"
+    },
+    {
+      "year": 1985,
+      "moroccan_settlers": 100000,
+      "sahrawi_population": 40000,
+      "notes": "Berm construction complete"
+    },
+    {
+      "year": 1990,
+      "moroccan_settlers": 150000,
+      "sahrawi_population": 50000,
+      "notes": "Ceasefire period"
+    },
+    {
+      "year": 2000,
+      "moroccan_settlers": 200000,
+      "sahrawi_population": 60000,
+      "notes": "Continued settlement"
+    },
+    {
+      "year": 2010,
+      "moroccan_settlers": 350000,
+      "sahrawi_population": 70000,
+      "notes": "Settlers now majority"
+    },
+    {
+      "year": 2020,
+      "moroccan_settlers": 500000,
+      "sahrawi_population": 90000,
+      "notes": "Settlers heavily outnumber indigenous Sahrawis"
+    }
+  ],
+  "resources": [
+    {
+      "resource": "Phosphates",
+      "location": "Bou Craa",
+      "lat": 26.35,
+      "lon": -12.85,
+      "operator": "OCP (Moroccan state company)",
+      "value_annual_usd": 500000000,
+      "legal_status": "Illegal under international law",
+      "description": "World's largest phosphate conveyor belt (100km to coast). Sahrawi workers excluded from benefits."
+    },
+    {
+      "resource": "Fisheries",
+      "location": "Atlantic Coast",
+      "lat": 24.5,
+      "lon": -15.0,
+      "operator": "Morocco/EU fishing agreements",
+      "value_annual_usd": 300000000,
+      "legal_status": "EU-Morocco fishing deal ruled illegal by ECJ 2018",
+      "description": "Rich fishing waters illegally exploited. EU complicity through trade deals."
+    },
+    {
+      "resource": "Sand/Construction",
+      "location": "Coastal areas",
+      "lat": 25.0,
+      "lon": -14.5,
+      "operator": "Various Moroccan companies",
+      "value_annual_usd": 50000000,
+      "legal_status": "Illegal",
+      "description": "Sand extraction for construction."
+    },
+    {
+      "resource": "Oil exploration",
+      "location": "Offshore",
+      "lat": 24.0,
+      "lon": -16.0,
+      "operator": "Various (suspended)",
+      "value_annual_usd": 0,
+      "legal_status": "Exploration permits illegal",
+      "description": "Potential offshore oil reserves. International companies withdrew due to legal issues."
+    }
+  ],
+  "events": [
+    {
+      "name": "Green March",
+      "date": "1975-11-06",
+      "description": "350,000 Moroccan civilians crossed into Western Sahara in coordinated invasion",
+      "significance": "Beginning of occupation"
+    },
+    {
+      "name": "Madrid Accords",
+      "date": "1975-11-14",
+      "description": "Spain illegally ceded Western Sahara to Morocco and Mauritania",
+      "significance": "Colonial handover without self-determination"
+    },
+    {
+      "name": "SADR Declaration",
+      "date": "1976-02-27",
+      "description": "Sahrawi Arab Democratic Republic declared in Bir Lahlou",
+      "significance": "Now recognized by 40+ countries"
+    },
+    {
+      "name": "Mauritania Withdrawal",
+      "date": "1979-08-05",
+      "description": "Mauritania renounced claims after Polisario military pressure",
+      "significance": "Morocco seized Mauritanian zone"
+    },
+    {
+      "name": "ICJ Advisory Opinion",
+      "date": "1975-10-16",
+      "description": "International Court of Justice found no ties of sovereignty between Morocco and Western Sahara",
+      "significance": "Legal basis for self-determination"
+    },
+    {
+      "name": "UN Ceasefire",
+      "date": "1991-09-06",
+      "description": "Ceasefire and MINURSO mission established",
+      "significance": "Referendum never held due to Moroccan obstruction"
+    },
+    {
+      "name": "Gdeim Izik Camp",
+      "date": "2010-10-09",
+      "description": "20,000 Sahrawis established protest camp, violently dismantled by Morocco",
+      "significance": "Largest Sahrawi protest, precursor to Arab Spring"
+    },
+    {
+      "name": "Trump Recognition",
+      "date": "2020-12-10",
+      "description": "US recognized Moroccan sovereignty in exchange for Israel normalization",
+      "significance": "Violation of international law for geopolitical gain"
+    },
+    {
+      "name": "Guerguerat Escalation",
+      "date": "2020-11-13",
+      "description": "Morocco breached ceasefire at Guerguerat, Polisario declared end of ceasefire",
+      "significance": "Return to armed conflict after 29 years"
+    }
+  ],
+  "recognition": {
+    "countries_recognizing_sadr": 46,
+    "african_union_member": true,
+    "un_status": "Non-Self-Governing Territory",
+    "icj_ruling": "No ties of sovereignty - people have right to self-determination",
+    "un_resolutions": "Multiple resolutions calling for referendum"
+  }
+}

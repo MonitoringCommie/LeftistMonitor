@@ -1,0 +1,529 @@
+{
+  "metadata": {
+    "description": "Documentation of Chinese occupation of Tibet since 1950",
+    "sources": [
+      "International Campaign for Tibet",
+      "Tibet Watch",
+      "Human Rights Watch",
+      "Free Tibet",
+      "Central Tibetan Administration",
+      "UN Human Rights Council reports"
+    ],
+    "occupation_start": 1950,
+    "monasteries_destroyed": "6000+",
+    "tibetans_killed_estimate": "1.2 million",
+    "self_immolations": "150+"
+  },
+  "destroyed_monasteries": [
+    {
+      "name": "Ganden Monastery",
+      "location": "Lhasa",
+      "coordinates": [
+        29.75,
+        91.5
+      ],
+      "founded": 1409,
+      "destruction_year": 1959,
+      "rebuilt": "partially",
+      "notes": "One of Three Great Monasteries, 95% destroyed during Cultural Revolution"
+    },
+    {
+      "name": "Drepung Monastery",
+      "location": "Lhasa",
+      "coordinates": [
+        29.6667,
+        91.05
+      ],
+      "founded": 1416,
+      "destruction_year": 1959,
+      "rebuilt": "partially",
+      "notes": "Once world's largest monastery with 10,000 monks, now restricted"
+    },
+    {
+      "name": "Sera Monastery",
+      "location": "Lhasa",
+      "coordinates": [
+        29.7,
+        91.1333
+      ],
+      "founded": 1419,
+      "destruction_year": 1959,
+      "rebuilt": "partially",
+      "notes": "Third of Three Great Monasteries, heavily damaged"
+    },
+    {
+      "name": "Jokhang Temple",
+      "location": "Lhasa",
+      "coordinates": [
+        29.6525,
+        91.1319
+      ],
+      "founded": 647,
+      "destruction_year": 1966,
+      "rebuilt": "partially",
+      "notes": "Holiest temple in Tibet, severely damaged during Cultural Revolution"
+    },
+    {
+      "name": "Tashilhunpo Monastery",
+      "location": "Shigatse",
+      "coordinates": [
+        29.2667,
+        88.8833
+      ],
+      "founded": 1447,
+      "destruction_year": 1966,
+      "rebuilt": "partially",
+      "notes": "Seat of Panchen Lama, heavily damaged"
+    },
+    {
+      "name": "Samye Monastery",
+      "location": "Shannan",
+      "coordinates": [
+        29.3167,
+        91.5
+      ],
+      "founded": 779,
+      "destruction_year": 1966,
+      "rebuilt": "partially",
+      "notes": "First Buddhist monastery in Tibet, severely damaged"
+    },
+    {
+      "name": "Litang Monastery",
+      "location": "Litang",
+      "coordinates": [
+        30.0,
+        100.2667
+      ],
+      "founded": 1580,
+      "destruction_year": 1956,
+      "rebuilt": "partially",
+      "notes": "Major monastery in Kham region"
+    },
+    {
+      "name": "Kirti Monastery",
+      "location": "Ngaba",
+      "coordinates": [
+        32.9,
+        102.5167
+      ],
+      "founded": 1472,
+      "destruction_year": 1959,
+      "rebuilt": "partially",
+      "notes": "Center of resistance, multiple self-immolations"
+    },
+    {
+      "name": "Labrang Monastery",
+      "location": "Xiahe",
+      "coordinates": [
+        35.1833,
+        102.5167
+      ],
+      "founded": 1709,
+      "destruction_year": 1958,
+      "rebuilt": "partially",
+      "notes": "One of six great Gelug monasteries, largest in Amdo"
+    },
+    {
+      "name": "Rongwo Monastery",
+      "location": "Rebkong",
+      "coordinates": [
+        35.5333,
+        102.0167
+      ],
+      "founded": 1301,
+      "destruction_year": 1958,
+      "rebuilt": "partially",
+      "notes": "Major cultural center in Amdo"
+    }
+  ],
+  "military_installations": [
+    {
+      "name": "Lhasa Military Command",
+      "location": "Lhasa",
+      "coordinates": [
+        29.65,
+        91.1
+      ],
+      "type": "command_headquarters",
+      "notes": "Tibet Military Region headquarters"
+    },
+    {
+      "name": "Golmud Military Base",
+      "location": "Golmud",
+      "coordinates": [
+        36.4167,
+        94.9
+      ],
+      "type": "logistics_base",
+      "notes": "Major logistics hub for Tibet"
+    },
+    {
+      "name": "Nagqu Military Base",
+      "location": "Nagqu",
+      "coordinates": [
+        31.4833,
+        92.05
+      ],
+      "type": "military_base",
+      "notes": "Northern Tibet military presence"
+    },
+    {
+      "name": "Shigatse Air Base",
+      "location": "Shigatse",
+      "coordinates": [
+        29.35,
+        89.3167
+      ],
+      "type": "air_base",
+      "notes": "Military airfield near Nepal border"
+    },
+    {
+      "name": "Lhasa Gonggar Airport",
+      "location": "Gonggar",
+      "coordinates": [
+        29.2978,
+        90.9119
+      ],
+      "type": "dual_use_airport",
+      "notes": "Civilian and military use"
+    },
+    {
+      "name": "Nyingchi Air Base",
+      "location": "Nyingchi",
+      "coordinates": [
+        29.3083,
+        94.3333
+      ],
+      "type": "air_base",
+      "notes": "Near Indian border, strategic importance"
+    },
+    {
+      "name": "Pangda Air Base",
+      "location": "Chamdo",
+      "coordinates": [
+        31.1333,
+        97.1667
+      ],
+      "type": "air_base",
+      "notes": "Eastern Tibet military airfield"
+    },
+    {
+      "name": "Kashgar Military Base",
+      "location": "Kashgar",
+      "coordinates": [
+        39.4667,
+        76.0
+      ],
+      "type": "military_base",
+      "notes": "Strategic base near borders"
+    }
+  ],
+  "self_immolations": [
+    {
+      "name": "Thupten Ngodup",
+      "date": "1998-04-27",
+      "location": "New Delhi, India",
+      "age": 60,
+      "notes": "First Tibetan self-immolation in modern era, during hunger strike"
+    },
+    {
+      "name": "Tapey",
+      "date": "2009-02-27",
+      "location": "Ngaba, Amdo",
+      "age": 27,
+      "survived": true,
+      "notes": "First self-immolation inside Tibet"
+    },
+    {
+      "name": "Phuntsok",
+      "date": "2011-03-16",
+      "location": "Ngaba, Amdo",
+      "age": 21,
+      "notes": "Sparked wave of self-immolations"
+    },
+    {
+      "name": "Tsewang Norbu",
+      "date": "2011-08-15",
+      "location": "Tawu, Kham",
+      "age": 29,
+      "notes": "Called for Dalai Lama's return"
+    },
+    {
+      "name": "Lobsang Kunchok",
+      "date": "2011-09-26",
+      "location": "Ngaba, Amdo",
+      "age": 18,
+      "notes": "Young monk"
+    },
+    {
+      "name": "Palden Choetso",
+      "date": "2011-11-03",
+      "location": "Tawu, Kham",
+      "age": 35,
+      "notes": "First nun to self-immolate"
+    },
+    {
+      "name": "Jamyang Palden",
+      "date": "2012-03-14",
+      "location": "Rebkong, Amdo",
+      "age": 34,
+      "notes": "During uprising anniversary protests"
+    },
+    {
+      "name": "Sonam Dargye",
+      "date": "2012-11-07",
+      "location": "Rebkong, Amdo",
+      "age": 44,
+      "notes": "Former village head"
+    },
+    {
+      "name": "Tsering Tashi",
+      "date": "2015-04-16",
+      "location": "Ngaba, Amdo",
+      "age": 55,
+      "notes": "Grandfather, called for Tibet freedom"
+    },
+    {
+      "name": "Tashi Kyi",
+      "date": "2019-11-26",
+      "location": "Ngaba, Amdo",
+      "age": 26,
+      "notes": "Most recent confirmed self-immolation inside Tibet"
+    }
+  ],
+  "massacres_and_crackdowns": [
+    {
+      "name": "1959 Tibetan Uprising",
+      "date": "1959-03-10",
+      "location": "Lhasa",
+      "coordinates": [
+        29.65,
+        91.1
+      ],
+      "death_toll_low": 10000,
+      "death_toll_high": 87000,
+      "notes": "Dalai Lama fled to India, massive military crackdown"
+    },
+    {
+      "name": "1989 Lhasa Protests",
+      "date": "1989-03-05",
+      "location": "Lhasa",
+      "coordinates": [
+        29.65,
+        91.1
+      ],
+      "death_toll_low": 80,
+      "death_toll_high": 400,
+      "notes": "Martial law declared, lasted until 1990"
+    },
+    {
+      "name": "2008 Tibetan Uprising",
+      "date": "2008-03-14",
+      "location": "Lhasa and across Tibet",
+      "coordinates": [
+        29.65,
+        91.1
+      ],
+      "death_toll_low": 100,
+      "death_toll_high": 220,
+      "notes": "Spread across Tibetan areas, before Beijing Olympics"
+    },
+    {
+      "name": "Lithang Monastery Siege",
+      "date": "1956-03",
+      "location": "Lithang, Kham",
+      "coordinates": [
+        30.0,
+        100.2667
+      ],
+      "death_toll_low": 2000,
+      "death_toll_high": 4000,
+      "notes": "PLA bombed monastery, thousands killed"
+    },
+    {
+      "name": "Chumbi Valley Crackdown",
+      "date": "1959-04",
+      "location": "Chumbi Valley",
+      "coordinates": [
+        27.4833,
+        89.0
+      ],
+      "death_toll_low": 500,
+      "death_toll_high": 1000,
+      "notes": "Escape route to India closed violently"
+    },
+    {
+      "name": "Golok Massacres",
+      "date": "1958",
+      "location": "Golok, Amdo",
+      "coordinates": [
+        34.4667,
+        100.2333
+      ],
+      "death_toll_low": 5000,
+      "death_toll_high": 10000,
+      "notes": "Nomadic resistance crushed"
+    }
+  ],
+  "political_prisoners": [
+    {
+      "name": "Gedhun Choekyi Nyima",
+      "status": "disappeared",
+      "since": "1995-05-17",
+      "age_at_detention": 6,
+      "notes": "11th Panchen Lama recognized by Dalai Lama, China's youngest political prisoner"
+    },
+    {
+      "name": "Tenzin Delek Rinpoche",
+      "status": "died_in_custody",
+      "since": 2002,
+      "died": "2015-07-12",
+      "notes": "Influential Lama, died under suspicious circumstances"
+    },
+    {
+      "name": "Lobsang Sangay (writer)",
+      "status": "imprisoned",
+      "since": 2013,
+      "sentence_years": 7,
+      "notes": "Writer and environmental activist"
+    },
+    {
+      "name": "Rinchen Tsultrim",
+      "status": "imprisoned",
+      "since": 2019,
+      "sentence_years": 5,
+      "notes": "Monk, charged with inciting separatism"
+    },
+    {
+      "name": "Anya Sengdra",
+      "status": "imprisoned",
+      "since": 2019,
+      "sentence_years": 7,
+      "notes": "Environmental activist"
+    },
+    {
+      "name": "Go Sherab Gyatso",
+      "status": "imprisoned",
+      "since": 2020,
+      "sentence_years": 10,
+      "notes": "Prominent monk and scholar"
+    }
+  ],
+  "settler_colonialism": {
+    "population_transfer": [
+      {
+        "year": 1950,
+        "tibetan_percent": 94,
+        "chinese_percent": 6
+      },
+      {
+        "year": 1980,
+        "tibetan_percent": 85,
+        "chinese_percent": 15
+      },
+      {
+        "year": 2000,
+        "tibetan_percent": 75,
+        "chinese_percent": 25
+      },
+      {
+        "year": 2020,
+        "tibetan_percent": 50,
+        "chinese_percent": 50,
+        "notes": "In Lhasa, Chinese may now outnumber Tibetans"
+      }
+    ],
+    "infrastructure_colonization": [
+      {
+        "name": "Qinghai-Tibet Railway",
+        "completed": 2006,
+        "notes": "Facilitates Chinese settlement, called 'second invasion'"
+      },
+      {
+        "name": "Lhasa-Nyingchi Railway",
+        "completed": 2021,
+        "notes": "Extends rail network deeper into Tibet"
+      },
+      {
+        "name": "China-Nepal Railway (planned)",
+        "notes": "Will connect Tibet to Nepal"
+      }
+    ]
+  },
+  "cultural_destruction": {
+    "language_suppression": {
+      "description": "Tibetan language increasingly marginalized in education and public life",
+      "education_language": "Mandarin Chinese required from primary school",
+      "notes": "Tibetan language activists regularly imprisoned"
+    },
+    "religious_restrictions": [
+      "Monks must denounce Dalai Lama",
+      "Dalai Lama images banned",
+      "Religious activities heavily monitored",
+      "Patriotic re-education campaigns in monasteries",
+      "Monk quotas limit monastery populations"
+    ],
+    "surveillance": {
+      "description": "Tibet is one of the most surveilled places on earth",
+      "measures": [
+        "Facial recognition at checkpoints",
+        "DNA collection from all Tibetans",
+        "Social credit system",
+        "Grid-style management in neighborhoods",
+        "Internet and phone monitoring"
+      ]
+    }
+  },
+  "historical_events": [
+    {
+      "name": "PLA Invasion of Tibet",
+      "date": "1950-10-07",
+      "description": "Chinese forces invade Kham, beginning occupation"
+    },
+    {
+      "name": "17-Point Agreement",
+      "date": "1951-05-23",
+      "description": "Tibet forced to sign agreement under duress"
+    },
+    {
+      "name": "Dalai Lama Flees to India",
+      "date": "1959-03-17",
+      "description": "14th Dalai Lama escapes to India during uprising"
+    },
+    {
+      "name": "Tibet Autonomous Region Created",
+      "date": "1965-09-01",
+      "description": "China establishes TAR, limited to central Tibet"
+    },
+    {
+      "name": "Cultural Revolution in Tibet",
+      "date": "1966-1976",
+      "description": "Mass destruction of monasteries, cultural genocide"
+    },
+    {
+      "name": "Martial Law in Lhasa",
+      "date": "1989-03-08",
+      "description": "Martial law declared after protests, lasted 13 months"
+    },
+    {
+      "name": "Qinghai-Tibet Railway Opens",
+      "date": "2006-07-01",
+      "description": "Railway facilitates Chinese settlement"
+    },
+    {
+      "name": "2008 Uprising",
+      "date": "2008-03-10",
+      "description": "Largest protests since 1959, spread across Tibet"
+    },
+    {
+      "name": "Self-Immolation Wave Begins",
+      "date": "2009",
+      "description": "Tibetans begin self-immolating in protest"
+    },
+    {
+      "name": "Panchen Lama Disappearance Anniversary",
+      "date": "2020-05-17",
+      "description": "25 years since 6-year-old Panchen Lama disappeared"
+    }
+  ]
+}

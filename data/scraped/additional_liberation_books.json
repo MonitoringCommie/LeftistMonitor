@@ -1,0 +1,4512 @@
+[
+  {
+    "title": "The Ethnic Cleansing of Palestine",
+    "author": "Ilan Papp\u00e9",
+    "publication_year": 2006,
+    "description": "Israeli historian's meticulously documented account of the 1948 Nakba, using declassified Israeli archives to prove the systematic expulsion of Palestinians was planned.",
+    "topics": [
+      "Palestine",
+      "Nakba",
+      "ethnic cleansing",
+      "Zionism",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Question of Palestine",
+    "author": "Edward Said",
+    "publication_year": 1979,
+    "description": "Said's seminal work on Palestinian identity and the struggle for self-determination against Zionist colonialism.",
+    "topics": [
+      "Palestine",
+      "colonialism",
+      "identity",
+      "Zionism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Gaza: An Inquest into Its Martyrdom",
+    "author": "Norman Finkelstein",
+    "publication_year": 2018,
+    "description": "Comprehensive documentation of Israel's repeated assaults on Gaza and the humanitarian catastrophe.",
+    "topics": [
+      "Palestine",
+      "Gaza",
+      "human rights",
+      "international law"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The Hundred Years' War on Palestine",
+    "author": "Rashid Khalidi",
+    "publication_year": 2020,
+    "description": "A history of settler colonialism and resistance in Palestine from 1917 to the present, drawing on family archives.",
+    "topics": [
+      "Palestine",
+      "settler colonialism",
+      "resistance",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Palestinian Identity: The Construction of Modern National Consciousness",
+    "author": "Rashid Khalidi",
+    "publication_year": 1997,
+    "description": "Traces the emergence of Palestinian national identity from the late Ottoman period.",
+    "topics": [
+      "Palestine",
+      "nationalism",
+      "identity",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "On Palestine",
+    "author": "Noam Chomsky and Ilan Papp\u00e9",
+    "publication_year": 2015,
+    "description": "Two leading intellectuals discuss the past, present, and future of the Palestinian struggle.",
+    "topics": [
+      "Palestine",
+      "Zionism",
+      "BDS",
+      "colonialism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Iron Cage: The Story of the Palestinian Struggle for Statehood",
+    "author": "Rashid Khalidi",
+    "publication_year": 2006,
+    "description": "Analysis of why Palestinian attempts at state-building have repeatedly failed due to external constraints.",
+    "topics": [
+      "Palestine",
+      "statehood",
+      "colonialism",
+      "politics"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Justice for Some: Law and the Question of Palestine",
+    "author": "Noura Erakat",
+    "publication_year": 2019,
+    "description": "Legal scholar examines how international law has been weaponized against Palestinians.",
+    "topics": [
+      "Palestine",
+      "international law",
+      "colonialism",
+      "apartheid"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Freedom Is a Constant Struggle: Ferguson, Palestine, and the Foundations of a Movement",
+    "author": "Angela Davis",
+    "publication_year": 2016,
+    "description": "Draws connections between Black liberation in the US and Palestinian liberation.",
+    "topics": [
+      "Palestine",
+      "Black liberation",
+      "solidarity",
+      "feminism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Biggest Prison on Earth: A History of the Occupied Territories",
+    "author": "Ilan Papp\u00e9",
+    "publication_year": 2017,
+    "description": "Documents the systematic Israeli policies that turned the West Bank and Gaza into open-air prisons.",
+    "topics": [
+      "Palestine",
+      "occupation",
+      "apartheid",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Ten Myths About Israel",
+    "author": "Ilan Papp\u00e9",
+    "publication_year": 2017,
+    "description": "Debunks foundational myths used to justify Zionist colonization and ethnic cleansing.",
+    "topics": [
+      "Palestine",
+      "Zionism",
+      "propaganda",
+      "history"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Against the Loveless World",
+    "author": "Susan Abulhawa",
+    "publication_year": 2020,
+    "description": "Novel following a Palestinian woman from Kuwait to Jordan to Palestine to an Israeli prison.",
+    "topics": [
+      "Palestine",
+      "diaspora",
+      "resistance",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "notable"
+  },
+  {
+    "title": "Mornings in Jenin",
+    "author": "Susan Abulhawa",
+    "publication_year": 2010,
+    "description": "Epic novel spanning four generations of a Palestinian family from the Nakba to the present.",
+    "topics": [
+      "Palestine",
+      "Nakba",
+      "refugees",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "major"
+  },
+  {
+    "title": "Gaza Writes Back: Short Stories from Young Writers in Gaza, Palestine",
+    "author": "Refaat Alareer (editor)",
+    "publication_year": 2014,
+    "description": "Collection of stories by young Gazan writers offering firsthand accounts of life under siege.",
+    "topics": [
+      "Palestine",
+      "Gaza",
+      "literature",
+      "siege"
+    ],
+    "book_type": "fiction",
+    "significance": "notable"
+  },
+  {
+    "title": "A Child in Palestine: The Cartoons of Naji al-Ali",
+    "author": "Naji al-Ali",
+    "publication_year": 2009,
+    "description": "Collection of political cartoons featuring Handala, the iconic symbol of Palestinian resistance.",
+    "topics": [
+      "Palestine",
+      "art",
+      "resistance",
+      "refugees"
+    ],
+    "book_type": "art",
+    "significance": "major"
+  },
+  {
+    "title": "Returning to Haifa",
+    "author": "Ghassan Kanafani",
+    "publication_year": 1969,
+    "description": "Novella about a Palestinian couple returning to their home in Haifa after 1967, finding it occupied by Israelis.",
+    "topics": [
+      "Palestine",
+      "Nakba",
+      "return",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational"
+  },
+  {
+    "title": "Men in the Sun",
+    "author": "Ghassan Kanafani",
+    "publication_year": 1963,
+    "description": "Novella about Palestinian refugees trying to reach Kuwait, a powerful allegory of displacement.",
+    "topics": [
+      "Palestine",
+      "refugees",
+      "diaspora",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational"
+  },
+  {
+    "title": "Palestine: A Four Thousand Year History",
+    "author": "Nur Masalha",
+    "publication_year": 2018,
+    "description": "Comprehensive history of Palestine from the Bronze Age to the present, countering Zionist erasure.",
+    "topics": [
+      "Palestine",
+      "history",
+      "archaeology",
+      "identity"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The Palestinians: From Peasants to Revolutionaries",
+    "author": "Rosemary Sayigh",
+    "publication_year": 1979,
+    "description": "Oral histories of Palestinian refugees in Lebanon documenting peasant life and politicization.",
+    "topics": [
+      "Palestine",
+      "refugees",
+      "oral history",
+      "revolution"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Expulsion of the Palestinians: The Concept of 'Transfer' in Zionist Political Thought",
+    "author": "Nur Masalha",
+    "publication_year": 1992,
+    "description": "Documents how ethnic cleansing was central to Zionist ideology from the beginning.",
+    "topics": [
+      "Palestine",
+      "Zionism",
+      "ethnic cleansing",
+      "transfer"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The Great Hunger: Ireland 1845-1849",
+    "author": "Cecil Woodham-Smith",
+    "publication_year": 1962,
+    "description": "Definitive account of the Irish Famine as a man-made catastrophe of British colonial policy.",
+    "topics": [
+      "Ireland",
+      "famine",
+      "colonialism",
+      "British Empire"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "Bobby Sands: Nothing But an Unfinished Song",
+    "author": "Denis O'Hearn",
+    "publication_year": 2006,
+    "description": "Biography of the IRA hunger striker who died in 1981 British prison, sparking international outrage.",
+    "topics": [
+      "Ireland",
+      "hunger strike",
+      "IRA",
+      "resistance"
+    ],
+    "book_type": "biography",
+    "significance": "major"
+  },
+  {
+    "title": "Writings from Prison",
+    "author": "Bobby Sands",
+    "publication_year": 1981,
+    "description": "Collection of poems, writings and diary entries from Bobby Sands during his imprisonment and hunger strike.",
+    "topics": [
+      "Ireland",
+      "prison writings",
+      "resistance",
+      "poetry"
+    ],
+    "book_type": "primary source",
+    "significance": "foundational"
+  },
+  {
+    "title": "Rebel Hearts: Journeys Within the IRA's Soul",
+    "author": "Kevin Toolis",
+    "publication_year": 1995,
+    "description": "Investigation into the motivations and experiences of IRA volunteers.",
+    "topics": [
+      "Ireland",
+      "IRA",
+      "Troubles",
+      "resistance"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "Armed Struggle: The History of the IRA",
+    "author": "Richard English",
+    "publication_year": 2003,
+    "description": "Comprehensive history of the Irish Republican Army from 1916 to the peace process.",
+    "topics": [
+      "Ireland",
+      "IRA",
+      "armed struggle",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Say Nothing: A True Story of Murder and Memory in Northern Ireland",
+    "author": "Patrick Radden Keefe",
+    "publication_year": 2019,
+    "description": "Investigation into the Troubles through the disappearance of Jean McConville and the price of peace.",
+    "topics": [
+      "Ireland",
+      "Troubles",
+      "disappeared",
+      "memory"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "A Secret History of the IRA",
+    "author": "Ed Moloney",
+    "publication_year": 2002,
+    "description": "Detailed insider account of the IRA's strategy from the 1970s through the peace process.",
+    "topics": [
+      "Ireland",
+      "IRA",
+      "Troubles",
+      "politics"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Ten Men Dead: The Story of the 1981 Irish Hunger Strike",
+    "author": "David Beresford",
+    "publication_year": 1987,
+    "description": "Account of the ten republicans who died on hunger strike in 1981, using smuggled communications.",
+    "topics": [
+      "Ireland",
+      "hunger strike",
+      "prison",
+      "resistance"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Lethal Allies: British Collusion in Ireland",
+    "author": "Anne Cadwallader",
+    "publication_year": 2013,
+    "description": "Documents British state collusion with loyalist death squads in the murder of Catholics.",
+    "topics": [
+      "Ireland",
+      "collusion",
+      "Troubles",
+      "state violence"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "Unfinished Business: State Killings and the Quest for Truth",
+    "author": "Bill Rolston",
+    "publication_year": 2000,
+    "description": "Examines state killings and the struggle for truth about British violence in Ireland.",
+    "topics": [
+      "Ireland",
+      "state violence",
+      "truth",
+      "justice"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The Informer",
+    "author": "Liam O'Flaherty",
+    "publication_year": 1925,
+    "description": "Classic novel about an IRA informer in post-independence Dublin.",
+    "topics": [
+      "Ireland",
+      "IRA",
+      "betrayal",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "notable"
+  },
+  {
+    "title": "Milkman",
+    "author": "Anna Burns",
+    "publication_year": 2018,
+    "description": "Booker Prize-winning novel set during the Troubles in Belfast.",
+    "topics": [
+      "Ireland",
+      "Troubles",
+      "Belfast",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "notable"
+  },
+  {
+    "title": "The Irish War of Independence",
+    "author": "Michael Hopkinson",
+    "publication_year": 2002,
+    "description": "Comprehensive military history of the 1919-1921 war against British rule.",
+    "topics": [
+      "Ireland",
+      "independence",
+      "guerrilla warfare",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Labour in Irish History",
+    "author": "James Connolly",
+    "publication_year": 1910,
+    "description": "Connolly's analysis of Irish history from a socialist perspective, linking national and class liberation.",
+    "topics": [
+      "Ireland",
+      "socialism",
+      "labor",
+      "history"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/connolly/1910/lih/index.htm"
+  },
+  {
+    "title": "A Portrait of the Artist as a Young Man",
+    "author": "James Joyce",
+    "publication_year": 1916,
+    "description": "Joyce's semi-autobiographical novel of Stephen Dedalus rejecting Irish Catholic nationalism.",
+    "topics": [
+      "Ireland",
+      "identity",
+      "religion",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational"
+  },
+  {
+    "title": "Curfewed Night: A Frontline Memoir of Life, Love and War in Kashmir",
+    "author": "Basharat Peer",
+    "publication_year": 2008,
+    "description": "Memoir of growing up during the Kashmiri uprising against Indian occupation.",
+    "topics": [
+      "Kashmir",
+      "occupation",
+      "memoir",
+      "India"
+    ],
+    "book_type": "memoir",
+    "significance": "major"
+  },
+  {
+    "title": "The Meadow: Kashmir 1995 - Where the Terror Began",
+    "author": "Adrian Levy and Cathy Scott-Clark",
+    "publication_year": 2012,
+    "description": "Investigation into the kidnapping of Western tourists in Kashmir and its aftermath.",
+    "topics": [
+      "Kashmir",
+      "conflict",
+      "journalism",
+      "India"
+    ],
+    "book_type": "journalism",
+    "significance": "notable"
+  },
+  {
+    "title": "Kashmir: The Case for Freedom",
+    "author": "Tariq Ali et al.",
+    "publication_year": 2011,
+    "description": "Collection of essays making the case for Kashmiri self-determination.",
+    "topics": [
+      "Kashmir",
+      "self-determination",
+      "occupation",
+      "India"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Until My Freedom Has Come: The New Intifada in Kashmir",
+    "author": "Sanjay Kak (editor)",
+    "publication_year": 2011,
+    "description": "Collection documenting the 2010 Kashmiri uprising against Indian occupation.",
+    "topics": [
+      "Kashmir",
+      "uprising",
+      "resistance",
+      "India"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "The Dragon in the Land of Snows: A History of Modern Tibet Since 1947",
+    "author": "Tsering Shakya",
+    "publication_year": 1999,
+    "description": "Comprehensive history of Tibet from independence to Chinese occupation.",
+    "topics": [
+      "Tibet",
+      "China",
+      "occupation",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "Tibet: A History",
+    "author": "Sam van Schaik",
+    "publication_year": 2011,
+    "description": "Covers Tibetan history from the seventh century to the present occupation.",
+    "topics": [
+      "Tibet",
+      "history",
+      "Buddhism",
+      "China"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Fire Under the Snow: True Story of a Tibetan Monk",
+    "author": "Palden Gyatso",
+    "publication_year": 1997,
+    "description": "Memoir of a Tibetan monk imprisoned and tortured for 33 years by Chinese authorities.",
+    "topics": [
+      "Tibet",
+      "prison",
+      "torture",
+      "resistance"
+    ],
+    "book_type": "memoir",
+    "significance": "major"
+  },
+  {
+    "title": "Self-Immolation as Protest in Tibet",
+    "author": "John Whalen-Bridge (editor)",
+    "publication_year": 2015,
+    "description": "Academic analysis of the wave of Tibetan self-immolations protesting Chinese rule.",
+    "topics": [
+      "Tibet",
+      "self-immolation",
+      "protest",
+      "resistance"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "A People Without a Country: The Kurds and Kurdistan",
+    "author": "Gerard Chaliand (editor)",
+    "publication_year": 1980,
+    "description": "Foundational collection on Kurdish history, culture, and struggle for self-determination.",
+    "topics": [
+      "Kurdistan",
+      "Kurds",
+      "nationalism",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Kurds: A Modern History",
+    "author": "Michael Gunter",
+    "publication_year": 2015,
+    "description": "Overview of Kurdish history and politics across Turkey, Iraq, Iran, and Syria.",
+    "topics": [
+      "Kurdistan",
+      "Kurds",
+      "politics",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Blood and Belief: The PKK and the Kurdish Fight for Independence",
+    "author": "Aliza Marcus",
+    "publication_year": 2007,
+    "description": "History of the PKK and the Kurdish armed struggle in Turkey.",
+    "topics": [
+      "Kurdistan",
+      "PKK",
+      "armed struggle",
+      "Turkey"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Democratic Confederalism",
+    "author": "Abdullah \u00d6calan",
+    "publication_year": 2011,
+    "description": "\u00d6calan's political philosophy developed in Turkish prison, influencing Rojava.",
+    "topics": [
+      "Kurdistan",
+      "Rojava",
+      "anarchism",
+      "feminism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Revolution in Rojava: Democratic Autonomy and Women's Liberation in Syrian Kurdistan",
+    "author": "Michael Knapp, Anja Flach, and Ercan Ayboga",
+    "publication_year": 2016,
+    "description": "Documentation of the revolutionary experiment in Syrian Kurdistan.",
+    "topics": [
+      "Kurdistan",
+      "Rojava",
+      "revolution",
+      "feminism"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The PKK: Coming Down from the Mountains",
+    "author": "Paul White",
+    "publication_year": 2015,
+    "description": "Analysis of the PKK's transformation from Marxist guerrillas to democratic confederalists.",
+    "topics": [
+      "Kurdistan",
+      "PKK",
+      "ideology",
+      "transformation"
+    ],
+    "book_type": "history",
+    "significance": "notable"
+  },
+  {
+    "title": "Endgame in the Western Sahara: What Future for Africa's Last Colony?",
+    "author": "Toby Shelley",
+    "publication_year": 2004,
+    "description": "Analysis of the Western Sahara conflict and prospects for resolution.",
+    "topics": [
+      "Western Sahara",
+      "Morocco",
+      "colonialism",
+      "UN"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Western Sahara: War, Nationalism, and Conflict Irresolution",
+    "author": "Stephen Zunes and Jacob Mundy",
+    "publication_year": 2010,
+    "description": "Comprehensive study of the Western Sahara conflict and international dimensions.",
+    "topics": [
+      "Western Sahara",
+      "Polisario",
+      "Morocco",
+      "conflict"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Sahara: A Natural History",
+    "author": "Marq de Villiers and Sheila Hirtle",
+    "publication_year": 2002,
+    "description": "History and ecology of the Sahara including the Western Sahara conflict.",
+    "topics": [
+      "Western Sahara",
+      "Sahara",
+      "environment",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "notable"
+  },
+  {
+    "title": "Long Walk to Freedom",
+    "author": "Nelson Mandela",
+    "publication_year": 1994,
+    "description": "Mandela's autobiography from childhood through imprisonment to presidency.",
+    "topics": [
+      "South Africa",
+      "apartheid",
+      "ANC",
+      "liberation"
+    ],
+    "book_type": "autobiography",
+    "significance": "foundational"
+  },
+  {
+    "title": "No Easy Walk to Freedom",
+    "author": "Nelson Mandela",
+    "publication_year": 1965,
+    "description": "Collection of Mandela's speeches and writings from the struggle against apartheid.",
+    "topics": [
+      "South Africa",
+      "apartheid",
+      "resistance",
+      "speeches"
+    ],
+    "book_type": "primary source",
+    "significance": "foundational"
+  },
+  {
+    "title": "I Write What I Like",
+    "author": "Steve Biko",
+    "publication_year": 1978,
+    "description": "Collection of writings by Black Consciousness leader murdered by apartheid police.",
+    "topics": [
+      "South Africa",
+      "Black Consciousness",
+      "apartheid",
+      "resistance"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Struggle Is My Life",
+    "author": "Nelson Mandela",
+    "publication_year": 1986,
+    "description": "Speeches and writings documenting Mandela's political evolution.",
+    "topics": [
+      "South Africa",
+      "apartheid",
+      "ANC",
+      "liberation"
+    ],
+    "book_type": "primary source",
+    "significance": "major"
+  },
+  {
+    "title": "Cry, the Beloved Country",
+    "author": "Alan Paton",
+    "publication_year": 1948,
+    "description": "Novel about a Black pastor searching for his son in apartheid South Africa.",
+    "topics": [
+      "South Africa",
+      "apartheid",
+      "fiction",
+      "race"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational"
+  },
+  {
+    "title": "July's People",
+    "author": "Nadine Gordimer",
+    "publication_year": 1981,
+    "description": "Novel imagining the collapse of apartheid as white family flees to servant's village.",
+    "topics": [
+      "South Africa",
+      "apartheid",
+      "fiction",
+      "race"
+    ],
+    "book_type": "fiction",
+    "significance": "notable"
+  },
+  {
+    "title": "Burger's Daughter",
+    "author": "Nadine Gordimer",
+    "publication_year": 1979,
+    "description": "Novel about daughter of white anti-apartheid activists coming to political consciousness.",
+    "topics": [
+      "South Africa",
+      "apartheid",
+      "resistance",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "notable"
+  },
+  {
+    "title": "The Wretched of the Earth",
+    "author": "Frantz Fanon",
+    "publication_year": 1961,
+    "description": "Fanon's analysis of colonialism and decolonization, highly influential in South Africa.",
+    "topics": [
+      "colonialism",
+      "decolonization",
+      "violence",
+      "psychology"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "A Dying Colonialism",
+    "author": "Frantz Fanon",
+    "publication_year": 1959,
+    "description": "Analysis of the Algerian revolution and transformation of colonized society.",
+    "topics": [
+      "Algeria",
+      "colonialism",
+      "revolution",
+      "France"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Battle of Algiers",
+    "author": "Saadi Yacef",
+    "publication_year": 1962,
+    "description": "Memoir by FLN leader who organized urban guerrilla warfare against French colonizers.",
+    "topics": [
+      "Algeria",
+      "FLN",
+      "guerrilla warfare",
+      "France"
+    ],
+    "book_type": "memoir",
+    "significance": "major"
+  },
+  {
+    "title": "A Savage War of Peace: Algeria 1954-1962",
+    "author": "Alistair Horne",
+    "publication_year": 1977,
+    "description": "Comprehensive history of the Algerian War of Independence.",
+    "topics": [
+      "Algeria",
+      "France",
+      "colonialism",
+      "war"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Question",
+    "author": "Henri Alleg",
+    "publication_year": 1958,
+    "description": "French communist's account of being tortured by French paratroopers in Algeria.",
+    "topics": [
+      "Algeria",
+      "torture",
+      "France",
+      "colonialism"
+    ],
+    "book_type": "memoir",
+    "significance": "major"
+  },
+  {
+    "title": "The Murmur of Dreams",
+    "author": "Ahlam Mosteghanemi",
+    "publication_year": 2012,
+    "description": "Novel exploring love and loss in post-independence Algeria.",
+    "topics": [
+      "Algeria",
+      "fiction",
+      "independence",
+      "memory"
+    ],
+    "book_type": "fiction",
+    "significance": "notable"
+  },
+  {
+    "title": "Kill Anything That Moves: The Real American War in Vietnam",
+    "author": "Nick Turse",
+    "publication_year": 2013,
+    "description": "Documents systematic US atrocities in Vietnam beyond My Lai.",
+    "topics": [
+      "Vietnam",
+      "war crimes",
+      "US imperialism",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The Pentagon Papers",
+    "author": "Daniel Ellsberg",
+    "publication_year": 1971,
+    "description": "Leaked documents revealing US government lies about the Vietnam War.",
+    "topics": [
+      "Vietnam",
+      "US imperialism",
+      "government lies",
+      "history"
+    ],
+    "book_type": "primary source",
+    "significance": "foundational"
+  },
+  {
+    "title": "Fire in the Lake: The Vietnamese and the Americans in Vietnam",
+    "author": "Frances FitzGerald",
+    "publication_year": 1972,
+    "description": "Pulitzer Prize-winning analysis of Vietnamese culture and the US war.",
+    "topics": [
+      "Vietnam",
+      "culture",
+      "US imperialism",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "Vietnam: A History",
+    "author": "Stanley Karnow",
+    "publication_year": 1983,
+    "description": "Comprehensive history of Vietnam and US involvement.",
+    "topics": [
+      "Vietnam",
+      "history",
+      "US imperialism",
+      "war"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The Things They Carried",
+    "author": "Tim O'Brien",
+    "publication_year": 1990,
+    "description": "Collection of linked stories about American soldiers in Vietnam.",
+    "topics": [
+      "Vietnam",
+      "war",
+      "fiction",
+      "soldiers"
+    ],
+    "book_type": "fiction",
+    "significance": "notable"
+  },
+  {
+    "title": "Dispatches",
+    "author": "Michael Herr",
+    "publication_year": 1977,
+    "description": "Gonzo journalism memoir of covering the Vietnam War.",
+    "topics": [
+      "Vietnam",
+      "journalism",
+      "war",
+      "memoir"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "King Leopold's Ghost: A Story of Greed, Terror, and Heroism in Colonial Africa",
+    "author": "Adam Hochschild",
+    "publication_year": 1998,
+    "description": "Documents the atrocities of Belgian colonialism in the Congo Free State.",
+    "topics": [
+      "Congo",
+      "Belgium",
+      "colonialism",
+      "genocide"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Congo from Leopold to Kabila: A People's History",
+    "author": "Georges Nzongola-Ntalaja",
+    "publication_year": 2002,
+    "description": "History of Congo from colonial exploitation through independence struggles.",
+    "topics": [
+      "Congo",
+      "colonialism",
+      "independence",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The Assassination of Lumumba",
+    "author": "Ludo De Witte",
+    "publication_year": 2001,
+    "description": "Documents Belgian and CIA involvement in the murder of Patrice Lumumba.",
+    "topics": [
+      "Congo",
+      "Lumumba",
+      "assassination",
+      "CIA"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "publication_year": 1899,
+    "description": "Novella exposing Belgian atrocities in the Congo, though problematic in its portrayal of Africans.",
+    "topics": [
+      "Congo",
+      "Belgium",
+      "colonialism",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational"
+  },
+  {
+    "title": "Late Victorian Holocausts: El Ni\u00f1o Famines and the Making of the Third World",
+    "author": "Mike Davis",
+    "publication_year": 2001,
+    "description": "Documents how British policies turned droughts into mass famines killing tens of millions.",
+    "topics": [
+      "India",
+      "famine",
+      "British Empire",
+      "colonialism"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "Inglorious Empire: What the British Did to India",
+    "author": "Shashi Tharoor",
+    "publication_year": 2017,
+    "description": "Comprehensive indictment of British colonialism's destruction of India.",
+    "topics": [
+      "India",
+      "British Empire",
+      "colonialism",
+      "exploitation"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The Discovery of India",
+    "author": "Jawaharlal Nehru",
+    "publication_year": 1946,
+    "description": "Nehru's exploration of Indian history and civilization written in British prison.",
+    "topics": [
+      "India",
+      "history",
+      "independence",
+      "nationalism"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "Hind Swaraj",
+    "author": "Mohandas Gandhi",
+    "publication_year": 1909,
+    "description": "Gandhi's critique of Western civilization and vision for Indian self-rule.",
+    "topics": [
+      "India",
+      "independence",
+      "nonviolence",
+      "civilization"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Midnight's Children",
+    "author": "Salman Rushdie",
+    "publication_year": 1981,
+    "description": "Booker Prize-winning novel about children born at Indian independence.",
+    "topics": [
+      "India",
+      "independence",
+      "partition",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational"
+  },
+  {
+    "title": "Train to Pakistan",
+    "author": "Khushwant Singh",
+    "publication_year": 1956,
+    "description": "Novel about partition violence in a village on the India-Pakistan border.",
+    "topics": [
+      "India",
+      "Pakistan",
+      "partition",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "major"
+  },
+  {
+    "title": "Open Veins of Latin America: Five Centuries of the Pillage of a Continent",
+    "author": "Eduardo Galeano",
+    "publication_year": 1971,
+    "description": "Classic analysis of Latin American exploitation by European and US imperialism.",
+    "topics": [
+      "Latin America",
+      "imperialism",
+      "colonialism",
+      "exploitation"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Motorcycle Diaries",
+    "author": "Che Guevara",
+    "publication_year": 1993,
+    "description": "Guevara's memoir of his transformative journey across South America.",
+    "topics": [
+      "Latin America",
+      "Che Guevara",
+      "revolution",
+      "memoir"
+    ],
+    "book_type": "memoir",
+    "significance": "major"
+  },
+  {
+    "title": "Guerrilla Warfare",
+    "author": "Che Guevara",
+    "publication_year": 1961,
+    "description": "Guevara's manual on revolutionary guerrilla tactics.",
+    "topics": [
+      "revolution",
+      "guerrilla warfare",
+      "Cuba",
+      "tactics"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/guevara/1963/09/guerrilla-warfare.htm"
+  },
+  {
+    "title": "Pedagogy of the Oppressed",
+    "author": "Paulo Freire",
+    "publication_year": 1968,
+    "description": "Brazilian educator's foundational text on critical pedagogy and liberation.",
+    "topics": [
+      "education",
+      "liberation",
+      "Brazil",
+      "pedagogy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Shock Doctrine: The Rise of Disaster Capitalism",
+    "author": "Naomi Klein",
+    "publication_year": 2007,
+    "description": "Documents how crises are exploited to impose neoliberal capitalism.",
+    "topics": [
+      "neoliberalism",
+      "Chile",
+      "capitalism",
+      "shock"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "We Say No: Chronicles 1963-1991",
+    "author": "Eduardo Galeano",
+    "publication_year": 1992,
+    "description": "Collection of Galeano's journalism and essays on Latin American politics.",
+    "topics": [
+      "Latin America",
+      "journalism",
+      "politics",
+      "imperialism"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "Memory of Fire Trilogy",
+    "author": "Eduardo Galeano",
+    "publication_year": 1982,
+    "description": "Three-volume alternative history of the Americas from indigenous perspective.",
+    "topics": [
+      "Latin America",
+      "indigenous",
+      "colonialism",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Black Skin, White Masks",
+    "author": "Frantz Fanon",
+    "publication_year": 1952,
+    "description": "Fanon's analysis of the psychological effects of colonialism on the colonized.",
+    "topics": [
+      "colonialism",
+      "psychology",
+      "race",
+      "identity"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Discourse on Colonialism",
+    "author": "Aim\u00e9 C\u00e9saire",
+    "publication_year": 1950,
+    "description": "Martinican poet's powerful indictment of European colonialism.",
+    "topics": [
+      "colonialism",
+      "Europe",
+      "civilization",
+      "critique"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Orientalism",
+    "author": "Edward Said",
+    "publication_year": 1978,
+    "description": "Foundational text of postcolonial studies on Western representations of the 'Orient'.",
+    "topics": [
+      "colonialism",
+      "Orientalism",
+      "representation",
+      "power"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Culture and Imperialism",
+    "author": "Edward Said",
+    "publication_year": 1993,
+    "description": "Extends Orientalism to examine imperialism in Western culture broadly.",
+    "topics": [
+      "imperialism",
+      "culture",
+      "literature",
+      "colonialism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Decolonising the Mind: The Politics of Language in African Literature",
+    "author": "Ng\u0169g\u0129 wa Thiong'o",
+    "publication_year": 1986,
+    "description": "Kenyan writer's argument for African languages over colonial English.",
+    "topics": [
+      "colonialism",
+      "language",
+      "Africa",
+      "decolonization"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Neocolonialism: The Last Stage of Imperialism",
+    "author": "Kwame Nkrumah",
+    "publication_year": 1965,
+    "description": "Ghanaian leader's analysis of how imperialism continues after formal independence.",
+    "topics": [
+      "neocolonialism",
+      "Africa",
+      "imperialism",
+      "independence"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "How Europe Underdeveloped Africa",
+    "author": "Walter Rodney",
+    "publication_year": 1972,
+    "description": "Guyanese historian's analysis of how colonialism impoverished Africa.",
+    "topics": [
+      "Africa",
+      "colonialism",
+      "underdevelopment",
+      "exploitation"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Women, Race & Class",
+    "author": "Angela Davis",
+    "publication_year": 1981,
+    "description": "Intersectional analysis of women's liberation, race, and class struggle.",
+    "topics": [
+      "feminism",
+      "race",
+      "class",
+      "intersectionality"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Sister Outsider",
+    "author": "Audre Lorde",
+    "publication_year": 1984,
+    "description": "Essays and speeches by Black lesbian feminist poet on difference and liberation.",
+    "topics": [
+      "feminism",
+      "race",
+      "sexuality",
+      "liberation"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "This Bridge Called My Back: Writings by Radical Women of Color",
+    "author": "Cherr\u00ede Moraga and Gloria Anzald\u00faa (editors)",
+    "publication_year": 1981,
+    "description": "Groundbreaking anthology of writings by women of color.",
+    "topics": [
+      "feminism",
+      "women of color",
+      "anthology",
+      "liberation"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Caliban and the Witch: Women, the Body and Primitive Accumulation",
+    "author": "Silvia Federici",
+    "publication_year": 2004,
+    "description": "Feminist analysis of witch hunts as primitive accumulation targeting women's bodies.",
+    "topics": [
+      "feminism",
+      "witch hunts",
+      "capitalism",
+      "history"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Feminism for the 99%: A Manifesto",
+    "author": "Cinzia Arruzza, Tithi Bhattacharya, and Nancy Fraser",
+    "publication_year": 2019,
+    "description": "Manifesto for anti-capitalist, internationalist feminism.",
+    "topics": [
+      "feminism",
+      "anticapitalism",
+      "manifesto",
+      "internationalism"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "The Autobiography of Malcolm X",
+    "author": "Malcolm X with Alex Haley",
+    "publication_year": 1965,
+    "description": "Malcolm X's life story from street hustler to revolutionary leader.",
+    "topics": [
+      "Black liberation",
+      "Islam",
+      "revolution",
+      "autobiography"
+    ],
+    "book_type": "autobiography",
+    "significance": "foundational"
+  },
+  {
+    "title": "Revolutionary Suicide",
+    "author": "Huey P. Newton",
+    "publication_year": 1973,
+    "description": "Black Panther co-founder's autobiography and political philosophy.",
+    "topics": [
+      "Black Panthers",
+      "revolution",
+      "autobiography",
+      "Black liberation"
+    ],
+    "book_type": "autobiography",
+    "significance": "foundational"
+  },
+  {
+    "title": "Assata: An Autobiography",
+    "author": "Assata Shakur",
+    "publication_year": 1987,
+    "description": "Autobiography of Black Liberation Army member now in exile in Cuba.",
+    "topics": [
+      "Black liberation",
+      "BLA",
+      "autobiography",
+      "exile"
+    ],
+    "book_type": "autobiography",
+    "significance": "foundational"
+  },
+  {
+    "title": "Blood in My Eye",
+    "author": "George Jackson",
+    "publication_year": 1972,
+    "description": "Revolutionary writings from prison by Black Panther leader killed at San Quentin.",
+    "topics": [
+      "Black liberation",
+      "prison",
+      "revolution",
+      "Black Panthers"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Soledad Brother: The Prison Letters of George Jackson",
+    "author": "George Jackson",
+    "publication_year": 1970,
+    "description": "Letters from prison documenting Jackson's political awakening.",
+    "topics": [
+      "Black liberation",
+      "prison",
+      "letters",
+      "revolution"
+    ],
+    "book_type": "primary source",
+    "significance": "foundational"
+  },
+  {
+    "title": "The New Jim Crow: Mass Incarceration in the Age of Colorblindness",
+    "author": "Michelle Alexander",
+    "publication_year": 2010,
+    "description": "Documents how mass incarceration functions as racial caste system.",
+    "topics": [
+      "mass incarceration",
+      "racism",
+      "criminal justice",
+      "US"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Are Prisons Obsolete?",
+    "author": "Angela Davis",
+    "publication_year": 2003,
+    "description": "Makes the case for prison abolition.",
+    "topics": [
+      "prison abolition",
+      "mass incarceration",
+      "racism",
+      "justice"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "A People's History of the United States",
+    "author": "Howard Zinn",
+    "publication_year": 1980,
+    "description": "US history from the perspective of workers, women, and minorities.",
+    "topics": [
+      "US history",
+      "labor",
+      "people's history",
+      "resistance"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Making of the English Working Class",
+    "author": "E.P. Thompson",
+    "publication_year": 1963,
+    "description": "Foundational social history of English working class formation.",
+    "topics": [
+      "labor",
+      "England",
+      "class",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Jungle",
+    "author": "Upton Sinclair",
+    "publication_year": 1906,
+    "description": "Muckraking novel exposing conditions in Chicago's meatpacking industry.",
+    "topics": [
+      "labor",
+      "meatpacking",
+      "exploitation",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "publication_year": 1939,
+    "description": "Novel following Dust Bowl migrants to California during the Great Depression.",
+    "topics": [
+      "labor",
+      "migration",
+      "Depression",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational"
+  },
+  {
+    "title": "Strike!",
+    "author": "Jeremy Brecher",
+    "publication_year": 1972,
+    "description": "History of mass strikes in America from 1877 to 1970.",
+    "topics": [
+      "labor",
+      "strikes",
+      "US history",
+      "workers"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Anti-D\u00fchring",
+    "author": "Friedrich Engels",
+    "publication_year": 1878,
+    "description": "Engels' systematic presentation of Marxism covering philosophy, political economy, and socialism.",
+    "topics": [
+      "Marxism",
+      "philosophy",
+      "political economy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1877/anti-duhring/"
+  },
+  {
+    "title": "The Origin of the Family, Private Property and the State",
+    "author": "Friedrich Engels",
+    "publication_year": 1884,
+    "description": "Engels' analysis of the historical emergence of the family, private property, and the state.",
+    "topics": [
+      "family",
+      "state",
+      "anthropology",
+      "patriarchy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1884/origin-family/"
+  },
+  {
+    "title": "Socialism: Utopian and Scientific",
+    "author": "Friedrich Engels",
+    "publication_year": 1880,
+    "description": "Accessible introduction to scientific socialism distinguishing it from utopian socialism.",
+    "topics": [
+      "socialism",
+      "Marxism",
+      "history"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1880/soc-utop/"
+  },
+  {
+    "title": "The Eighteenth Brumaire of Louis Bonaparte",
+    "author": "Karl Marx",
+    "publication_year": 1852,
+    "description": "Marx's analysis of the 1851 French coup, containing famous passages on history repeating.",
+    "topics": [
+      "France",
+      "history",
+      "class struggle",
+      "bonapartism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1852/18th-brumaire/"
+  },
+  {
+    "title": "The Civil War in France",
+    "author": "Karl Marx",
+    "publication_year": 1871,
+    "description": "Marx's analysis of the Paris Commune as the first workers' state.",
+    "topics": [
+      "Paris Commune",
+      "revolution",
+      "workers state"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1871/civil-war-france/"
+  },
+  {
+    "title": "Critique of the Gotha Programme",
+    "author": "Karl Marx",
+    "publication_year": 1875,
+    "description": "Marx's critique of the German workers' party program, outlining transition to communism.",
+    "topics": [
+      "socialism",
+      "communism",
+      "transition",
+      "critique"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1875/gotha/"
+  },
+  {
+    "title": "The Poverty of Philosophy",
+    "author": "Karl Marx",
+    "publication_year": 1847,
+    "description": "Marx's critique of Proudhon and early articulation of historical materialism.",
+    "topics": [
+      "political economy",
+      "philosophy",
+      "Proudhon"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/marx/works/1847/poverty-philosophy/"
+  },
+  {
+    "title": "What Is To Be Done?",
+    "author": "Vladimir Lenin",
+    "publication_year": 1902,
+    "description": "Lenin's argument for a vanguard party to lead the revolutionary movement.",
+    "topics": [
+      "party organization",
+      "revolution",
+      "vanguard"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1901/witbd/"
+  },
+  {
+    "title": "Materialism and Empirio-criticism",
+    "author": "Vladimir Lenin",
+    "publication_year": 1909,
+    "description": "Lenin's philosophical defense of materialist epistemology against Machism.",
+    "topics": [
+      "philosophy",
+      "materialism",
+      "epistemology"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1908/mec/"
+  },
+  {
+    "title": "Left-Wing Communism: An Infantile Disorder",
+    "author": "Vladimir Lenin",
+    "publication_year": 1920,
+    "description": "Lenin's critique of ultra-left tactics and defense of strategic flexibility.",
+    "topics": [
+      "tactics",
+      "communism",
+      "party"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1920/lwc/"
+  },
+  {
+    "title": "The Development of Capitalism in Russia",
+    "author": "Vladimir Lenin",
+    "publication_year": 1899,
+    "description": "Lenin's economic analysis of Russian capitalist development and class formation.",
+    "topics": [
+      "Russia",
+      "capitalism",
+      "political economy"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1899/devel/"
+  },
+  {
+    "title": "Two Tactics of Social-Democracy in the Democratic Revolution",
+    "author": "Vladimir Lenin",
+    "publication_year": 1905,
+    "description": "Lenin's strategy for the 1905 Russian Revolution and the role of the proletariat.",
+    "topics": [
+      "Russia",
+      "revolution",
+      "tactics",
+      "1905"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/lenin/works/1905/tactics/"
+  },
+  {
+    "title": "The History of the Russian Revolution",
+    "author": "Leon Trotsky",
+    "publication_year": 1930,
+    "description": "Trotsky's monumental history of the 1917 revolution he helped lead.",
+    "topics": [
+      "Russian Revolution",
+      "history",
+      "1917"
+    ],
+    "book_type": "history",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1930/hrr/"
+  },
+  {
+    "title": "The Revolution Betrayed",
+    "author": "Leon Trotsky",
+    "publication_year": 1936,
+    "description": "Trotsky's analysis of Stalinist bureaucratic degeneration in the Soviet Union.",
+    "topics": [
+      "Soviet Union",
+      "Stalinism",
+      "bureaucracy",
+      "degeneration"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1936/revbet/"
+  },
+  {
+    "title": "The Permanent Revolution",
+    "author": "Leon Trotsky",
+    "publication_year": 1930,
+    "description": "Trotsky's theory of permanent revolution and combined and uneven development.",
+    "topics": [
+      "permanent revolution",
+      "theory",
+      "development"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1931/tpr/"
+  },
+  {
+    "title": "Literature and Revolution",
+    "author": "Leon Trotsky",
+    "publication_year": 1924,
+    "description": "Trotsky's analysis of the relationship between art, literature, and revolution.",
+    "topics": [
+      "art",
+      "literature",
+      "culture",
+      "revolution"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1924/lit_revo/"
+  },
+  {
+    "title": "My Life",
+    "author": "Leon Trotsky",
+    "publication_year": 1930,
+    "description": "Trotsky's autobiography covering his revolutionary career.",
+    "topics": [
+      "autobiography",
+      "Russian Revolution",
+      "exile"
+    ],
+    "book_type": "autobiography",
+    "significance": "major"
+  },
+  {
+    "title": "Their Morals and Ours",
+    "author": "Leon Trotsky",
+    "publication_year": 1938,
+    "description": "Trotsky's defense of revolutionary morality against bourgeois hypocrisy.",
+    "topics": [
+      "ethics",
+      "morality",
+      "revolution"
+    ],
+    "book_type": "theory",
+    "significance": "notable",
+    "marxists_archive_url": "https://www.marxists.org/archive/trotsky/1938/morals/morals.htm"
+  },
+  {
+    "title": "Reform or Revolution",
+    "author": "Rosa Luxemburg",
+    "publication_year": 1900,
+    "description": "Luxemburg's polemic against reformism in the German Social Democratic Party.",
+    "topics": [
+      "reform",
+      "revolution",
+      "reformism",
+      "Germany"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/luxemburg/1900/reform-revolution/"
+  },
+  {
+    "title": "The Mass Strike, the Political Party and the Trade Unions",
+    "author": "Rosa Luxemburg",
+    "publication_year": 1906,
+    "description": "Analysis of the mass strike as revolutionary weapon based on 1905 Russian experience.",
+    "topics": [
+      "mass strike",
+      "trade unions",
+      "revolution"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/luxemburg/1906/mass-strike/"
+  },
+  {
+    "title": "The Accumulation of Capital",
+    "author": "Rosa Luxemburg",
+    "publication_year": 1913,
+    "description": "Luxemburg's analysis of capitalist imperialism and its need for non-capitalist markets.",
+    "topics": [
+      "imperialism",
+      "capitalism",
+      "accumulation"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/archive/luxemburg/1913/accumulation-capital/"
+  },
+  {
+    "title": "The Russian Revolution",
+    "author": "Rosa Luxemburg",
+    "publication_year": 1918,
+    "description": "Luxemburg's critique of Bolshevik policies while defending the revolution.",
+    "topics": [
+      "Russian Revolution",
+      "critique",
+      "democracy"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/"
+  },
+  {
+    "title": "The Junius Pamphlet",
+    "author": "Rosa Luxemburg",
+    "publication_year": 1915,
+    "description": "Luxemburg's anti-war pamphlet written in prison, founding document of Spartacus League.",
+    "topics": [
+      "World War I",
+      "anti-war",
+      "imperialism"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/luxemburg/1915/junius/"
+  },
+  {
+    "title": "Prison Notebooks",
+    "author": "Antonio Gramsci",
+    "publication_year": 1948,
+    "description": "Gramsci's fragmentary writings on hegemony, civil society, and revolutionary strategy.",
+    "topics": [
+      "hegemony",
+      "civil society",
+      "culture",
+      "Italy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Selections from the Prison Notebooks",
+    "author": "Antonio Gramsci",
+    "publication_year": 1971,
+    "description": "Key selections from Gramsci's prison writings on politics and culture.",
+    "topics": [
+      "hegemony",
+      "intellectuals",
+      "revolution"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Modern Prince",
+    "author": "Antonio Gramsci",
+    "publication_year": 1948,
+    "description": "Gramsci's notes on the revolutionary party as the modern equivalent of Machiavelli's prince.",
+    "topics": [
+      "party",
+      "hegemony",
+      "strategy"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "On Contradiction",
+    "author": "Mao Zedong",
+    "publication_year": 1937,
+    "description": "Mao's philosophical essay on dialectics and the analysis of contradictions.",
+    "topics": [
+      "dialectics",
+      "philosophy",
+      "contradiction"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_17.htm"
+  },
+  {
+    "title": "On Practice",
+    "author": "Mao Zedong",
+    "publication_year": 1937,
+    "description": "Mao's epistemological essay on the relationship between knowledge and practice.",
+    "topics": [
+      "epistemology",
+      "practice",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_16.htm"
+  },
+  {
+    "title": "On Guerrilla Warfare",
+    "author": "Mao Zedong",
+    "publication_year": 1937,
+    "description": "Mao's classic text on guerrilla warfare strategy and tactics.",
+    "topics": [
+      "guerrilla warfare",
+      "military strategy",
+      "revolution"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "On Protracted War",
+    "author": "Mao Zedong",
+    "publication_year": 1938,
+    "description": "Mao's analysis of the strategy for China's war of resistance against Japan.",
+    "topics": [
+      "military strategy",
+      "Japan",
+      "protracted war"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Report on an Investigation of the Peasant Movement in Hunan",
+    "author": "Mao Zedong",
+    "publication_year": 1927,
+    "description": "Mao's influential report on peasant revolutionary potential.",
+    "topics": [
+      "peasantry",
+      "revolution",
+      "China"
+    ],
+    "book_type": "theory",
+    "significance": "foundational",
+    "marxists_archive_url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_2.htm"
+  },
+  {
+    "title": "Mutual Aid: A Factor of Evolution",
+    "author": "Peter Kropotkin",
+    "publication_year": 1902,
+    "description": "Kropotkin's argument that cooperation is as important as competition in evolution.",
+    "topics": [
+      "anarchism",
+      "evolution",
+      "cooperation",
+      "mutual aid"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Conquest of Bread",
+    "author": "Peter Kropotkin",
+    "publication_year": 1892,
+    "description": "Kropotkin's vision of anarchist communist society and how to achieve it.",
+    "topics": [
+      "anarchism",
+      "communism",
+      "society"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Fields, Factories and Workshops",
+    "author": "Peter Kropotkin",
+    "publication_year": 1899,
+    "description": "Kropotkin's analysis of decentralized, integrated economic production.",
+    "topics": [
+      "anarchism",
+      "economics",
+      "decentralization"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "God and the State",
+    "author": "Mikhail Bakunin",
+    "publication_year": 1882,
+    "description": "Bakunin's critique of religion and the state as forms of authority.",
+    "topics": [
+      "anarchism",
+      "religion",
+      "state",
+      "authority"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Statism and Anarchy",
+    "author": "Mikhail Bakunin",
+    "publication_year": 1873,
+    "description": "Bakunin's critique of Marxist statism and defense of anarchist federalism.",
+    "topics": [
+      "anarchism",
+      "state",
+      "Marxism",
+      "federalism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "What Is Property?",
+    "author": "Pierre-Joseph Proudhon",
+    "publication_year": 1840,
+    "description": "Proudhon's famous work declaring 'property is theft' and outlining mutualism.",
+    "topics": [
+      "anarchism",
+      "property",
+      "mutualism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Homage to Catalonia",
+    "author": "George Orwell",
+    "publication_year": 1938,
+    "description": "Orwell's account of fighting in the Spanish Civil War with the POUM militia.",
+    "topics": [
+      "Spanish Civil War",
+      "anarchism",
+      "memoir",
+      "POUM"
+    ],
+    "book_type": "memoir",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Spanish Civil War",
+    "author": "Hugh Thomas",
+    "publication_year": 1961,
+    "description": "Comprehensive history of the Spanish Civil War.",
+    "topics": [
+      "Spanish Civil War",
+      "history",
+      "fascism",
+      "republic"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "Dialectic of Enlightenment",
+    "author": "Theodor Adorno and Max Horkheimer",
+    "publication_year": 1944,
+    "description": "Analysis of how Enlightenment reason contains seeds of its own destruction.",
+    "topics": [
+      "critical theory",
+      "Enlightenment",
+      "reason",
+      "culture"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "One-Dimensional Man",
+    "author": "Herbert Marcuse",
+    "publication_year": 1964,
+    "description": "Marcuse's critique of advanced industrial society's suppression of opposition.",
+    "topics": [
+      "critical theory",
+      "consumerism",
+      "one-dimensional",
+      "capitalism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Eros and Civilization",
+    "author": "Herbert Marcuse",
+    "publication_year": 1955,
+    "description": "Marcuse's synthesis of Marx and Freud, imagining non-repressive civilization.",
+    "topics": [
+      "critical theory",
+      "Freud",
+      "liberation",
+      "eros"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Minima Moralia",
+    "author": "Theodor Adorno",
+    "publication_year": 1951,
+    "description": "Adorno's aphoristic reflections on damaged life under late capitalism.",
+    "topics": [
+      "critical theory",
+      "ethics",
+      "capitalism",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "History and Class Consciousness",
+    "author": "Georg Luk\u00e1cs",
+    "publication_year": 1923,
+    "description": "Foundational text of Western Marxism on reification and class consciousness.",
+    "topics": [
+      "Marxism",
+      "reification",
+      "class consciousness",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Theory of the Novel",
+    "author": "Georg Luk\u00e1cs",
+    "publication_year": 1916,
+    "description": "Luk\u00e1cs' early analysis of the novel as expression of transcendental homelessness.",
+    "topics": [
+      "literature",
+      "novel",
+      "philosophy",
+      "aesthetics"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Being and Nothingness",
+    "author": "Jean-Paul Sartre",
+    "publication_year": 1943,
+    "description": "Sartre's magnum opus on existentialist philosophy.",
+    "topics": [
+      "existentialism",
+      "philosophy",
+      "freedom",
+      "consciousness"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Critique of Dialectical Reason",
+    "author": "Jean-Paul Sartre",
+    "publication_year": 1960,
+    "description": "Sartre's attempt to synthesize existentialism and Marxism.",
+    "topics": [
+      "existentialism",
+      "Marxism",
+      "dialectics",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Search for a Method",
+    "author": "Jean-Paul Sartre",
+    "publication_year": 1957,
+    "description": "Sartre's essay on the relationship between existentialism and Marxism.",
+    "topics": [
+      "existentialism",
+      "Marxism",
+      "method",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Second Sex",
+    "author": "Simone de Beauvoir",
+    "publication_year": 1949,
+    "description": "Foundational feminist text analyzing women's oppression and 'becoming woman'.",
+    "topics": [
+      "feminism",
+      "existentialism",
+      "gender",
+      "oppression"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Ethics of Ambiguity",
+    "author": "Simone de Beauvoir",
+    "publication_year": 1947,
+    "description": "Beauvoir's existentialist ethics and its political implications.",
+    "topics": [
+      "existentialism",
+      "ethics",
+      "freedom",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Reading Capital",
+    "author": "Louis Althusser",
+    "publication_year": 1965,
+    "description": "Althusser's structuralist reading of Marx's Capital.",
+    "topics": [
+      "Marxism",
+      "structuralism",
+      "Capital",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "For Marx",
+    "author": "Louis Althusser",
+    "publication_year": 1965,
+    "description": "Althusser's essays on the scientific character of Marxism.",
+    "topics": [
+      "Marxism",
+      "epistemology",
+      "ideology",
+      "philosophy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The German Ideology Today",
+    "author": "Louis Althusser",
+    "publication_year": 1970,
+    "description": "Althusser's essay on ideology and ideological state apparatuses.",
+    "topics": [
+      "ideology",
+      "state",
+      "ISA",
+      "Marxism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Hegemony and Socialist Strategy",
+    "author": "Ernesto Laclau and Chantal Mouffe",
+    "publication_year": 1985,
+    "description": "Post-Marxist theory of radical democracy and discourse.",
+    "topics": [
+      "hegemony",
+      "post-Marxism",
+      "democracy",
+      "discourse"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Empire",
+    "author": "Michael Hardt and Antonio Negri",
+    "publication_year": 2000,
+    "description": "Analysis of globalized capitalism and resistance through the multitude.",
+    "topics": [
+      "empire",
+      "globalization",
+      "multitude",
+      "resistance"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Multitude",
+    "author": "Michael Hardt and Antonio Negri",
+    "publication_year": 2004,
+    "description": "Sequel to Empire analyzing the revolutionary potential of the multitude.",
+    "topics": [
+      "multitude",
+      "democracy",
+      "resistance",
+      "globalization"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "The Communist Horizon",
+    "author": "Jodi Dean",
+    "publication_year": 2012,
+    "description": "Argument for returning to communism as political horizon.",
+    "topics": [
+      "communism",
+      "politics",
+      "left",
+      "horizon"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "The Modern World-System I",
+    "author": "Immanuel Wallerstein",
+    "publication_year": 1974,
+    "description": "Wallerstein's analysis of the emergence of the capitalist world-economy.",
+    "topics": [
+      "world-systems",
+      "capitalism",
+      "history",
+      "core-periphery"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Development of Underdevelopment",
+    "author": "Andre Gunder Frank",
+    "publication_year": 1966,
+    "description": "Frank's dependency theory analysis of Latin American underdevelopment.",
+    "topics": [
+      "dependency",
+      "underdevelopment",
+      "Latin America",
+      "imperialism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Unequal Exchange",
+    "author": "Arghiri Emmanuel",
+    "publication_year": 1969,
+    "description": "Analysis of how international trade transfers value from periphery to core.",
+    "topics": [
+      "trade",
+      "imperialism",
+      "value transfer",
+      "exploitation"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Accumulation on a World Scale",
+    "author": "Samir Amin",
+    "publication_year": 1970,
+    "description": "Amin's analysis of global capitalist accumulation and peripheral economies.",
+    "topics": [
+      "accumulation",
+      "periphery",
+      "capitalism",
+      "Africa"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Eurocentrism",
+    "author": "Samir Amin",
+    "publication_year": 1988,
+    "description": "Amin's critique of Eurocentrism in social theory and its ideological function.",
+    "topics": [
+      "Eurocentrism",
+      "ideology",
+      "capitalism",
+      "critique"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Ecology of Freedom",
+    "author": "Murray Bookchin",
+    "publication_year": 1982,
+    "description": "Bookchin's social ecology synthesizing anarchism and environmental thought.",
+    "topics": [
+      "ecology",
+      "anarchism",
+      "social ecology",
+      "hierarchy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Post-Scarcity Anarchism",
+    "author": "Murray Bookchin",
+    "publication_year": 1971,
+    "description": "Bookchin's vision of anarchist society enabled by technological abundance.",
+    "topics": [
+      "anarchism",
+      "ecology",
+      "technology",
+      "post-scarcity"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "This Changes Everything: Capitalism vs. The Climate",
+    "author": "Naomi Klein",
+    "publication_year": 2014,
+    "description": "Argument that addressing climate change requires confronting capitalism.",
+    "topics": [
+      "climate change",
+      "capitalism",
+      "environment",
+      "activism"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "Fossil Capital",
+    "author": "Andreas Malm",
+    "publication_year": 2016,
+    "description": "Historical analysis of how capitalism became dependent on fossil fuels.",
+    "topics": [
+      "climate",
+      "capitalism",
+      "fossil fuels",
+      "history"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "How to Blow Up a Pipeline",
+    "author": "Andreas Malm",
+    "publication_year": 2021,
+    "description": "Argument for property destruction as climate movement tactic.",
+    "topics": [
+      "climate",
+      "tactics",
+      "sabotage",
+      "activism"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Less Is More: How Degrowth Will Save the World",
+    "author": "Jason Hickel",
+    "publication_year": 2020,
+    "description": "Case for degrowth as solution to ecological and social crises.",
+    "topics": [
+      "degrowth",
+      "ecology",
+      "capitalism",
+      "economics"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Capitalist Realism: Is There No Alternative?",
+    "author": "Mark Fisher",
+    "publication_year": 2009,
+    "description": "Analysis of how capitalism colonizes the imagination.",
+    "topics": [
+      "capitalism",
+      "ideology",
+      "culture",
+      "alternative"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Ghosts of My Life",
+    "author": "Mark Fisher",
+    "publication_year": 2014,
+    "description": "Essays on hauntology, lost futures, and cultural memory.",
+    "topics": [
+      "hauntology",
+      "culture",
+      "music",
+      "nostalgia"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Debt: The First 5,000 Years",
+    "author": "David Graeber",
+    "publication_year": 2011,
+    "description": "Anthropological history of debt and its role in human societies.",
+    "topics": [
+      "debt",
+      "anthropology",
+      "economics",
+      "history"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Bullshit Jobs: A Theory",
+    "author": "David Graeber",
+    "publication_year": 2018,
+    "description": "Analysis of meaningless work under contemporary capitalism.",
+    "topics": [
+      "work",
+      "labor",
+      "capitalism",
+      "meaning"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "The Dawn of Everything",
+    "author": "David Graeber and David Wengrow",
+    "publication_year": 2021,
+    "description": "Revisionist history of human social organization challenging standard narratives.",
+    "topics": [
+      "history",
+      "anthropology",
+      "inequality",
+      "freedom"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "In Defense of Housing",
+    "author": "Peter Marcuse and David Madden",
+    "publication_year": 2016,
+    "description": "Analysis of housing as commodity and argument for housing as right.",
+    "topics": [
+      "housing",
+      "capitalism",
+      "cities",
+      "rights"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Inventing the Future: Postcapitalism and a World Without Work",
+    "author": "Nick Srnicek and Alex Williams",
+    "publication_year": 2015,
+    "description": "Accelerationist argument for post-work future.",
+    "topics": [
+      "post-work",
+      "automation",
+      "future",
+      "accelerationism"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Platform Capitalism",
+    "author": "Nick Srnicek",
+    "publication_year": 2016,
+    "description": "Analysis of platform companies and their role in contemporary capitalism.",
+    "topics": [
+      "platforms",
+      "capitalism",
+      "technology",
+      "digital"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "The Birth of the Palestinian Refugee Problem Revisited",
+    "author": "Benny Morris",
+    "publication_year": 2004,
+    "description": "Revised history of 1948 by Israeli historian using newly declassified archives.",
+    "topics": [
+      "Palestine",
+      "Nakba",
+      "refugees",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Image and Reality of the Israel-Palestine Conflict",
+    "author": "Norman Finkelstein",
+    "publication_year": 1995,
+    "description": "Scholarly deconstruction of myths surrounding the Israel-Palestine conflict.",
+    "topics": [
+      "Palestine",
+      "Israel",
+      "myths",
+      "history"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Holocaust Industry",
+    "author": "Norman Finkelstein",
+    "publication_year": 2000,
+    "description": "Controversial analysis of exploitation of Holocaust memory.",
+    "topics": [
+      "Holocaust",
+      "memory",
+      "Israel",
+      "politics"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Gaza in Crisis",
+    "author": "Noam Chomsky and Ilan Papp\u00e9",
+    "publication_year": 2010,
+    "description": "Analysis of the 2008-2009 Gaza assault and broader context.",
+    "topics": [
+      "Palestine",
+      "Gaza",
+      "Israel",
+      "international law"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Blaming the Victims",
+    "author": "Edward Said and Christopher Hitchens (editors)",
+    "publication_year": 1988,
+    "description": "Collection challenging Western media coverage of Palestinians.",
+    "topics": [
+      "Palestine",
+      "media",
+      "propaganda",
+      "victims"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "After the Last Sky: Palestinian Lives",
+    "author": "Edward Said",
+    "publication_year": 1986,
+    "description": "Said's meditation on Palestinian identity with photographs by Jean Mohr.",
+    "topics": [
+      "Palestine",
+      "identity",
+      "photography",
+      "exile"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Politics of Dispossession",
+    "author": "Edward Said",
+    "publication_year": 1994,
+    "description": "Collection of Said's essays on Palestinian struggle.",
+    "topics": [
+      "Palestine",
+      "dispossession",
+      "politics",
+      "essays"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Out of Place: A Memoir",
+    "author": "Edward Said",
+    "publication_year": 1999,
+    "description": "Said's memoir of childhood in Palestine, Egypt, and Lebanon.",
+    "topics": [
+      "Palestine",
+      "memoir",
+      "identity",
+      "exile"
+    ],
+    "book_type": "autobiography",
+    "significance": "major"
+  },
+  {
+    "title": "Black Reconstruction in America",
+    "author": "W.E.B. Du Bois",
+    "publication_year": 1935,
+    "description": "Du Bois' revisionist history of Reconstruction centering Black agency.",
+    "topics": [
+      "Black liberation",
+      "Reconstruction",
+      "history",
+      "US"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Souls of Black Folk",
+    "author": "W.E.B. Du Bois",
+    "publication_year": 1903,
+    "description": "Du Bois' classic on double consciousness and the color line.",
+    "topics": [
+      "Black liberation",
+      "race",
+      "consciousness",
+      "US"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Darkwater: Voices from Within the Veil",
+    "author": "W.E.B. Du Bois",
+    "publication_year": 1920,
+    "description": "Essays and poetry on race, imperialism, and World War I.",
+    "topics": [
+      "Black liberation",
+      "imperialism",
+      "race",
+      "WWI"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Black Power: The Politics of Liberation",
+    "author": "Stokely Carmichael and Charles V. Hamilton",
+    "publication_year": 1967,
+    "description": "Foundational text of Black Power movement defining institutional racism.",
+    "topics": [
+      "Black Power",
+      "racism",
+      "liberation",
+      "US"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Die Nigger Die!",
+    "author": "H. Rap Brown",
+    "publication_year": 1969,
+    "description": "Autobiography and political analysis by Black Power activist.",
+    "topics": [
+      "Black Power",
+      "autobiography",
+      "revolution",
+      "US"
+    ],
+    "book_type": "autobiography",
+    "significance": "major"
+  },
+  {
+    "title": "If They Come in the Morning",
+    "author": "Angela Davis (editor)",
+    "publication_year": 1971,
+    "description": "Writings on political prisoners featuring George Jackson and others.",
+    "topics": [
+      "Black liberation",
+      "prison",
+      "political prisoners",
+      "US"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Angela Davis: An Autobiography",
+    "author": "Angela Davis",
+    "publication_year": 1974,
+    "description": "Davis' account of her political development and persecution.",
+    "topics": [
+      "Black liberation",
+      "autobiography",
+      "communism",
+      "feminism"
+    ],
+    "book_type": "autobiography",
+    "significance": "major"
+  },
+  {
+    "title": "Black Macho and the Myth of the Superwoman",
+    "author": "Michele Wallace",
+    "publication_year": 1978,
+    "description": "Black feminist critique of sexism in Black liberation movement.",
+    "topics": [
+      "Black feminism",
+      "sexism",
+      "Black liberation",
+      "critique"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Ain't I a Woman: Black Women and Feminism",
+    "author": "bell hooks",
+    "publication_year": 1981,
+    "description": "Analysis of intersection of racism and sexism affecting Black women.",
+    "topics": [
+      "Black feminism",
+      "intersectionality",
+      "racism",
+      "sexism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Feminist Theory: From Margin to Center",
+    "author": "bell hooks",
+    "publication_year": 1984,
+    "description": "hooks' critique of white feminism and call for centering marginalized women.",
+    "topics": [
+      "feminism",
+      "Black feminism",
+      "margin",
+      "center"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "All the Women Are White, All the Blacks Are Men, But Some of Us Are Brave",
+    "author": "Gloria T. Hull, Patricia Bell Scott, and Barbara Smith (editors)",
+    "publication_year": 1982,
+    "description": "Foundational anthology of Black women's studies.",
+    "topics": [
+      "Black feminism",
+      "women's studies",
+      "anthology",
+      "intersectionality"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Home Girls: A Black Feminist Anthology",
+    "author": "Barbara Smith (editor)",
+    "publication_year": 1983,
+    "description": "Anthology of Black feminist writing including the Combahee River Collective Statement.",
+    "topics": [
+      "Black feminism",
+      "anthology",
+      "lesbian",
+      "Combahee"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "From #BlackLivesMatter to Black Liberation",
+    "author": "Keeanga-Yamahtta Taylor",
+    "publication_year": 2016,
+    "description": "Analysis of Black Lives Matter and the ongoing struggle for liberation.",
+    "topics": [
+      "Black Lives Matter",
+      "liberation",
+      "police",
+      "racism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "How We Get Free: Black Feminism and the Combahee River Collective",
+    "author": "Keeanga-Yamahtta Taylor (editor)",
+    "publication_year": 2017,
+    "description": "Collection exploring the legacy of the Combahee River Collective.",
+    "topics": [
+      "Black feminism",
+      "Combahee",
+      "intersectionality",
+      "socialism"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Bury My Heart at Wounded Knee",
+    "author": "Dee Brown",
+    "publication_year": 1970,
+    "description": "History of Native American genocide from indigenous perspective.",
+    "topics": [
+      "Native American",
+      "genocide",
+      "history",
+      "US"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "An Indigenous Peoples' History of the United States",
+    "author": "Roxanne Dunbar-Ortiz",
+    "publication_year": 2014,
+    "description": "US history from indigenous perspective challenging settler narratives.",
+    "topics": [
+      "Native American",
+      "settler colonialism",
+      "history",
+      "US"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Red Skin, White Masks",
+    "author": "Glen Sean Coulthard",
+    "publication_year": 2014,
+    "description": "Indigenous critique of recognition politics applying Fanon to settler colonialism.",
+    "topics": [
+      "indigenous",
+      "settler colonialism",
+      "recognition",
+      "Fanon"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Rediscovery of America: Native Peoples and the Unmaking of U.S. History",
+    "author": "Ned Blackhawk",
+    "publication_year": 2023,
+    "description": "Pulitzer Prize-winning recentering of Native peoples in American history.",
+    "topics": [
+      "Native American",
+      "history",
+      "US",
+      "sovereignty"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "As We Have Always Done: Indigenous Freedom through Radical Resistance",
+    "author": "Leanne Betasamosake Simpson",
+    "publication_year": 2017,
+    "description": "Nishnaabeg scholar on indigenous resurgence and radical resistance.",
+    "topics": [
+      "indigenous",
+      "resurgence",
+      "resistance",
+      "Nishnaabeg"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Conquest: Sexual Violence and American Indian Genocide",
+    "author": "Andrea Smith",
+    "publication_year": 2005,
+    "description": "Analysis of sexual violence as tool of colonialism against Native women.",
+    "topics": [
+      "indigenous",
+      "sexual violence",
+      "genocide",
+      "colonialism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Orientals: Asian Americans in Popular Culture",
+    "author": "Robert G. Lee",
+    "publication_year": 1999,
+    "description": "Analysis of Asian American representation and stereotypes in US culture.",
+    "topics": [
+      "Asian American",
+      "representation",
+      "stereotypes",
+      "culture"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Racial Melancholia, Racial Dissociation",
+    "author": "David L. Eng and Shinhee Han",
+    "publication_year": 2019,
+    "description": "Psychoanalytic analysis of Asian American racial experience.",
+    "topics": [
+      "Asian American",
+      "psychoanalysis",
+      "race",
+      "melancholia"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Minor Feelings: An Asian American Reckoning",
+    "author": "Cathy Park Hong",
+    "publication_year": 2020,
+    "description": "Essays on Asian American identity, shame, and solidarity.",
+    "topics": [
+      "Asian American",
+      "identity",
+      "race",
+      "essays"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Aiiieeeee!: An Anthology of Asian-American Writers",
+    "author": "Frank Chin et al. (editors)",
+    "publication_year": 1974,
+    "description": "Foundational anthology of Asian American literature.",
+    "topics": [
+      "Asian American",
+      "literature",
+      "anthology",
+      "identity"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational"
+  },
+  {
+    "title": "Borderlands/La Frontera: The New Mestiza",
+    "author": "Gloria Anzald\u00faa",
+    "publication_year": 1987,
+    "description": "Foundational text of Chicana feminism on border consciousness.",
+    "topics": [
+      "Chicana",
+      "border",
+      "feminism",
+      "mestiza"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Occupied America: A History of Chicanos",
+    "author": "Rodolfo Acu\u00f1a",
+    "publication_year": 1972,
+    "description": "History of Mexican Americans as colonized people within the US.",
+    "topics": [
+      "Chicano",
+      "colonialism",
+      "history",
+      "US"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Devil's Highway",
+    "author": "Luis Alberto Urrea",
+    "publication_year": 2004,
+    "description": "Account of migrants who died crossing the Arizona desert.",
+    "topics": [
+      "immigration",
+      "border",
+      "death",
+      "US-Mexico"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "Harvest of Empire: A History of Latinos in America",
+    "author": "Juan Gonz\u00e1lez",
+    "publication_year": 2000,
+    "description": "History of Latino immigration to US linked to US imperialism.",
+    "topics": [
+      "Latino",
+      "immigration",
+      "imperialism",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Gay New York: Gender, Urban Culture, and the Making of the Gay Male World, 1890-1940",
+    "author": "George Chauncey",
+    "publication_year": 1994,
+    "description": "History of gay life in New York before the closet era.",
+    "topics": [
+      "queer",
+      "history",
+      "New York",
+      "gay"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "Stone Butch Blues",
+    "author": "Leslie Feinberg",
+    "publication_year": 1993,
+    "description": "Novel about butch lesbian working-class life and gender identity.",
+    "topics": [
+      "queer",
+      "transgender",
+      "working class",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational"
+  },
+  {
+    "title": "Transgender Warriors",
+    "author": "Leslie Feinberg",
+    "publication_year": 1996,
+    "description": "History of gender-variant people across cultures and time.",
+    "topics": [
+      "transgender",
+      "history",
+      "gender",
+      "warriors"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Gender Trouble",
+    "author": "Judith Butler",
+    "publication_year": 1990,
+    "description": "Butler's foundational text on gender performativity.",
+    "topics": [
+      "gender",
+      "performativity",
+      "feminism",
+      "queer theory"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Bodies That Matter",
+    "author": "Judith Butler",
+    "publication_year": 1993,
+    "description": "Butler's follow-up on the materiality of bodies and sex.",
+    "topics": [
+      "gender",
+      "bodies",
+      "materiality",
+      "queer theory"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Epistemology of the Closet",
+    "author": "Eve Kosofsky Sedgwick",
+    "publication_year": 1990,
+    "description": "Foundational text of queer theory on the homo/heterosexual definition.",
+    "topics": [
+      "queer theory",
+      "closet",
+      "sexuality",
+      "epistemology"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Normal Life: Administrative Violence, Critical Trans Politics, and the Limits of Law",
+    "author": "Dean Spade",
+    "publication_year": 2011,
+    "description": "Analysis of how law and administration harm trans people.",
+    "topics": [
+      "transgender",
+      "law",
+      "administrative violence",
+      "critique"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Terrorist Assemblages: Homonationalism in Queer Times",
+    "author": "Jasbir K. Puar",
+    "publication_year": 2007,
+    "description": "Analysis of how queerness is deployed in service of US nationalism.",
+    "topics": [
+      "queer",
+      "homonationalism",
+      "terrorism",
+      "race"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Disability and Dependency",
+    "author": "Marta Russell",
+    "publication_year": 1998,
+    "description": "Marxist analysis of disability and capitalist political economy.",
+    "topics": [
+      "disability",
+      "Marxism",
+      "capitalism",
+      "political economy"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Rejected Body: Feminist Philosophical Reflections on Disability",
+    "author": "Susan Wendell",
+    "publication_year": 1996,
+    "description": "Feminist philosophy of disability and embodiment.",
+    "topics": [
+      "disability",
+      "feminism",
+      "philosophy",
+      "body"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Enforcing Normalcy: Disability, Deafness, and the Body",
+    "author": "Lennard J. Davis",
+    "publication_year": 1995,
+    "description": "Analysis of how normalcy is constructed against disability.",
+    "topics": [
+      "disability",
+      "normalcy",
+      "Deaf",
+      "body"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "War Is a Racket",
+    "author": "Smedley Butler",
+    "publication_year": 1935,
+    "description": "Marine general's expos\u00e9 of war profiteering and US imperialism.",
+    "topics": [
+      "anti-war",
+      "imperialism",
+      "military",
+      "profit"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "A People's History of American Empire",
+    "author": "Howard Zinn",
+    "publication_year": 2008,
+    "description": "Graphic novel adaptation covering US imperial history.",
+    "topics": [
+      "imperialism",
+      "US",
+      "history",
+      "graphic novel"
+    ],
+    "book_type": "history",
+    "significance": "notable"
+  },
+  {
+    "title": "Manufacturing Consent: The Political Economy of the Mass Media",
+    "author": "Edward S. Herman and Noam Chomsky",
+    "publication_year": 1988,
+    "description": "Analysis of how media serves elite interests through propaganda model.",
+    "topics": [
+      "media",
+      "propaganda",
+      "manufacturing consent",
+      "critique"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Understanding Power",
+    "author": "Noam Chomsky",
+    "publication_year": 2002,
+    "description": "Collection of Chomsky's discussions on politics and power.",
+    "topics": [
+      "power",
+      "politics",
+      "US",
+      "imperialism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Hegemony or Survival",
+    "author": "Noam Chomsky",
+    "publication_year": 2003,
+    "description": "Chomsky's analysis of US pursuit of global hegemony.",
+    "topics": [
+      "hegemony",
+      "US",
+      "imperialism",
+      "survival"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Failed States",
+    "author": "Noam Chomsky",
+    "publication_year": 2006,
+    "description": "Argument that the US fits its own criteria of a failed state.",
+    "topics": [
+      "US",
+      "failed state",
+      "imperialism",
+      "democracy"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "There Is Power in a Union: The Epic Story of Labor in America",
+    "author": "Philip Dray",
+    "publication_year": 2010,
+    "description": "Comprehensive history of American labor movement.",
+    "topics": [
+      "labor",
+      "unions",
+      "US",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Reviving the Strike: How Working People Can Regain Power and Transform America",
+    "author": "Joe Burns",
+    "publication_year": 2011,
+    "description": "Argument for reviving the strike as labor's most powerful weapon.",
+    "topics": [
+      "labor",
+      "strike",
+      "unions",
+      "power"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "On New Terrain: How Capital Is Reshaping the Battleground of Class War",
+    "author": "Kim Moody",
+    "publication_year": 2017,
+    "description": "Analysis of contemporary class struggle and labor organizing.",
+    "topics": [
+      "labor",
+      "class",
+      "logistics",
+      "organizing"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "A Collective Bargain: Unions, Organizing, and the Fight for Democracy",
+    "author": "Jane McAlevey",
+    "publication_year": 2020,
+    "description": "Argument for deep organizing and workplace democracy.",
+    "topics": [
+      "labor",
+      "organizing",
+      "unions",
+      "democracy"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "No Shortcuts: Organizing for Power in the New Gilded Age",
+    "author": "Jane McAlevey",
+    "publication_year": 2016,
+    "description": "Analysis of successful organizing strategies versus advocacy.",
+    "topics": [
+      "labor",
+      "organizing",
+      "power",
+      "strategy"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Rules for Radicals",
+    "author": "Saul Alinsky",
+    "publication_year": 1971,
+    "description": "Alinsky's manual for community organizing and tactics.",
+    "topics": [
+      "organizing",
+      "tactics",
+      "community",
+      "power"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Reveille for Radicals",
+    "author": "Saul Alinsky",
+    "publication_year": 1946,
+    "description": "Alinsky's earlier work on democratic community organizing.",
+    "topics": [
+      "organizing",
+      "community",
+      "democracy",
+      "power"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Next Shift: The Fall of Industry and the Rise of Health Care in Rust Belt America",
+    "author": "Gabriel Winant",
+    "publication_year": 2021,
+    "description": "Analysis of deindustrialization and rise of care economy.",
+    "topics": [
+      "deindustrialization",
+      "healthcare",
+      "labor",
+      "rust belt"
+    ],
+    "book_type": "history",
+    "significance": "notable"
+  },
+  {
+    "title": "Direct Action: Protest and the Reinvention of American Radicalism",
+    "author": "L.A. Kauffman",
+    "publication_year": 2017,
+    "description": "History of direct action movements from 1970s to present.",
+    "topics": [
+      "direct action",
+      "protest",
+      "movements",
+      "history"
+    ],
+    "book_type": "history",
+    "significance": "notable"
+  },
+  {
+    "title": "This Is an Uprising: How Nonviolent Revolt Is Shaping the Twenty-First Century",
+    "author": "Mark Engler and Paul Engler",
+    "publication_year": 2016,
+    "description": "Analysis of successful nonviolent movements and their strategies.",
+    "topics": [
+      "nonviolence",
+      "uprising",
+      "movements",
+      "strategy"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "The Dispossessed",
+    "author": "Ursula K. Le Guin",
+    "publication_year": 1974,
+    "description": "Science fiction novel exploring anarchist society and revolution.",
+    "topics": [
+      "anarchism",
+      "science fiction",
+      "utopia",
+      "revolution"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "publication_year": 1969,
+    "description": "Science fiction exploring gender on a planet without fixed sex.",
+    "topics": [
+      "gender",
+      "science fiction",
+      "androgyny",
+      "society"
+    ],
+    "book_type": "fiction",
+    "significance": "foundational"
+  },
+  {
+    "title": "Parable of the Sower",
+    "author": "Octavia E. Butler",
+    "publication_year": 1993,
+    "description": "Dystopian novel of climate collapse and community building.",
+    "topics": [
+      "climate",
+      "dystopia",
+      "community",
+      "survival"
+    ],
+    "book_type": "fiction",
+    "significance": "major"
+  },
+  {
+    "title": "Kindred",
+    "author": "Octavia E. Butler",
+    "publication_year": 1979,
+    "description": "Time travel novel confronting slavery's legacy.",
+    "topics": [
+      "slavery",
+      "time travel",
+      "Black",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "major"
+  },
+  {
+    "title": "The Age of Surveillance Capitalism",
+    "author": "Shoshana Zuboff",
+    "publication_year": 2019,
+    "description": "Analysis of tech companies' extraction of behavioral data.",
+    "topics": [
+      "surveillance",
+      "capitalism",
+      "technology",
+      "data"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Winners Take All: The Elite Charade of Changing the World",
+    "author": "Anand Giridharadas",
+    "publication_year": 2018,
+    "description": "Critique of philanthrocapitalism and elite do-gooding.",
+    "topics": [
+      "philanthropy",
+      "elite",
+      "capitalism",
+      "critique"
+    ],
+    "book_type": "journalism",
+    "significance": "notable"
+  },
+  {
+    "title": "The Jakarta Method: Washington's Anticommunist Crusade and the Mass Murder Program that Shaped Our World",
+    "author": "Vincent Bevins",
+    "publication_year": 2020,
+    "description": "History of US-backed anticommunist mass killings globally.",
+    "topics": [
+      "anticommunism",
+      "CIA",
+      "Indonesia",
+      "mass murder"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "The Divide: American Injustice in the Age of the Wealth Gap",
+    "author": "Matt Taibbi",
+    "publication_year": 2014,
+    "description": "Investigation of two-tiered justice system based on wealth.",
+    "topics": [
+      "inequality",
+      "justice",
+      "wealth",
+      "crime"
+    ],
+    "book_type": "journalism",
+    "significance": "notable"
+  },
+  {
+    "title": "The ABC of Communism",
+    "author": "Nikolai Bukharin and Evgenii Preobrazhensky",
+    "publication_year": 1920,
+    "description": "Popular introduction to communist theory written during Russian Revolution.",
+    "topics": [
+      "communism",
+      "introduction",
+      "Russia",
+      "theory"
+    ],
+    "book_type": "theory",
+    "significance": "major",
+    "marxists_archive_url": "https://www.marxists.org/archive/bukharin/works/1920/abc/"
+  },
+  {
+    "title": "Historical Materialism",
+    "author": "Nikolai Bukharin",
+    "publication_year": 1921,
+    "description": "Systematic presentation of Marxist sociology.",
+    "topics": [
+      "historical materialism",
+      "sociology",
+      "Marxism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Economic Theory of the Leisure Class",
+    "author": "Nikolai Bukharin",
+    "publication_year": 1927,
+    "description": "Marxist critique of marginalist economics.",
+    "topics": [
+      "economics",
+      "marginalism",
+      "critique",
+      "Marxism"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Philosophical Notebooks",
+    "author": "Vladimir Lenin",
+    "publication_year": 1929,
+    "description": "Lenin's notes on Hegel and dialectics.",
+    "topics": [
+      "philosophy",
+      "dialectics",
+      "Hegel",
+      "Lenin"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Terrorism and Communism",
+    "author": "Leon Trotsky",
+    "publication_year": 1920,
+    "description": "Trotsky's defense of revolutionary violence against Kautsky.",
+    "topics": [
+      "revolution",
+      "violence",
+      "terrorism",
+      "communism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Problems of Everyday Life",
+    "author": "Leon Trotsky",
+    "publication_year": 1923,
+    "description": "Essays on transforming daily life after revolution.",
+    "topics": [
+      "everyday life",
+      "culture",
+      "revolution",
+      "transformation"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Class Struggle in Africa",
+    "author": "Kwame Nkrumah",
+    "publication_year": 1970,
+    "description": "Nkrumah's analysis of class formation and struggle in post-colonial Africa.",
+    "topics": [
+      "Africa",
+      "class struggle",
+      "neo-colonialism",
+      "revolution"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Consciencism",
+    "author": "Kwame Nkrumah",
+    "publication_year": 1964,
+    "description": "Nkrumah's philosophical framework for African revolution.",
+    "topics": [
+      "Africa",
+      "philosophy",
+      "revolution",
+      "consciencism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Handbook of Revolutionary Warfare",
+    "author": "Kwame Nkrumah",
+    "publication_year": 1968,
+    "description": "Manual for African liberation struggles.",
+    "topics": [
+      "Africa",
+      "guerrilla warfare",
+      "liberation",
+      "manual"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Return to the Source",
+    "author": "Amilcar Cabral",
+    "publication_year": 1973,
+    "description": "Cabral's speeches and writings on African liberation and culture.",
+    "topics": [
+      "Africa",
+      "liberation",
+      "culture",
+      "Guinea-Bissau"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Unity and Struggle",
+    "author": "Amilcar Cabral",
+    "publication_year": 1979,
+    "description": "Collection of Cabral's speeches on anti-colonial struggle.",
+    "topics": [
+      "Africa",
+      "colonialism",
+      "liberation",
+      "unity"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Weapon of Theory",
+    "author": "Amilcar Cabral",
+    "publication_year": 1966,
+    "description": "Cabral's foundational speech on revolutionary theory in Africa.",
+    "topics": [
+      "Africa",
+      "theory",
+      "revolution",
+      "practice"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "I Am Because We Are: Readings in Africana Philosophy",
+    "author": "Fred Lee Hord and Jonathan Scott Lee (editors)",
+    "publication_year": 1995,
+    "description": "Anthology of African and African diaspora philosophy.",
+    "topics": [
+      "Africa",
+      "philosophy",
+      "diaspora",
+      "anthology"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Toward the African Revolution",
+    "author": "Frantz Fanon",
+    "publication_year": 1964,
+    "description": "Collection of Fanon's political essays on African liberation.",
+    "topics": [
+      "Africa",
+      "revolution",
+      "colonialism",
+      "essays"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Black Jacobins: Toussaint L'Ouverture and the San Domingo Revolution",
+    "author": "C.L.R. James",
+    "publication_year": 1938,
+    "description": "Classic history of the Haitian Revolution.",
+    "topics": [
+      "Haiti",
+      "revolution",
+      "slavery",
+      "Toussaint"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "Beyond a Boundary",
+    "author": "C.L.R. James",
+    "publication_year": 1963,
+    "description": "James's meditation on cricket, colonialism, and West Indian identity.",
+    "topics": [
+      "Caribbean",
+      "cricket",
+      "colonialism",
+      "identity"
+    ],
+    "book_type": "memoir",
+    "significance": "major"
+  },
+  {
+    "title": "Notes of a Native Son",
+    "author": "James Baldwin",
+    "publication_year": 1955,
+    "description": "Baldwin's essays on race, identity, and America.",
+    "topics": [
+      "race",
+      "identity",
+      "essays",
+      "US"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Fire Next Time",
+    "author": "James Baldwin",
+    "publication_year": 1963,
+    "description": "Baldwin's powerful essays on race in America.",
+    "topics": [
+      "race",
+      "religion",
+      "US",
+      "essays"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "No Name in the Street",
+    "author": "James Baldwin",
+    "publication_year": 1972,
+    "description": "Baldwin's reflections on civil rights era and beyond.",
+    "topics": [
+      "civil rights",
+      "race",
+      "US",
+      "essays"
+    ],
+    "book_type": "memoir",
+    "significance": "major"
+  },
+  {
+    "title": "If Beale Street Could Talk",
+    "author": "James Baldwin",
+    "publication_year": 1974,
+    "description": "Novel about a young Black couple and injustice.",
+    "topics": [
+      "race",
+      "injustice",
+      "love",
+      "fiction"
+    ],
+    "book_type": "fiction",
+    "significance": "major"
+  },
+  {
+    "title": "Woman at Point Zero",
+    "author": "Nawal El Saadawi",
+    "publication_year": 1975,
+    "description": "Novel about an Egyptian woman sentenced to death.",
+    "topics": [
+      "Egypt",
+      "feminism",
+      "fiction",
+      "prison"
+    ],
+    "book_type": "fiction",
+    "significance": "major"
+  },
+  {
+    "title": "The Hidden Face of Eve: Women in the Arab World",
+    "author": "Nawal El Saadawi",
+    "publication_year": 1977,
+    "description": "Analysis of women's oppression in Arab societies.",
+    "topics": [
+      "feminism",
+      "Arab world",
+      "oppression",
+      "Egypt"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Women and Sex",
+    "author": "Nawal El Saadawi",
+    "publication_year": 1972,
+    "description": "Groundbreaking critique of sexual repression in Egypt.",
+    "topics": [
+      "feminism",
+      "sexuality",
+      "Egypt",
+      "repression"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Staying Alive: Women, Ecology and Development",
+    "author": "Vandana Shiva",
+    "publication_year": 1988,
+    "description": "Ecofeminist analysis of development and women's knowledge.",
+    "topics": [
+      "ecofeminism",
+      "development",
+      "India",
+      "ecology"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Stolen Harvest: The Hijacking of the Global Food Supply",
+    "author": "Vandana Shiva",
+    "publication_year": 1999,
+    "description": "Critique of corporate agriculture and defense of food sovereignty.",
+    "topics": [
+      "food",
+      "agriculture",
+      "corporations",
+      "sovereignty"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Third World Women and the Politics of Feminism",
+    "author": "Chandra Talpade Mohanty, Ann Russo, and Lourdes Torres (editors)",
+    "publication_year": 1991,
+    "description": "Foundational anthology of postcolonial feminism.",
+    "topics": [
+      "feminism",
+      "Third World",
+      "postcolonial",
+      "anthology"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Feminism Without Borders: Decolonizing Theory, Practicing Solidarity",
+    "author": "Chandra Talpade Mohanty",
+    "publication_year": 2003,
+    "description": "Mohanty's essays on transnational feminism.",
+    "topics": [
+      "feminism",
+      "transnational",
+      "solidarity",
+      "decolonization"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Discipline and Punish: The Birth of the Prison",
+    "author": "Michel Foucault",
+    "publication_year": 1975,
+    "description": "Foucault's genealogy of modern disciplinary power and the prison.",
+    "topics": [
+      "prison",
+      "discipline",
+      "power",
+      "genealogy"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The History of Sexuality, Volume 1",
+    "author": "Michel Foucault",
+    "publication_year": 1976,
+    "description": "Foucault's analysis of how sexuality became object of power/knowledge.",
+    "topics": [
+      "sexuality",
+      "power",
+      "history",
+      "discourse"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Madness and Civilization",
+    "author": "Michel Foucault",
+    "publication_year": 1961,
+    "description": "Foucault's history of madness and its confinement.",
+    "topics": [
+      "madness",
+      "asylum",
+      "history",
+      "confinement"
+    ],
+    "book_type": "history",
+    "significance": "foundational"
+  },
+  {
+    "title": "Abolition Geography: Essays Towards Liberation",
+    "author": "Ruth Wilson Gilmore",
+    "publication_year": 2022,
+    "description": "Collection of Gilmore's essays on abolition geography.",
+    "topics": [
+      "abolition",
+      "geography",
+      "prison",
+      "racism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Golden Gulag: Prisons, Surplus, Crisis, and Opposition in Globalizing California",
+    "author": "Ruth Wilson Gilmore",
+    "publication_year": 2007,
+    "description": "Political economic analysis of California's prison boom.",
+    "topics": [
+      "prison",
+      "California",
+      "capitalism",
+      "racism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "We Do This 'Til We Free Us: Abolitionist Organizing and Transforming Justice",
+    "author": "Mariame Kaba",
+    "publication_year": 2021,
+    "description": "Essays on abolition and transformative justice.",
+    "topics": [
+      "abolition",
+      "transformative justice",
+      "organizing",
+      "prison"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Captive Genders: Trans Embodiment and the Prison Industrial Complex",
+    "author": "Eric A. Stanley and Nat Smith (editors)",
+    "publication_year": 2011,
+    "description": "Anthology on trans people and prison abolition.",
+    "topics": [
+      "transgender",
+      "prison",
+      "abolition",
+      "anthology"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Philosophy of Liberation",
+    "author": "Enrique Dussel",
+    "publication_year": 1977,
+    "description": "Foundational text of Latin American liberation philosophy.",
+    "topics": [
+      "liberation",
+      "philosophy",
+      "Latin America",
+      "ethics"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Twenty Theses on Politics",
+    "author": "Enrique Dussel",
+    "publication_year": 2006,
+    "description": "Dussel's political philosophy from the periphery.",
+    "topics": [
+      "politics",
+      "philosophy",
+      "liberation",
+      "ethics"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Can the Subaltern Speak?",
+    "author": "Gayatri Chakravorty Spivak",
+    "publication_year": 1988,
+    "description": "Foundational postcolonial studies essay on representation.",
+    "topics": [
+      "postcolonial",
+      "subaltern",
+      "representation",
+      "feminism"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "A Critique of Postcolonial Reason",
+    "author": "Gayatri Chakravorty Spivak",
+    "publication_year": 1999,
+    "description": "Spivak's analysis of colonial discourse in Western philosophy.",
+    "topics": [
+      "postcolonial",
+      "philosophy",
+      "critique",
+      "reason"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Location of Culture",
+    "author": "Homi K. Bhabha",
+    "publication_year": 1994,
+    "description": "Bhabha's essays on hybridity and the 'third space' of culture.",
+    "topics": [
+      "postcolonial",
+      "hybridity",
+      "culture",
+      "identity"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Enigma of Capital",
+    "author": "David Harvey",
+    "publication_year": 2010,
+    "description": "Harvey's accessible introduction to Marx's critique of capitalism.",
+    "topics": [
+      "capitalism",
+      "crisis",
+      "Marx",
+      "geography"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "A Brief History of Neoliberalism",
+    "author": "David Harvey",
+    "publication_year": 2005,
+    "description": "Harvey's account of neoliberalism's rise and consequences.",
+    "topics": [
+      "neoliberalism",
+      "capitalism",
+      "history",
+      "class"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "The Limits to Capital",
+    "author": "David Harvey",
+    "publication_year": 1982,
+    "description": "Harvey's systematic reading of Marx's Capital.",
+    "topics": [
+      "Marx",
+      "Capital",
+      "geography",
+      "theory"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Seventeen Contradictions and the End of Capitalism",
+    "author": "David Harvey",
+    "publication_year": 2014,
+    "description": "Analysis of capitalism's internal contradictions.",
+    "topics": [
+      "capitalism",
+      "contradictions",
+      "crisis",
+      "Marx"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Imperialism in the Twenty-First Century",
+    "author": "John Smith",
+    "publication_year": 2016,
+    "description": "Analysis of contemporary imperialism through global value chains.",
+    "topics": [
+      "imperialism",
+      "value chains",
+      "exploitation",
+      "globalization"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Making of Global Capitalism",
+    "author": "Leo Panitch and Sam Gindin",
+    "publication_year": 2012,
+    "description": "Analysis of US role in shaping global capitalism.",
+    "topics": [
+      "capitalism",
+      "US",
+      "globalization",
+      "imperialism"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Race After Technology",
+    "author": "Ruha Benjamin",
+    "publication_year": 2019,
+    "description": "Analysis of how technology encodes and reproduces racism.",
+    "topics": [
+      "technology",
+      "race",
+      "algorithms",
+      "discrimination"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Algorithms of Oppression",
+    "author": "Safiya Umoja Noble",
+    "publication_year": 2018,
+    "description": "How search engines reinforce racism and sexism.",
+    "topics": [
+      "algorithms",
+      "racism",
+      "sexism",
+      "technology"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "Weapons of Math Destruction",
+    "author": "Cathy O'Neil",
+    "publication_year": 2016,
+    "description": "How big data algorithms harm the poor.",
+    "topics": [
+      "algorithms",
+      "inequality",
+      "data",
+      "discrimination"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "Automating Inequality",
+    "author": "Virginia Eubanks",
+    "publication_year": 2018,
+    "description": "How automated systems target the poor.",
+    "topics": [
+      "automation",
+      "poverty",
+      "welfare",
+      "surveillance"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "Data Feminism",
+    "author": "Catherine D'Ignazio and Lauren F. Klein",
+    "publication_year": 2020,
+    "description": "Feminist approach to working with data.",
+    "topics": [
+      "data",
+      "feminism",
+      "power",
+      "methodology"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "The Death and Life of Great American Cities",
+    "author": "Jane Jacobs",
+    "publication_year": 1961,
+    "description": "Influential critique of urban planning orthodoxy.",
+    "topics": [
+      "cities",
+      "urban planning",
+      "community",
+      "streets"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Planet of Slums",
+    "author": "Mike Davis",
+    "publication_year": 2006,
+    "description": "Analysis of global urbanization and megaslums.",
+    "topics": [
+      "cities",
+      "slums",
+      "urbanization",
+      "poverty"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "City of Quartz: Excavating the Future in Los Angeles",
+    "author": "Mike Davis",
+    "publication_year": 1990,
+    "description": "Critical history and analysis of Los Angeles.",
+    "topics": [
+      "Los Angeles",
+      "cities",
+      "capitalism",
+      "history"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Evicted: Poverty and Profit in the American City",
+    "author": "Matthew Desmond",
+    "publication_year": 2016,
+    "description": "Ethnography of eviction and poverty in Milwaukee.",
+    "topics": [
+      "housing",
+      "eviction",
+      "poverty",
+      "cities"
+    ],
+    "book_type": "journalism",
+    "significance": "major"
+  },
+  {
+    "title": "The Color of Law",
+    "author": "Richard Rothstein",
+    "publication_year": 2017,
+    "description": "History of government-sponsored housing segregation.",
+    "topics": [
+      "housing",
+      "segregation",
+      "racism",
+      "policy"
+    ],
+    "book_type": "history",
+    "significance": "major"
+  },
+  {
+    "title": "Prisons We Choose to Live Inside",
+    "author": "Doris Lessing",
+    "publication_year": 1987,
+    "description": "Essays on how we internalize oppression and conformity.",
+    "topics": [
+      "conformity",
+      "oppression",
+      "psychology",
+      "essays"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "The Wretched of the Earth",
+    "author": "Frantz Fanon",
+    "publication_year": 1961,
+    "description": "Fanon's analysis of colonialism and decolonization, a foundational text.",
+    "topics": [
+      "colonialism",
+      "decolonization",
+      "violence",
+      "psychology"
+    ],
+    "book_type": "theory",
+    "significance": "foundational"
+  },
+  {
+    "title": "Reclaiming Our Lives: Hope for Adult Survivors of Incest",
+    "author": "Carol Poston and Karen Lison",
+    "publication_year": 1989,
+    "description": "Feminist approach to healing from sexual abuse.",
+    "topics": [
+      "feminism",
+      "healing",
+      "abuse",
+      "survival"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Writings for a Liberation Psychology",
+    "author": "Ignacio Mart\u00edn-Bar\u00f3",
+    "publication_year": 1994,
+    "description": "Salvadoran psychologist's work on psychology of liberation before his assassination.",
+    "topics": [
+      "psychology",
+      "liberation",
+      "El Salvador",
+      "violence"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "The Politics of History",
+    "author": "Howard Zinn",
+    "publication_year": 1970,
+    "description": "Zinn's essays on the political nature of historical writing.",
+    "topics": [
+      "history",
+      "politics",
+      "historiography",
+      "essays"
+    ],
+    "book_type": "theory",
+    "significance": "major"
+  },
+  {
+    "title": "You Can't Be Neutral on a Moving Train",
+    "author": "Howard Zinn",
+    "publication_year": 1994,
+    "description": "Zinn's memoir of his life as activist and historian.",
+    "topics": [
+      "activism",
+      "history",
+      "memoir",
+      "civil rights"
+    ],
+    "book_type": "autobiography",
+    "significance": "major"
+  },
+  {
+    "title": "The Zinn Reader: Writings on Disobedience and Democracy",
+    "author": "Howard Zinn",
+    "publication_year": 1997,
+    "description": "Collection of Zinn's writings on history and activism.",
+    "topics": [
+      "history",
+      "disobedience",
+      "democracy",
+      "anthology"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  },
+  {
+    "title": "Declarations of Independence: Cross-Examining American Ideology",
+    "author": "Howard Zinn",
+    "publication_year": 1990,
+    "description": "Zinn's critique of American political mythology.",
+    "topics": [
+      "US",
+      "ideology",
+      "critique",
+      "politics"
+    ],
+    "book_type": "theory",
+    "significance": "notable"
+  }
+]
