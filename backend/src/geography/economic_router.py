@@ -1,23 +1,85 @@
-"""Economic data API routes for country dashboards."""
+"""Economic data API routes using real World Bank data."""
 from typing import Optional, List
 from uuid import UUID
-import random
-from datetime import datetime
+import json
+import os
+from pathlib import Path
 
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, Query, HTTPException
 from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import select
 from pydantic import BaseModel
 
 from ..database import get_db
-from .service import GeographyService
+from .models import Country
 
 router = APIRouter()
+
+# Data directory
+DATA_DIR = Path(__file__).parent.parent.parent.parent.parent / "data" / "scraped" / "economic"
+
+# Load World Bank data
+_worldbank_data = None
+_country_code_map = None
+
+def load_worldbank_data():
+    """Load World Bank combined data."""
+    global _worldbank_data, _country_code_map
+    
+    if _worldbank_data is None:
+        combined_file = DATA_DIR / "worldbank_combined.json"
+        if combined_file.exists():
+            with open(combined_file, 'r') as f:
+                data = json.load(f)
+                _worldbank_data = {item["country_code"]: item for item in data}
+                _country_code_map = {item["country_name"].lower(): item["country_code"] for item in data}
+        else:
+            _worldbank_data = {}
+            _country_code_map = {}
+    
+    return _worldbank_data, _country_code_map
+
+def get_country_code(country_name: str) -> Optional[str]:
+    """Get ISO3 country code from name."""
+    _, code_map = load_worldbank_data()
+    
+    name_lower = country_name.lower()
+    
+    # Direct match
+    if name_lower in code_map:
+        return code_map[name_lower]
+    
+    # Partial match
+    for name, code in code_map.items():
+        if name_lower in name or name in name_lower:
+            return code
+    
+    # Common aliases
+    aliases = {
+        "united states": "USA",
+        "usa": "USA",
+        "uk": "GBR",
+        "united kingdom": "GBR",
+        "russia": "RUS",
+        "russian federation": "RUS",
+        "south korea": "KOR",
+        "north korea": "PRK",
+        "iran": "IRN",
+        "syria": "SYR",
+        "vietnam": "VNM",
+        "laos": "LAO",
+    }
+    
+    if name_lower in aliases:
+        return aliases[name_lower]
+    
+    return None
 
 
 # Schemas
 class GDPDataPoint(BaseModel):
     year: int
-    gdp: float
+    gdp: Optional[float] = None
     gdp_per_capita: Optional[float] = None
     growth_rate: Optional[float] = None
 
@@ -31,7 +93,7 @@ class BudgetCategory(BaseModel):
 
 class MilitarySpending(BaseModel):
     year: int
-    spending: float
+    spending: Optional[float] = None
     gdp_percent: Optional[float] = None
     personnel: Optional[int] = None
 
@@ -56,178 +118,49 @@ class EconomicOverview(BaseModel):
     year: Optional[int] = None
 
 
-# Country-specific base data for more realistic mock data
-COUNTRY_BASE_DATA = {
-    # Major economies
-    "united states": {"gdp_base": 20e12, "pop_base": 330e6, "military_pct": 3.5},
-    "china": {"gdp_base": 14e12, "pop_base": 1400e6, "military_pct": 1.7},
-    "germany": {"gdp_base": 4e12, "pop_base": 83e6, "military_pct": 1.4},
-    "japan": {"gdp_base": 5e12, "pop_base": 125e6, "military_pct": 1.0},
-    "united kingdom": {"gdp_base": 2.8e12, "pop_base": 67e6, "military_pct": 2.2},
-    "france": {"gdp_base": 2.7e12, "pop_base": 67e6, "military_pct": 2.0},
-    "india": {"gdp_base": 3e12, "pop_base": 1380e6, "military_pct": 2.4},
-    "russia": {"gdp_base": 1.5e12, "pop_base": 144e6, "military_pct": 4.1},
-    "brazil": {"gdp_base": 1.8e12, "pop_base": 212e6, "military_pct": 1.4},
-    # Middle powers
-    "australia": {"gdp_base": 1.4e12, "pop_base": 26e6, "military_pct": 2.0},
-    "canada": {"gdp_base": 1.7e12, "pop_base": 38e6, "military_pct": 1.3},
-    "south korea": {"gdp_base": 1.6e12, "pop_base": 52e6, "military_pct": 2.7},
-    "mexico": {"gdp_base": 1.3e12, "pop_base": 128e6, "military_pct": 0.5},
-    "indonesia": {"gdp_base": 1.1e12, "pop_base": 273e6, "military_pct": 0.8},
-    # Smaller economies
-    "israel": {"gdp_base": 400e9, "pop_base": 9e6, "military_pct": 5.2},
-    "ireland": {"gdp_base": 400e9, "pop_base": 5e6, "military_pct": 0.3},
-    "palestine": {"gdp_base": 15e9, "pop_base": 5e6, "military_pct": 0},
-    "cuba": {"gdp_base": 100e9, "pop_base": 11e6, "military_pct": 2.9},
-    "vietnam": {"gdp_base": 340e9, "pop_base": 97e6, "military_pct": 2.3},
-}
-
-def get_country_base(country_name: str) -> dict:
-    """Get base economic data for a country."""
-    name_lower = country_name.lower() if country_name else ""
-    for key, data in COUNTRY_BASE_DATA.items():
-        if key in name_lower or name_lower in key:
-            return data
-    # Default for unknown countries
-    return {"gdp_base": 100e9, "pop_base": 20e6, "military_pct": 1.5}
+async def get_country_name(country_id: UUID, db: AsyncSession) -> str:
+    """Get country name from ID."""
+    result = await db.execute(select(Country).where(Country.id == country_id))
+    country = result.scalar_one_or_none()
+    return country.name_en if country else "Unknown"
 
 
-def generate_gdp_history(country_name: str, start_year: int, end_year: int) -> List[GDPDataPoint]:
-    """Generate realistic GDP history data."""
-    base = get_country_base(country_name)
-    data = []
-    
-    # Calculate initial GDP based on year (exponential growth backwards)
-    years_from_2023 = 2023 - start_year
-    initial_gdp = base["gdp_base"] / (1.03 ** years_from_2023)
-    
-    gdp = initial_gdp
-    for year in range(start_year, end_year + 1):
-        # Simulate growth with some variation
-        growth = 0.02 + random.uniform(-0.03, 0.05)
-        
-        # Add recession years
-        if year in [2008, 2009, 2020]:
-            growth = random.uniform(-0.08, -0.02)
-        
-        gdp = gdp * (1 + growth)
-        pop = base["pop_base"] * (1 + 0.01 * (year - 2023))
-        
-        data.append(GDPDataPoint(
-            year=year,
-            gdp=round(gdp),
-            gdp_per_capita=round(gdp / max(pop, 1)),
-            growth_rate=round(growth * 100, 1)
-        ))
-    
-    return data
-
-
-def generate_budget_data(country_name: str) -> List[BudgetCategory]:
-    """Generate realistic budget breakdown."""
-    base = get_country_base(country_name)
-    total_budget = base["gdp_base"] * 0.35  # ~35% of GDP is government spending
-    military_pct = base["military_pct"] / 35 * 100  # Convert to % of budget
-    
-    categories = [
-        {"name": "Healthcare", "pct": 20 + random.uniform(-3, 3), "color": "#22c55e"},
-        {"name": "Education", "pct": 15 + random.uniform(-2, 2), "color": "#3b82f6"},
-        {"name": "Defense", "pct": military_pct * 2 + random.uniform(-1, 1), "color": "#ef4444"},
-        {"name": "Social Services", "pct": 18 + random.uniform(-3, 3), "color": "#8b5cf6"},
-        {"name": "Infrastructure", "pct": 10 + random.uniform(-2, 2), "color": "#f59e0b"},
-        {"name": "Debt Service", "pct": 8 + random.uniform(-2, 2), "color": "#6366f1"},
-        {"name": "Administration", "pct": 5 + random.uniform(-1, 1), "color": "#ec4899"},
-    ]
-    
-    # Normalize to 100%
-    total_pct = sum(c["pct"] for c in categories)
-    
-    result = []
-    for cat in categories:
-        normalized_pct = cat["pct"] / total_pct * 100
-        result.append(BudgetCategory(
-            name=cat["name"],
-            value=round(total_budget * normalized_pct / 100),
-            percent=round(normalized_pct, 1),
-            color=cat["color"]
-        ))
-    
-    # Add "Other"
-    other_value = total_budget - sum(c.value for c in result)
-    if other_value > 0:
-        result.append(BudgetCategory(
-            name="Other",
-            value=round(other_value),
-            percent=round(other_value / total_budget * 100, 1),
-            color="#14b8a6"
-        ))
-    
-    return result
-
-
-def generate_military_data(country_name: str, start_year: int, end_year: int) -> List[MilitarySpending]:
-    """Generate military spending history."""
-    base = get_country_base(country_name)
-    data = []
-    
-    base_spending = base["gdp_base"] * base["military_pct"] / 100
-    spending = base_spending / (1.02 ** (2023 - start_year))
-    
-    for year in range(start_year, end_year + 1):
-        growth = 0.02 + random.uniform(-0.02, 0.04)
-        spending = spending * (1 + growth)
-        gdp_pct = base["military_pct"] + random.uniform(-0.3, 0.3)
-        
-        data.append(MilitarySpending(
-            year=year,
-            spending=round(spending),
-            gdp_percent=round(gdp_pct, 2),
-            personnel=round(base["pop_base"] * 0.005 * (1 + random.uniform(-0.1, 0.1)))
-        ))
-    
-    return data
-
-
-def generate_population_data(country_name: str, start_year: int, end_year: int) -> List[PopulationData]:
-    """Generate population history."""
-    base = get_country_base(country_name)
-    data = []
-    
-    # Calculate initial population
-    initial_pop = base["pop_base"] / (1.012 ** (2023 - start_year))
-    pop = initial_pop
-    urban_ratio = 0.3 + (start_year - 1960) * 0.008  # Urbanization trend
-    
-    for year in range(start_year, end_year + 1):
-        growth = 0.012 + random.uniform(-0.005, 0.005)
-        pop = pop * (1 + growth)
-        urban_ratio = min(0.9, urban_ratio + 0.005)
-        
-        data.append(PopulationData(
-            year=year,
-            population=round(pop),
-            urban_population=round(pop * urban_ratio),
-            rural_population=round(pop * (1 - urban_ratio)),
-            growth_rate=round(growth * 100, 2)
-        ))
-    
-    return data
-
-
-# Routes
 @router.get("/countries/{country_id}/economic/gdp", response_model=List[GDPDataPoint])
 async def get_gdp_history(
     country_id: UUID,
-    start_year: int = Query(1980, ge=1900, le=2023),
-    end_year: int = Query(2023, ge=1900, le=2030),
+    start_year: int = Query(1980, ge=1960, le=2023),
+    end_year: int = Query(2023, ge=1960, le=2030),
     db: AsyncSession = Depends(get_db),
 ):
-    """Get GDP history for a country."""
-    service = GeographyService(db)
-    country = await service.get_country(country_id)
-    country_name = country.name_en if country else "Unknown"
+    """Get GDP history for a country using World Bank data."""
+    country_name = await get_country_name(country_id, db)
+    country_code = get_country_code(country_name)
     
-    return generate_gdp_history(country_name, start_year, end_year)
+    wb_data, _ = load_worldbank_data()
+    
+    if not country_code or country_code not in wb_data:
+        return []
+    
+    country_wb = wb_data[country_code]
+    data_points = []
+    
+    for year in range(start_year, min(end_year + 1, 2024)):
+        year_str = str(year)
+        year_data = country_wb.get("data", {}).get(year_str, {})
+        
+        gdp = year_data.get("gdp_current_usd")
+        gdp_pc = year_data.get("gdp_per_capita")
+        growth = year_data.get("gdp_growth")
+        
+        if gdp or gdp_pc or growth:
+            data_points.append(GDPDataPoint(
+                year=year,
+                gdp=gdp,
+                gdp_per_capita=gdp_pc,
+                growth_rate=growth
+            ))
+    
+    return data_points
 
 
 @router.get("/countries/{country_id}/economic/budget", response_model=List[BudgetCategory])
@@ -237,41 +170,157 @@ async def get_budget_breakdown(
     db: AsyncSession = Depends(get_db),
 ):
     """Get government budget breakdown for a country."""
-    service = GeographyService(db)
-    country = await service.get_country(country_id)
-    country_name = country.name_en if country else "Unknown"
+    country_name = await get_country_name(country_id, db)
+    country_code = get_country_code(country_name)
     
-    return generate_budget_data(country_name)
+    wb_data, _ = load_worldbank_data()
+    
+    if not country_code or country_code not in wb_data:
+        return []
+    
+    country_wb = wb_data[country_code]
+    target_year = year or 2022
+    
+    # Find latest year with data
+    for y in range(target_year, 2000, -1):
+        year_str = str(y)
+        year_data = country_wb.get("data", {}).get(year_str, {})
+        
+        gdp = year_data.get("gdp_current_usd")
+        military_pct = year_data.get("military_spending_gdp_pct")
+        education_pct = year_data.get("education_spending_gdp_pct")
+        health_pct = year_data.get("health_spending_gdp_pct")
+        
+        if gdp and (military_pct or education_pct or health_pct):
+            # Estimate budget as ~35% of GDP
+            total_budget = gdp * 0.35
+            
+            categories = []
+            
+            if health_pct:
+                health_val = gdp * health_pct / 100
+                categories.append(BudgetCategory(
+                    name="Healthcare",
+                    value=health_val,
+                    percent=health_pct * 100 / 35,
+                    color="#22c55e"
+                ))
+            
+            if education_pct:
+                edu_val = gdp * education_pct / 100
+                categories.append(BudgetCategory(
+                    name="Education",
+                    value=edu_val,
+                    percent=education_pct * 100 / 35,
+                    color="#3b82f6"
+                ))
+            
+            if military_pct:
+                mil_val = gdp * military_pct / 100
+                categories.append(BudgetCategory(
+                    name="Defense",
+                    value=mil_val,
+                    percent=military_pct * 100 / 35,
+                    color="#ef4444"
+                ))
+            
+            # Add estimated categories
+            remaining = 100 - sum(c.percent or 0 for c in categories)
+            if remaining > 0:
+                categories.extend([
+                    BudgetCategory(name="Social Services", value=total_budget * 0.15, percent=15, color="#8b5cf6"),
+                    BudgetCategory(name="Infrastructure", value=total_budget * 0.08, percent=8, color="#f59e0b"),
+                    BudgetCategory(name="Other", value=total_budget * (remaining - 23) / 100, percent=remaining - 23, color="#14b8a6"),
+                ])
+            
+            return categories
+    
+    return []
 
 
 @router.get("/countries/{country_id}/economic/military", response_model=List[MilitarySpending])
 async def get_military_spending(
     country_id: UUID,
-    start_year: int = Query(1990, ge=1950, le=2023),
-    end_year: int = Query(2023, ge=1950, le=2030),
+    start_year: int = Query(1990, ge=1960, le=2023),
+    end_year: int = Query(2023, ge=1960, le=2030),
     db: AsyncSession = Depends(get_db),
 ):
     """Get military spending history for a country."""
-    service = GeographyService(db)
-    country = await service.get_country(country_id)
-    country_name = country.name_en if country else "Unknown"
+    country_name = await get_country_name(country_id, db)
+    country_code = get_country_code(country_name)
     
-    return generate_military_data(country_name, start_year, end_year)
+    wb_data, _ = load_worldbank_data()
+    
+    if not country_code or country_code not in wb_data:
+        return []
+    
+    country_wb = wb_data[country_code]
+    data_points = []
+    
+    for year in range(start_year, min(end_year + 1, 2024)):
+        year_str = str(year)
+        year_data = country_wb.get("data", {}).get(year_str, {})
+        
+        gdp = year_data.get("gdp_current_usd")
+        military_pct = year_data.get("military_spending_gdp_pct")
+        
+        if military_pct:
+            spending = gdp * military_pct / 100 if gdp else None
+            data_points.append(MilitarySpending(
+                year=year,
+                spending=spending,
+                gdp_percent=military_pct
+            ))
+    
+    return data_points
 
 
 @router.get("/countries/{country_id}/demographics/population", response_model=List[PopulationData])
 async def get_population_history(
     country_id: UUID,
-    start_year: int = Query(1960, ge=1900, le=2023),
-    end_year: int = Query(2023, ge=1900, le=2030),
+    start_year: int = Query(1960, ge=1960, le=2023),
+    end_year: int = Query(2023, ge=1960, le=2030),
     db: AsyncSession = Depends(get_db),
 ):
     """Get population history for a country."""
-    service = GeographyService(db)
-    country = await service.get_country(country_id)
-    country_name = country.name_en if country else "Unknown"
+    country_name = await get_country_name(country_id, db)
+    country_code = get_country_code(country_name)
     
-    return generate_population_data(country_name, start_year, end_year)
+    wb_data, _ = load_worldbank_data()
+    
+    if not country_code or country_code not in wb_data:
+        return []
+    
+    country_wb = wb_data[country_code]
+    data_points = []
+    prev_pop = None
+    
+    for year in range(start_year, min(end_year + 1, 2024)):
+        year_str = str(year)
+        year_data = country_wb.get("data", {}).get(year_str, {})
+        
+        population = year_data.get("population")
+        urban_pct = year_data.get("urban_population_pct")
+        
+        if population:
+            pop_int = int(population)
+            urban = int(population * urban_pct / 100) if urban_pct else None
+            rural = pop_int - urban if urban else None
+            
+            growth_rate = None
+            if prev_pop:
+                growth_rate = round((pop_int - prev_pop) / prev_pop * 100, 2)
+            prev_pop = pop_int
+            
+            data_points.append(PopulationData(
+                year=year,
+                population=pop_int,
+                urban_population=urban,
+                rural_population=rural,
+                growth_rate=growth_rate
+            ))
+    
+    return data_points
 
 
 @router.get("/countries/{country_id}/economic/overview", response_model=EconomicOverview)
@@ -280,20 +329,32 @@ async def get_economic_overview(
     db: AsyncSession = Depends(get_db),
 ):
     """Get current economic overview for a country."""
-    service = GeographyService(db)
-    country = await service.get_country(country_id)
-    country_name = country.name_en if country else "Unknown"
+    country_name = await get_country_name(country_id, db)
+    country_code = get_country_code(country_name)
     
-    base = get_country_base(country_name)
+    wb_data, _ = load_worldbank_data()
     
-    return EconomicOverview(
-        gdp_current=round(base["gdp_base"]),
-        gdp_per_capita=round(base["gdp_base"] / base["pop_base"]),
-        gdp_growth=round(random.uniform(1, 5), 1),
-        inflation=round(random.uniform(1, 8), 1),
-        unemployment=round(random.uniform(3, 12), 1),
-        debt_to_gdp=round(random.uniform(40, 120), 1),
-        trade_balance=round(base["gdp_base"] * random.uniform(-0.05, 0.05)),
-        currency="USD",
-        year=2023
-    )
+    if not country_code or country_code not in wb_data:
+        return EconomicOverview()
+    
+    country_wb = wb_data[country_code]
+    
+    # Find latest year with GDP data
+    for year in range(2023, 2000, -1):
+        year_str = str(year)
+        year_data = country_wb.get("data", {}).get(year_str, {})
+        
+        gdp = year_data.get("gdp_current_usd")
+        if gdp:
+            return EconomicOverview(
+                gdp_current=gdp,
+                gdp_per_capita=year_data.get("gdp_per_capita"),
+                gdp_growth=year_data.get("gdp_growth"),
+                inflation=year_data.get("inflation"),
+                unemployment=year_data.get("unemployment"),
+                debt_to_gdp=year_data.get("debt_to_gdp"),
+                currency="USD",
+                year=year
+            )
+    
+    return EconomicOverview()
