@@ -219,3 +219,11 @@ app.include_router(
     prefix=f"{settings.api_v1_prefix}",
     tags=["authentication"],
 )
+
+from .geography.economic_router import router as economic_router
+
+app.include_router(
+    economic_router,
+    prefix=f"{settings.api_v1_prefix}/geography",
+    tags=["economic"],
+)
