@@ -211,3 +211,11 @@ app.include_router(
     prefix=f"{settings.api_v1_prefix}/books",
     tags=["books"],
 )
+
+from .auth.router import router as auth_router
+
+app.include_router(
+    auth_router,
+    prefix=f"{settings.api_v1_prefix}",
+    tags=["authentication"],
+)
