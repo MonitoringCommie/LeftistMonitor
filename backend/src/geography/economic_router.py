@@ -16,7 +16,7 @@ from .models import Country
 router = APIRouter()
 
 # Data directory
-DATA_DIR = Path(__file__).parent.parent.parent.parent.parent / "data" / "scraped" / "economic"
+DATA_DIR = Path(__file__).parent.parent.parent.parent / "data" / "scraped" / "economic"
 
 # Load World Bank data
 _worldbank_data = None
