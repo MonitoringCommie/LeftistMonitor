@@ -6,7 +6,7 @@ import aiohttp
 import asyncpg
 import json
 
-DATABASE_URL = "postgresql://linusgollnow@localhost:5432/leftist_monitor"
+DATABASE_URL = "postgresql://leftist:leftist_dev_password@localhost:5432/leftist_monitor"
 WIKIDATA_API = "https://www.wikidata.org/w/api.php"
 
 async def get_images_from_wikidata(session, wikidata_ids):

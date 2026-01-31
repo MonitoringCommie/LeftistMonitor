@@ -5,7 +5,7 @@ import asyncio
 import aiohttp
 import asyncpg
 
-DATABASE_URL = "postgresql://linusgollnow@localhost:5432/leftist_monitor"
+DATABASE_URL = "postgresql://leftist:leftist_dev_password@localhost:5432/leftist_monitor"
 WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
 
 async def fetch_person_images(conn, session, batch_size=100):
