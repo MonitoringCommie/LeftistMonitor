@@ -14,6 +14,22 @@ This project aims to be a comprehensive educational resource that:
 
 ---
 
+## Current Database Statistics
+
+| Category | Records | Description |
+|----------|---------|-------------|
+| **People** | 104,453 | Politicians, activists, revolutionaries, authors, theorists |
+| **Events** | 81,096 | Elections, revolutions, treaties, UN resolutions, historical events |
+| **Conflicts** | 21,045 | Wars, battles, armed conflicts from UCDP and Wikidata |
+| **Books** | 21,036 | Political, historical, and leftist literature |
+| **Countries** | 710 | Countries and territories with historical borders |
+| **UN Resolutions** | 8,665 | General Assembly and Security Council resolutions |
+| **Economic Data** | 170,000+ | World Bank data: GDP, population, military spending, etc. |
+
+**Total: 230,000+ records** with global coverage
+
+---
+
 ## User Requirements and Implementation Status
 
 ### Core Requirements (from user prompts)
@@ -28,36 +44,47 @@ This project aims to be a comprehensive educational resource that:
 
 > "Import heaps of data books and etc leftist all please"
 
+> "I want as little APIs as possible" - Data stored in database/files, minimal runtime API calls
+
+> "I want books data elections politicians and map changes from every country in the world"
+
+> "All of those are important also their budget and how its split policies categorized etc"
+
 ---
 
 ## Implementation Progress
 
+### Data Sources Integrated
+
+| Source | Status | Data Type |
+|--------|--------|-----------|
+| **Wikidata** | ✅ Complete | People, events, conflicts, books, parties, elections |
+| **Open Library** | ✅ Complete | 2,858+ political/historical books |
+| **World Bank** | ✅ Complete | GDP, population, military spending, education, health |
+| **UCDP** | ✅ Complete | Armed conflicts, battle deaths, non-state conflicts |
+| **CShapes 2.0** | ✅ Complete | Historical country borders 1886-2019 |
+| **ParlGov** | ✅ Complete | European elections and parties |
+
 ### Map Overlays - Liberation Struggles
 
-| Region | Status | Data Available | Notes |
-|--------|--------|----------------|-------|
-| **Palestine** | ✅ Complete | Nakba villages, settlements, checkpoints, separation wall, massacres | Full GeoJSON overlay working |
-| **Ireland** | ✅ Complete | Troubles events, Great Famine data by county | Includes state collusion documentation |
-| **Kurdistan** | ✅ Complete | Destroyed villages, military installations, dam projects, massacres | ~4,000 villages destroyed by Turkey |
-| **Kashmir** | ✅ Complete | Military installations, checkpoints, massacres, mass graves | 700,000+ Indian troops documented |
-| **Tibet** | ✅ Complete | Destroyed monasteries, military installations, self-immolations, massacres | ~6,000 monasteries destroyed |
-| **Western Sahara** | ✅ Complete | Sand berm, settlements, minefields, refugee camps | Africa's last colony |
+| Region | Status | Data Available |
+|--------|--------|----------------|
+| **Palestine** | ✅ Complete | Nakba villages (418), settlements (150+), checkpoints (500+), separation wall, massacres |
+| **Ireland** | ✅ Complete | Troubles events (100+), Great Famine data by county, collusion documentation |
+| **Kurdistan** | ✅ Complete | Destroyed villages (~4,000), military installations, dam projects, massacres |
+| **Kashmir** | ✅ Complete | Military installations, checkpoints, massacres, mass graves (700,000+ troops) |
+| **Tibet** | ✅ Complete | Destroyed monasteries (~6,000), military installations, self-immolations |
+| **Western Sahara** | ✅ Complete | Sand berm (2,700km), settlements, minefields (7M+), refugee camps |
 
-### Backend API Endpoints
+### Visualization Charts
 
-All liberation struggle data is served via the `/territories/` API:
-
-- `/territories/palestine/nakba-villages/geojson`
-- `/territories/palestine/settlements/geojson`
-- `/territories/palestine/checkpoints/geojson`
-- `/territories/palestine/separation-wall/geojson`
-- `/territories/palestine/massacres/geojson`
-- `/territories/ireland/troubles/geojson`
-- `/territories/ireland/famine`
-- `/territories/kashmir/events/geojson`
-- `/territories/tibet/events/geojson`
-- `/territories/kurdistan/events/geojson`
-- `/territories/western-sahara/events/geojson`
+- **GDP Line Chart** - Historical GDP trends with real World Bank data
+- **Budget Pie Chart** - Government spending breakdown
+- **Military Spending Chart** - Defense expenditure comparisons
+- **Population Chart** - Demographic trends
+- **Election Results Chart** - Electoral outcomes
+- **Conflict Timeline** - Armed conflict visualization
+- **Voting Trends** - Political party support over time
 
 ### Pages Implemented
 
@@ -70,6 +97,7 @@ All liberation struggle data is served via the `/territories/` API:
 | **Books Browse** | ✅ Complete | Browse leftist literature with filters |
 | **Glossary** | ✅ Complete | 25+ terms: Nakba, apartheid, settler colonialism, BDS, etc. |
 | **About** | ✅ Complete | Project mission and documentation |
+| **Admin Dashboard** | ✅ Complete | User management, role-based access |
 
 ### UI Features
 
@@ -77,29 +105,9 @@ All liberation struggle data is served via the `/territories/` API:
 - [x] Mobile-responsive hamburger navigation
 - [x] Liberation struggles checkbox panel on map
 - [x] Legend overlays for each region's data
-- [x] Search functionality
-
----
-
-## Features
-
-### Current Features
-- **Interactive World Map**: Click on countries to see details
-- **Historical Time Slider**: Slide through history from 1900 to present
-- **Liberation Struggles Overlays**: Toggle to see occupation data for:
-  - Palestine (Nakba villages, settlements, checkpoints, wall, massacres)
-  - Ireland (Troubles events, Great Famine by county)
-  - Kurdistan (destroyed villages, dam projects, massacres)
-  - Kashmir (military installations, checkpoints, mass graves)
-  - Tibet (destroyed monasteries, self-immolations, massacres)
-  - Western Sahara (sand berm, minefields, refugee camps)
-- **Country Pages**: Tabs for overview, elections, parties, people, events, conflicts, books, occupations
-- **Frontlines View**: Historical conflict frontlines
-- **Country Comparison**: Compare political trends across countries
-- **Books Page**: Browse leftist literature with search and filters
-- **Glossary**: Educational definitions of key terms
-- **Dark Mode**: Toggle for comfortable viewing
-- **Global Search**: Search across people, events, books, countries
+- [x] Global search functionality
+- [x] Authentication system with JWT
+- [x] Role-based permissions (viewer, contributor, editor, admin)
 
 ---
 
@@ -109,7 +117,9 @@ All liberation struggle data is served via the `/territories/` API:
 - **Frontend**: React + TypeScript + Vite + MapLibre GL JS
 - **State Management**: Zustand + React Query
 - **Styling**: Tailwind CSS with dark mode
+- **Charts**: Recharts
 - **Database**: PostgreSQL with PostGIS for geospatial queries
+- **Auth**: JWT with bcrypt password hashing
 
 ---
 
@@ -131,10 +141,12 @@ Access:
 
 **Backend:**
 ```bash
-cd backend && uv sync
-docker-compose up -d db redis
-uv run alembic upgrade head
-uv run uvicorn src.main:app --reload
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+# Start PostgreSQL
+uvicorn src.main:app --reload
 ```
 
 **Frontend:**
@@ -148,34 +160,53 @@ cd frontend && npm install && npm run dev
 
 ```bash
 cd backend
+source venv/bin/activate
 
-# Core data
-uv run python -m src.importers.liberation_figures
-uv run python -m src.importers.occupations_data
-uv run python -m src.importers.resistance_movements
+# Import all scraped data
+python src/importers/import_all_scraped.py
 
-# Palestine
-uv run python -m src.importers.palestine.import_all
+# Liberation struggles
+python -m src.importers.liberation_figures
+python -m src.importers.occupations_data
+python -m src.importers.resistance_movements
 
-# Ireland  
-uv run python -m src.importers.ireland.troubles_events
-uv run python -m src.importers.ireland.famine_data
-
-# Other liberation struggles
-uv run python -m src.importers.kashmir
-uv run python -m src.importers.tibet
-uv run python -m src.importers.kurdistan
-uv run python -m src.importers.western_sahara
+# Regional data
+python -m src.importers.palestine.import_all
+python -m src.importers.ireland.troubles_events
+python -m src.importers.kashmir
+python -m src.importers.tibet
+python -m src.importers.kurdistan
+python -m src.importers.western_sahara
 ```
 
-### Data Sources
-- **Palestine**: OCHA, B'Tselem, Peace Now, Zochrot, ARIJ
-- **Ireland**: CAIN Archive, Sutton Index, Census records
-- **Kurdistan**: Human Rights Watch, Amnesty International
-- **Kashmir**: State Human Rights Commission, JKCCS
-- **Tibet**: International Campaign for Tibet, Free Tibet
-- **Western Sahara**: MINURSO, Western Sahara Resource Watch
-- **Books**: Marxists Internet Archive, Haymarket Books
+---
+
+## API Endpoints
+
+### Core APIs
+- `GET /api/countries` - List all countries
+- `GET /api/countries/{id}` - Country details
+- `GET /api/events` - Historical events
+- `GET /api/people` - Political figures
+- `GET /api/books` - Leftist literature
+- `GET /api/conflicts` - Armed conflicts
+
+### Economic Data (Real World Bank Data)
+- `GET /api/economic/{country_code}/gdp` - GDP history
+- `GET /api/economic/{country_code}/budget` - Budget breakdown
+- `GET /api/economic/{country_code}/military` - Military spending
+- `GET /api/economic/{country_code}/population` - Population data
+
+### Liberation Struggles
+- `GET /territories/palestine/nakba-villages/geojson`
+- `GET /territories/palestine/settlements/geojson`
+- `GET /territories/palestine/checkpoints/geojson`
+- `GET /territories/palestine/separation-wall/geojson`
+- `GET /territories/ireland/troubles/geojson`
+- `GET /territories/kashmir/events/geojson`
+- `GET /territories/tibet/events/geojson`
+- `GET /territories/kurdistan/events/geojson`
+- `GET /territories/western-sahara/events/geojson`
 
 ---
 
@@ -185,25 +216,34 @@ uv run python -m src.importers.western_sahara
 LeftistMonitor/
 ├── backend/
 │   ├── src/
-│   │   ├── importers/           # Data importers
-│   │   │   ├── palestine/       # Nakba, settlements, checkpoints
-│   │   │   ├── ireland/         # Troubles, famine
-│   │   │   ├── kashmir/         # Military installations, massacres
-│   │   │   ├── tibet/           # Monasteries, self-immolations
-│   │   │   ├── kurdistan/       # Destroyed villages
-│   │   │   └── western_sahara/  # Sand berm, minefields
-│   │   ├── territories/         # Occupation/liberation API routes
-│   │   ├── books/               # Books API
-│   │   └── ...
-│   └── alembic/                 # Database migrations
+│   │   ├── auth/               # JWT authentication
+│   │   ├── importers/          # Data importers
+│   │   │   ├── palestine/      # Nakba, settlements, checkpoints
+│   │   │   ├── ireland/        # Troubles, famine
+│   │   │   ├── kashmir/        # Military installations
+│   │   │   ├── tibet/          # Monasteries, self-immolations
+│   │   │   ├── kurdistan/      # Destroyed villages
+│   │   │   └── western_sahara/ # Sand berm, minefields
+│   │   ├── geography/          # Economic data router
+│   │   ├── territories/        # Liberation API routes
+│   │   └── books/              # Books API
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
-│   │   │   └── map/             # Map overlays for each region
-│   │   ├── pages/               # React pages
-│   │   ├── api/                 # API hooks
-│   │   └── stores/              # Zustand stores
-│   └── ...
+│   │   │   ├── charts/         # Recharts visualizations
+│   │   │   ├── map/            # Map overlays
+│   │   │   └── ui/             # Shared UI components
+│   │   ├── pages/              # React pages
+│   │   └── api/                # API hooks
+├── data/
+│   └── scraped/                # All scraped data (JSON)
+│       ├── books/              # 21,000+ books
+│       ├── people/             # 100,000+ political figures
+│       ├── events/             # 80,000+ events
+│       ├── economic/           # World Bank data
+│       ├── conflicts/          # UCDP conflicts
+│       ├── elections/          # Global elections
+│       └── intl_orgs/          # UN resolutions, treaties
 └── docker-compose.yml
 ```
 
@@ -218,35 +258,37 @@ LeftistMonitor/
 - [x] Search functionality
 
 ### Phase 2: Liberation Struggles Data ✅ COMPLETE
-- [x] Complete Palestine infrastructure (villages, settlements, checkpoints, wall)
-- [x] Complete Ireland data (Troubles events, Great Famine)
-- [x] Kashmir occupation data
-- [x] Tibet occupation data
-- [x] Kurdistan oppression data
-- [x] Western Sahara occupation data
-- [x] Map overlay toggles for all regions
+- [x] Complete Palestine infrastructure
+- [x] Complete Ireland data
+- [x] Kashmir, Tibet, Kurdistan, Western Sahara
 
-### Phase 3: UI/UX Improvements ✅ COMPLETE
-- [x] Dark mode toggle
-- [x] Mobile navigation
-- [x] Books browse page
-- [x] Glossary page
-- [x] About page
+### Phase 3: Global Data Collection ✅ COMPLETE
+- [x] 100,000+ political figures
+- [x] 80,000+ historical events
+- [x] 21,000+ books
+- [x] 21,000+ conflicts
+- [x] World Bank economic data
+- [x] UN resolutions (8,665)
 
-### Phase 4: In Progress
-- [ ] More detailed population timeline data for settlements
+### Phase 4: Visualization ✅ COMPLETE
+- [x] GDP charts with real data
+- [x] Budget breakdown charts
+- [x] Military spending visualization
+- [x] Population trends
+- [x] Election results charts
+
+### Phase 5: In Progress
+- [ ] More detailed settlement timeline data
 - [ ] Historical images and documents
-- [ ] Additional leftist books (target: 500+)
-- [ ] Oral history/testimony integration
-- [ ] Timeline visualizations
+- [ ] Oral history integration
+- [ ] Additional leftist books
 
-### Phase 5: Future
+### Phase 6: Future
 - [ ] West Papua occupation data
 - [ ] Uyghur Region documentation
-- [ ] Historical occupations (Apartheid South Africa, French Algeria, US Vietnam)
+- [ ] Historical occupations (Apartheid SA, French Algeria)
 - [ ] Documentary/film database
 - [ ] Political prisoner database
-- [ ] Current events integration
 
 ---
 
