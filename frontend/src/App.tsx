@@ -13,6 +13,7 @@ const GlossaryPage = lazy(() => import('./pages/GlossaryPage'))
 const BooksPage = lazy(() => import('./pages/BooksPage'))
 const AdminPage = lazy(() => import('./pages/AdminPage'))
 const LoginPage = lazy(() => import('./pages/LoginPage'))
+const GlobalStatsPage = lazy(() => import('./pages/GlobalStatsPage'))
 
 // Loading fallback component
 function PageLoader() {
@@ -43,6 +44,7 @@ function AppContent() {
           <Route path="books" element={<BooksPage />} />
           <Route path="admin" element={<AdminPage />} />
           <Route path="login" element={<LoginPage />} />
+          <Route path="stats" element={<GlobalStatsPage />} />
         </Route>
       </Routes>
     </Suspense>

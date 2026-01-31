@@ -358,3 +358,50 @@ async def get_economic_overview(
             )
     
     return EconomicOverview()
+
+
+@router.get("/countries/stats", response_model=List[dict])
+async def get_global_country_stats(
+    db: AsyncSession = Depends(get_db),
+):
+    """Get statistics for all countries for global rankings."""
+    wb_data, _ = load_worldbank_data()
+    
+    # Get all countries from database
+    result = await db.execute(select(Country).where(Country.entity_type == 'country'))
+    countries = result.scalars().all()
+    
+    stats = []
+    for country in countries:
+        country_code = get_country_code(country.name_en)
+        
+        stat = {
+            "id": str(country.id),
+            "name": country.name_en,
+            "iso_alpha3": country.iso_alpha3,
+            "gdp": None,
+            "population": None,
+            "military_spending_pct": None,
+        }
+        
+        if country_code and country_code in wb_data:
+            country_wb = wb_data[country_code]
+            for year in range(2023, 2000, -1):
+                year_str = str(year)
+                year_data = country_wb.get("data", {}).get(year_str, {})
+                
+                if stat["gdp"] is None and year_data.get("gdp_current_usd"):
+                    stat["gdp"] = year_data["gdp_current_usd"]
+                
+                if stat["population"] is None and year_data.get("population"):
+                    stat["population"] = year_data["population"]
+                
+                if stat["military_spending_pct"] is None and year_data.get("military_spending_gdp_pct"):
+                    stat["military_spending_pct"] = year_data["military_spending_gdp_pct"]
+                
+                if all([stat["gdp"], stat["population"], stat["military_spending_pct"]]):
+                    break
+        
+        stats.append(stat)
+    
+    return stats

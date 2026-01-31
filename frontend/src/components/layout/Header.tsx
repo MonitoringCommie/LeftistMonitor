@@ -18,6 +18,7 @@ const Header = memo(function Header() {
     { to: '/frontlines', label: 'Frontlines' },
     { to: '/books', label: 'Books' },
     { to: '/glossary', label: 'Glossary' },
+    { to: '/stats', label: 'Statistics' },
     { to: '/about', label: 'About' },
   ]
 
