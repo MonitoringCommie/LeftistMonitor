@@ -1,0 +1,12 @@
+{
+  "completed_types": [
+    "head_of_state",
+    "head_of_government",
+    "minister",
+    "member_of_parliament",
+    "senator",
+    "representative"
+  ],
+  "current_offset": 0,
+  "total_people": 26073
+}

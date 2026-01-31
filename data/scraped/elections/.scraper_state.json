@@ -1,0 +1,10 @@
+{
+  "completed_types": [
+    "election",
+    "presidential_election",
+    "parliamentary_election",
+    "local_election"
+  ],
+  "broader_offset": 0,
+  "total_elections": 47408
+}
