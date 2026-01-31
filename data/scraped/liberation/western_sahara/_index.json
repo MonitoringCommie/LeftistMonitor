@@ -1,0 +1,126 @@
+{
+  "region": "Western Sahara",
+  "description": "Geographic data related to the Moroccan occupation of Western Sahara and the Sahrawi liberation struggle",
+  "collected_date": "2026-01-31",
+  "files": [
+    {
+      "filename": "esh_admin0.geojson",
+      "description": "Western Sahara country-level administrative boundary (Level 0)",
+      "source": "OCHA Humanitarian Data Exchange (HDX)",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-esh",
+      "format": "GeoJSON",
+      "license": "Creative Commons Attribution for Intergovernmental Organisations"
+    },
+    {
+      "filename": "esh_admin1.geojson",
+      "description": "Western Sahara first-level administrative boundaries (regions)",
+      "source": "OCHA Humanitarian Data Exchange (HDX)",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-esh",
+      "format": "GeoJSON",
+      "license": "Creative Commons Attribution for Intergovernmental Organisations"
+    },
+    {
+      "filename": "esh_admin0_em.geojson",
+      "description": "Western Sahara country boundary (edge-matched version)",
+      "source": "OCHA Humanitarian Data Exchange (HDX)",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-esh",
+      "format": "GeoJSON",
+      "license": "Creative Commons Attribution for Intergovernmental Organisations"
+    },
+    {
+      "filename": "esh_admin1_em.geojson",
+      "description": "Western Sahara first-level boundaries (edge-matched version)",
+      "source": "OCHA Humanitarian Data Exchange (HDX)",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-esh",
+      "format": "GeoJSON",
+      "license": "Creative Commons Attribution for Intergovernmental Organisations"
+    },
+    {
+      "filename": "esh_admincentroids.geojson",
+      "description": "Centroids of Western Sahara administrative divisions",
+      "source": "OCHA Humanitarian Data Exchange (HDX)",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-esh",
+      "format": "GeoJSON",
+      "license": "Creative Commons Attribution for Intergovernmental Organisations"
+    },
+    {
+      "filename": "esh_adminlines.geojson",
+      "description": "Western Sahara administrative boundary lines",
+      "source": "OCHA Humanitarian Data Exchange (HDX)",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-esh",
+      "format": "GeoJSON",
+      "license": "Creative Commons Attribution for Intergovernmental Organisations"
+    },
+    {
+      "filename": "esh_adminlines_em.geojson",
+      "description": "Western Sahara administrative boundary lines (edge-matched)",
+      "source": "OCHA Humanitarian Data Exchange (HDX)",
+      "source_url": "https://data.humdata.org/dataset/cod-ab-esh",
+      "format": "GeoJSON",
+      "license": "Creative Commons Attribution for Intergovernmental Organisations"
+    },
+    {
+      "filename": "moroccan_wall_full.json",
+      "description": "The Moroccan Sand Wall/Berm - a 2,700km fortified barrier dividing occupied and liberated Western Sahara",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)",
+      "notes": "Contains wall/barrier features with geometry data"
+    },
+    {
+      "filename": "sand_berm_osm.json",
+      "description": "Additional Sand Berm/Wall data with barrier and embankment features",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)"
+    },
+    {
+      "filename": "minefields_osm.json",
+      "description": "Known minefield locations along the Moroccan Wall",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)",
+      "notes": "Minefields are a major humanitarian concern in Western Sahara"
+    },
+    {
+      "filename": "settlements_osm.json",
+      "description": "Cities, towns, and villages in Western Sahara (including Moroccan settlements)",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)"
+    },
+    {
+      "filename": "sahrawi_refugee_camps.json",
+      "description": "Sahrawi refugee camps in the Tindouf region of Algeria",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)",
+      "notes": "Includes camps named after occupied Western Saharan cities: Laayoune, Smara, Dakhla, Awsard"
+    },
+    {
+      "filename": "tindouf_camps_osm.json",
+      "description": "Additional Tindouf refugee camp data with amenity tags",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)"
+    }
+  ],
+  "context": {
+    "occupation_start": 1975,
+    "occupying_power": "Morocco",
+    "liberation_movement": "Polisario Front (Frente Popular de Liberacion de Saguia el Hamra y Rio de Oro)",
+    "un_status": "Non-Self-Governing Territory",
+    "key_features": [
+      "The Moroccan Wall (Berm) - 2,700km fortified barrier built 1980-1987",
+      "Over 10 million landmines along the wall",
+      "Five refugee camps in Tindouf, Algeria housing ~175,000 Sahrawis",
+      "1991 UN-brokered ceasefire with promised referendum never held"
+    ]
+  }
+}

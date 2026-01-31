@@ -171,7 +171,7 @@ export default function GlobalStatsPage() {
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis type="number" tickFormatter={(v) => formatValue(v)} />
                   <YAxis type="category" dataKey="name" width={75} tick={{ fontSize: 11 }} />
-                  <Tooltip formatter={(value: number) => [formatValue(value), categoryLabels[category]]} />
+                  <Tooltip formatter={(value) => [formatValue(value as number), categoryLabels[category]]} />
                   <Bar dataKey="value" fill="#dc2626" />
                 </BarChart>
               </ResponsiveContainer>
@@ -184,12 +184,12 @@ export default function GlobalStatsPage() {
               <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                   <Pie data={pieData} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={150}
-                    label={({ name, percent }) => name + ': ' + (percent * 100).toFixed(1) + '%'}>
+                    label={({ name, percent }) => String(name || '') + ': ' + ((percent || 0) * 100).toFixed(1) + '%'}>
                     {pieData.map((entry, index) => (
                       <Cell key={index} fill={entry.color} />
                     ))}
                   </Pie>
-                  <Tooltip formatter={(value: number) => formatValue(value)} />
+                  <Tooltip formatter={(value) => formatValue(Number(value) || 0)} />
                   <Legend />
                 </PieChart>
               </ResponsiveContainer>

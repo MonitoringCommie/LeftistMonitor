@@ -39,6 +39,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "http://localhost:5174",
+        "http://127.0.0.1:5174",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -220,10 +222,26 @@ app.include_router(
     tags=["authentication"],
 )
 
+from .territories.geojson_router import router as geojson_router
+
+app.include_router(
+    geojson_router,
+    prefix=f"{settings.api_v1_prefix}/territories",
+    tags=["territories-geojson"],
+)
+
 from .geography.economic_router import router as economic_router
 
 app.include_router(
     economic_router,
     prefix=f"{settings.api_v1_prefix}/geography",
     tags=["economic"],
+)
+
+from .admin.router import router as admin_router
+
+app.include_router(
+    admin_router,
+    prefix=f"{settings.api_v1_prefix}/admin",
+    tags=["admin"],
 )

@@ -1,6 +1,7 @@
 import { useEffect, useMemo } from 'react'
 import maplibregl from 'maplibre-gl'
-import { useTroublesEventsGeoJSON, useFamineData } from '../../api/territories'
+import { useQuery } from '@tanstack/react-query'
+import { apiClient } from '../../api/client'
 
 interface IrelandOverlayProps {
   map: maplibregl.Map | null
@@ -8,119 +9,140 @@ interface IrelandOverlayProps {
 }
 
 const COLORS = {
-  troubles_loyalist: '#FF4500',     // Orange red - loyalist violence
-  troubles_republican: '#228B22',   // Forest green - republican violence  
-  troubles_state: '#000080',        // Navy - state/British forces
-  troubles_collusion: '#8B0000',    // Dark red - state collusion
-  famine: '#4A4A4A',                // Dark gray - famine deaths
+  peaceWall: '#8B0000', // Dark red - peace walls
+  military: '#000080', // Navy - military/British installations
+  checkpoint: '#000000', // Black - border checkpoints
+  partition: '#FF6600', // Orange - partition boundary
 }
 
+function usePeaceWalls() {
+  return useQuery({
+    queryKey: ['ireland-peace-walls'],
+    queryFn: async () => {
+      const { data } = await apiClient.get('/territories/ireland/peace-walls/geojson')
+      return data
+    },
+    staleTime: 1000 * 60 * 60,
+  })
+}
+
+function useMilitary() {
+  return useQuery({
+    queryKey: ['ireland-military'],
+    queryFn: async () => {
+      const { data } = await apiClient.get('/territories/ireland/military/geojson')
+      return data
+    },
+    staleTime: 1000 * 60 * 60,
+  })
+}
+
+function useBorderCheckpoints() {
+  return useQuery({
+    queryKey: ['ireland-checkpoints'],
+    queryFn: async () => {
+      const { data } = await apiClient.get('/territories/ireland/border-checkpoints/geojson')
+      return data
+    },
+    staleTime: 1000 * 60 * 60,
+  })
+}
+
+function usePartitionBoundary() {
+  return useQuery({
+    queryKey: ['ireland-partition'],
+    queryFn: async () => {
+      const { data } = await apiClient.get('/territories/ireland/partition-boundary/geojson')
+      return data
+    },
+    staleTime: 1000 * 60 * 60,
+  })
+}
 
 export default function IrelandOverlay({ map, visible }: IrelandOverlayProps) {
-  const { data: troublesEvents } = useTroublesEventsGeoJSON()
-  const { data: famineData } = useFamineData()
-
-  // Convert famine data to GeoJSON
-  const famineGeoJSON = useMemo(() => {
-    if (!famineData) return { type: 'FeatureCollection' as const, features: [] }
-    return {
-      type: 'FeatureCollection' as const,
-      features: famineData
-        .filter(d => d.lat && d.lon)
-        .map(d => ({
-          type: 'Feature' as const,
-          properties: {
-            id: d.id,
-            county: d.county,
-            province: d.province,
-            population_1841: d.population_1841,
-            population_1851: d.population_1851,
-            decline_percent: d.population_decline_percent,
-            deaths: d.estimated_deaths,
-            emigration: d.estimated_emigration,
-          },
-          geometry: {
-            type: 'Point' as const,
-            coordinates: [d.lon, d.lat],
-          },
-        })),
-    }
-  }, [famineData])
+  const { data: peaceWalls } = usePeaceWalls()
+  const { data: military } = useMilitary()
+  const { data: checkpoints } = useBorderCheckpoints()
+  const { data: partition } = usePartitionBoundary()
 
   useEffect(() => {
     if (!map) return
 
     const initLayers = () => {
-      // Troubles events source
-      if (!map.getSource('troubles-events')) {
-        map.addSource('troubles-events', {
+      // Partition Boundary
+      if (!map.getSource('ireland-partition')) {
+        map.addSource('ireland-partition', {
           type: 'geojson',
           data: { type: 'FeatureCollection', features: [] }
         })
-      }
-
-      // Famine data source
-      if (!map.getSource('famine-data')) {
-        map.addSource('famine-data', {
-          type: 'geojson',
-          data: { type: 'FeatureCollection', features: [] }
-        })
-      }
-
-      // Troubles events layer
-      if (!map.getLayer('troubles-events-layer')) {
         map.addLayer({
-          id: 'troubles-events-layer',
-          type: 'circle',
-          source: 'troubles-events',
+          id: 'ireland-partition-line',
+          type: 'line',
+          source: 'ireland-partition',
           paint: {
-            'circle-radius': [
-              'interpolate', ['linear'], ['get', 'total_deaths'],
-              0, 5,
-              5, 7,
-              10, 10,
-              50, 15
-            ],
-            'circle-color': [
-              'case',
-              ['==', ['get', 'collusion_documented'], true], COLORS.troubles_collusion,
-              ['==', ['get', 'perpetrator_side'], 'loyalist'], COLORS.troubles_loyalist,
-              ['==', ['get', 'perpetrator_side'], 'republican'], COLORS.troubles_republican,
-              ['==', ['get', 'perpetrator_side'], 'state'], COLORS.troubles_state,
-              '#888888'
-            ],
-            'circle-opacity': 0.85,
-            'circle-stroke-width': [
-              'case',
-              ['==', ['get', 'collusion_documented'], true], 3,
-              1.5
-            ],
-            'circle-stroke-color': [
-              'case', 
-              ['==', ['get', 'collusion_documented'], true], '#FFD700',
-              '#fff'
-            ]
+            'line-color': COLORS.partition,
+            'line-width': 3,
+            'line-dasharray': [4, 2],
+            'line-opacity': 0.8
           },
           layout: { visibility: 'none' }
         })
       }
 
-      // Famine layer
-      if (!map.getLayer('famine-layer')) {
+      // Peace Walls
+      if (!map.getSource('ireland-peace-walls')) {
+        map.addSource('ireland-peace-walls', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        })
         map.addLayer({
-          id: 'famine-layer',
-          type: 'circle',
-          source: 'famine-data',
+          id: 'ireland-peace-walls-layer',
+          type: 'line',
+          source: 'ireland-peace-walls',
           paint: {
-            'circle-radius': [
-              'interpolate', ['linear'], ['get', 'decline_percent'],
-              0, 6,
-              25, 10,
-              50, 16,
-              75, 22
-            ],
-            'circle-color': COLORS.famine,
-            'circle-opacity': 0.7,
+            'line-color': COLORS.peaceWall,
+            'line-width': 3,
+            'line-opacity': 0.9
+          },
+          layout: { visibility: 'none' }
+        })
+      }
+
+      // Military
+      if (!map.getSource('ireland-military')) {
+        map.addSource('ireland-military', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        })
+        map.addLayer({
+          id: 'ireland-military-layer',
+          type: 'circle',
+          source: 'ireland-military',
+          paint: {
+            'circle-radius': 5,
+            'circle-color': COLORS.military,
+            'circle-opacity': 0.8,
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#fff'
+          },
+          layout: { visibility: 'none' }
+        })
+      }
+
+      // Border Checkpoints
+      if (!map.getSource('ireland-checkpoints')) {
+        map.addSource('ireland-checkpoints', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        })
+        map.addLayer({
+          id: 'ireland-checkpoints-layer',
+          type: 'circle',
+          source: 'ireland-checkpoints',
+          paint: {
+            'circle-radius': 6,
+            'circle-color': COLORS.checkpoint,
+            'circle-opacity': 0.9,
             'circle-stroke-width': 2,
             'circle-stroke-color': '#fff'
           },
@@ -136,16 +158,21 @@ export default function IrelandOverlay({ map, visible }: IrelandOverlayProps) {
     }
   }, [map])
 
-  // Update data sources
   useEffect(() => {
     if (!map) return
 
     const updateSources = () => {
-      if (troublesEvents && map.getSource('troubles-events')) {
-        (map.getSource('troubles-events') as maplibregl.GeoJSONSource).setData(troublesEvents as any)
+      if (peaceWalls && map.getSource('ireland-peace-walls')) {
+        (map.getSource('ireland-peace-walls') as maplibregl.GeoJSONSource).setData(peaceWalls as any)
       }
-      if (famineGeoJSON.features.length > 0 && map.getSource('famine-data')) {
-        (map.getSource('famine-data') as maplibregl.GeoJSONSource).setData(famineGeoJSON as any)
+      if (military && map.getSource('ireland-military')) {
+        (map.getSource('ireland-military') as maplibregl.GeoJSONSource).setData(military as any)
+      }
+      if (checkpoints && map.getSource('ireland-checkpoints')) {
+        (map.getSource('ireland-checkpoints') as maplibregl.GeoJSONSource).setData(checkpoints as any)
+      }
+      if (partition && map.getSource('ireland-partition')) {
+        (map.getSource('ireland-partition') as maplibregl.GeoJSONSource).setData(partition as any)
       }
     }
 
@@ -154,20 +181,25 @@ export default function IrelandOverlay({ map, visible }: IrelandOverlayProps) {
     } else {
       map.once('load', updateSources)
     }
-  }, [map, troublesEvents, famineGeoJSON])
+  }, [map, peaceWalls, military, checkpoints, partition])
 
-  // Toggle visibility
   useEffect(() => {
     if (!map) return
 
     const setVisibility = () => {
       const vis = visible ? 'visible' : 'none'
-      if (map.getLayer('troubles-events-layer')) {
-        map.setLayoutProperty('troubles-events-layer', 'visibility', vis)
-      }
-      if (map.getLayer('famine-layer')) {
-        map.setLayoutProperty('famine-layer', 'visibility', vis)
-      }
+      const layers = [
+        'ireland-partition-line',
+        'ireland-peace-walls-layer',
+        'ireland-military-layer',
+        'ireland-checkpoints-layer',
+      ]
+
+      layers.forEach(layer => {
+        if (map.getLayer(layer)) {
+          map.setLayoutProperty(layer, 'visibility', vis)
+        }
+      })
     }
 
     if (map.isStyleLoaded()) {
@@ -177,54 +209,41 @@ export default function IrelandOverlay({ map, visible }: IrelandOverlayProps) {
     }
   }, [map, visible])
 
-  const stats = useMemo(() => {
-    const troublesCount = troublesEvents?.features.length || 0
-    const collusionCount = troublesEvents?.features.filter(
-      f => f.properties.collusion_documented
-    ).length || 0
-    const famineCounties = famineData?.length || 0
-    const totalFamineDeaths = famineData?.reduce(
-      (sum, d) => sum + (d.estimated_deaths || 0), 0
-    ) || 0
-
-    return { troublesCount, collusionCount, famineCounties, totalFamineDeaths }
-  }, [troublesEvents, famineData])
+  const stats = useMemo(() => ({
+    peaceWalls: peaceWalls?.features?.length || 0,
+    military: military?.features?.length || 0,
+    checkpoints: checkpoints?.features?.length || 0,
+    partition: partition?.features?.length || 0,
+  }), [peaceWalls, military, checkpoints, partition])
 
   if (!visible) return null
 
   return (
     <div className="absolute bottom-4 right-4 bg-white rounded-lg shadow-lg p-3 z-10 max-w-xs">
-      <div className="text-sm font-bold text-gray-800 mb-2">Ireland: Colonial History</div>
+      <div className="text-sm font-bold text-gray-800 mb-2">Ireland: British Colonialism & Partition</div>
+      <div className="text-xs text-gray-500 mb-2">Source: OpenStreetMap</div>
 
       <div className="space-y-1.5 text-xs">
-        <div className="font-semibold text-gray-600 mt-1">The Troubles (1968-1998)</div>
         <div className="flex items-center gap-2">
-          <div className="w-3 h-3 rounded-full" style={{ backgroundColor: COLORS.troubles_loyalist }} />
-          <span className="text-gray-700">Loyalist Violence</span>
+          <div className="w-4 h-1" style={{ backgroundColor: COLORS.partition }} />
+          <span className="text-gray-700">1921 Partition Boundary</span>
         </div>
         <div className="flex items-center gap-2">
-          <div className="w-3 h-3 rounded-full" style={{ backgroundColor: COLORS.troubles_republican }} />
-          <span className="text-gray-700">Republican Violence</span>
+          <div className="w-4 h-1" style={{ backgroundColor: COLORS.peaceWall }} />
+          <span className="text-gray-700">Peace Walls Belfast ({stats.peaceWalls})</span>
         </div>
         <div className="flex items-center gap-2">
-          <div className="w-3 h-3 rounded-full" style={{ backgroundColor: COLORS.troubles_state }} />
-          <span className="text-gray-700">State/British Forces</span>
+          <div className="w-3 h-3 rounded-full" style={{ backgroundColor: COLORS.military }} />
+          <span className="text-gray-700">Military/Forts ({stats.military})</span>
         </div>
         <div className="flex items-center gap-2">
-          <div className="w-3 h-3 rounded-full border-2 border-yellow-500" style={{ backgroundColor: COLORS.troubles_collusion }} />
-          <span className="text-gray-700">State Collusion ({stats.collusionCount})</span>
-        </div>
-
-        <div className="font-semibold text-gray-600 mt-2">Great Famine (1845-1852)</div>
-        <div className="flex items-center gap-2">
-          <div className="w-3 h-3 rounded-full" style={{ backgroundColor: COLORS.famine }} />
-          <span className="text-gray-700">Counties ({stats.famineCounties})</span>
+          <div className="w-3 h-3 rounded-full" style={{ backgroundColor: COLORS.checkpoint }} />
+          <span className="text-gray-700">Border Checkpoints ({stats.checkpoints})</span>
         </div>
       </div>
 
       <div className="mt-2 pt-2 border-t border-gray-200 text-xs text-gray-500">
-        <div>Troubles events: {stats.troublesCount}</div>
-        <div>Famine deaths: ~{(stats.totalFamineDeaths / 1000000).toFixed(1)}M</div>
+        Over 100 peace walls still standing
       </div>
     </div>
   )

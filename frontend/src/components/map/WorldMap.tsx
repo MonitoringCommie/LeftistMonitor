@@ -323,73 +323,86 @@ const WorldMap = memo(function WorldMap() {
 
   // Initialize layers and attach event handlers - once after map loads
   useEffect(() => {
-    if (!map.current || !filteredBorders || layersInitialized.current) return
+    if (!map.current || !filteredBorders) return
     const m = map.current
 
     const init = () => {
-      if (m.getSource('countries')) return
+      // Add sources if they don't exist
+      if (!m.getSource('countries')) {
+        m.addSource('countries', { type: 'geojson', data: filteredBorders as any })
+        m.addSource('relationships', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } })
+        m.addSource('frontlines', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } })
 
-      // Add all sources
-      m.addSource('countries', { type: 'geojson', data: filteredBorders as any })
-      m.addSource('relationships', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } })
-      m.addSource('frontlines', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } })
+        // Add all layers
+        m.addLayer({
+          id: 'country-fills',
+          type: 'fill',
+          source: 'countries',
+          paint: { 'fill-color': COUNTRY_FILL_COLOR, 'fill-opacity': 0.7 }
+        })
+        m.addLayer({
+          id: 'country-borders',
+          type: 'line',
+          source: 'countries',
+          paint: { 'line-color': COUNTRY_BORDER_COLOR, 'line-width': 1.5 }
+        })
+        m.addLayer({
+          id: 'relationship-lines',
+          type: 'line',
+          source: 'relationships',
+          paint: {
+            'line-color': ['get', 'color'],
+            'line-width': 2,
+            'line-opacity': 0.8,
+            'line-dasharray': [2, 2]
+          },
+          layout: { visibility: 'none' }
+        })
+        m.addLayer({
+          id: 'frontlines-fill',
+          type: 'fill',
+          source: 'frontlines',
+          filter: ['any', ['==', ['geometry-type'], 'Polygon'], ['==', ['geometry-type'], 'MultiPolygon']],
+          paint: { 'fill-color': ['coalesce', ['get', 'color'], '#888'], 'fill-opacity': 0.4 },
+          layout: { visibility: 'none' }
+        })
+        m.addLayer({
+          id: 'frontlines-line',
+          type: 'line',
+          source: 'frontlines',
+          paint: { 'line-color': ['coalesce', ['get', 'color'], '#888'], 'line-width': 2 },
+          layout: { visibility: 'none' }
+        })
 
-      // Add all layers
-      m.addLayer({
-        id: 'country-fills',
-        type: 'fill',
-        source: 'countries',
-        paint: { 'fill-color': COUNTRY_FILL_COLOR, 'fill-opacity': 0.7 }
-      })
-      m.addLayer({
-        id: 'country-borders',
-        type: 'line',
-        source: 'countries',
-        paint: { 'line-color': COUNTRY_BORDER_COLOR, 'line-width': 1.5 }
-      })
-      m.addLayer({
-        id: 'relationship-lines',
-        type: 'line',
-        source: 'relationships',
-        paint: {
-          'line-color': ['get', 'color'],
-          'line-width': 2,
-          'line-opacity': 0.8,
-          'line-dasharray': [2, 2]
-        },
-        layout: { visibility: 'none' }
-      })
-      m.addLayer({
-        id: 'frontlines-fill',
-        type: 'fill',
-        source: 'frontlines',
-        filter: ['any', ['==', ['geometry-type'], 'Polygon'], ['==', ['geometry-type'], 'MultiPolygon']],
-        paint: { 'fill-color': ['coalesce', ['get', 'color'], '#888'], 'fill-opacity': 0.4 },
-        layout: { visibility: 'none' }
-      })
-      m.addLayer({
-        id: 'frontlines-line',
-        type: 'line',
-        source: 'frontlines',
-        paint: { 'line-color': ['coalesce', ['get', 'color'], '#888'], 'line-width': 2 },
-        layout: { visibility: 'none' }
-      })
-
-      layersInitialized.current = true
-
-      // Attach event handlers only once
-      if (!eventHandlersAttached.current) {
-        m.on('click', 'country-fills', handleCountryClick)
-        m.on('mouseenter', 'country-fills', handleCountryMouseEnter)
-        m.on('mouseleave', 'country-fills', handleCountryMouseLeave)
-        eventHandlersAttached.current = true
+        layersInitialized.current = true
       }
+
+      // Always re-attach event handlers to ensure they use current callbacks
+      if (eventHandlersAttached.current) {
+        m.off('click', 'country-fills', handleCountryClick)
+        m.off('mouseenter', 'country-fills', handleCountryMouseEnter)
+        m.off('mouseleave', 'country-fills', handleCountryMouseLeave)
+      }
+      
+      m.on('click', 'country-fills', handleCountryClick)
+      m.on('mouseenter', 'country-fills', handleCountryMouseEnter)
+      m.on('mouseleave', 'country-fills', handleCountryMouseLeave)
+      eventHandlersAttached.current = true
     }
 
     if (m.isStyleLoaded()) {
       init()
     } else {
-      m.once('load', init) // Use .once() to prevent multiple listeners
+      m.once('load', init)
+    }
+
+    return () => {
+      if (map.current && eventHandlersAttached.current) {
+        map.current.off('click', 'country-fills', handleCountryClick)
+        map.current.off('mouseenter', 'country-fills', handleCountryMouseEnter)
+        map.current.off('mouseleave', 'country-fills', handleCountryMouseLeave)
+        eventHandlersAttached.current = false
+      }
     }
   }, [filteredBorders, handleCountryClick, handleCountryMouseEnter, handleCountryMouseLeave])
 

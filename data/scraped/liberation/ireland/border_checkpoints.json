@@ -1,0 +1,906 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.10 2d4cfc48",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-31T22:33:34Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 162936528,
+  "lat": 53.2957201,
+  "lon": -6.1341006,
+  "tags": {
+    "barrier": "border_control",
+    "bicycle": "yes",
+    "foot": "yes",
+    "motorcar": "yes",
+    "motorcycle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1213151080,
+  "lat": 53.3251857,
+  "lon": -6.8148098,
+  "tags": {
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 1686021311,
+  "lat": 52.6573691,
+  "lon": -7.2460932,
+  "tags": {
+    "boundary": "military",
+    "historic": "boundary_stone",
+    "inscription": "W 🡩 D No 1 380 SW;W↑D No. 1 26' 0'' SE",
+    "mapillary": "3027783194108453",
+    "ref:IE:niah": "12004013",
+    "wikimedia_commons": "File:Boundary marker No. I at James Stephens Barracks.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 1686021321,
+  "lat": 52.6581214,
+  "lon": -7.2444917,
+  "tags": {
+    "boundary": "military",
+    "historic": "boundary_stone",
+    "inscription": "W 🡩 D No. 11 31.6 E",
+    "material": "limestone",
+    "note": "check location; taken from Wikimedia file",
+    "wikimedia_commons": "File:Boundary marker James Stephens Barracks No. II.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 1797090560,
+  "lat": 54.2778726,
+  "lon": -8.4448281,
+  "tags": {
+    "boundary": "marker",
+    "boundary_name": "Sligo Borough Boundary",
+    "heritage": "yes",
+    "historic": "boundary_stone",
+    "inscription": "Borough Boundary",
+    "marker": "stone"
+  }
+},
+{
+  "type": "node",
+  "id": 3104910654,
+  "lat": 53.3107299,
+  "lon": -6.2800113,
+  "tags": {
+    "historic": "boundary_stone",
+    "name": "Township of Rathmines 1847"
+  }
+},
+{
+  "type": "node",
+  "id": 3407596242,
+  "lat": 54.5245044,
+  "lon": -7.1440552,
+  "tags": {
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 4263349444,
+  "lat": 53.3274971,
+  "lon": -6.2442906,
+  "tags": {
+    "historic": "boundary_stone",
+    "name": "Township of Rathmines 1847"
+  }
+},
+{
+  "type": "node",
+  "id": 4450675803,
+  "lat": 53.3067237,
+  "lon": -6.2658806,
+  "tags": {
+    "historic": "boundary_stone",
+    "name": "Rathmines Township 1847"
+  }
+},
+{
+  "type": "node",
+  "id": 4708936102,
+  "lat": 53.9287369,
+  "lon": -9.2263938,
+  "tags": {
+    "historic": "boundary_stone",
+    "name": "Cunnagher - Conachar"
+  }
+},
+{
+  "type": "node",
+  "id": 4708936103,
+  "lat": 53.8100806,
+  "lon": -9.2529690,
+  "tags": {
+    "historic": "boundary_stone",
+    "name": "Logaphuill"
+  }
+},
+{
+  "type": "node",
+  "id": 4879118036,
+  "lat": 53.3211110,
+  "lon": -6.2792525,
+  "tags": {
+    "historic": "boundary_stone",
+    "name": "Township of Rathmines 1847"
+  }
+},
+{
+  "type": "node",
+  "id": 4879118037,
+  "lat": 53.3321048,
+  "lon": -6.2516233,
+  "tags": {
+    "historic": "boundary_stone",
+    "name": "Township of Rathmines 1847"
+  }
+},
+{
+  "type": "node",
+  "id": 4891644795,
+  "lat": 54.6773744,
+  "lon": -5.7412590,
+  "tags": {
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 5299950822,
+  "lat": 52.3672243,
+  "lon": -7.6939017,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "Carrigeen"
+  }
+},
+{
+  "type": "node",
+  "id": 6447173276,
+  "lat": 51.8680401,
+  "lon": -8.5048008,
+  "tags": {
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 6447173277,
+  "lat": 51.8680050,
+  "lon": -8.5021458,
+  "tags": {
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 6447173278,
+  "lat": 51.8694917,
+  "lon": -8.4957242,
+  "tags": {
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 6447173279,
+  "lat": 51.8694059,
+  "lon": -8.4960428,
+  "tags": {
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 6600503858,
+  "lat": 53.3606379,
+  "lon": -6.2713843,
+  "tags": {
+    "boundary_name": "Arran Quay Ward",
+    "historic": "boundary_stone",
+    "start_date": "1849"
+  }
+},
+{
+  "type": "node",
+  "id": 6600503859,
+  "lat": 53.3605837,
+  "lon": -6.2709859,
+  "tags": {
+    "boundary_name": "Inns Quay Ward",
+    "historic": "boundary_stone",
+    "start_date": "1849"
+  }
+},
+{
+  "type": "node",
+  "id": 6612857469,
+  "lat": 53.3078257,
+  "lon": -6.2545667,
+  "tags": {
+    "boundary_name": "County Boro'",
+    "fixme": "Is this a duplicate?",
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 7023748788,
+  "lat": 53.3104917,
+  "lon": -6.2193268,
+  "tags": {
+    "boundary_name": "County Borough",
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 7036101053,
+  "lat": 51.8664207,
+  "lon": -8.5098119,
+  "tags": {
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 7044627539,
+  "lat": 53.3036177,
+  "lon": -6.2569714,
+  "tags": {
+    "boundary_name": "County Boro'",
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 9111515793,
+  "lat": 51.9403820,
+  "lon": -7.8590818,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "Youghal District Urban & Rural Bounds 1900"
+  }
+},
+{
+  "type": "node",
+  "id": 9114428144,
+  "lat": 51.9564552,
+  "lon": -7.8586368,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "BS"
+  }
+},
+{
+  "type": "node",
+  "id": 9379513425,
+  "lat": 51.8490058,
+  "lon": -10.3685212,
+  "tags": {
+    "historic": "boundary_stone",
+    "name": "An Gáirdín Bán"
+  }
+},
+{
+  "type": "node",
+  "id": 9459648799,
+  "lat": 55.2606053,
+  "lon": -8.2119260,
+  "tags": {
+    "historic": "boundary_stone",
+    "name": "An Baile Thoir"
+  }
+},
+{
+  "type": "node",
+  "id": 9654915847,
+  "lat": 51.9774891,
+  "lon": -8.9849904,
+  "tags": {
+    "description": "on road corner, stacked stones, one with the text \"Cois Labhra\"",
+    "historic": "boundary_stone",
+    "name": "Cois Labhra marker"
+  }
+},
+{
+  "type": "node",
+  "id": 10573333736,
+  "lat": 52.0607463,
+  "lon": -9.4828636,
+  "tags": {
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 10931534511,
+  "lat": 52.1308754,
+  "lon": -10.4490903,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "Gleann Loic",
+    "mapillary": "287722839568069"
+  }
+},
+{
+  "type": "node",
+  "id": 11753249730,
+  "lat": 52.6603216,
+  "lon": -7.2468046,
+  "tags": {
+    "boundary": "military",
+    "direction": "340",
+    "historic": "boundary_stone",
+    "inscription": "W 🡩 D No. 6",
+    "wikimedia_commons": "File:Boundary marker James Stephens barracks No 6.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 11753304467,
+  "lat": 52.6602058,
+  "lon": -7.2473938,
+  "tags": {
+    "boundary": "military",
+    "direction": "340",
+    "historic": "boundary_stone",
+    "inscription": "W 🡩 D No. 5",
+    "material": "limestone",
+    "wikimedia_commons": "File:Boundary marker James Stephens barracks No 5.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 11753313582,
+  "lat": 52.6580851,
+  "lon": -7.2469215,
+  "tags": {
+    "boundary": "military",
+    "direction": "230",
+    "historic": "boundary_stone",
+    "inscription": "W 🡩 D No. 2 259 SW",
+    "material": "limestone",
+    "wikimedia_commons": "File:Boundary marker James Stephens barracks No 2.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 11775227044,
+  "lat": 52.6589078,
+  "lon": -7.2432795,
+  "tags": {
+    "boundary": "military",
+    "historic": "boundary_stone",
+    "inscription": "W 🡩 D No. 9",
+    "material": "limestone",
+    "wikimedia_commons": "File:Boundary marker no. 9 at James Stephens Barracks.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 11775261921,
+  "lat": 52.6590011,
+  "lon": -7.2447985,
+  "tags": {
+    "boundary": "military",
+    "direction": "350",
+    "historic": "boundary_stone",
+    "inscription": "W 🡩 D No. 7",
+    "wikimedia_commons": "File:Boundary marker no. 7 at James Stephens Barracks.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 11775267807,
+  "lat": 52.6592366,
+  "lon": -7.2439109,
+  "tags": {
+    "boundary": "military",
+    "historic": "boundary_stone",
+    "inscription": "W 🡩 D No. 8",
+    "wikimedia_commons": "File:Boundary marker no. 8 at James Stephens Barracks.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 11813794565,
+  "lat": 52.6577738,
+  "lon": -7.2462229,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "W 🡩 D No 3 43'0 SW",
+    "moved": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12050825564,
+  "lat": 53.3486872,
+  "lon": -6.2899310,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "W D No. 8"
+  }
+},
+{
+  "type": "node",
+  "id": 12050877112,
+  "lat": 53.3563565,
+  "lon": -6.2958822,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "WD No. 24"
+  }
+},
+{
+  "type": "node",
+  "id": 12050877438,
+  "lat": 53.3584646,
+  "lon": -6.3032454,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "W D No. 8"
+  }
+},
+{
+  "type": "node",
+  "id": 12050880205,
+  "lat": 53.3496110,
+  "lon": -6.2858836,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "WD [...]"
+  }
+},
+{
+  "type": "node",
+  "id": 12050885549,
+  "lat": 53.3573884,
+  "lon": -6.2992414,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "WD No. 3"
+  }
+},
+{
+  "type": "node",
+  "id": 12050887666,
+  "lat": 53.3566393,
+  "lon": -6.2967089,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "WD No. 25"
+  }
+},
+{
+  "type": "node",
+  "id": 12050891576,
+  "lat": 53.3579999,
+  "lon": -6.3014014,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "W. D No. 6"
+  }
+},
+{
+  "type": "node",
+  "id": 12050899525,
+  "lat": 53.3574779,
+  "lon": -6.2995834,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "WD No. 4"
+  }
+},
+{
+  "type": "node",
+  "id": 12050903710,
+  "lat": 53.3576761,
+  "lon": -6.3004088,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "WD No. 5"
+  }
+},
+{
+  "type": "node",
+  "id": 12050913159,
+  "lat": 53.3583231,
+  "lon": -6.3027228,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "W.  D No. 7"
+  }
+},
+{
+  "type": "node",
+  "id": 12050918531,
+  "lat": 53.3571963,
+  "lon": -6.2985078,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "WD No. 2"
+  }
+},
+{
+  "type": "node",
+  "id": 12190001853,
+  "lat": 53.3448873,
+  "lon": -6.2679390,
+  "tags": {
+    "historic": "boundary_stone",
+    "mapillary": "1102076644920295"
+  }
+},
+{
+  "type": "node",
+  "id": 12190001854,
+  "lat": 53.3448214,
+  "lon": -6.2678884,
+  "tags": {
+    "historic": "boundary_stone",
+    "mapillary": "1901639386996490"
+  }
+},
+{
+  "type": "node",
+  "id": 12190017743,
+  "lat": 53.3452171,
+  "lon": -6.2761009,
+  "tags": {
+    "historic": "boundary_stone",
+    "mapillary": "321252451039463"
+  }
+},
+{
+  "type": "node",
+  "id": 12190034495,
+  "lat": 53.3439745,
+  "lon": -6.2732807,
+  "tags": {
+    "historic": "boundary_stone",
+    "mapillary": "1241233197007843"
+  }
+},
+{
+  "type": "node",
+  "id": 12190034496,
+  "lat": 53.3439765,
+  "lon": -6.2732311,
+  "tags": {
+    "historic": "boundary_stone",
+    "mapillary": "8949385865091369"
+  }
+},
+{
+  "type": "node",
+  "id": 12253824160,
+  "lat": 53.3367269,
+  "lon": -6.3178532,
+  "tags": {
+    "bollard": "fixed",
+    "colour": "lightgrey",
+    "height": "0.4",
+    "historic": "boundary_stone",
+    "inscription": "WD N 25",
+    "material": "stone",
+    "width": "0.2"
+  }
+},
+{
+  "type": "node",
+  "id": 12848742684,
+  "lat": 53.3983627,
+  "lon": -6.2380354,
+  "tags": {
+    "historic": "boundary_stone",
+    "name": "Fingal Area Boundary"
+  }
+},
+{
+  "type": "node",
+  "id": 12870730473,
+  "lat": 53.1720921,
+  "lon": -6.5310515,
+  "tags": {
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 12983913015,
+  "lat": 53.3162389,
+  "lon": -6.2359305,
+  "tags": {
+    "historic": "boundary_stone",
+    "inscription": "Co Boro BDI"
+  }
+},
+{
+  "type": "node",
+  "id": 13058280972,
+  "lat": 53.3881517,
+  "lon": -6.1994964,
+  "tags": {
+    "description": "Granite village marker on approach",
+    "historic": "boundary_stone",
+    "image": "https://commons.wikimedia.org/wiki/File:Coolock_Village_granite_marker_Dublin_Ireland_August_2025.jpg",
+    "name": "Coolock Village (stone marker)",
+    "source": "survey;photo"
+  }
+},
+{
+  "type": "way",
+  "id": 133023596,
+  "nodes": [
+    1463822686,
+    1463822687,
+    1463822688,
+    1463822689,
+    1463822692,
+    1463822693,
+    1643792137,
+    1643792138,
+    1463822695,
+    1463822694,
+    1643792132,
+    1463822691,
+    1463822690,
+    1463822686
+  ],
+  "tags": {
+    "area": "yes",
+    "barrier": "border_control",
+    "building": "outbuilding",
+    "demolished:building": "industrial",
+    "motor_vehicle": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1307421113,
+  "nodes": [
+    12107705585,
+    12107705586,
+    13128866358,
+    12107705587,
+    12107705588,
+    13362531250,
+    12107705585
+  ],
+  "tags": {
+    "area": "yes",
+    "barrier": "border_control",
+    "building": "roof",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1376768511,
+  "nodes": [
+    12748161139,
+    12741804201,
+    13362531253,
+    12748161140,
+    12748161141,
+    13362531252,
+    12748161139
+  ],
+  "tags": {
+    "area": "yes",
+    "barrier": "border_control",
+    "building": "roof",
+    "ref": "B20"
+  }
+},
+{
+  "type": "way",
+  "id": 1457221090,
+  "nodes": [
+    13364397609,
+    13364397610,
+    13364397611,
+    13364397612,
+    13364397609
+  ],
+  "tags": {
+    "area": "yes",
+    "barrier": "border_control",
+    "building": "yes",
+    "name": "Security Check"
+  }
+},
+{
+  "type": "node",
+  "id": 13364397609,
+  "lat": 52.2523526,
+  "lon": -6.3451460
+},
+{
+  "type": "node",
+  "id": 13364397610,
+  "lat": 52.2523383,
+  "lon": -6.3452164
+},
+{
+  "type": "node",
+  "id": 13364397611,
+  "lat": 52.2523716,
+  "lon": -6.3452345
+},
+{
+  "type": "node",
+  "id": 13364397612,
+  "lat": 52.2523859,
+  "lon": -6.3451640
+},
+{
+  "type": "node",
+  "id": 12107705585,
+  "lat": 52.2522444,
+  "lon": -6.3381041
+},
+{
+  "type": "node",
+  "id": 12107705586,
+  "lat": 52.2522771,
+  "lon": -6.3383994
+},
+{
+  "type": "node",
+  "id": 12107705587,
+  "lat": 52.2521463,
+  "lon": -6.3384381
+},
+{
+  "type": "node",
+  "id": 12107705588,
+  "lat": 52.2521136,
+  "lon": -6.3381427
+},
+{
+  "type": "node",
+  "id": 12741804201,
+  "lat": 52.2522617,
+  "lon": -6.3394179
+},
+{
+  "type": "node",
+  "id": 12748161139,
+  "lat": 52.2522371,
+  "lon": -6.3392305
+},
+{
+  "type": "node",
+  "id": 12748161140,
+  "lat": 52.2524089,
+  "lon": -6.3393663
+},
+{
+  "type": "node",
+  "id": 12748161141,
+  "lat": 52.2523843,
+  "lon": -6.3391790
+},
+{
+  "type": "node",
+  "id": 13128866358,
+  "lat": 52.2522244,
+  "lon": -6.3384150
+},
+{
+  "type": "node",
+  "id": 13362531250,
+  "lat": 52.2521899,
+  "lon": -6.3381202
+},
+{
+  "type": "node",
+  "id": 13362531252,
+  "lat": 52.2523129,
+  "lon": -6.3392040
+},
+{
+  "type": "node",
+  "id": 13362531253,
+  "lat": 52.2523419,
+  "lon": -6.3393898
+},
+{
+  "type": "node",
+  "id": 1463822686,
+  "lat": 54.6153027,
+  "lon": -5.9191997
+},
+{
+  "type": "node",
+  "id": 1463822687,
+  "lat": 54.6155631,
+  "lon": -5.9203979
+},
+{
+  "type": "node",
+  "id": 1463822688,
+  "lat": 54.6157323,
+  "lon": -5.9202948
+},
+{
+  "type": "node",
+  "id": 1463822689,
+  "lat": 54.6157568,
+  "lon": -5.9204146
+},
+{
+  "type": "node",
+  "id": 1463822690,
+  "lat": 54.6162470,
+  "lon": -5.9186459
+},
+{
+  "type": "node",
+  "id": 1463822691,
+  "lat": 54.6164925,
+  "lon": -5.9185104
+},
+{
+  "type": "node",
+  "id": 1463822692,
+  "lat": 54.6163093,
+  "lon": -5.9200781
+},
+{
+  "type": "node",
+  "id": 1463822693,
+  "lat": 54.6163410,
+  "lon": -5.9202335
+},
+{
+  "type": "node",
+  "id": 1463822694,
+  "lat": 54.6165674,
+  "lon": -5.9186795
+},
+{
+  "type": "node",
+  "id": 1463822695,
+  "lat": 54.6168617,
+  "lon": -5.9201207
+},
+{
+  "type": "node",
+  "id": 1643792132,
+  "lat": 54.6165259,
+  "lon": -5.9185379
+},
+{
+  "type": "node",
+  "id": 1643792137,
+  "lat": 54.6167160,
+  "lon": -5.9200052
+},
+{
+  "type": "node",
+  "id": 1643792138,
+  "lat": 54.6167530,
+  "lon": -5.9201869
+}
+
+  ]
+}

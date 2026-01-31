@@ -4,7 +4,7 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recha
 interface BudgetCategory {
   name: string
   value: number
-  color: string
+  color?: string
 }
 
 interface BudgetPieChartProps {
@@ -80,8 +80,8 @@ const BudgetPieChart = memo(function BudgetPieChart({
             ))}
           </Pie>
           <Tooltip
-            formatter={(value: number, name: string) => [
-              `${formatValue(value)} (${formatPercent(value)})`,
+            formatter={(value, name) => [
+              `${formatValue(value as number)} (${formatPercent(value as number)})`,
               name
             ]}
           />

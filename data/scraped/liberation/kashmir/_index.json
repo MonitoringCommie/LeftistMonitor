@@ -1,0 +1,90 @@
+{
+  "region": "Kashmir",
+  "description": "Geographic data related to the Kashmir conflict and Indian occupation of Jammu and Kashmir",
+  "collected_date": "2026-01-31",
+  "files": [
+    {
+      "filename": "kashmir_boundaries_osm.json",
+      "description": "Administrative and disputed boundaries in the Kashmir region",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)",
+      "coverage": "Greater Kashmir region (32-37N, 73-80E)"
+    },
+    {
+      "filename": "line_of_control_osm.json",
+      "description": "The Line of Control (LoC) - de facto border between Indian and Pakistani administered Kashmir",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)",
+      "notes": "Established after 1947 and 1971 wars, one of the most militarized borders in the world"
+    },
+    {
+      "filename": "checkpoints_osm.json",
+      "description": "Military checkpoints in the Kashmir region",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)",
+      "notes": "Kashmir has one of the highest concentrations of military checkpoints globally"
+    },
+    {
+      "filename": "military_installations_osm.json",
+      "description": "Military bases and installations in Kashmir",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)",
+      "notes": "Kashmir is one of the most heavily militarized regions in the world"
+    },
+    {
+      "filename": "graves_cemeteries_osm.json",
+      "description": "Cemeteries and grave sites in Kashmir, including martyrs graveyards",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)",
+      "notes": "Includes memorials and cemeteries; mass grave documentation requires additional sources"
+    },
+    {
+      "filename": "india_adm1.geojson",
+      "description": "India state-level administrative boundaries including Jammu and Kashmir",
+      "source": "geoBoundaries via Humanitarian Data Exchange",
+      "source_url": "https://data.humdata.org/dataset/geoboundaries-admin-boundaries-for-india",
+      "format": "GeoJSON",
+      "license": "Open Database License (ODC-ODbL)"
+    },
+    {
+      "filename": "india_adm2.geojson",
+      "description": "India district-level administrative boundaries",
+      "source": "geoBoundaries via Humanitarian Data Exchange",
+      "source_url": "https://data.humdata.org/dataset/geoboundaries-admin-boundaries-for-india",
+      "format": "GeoJSON",
+      "license": "Open Database License (ODC-ODbL)"
+    }
+  ],
+  "context": {
+    "conflict_start": 1947,
+    "occupying_power": "India (in Indian-administered Kashmir)",
+    "disputed_by": ["India", "Pakistan", "China"],
+    "key_issues": [
+      "Over 700,000 Indian military and paramilitary personnel deployed",
+      "AFSPA (Armed Forces Special Powers Act) grants immunity to soldiers",
+      "Revocation of Article 370 in 2019 ended Kashmir's special status",
+      "Communication blackouts and internet shutdowns",
+      "Mass graves documented by human rights organizations",
+      "Enforced disappearances since 1989"
+    ],
+    "un_resolutions": [
+      "UN Security Council Resolution 47 (1948) - called for plebiscite",
+      "UNSC Resolution 80 (1950) - reaffirmed plebiscite requirement"
+    ],
+    "human_rights_concerns": [
+      "Estimated 8,000+ enforced disappearances since 1989",
+      "Over 70,000 killed in the conflict",
+      "Documented mass graves containing thousands of unidentified bodies"
+    ]
+  }
+}

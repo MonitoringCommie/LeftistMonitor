@@ -1,0 +1,76 @@
+{
+  "region": "Kurdistan",
+  "description": "Geographic data related to Kurdish territories and liberation struggles across Turkey, Iraq, Iran, and Syria",
+  "collected_date": "2026-01-31",
+  "files": [
+    {
+      "filename": "destroyed_villages_osm.json",
+      "description": "Ruined and abandoned Kurdish villages, many destroyed during Turkish military operations",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)",
+      "coverage": "Southeastern Turkey and northern Iraq (36-42N, 38-45E)",
+      "notes": "Includes historic ruins and abandoned places tagged in OSM"
+    },
+    {
+      "filename": "military_installations_osm.json",
+      "description": "Military installations and bases in Kurdish regions",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)",
+      "coverage": "Southeastern Turkey and northern Iraq"
+    },
+    {
+      "filename": "ilisu_dam_osm.json",
+      "description": "Ilisu Dam and surrounding infrastructure - controversial dam project flooding Kurdish historical sites",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)",
+      "notes": "The Ilisu Dam flooded the ancient town of Hasankeyf and displaced Kurdish communities"
+    },
+    {
+      "filename": "turkey_dams_osm.json",
+      "description": "Dam projects in Turkish Kurdistan region",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)",
+      "notes": "Many dams affect Kurdish areas and have been criticized for displacing populations"
+    },
+    {
+      "filename": "dams_reservoirs_osm.json",
+      "description": "Additional dam and reservoir data",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)"
+    },
+    {
+      "filename": "iraqi_kurdistan_osm.json",
+      "description": "Data from the Iraqi Kurdistan Region",
+      "source": "OpenStreetMap via Overpass API",
+      "source_url": "https://overpass-api.de/",
+      "format": "OSM JSON",
+      "license": "Open Database License (ODbL)"
+    }
+  ],
+  "context": {
+    "kurdish_population": "30-40 million across four countries",
+    "countries_affected": ["Turkey", "Iraq", "Iran", "Syria"],
+    "key_issues": [
+      "Over 4,000 Kurdish villages destroyed in Turkey (1984-1999)",
+      "Ilisu Dam flooded ancient Hasankeyf (12,000 years of history)",
+      "Ongoing military operations in southeastern Turkey",
+      "Anfal genocide in Iraq (1986-1989) killed up to 182,000 Kurds"
+    ],
+    "liberation_movements": [
+      "PKK (Kurdistan Workers Party) - Turkey",
+      "PJAK (Party of Free Life of Kurdistan) - Iran",
+      "YPG/YPJ (Peoples/Womens Protection Units) - Syria/Rojava",
+      "Peshmerga - Iraqi Kurdistan"
+    ]
+  }
+}

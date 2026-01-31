@@ -58,7 +58,7 @@ const ElectionResultsChart = memo(function ElectionResultsChart({
     const sorted = [...data]
       .sort((a, b) => b.vote_share - a.vote_share)
       .slice(0, maxParties)
-    
+
     // Calculate "Others" if there are more parties
     if (data.length > maxParties) {
       const othersShare = data
@@ -67,7 +67,7 @@ const ElectionResultsChart = memo(function ElectionResultsChart({
       const othersSeats = data
         .slice(maxParties)
         .reduce((sum, p) => sum + (p.seats || 0), 0)
-      
+
       if (othersShare > 0) {
         sorted.push({
           party_name: 'Others',
@@ -78,7 +78,7 @@ const ElectionResultsChart = memo(function ElectionResultsChart({
         })
       }
     }
-    
+
     return sorted.map(party => ({
       ...party,
       name: party.party_short || party.party_name,
@@ -88,16 +88,16 @@ const ElectionResultsChart = memo(function ElectionResultsChart({
 
   if (!data || data.length === 0) {
     return (
-      <div className="bg-white rounded-lg border p-4">
-        <h3 className="text-lg font-semibold mb-3">{title}</h3>
-        <p className="text-gray-500 text-sm">No election data available</p>
+      <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4">
+        <h3 className="text-lg font-semibold mb-3 dark:text-white">{title}</h3>
+        <p className="text-gray-500 dark:text-gray-400 text-sm">No election data available</p>
       </div>
     )
   }
 
   return (
-    <div className="bg-white rounded-lg border p-4">
-      <h3 className="text-lg font-semibold mb-3">{title}</h3>
+    <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4">
+      <h3 className="text-lg font-semibold mb-3 dark:text-white">{title}</h3>
       <ResponsiveContainer width="100%" height={Math.max(300, chartData.length * 40)}>
         <BarChart
           data={chartData}
@@ -118,10 +118,11 @@ const ElectionResultsChart = memo(function ElectionResultsChart({
             width={90}
           />
           <Tooltip
-            formatter={(value: number, name: string) => [
-              name === 'Vote Share' ? value.toFixed(1) + '%' : value,
-              name
-            ]}
+            formatter={(value, name) => {
+              const numValue = Number(value) || 0
+              if (name === 'Vote Share') return [numValue.toFixed(1) + '%', name]
+              return [numValue, name]
+            }}
           />
           <Legend />
           <Bar

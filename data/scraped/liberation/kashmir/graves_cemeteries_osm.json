@@ -1,0 +1,6907 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.10 2d4cfc48",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-31T22:18:15Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1364819177,
+  "lat": 33.6110591,
+  "lon": 73.0701963,
+  "tags": {
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 1794834147,
+  "lat": 32.7044355,
+  "lon": 74.8776370,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Jammu And Kashmir Police Martyrs Memorial"
+  }
+},
+{
+  "type": "node",
+  "id": 1952368051,
+  "lat": 33.6499208,
+  "lon": 73.0920272,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Hazara Colony Graveyard",
+    "religion": "muslim",
+    "source": "Physical suvey -- SaafPindi"
+  }
+},
+{
+  "type": "node",
+  "id": 1952368199,
+  "lat": 33.6499658,
+  "lon": 73.0921159,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Hazara Colony Graveyard",
+    "source": "Physical suvey -- SaafPindi"
+  }
+},
+{
+  "type": "node",
+  "id": 1952368209,
+  "lat": 33.6500934,
+  "lon": 73.0921535,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Hazara Colony Graveyard",
+    "source": "Physical suvey -- SaafPindi"
+  }
+},
+{
+  "type": "node",
+  "id": 1952368221,
+  "lat": 33.6502899,
+  "lon": 73.0914756,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Hazara Colony Graveyard",
+    "source": "Physical suvey -- SaafPindi"
+  }
+},
+{
+  "type": "node",
+  "id": 1952368223,
+  "lat": 33.6503136,
+  "lon": 73.0913554,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Hazara Colony Graveyard",
+    "source": "Physical suvey -- SaafPindi"
+  }
+},
+{
+  "type": "node",
+  "id": 1952368225,
+  "lat": 33.6503549,
+  "lon": 73.0914335,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Hazara Colony Graveyard",
+    "source": "Physical suvey -- SaafPindi"
+  }
+},
+{
+  "type": "node",
+  "id": 1952368227,
+  "lat": 33.6504513,
+  "lon": 73.0919355,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Hazara Colony Graveyard",
+    "source": "Physical suvey -- SaafPindi"
+  }
+},
+{
+  "type": "node",
+  "id": 1952368240,
+  "lat": 33.6505463,
+  "lon": 73.0918649,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Hazara Colony Graveyard",
+    "source": "Physical suvey -- SaafPindi"
+  }
+},
+{
+  "type": "node",
+  "id": 1952368242,
+  "lat": 33.6505583,
+  "lon": 73.0922694,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Hazara Colony Graveyard",
+    "source": "Physical suvey -- SaafPindi"
+  }
+},
+{
+  "type": "node",
+  "id": 1952368248,
+  "lat": 33.6506895,
+  "lon": 73.0922179,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Hazara Colony Graveyard",
+    "source": "Physical suvey -- SaafPindi"
+  }
+},
+{
+  "type": "node",
+  "id": 2147617686,
+  "lat": 33.6948976,
+  "lon": 73.0299405,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Local Graveyard",
+    "source": "Yahoo + Local Knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 2319855713,
+  "lat": 32.7750760,
+  "lon": 73.1164869,
+  "tags": {
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 2802844724,
+  "lat": 32.7571051,
+  "lon": 74.2813042,
+  "tags": {
+    "amenity": "grave_yard",
+    "denomination": "sunni",
+    "name": "Shah behram qabristan",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 3914337726,
+  "lat": 33.0289835,
+  "lon": 73.7897048,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Baba Sain Korra Darbar"
+  }
+},
+{
+  "type": "node",
+  "id": 3914337727,
+  "lat": 33.0293658,
+  "lon": 73.7903324,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Bains Shareef Kabarstaan"
+  }
+},
+{
+  "type": "node",
+  "id": 4008784636,
+  "lat": 34.3850225,
+  "lon": 73.2262624,
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 4273490292,
+  "lat": 33.5913175,
+  "lon": 73.0802093,
+  "tags": {
+    "historic": "memorial",
+    "name": "Ammar Shaheed Chowk",
+    "place": "square"
+  }
+},
+{
+  "type": "node",
+  "id": 4274759789,
+  "lat": 33.6072078,
+  "lon": 73.0633580,
+  "tags": {
+    "historic": "memorial",
+    "name": "BB Shaheed Memorial "
+  }
+},
+{
+  "type": "node",
+  "id": 4278065009,
+  "lat": 32.2739171,
+  "lon": 73.8136834,
+  "tags": {
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 4291267328,
+  "lat": 32.2984508,
+  "lon": 73.4959654,
+  "tags": {
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 4291267329,
+  "lat": 32.2995037,
+  "lon": 73.4955995,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "West Graveyard"
+  }
+},
+{
+  "type": "node",
+  "id": 4291267330,
+  "lat": 32.2959487,
+  "lon": 73.5066502,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "East Graveyard"
+  }
+},
+{
+  "type": "node",
+  "id": 4366041961,
+  "lat": 34.0686273,
+  "lon": 74.8287239,
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 4584888903,
+  "lat": 32.4768221,
+  "lon": 73.9380541,
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5006126325,
+  "lat": 35.2058079,
+  "lon": 74.6463877,
+  "tags": {
+    "cemetery": "grave"
+  }
+},
+{
+  "type": "node",
+  "id": 5119202902,
+  "lat": 32.4654546,
+  "lon": 75.9264015,
+  "tags": {
+    "historic": "memorial",
+    "name": "Shaheed Samarak Bakloh Cantt"
+  }
+},
+{
+  "type": "node",
+  "id": 5423724406,
+  "lat": 33.3411063,
+  "lon": 73.4964411,
+  "tags": {
+    "addr:street": "Sub Amanat Road",
+    "amenity": "grave_yard",
+    "is_in:town": "سموٹ"
+  }
+},
+{
+  "type": "node",
+  "id": 5423725536,
+  "lat": 33.3417301,
+  "lon": 73.4982921,
+  "tags": {
+    "addr:city": "سموٹ",
+    "addr:street": "Sub Amanat Road",
+    "amenity": "grave_yard",
+    "is_in:town": "Samote"
+  }
+},
+{
+  "type": "node",
+  "id": 5481490355,
+  "lat": 33.1174367,
+  "lon": 73.6143114,
+  "tags": {
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 5753517335,
+  "lat": 33.1518690,
+  "lon": 73.7460453,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Sadat Colony Grave Yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 6787702775,
+  "lat": 33.1890755,
+  "lon": 73.1112886,
+  "tags": {
+    "addr:city": "Madari",
+    "addr:housenumber": "Madari Graveyard",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 7169937580,
+  "lat": 33.9263391,
+  "lon": 75.1159201,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Bazar Waeri",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 7169955242,
+  "lat": 34.0123943,
+  "lon": 74.9177498,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Dabbhor",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 7169985265,
+  "lat": 33.9281940,
+  "lon": 75.1168856,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Darne Mazar",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 7170035127,
+  "lat": 34.0137313,
+  "lon": 74.9159562,
+  "tags": {
+    "addr:city": "Pampore",
+    "addr:postcode": "192121",
+    "addr:street": "Namlaba",
+    "amenity": "grave_yard",
+    "name": "Dabbhor",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 7524759897,
+  "lat": 32.5664009,
+  "lon": 74.0834827,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Trenghan Wala Qabrastan"
+  }
+},
+{
+  "type": "node",
+  "id": 7525071701,
+  "lat": 32.5709368,
+  "lon": 74.0875858,
+  "tags": {
+    "cemetery": "grave",
+    "name": "Darbar Nangay Shah"
+  }
+},
+{
+  "type": "node",
+  "id": 7527544730,
+  "lat": 32.5770051,
+  "lon": 74.0818734,
+  "tags": {
+    "cemetery": "grave",
+    "name": "Dabar Mufti Ahmad Yar Khan Naeemi",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 7727505957,
+  "lat": 34.0439447,
+  "lon": 74.8721304,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Mahjoor Mausoleum"
+  }
+},
+{
+  "type": "node",
+  "id": 7743148569,
+  "lat": 34.0488448,
+  "lon": 74.8673866,
+  "tags": {
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 7743148570,
+  "lat": 34.0472214,
+  "lon": 74.8707810,
+  "tags": {
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 7743148573,
+  "lat": 34.0478954,
+  "lon": 74.8702448,
+  "tags": {
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 7810938993,
+  "lat": 34.1282352,
+  "lon": 74.8390438,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Graveyard"
+  }
+},
+{
+  "type": "node",
+  "id": 7951235245,
+  "lat": 34.1108444,
+  "lon": 74.8101090,
+  "tags": {
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 8138262420,
+  "lat": 34.1419944,
+  "lon": 74.8386166,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Muslim Graveyard"
+  }
+},
+{
+  "type": "node",
+  "id": 8551278118,
+  "lat": 34.0489663,
+  "lon": 73.8150304,
+  "tags": {
+    "addr:city": "BAGH",
+    "addr:housenumber": "KHAWAJA KHARRI THAAKI",
+    "addr:postcode": "12500",
+    "addr:street": "AL-JABBAR ROAD",
+    "amenity": "grave_yard",
+    "departures_board": "yes",
+    "email": "provost47cmp@gmail.com",
+    "grades": "1-10",
+    "name": "N Alam Graveyard",
+    "name:ur": "kashmiri",
+    "ref": "Al-jabbar stop 5",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 8551496589,
+  "lat": 34.0649561,
+  "lon": 73.8132982,
+  "tags": {
+    "addr:city": "BAGH",
+    "addr:housenumber": "AL-JABBAR Gravedard Nakka ziyarat bagh azad kashmir",
+    "addr:postcode": "12500",
+    "addr:street": "AL-JABBAR ROAD",
+    "amenity": "grave_yard",
+    "email": "PROVOST47CMP@GMAIL.COM",
+    "image": "https://www.google.com/maps/place/JABBAR+ALAM+HIKING+AREA/@34.0662481,73.814322,12a,25.6y/data=!3m8!1e2!3m6!1sAF1QipNJ9132QxvYhz-MyiL5TTAQKBX-FVPBXRxFMDzc!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNJ9132QxvYhz-MyiL5TTAQKBX-FVPBXRxFMDzc",
+    "name": "الجبار قبرستان",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 8639435585,
+  "lat": 33.9302235,
+  "lon": 75.1123486,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Jadli Mazar",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 8639446552,
+  "lat": 33.9294821,
+  "lon": 75.1104621,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Muslim Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9105772410,
+  "lat": 33.9293358,
+  "lon": 75.1099765,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Muslim Graveyard"
+  }
+},
+{
+  "type": "node",
+  "id": 9105773610,
+  "lat": 33.9269776,
+  "lon": 75.1126390,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Muslim Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9105809893,
+  "lat": 33.9271506,
+  "lon": 75.1134135,
+  "tags": {
+    "amenity": "grave_yard",
+    "name:en": "Molvi Mazar",
+    "name:ks": "مولوی مزار",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9145010012,
+  "lat": 34.1276909,
+  "lon": 74.8784418,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Muslim Graveyard Ishber"
+  }
+},
+{
+  "type": "node",
+  "id": 9145020698,
+  "lat": 34.0987950,
+  "lon": 74.8206089,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Graveyard Malkha"
+  }
+},
+{
+  "type": "node",
+  "id": 9150673225,
+  "lat": 34.1332434,
+  "lon": 74.8302648,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Graveyard Sadrabal"
+  }
+},
+{
+  "type": "node",
+  "id": 9271223762,
+  "lat": 33.9028352,
+  "lon": 75.0876793,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Graveyard"
+  }
+},
+{
+  "type": "node",
+  "id": 9290603438,
+  "lat": 33.9272641,
+  "lon": 75.1131123,
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9290605959,
+  "lat": 34.0195396,
+  "lon": 74.7980087,
+  "tags": {
+    "addr:street": "Old Airport Road, Rawalpora",
+    "amenity": "grave_yard",
+    "name": "Muslim Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9290628619,
+  "lat": 33.9017246,
+  "lon": 75.0415239,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Muslim Graveyard"
+  }
+},
+{
+  "type": "node",
+  "id": 9331288993,
+  "lat": 34.2154396,
+  "lon": 74.3888848,
+  "tags": {
+    "addr:street": "Kansipora",
+    "amenity": "grave_yard",
+    "name": "Muslim Graveyard"
+  }
+},
+{
+  "type": "node",
+  "id": 9407701874,
+  "lat": 33.1490353,
+  "lon": 73.7485685,
+  "tags": {
+    "historic": "memorial",
+    "name": "Chowk Shaheedan"
+  }
+},
+{
+  "type": "node",
+  "id": 9473969640,
+  "lat": 32.6853748,
+  "lon": 73.3502132,
+  "tags": {
+    "addr:city": "Chakri",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9473969670,
+  "lat": 32.6855535,
+  "lon": 73.3531032,
+  "tags": {
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 9500632975,
+  "lat": 32.7552609,
+  "lon": 73.9798759,
+  "tags": {
+    "addr:city": "Kharian",
+    "amenity": "grave_yard",
+    "name": "قبرستان",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9500665189,
+  "lat": 32.7557671,
+  "lon": 73.9799347,
+  "tags": {
+    "addr:city": "Kharian",
+    "amenity": "grave_yard",
+    "name": "جنازہ گاہ ہنج",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9500668017,
+  "lat": 32.7561277,
+  "lon": 73.9799720,
+  "tags": {
+    "addr:city": "Kharian",
+    "amenity": "grave_yard",
+    "name": "قبرستان",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9533815973,
+  "lat": 32.5708758,
+  "lon": 74.0861642,
+  "tags": {
+    "amenity": "grave_yard",
+    "name": "Shah graveyard"
+  }
+},
+{
+  "type": "node",
+  "id": 9569337597,
+  "lat": 33.9151055,
+  "lon": 75.1294832,
+  "tags": {
+    "addr:street": "Pinglish",
+    "amenity": "grave_yard",
+    "name": "Qabristan"
+  }
+},
+{
+  "type": "node",
+  "id": 9575277598,
+  "lat": 33.9279843,
+  "lon": 75.1152302,
+  "tags": {
+    "addr:city": "Tral",
+    "addr:postcode": "192123",
+    "addr:street": "Trag Mohalla",
+    "amenity": "grave_yard",
+    "name": "Qabristan",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9576910100,
+  "lat": 33.9355244,
+  "lon": 75.0992960,
+  "tags": {
+    "addr:street": "Arigam, Tral",
+    "amenity": "grave_yard",
+    "name": "Qabristan"
+  }
+},
+{
+  "type": "node",
+  "id": 9580800625,
+  "lat": 33.9011890,
+  "lon": 75.0426311,
+  "tags": {
+    "addr:street": "Dangerpora, Noorpora (B)",
+    "amenity": "grave_yard",
+    "name": "Qabristan"
+  }
+},
+{
+  "type": "node",
+  "id": 9610814395,
+  "lat": 34.1005072,
+  "lon": 74.8189537,
+  "tags": {
+    "addr:city": "srinagar",
+    "addr:postcode": "190003",
+    "addr:street": "Nowhatta Kathi Darwaza Road",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9610848677,
+  "lat": 34.0988889,
+  "lon": 74.8192158,
+  "tags": {
+    "addr:city": "srinagar",
+    "addr:postcode": "190003",
+    "addr:street": "Zinshah Masjid Nowhatt Road",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9612742091,
+  "lat": 33.9314656,
+  "lon": 75.1132218,
+  "tags": {
+    "addr:city": "Tral",
+    "addr:postcode": "192123",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9684636175,
+  "lat": 33.9666352,
+  "lon": 74.9618138,
+  "tags": {
+    "addr:city": "Lethpora",
+    "amenity": "grave_yard",
+    "name": "Reshi Ismail Maqbar",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9689866554,
+  "lat": 33.6858619,
+  "lon": 73.1048509,
+  "tags": {
+    "cemetery": "grave",
+    "name": "Graves"
+  }
+},
+{
+  "type": "node",
+  "id": 9717335240,
+  "lat": 33.9325905,
+  "lon": 75.1386754,
+  "tags": {
+    "addr:city": "Tral",
+    "addr:postcode": "192123",
+    "addr:street": "Nazneenpora",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9967759751,
+  "lat": 35.8673183,
+  "lon": 75.3363872,
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 10015003517,
+  "lat": 34.2832594,
+  "lon": 74.4657203,
+  "tags": {
+    "addr:street": "Sopore",
+    "amenity": "grave_yard",
+    "name": "Qabristan"
+  }
+},
+{
+  "type": "node",
+  "id": 10045549922,
+  "lat": 35.9050193,
+  "lon": 74.3504608,
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "ismaili_graveyard_jutial"
+  }
+},
+{
+  "type": "node",
+  "id": 10257840833,
+  "lat": 33.9256952,
+  "lon": 75.0094356,
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 10543742663,
+  "lat": 33.9199127,
+  "lon": 75.0721000,
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 10607449983,
+  "lat": 34.0346296,
+  "lon": 74.8195549,
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 10949218013,
+  "lat": 33.9249546,
+  "lon": 75.1134744,
+  "tags": {
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 10982910415,
+  "lat": 33.9229274,
+  "lon": 75.0909207,
+  "tags": {
+    "addr:city": "Tral",
+    "addr:postcode": "192123",
+    "addr:street": "Sherabad",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 11375048237,
+  "lat": 34.0769802,
+  "lon": 74.8337757,
+  "tags": {
+    "addr:street": "Buchwara, Dalgate, Srinagar",
+    "amenity": "grave_yard",
+    "name": "Malle Teng"
+  }
+},
+{
+  "type": "node",
+  "id": 11443006588,
+  "lat": 32.8379625,
+  "lon": 73.9507991,
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 11629809808,
+  "lat": 32.8203042,
+  "lon": 73.9616881,
+  "tags": {
+    "addr:street": "Way to Janaza Gah Bhagwal Eastern",
+    "amenity": "grave_yard",
+    "name": "مشرقی قبرستان بھگوال",
+    "name:en": "Mashriqi Qabristan Bhagwal",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 11795303822,
+  "lat": 34.0852042,
+  "lon": 74.8033561,
+  "tags": {
+    "addr:street": "Karfali Mohalla, Kani Kadal, Srinagar",
+    "amenity": "grave_yard",
+    "name": "Muslim Graveyard"
+  }
+},
+{
+  "type": "node",
+  "id": 12002015582,
+  "lat": 33.8897773,
+  "lon": 74.8968431,
+  "tags": {
+    "addr:street": "Srinagar Newa Road, Pulwama",
+    "amenity": "grave_yard",
+    "name": "Muslim Graveyard"
+  }
+},
+{
+  "type": "node",
+  "id": 12057542293,
+  "lat": 34.3564933,
+  "lon": 73.5060919,
+  "tags": {
+    "addr:city": "Muzaffarabad",
+    "addr:postcode": "13100",
+    "addr:street": "Abdul Shakoor Shaheed Link Road",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 12118527555,
+  "lat": 32.8437168,
+  "lon": 73.9653393,
+  "tags": {
+    "amenity": "grave_yard",
+    "name:en": "Jhantla Graveyard",
+    "name:ur": "جھانٹلہ قبرستان",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 12171144921,
+  "lat": 33.9149094,
+  "lon": 75.1287842,
+  "tags": {
+    "addr:street": "Pinglish Tral Road",
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 12171149814,
+  "lat": 33.9149094,
+  "lon": 75.1287842,
+  "tags": {
+    "addr:street": "Pinglish Tral road",
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 12229985605,
+  "lat": 33.6584920,
+  "lon": 73.0237594,
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 12402643101,
+  "lat": 33.7563650,
+  "lon": 73.0303100,
+  "tags": {
+    "amenity": "grave_yard"
+  }
+},
+{
+  "type": "node",
+  "id": 12481132508,
+  "lat": 34.4128474,
+  "lon": 73.6894414,
+  "tags": {
+    "amenity": "grave_yard",
+    "religion": "malik_graveyard"
+  }
+},
+{
+  "type": "node",
+  "id": 13004122475,
+  "lat": 33.9149154,
+  "lon": 75.1287703,
+  "tags": {
+    "addr:street": "Tral-Pinglish road",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 13004122476,
+  "lat": 33.9150523,
+  "lon": 75.1282676,
+  "tags": {
+    "addr:street": "Tral-Pinglish road",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 13004153480,
+  "lat": 33.9149154,
+  "lon": 75.1287703,
+  "tags": {
+    "addr:street": "Tral-Pinglish road",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 13004153481,
+  "lat": 33.9150523,
+  "lon": 75.1282676,
+  "tags": {
+    "addr:street": "Tral-Pinglish road",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 13082001555,
+  "lat": 33.8753653,
+  "lon": 74.8986420,
+  "tags": {
+    "addr:city": "Pulwama",
+    "addr:district": "Pulwama",
+    "addr:postcode": "192301",
+    "addr:street": "Dalipora",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 13082001558,
+  "lat": 33.8740027,
+  "lon": 74.9007989,
+  "tags": {
+    "addr:city": "Pulwama",
+    "addr:district": "Pulwama",
+    "addr:postcode": "192301",
+    "addr:street": "Malikpora Graveyard",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 13200791555,
+  "lat": 34.3483576,
+  "lon": 73.5025772,
+  "tags": {
+    "addr:city": "Muzaffarabad",
+    "addr:postcode": "13100",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 13308818831,
+  "lat": 32.3605314,
+  "lon": 73.1479999,
+  "tags": {
+    "addr:city": "Miana Gondali",
+    "amenity": "grave_yard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 8602188,
+  "nodes": [
+    61147387,
+    12162597235,
+    12162597234,
+    12162597238,
+    12162597237,
+    13043410058,
+    12162597236,
+    13043410057,
+    12162597239,
+    12162597240,
+    12162597241,
+    61147388,
+    12162597242,
+    12162597243,
+    12162597245,
+    12162597244,
+    12162597246,
+    12162597247,
+    12162597248,
+    12162597249,
+    12162597250,
+    12162597251,
+    12162597252,
+    12162597253,
+    12162597254,
+    12162597255,
+    12162597256,
+    61147390,
+    61147391,
+    248571277,
+    248571278,
+    61147387
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "اسلام آباد قبرستان",
+    "name:ar": "مقبرة إسلام آباد",
+    "name:en": "Islamabad Graveyard",
+    "name:ur": "اسلام آباد قبرستان",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 23130902,
+  "nodes": [
+    249754786,
+    249754787,
+    249754788,
+    249754790,
+    249754791,
+    249754792,
+    249754793,
+    249754794,
+    249754795,
+    249754796,
+    249754797,
+    249754798,
+    249754799,
+    249754800,
+    249754801,
+    249754802,
+    249754803,
+    249754804,
+    249754805,
+    249754807,
+    249754808,
+    249754809,
+    249754810,
+    249754811,
+    249754812,
+    249754813,
+    249754814,
+    249754815,
+    249754816,
+    249754786
+  ],
+  "tags": {
+    "denomination": "sunni",
+    "landuse": "cemetery",
+    "name": "Jadeed Qabristan",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 23130938,
+  "nodes": [
+    249755035,
+    2392753860,
+    7816667833,
+    249755036,
+    3602047590,
+    249755038,
+    249755039,
+    249755040,
+    248120974,
+    7780089331,
+    3694949191,
+    3694949190,
+    3694949189,
+    3694949188,
+    3694949187,
+    3694949186,
+    3694949180,
+    3694949181,
+    249755051,
+    249755052,
+    7816667832,
+    249755035
+  ],
+  "tags": {
+    "area": "yes",
+    "landuse": "cemetery",
+    "name": "Shah De Tahlian"
+  }
+},
+{
+  "type": "way",
+  "id": 23615476,
+  "nodes": [
+    255765274,
+    255765275,
+    255765276,
+    255765277,
+    255765278,
+    255765279,
+    255765280,
+    255765281,
+    255765282,
+    255765283,
+    255765284,
+    255765285,
+    255765286,
+    255765287,
+    255765288,
+    255765289,
+    255765290,
+    255765291,
+    255765292,
+    255765293,
+    255765294,
+    255765295,
+    255765296,
+    255765274
+  ],
+  "tags": {
+    "area": "yes",
+    "is_in": "Rawalpindi, Punjab, Pakistan",
+    "landuse": "cemetery",
+    "name": "Harley Street Cemetery (Gora Kabrastan)",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 25515135,
+  "nodes": [
+    278038420,
+    278038421,
+    278038423,
+    278038424,
+    278038425,
+    278038426,
+    278038427,
+    278038428,
+    278038429,
+    278038430,
+    278038431,
+    278038432,
+    278038433,
+    278038434,
+    278038435,
+    278038436,
+    278038437,
+    278038438,
+    278038439,
+    278038442,
+    278038444,
+    278038445,
+    278038446,
+    278038447,
+    278038448,
+    278038449,
+    278038450,
+    278038451,
+    278038452,
+    278038453,
+    278038454,
+    278038455,
+    278038457,
+    278038458,
+    278038460,
+    278038461,
+    278038463,
+    7779494019,
+    278038464,
+    278038465,
+    278038466,
+    278038467,
+    278038469,
+    278038470,
+    278038471,
+    278038472,
+    278038474,
+    278038475,
+    278038476,
+    278038477,
+    278038478,
+    278038479,
+    278038480,
+    278038481,
+    278038482,
+    278038483,
+    278038484,
+    278038485,
+    278038487,
+    278038488,
+    278038489,
+    278038490,
+    4416319719,
+    278038492,
+    278038493,
+    278038494,
+    4416319660,
+    4416319666,
+    4416319697,
+    278038420
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Pir Wadhai Cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 26398174,
+  "nodes": [
+    289196161,
+    289196162,
+    289196164,
+    289196165,
+    289197736,
+    289196167,
+    289197737,
+    3600026583,
+    289197739,
+    3602054693,
+    289197740,
+    289197741,
+    3602054698,
+    3602054699,
+    289196174,
+    289197742,
+    289197743,
+    289197744,
+    289197745,
+    289196184,
+    289197746,
+    289196189,
+    289196190,
+    289196192,
+    289196193,
+    289197747,
+    289196195,
+    289196197,
+    289196198,
+    289196199,
+    289197748,
+    289196201,
+    289197749,
+    289197750,
+    289197751,
+    289196161
+  ],
+  "tags": {
+    "area": "yes",
+    "landuse": "cemetery",
+    "name": "Qadeemi Kabaristan"
+  }
+},
+{
+  "type": "way",
+  "id": 26398321,
+  "nodes": [
+    289197631,
+    289197633,
+    289197635,
+    289197638,
+    289197640,
+    289197642,
+    289197644,
+    289197646,
+    289197648,
+    289197650,
+    289197653,
+    289197655,
+    289197656,
+    289197657,
+    289197658,
+    289197659,
+    289197660,
+    289197662,
+    289197663,
+    289197664,
+    289197665,
+    289197666,
+    289197667,
+    289197668,
+    289197669,
+    289197670,
+    289197671,
+    289197672,
+    289197673,
+    289197674,
+    289197675,
+    289197676,
+    289197677,
+    289197678,
+    289197679,
+    289197680,
+    289197681,
+    289197682,
+    289197683,
+    289197684,
+    289197685,
+    289197686,
+    289197687,
+    289197688,
+    289197689,
+    289197690,
+    289197691,
+    289197692,
+    289197693,
+    289197694,
+    289197695,
+    289197696,
+    289197697,
+    289197698,
+    289197699,
+    289197700,
+    289197701,
+    289197702,
+    289197703,
+    289197631
+  ],
+  "tags": {
+    "area": "yes",
+    "landuse": "cemetery",
+    "name": "Dhoke Khabba Graveyard"
+  }
+},
+{
+  "type": "way",
+  "id": 56300790,
+  "nodes": [
+    706297524,
+    706297526,
+    706297528,
+    706297530,
+    6366535591,
+    706297533,
+    706297524
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Rustum Colony Cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 81846358,
+  "nodes": [
+    954377979,
+    954378183,
+    954378463,
+    954377896,
+    954378589,
+    954378003,
+    954378035,
+    954378536,
+    954378122,
+    954378630,
+    954377843,
+    954378295,
+    954377935,
+    954378386,
+    954377852,
+    954378320,
+    954377957,
+    954378428,
+    954377642,
+    954378090,
+    954377743,
+    954378253,
+    954377691,
+    954378354,
+    954377804,
+    954378057,
+    954378139,
+    954378634,
+    954378207,
+    954377652,
+    954378327,
+    954377748,
+    954378018,
+    954378491,
+    954378096,
+    954378595,
+    954378643,
+    954378059,
+    954377699,
+    954378148,
+    954378556,
+    954377973,
+    954378456,
+    954377881,
+    954378573,
+    954377989,
+    954378233,
+    954377676,
+    954378348,
+    954377777,
+    954377820,
+    954378283,
+    954377913,
+    954378402,
+    954377845,
+    954377979
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "St. John in the Wilderness",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 186564422,
+  "nodes": [
+    1973011605,
+    1973011591,
+    1973011589,
+    1973011587,
+    1973011572,
+    1973011568,
+    1973011566,
+    1973011563,
+    1973011570,
+    1973011588,
+    1973011590,
+    1973011592,
+    1973011593,
+    1973011594,
+    1973011603,
+    1973011607,
+    1973011609,
+    1973011595,
+    1973011596,
+    1973011597,
+    1973011598,
+    1973011601,
+    1973011599,
+    1973011605
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "بڑا قبرستان",
+    "religion": "muslim",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 187716457,
+  "nodes": [
+    1983476895,
+    1983476867,
+    1983476849,
+    1983476828,
+    1983476757,
+    1983476731,
+    1983476645,
+    1983476622,
+    1983476599,
+    248117417,
+    1983476535,
+    1983476512,
+    1983476495,
+    1983476479,
+    1983476473,
+    1983476469,
+    1983476483,
+    1983476520,
+    1983476579,
+    1983476613,
+    1983476634,
+    1983476708,
+    1983476728,
+    1983476746,
+    1983476771,
+    1983476752,
+    1983476766,
+    1983476776,
+    1983476779,
+    1983476795,
+    1983476840,
+    1983476852,
+    1983476862,
+    1983476871,
+    1983476877,
+    1983476881,
+    1983476885,
+    1983476890,
+    1983476938,
+    1983476895
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "source": "bing"
+  }
+},
+{
+  "type": "way",
+  "id": 218805465,
+  "nodes": [
+    2280170594,
+    2280170574,
+    2280170576,
+    2280170570,
+    2280170572,
+    9905274033,
+    2280170566,
+    2280170561,
+    2280170544,
+    2280170548,
+    2280170540,
+    2280170542,
+    2280170546,
+    2280170550,
+    2280170552,
+    2280170554,
+    2280170564,
+    2280170562,
+    2280170557,
+    2280170559,
+    2280170568,
+    2280170580,
+    2280170578,
+    2280170585,
+    2280170589,
+    2280170592,
+    2280170610,
+    2280170618,
+    2280170606,
+    2280170612,
+    2280170638,
+    2280170636,
+    2280170655,
+    2280170672,
+    2280170647,
+    2280170623,
+    2280170630,
+    2280170632,
+    2280170651,
+    2280170657,
+    2280170653,
+    7817373511,
+    2280170667,
+    7817373512,
+    2280170687,
+    7817373513,
+    2280170705,
+    2280170716,
+    2280170719,
+    2280170718,
+    2280170715,
+    2280170713,
+    2280170706,
+    2280170707,
+    2280170714,
+    2280170709,
+    2280170711,
+    2280170708,
+    2280170703,
+    2280170701,
+    2280170697,
+    2280170693,
+    2280170676,
+    2280170642,
+    2280170619,
+    2280170596,
+    2280170594
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "source": "bing"
+  }
+},
+{
+  "type": "way",
+  "id": 218813162,
+  "nodes": [
+    2280225979,
+    2280225987,
+    2280225983,
+    2280225992,
+    2280225994,
+    2280225990,
+    2280225989,
+    2280225981,
+    2280225985,
+    2280225977,
+    2280225972,
+    2280225966,
+    2280225970,
+    2280225976,
+    2280225979
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 218813164,
+  "nodes": [
+    2280225953,
+    2280225952,
+    2280225951,
+    2280225949,
+    2280225950,
+    2280225954,
+    2280225955,
+    2280225963,
+    2280225964,
+    2280225974,
+    2280225968,
+    2280225961,
+    2280225959,
+    2280225957,
+    2280225956,
+    2280225953
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 238749558,
+  "nodes": [
+    2465490341,
+    2465490342,
+    2465490343,
+    2465490344,
+    2465490345,
+    2465490346,
+    2465490347,
+    2465490348,
+    2465490349,
+    2465490350,
+    2465490351,
+    2465490352,
+    2465490353,
+    2465490354,
+    2465490355,
+    2465490356,
+    2465490357,
+    2465490358,
+    2465490359,
+    2465490341
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 253298992,
+  "nodes": [
+    2592468846,
+    2592468847,
+    2592468848,
+    2592468849,
+    2592468850,
+    2592468851,
+    2592468852,
+    2592468853,
+    2592468846
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Choglamsar Cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 260459891,
+  "nodes": [
+    2659442502,
+    2659442503,
+    2659442504,
+    2659442505,
+    2659442502
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 262422525,
+  "nodes": [
+    2680844198,
+    2680844199,
+    2680844200,
+    2680844201,
+    2680844202,
+    2680844203,
+    2680844204,
+    2680844205,
+    2680844206,
+    2680844207,
+    2680844208,
+    2680844209,
+    2680844220,
+    2680844210,
+    2680844211,
+    2680844212,
+    2680844213,
+    2680844214,
+    2680844215,
+    2680844216,
+    2680844217,
+    2680844218,
+    2680844219,
+    2680844198
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Graveyard Bhattianwala",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 263268600,
+  "nodes": [
+    2688865625,
+    2688865617,
+    2688865609,
+    2688865602,
+    2688865597,
+    2688865600,
+    2688865604,
+    2688865613,
+    2688865618,
+    2688865621,
+    2688865625
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Qabaristan",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 263412809,
+  "nodes": [
+    2690229911,
+    2690229901,
+    2690229899,
+    2690229895,
+    2690229893,
+    2690229889,
+    2690229884,
+    2690229880,
+    2690229878,
+    2690229882,
+    2690229886,
+    2690229888,
+    2690229891,
+    2690229897,
+    2690229903,
+    2690229907,
+    2690229905,
+    2690229909,
+    2690229911
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Cemetery Kabirstan",
+    "religion": "muslim",
+    "source": "bing, Wikimapia"
+  }
+},
+{
+  "type": "way",
+  "id": 263412810,
+  "nodes": [
+    2690231092,
+    2690231078,
+    2690231076,
+    2690231068,
+    2690231065,
+    2690231074,
+    2690231082,
+    2690231097,
+    2690231099,
+    2690231090,
+    2690231086,
+    2690231088,
+    2690231092
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Cemetery Karmang Bala",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 263412861,
+  "nodes": [
+    2690230725,
+    2690230739,
+    2690230754,
+    2690230774,
+    2690230802,
+    2690230823,
+    2690230834,
+    2690230844,
+    2690230850,
+    2690230841,
+    2690230810,
+    2690230800,
+    2690230793,
+    2690230786,
+    2690230784,
+    2690230770,
+    2690230752,
+    2690230725
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim",
+    "source": "bing, Wikimapia"
+  }
+},
+{
+  "type": "way",
+  "id": 287303462,
+  "nodes": [
+    2909213112,
+    2909213113,
+    2909213114,
+    2909213115,
+    2909213116,
+    2909213117,
+    2909213118,
+    2909213119,
+    2909213120,
+    6053936648,
+    6053936649,
+    2909213122,
+    2909213123,
+    2909213124,
+    2909213125,
+    2909213126,
+    2909213127,
+    2909213128,
+    2909213129,
+    2909213130,
+    2909213131,
+    2909213132,
+    2909213133,
+    2909213134,
+    2909213135,
+    2909213136,
+    2909213112
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 287305972,
+  "nodes": [
+    2909255689,
+    2909255690,
+    2909255691,
+    2909255692,
+    2909255693,
+    2909255694,
+    2909255695,
+    2909255696,
+    2909255697,
+    2909255689
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Mashriqi Qadeemi Qabrastan"
+  }
+},
+{
+  "type": "way",
+  "id": 287517971,
+  "nodes": [
+    2911299389,
+    2911299390,
+    2911299391,
+    2911299392,
+    2911299393,
+    2911299389
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "قبرستان",
+    "name:ur": "قبرستان"
+  }
+},
+{
+  "type": "way",
+  "id": 288386520,
+  "nodes": [
+    2919440902,
+    2919440903,
+    2919440901,
+    2919440900,
+    2919440902
+  ],
+  "tags": {
+    "historic": "memorial",
+    "landuse": "cemetery",
+    "memorial": "war_memorial",
+    "name": "康西瓦烈士陵园",
+    "name:en": "Kangxiwar Martyrs Cemetery",
+    "name:zh": "康西瓦烈士陵园",
+    "name:zh-Latn-pinyin": "Kāng xī wǎ lièshì língyuán"
+  }
+},
+{
+  "type": "way",
+  "id": 295127534,
+  "nodes": [
+    2988129456,
+    2988129448,
+    2988129439,
+    2988129437,
+    2988129445,
+    2988129456
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "中巴公路中国烈士陵园",
+    "park": "chinese memoraal park"
+  }
+},
+{
+  "type": "way",
+  "id": 334164504,
+  "nodes": [
+    3412532952,
+    3412532955,
+    3412532956,
+    9719840412,
+    9719840415,
+    9719840413,
+    9719840414,
+    3412532958,
+    3412532959,
+    3412532949,
+    3412532952
+  ],
+  "tags": {
+    "denomination": "sunni",
+    "landuse": "cemetery",
+    "name": "Karbala Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 365514069,
+  "nodes": [
+    3695177524,
+    3695183025,
+    3695183026,
+    3695183027,
+    3695183028,
+    3695183029,
+    3695183030,
+    3695183031,
+    3695183032,
+    3695183033,
+    3695183034,
+    3695183035,
+    3695183036,
+    3695183037,
+    3695183038,
+    3695183039,
+    3695177524
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Babul Shaheed Qabristan",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 365514073,
+  "nodes": [
+    3695183048,
+    3695183049,
+    3695183050,
+    3695183051,
+    7550166976,
+    3695183052,
+    7550166974,
+    7550166962,
+    3695183053,
+    3695183054,
+    7550166992,
+    3695183055,
+    3695183056,
+    3695183057,
+    3695183058,
+    3695183059,
+    3695183060,
+    3695183061,
+    3695183048
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Grave Yard"
+  }
+},
+{
+  "type": "way",
+  "id": 365527490,
+  "nodes": [
+    3695299818,
+    3695299817,
+    3695299820,
+    3695299821,
+    3695299822,
+    8379241868,
+    8379241869,
+    3695299818
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 365532894,
+  "nodes": [
+    3695350661,
+    3695350662,
+    3695350663,
+    3695350664,
+    3695350665,
+    3695350666,
+    3695350667,
+    3695350668,
+    3695350661
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Grave Yard"
+  }
+},
+{
+  "type": "way",
+  "id": 366070633,
+  "nodes": [
+    3700596804,
+    3700596805,
+    3700596806,
+    3700596807,
+    3700596808,
+    3700596809,
+    3700596810,
+    3700596811,
+    3700596812,
+    3700596813,
+    3700596814,
+    3700596815,
+    3700596816,
+    3700596817,
+    3700596818,
+    3700596819,
+    3700596820,
+    3700596804
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Muzaffar Pura Grave Yard"
+  }
+},
+{
+  "type": "way",
+  "id": 366070641,
+  "nodes": [
+    3700596843,
+    3700596844,
+    3700596845,
+    3700596846,
+    3700596847,
+    3700596848,
+    3700596849,
+    3700596850,
+    3700596851,
+    3700596852,
+    3700596853,
+    3700596843
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Peer Harah Grave Yard"
+  }
+},
+{
+  "type": "way",
+  "id": 366076001,
+  "nodes": [
+    3700650380,
+    3700650381,
+    3700650382,
+    3700650383,
+    3700650384,
+    3700650385,
+    3700650380
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 366076022,
+  "nodes": [
+    3700650464,
+    3700650465,
+    3700650466,
+    3700650467,
+    3700650468,
+    3700650469,
+    3700650470,
+    3700650471,
+    3700650472,
+    3700650473,
+    3700650474,
+    3700650475,
+    3700650476,
+    3700650477,
+    3700650478,
+    3700650464
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 366076045,
+  "nodes": [
+    3700650803,
+    3700650804,
+    3700650805,
+    3700650806,
+    3700650803
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 366080328,
+  "nodes": [
+    3700693962,
+    3707496428,
+    3707496427,
+    3700693963,
+    3700693964,
+    3700693965,
+    3700693966,
+    3700693967,
+    3707514828,
+    3707514829,
+    3707514831,
+    3707514832,
+    3707514833,
+    3707514834,
+    3707514835,
+    3707544342,
+    3700693962
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 366087911,
+  "nodes": [
+    3700759116,
+    3700759117,
+    3700759118,
+    3700694037,
+    3700759119,
+    3700759120,
+    3700759121,
+    3700759122,
+    3700759123,
+    3700759124,
+    3700762225,
+    3700759116
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 366132446,
+  "nodes": [
+    3701219759,
+    3701219760,
+    3701219761,
+    3701219762,
+    3701219763,
+    3701219764,
+    3701219765,
+    3701219766,
+    3701219767,
+    3701219768,
+    3701219769,
+    3701219770,
+    3701219771,
+    3701219772,
+    3701219773,
+    3701219774,
+    3701219775,
+    3701219759
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 366132447,
+  "nodes": [
+    3701219776,
+    3701219777,
+    3701219778,
+    3701219779,
+    3701219780,
+    3701219781,
+    3701219782,
+    3701219776
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 366239349,
+  "nodes": [
+    3702223567,
+    3702223568,
+    3702223569,
+    3702223570,
+    3702223571,
+    3702223572,
+    3702223573,
+    3702223574,
+    3702223575,
+    3702223576,
+    3702223567
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 366244688,
+  "nodes": [
+    3702253731,
+    3702253732,
+    3702253733,
+    3702253734,
+    3702253735,
+    3702253736,
+    3702253737,
+    3702253731
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 366297784,
+  "nodes": [
+    3702733247,
+    3702733248,
+    3702733249,
+    3702733250,
+    3702733251,
+    3702733247
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Shatab Garh Grave Yard"
+  }
+},
+{
+  "type": "way",
+  "id": 366301630,
+  "nodes": [
+    3702771180,
+    3694676453,
+    3694676454,
+    3702771183,
+    3702771184,
+    3702771185,
+    8379180791,
+    3702771186,
+    3702771187,
+    3702771188,
+    3702771180
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 366301631,
+  "nodes": [
+    3702771189,
+    3702771190,
+    3702771191,
+    3702771192,
+    8379122015,
+    6277355488,
+    8379122016,
+    3702771193,
+    3702771194,
+    3702771195,
+    3702771196,
+    8379126820,
+    3702771197,
+    8379126822,
+    8379126819,
+    8379126818,
+    8379126817,
+    3702771199,
+    3702771200,
+    3702771201,
+    8379122014,
+    3702771189
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Allama Abdul Hakeem Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 366497522,
+  "nodes": [
+    3704762900,
+    3704762901,
+    3704762902,
+    8380505436,
+    3704762903,
+    3704762904,
+    3704762905,
+    3704762906,
+    3704762907,
+    3704762908,
+    3704762909,
+    3264109261,
+    3264105027,
+    3264104976,
+    3704762913,
+    3704762900
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Shahi Badshahi Qabristan",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 366527855,
+  "nodes": [
+    3705176003,
+    3705176004,
+    3705176005,
+    3705176006,
+    3705176007,
+    3705176008,
+    3707544395,
+    3705176009,
+    3705176010,
+    3705176011,
+    3705176012,
+    3705176013,
+    3705176014,
+    7550172168,
+    3686456883,
+    3705176003
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Shah Mongan Wali Qabristan",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 366615480,
+  "nodes": [
+    3706017576,
+    3706017572,
+    3706017573,
+    3706017574,
+    3706017577,
+    3706017578,
+    3706017579,
+    3706017580,
+    3706017581,
+    3706017582,
+    3706017576
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 368466686,
+  "nodes": [
+    3723155122,
+    3723155123,
+    3723155124,
+    3723210925,
+    3723210926,
+    3723210927,
+    3723155122
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 368559246,
+  "nodes": [
+    3724165048,
+    3724165049,
+    3724165050,
+    3724165051,
+    3724165052,
+    3724165053,
+    3724165054,
+    3724165055,
+    3724165056,
+    3724165057,
+    3724165058,
+    3724165059,
+    3724165048
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 368559340,
+  "nodes": [
+    3724165294,
+    3724165295,
+    3724165296,
+    3724165297,
+    3724165298,
+    3724165299,
+    3724165294
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 368577485,
+  "nodes": [
+    3724312304,
+    3724312305,
+    3724312306,
+    3724312307,
+    3724312308,
+    3724312309,
+    3724312310,
+    3724312311,
+    3724312312,
+    3724312313,
+    3724312314,
+    3724312315,
+    3724312316,
+    3724312317,
+    3724312318,
+    3724312319,
+    3724312320,
+    3724312321,
+    3724312304
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 369952417,
+  "nodes": [
+    3736878044,
+    3736878045,
+    3736878046,
+    3736878047,
+    3736878048,
+    3736878049,
+    3736878050,
+    3736878051,
+    3736878052,
+    3736878053,
+    3736878054,
+    3736878044
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 371999631,
+  "nodes": [
+    3755392652,
+    3755392653,
+    3755392654,
+    3755392655,
+    3755392656,
+    3755392657,
+    3755392658,
+    3755392659,
+    3755392660,
+    3755392661,
+    3755392662,
+    3755392663,
+    3755392664,
+    3755392665,
+    3755392666,
+    3755392667,
+    3755392668,
+    3755392669,
+    3755392670,
+    3755392652
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 375641305,
+  "nodes": [
+    3789926247,
+    3789926248,
+    3789926255,
+    3789926249,
+    3789926250,
+    3789926251,
+    3789926252,
+    3789926253,
+    3789926254,
+    3789926247
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Sheikhan Wala Qabrastan شیخاں والا قبرستان",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 492309262,
+  "nodes": [
+    4843481510,
+    4843481511,
+    4843481512,
+    4843481513,
+    4843481510
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 498929131,
+  "nodes": [
+    4902664056,
+    4902664057,
+    4902664058,
+    4902664059,
+    4902664060,
+    4902664061,
+    4902664062,
+    4902664063,
+    4902664064,
+    4902664056
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 498929149,
+  "nodes": [
+    4902664264,
+    4902664265,
+    4902664266,
+    4902664267,
+    4902664268,
+    4902664269,
+    4902664270,
+    4902664271,
+    4902664272,
+    4902664273,
+    4902664274,
+    4902664264
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 498929168,
+  "nodes": [
+    4902664728,
+    4902664729,
+    6321922206,
+    6321922207,
+    4902664730,
+    4902664731,
+    4902664728
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 498929169,
+  "nodes": [
+    4902664732,
+    4902664733,
+    4902664734,
+    4902664735,
+    4902664736,
+    4902664732
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 498929175,
+  "nodes": [
+    4902664933,
+    4902664934,
+    10578598933,
+    10578598932,
+    10578598931,
+    10578598930,
+    4902664935,
+    4902664936,
+    4902664933
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 498929176,
+  "nodes": [
+    4902664937,
+    10578598924,
+    10578598925,
+    10578598926,
+    4902664938,
+    10578598927,
+    10578598929,
+    10578598928,
+    4902664939,
+    4902664940,
+    4902664937
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 508429443,
+  "nodes": [
+    4977357360,
+    4977357361,
+    4977357362,
+    4977357363,
+    4977357364,
+    4977357360
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Model Town Graveyard"
+  }
+},
+{
+  "type": "way",
+  "id": 532143518,
+  "nodes": [
+    5164534357,
+    5164534358,
+    5164534359,
+    5164534360,
+    5164534361,
+    5164534357
+  ],
+  "tags": {
+    "denomination": "ismaili",
+    "description": "Zulfiqarabad, Karim Town, Price town Common graveyard",
+    "landuse": "cemetery",
+    "name": "Zufiqarabad Qabristan",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 633829832,
+  "nodes": [
+    5982649232,
+    5982649233,
+    5982649234,
+    7785904494,
+    7785904496,
+    5982649235,
+    5982649236,
+    5982649237,
+    5982649238,
+    5982649239,
+    5982649240,
+    5982649241,
+    5982649242,
+    7785904488,
+    7785888683,
+    5982649243,
+    5982649244,
+    7785895283,
+    5982649245,
+    5982649246,
+    5982649247,
+    5982649248,
+    5982649249,
+    5982649250,
+    5982649251,
+    5982649252,
+    7100733808,
+    7785904899,
+    5982649253,
+    7785904902,
+    5982649254,
+    5982649255,
+    5982649256,
+    5982649257,
+    5982649258,
+    5982649259,
+    5982649260,
+    5982649261,
+    5982649262,
+    5982649263,
+    5982649264,
+    5982649232
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "عیدگاہ شریف قبرستان",
+    "name:en": "Eidgah Sharif Qabristan",
+    "name:ur": "عیدگاہ شریف قبرستان"
+  }
+},
+{
+  "type": "way",
+  "id": 687969409,
+  "nodes": [
+    6449757172,
+    6449757173,
+    6449757174,
+    6449757175,
+    6449757176,
+    6449757177,
+    6449757178,
+    6449757179,
+    6449757172
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Ali Town Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 722409643,
+  "nodes": [
+    6776288806,
+    6776288807,
+    6776288808,
+    6776288809,
+    6776288810,
+    6776288811,
+    6776288812,
+    6776288806
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 732347446,
+  "nodes": [
+    6857745033,
+    6857778795,
+    6857745034,
+    6857745035,
+    6857745036,
+    6857745037,
+    6857745038,
+    6857745033
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 755037693,
+  "nodes": [
+    7053240509,
+    7053240508,
+    7053240499,
+    7053240507,
+    7053240506,
+    7053240505,
+    7053240504,
+    7053240503,
+    7053240502,
+    7053240501,
+    7053240500,
+    7053240509
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Cemetery Sayedan",
+    "name:fa": "قبرستان سیداں"
+  }
+},
+{
+  "type": "way",
+  "id": 755696809,
+  "nodes": [
+    7058555596,
+    7058555601,
+    10153237039,
+    7058555600,
+    13453010484,
+    7058555599,
+    13453010485,
+    7058555597,
+    13453010483,
+    13453010482,
+    7058555596
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 765402852,
+  "nodes": [
+    7148750911,
+    7148750912,
+    7148750913,
+    7148750914,
+    7148750915,
+    7148750916,
+    7148750917,
+    7148750918,
+    7148750919,
+    7148750920,
+    7148750921,
+    7148750911
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Khokhran wala Qabristan",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 765402859,
+  "nodes": [
+    7148750969,
+    7148750970,
+    7148750971,
+    7148750972,
+    7148750973,
+    7148750974,
+    7148750975,
+    3755547748,
+    7148750969
+  ],
+  "tags": {
+    "addr:city": "پسرور",
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 778655375,
+  "nodes": [
+    7267407061,
+    7267407062,
+    7267407063,
+    7267407064,
+    7267407065,
+    7267407066,
+    7267407067,
+    7267407068,
+    7267407069,
+    7267407070,
+    7267407071,
+    7267407072,
+    7267407073,
+    7267407074,
+    7267407075,
+    7267407076,
+    7267407077,
+    7267407078,
+    7267407079,
+    7267407080,
+    7267407081,
+    7267407082,
+    7267407083,
+    7267407084,
+    7267413685,
+    7267413686,
+    7267413687,
+    7267413688,
+    7267413689,
+    7267413690,
+    7267413691,
+    7267413692,
+    7267407061
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 778655376,
+  "nodes": [
+    7267413693,
+    7267413694,
+    7267413695,
+    7267413696,
+    7267413697,
+    7267413698,
+    7267413699,
+    7267413700,
+    7267413701,
+    7267413702,
+    7267413703,
+    7267413704,
+    7267413705,
+    7267413706,
+    7267413707,
+    7267413708,
+    7267413709,
+    7267413710,
+    7267413711,
+    7267413712,
+    7267413713,
+    7267413714,
+    7267413715,
+    7267413716,
+    7267413717,
+    7267413718,
+    7267413719,
+    7267413720,
+    7267413721,
+    7267413722,
+    7267413723,
+    7267413724,
+    7267413725,
+    7267413726,
+    7267413727,
+    7267413728,
+    7267413729,
+    7267413730,
+    7267413731,
+    7267413732,
+    7267413733,
+    7267413734,
+    7267413735,
+    7267413736,
+    7267413693
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Dhoke Mangtal Cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 778655377,
+  "nodes": [
+    7267413737,
+    7267413738,
+    7267413739,
+    7267413740,
+    7267413741,
+    7267413742,
+    7267413743,
+    7267413744,
+    7267413745,
+    7267413746,
+    7267413747,
+    7267413748,
+    7267413749,
+    7267413737
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781083825,
+  "nodes": [
+    7292892016,
+    7292892017,
+    10780779210,
+    10780779209,
+    10780779211,
+    10780779212,
+    10780779208,
+    10780779213,
+    10780779214,
+    7292892018,
+    7292892019,
+    7292892016
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "H-9 Graveyard"
+  }
+},
+{
+  "type": "way",
+  "id": 781522954,
+  "nodes": [
+    7296624589,
+    7296624590,
+    7296624591,
+    7296624592,
+    7296624593,
+    7296624594,
+    7296624595,
+    7296624596,
+    7296624597,
+    7296624598,
+    7296624589
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781522955,
+  "nodes": [
+    7296624599,
+    7296624600,
+    7296624601,
+    7296624602,
+    7296624603,
+    7296624604,
+    7296624605,
+    7296624606,
+    7296624607,
+    7296624608,
+    7296624609,
+    7296624610,
+    7296624599
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781522956,
+  "nodes": [
+    7296624611,
+    7296624612,
+    7296624613,
+    7296624614,
+    7780120116,
+    7296624615,
+    7296624616,
+    7296624617,
+    7296624618,
+    7296624619,
+    7296624620,
+    7296624621,
+    7296624622,
+    7780120063,
+    7296624623,
+    7296624624,
+    7296624625,
+    7296624626,
+    7296624627,
+    7296624611
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781522957,
+  "nodes": [
+    7296624628,
+    7296624629,
+    7296624630,
+    7296624631,
+    7296624632,
+    7296624633,
+    7296624634,
+    7296624635,
+    7296624636,
+    7296624637,
+    7296624638,
+    7296624639,
+    7296624640,
+    7296624641,
+    7296624642,
+    7296624628
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781522958,
+  "nodes": [
+    7296624643,
+    7296624644,
+    7296624645,
+    7296624646,
+    7296624647,
+    7296624643
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781522959,
+  "nodes": [
+    7296624648,
+    7296624649,
+    7296624650,
+    7296624648
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781522960,
+  "nodes": [
+    7296624651,
+    7296624652,
+    7296624653,
+    7296624654,
+    7296624655,
+    7296624656,
+    7296624657,
+    7296624658,
+    7296624659,
+    7296624660,
+    7783612643,
+    7296624661,
+    7296624651
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781522961,
+  "nodes": [
+    7296624662,
+    7296624663,
+    7296624664,
+    7296624662
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781522965,
+  "nodes": [
+    7296624677,
+    7296624678,
+    7296624679,
+    7296624680,
+    7296624677
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781522966,
+  "nodes": [
+    7296624681,
+    5849472991,
+    7296624682,
+    7296624683,
+    7296624681
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781522967,
+  "nodes": [
+    7296624684,
+    5849473030,
+    7296624685,
+    7296624686,
+    7296624687,
+    7296624688,
+    7296624684
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781522968,
+  "nodes": [
+    7296624689,
+    7296624690,
+    7296624691,
+    7296624692,
+    7296624693,
+    7296624694,
+    7296624695,
+    7296624696,
+    7296624697,
+    7296624698,
+    7296624689
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525915,
+  "nodes": [
+    7296631444,
+    7296631445,
+    7296631446,
+    7296631447,
+    7296631448,
+    7296631449,
+    7296631450,
+    7296631444
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525916,
+  "nodes": [
+    7296631451,
+    7296631452,
+    7296631453,
+    7296631454,
+    7296631455,
+    7296631456,
+    7296631457,
+    7296631458,
+    7296631459,
+    7296631460,
+    7296631461,
+    7296631462,
+    7296631451
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525917,
+  "nodes": [
+    7296631463,
+    7296631464,
+    7296631465,
+    7296631466,
+    7296631467,
+    7296631468,
+    7296631469,
+    7296631470,
+    7296631471,
+    7296631472,
+    7296631473,
+    7296631474,
+    7296631475,
+    7296631463
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525918,
+  "nodes": [
+    7296631476,
+    7296631477,
+    7296631478,
+    7296631479,
+    7296631480,
+    7296631481,
+    7296631482,
+    7296631483,
+    7296631484,
+    7296645085,
+    7296645086,
+    7296645087,
+    7296645088,
+    7296645089,
+    7296631476
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525919,
+  "nodes": [
+    7296645090,
+    7296645091,
+    7296645092,
+    7296645093,
+    7296645094,
+    4949112958,
+    7296645095,
+    7296645096,
+    7296645097,
+    7296645098,
+    7296645099,
+    7296645100,
+    7296645101,
+    7296645102,
+    7296645103,
+    7296645104,
+    7296645105,
+    7296645106,
+    7296645090
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525920,
+  "nodes": [
+    7296645107,
+    7296645108,
+    7296645109,
+    7296645110,
+    7296645111,
+    7296645112,
+    7296645113,
+    7296645114,
+    7296645115,
+    7296645116,
+    7296645117,
+    7296645118,
+    7296645119,
+    7296645107
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525921,
+  "nodes": [
+    7296645120,
+    7296645121,
+    7296645122,
+    7296645123,
+    7296645124,
+    7296645125,
+    7296645126,
+    7296645120
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525922,
+  "nodes": [
+    7296645127,
+    7296645128,
+    7296645129,
+    7296645130,
+    7296645131,
+    7296645132,
+    7296645133,
+    7296645134,
+    7296645135,
+    7296645136,
+    7296645137,
+    7296645138,
+    7296645139,
+    7296645140,
+    7296645141,
+    7296645142,
+    7296645127
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525923,
+  "nodes": [
+    7296645143,
+    7296645144,
+    7296645145,
+    7296645146,
+    7296645147,
+    7296645148,
+    7296645149,
+    7296645150,
+    7296645151,
+    7296645152,
+    7296645153,
+    7296645154,
+    7296645155,
+    7296645156,
+    7296645157,
+    7296645158,
+    7296645159,
+    7296645160,
+    7296645161,
+    7296645143
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525924,
+  "nodes": [
+    7296645162,
+    7296645163,
+    7296645164,
+    7296645165,
+    7296645166,
+    7296645167,
+    7296645168,
+    7296645169,
+    7296645170,
+    7296645171,
+    7296645172,
+    7296645162
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525925,
+  "nodes": [
+    7296645173,
+    7296645174,
+    7296645175,
+    7296645176,
+    7296645177,
+    7296645178,
+    7296645173
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525926,
+  "nodes": [
+    7296645179,
+    7296645180,
+    7296645181,
+    7296645182,
+    6122404834,
+    7296645183,
+    7296645179
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525927,
+  "nodes": [
+    7296645184,
+    7296645185,
+    7296645186,
+    7296645187,
+    7296645188,
+    7296645189,
+    7296645184
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781525928,
+  "nodes": [
+    7296645190,
+    7296645191,
+    7296645192,
+    7296645193,
+    7296645194,
+    7296645195,
+    7296645190
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 781529043,
+  "nodes": [
+    7296644995,
+    7296644996,
+    7296644997,
+    7296644998,
+    2013343716,
+    7296644999,
+    7296644995
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 788653005,
+  "nodes": [
+    7373329958,
+    7373329959,
+    7373329960,
+    7373329961,
+    7373329962,
+    7373329963,
+    7373329964,
+    7373329965,
+    7373329966,
+    7373329967,
+    7373329968,
+    7373329969,
+    7373329970,
+    7373329971,
+    7373329972,
+    7373329973,
+    7373329958
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 788653014,
+  "nodes": [
+    7373330042,
+    7373330043,
+    7373330044,
+    7373330045,
+    7373330046,
+    7373330047,
+    7373330048,
+    7373330049,
+    7373330050,
+    7373330051,
+    7373330042
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 788653015,
+  "nodes": [
+    7373330052,
+    7373330053,
+    7373330054,
+    7373330055,
+    7373330056,
+    7373330057,
+    7373330058,
+    7373330059,
+    7373330060,
+    7373330061,
+    7373330062,
+    7373330063,
+    7373330064,
+    7373330065,
+    7373330066,
+    7373330067,
+    7373330068,
+    7373330052
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 788653016,
+  "nodes": [
+    7373330069,
+    7373330070,
+    7373330071,
+    7373330072,
+    7373330073,
+    7373330074,
+    7373330075,
+    7373330076,
+    7373330077,
+    7373330078,
+    7373330069
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 788653017,
+  "nodes": [
+    7373330079,
+    7373330080,
+    7373330081,
+    7373330082,
+    7373330083,
+    7373330084,
+    7373330079
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 788653018,
+  "nodes": [
+    7373330085,
+    7373330086,
+    7373330087,
+    7373330088,
+    7373330089,
+    7373330090,
+    7373330091,
+    7373330092,
+    7373330093,
+    7373330094,
+    7373330095,
+    7373330085
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Chaklala Scheme 3 Cemetary"
+  }
+},
+{
+  "type": "way",
+  "id": 788653019,
+  "nodes": [
+    7373330096,
+    7373330097,
+    7373330098,
+    7373330099,
+    7373330100,
+    7373330101,
+    7373330102,
+    7373330103,
+    7373330104,
+    7373330096
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 788653023,
+  "nodes": [
+    7373330122,
+    7373330123,
+    7373330124,
+    7373330125,
+    7373330126,
+    7373330127,
+    7373330128,
+    7373330129,
+    7373330130,
+    7373330131,
+    7373330132,
+    7373330133,
+    7373330134,
+    7373330135,
+    7373330136,
+    7373330137,
+    7373330138,
+    7373330139,
+    7373330140,
+    7373330122
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Kamalabad Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 788653024,
+  "nodes": [
+    7373330141,
+    7373330142,
+    7373330143,
+    7373330144,
+    7373330141
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 788653026,
+  "nodes": [
+    7373330156,
+    7373330157,
+    7373330158,
+    7373330159,
+    7373330160,
+    7373330161,
+    7373330162,
+    7373330163,
+    7373330164,
+    7373330156
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Bakra Mandi Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 788653028,
+  "nodes": [
+    7373330177,
+    7373330178,
+    7373330179,
+    7373330180,
+    7373330181,
+    7373330182,
+    7373330183,
+    7373330184,
+    7373330185,
+    7373330177
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 792160473,
+  "nodes": [
+    7405830211,
+    7405830212,
+    7405830213,
+    7405830214,
+    7405830211
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 803798613,
+  "nodes": [
+    7518845650,
+    7518845651,
+    7518845652,
+    7518845653,
+    7518845654,
+    7518845655,
+    7518845656,
+    7518845613,
+    7518845657,
+    7518845670,
+    7518845658,
+    7518845659,
+    7518845609,
+    7518845608,
+    7518845660,
+    7518845661,
+    7518845668,
+    7518845669,
+    7518845667,
+    7518845662,
+    7518845666,
+    7518845665,
+    7577143726,
+    7577143727,
+    7577143728,
+    7577143725,
+    7577143724,
+    7577143718,
+    7518845650
+  ],
+  "tags": {
+    "denomination": "sunni",
+    "landuse": "cemetery",
+    "name": "Shah Haliq Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 803800788,
+  "nodes": [
+    7518865138,
+    7518865139,
+    7518865140,
+    7518865141,
+    7518865142,
+    7518865143,
+    7518865144,
+    7518845621,
+    7518845620,
+    4496330296,
+    7518845603,
+    7518865138
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Graveyard Araian",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 804366424,
+  "nodes": [
+    7523689889,
+    7523649952,
+    7523649953,
+    7523649954,
+    7523649955,
+    7523649956,
+    7523649957,
+    7523649958,
+    7523649959,
+    7523649960,
+    7523649961,
+    7523649962,
+    7523649963,
+    7523649964,
+    7523649965,
+    7523649966,
+    7523649967,
+    7523649968,
+    7523649969,
+    7523649970,
+    7523649971,
+    7523649972,
+    7523649973,
+    7523689888,
+    7523649974,
+    7523649975,
+    7523649976,
+    7523649977,
+    7523649978,
+    7523649979,
+    7523649980,
+    7523649981,
+    7523649982,
+    7523649983,
+    7523649984,
+    7523689885,
+    7523689889
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Qabrastan Thata Musa"
+  }
+},
+{
+  "type": "way",
+  "id": 804803070,
+  "nodes": [
+    7527869728,
+    7527869714,
+    7527869713,
+    7527869727,
+    7527869726,
+    7527869725,
+    7527869716,
+    7527869715,
+    7527869724,
+    7527869718,
+    7527869717,
+    7527869723,
+    7527869722,
+    7527869719,
+    7527869721,
+    7527869712,
+    7527869711,
+    7527869720,
+    7527869728
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 806194996,
+  "nodes": [
+    7538977862,
+    7538977857,
+    7538977861,
+    7538977860,
+    7538977859,
+    7538977858,
+    7538977862
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Old Qabrastan",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 810421139,
+  "nodes": [
+    7577249340,
+    7577249339,
+    7577249338,
+    7577249337,
+    7577249336,
+    7577249335,
+    7577249340
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Graveyard Charaghdin",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 833356746,
+  "nodes": [
+    7779453339,
+    7779453340,
+    7779453341,
+    7779453342,
+    7779453336,
+    7779453339
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Khayaban-e-Sir Syed Cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 833791776,
+  "nodes": [
+    287734097,
+    7783434997,
+    7783434998,
+    7783434999,
+    7783435000,
+    7783435001,
+    7783435002,
+    7783435003,
+    7783435004,
+    7783435005,
+    7783435006,
+    7783435007,
+    287734095,
+    287734096,
+    7783435008,
+    287734097
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Pir Choa Cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 834052112,
+  "nodes": [
+    7785904689,
+    7785904690,
+    7785904691,
+    7785904692,
+    7785904693,
+    7785904694,
+    7785904695,
+    7785904696,
+    7785904596,
+    7785904597,
+    7785904697,
+    7785904698,
+    7785904699,
+    7785904700,
+    7785904701,
+    6668266288,
+    7785904689
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 836309858,
+  "nodes": [
+    7805778845,
+    7805778846,
+    7805778847,
+    7805778848,
+    7805778849,
+    7805778850,
+    7805778845
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "پارسی قبرستان",
+    "name:en": "Parsi Qabristan",
+    "name:ur": "پارسی قبرستان"
+  }
+},
+{
+  "type": "way",
+  "id": 837801753,
+  "nodes": [
+    7819662201,
+    7819662202,
+    7819662203,
+    7819662204,
+    7819662205,
+    7819662206,
+    7819662207,
+    7819662208,
+    7819662209,
+    7819662210,
+    7819662211,
+    7819662212,
+    7819662213,
+    7819662214,
+    7819662215,
+    7819662216,
+    7819662217,
+    7819662218,
+    7819662219,
+    7819662220,
+    7819662221,
+    7819662222,
+    7819662201
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 847720510,
+  "nodes": [
+    7910018958,
+    7910018959,
+    7910018960,
+    7910018961,
+    7910018962,
+    7910018963,
+    7910018964,
+    7910018965,
+    7910018966,
+    7910018967,
+    7910018968,
+    7910018969,
+    7910018970,
+    7910018971,
+    7910018958
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Binna Cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 857311715,
+  "nodes": [
+    7992990947,
+    7992990948,
+    7992990949,
+    7992990950,
+    7992990947
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Sahky Cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 857311717,
+  "nodes": [
+    7992990959,
+    7992990960,
+    7992990974,
+    7992990961,
+    7992990962,
+    7992990963,
+    7992990964,
+    7992990965,
+    7992990966,
+    7992990967,
+    7992990968,
+    7992990969,
+    7992990970,
+    7992990971,
+    7992990972,
+    7992990973,
+    7992990959
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Kalla Kalan Cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 895034361,
+  "nodes": [
+    8319581194,
+    8319581195,
+    8319581196,
+    8319581197,
+    8319581198,
+    8319581199,
+    8319581200,
+    8319581201,
+    8319581194
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 902074491,
+  "nodes": [
+    8379126876,
+    8379126877,
+    8379126878,
+    8379126879,
+    8379126880,
+    8379126881,
+    8379126882,
+    8379126883,
+    8379126876
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Abbot Road Cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 902074494,
+  "nodes": [
+    8379126885,
+    8379126886,
+    8379126887,
+    8379126888,
+    8379126900,
+    8379126889,
+    8379126890,
+    8379126891,
+    3681760125,
+    8379126901,
+    8379126902,
+    8379126898,
+    8379126897,
+    8379126896,
+    8379126895,
+    8379126894,
+    8379126893,
+    8379126892,
+    8379126903,
+    3681760128,
+    8379126885
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 902074496,
+  "nodes": [
+    8379126935,
+    8379126936,
+    8379126937,
+    8379126938,
+    8379126939,
+    8379126940,
+    8379126941,
+    8379126942,
+    8379126935
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 902081425,
+  "nodes": [
+    8379184675,
+    8379184676,
+    8379184677,
+    8379184678,
+    8379184679,
+    8379184680,
+    8379184675
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 902243611,
+  "nodes": [
+    8380505460,
+    8380505459,
+    8380505465,
+    8380505466,
+    8380505464,
+    3694676335,
+    3694676336,
+    3694676337,
+    8380505463,
+    8380505462,
+    8380505461,
+    8380505460
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Sakhi Shah Chanan Sarkar Qabristan",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 902243616,
+  "nodes": [
+    8380505487,
+    8380505488,
+    8380505489,
+    8380505490,
+    8380505491,
+    8380505492,
+    8380505493,
+    8380505494,
+    8380505495,
+    8380505496,
+    8380505497,
+    8380505498,
+    8380505499,
+    8380505500,
+    8380505487
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "مزار",
+    "name:ar": "مزار",
+    "name:en": "Shrine",
+    "name:ur": "مزار",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 906114720,
+  "nodes": [
+    8414589676,
+    8414589677,
+    8414589678,
+    8414589679,
+    8414589680,
+    8414589681,
+    8414589682,
+    8414589683,
+    8414589684,
+    8414589685,
+    8414589686,
+    8414589687,
+    8414589688,
+    8414589676
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 906114721,
+  "nodes": [
+    8414589689,
+    8414589690,
+    8414589691,
+    8414589692,
+    8414589693,
+    8414589694,
+    8414589695,
+    8414589696,
+    8414589697,
+    8414589689
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 972058746,
+  "nodes": [
+    8996696049,
+    8996696050,
+    8996696051,
+    8996696052,
+    8996696053,
+    8996696054,
+    8996696055,
+    8996696056,
+    8996696049
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Muslim Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 988468689,
+  "nodes": [
+    9136546816,
+    9136595117,
+    9136595118,
+    9136595119,
+    9136546816
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "戍边英雄马“飓风”墓",
+    "note": "“飓风”为5681（黑顶）驮运物资10余吨，2021年1月因体力不支牺牲，它将永远守望着这片曾战斗过的高原。",
+    "source": "https://weibo.com/7366028103/KACcmnXRw"
+  }
+},
+{
+  "type": "way",
+  "id": 1020383227,
+  "nodes": [
+    9411223390,
+    9411223391,
+    9411223392,
+    9411223393,
+    9411223394,
+    9411223395,
+    9411223390
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "دربار حضرت پیر ميراں غلام شاه قبرستان"
+  }
+},
+{
+  "type": "way",
+  "id": 1027667382,
+  "nodes": [
+    9473969671,
+    9510204895,
+    9473969672,
+    9473969673,
+    9473969674,
+    9473969675,
+    9473969676,
+    9473969677,
+    9473969678,
+    9473969679,
+    9473969680,
+    9473969681,
+    9473969682,
+    9473969683,
+    10185730974,
+    10185730975,
+    9473969684,
+    9473969685,
+    9473969671
+  ],
+  "tags": {
+    "addr:city": "Chakri",
+    "denomination": "sunni",
+    "landuse": "cemetery",
+    "name": "Mughal Brothers",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1027667383,
+  "nodes": [
+    9473969686,
+    9473969687,
+    9510204901,
+    9473969689,
+    9473969690,
+    9473969691,
+    9473969692,
+    9473969686
+  ],
+  "tags": {
+    "denomination": "sunni",
+    "landuse": "cemetery",
+    "name": "Seghar Brother",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1029933549,
+  "nodes": [
+    9494413760,
+    9494413761,
+    9494413762,
+    9494413763,
+    9494413764,
+    9494413765,
+    9494413766,
+    9494413767,
+    9494413768,
+    9494413769,
+    9494413770,
+    9494413771,
+    9494413772,
+    9494413773,
+    9494413774,
+    9494413775,
+    9494413760
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Rugh Qabarastan",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1029954108,
+  "nodes": [
+    9494577561,
+    9494577562,
+    9494577563,
+    9494577564,
+    9494571300,
+    9494583797,
+    9494583796,
+    9494583795,
+    9494583794,
+    9494577561
+  ],
+  "tags": {
+    "denomination": "catholic",
+    "landuse": "cemetery",
+    "name": "Cemetery",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 1029984681,
+  "nodes": [
+    9494817732,
+    9494817733,
+    9494817734,
+    9494817735,
+    9494817736,
+    9494817737,
+    9494817738,
+    9494817739,
+    9494817740,
+    9494817741,
+    9494817742,
+    9494817743,
+    9494817732
+  ],
+  "tags": {
+    "denomination": "sunni",
+    "landuse": "cemetery",
+    "name": "Cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1029985370,
+  "nodes": [
+    9494831473,
+    9494831474,
+    9494831475,
+    9494831476,
+    9494831477,
+    9494831478,
+    9494831479,
+    9494831480,
+    9500046237,
+    9494831473
+  ],
+  "tags": {
+    "denomination": "sunni",
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1029989899,
+  "nodes": [
+    9494849001,
+    9494849002,
+    9494849003,
+    9494849004,
+    9494849005,
+    9494849006,
+    9494849007,
+    9494849001
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1031050376,
+  "nodes": [
+    9503796648,
+    9503796649,
+    9503796650,
+    9503796651,
+    9503796652,
+    9503796653,
+    9503796654,
+    9503796655,
+    9503796648
+  ],
+  "tags": {
+    "denomination": "sunni",
+    "landuse": "cemetery",
+    "name": "Awan Brother",
+    "name:ur": "اعوان برادری",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1031905441,
+  "nodes": [
+    9509710685,
+    9509710686,
+    9509710687,
+    9509710688,
+    9509710689,
+    9509710690,
+    9509710691,
+    9509710685
+  ],
+  "tags": {
+    "denomination": "sunni",
+    "landuse": "cemetery",
+    "name": "kalwa wali sarkar darbar",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1031964085,
+  "nodes": [
+    9510204891,
+    9510204892,
+    9510204893,
+    9510204894,
+    9510204891
+  ],
+  "tags": {
+    "addr:city": "Chakri",
+    "denomination": "sunni",
+    "landuse": "cemetery",
+    "name": "Mughal Brothers Cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1038246992,
+  "nodes": [
+    9562523098,
+    9562523099,
+    9562523100,
+    9562523101,
+    9562523102,
+    9562523103,
+    9562523104,
+    9562523105,
+    9562523098
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Nangi Qabaristan"
+  }
+},
+{
+  "type": "way",
+  "id": 1038751458,
+  "nodes": [
+    9566010796,
+    9566010797,
+    9566010798,
+    9566010799,
+    9566010800,
+    9566010801,
+    9566010796
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Cemetery B"
+  }
+},
+{
+  "type": "way",
+  "id": 1038751459,
+  "nodes": [
+    9566010802,
+    9566010803,
+    11505978212,
+    9566010804,
+    9566010805,
+    9566010806,
+    11505978211,
+    9566010807,
+    9566010802
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Cemetery A"
+  }
+},
+{
+  "type": "way",
+  "id": 1038751460,
+  "nodes": [
+    9566010808,
+    9566010809,
+    11524573095,
+    9566010810,
+    11524573096,
+    9566010811,
+    9566010812,
+    9566010813,
+    11524573097,
+    9566010814,
+    11524573098,
+    9566010815,
+    9566010816,
+    9566010817,
+    9566010808
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Cemetery D"
+  }
+},
+{
+  "type": "way",
+  "id": 1038751461,
+  "nodes": [
+    9566010818,
+    11524573094,
+    11524573092,
+    11524573093,
+    9566010821,
+    9566010822,
+    9566010823,
+    9566010824,
+    9566010825,
+    11524573089,
+    9566010826,
+    9566010827,
+    11524573090,
+    11524573091,
+    9566010818
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Cemetery C"
+  }
+},
+{
+  "type": "way",
+  "id": 1038751462,
+  "nodes": [
+    9566010828,
+    9566010829,
+    11505978213,
+    9566010830,
+    9566010831,
+    11505978214,
+    11505978215,
+    11505978216,
+    11505978217,
+    9566010832,
+    9566010833,
+    9566010834,
+    9566010835,
+    9566010836,
+    9566010828
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Cemetery E"
+  }
+},
+{
+  "type": "way",
+  "id": 1038751463,
+  "nodes": [
+    9566010837,
+    11505978220,
+    9566010838,
+    11505978219,
+    11505978218,
+    9566010839,
+    9566010840,
+    9566010841,
+    9566010837
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Cemetery F"
+  }
+},
+{
+  "type": "way",
+  "id": 1102769027,
+  "nodes": [
+    10091321049,
+    10091321050,
+    10091321051,
+    10091321052,
+    13423073136,
+    10091321053,
+    10091321049
+  ],
+  "tags": {
+    "addr:city": "Nowshera",
+    "addr:district": "Srinagar",
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1119442575,
+  "nodes": [
+    10238794706,
+    10238794707,
+    10710762223,
+    10238794708,
+    10238802109,
+    10238802110,
+    10238802111,
+    10238802112,
+    10238794706
+  ],
+  "tags": {
+    "addr:city": "gujrat",
+    "addr:postcode": "50600",
+    "addr:street": "Daira CH Amir Kalasa Road",
+    "denomination": "sunni",
+    "landuse": "cemetery",
+    "name": "Kalasa Kabristan",
+    "religion": "muslim",
+    "wikipedia": "en:Kalasa kabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 1133182743,
+  "nodes": [
+    10565465457,
+    10565465458,
+    10565465459,
+    10565465460,
+    10565465461,
+    10565465457
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1133182744,
+  "nodes": [
+    10565465462,
+    10565465463,
+    10565465464,
+    10565465465,
+    10565465466,
+    10565465467,
+    10565465468,
+    10565465469,
+    10565465470,
+    10565465471,
+    10565465462
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1134745418,
+  "nodes": [
+    10578598916,
+    10578598917,
+    10578598918,
+    10578598919,
+    10578598920,
+    10578598921,
+    10578598922,
+    10578598923,
+    10578598916
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1146017971,
+  "nodes": [
+    10665063535,
+    10665063536,
+    10665063537,
+    10665063538,
+    10665063539,
+    10665063540,
+    10665063541,
+    10665063542,
+    10665063543,
+    10665063544,
+    10665063535
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1146074470,
+  "nodes": [
+    10665462601,
+    10665462602,
+    10665462603,
+    10665462604,
+    10665520905,
+    10665520906,
+    10665520907,
+    10665520908,
+    10665462601
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1147844859,
+  "nodes": [
+    10680058293,
+    10680058294,
+    10680058295,
+    10680058296,
+    10680058297,
+    10680058298,
+    10680058299,
+    10680058300,
+    10680058301,
+    10680058302,
+    10680058303,
+    10680058293
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1149302440,
+  "nodes": [
+    10692080449,
+    10692080450,
+    10692080453,
+    10692080455,
+    10692080449
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Rundu Qabristan",
+    "name:ur": "رندو قبرستان"
+  }
+},
+{
+  "type": "way",
+  "id": 1169426874,
+  "nodes": [
+    10874144962,
+    10874144961,
+    10874144960,
+    10874144959,
+    10874144958,
+    10874144957,
+    10874144956,
+    10874144955,
+    10874144954,
+    10874144953,
+    10874144952,
+    10874144951,
+    10874144950,
+    10874144949,
+    10874144948,
+    10874144947,
+    10874144946,
+    10874144945,
+    10874144962
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1169426875,
+  "nodes": [
+    10874144976,
+    10874144975,
+    10874144974,
+    10874144973,
+    10874144972,
+    10874144971,
+    10874144970,
+    10874144969,
+    10874144968,
+    10874144967,
+    10874144966,
+    10874144965,
+    10874144964,
+    10874144963,
+    10874144976
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1169426876,
+  "nodes": [
+    10874144990,
+    10874144989,
+    10874144988,
+    10874144987,
+    10874144986,
+    10874144985,
+    10874144984,
+    10874144983,
+    10874144982,
+    10874144981,
+    10874144980,
+    10874144979,
+    10874144978,
+    10874144977,
+    10874144990
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1195443334,
+  "nodes": [
+    11095269692,
+    13425558946,
+    13425558947,
+    11095269693,
+    13425558945,
+    13425558951,
+    11095269694,
+    13425558943,
+    11095269695,
+    13425558944,
+    11095269696,
+    11095269697,
+    13425558950,
+    13425558949,
+    13425558948,
+    11095269698,
+    11095269692
+  ],
+  "tags": {
+    "addr:city": "Nowshera",
+    "addr:district": "Srinagar",
+    "addr:postcode": "190011",
+    "addr:street": "Tawheedabad",
+    "landuse": "cemetery",
+    "name": "Tawheedabad Cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1195449773,
+  "nodes": [
+    11095340390,
+    13424068684,
+    13424068704,
+    13424068703,
+    13424068702,
+    13424068692,
+    13424068693,
+    13424068694,
+    13424068695,
+    13424068698,
+    13424068701,
+    13424068700,
+    13424068699,
+    13424068729,
+    13424068730,
+    13424068687,
+    13424068696,
+    13424068697,
+    11095340391,
+    13424068688,
+    13424068689,
+    13424068691,
+    13424068690,
+    11095340392,
+    11095340393,
+    11095340394,
+    11095340395,
+    11095340396,
+    11095340397,
+    11095340398,
+    11095340399,
+    11095340400,
+    11095340401,
+    11095340402,
+    13424068686,
+    11095340403,
+    13424068685,
+    11095340390
+  ],
+  "tags": {
+    "addr:city": "zadibal",
+    "addr:district": "Srinagar",
+    "addr:postcode": "190011",
+    "addr:street": "Zadibal",
+    "denomination": "shia",
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1195595248,
+  "nodes": [
+    11096969841,
+    11096969842,
+    11096969843,
+    11096969844,
+    11096969845,
+    11096969846,
+    11096969847,
+    11096969848,
+    11096969849,
+    11096969850,
+    11096969851,
+    11096969852,
+    11096969841
+  ],
+  "tags": {
+    "addr:city": "Nowshera",
+    "addr:district": "Srinagar",
+    "addr:postcode": "190011",
+    "landuse": "cemetery",
+    "name": "Malla Kabir Cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1195975107,
+  "nodes": [
+    11098687206,
+    11098687207,
+    11098687208,
+    11098687209,
+    11098687210,
+    11098687206
+  ],
+  "tags": {
+    "addr:city": "Eidgah",
+    "addr:district": "Srinagar",
+    "landuse": "cemetery",
+    "name": "Shaheed Malguzar (Martyrs Graveyard)",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1197354927,
+  "nodes": [
+    11109632373,
+    11109632374,
+    11109632375,
+    11109632376,
+    11109632377,
+    11109632378,
+    11109632379,
+    11109632380,
+    11109632381,
+    11109632382,
+    11109632383,
+    11109632384,
+    11109632385,
+    11109632386,
+    11109632373
+  ],
+  "tags": {
+    "addr:district": "Srinagar",
+    "addr:street": "Awantabhawan",
+    "landuse": "cemetery",
+    "name": "Awanta Bhawan Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1197615492,
+  "nodes": [
+    11111419417,
+    11111419418,
+    11111419419,
+    11111419420,
+    11111419417
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Arifeen Muslim Trust Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1198320777,
+  "nodes": [
+    11116616797,
+    11116616798,
+    11116616799,
+    11116616800,
+    11116616801,
+    11116616802,
+    11116616803,
+    11116616804,
+    11116646505,
+    11116646506,
+    11116646507,
+    11116646508,
+    11116646509,
+    11116616797
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Gharibabad Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 1198320778,
+  "nodes": [
+    11116646510,
+    11116646511,
+    11116646512,
+    11116646513,
+    11116646514,
+    11116646515,
+    11116646510
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Eid Gah Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 1198320780,
+  "nodes": [
+    11116646527,
+    11116646528,
+    11116646529,
+    11116646530,
+    11116646531,
+    11116646532,
+    11116646533,
+    11116646534,
+    11116646535,
+    11116646536,
+    11116646537,
+    11116646538,
+    11116646539,
+    11116646527
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Chaklala Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 1198320781,
+  "nodes": [
+    11116646540,
+    11116646541,
+    11116646542,
+    11116646543,
+    11116646540
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Qabristan New Mazharabad"
+  }
+},
+{
+  "type": "way",
+  "id": 1198320782,
+  "nodes": [
+    11116646544,
+    11116646545,
+    11116646546,
+    11116646547,
+    11116646548,
+    11116646549,
+    11116646544
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Madni Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 1198320783,
+  "nodes": [
+    11116646550,
+    11116646551,
+    11116646552,
+    11116646553,
+    11116646554,
+    11116646550
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "New Mazharabad Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 1198320784,
+  "nodes": [
+    11116646555,
+    11116646556,
+    11116646557,
+    11116646558,
+    11116646559,
+    11116646560,
+    11116646561,
+    11116646562,
+    11116646563,
+    11116646564,
+    11116646565,
+    11116646566,
+    11116646567,
+    11116646568,
+    11116646569,
+    11116646570,
+    11116646571,
+    11116646572,
+    11116646555
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "New Abadi Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 1198320785,
+  "nodes": [
+    11116646573,
+    11116646574,
+    11116646575,
+    11116646576,
+    11116646577,
+    11116646578,
+    11116646579,
+    11116646580,
+    11116646581,
+    11116646582,
+    11116646583,
+    11116646584,
+    11116646585,
+    11116646586,
+    11116646587,
+    11116646588,
+    11116646589,
+    11116646590,
+    11116646591,
+    11116646592,
+    11116646593,
+    11116646573
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1198320786,
+  "nodes": [
+    11116646594,
+    11116646595,
+    11116646606,
+    11116646596,
+    11116646597,
+    11116646594
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Ali Town Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 1198320787,
+  "nodes": [
+    11116646598,
+    11116646599,
+    11116646600,
+    11116646601,
+    11116646602,
+    11116646603,
+    11116646604,
+    11116646605,
+    11116646598
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Ali Town Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 1198320788,
+  "nodes": [
+    11116646607,
+    12892372591,
+    12892372589,
+    11116646608,
+    12892372598,
+    12892372597,
+    12892372599,
+    11116646609,
+    11116646610,
+    12892372596,
+    12892372595,
+    12892372594,
+    12892426901,
+    12892372593,
+    12892372592,
+    12892372600,
+    11116646611,
+    11116646612,
+    6741820103,
+    11116646613,
+    11116646607
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Dhok Nawaz Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 1212145019,
+  "nodes": [
+    11230088694,
+    11230088695,
+    11230088696,
+    11230088697,
+    11230088694
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "قبرستان حکیماں",
+    "name:en": "Hakeeman Cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1213615945,
+  "nodes": [
+    11243805539,
+    11243805570,
+    11243805569,
+    11243805568,
+    11243805567,
+    11243805540,
+    11243805550,
+    11243805552,
+    11243805551,
+    11243805553,
+    11243805554,
+    11243805541,
+    11243805548,
+    11243805547,
+    11243805549,
+    11243805542,
+    11243805543,
+    11243805556,
+    11243805555,
+    11243805557,
+    11243805544,
+    11243805558,
+    11243805559,
+    11243805545,
+    11243805562,
+    11243805560,
+    11243805561,
+    11243805546,
+    11243805539
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "مدینہ قبرستان",
+    "name:en": "Madina Cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1213617723,
+  "nodes": [
+    11243738111,
+    11243738112,
+    11243738119,
+    11243738118,
+    11243738120,
+    11243738117,
+    11243738122,
+    11243738121,
+    11243738123,
+    11243738113,
+    11243738125,
+    11243738126,
+    11243738124,
+    11243738116,
+    11243738114,
+    11243738127,
+    11243738115,
+    11243738128,
+    11243738111
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "مشرقی قبرستان",
+    "name:en": "Eastern Cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1215882295,
+  "nodes": [
+    11265611284,
+    11265611285,
+    11265611294,
+    11265611293,
+    11265611295,
+    11265611286,
+    11265611296,
+    11265611287,
+    11265611297,
+    11265611288,
+    11265611298,
+    11265611303,
+    11265611289,
+    11265611292,
+    11265611291,
+    11265611290,
+    11265611284
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "چک 18 جنوبی قبرستان",
+    "name:en": "Chak 18 SB Graveyard"
+  }
+},
+{
+  "type": "way",
+  "id": 1217232346,
+  "nodes": [
+    11278644191,
+    11278644196,
+    11278644195,
+    11278644197,
+    11278644192,
+    11278644193,
+    11278644194,
+    11278644191
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "جانگلیاں والا قبرستان"
+  }
+},
+{
+  "type": "way",
+  "id": 1241472565,
+  "nodes": [
+    8878102120,
+    11535032271,
+    11535032270,
+    11535032269,
+    8878102120
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "St.John Christian Graveyard",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 1309952202,
+  "nodes": [
+    12128550316,
+    12128550315,
+    12128550314,
+    12128550313,
+    12128550316
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Christian Graveyard"
+  }
+},
+{
+  "type": "way",
+  "id": 1309960402,
+  "nodes": [
+    12128603680,
+    12128603681,
+    12128603682,
+    12128603683,
+    12128603684,
+    12128603685,
+    12128603686,
+    12128603687,
+    12128603688,
+    12128603689,
+    12128603690,
+    12128603691,
+    12128603692,
+    12128603680
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "F-9 Cemetary"
+  }
+},
+{
+  "type": "way",
+  "id": 1314059181,
+  "nodes": [
+    12162596204,
+    12162596205,
+    12162596206,
+    12162596207,
+    12162596208,
+    12162596209,
+    12162596210,
+    12162596204
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1314060115,
+  "nodes": [
+    12162597273,
+    12162597274,
+    12162597275,
+    13333977002,
+    7048415681,
+    13333977003,
+    13333977001,
+    13333972200,
+    12162597276,
+    12162597273
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1327131724,
+  "nodes": [
+    12277698644,
+    12277698645,
+    12277698646,
+    12277698647,
+    12277698648,
+    12277698649,
+    12277698650,
+    12277698651,
+    12277698652,
+    9297551119,
+    3735839754,
+    12277698653,
+    12277698654,
+    12277698655,
+    12277698656,
+    12277698657,
+    12277698658,
+    12277698659,
+    12277698660,
+    12277698661,
+    12277698662,
+    12277698644
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "پیر زین العابدین قبرستان",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1327131726,
+  "nodes": [
+    12277698683,
+    12277698684,
+    12277698685,
+    12277698686,
+    12277698687,
+    12277698688,
+    12277698689,
+    12277698690,
+    12277698691,
+    12277698692,
+    12277698693,
+    12277698694,
+    12277698683
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1327137834,
+  "nodes": [
+    12277698822,
+    12277698823,
+    12277698824,
+    12277698825,
+    12277698826,
+    12277698827,
+    12277698828,
+    12277698829,
+    12277698830,
+    12277698831,
+    12277698832,
+    3735923224,
+    12277698822
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "آلیوالی قبرستان",
+    "name:en": "Alewali Cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1378303599,
+  "nodes": [
+    12762089623,
+    12762089624,
+    12762089625,
+    12762089626,
+    12762089627,
+    12762089628,
+    5160984526,
+    12762089629,
+    12762089630,
+    12762089623
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1422346569,
+  "nodes": [
+    12463317289,
+    13073533410,
+    13071315349,
+    13073533409,
+    13071349413,
+    13073533408,
+    13071315350,
+    13071349412,
+    13071349411,
+    13071349410,
+    13071349416,
+    13071349414,
+    13071315351,
+    13071349419,
+    13071349418,
+    13071349426,
+    12460734934,
+    13071349422,
+    13071349421,
+    13071349420,
+    13071349423,
+    13071349424,
+    13071349425,
+    13071349417,
+    13272332661,
+    13272332657,
+    13272332659,
+    13272332658,
+    13272332660,
+    12463317289
+  ],
+  "tags": {
+    "denomination": "sunni",
+    "landuse": "cemetery",
+    "name": "Dhoke Lalyal Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1422349834,
+  "nodes": [
+    13071355297,
+    13071355298,
+    13071355299,
+    13071355300,
+    13073563621,
+    13071371401,
+    13071355297
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Baba Mast Graveyard"
+  }
+},
+{
+  "type": "way",
+  "id": 1422452576,
+  "nodes": [
+    13072303894,
+    13072311801,
+    13072303900,
+    13072303895,
+    13072303896,
+    13072303897,
+    13072303898,
+    13072303899,
+    13072303894
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Graveyard"
+  }
+},
+{
+  "type": "way",
+  "id": 1422453611,
+  "nodes": [
+    13072305475,
+    13072305476,
+    13072305487,
+    13072305488,
+    13072305477,
+    13072305489,
+    13072305478,
+    13072305479,
+    13072305486,
+    13072305485,
+    13072305484,
+    13072305480,
+    13072305481,
+    13072305482,
+    13072305483,
+    13072305475
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Graveyard"
+  }
+},
+{
+  "type": "way",
+  "id": 1422454349,
+  "nodes": [
+    13072326452,
+    13072326453,
+    13072326454,
+    13072326455,
+    13072326456,
+    13072326457,
+    13072326458,
+    13072326459,
+    13072326460,
+    13072326461,
+    13072326462,
+    13072326452
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Qabristan"
+  }
+},
+{
+  "type": "way",
+  "id": 1425469778,
+  "nodes": [
+    13102755888,
+    13102755889,
+    13102755890,
+    13102755891,
+    13102755892,
+    13102755893,
+    13102755894,
+    13102755888
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1437035961,
+  "nodes": [
+    13207935747,
+    13207935748,
+    13207935749,
+    13207935750,
+    13207935751,
+    13207935752,
+    13207935753,
+    13207935754,
+    13207935755,
+    13207935756,
+    13207935757,
+    13207935758,
+    13207935759,
+    13207935760,
+    13207935747
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1442523776,
+  "nodes": [
+    13235955837,
+    13235955838,
+    13235955839,
+    13235955840,
+    13235955841,
+    13235955842,
+    13235955843,
+    13235955844,
+    13235955845,
+    13235955846,
+    13235955847,
+    13235955848,
+    13235955849,
+    13235955850,
+    13235955851,
+    13235955852,
+    13235955853,
+    13235955854,
+    13235955855,
+    13235955856,
+    13235955857,
+    13235955858,
+    13235955859,
+    13235955860,
+    13235955861,
+    13235955862,
+    13235955863,
+    13235955864,
+    13235955865,
+    13235955866,
+    13235955867,
+    13235955868,
+    13235955837
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1442523778,
+  "nodes": [
+    13235955873,
+    13235955874,
+    13235955875,
+    13235955876,
+    13235955877,
+    13235955878,
+    13235955879,
+    13235955880,
+    13235955881,
+    13235955882,
+    13235955883,
+    13235955884,
+    13235955885,
+    13235955873
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1442801385,
+  "nodes": [
+    13238796959,
+    13238796960,
+    13238796961,
+    13238796962,
+    13238796963,
+    13238796964,
+    13238796965,
+    13238796966,
+    13238796967,
+    13238796968,
+    13238796969,
+    13238796959
+  ],
+  "tags": {
+    "addr:city": "Nowshera",
+    "addr:district": "Srinagar",
+    "landuse": "cemetery",
+    "name": "Mirbagh Cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1442801414,
+  "nodes": [
+    13238842629,
+    13238842630,
+    13238842631,
+    13238842632,
+    13238842633,
+    13238842634,
+    13238842635,
+    13238842636,
+    13238842637,
+    13238842638,
+    13238842639,
+    13238842640,
+    13238842641,
+    13238842642,
+    13238842643,
+    13238842644,
+    13238842645,
+    13238842646,
+    13238842647,
+    13238842648,
+    13238842649,
+    13238842629
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Wadoos Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1442801415,
+  "nodes": [
+    13238842650,
+    13238842651,
+    13238842652,
+    13238842653,
+    13238842654,
+    13238842655,
+    13238842656,
+    13238842657,
+    13238842658,
+    13238842659,
+    13238842660,
+    13238842650
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1442801419,
+  "nodes": [
+    13238842702,
+    13238842703,
+    13238842704,
+    13238842705,
+    13238842706,
+    13238842707,
+    13238842708,
+    13238842709,
+    13238842710,
+    13238842711,
+    13238842712,
+    13238842713,
+    13238842714,
+    13238842715,
+    13238842716,
+    13238842702
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1443022304,
+  "nodes": [
+    13240908772,
+    13240908773,
+    13240908774,
+    13240908775,
+    13240908776,
+    13240908777,
+    13240908778,
+    13240908779,
+    13240908780,
+    13240908781,
+    13240908782,
+    13240908783,
+    13240908784,
+    13240908785,
+    13240908786,
+    13240908787,
+    13240908788,
+    13240908789,
+    13240908790,
+    13240908791,
+    13240908792,
+    13240908793,
+    13240908794,
+    13240908772
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1443046755,
+  "nodes": [
+    13241156038,
+    13241156039,
+    13241156040,
+    13241156041,
+    13241156042,
+    13241156043,
+    13241156044,
+    13241156045,
+    13241156046,
+    13241156047,
+    13241156048,
+    13241156049,
+    13241156050,
+    13241156038
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1443211160,
+  "nodes": [
+    13243167474,
+    13243167475,
+    13243167476,
+    13243167477,
+    13243167478,
+    13243167479,
+    13243167480,
+    13243167481,
+    13243167482,
+    13243167483,
+    13243167484,
+    13243167485,
+    13243167486,
+    13243167487,
+    13243167488,
+    13243167474
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Makawan Graveyard"
+  }
+},
+{
+  "type": "way",
+  "id": 1443211338,
+  "nodes": [
+    13243138832,
+    13243138833,
+    13243138834,
+    13243138835,
+    13243138832
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1443264102,
+  "nodes": [
+    13243678552,
+    13243678553,
+    13243678554,
+    13243678555,
+    13243678552
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Sabira Bibi Graveyard"
+  }
+},
+{
+  "type": "way",
+  "id": 1443269655,
+  "nodes": [
+    13243703304,
+    13243703305,
+    13243703306,
+    13243703307,
+    13243703308,
+    13243703309,
+    13243703304
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Nai Abadi Graveyard"
+  }
+},
+{
+  "type": "way",
+  "id": 1443904748,
+  "nodes": [
+    13249584499,
+    13249584498,
+    13249584497,
+    13249584496,
+    13249584495,
+    13249584494,
+    13249584493,
+    13249584492,
+    13249584491,
+    13249584490,
+    13249584489,
+    13249584488,
+    13249584487,
+    13249584486,
+    13249584485,
+    13249584484,
+    13249584483,
+    13249584482,
+    13249584481,
+    13249584480,
+    13249584479,
+    13249584478,
+    13249584477,
+    13249584476,
+    13249584499
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1445698247,
+  "nodes": [
+    13264425420,
+    13264425421,
+    13264425422,
+    13264425423,
+    13264425424,
+    13264425425,
+    13264425426,
+    13264500221,
+    13264425427,
+    13264425428,
+    13264425429,
+    13264425430,
+    13264425431,
+    13264425432,
+    13264425433,
+    13264425434,
+    13264425420
+  ],
+  "tags": {
+    "addr:city": "Kallar Syedan",
+    "addr:street": "Mohra Dhyal",
+    "description": "Graveyard for the Village of Mohra Dhyal",
+    "landuse": "cemetery",
+    "name": "Mohra Dhyal Graveyard",
+    "operator": "community",
+    "operator:type": "private_non_profit"
+  }
+},
+{
+  "type": "way",
+  "id": 1446571917,
+  "nodes": [
+    13272755785,
+    13272755786,
+    13272755787,
+    13272755788,
+    13272755789,
+    13272755790,
+    13272755791,
+    13272755792,
+    13272755793,
+    13272755785
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "PAF Graveyard"
+  }
+},
+{
+  "type": "way",
+  "id": 1452460687,
+  "nodes": [
+    13320188017,
+    13320188018,
+    13320188019,
+    13320188020,
+    13320188021,
+    13320188022,
+    13320188023,
+    13320188024,
+    13320188025,
+    13320188017
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1452462910,
+  "nodes": [
+    13320174076,
+    13320174077,
+    13320174078,
+    13320174079,
+    13320174080,
+    13320174081,
+    13320174076
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1454508022,
+  "nodes": [
+    13339081953,
+    13339081954,
+    13339081955,
+    13339081956,
+    13339081957,
+    13339081953
+  ],
+  "tags": {
+    "landuse": "cemetery"
+  }
+},
+{
+  "type": "way",
+  "id": 1462586367,
+  "nodes": [
+    13415834794,
+    13415834795,
+    13415834796,
+    13415834797,
+    13415834798,
+    13415834799,
+    13415834800,
+    13415834794
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1462586370,
+  "nodes": [
+    13415856115,
+    13415856116,
+    13415856117,
+    13415856118,
+    13415856119,
+    13415856120,
+    13415856115
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1462586371,
+  "nodes": [
+    13415856121,
+    13415856122,
+    13415856123,
+    13415856124,
+    13415856125,
+    13415856126,
+    13415856127,
+    13415856128,
+    13415856129,
+    13415856130,
+    13415856131,
+    13415856132,
+    13415856133,
+    13415856134,
+    13415856135,
+    13415856136,
+    13415856137,
+    13415856138,
+    13415856139,
+    13415856121
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1462627185,
+  "nodes": [
+    13416236493,
+    13416236494,
+    13416236495,
+    13416236496,
+    13416236497,
+    13416236498,
+    13416236499,
+    13416236500,
+    13416286601,
+    13416286602,
+    13416286603,
+    13416236493
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1462627207,
+  "nodes": [
+    13416286747,
+    13416286748,
+    13416286749,
+    13416286750,
+    13416286751,
+    13416286752,
+    13416286753,
+    13416286754,
+    13416286755,
+    13416286756,
+    13416286757,
+    13416286758,
+    13416286747
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Faqir Malguzar - Dana Mazar"
+  }
+},
+{
+  "type": "way",
+  "id": 1462842377,
+  "nodes": [
+    13418251278,
+    13418251290,
+    13418251279,
+    13418251280,
+    13418251281,
+    13418251282,
+    13418251283,
+    13418251284,
+    13418251285,
+    13418251286,
+    13418251287,
+    13418251288,
+    13418251289,
+    13418251278
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Zoonimar Graveyard",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1462842400,
+  "nodes": [
+    6372321481,
+    6372321480,
+    13418251407,
+    13418251408,
+    6372321481
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Mazar-i-Shuhada",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1463199708,
+  "nodes": [
+    13421757928,
+    13421757929,
+    13421757930,
+    13421757931,
+    13421757932,
+    13421757928
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Christian Cemetery Srinagar",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 1465592657,
+  "nodes": [
+    13442358049,
+    13442358050,
+    13442358051,
+    13442358052,
+    13442358053,
+    13442358054,
+    13442358055,
+    13442358056,
+    13442358057,
+    13442358058,
+    13442358059,
+    13442358060,
+    13442358061,
+    13442358062,
+    13442358063,
+    13442358064,
+    13442358065,
+    13442358066,
+    13442358067,
+    13442358068,
+    13442358069,
+    13442358070,
+    13442358071,
+    13442358072,
+    13442358049
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1465592658,
+  "nodes": [
+    13442358073,
+    13442358074,
+    13442358075,
+    13442358076,
+    13442358077,
+    13442358078,
+    13442358079,
+    13442358080,
+    13442358081,
+    13442358082,
+    13442358083,
+    13442358084,
+    13442358085,
+    13442358073
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 1465592667,
+  "nodes": [
+    13442358169,
+    13442358170,
+    13442358171,
+    13442358172,
+    13442358173,
+    13442358174,
+    13442358175,
+    13442358176,
+    13442358177,
+    13442358178,
+    13442358179,
+    13442358169
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Moominabad Cemetery"
+  }
+}
+
+  ]
+}

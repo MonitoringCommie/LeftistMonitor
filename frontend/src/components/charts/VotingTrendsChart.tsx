@@ -43,24 +43,24 @@ const VotingTrendsChart = memo(function VotingTrendsChart({
   }, [data])
 
   const partyColors = useMemo(() => {
-    return parties.map((party, index) => ({
+    return parties.map((party, idx) => ({
       ...party,
-      color: party.color || DEFAULT_COLORS[index % DEFAULT_COLORS.length]
+      color: party.color || DEFAULT_COLORS[idx % DEFAULT_COLORS.length]
     }))
   }, [parties])
 
   if (!data || data.length === 0) {
     return (
-      <div className="bg-white rounded-lg border p-4">
-        <h3 className="text-lg font-semibold mb-3">{title}</h3>
-        <p className="text-gray-500 text-sm">No voting trend data available</p>
+      <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4">
+        <h3 className="text-lg font-semibold mb-3 dark:text-white">{title}</h3>
+        <p className="text-gray-500 dark:text-gray-400 text-sm">No voting trend data available</p>
       </div>
     )
   }
 
   return (
-    <div className="bg-white rounded-lg border p-4">
-      <h3 className="text-lg font-semibold mb-3">{title}</h3>
+    <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4">
+      <h3 className="text-lg font-semibold mb-3 dark:text-white">{title}</h3>
       <ResponsiveContainer width="100%" height={350}>
         <AreaChart data={sortedData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
@@ -75,11 +75,11 @@ const VotingTrendsChart = memo(function VotingTrendsChart({
             domain={[0, stacked ? 100 : 'auto']}
           />
           <Tooltip
-            formatter={(value: number, name: string) => [value.toFixed(1) + '%', name]}
+            formatter={(value, name) => [(Number(value) || 0).toFixed(1) + '%', name]}
             labelFormatter={(label) => `Election: ${label}`}
           />
           <Legend />
-          {partyColors.map((party, index) => (
+          {partyColors.map((party) => (
             <Area
               key={party.name}
               type="monotone"

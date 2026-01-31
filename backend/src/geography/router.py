@@ -10,6 +10,9 @@ from ..core.pagination import PaginatedResponse
 from ..database import get_db
 from .schemas import CountryListItem, CountryResponse, GeoJSONFeatureCollection, CountryRelationshipResponse
 from .service import GeographyService
+from .models import Country
+from sqlalchemy import select
+from typing import List
 
 router = APIRouter()
 
@@ -42,6 +45,56 @@ async def list_countries(
         page=page,
         per_page=per_page,
     )
+
+
+
+
+@router.get("/countries/stats")
+async def get_global_country_stats(
+    db: AsyncSession = Depends(get_db),
+) -> List[dict]:
+    """Get statistics for all countries for global rankings."""
+    from .economic_router import load_worldbank_data, get_country_code
+    
+    wb_data, _ = load_worldbank_data()
+    
+    result = await db.execute(select(Country).where(Country.entity_type == 'sovereign_state'))
+    countries = result.scalars().all()
+    
+    stats = []
+    for country in countries:
+        country_code = get_country_code(country.name_en)
+        
+        stat = {
+            "id": str(country.id),
+            "name": country.name_en,
+            "iso_alpha3": country.iso_alpha3,
+            "gdp": None,
+            "population": None,
+            "military_spending_pct": None,
+        }
+        
+        if country_code and country_code in wb_data:
+            country_wb = wb_data[country_code]
+            for year in range(2023, 2000, -1):
+                year_str = str(year)
+                year_data = country_wb.get("data", {}).get(year_str, {})
+                
+                if stat["gdp"] is None and year_data.get("gdp_current_usd"):
+                    stat["gdp"] = year_data["gdp_current_usd"]
+                
+                if stat["population"] is None and year_data.get("population"):
+                    stat["population"] = year_data["population"]
+                
+                if stat["military_spending_pct"] is None and year_data.get("military_spending_gdp_pct"):
+                    stat["military_spending_pct"] = year_data["military_spending_gdp_pct"]
+                
+                if all([stat["gdp"], stat["population"], stat["military_spending_pct"]]):
+                    break
+        
+        stats.append(stat)
+    
+    return stats
 
 
 @router.get("/countries/{country_id}", response_model=CountryResponse)

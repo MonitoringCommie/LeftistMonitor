@@ -1,0 +1,2 @@
+# Requirements for LeftistMonitor Wikidata scrapers
+requests>=2.28.0

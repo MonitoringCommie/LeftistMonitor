@@ -1,0 +1,1498 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.10 2d4cfc48",
+  "osm3s": {
+    "timestamp_osm_base": "2026-01-31T22:14:15Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 567059447,
+  "lat": 37.2044444,
+  "lon": 42.1283333,
+  "tags": {
+    "alt_name": "بجيرك",
+    "historic": "ruins",
+    "int_name": "Badjerik, Badjérik, Bajarik, Bajārīk, Bajayrik",
+    "name": "بجيرك",
+    "name:ar": "بجيرك",
+    "name:ar1": "بجيرك",
+    "name:de": "Bajayrik",
+    "name:en": "Bajayrik",
+    "name:fr": "Bajayrik",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 567059515,
+  "lat": 37.1416667,
+  "lon": 42.2361111,
+  "tags": {
+    "alt_name": "سكركة ميرو",
+    "historic": "ruins",
+    "int_name": "Seguirka Miro, Séguirka Mîro, Sakirkah Mīrū",
+    "name": "سكركة ميرو",
+    "name:ar": "سكركة ميرو",
+    "name:ar1": "سكركة ميرو",
+    "name:de": "Sakirkah Miru",
+    "name:en": "Sakirkah Miru",
+    "name:fr": "Sakirkah Miru",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 1132436673,
+  "lat": 39.3314903,
+  "lon": 39.1447849,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Tahtacı",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 1379712573,
+  "lat": 37.1329752,
+  "lon": 41.3231786,
+  "tags": {
+    "abandoned": "yes",
+    "alt_name": "Deyrçomer",
+    "name": "Sürmeli",
+    "name:ku": "Dêra Çomera",
+    "place": "locality",
+    "turkey_class": "mezra",
+    "wikidata": "Q6940272",
+    "wikipedia": "ku:Dêra Çomera"
+  }
+},
+{
+  "type": "node",
+  "id": 1379829362,
+  "lat": 37.2463313,
+  "lon": 41.4915987,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Kaleli",
+    "name:en": "Kaleli",
+    "name:ku": "Hepşê",
+    "note": "halen köy statüsü taşıyor",
+    "old_name": "Efşê;Awşe;Evşi",
+    "place": "village",
+    "wikidata": "Q6648223",
+    "wikimedia_commons": "Category:Efshe",
+    "wikipedia": "tr:Kaleli, Nusaybin"
+  }
+},
+{
+  "type": "node",
+  "id": 1429755433,
+  "lat": 38.0604201,
+  "lon": 39.9823431,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Devegeçidi",
+    "name:ku": "Furkaşo",
+    "note": "su altında kaldı / bin nav avê de ma/ under water",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 1444376215,
+  "lat": 39.5518174,
+  "lon": 39.9696177,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Yarbaşı",
+    "name:diq": "Yarbaşiye",
+    "name:zza": "Yarbaşiye",
+    "old_name": "Gerişê",
+    "place": "village",
+    "wikidata": "Q1003938",
+    "wikimedia_commons": "Category:Yarbaşı, Pülümür",
+    "wikipedia": "tr:Yarbaşı, Pülümür"
+  }
+},
+{
+  "type": "node",
+  "id": 1482241060,
+  "lat": 37.2723816,
+  "lon": 43.7009200,
+  "tags": {
+    "abandoned": "yes",
+    "abandoned:place": "hamlet",
+    "alt_name:ku": "Şîvîşk",
+    "name": "Kavaklı",
+    "name:ku": "Şewîşek",
+    "note": "köy boşaltılmış ve tahrip edilmiştir",
+    "place": "locality",
+    "wikidata": "Q6078433",
+    "wikipedia": "tr:Kavaklı, Çukurca"
+  }
+},
+{
+  "type": "node",
+  "id": 1482241102,
+  "lat": 37.4403910,
+  "lon": 43.9628520,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Yazılı",
+    "name:az-Arab": "یازی‌لی",
+    "name:ckb": "تالانە",
+    "name:fa": "یازی‌لی",
+    "name:ku": "Talane",
+    "name:ota": "یازیلی",
+    "name:tr": "Yazılı",
+    "place": "isolated_dwelling",
+    "source": "HGK",
+    "source_name:ku": "http://www.yuksekovahaber.com/yazdir/haber/haber/23-yildir-koyume-giremedim-112304.htm"
+  }
+},
+{
+  "type": "node",
+  "id": 1503654766,
+  "lat": 37.6747555,
+  "lon": 43.3215702,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Akarsu",
+    "name:ku": "Îsîrwan",
+    "place": "village",
+    "wikidata": "Q3678096",
+    "wikipedia": "tr:Akarsu, Beytüşşebap"
+  }
+},
+{
+  "type": "node",
+  "id": 1503654776,
+  "lat": 37.7033363,
+  "lon": 43.0056679,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Dilekyolu",
+    "name:ku": "Pertavin",
+    "place": "village",
+    "wikidata": "Q6064001",
+    "wikipedia": "ku:Pertavin"
+  }
+},
+{
+  "type": "node",
+  "id": 1503654781,
+  "lat": 37.6011400,
+  "lon": 42.9175545,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Dönmezler",
+    "place": "village",
+    "wikidata": "Q6062547"
+  }
+},
+{
+  "type": "node",
+  "id": 1503654806,
+  "lat": 37.6358920,
+  "lon": 43.0307745,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Tuzluca",
+    "place": "village",
+    "wikidata": "Q6064521"
+  }
+},
+{
+  "type": "node",
+  "id": 1833117605,
+  "lat": 37.4429481,
+  "lon": 42.2443610,
+  "tags": {
+    "abandoned": "yes",
+    "alt_name": "Ferisan",
+    "alt_name:ku": "Ferisan",
+    "name": "Atbaşı",
+    "name:ku": "Fêrisa",
+    "note": "boşaltılan köyü",
+    "old_name": "Serde",
+    "place": "village",
+    "wikidata": "Q6950480",
+    "wikipedia": "ku:Fêrisa"
+  }
+},
+{
+  "type": "node",
+  "id": 1833117609,
+  "lat": 37.3981930,
+  "lon": 42.1343190,
+  "tags": {
+    "abandoned": "yes",
+    "alt_name": "Aşağı Dere",
+    "name": "Aşağıdere",
+    "name:ku": "Dêra Jêr",
+    "place": "locality",
+    "wikidata": "Q6887252",
+    "wikipedia": "ku:Dêra Jêr"
+  }
+},
+{
+  "type": "node",
+  "id": 1833117611,
+  "lat": 37.4794502,
+  "lon": 42.2032671,
+  "tags": {
+    "abandoned": "yes",
+    "abandoned:place": "hamlet",
+    "name": "Bağpınar",
+    "old_name": "Cinnit;Cinit",
+    "place": "locality",
+    "wikidata": "Q98442688",
+    "wikimedia_commons": "Category:Bağpınar, Şırnak",
+    "wikipedia": "tr:Bağpınar, Şırnak"
+  }
+},
+{
+  "type": "node",
+  "id": 1833117687,
+  "lat": 37.4751930,
+  "lon": 42.2193220,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Kavuncu",
+    "not": "atlas.gov.tr Kavuncu köyünün yerleşim yeri burada gösteriyor... eski yerleşim yeri acaba?",
+    "note": "boşaltılan köyü",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 1833117708,
+  "lat": 37.5176206,
+  "lon": 42.2435796,
+  "tags": {
+    "abandoned": "yes",
+    "alt_name": "Besûkê",
+    "alt_name:ku": "Bezokê",
+    "name": "Koçağılı",
+    "name:ku": "Bezokê",
+    "place": "village",
+    "wikidata": "Q6921350",
+    "wikipedia": "ku:Bezokê"
+  }
+},
+{
+  "type": "node",
+  "id": 1833117781,
+  "lat": 37.5015364,
+  "lon": 42.1213515,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Seslice",
+    "name:ku": "Meydin",
+    "place": "village",
+    "wikidata": "Q6991473",
+    "wikipedia": "ku:Meydin"
+  }
+},
+{
+  "type": "node",
+  "id": 1833117784,
+  "lat": 37.4888841,
+  "lon": 42.2395607,
+  "tags": {
+    "abandoned": "yes",
+    "abandoned:place": "hamlet",
+    "name": "Tekçınar",
+    "name:ku": "Gundmitrib",
+    "old_name": "Gundükimutrıb",
+    "place": "locality",
+    "wikidata": "Q6957461",
+    "wikipedia": "ku:Gundmitrib"
+  }
+},
+{
+  "type": "node",
+  "id": 1833117807,
+  "lat": 37.4679763,
+  "lon": 42.3913499,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Toptepe",
+    "name:ku": "Avka Masya",
+    "place": "village",
+    "wikidata": "Q10827616",
+    "wikipedia": "tr:Toptepe, Şırnak"
+  }
+},
+{
+  "type": "node",
+  "id": 1921992642,
+  "lat": 37.4000550,
+  "lon": 42.4946360,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Boyunyaka",
+    "name:ku": "Spîndarok",
+    "place": "village",
+    "wikidata": "Q6583882",
+    "wikipedia": "ku:Spîndarok"
+  }
+},
+{
+  "type": "node",
+  "id": 1921992652,
+  "lat": 37.3516350,
+  "lon": 42.4604950,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Derebaşı",
+    "name:ku": "Girê Çolya",
+    "old_name": "Giriçölye;Giri Çölyan",
+    "place": "village",
+    "wikidata": "Q6083976",
+    "wikipedia": "ku:Girê Çolya"
+  }
+},
+{
+  "type": "node",
+  "id": 1921992669,
+  "lat": 37.3326455,
+  "lon": 42.4932692,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Karacaköy",
+    "name:ku": "Sorbitim",
+    "old_name": "Sorbıtım",
+    "place": "village",
+    "wikidata": "Q6054323",
+    "wikipedia": "ku:Sorbitim"
+  }
+},
+{
+  "type": "node",
+  "id": 1921992673,
+  "lat": 37.4123800,
+  "lon": 42.4944110,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Kemerli",
+    "name:ku": "Gulindil",
+    "place": "village",
+    "wikidata": "Q31190561",
+    "wikipedia": "tr:Kemerli, Şırnak"
+  }
+},
+{
+  "type": "node",
+  "id": 2260740518,
+  "lat": 40.1012122,
+  "lon": 44.7348816,
+  "tags": {
+    "historic": "ruins",
+    "name": "Blrashen",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2291221140,
+  "lat": 38.2721399,
+  "lon": 41.9121947,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Sarpkaya",
+    "name:ku": "Zîzan",
+    "place": "village",
+    "wikidata": "Q6579604",
+    "wikipedia": "tr:Sarpkaya, Bitlis"
+  }
+},
+{
+  "type": "node",
+  "id": 2309993571,
+  "lat": 39.4103723,
+  "lon": 39.5810012,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Eskigedik",
+    "name:ku": "Bîrmûn",
+    "note": "terk edilmiş",
+    "old_name": "Birman",
+    "place": "village",
+    "wikidata": "Q1367778",
+    "wikipedia": "tr:Eskigedik, Ovacık"
+  }
+},
+{
+  "type": "node",
+  "id": 2309993575,
+  "lat": 39.3730285,
+  "lon": 39.5710514,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Eğimli",
+    "name:ku": "Maras",
+    "name:zza": "Maras",
+    "note": "terk edilmiş",
+    "old_name": "Maraş",
+    "place": "village",
+    "wikidata": "Q6741219",
+    "wikipedia": "tr:Eğimli, Ovacık"
+  }
+},
+{
+  "type": "node",
+  "id": 2309993579,
+  "lat": 39.2809028,
+  "lon": 39.5483121,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Gözen",
+    "name:ku": "Îksor",
+    "name:zza": "Îksor",
+    "note": "terk edilmiş köy fakat halen köy statüsü taşıyor",
+    "place": "village",
+    "wikidata": "Q5367648",
+    "wikipedia": "tr:Gözen, Tunceli"
+  }
+},
+{
+  "type": "node",
+  "id": 2309993592,
+  "lat": 39.3692649,
+  "lon": 39.5809706,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Yalmanlar",
+    "name:ku": "Ebasan",
+    "name:zza": "Qalan",
+    "note": "terk edilmiş",
+    "old_name": "Kalanbüyük;Kalanhüyük",
+    "place": "village",
+    "wikidata": "Q5800325",
+    "wikipedia": "tr:Yalmanlar, Ovacık"
+  }
+},
+{
+  "type": "node",
+  "id": 2309994063,
+  "lat": 39.3730018,
+  "lon": 39.5578804,
+  "tags": {
+    "abandoned": "yes",
+    "alt_name": "Çatköy",
+    "name": "Çat",
+    "name:ku": "Çet",
+    "name:zza": "Çet",
+    "note": "terk edilmiş",
+    "place": "village",
+    "wikidata": "Q1389875",
+    "wikipedia": "tr:Çatköy, Ovacık"
+  }
+},
+{
+  "type": "node",
+  "id": 2309994068,
+  "lat": 39.3480207,
+  "lon": 39.3854520,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Çayüstü",
+    "note": "terk edilmiş",
+    "old_name": "Malmekrek;Malmirek",
+    "place": "village",
+    "wikidata": "Q6063672",
+    "wikipedia": "tr:Çayüstü, Ovacık"
+  }
+},
+{
+  "type": "node",
+  "id": 2364703785,
+  "lat": 37.3984260,
+  "lon": 42.5124320,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Anılmış",
+    "name:ku": "Gundikê Remo",
+    "place": "village",
+    "wikidata": "Q6957312",
+    "wikipedia": "ku:Gundikê Remo"
+  }
+},
+{
+  "type": "node",
+  "id": 2364703786,
+  "lat": 37.3880390,
+  "lon": 42.6566090,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Ballıkaya",
+    "name:ku": "Bilga",
+    "place": "village",
+    "wikidata": "Q6054915",
+    "wikipedia": "ku:Bilga"
+  }
+},
+{
+  "type": "node",
+  "id": 2364703798,
+  "lat": 37.3014070,
+  "lon": 42.5246660,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Düzalan",
+    "old_name": "Ferikan",
+    "place": "village",
+    "wikidata": "Q6068160",
+    "wikipedia": "ku:Fêrikan, Silopî"
+  }
+},
+{
+  "type": "node",
+  "id": 2364703803,
+  "lat": 37.3380917,
+  "lon": 42.5370465,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Koyunören",
+    "old_name": "Beşiri",
+    "place": "village",
+    "wikidata": "Q111660747"
+  }
+},
+{
+  "type": "node",
+  "id": 2364703813,
+  "lat": 37.3022270,
+  "lon": 42.4945950,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Uyanık",
+    "name:ku": "Xinis",
+    "old_name": "Xınıs",
+    "place": "village",
+    "wikidata": "Q20609903",
+    "wikipedia": "ku:Xinis, Silopî"
+  }
+},
+{
+  "type": "node",
+  "id": 2364703814,
+  "lat": 37.3117560,
+  "lon": 42.4710540,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Yazıköy",
+    "old_name": "Şemikan",
+    "place": "village",
+    "wikidata": "Q6068439"
+  }
+},
+{
+  "type": "node",
+  "id": 2365287091,
+  "lat": 37.6066240,
+  "lon": 42.7494287,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Dereler",
+    "name:ku": "Avyan",
+    "place": "village",
+    "wikidata": "Q16368401",
+    "wikipedia": "ku:Avyan"
+  }
+},
+{
+  "type": "node",
+  "id": 2365289001,
+  "lat": 37.5374260,
+  "lon": 42.4174810,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Çakırsöğüt",
+    "name:ku": "Şilyan",
+    "old_name": "Şiliyan",
+    "place": "village",
+    "wikidata": "Q110095768"
+  }
+},
+{
+  "type": "node",
+  "id": 2480145507,
+  "lat": 36.7293590,
+  "lon": 42.8048750,
+  "tags": {
+    "alt_name": "كاني شيرين",
+    "historic": "ruins",
+    "int_name": "Kānī Shīrīn, كاني شيرين, Kani Shirin, كاني شيرين",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "كاني شيرين",
+    "name:ar": "كاني شيرين",
+    "name:ar1": "كاني شيرين",
+    "name:de": "Kani Shirin",
+    "name:en": "Kani Shirin",
+    "name:fr": "Kani Shirin",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2480203902,
+  "lat": 36.4574970,
+  "lon": 41.4955290,
+  "tags": {
+    "alt_name": "روفيان",
+    "historic": "ruins",
+    "int_name": "Rūfyān, روفيان, Rufyan, روفيان",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "روفيان",
+    "name:ar": "روفيان",
+    "name:ar1": "روفيان",
+    "name:de": "Rufyan",
+    "name:en": "Rufyan",
+    "name:fr": "Rufyan",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2480204385,
+  "lat": 36.4627800,
+  "lon": 41.5586290,
+  "tags": {
+    "alt_name": "خربة محي آسو",
+    "historic": "ruins",
+    "int_name": "Khirbat Muḩī Āsū, خربة محي اسو, Khirbat Muhi Asu, خربة محي اسو",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "خربة محي آسو",
+    "name:ar": "خربة محي آسو",
+    "name:ar1": "خربة محي آسو",
+    "name:de": "Khirbat Muhi Asu",
+    "name:en": "Khirbat Muhi Asu",
+    "name:fr": "Khirbat Muhi Asu",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2482491611,
+  "lat": 36.9472820,
+  "lon": 42.9140940,
+  "tags": {
+    "alt_name": "كرهبت",
+    "historic": "ruins",
+    "int_name": "Karah Bat, Kirahbit, Krabit, كره بت, Karah Bat, Kirahbit, Krabit, كره بت",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "كرهبت",
+    "name:ar": "كرهبت",
+    "name:ar1": "كرهبت",
+    "name:de": "Karah Bat",
+    "name:en": "Karah Bat",
+    "name:fr": "Karah Bat",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2482491619,
+  "lat": 36.9335988,
+  "lon": 42.8566859,
+  "tags": {
+    "alt_name": "خرابة خلفي",
+    "historic": "ruins",
+    "int_name": "Khalīfka, Kharābat Khalafī, خرابة خلفي, Khalifka, Kharabat Khalafi, خرابة خلفي",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "خرابة خلفي",
+    "name:ar": "خرابة خليفكا",
+    "name:ar1": "خرابة خلفي",
+    "name:de": "Khalifka",
+    "name:en": "Khalifka",
+    "name:fr": "Khalifka",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2482491626,
+  "lat": 36.9318777,
+  "lon": 42.8557370,
+  "tags": {
+    "alt_name": "خراب خلفي",
+    "historic": "ruins",
+    "int_name": "Kharāb Khalfī, Kharab Khalfi",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "خراب خلفي",
+    "name:ar": "خراب خلفي",
+    "name:ar1": "خراب خلفي",
+    "name:de": "Kharab Khalfi",
+    "name:en": "Kharab Khalfi",
+    "name:fr": "Kharab Khalfi",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2482497747,
+  "lat": 37.2143590,
+  "lon": 43.6547230,
+  "tags": {
+    "alt_name": "خرائب دوتازة",
+    "historic": "ruins",
+    "int_name": "Kharāib Dūtāzah, خرائب دوتازة, Kharaib Dutazah, خرائب دوتازة",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "خرائب دوتازة",
+    "name:ar": "خرائب دوتازة",
+    "name:ar1": "خرائب دوتازة",
+    "name:de": "Kharaib Dutazah",
+    "name:en": "Kharaib Dutazah",
+    "name:fr": "Kharaib Dutazah",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2482498560,
+  "lat": 37.0816670,
+  "lon": 43.6608330,
+  "tags": {
+    "alt_name": "بيزنور",
+    "historic": "ruins",
+    "int_name": "Bēznūr, Beznur",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "بيزنور",
+    "name:ar": "بيزنور",
+    "name:ar1": "بيزنور",
+    "name:de": "Beznur",
+    "name:en": "Beznur",
+    "name:fr": "Beznur",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2486391770,
+  "lat": 36.1982330,
+  "lon": 42.9810880,
+  "tags": {
+    "alt_name": "إمام حمزة",
+    "historic": "ruins",
+    "int_name": "Imām Ḩamzah, امام حمزة, Imam Hamzah, امام حمزة",
+    "name": "إمام حمزة",
+    "name:ar": "إمام حمزة",
+    "name:ar1": "إمام حمزة",
+    "name:de": "Imam Hamzah",
+    "name:en": "Imam Hamzah",
+    "name:fr": "Imam Hamzah",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2488214984,
+  "lat": 36.5596200,
+  "lon": 42.8620170,
+  "tags": {
+    "alt_name": "خرب ولد",
+    "historic": "ruins",
+    "int_name": "Kharab Walad, خرب ولد, Kharab Walad, خرب ولد",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "خرب ولد",
+    "name:ar": "خرب ولد",
+    "name:ar1": "خرب ولد",
+    "name:de": "Kharab Walad",
+    "name:en": "Kharab Walad",
+    "name:fr": "Kharab Walad",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2488215101,
+  "lat": 36.6114430,
+  "lon": 42.7754740,
+  "tags": {
+    "alt_name": "رجم السهونة",
+    "historic": "ruins",
+    "int_name": "Rajm S·huna, Rujm aş Şābūnah, Rujm as Sahūnah, رجم السهونه, Rajm S.huna, Rujm as Sabunah, Rujm as Sahunah, رجم السهونه",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "رجم السهونة",
+    "name:ar": "رجم السهونة",
+    "name:ar1": "رجم السهونة",
+    "name:de": "Rajm S.huna",
+    "name:en": "Rajm S.huna",
+    "name:fr": "Rajm S.huna",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2488215856,
+  "lat": 36.4217770,
+  "lon": 42.5152850,
+  "tags": {
+    "alt_name": "خرابة الكبيرة",
+    "historic": "ruins",
+    "int_name": "Kharābat al Kabīrah, خرابة الكبيرة, Kharabat al Kabirah, خرابة الكبيرة",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "خرابة الكبيرة",
+    "name:ar": "خرابة الكبيرة",
+    "name:ar1": "خرابة الكبيرة",
+    "name:de": "Kharabat al Kabirah",
+    "name:en": "Kharabat al Kabirah",
+    "name:fr": "Kharabat al Kabirah",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2488215860,
+  "lat": 36.6949890,
+  "lon": 42.5451280,
+  "tags": {
+    "alt_name": "خربة مطرود",
+    "historic": "ruins",
+    "int_name": "Khirbat Maţrūd, خربة مطرود, Khirbat Matrud, خربة مطرود",
+    "name": "خربة مطرود",
+    "name:ar": "خربة مطرود",
+    "name:ar1": "خربة مطرود",
+    "name:de": "Khirbat Matrud",
+    "name:en": "Khirbat Matrud",
+    "name:fr": "Khirbat Matrud",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2488215867,
+  "lat": 36.7157130,
+  "lon": 42.7301800,
+  "tags": {
+    "alt_name": "خربة الجحش",
+    "historic": "ruins",
+    "int_name": "Khirbat al Jaḩsh, خربة الجحش, Khirbat al Jahsh, خربة الجحش",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "خربة الجحش",
+    "name:ar": "خربة الجحش",
+    "name:ar1": "خربة الجحش",
+    "name:de": "Khirbat al Jahsh",
+    "name:en": "Khirbat al Jahsh",
+    "name:fr": "Khirbat al Jahsh",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2488231785,
+  "lat": 36.4382190,
+  "lon": 43.4720710,
+  "tags": {
+    "alt_name": "كند الآصور",
+    "historic": "ruins",
+    "int_name": "Kand al Āşūr, كندالاصور, Kand al Asur, كندالاصور",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "كند الآصور",
+    "name:ar": "كند الآصور",
+    "name:ar1": "كند الآصور",
+    "name:de": "Kand al Asur",
+    "name:en": "Kand al Asur",
+    "name:fr": "Kand al Asur",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2488232534,
+  "lat": 36.6698800,
+  "lon": 43.3939240,
+  "tags": {
+    "alt_name": "جراونة;Jerwan;Jirāwanah;Jirwana;Jirwānah;Jrwana;جراونة;Jirawanah;Jirwana;Jirwanah;Jrwana;جراونة",
+    "historic": "ruins",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "جراونة",
+    "name:ar": "جراونة",
+    "name:ar1": "جراونة",
+    "name:de": "Jirawanah",
+    "name:en": "Jirawanah",
+    "name:fr": "Jerwan",
+    "place": "locality",
+    "tourism": "attraction",
+    "wikidata": "Q17064815",
+    "wikipedia": "en:Jerwan"
+  }
+},
+{
+  "type": "node",
+  "id": 2488238281,
+  "lat": 36.9193220,
+  "lon": 42.6496280,
+  "tags": {
+    "alt_name": "خربة قاضي حسن",
+    "historic": "ruins",
+    "int_name": "Khirbat Qāḑī Ḩasan, Khirbat Qāḑī Ḩassan, خربة قاضي حسن, Khirbat Qadi Hasan, Khirbat Qadi Hassan, خربة قاضي حسن",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "خربة قاضي حسن",
+    "name:ar": "خربة قاضي حسن",
+    "name:ar1": "خربة قاضي حسن",
+    "name:de": "Khirbat Qadi Hasan",
+    "name:en": "Khirbat Qadi Hasan",
+    "name:fr": "Khirbat Qadi Hasan",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2488238789,
+  "lat": 36.9290684,
+  "lon": 42.2301556,
+  "tags": {
+    "alt_name": "تل مطلق",
+    "historic": "ruins",
+    "int_name": "Tall Muţlaq, Tel Mutlaq, Tall Mutlaq, Tel Mutlaq",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "تل مطلق",
+    "name:ar": "تل مطلق",
+    "name:ar1": "تل مطلق",
+    "name:de": "Tall Mutlaq",
+    "name:en": "Tall Mutlaq",
+    "name:fr": "Tall Mutlaq",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2488242705,
+  "lat": 36.0532450,
+  "lon": 41.5190780,
+  "tags": {
+    "alt_name": "خربة ربيعة",
+    "historic": "ruins",
+    "int_name": "Khirbat Rabīah, خربة ربيعة, Khirbat Rabiah, خربة ربيعة",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "خربة ربيعة",
+    "name:ar": "خربة ربيعة",
+    "name:ar1": "خربة ربيعة",
+    "name:de": "Khirbat Rabiah",
+    "name:en": "Khirbat Rabiah",
+    "name:fr": "Khirbat Rabiah",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2488245966,
+  "lat": 36.6155560,
+  "lon": 42.9816670,
+  "tags": {
+    "alt_name": "بقزة",
+    "historic": "ruins",
+    "int_name": "Baqzah, Baqzah",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "بقزة",
+    "name:ar": "بقزة",
+    "name:ar1": "بقزة",
+    "name:de": "Baqzah",
+    "name:en": "Baqzah",
+    "name:fr": "Baqzah",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2488259574,
+  "lat": 37.0038890,
+  "lon": 44.2313890,
+  "tags": {
+    "alt_name": "كيمدا",
+    "historic": "ruins",
+    "int_name": "Gēmadā, Gemada",
+    "is_in": "Iraq , جمهورية العراق",
+    "name": "كيمدا",
+    "name:ar": "كيمدا",
+    "name:ar1": "كيمدا",
+    "name:de": "Gemada",
+    "name:en": "Gemada",
+    "name:fr": "Gemada",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2517658651,
+  "lat": 37.7714650,
+  "lon": 42.4683380,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Kovanağzı",
+    "name:ku": "Tal",
+    "place": "village",
+    "wikidata": "Q7061449",
+    "wikipedia": "ku:Tal"
+  }
+},
+{
+  "type": "node",
+  "id": 2517671495,
+  "lat": 37.5615183,
+  "lon": 42.1095845,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Karageçit",
+    "name:ku": "Spîvyan",
+    "place": "village",
+    "wikidata": "Q7058119",
+    "wikipedia": "ku:Spîvyan"
+  }
+},
+{
+  "type": "node",
+  "id": 2517671688,
+  "lat": 37.5958233,
+  "lon": 42.1114265,
+  "tags": {
+    "abandoned": "yes",
+    "name": "İnceler",
+    "name:ku": "Basret",
+    "place": "village",
+    "wikidata": "Q15075664",
+    "wikipedia": "ku:Basret"
+  }
+},
+{
+  "type": "node",
+  "id": 2647288407,
+  "lat": 37.5498890,
+  "lon": 42.1573180,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Alkemer",
+    "name:ku": "Dêrşew",
+    "old_name": "Derşev",
+    "place": "village",
+    "wikidata": "Q110086813"
+  }
+},
+{
+  "type": "node",
+  "id": 2647288443,
+  "lat": 37.5462041,
+  "lon": 42.2184858,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Görmeç",
+    "name:ku": "Biyava",
+    "place": "village",
+    "wikidata": "Q6924132",
+    "wikipedia": "ku:Biyava"
+  }
+},
+{
+  "type": "node",
+  "id": 2647288459,
+  "lat": 37.5641970,
+  "lon": 42.1848110,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Günedoğmuş",
+    "place": "village",
+    "wikidata": "Q7022438",
+    "wikipedia": "ku:Qarnê"
+  }
+},
+{
+  "type": "node",
+  "id": 2647288462,
+  "lat": 37.5685500,
+  "lon": 42.1502270,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Kapanlı",
+    "old_name": "İri;Eri;Ayri",
+    "place": "village",
+    "wikidata": "Q111584722"
+  }
+},
+{
+  "type": "node",
+  "id": 2647288518,
+  "lat": 37.6111394,
+  "lon": 42.2023734,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Tünekpınar",
+    "name:ku": "Awal",
+    "place": "village",
+    "wikidata": "Q6911493",
+    "wikipedia": "ku:Awal"
+  }
+},
+{
+  "type": "node",
+  "id": 2647288536,
+  "lat": 37.4695210,
+  "lon": 42.0325700,
+  "tags": {
+    "abandoned": "yes",
+    "abandoned:place": "hamlet",
+    "name": "Yenidemir",
+    "name:ku": "Bûnesre",
+    "note": "boşaltılmış köy",
+    "place": "locality",
+    "wikidata": "Q47201",
+    "wikipedia": "ku:Bûnesre"
+  }
+},
+{
+  "type": "node",
+  "id": 2647728585,
+  "lat": 37.8028283,
+  "lon": 42.0486483,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Kılıçkaya",
+    "name:ku": "Dêvkê",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 3586518291,
+  "lat": 36.8288510,
+  "lon": 38.4611547,
+  "tags": {
+    "alt_name": "خراب حيل",
+    "fixme": "temporary node until rendering finally works in main renderers. Then to be removed. Name not rendered in town, village hamlet areas by osm standard. Landuse:residential not rendered in opencyclemap. Please anyone in charge correct renderer!",
+    "historic": "ruins",
+    "is_in": "Syria, الجمهورية العربية السورية ، سوريا",
+    "landuse": "residential",
+    "name": "خراب حيل",
+    "name:alt": "Kharāb Ḩayl",
+    "name:ar": "خراب حيل",
+    "name:ar1": "خراب حيل",
+    "name:de": "Kharab Hayl",
+    "name:en": "Kharab Hayl",
+    "name:fr": "Kharab Hayl",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 3725947270,
+  "lat": 39.3875862,
+  "lon": 39.4296954,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Esenyurt",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 3725947271,
+  "lat": 39.3891757,
+  "lon": 39.4360215,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Koruklu",
+    "note": "terk edilmiş",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 4440367228,
+  "lat": 37.5762677,
+  "lon": 42.6725308,
+  "tags": {
+    "abandoned": "yes",
+    "alt_name:ku": "Besta",
+    "name": "Besta",
+    "name:ku": "Besta Bêrguva",
+    "place": "hamlet",
+    "source": "ku:wikipedia",
+    "wikidata": "Q26703716"
+  }
+},
+{
+  "type": "node",
+  "id": 5046531381,
+  "lat": 37.6862267,
+  "lon": 41.8974967,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Sevindik",
+    "name:ku": "Zorawa",
+    "old_name": "Zorava",
+    "place": "hamlet",
+    "source:name": "nisanyanmap",
+    "turkey_class": "mezra"
+  }
+},
+{
+  "type": "node",
+  "id": 5779334325,
+  "lat": 37.7552122,
+  "lon": 40.3080591,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Dikmetaş",
+    "name:ku": "Qerqatkê",
+    "place": "isolated_dwelling"
+  }
+},
+{
+  "type": "node",
+  "id": 6140888333,
+  "lat": 37.1834611,
+  "lon": 41.2941039,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Qutbe",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 6193243760,
+  "lat": 41.7883560,
+  "lon": 44.0246832,
+  "tags": {
+    "name": "ტამის ნასოფლარი",
+    "place": "locality",
+    "ruins": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6771664763,
+  "lat": 40.5875016,
+  "lon": 43.5697900,
+  "tags": {
+    "abandoned": "yes",
+    "note": "seen from MAXAR imagery",
+    "place": "locality",
+    "ruined": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8064013344,
+  "lat": 37.3533082,
+  "lon": 42.1765990,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Dirsekli",
+    "old_name": "Baska;Baskiyan",
+    "place": "suburb",
+    "wikidata": "Q6781061",
+    "wikipedia": "tr:Dirsekli, Cizre"
+  }
+},
+{
+  "type": "node",
+  "id": 9759072929,
+  "lat": 37.3679317,
+  "lon": 42.3620796,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Hisar",
+    "name:ku": "Hebler",
+    "place": "neighbourhood",
+    "wikidata": "Q6960780",
+    "wikipedia": "ku:Hebler"
+  }
+},
+{
+  "type": "node",
+  "id": 9762145169,
+  "lat": 37.4105877,
+  "lon": 41.6212857,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Yokuşlu",
+    "old_name": "Nemerdan",
+    "place": "hamlet",
+    "source:name": "nisanyanmap",
+    "turkey_class": "mezra"
+  }
+},
+{
+  "type": "node",
+  "id": 9762145178,
+  "lat": 37.3548761,
+  "lon": 42.0013010,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Garisan",
+    "name:ku": "Garisan",
+    "place": "locality",
+    "source:name": "nisanyanmap",
+    "turkey_class": "mezra"
+  }
+},
+{
+  "type": "node",
+  "id": 9857325680,
+  "lat": 37.7351886,
+  "lon": 42.0696223,
+  "tags": {
+    "abandoned": "yes",
+    "alt_name": "Daran ?",
+    "name": "Peynirli",
+    "old_name": "Dara",
+    "place": "locality",
+    "source:name": "nisanyanmap"
+  }
+},
+{
+  "type": "node",
+  "id": 9857325681,
+  "lat": 37.8047828,
+  "lon": 41.9509292,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Kutluca",
+    "old_name": "Mızgeft",
+    "place": "locality",
+    "source:name": "nisanyanmap"
+  }
+},
+{
+  "type": "node",
+  "id": 9857325685,
+  "lat": 37.6787087,
+  "lon": 41.9192791,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Dursunlar",
+    "old_name": "Kasimi",
+    "place": "locality",
+    "source:name": "nisanyanmap"
+  }
+},
+{
+  "type": "node",
+  "id": 9857325689,
+  "lat": 37.8092669,
+  "lon": 42.1359587,
+  "tags": {
+    "abandoned": "yes",
+    "name": "Boğazbaşı",
+    "name:ku": "Qesir Celo",
+    "old_name": "Kasrı Celo",
+    "place": "locality",
+    "source:name": "nisanyanmap",
+    "wikidata": "Q7028155",
+    "wikipedia": "ku:Qesir Celo"
+  }
+},
+{
+  "type": "node",
+  "id": 9857325691,
+  "lat": 37.8118158,
+  "lon": 41.9287186,
+  "tags": {
+    "abandoned": "yes",
+    "alt_name": "Derik",
+    "place": "locality",
+    "source:name": "nisanyanmap"
+  }
+},
+{
+  "type": "node",
+  "id": 9857325692,
+  "lat": 37.8087922,
+  "lon": 41.9420671,
+  "tags": {
+    "abandoned": "yes",
+    "alt_name": "Beninok ?",
+    "place": "locality",
+    "source:name": "nisanyanmap"
+  }
+},
+{
+  "type": "node",
+  "id": 9857325693,
+  "lat": 37.8356746,
+  "lon": 41.9211835,
+  "tags": {
+    "abandoned": "yes",
+    "alt_name": "Banadeli",
+    "place": "locality",
+    "source:name": "nisanyanmap"
+  }
+},
+{
+  "type": "way",
+  "id": 321352240,
+  "nodes": [
+    3280931977,
+    3280931974,
+    3280931973,
+    5717527917,
+    5717527918,
+    3280931971,
+    5717527916,
+    5478356209,
+    5478356210,
+    5717527915,
+    3280931972,
+    3280931975,
+    3280931976,
+    3280931978,
+    3280931979,
+    3280931981,
+    3280931980,
+    3280931977
+  ],
+  "tags": {
+    "abandoned:place": "village",
+    "name": "Շերան",
+    "name:en": "Sheran",
+    "name:hy": "Շերան",
+    "name:ru": "Шеран"
+  }
+},
+{
+  "type": "way",
+  "id": 1047818142,
+  "nodes": [
+    9635216957,
+    9635216956,
+    9635216955,
+    9635216954,
+    9635216953,
+    9635216952,
+    9635216951,
+    9635216950,
+    9635216949,
+    9635216948,
+    9635216947,
+    9635216946,
+    9635216945,
+    9635216944,
+    9635216943,
+    9635216942,
+    9635216941,
+    9635216940,
+    9635216939,
+    9635216938,
+    9635216937,
+    9635216936,
+    9635216935,
+    9635216934,
+    9635216933,
+    9635216957
+  ],
+  "tags": {
+    "abandoned:place": "village",
+    "name": "Զույգաղբյուր",
+    "name:en": "Zuygakhbjur"
+  }
+}
+
+  ]
+}

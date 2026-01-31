@@ -76,13 +76,13 @@ const BookCard = memo(function BookCard({ book }: { book: Book }) {
           </div>
           
           <div className="flex-1 min-w-0">
-            <h3 className="text-lg font-bold text-gray-900 dark:text-white truncate">
+            <Link to={`/book/${book.id}`} className="text-lg font-bold text-gray-900 dark:text-white truncate hover:text-red-600 dark:hover:text-red-400 block">
               {book.title}
-            </h3>
+            </Link>
             
             {book.authors.length > 0 && (
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                {book.authors.map(a => a.name).join(', ')}
+                {book.authors.map((a, i) => (<span key={a.id}>{i > 0 && ", "}<Link to={`/person/${a.id}`} className="hover:text-red-600 dark:hover:text-red-400">{a.name}</Link></span>))}
               </p>
             )}
             

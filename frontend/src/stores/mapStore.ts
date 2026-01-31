@@ -57,8 +57,8 @@ const MIN_YEAR = 1900
 const MAX_YEAR = new Date().getFullYear()
 
 export const useMapStore = create<MapState>((set) => ({
-  // Default to 1960 - a year with lots of historical data
-  selectedYear: 1960,
+  // Default to 2019 - last year with complete CShapes border data
+  selectedYear: 2019,
   selectedCountryId: null,
   hoveredCountryId: null,
   center: [10, 30],

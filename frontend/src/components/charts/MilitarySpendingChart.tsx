@@ -29,7 +29,7 @@ const MilitarySpendingChart = memo(function MilitarySpendingChart({
   data,
   title = 'Military Spending',
   showGDPPercent = true,
-  currency = 'USD'
+  currency: _currency = "USD"
 }: MilitarySpendingChartProps) {
   const sortedData = useMemo(() => {
     return [...data].sort((a, b) => a.year - b.year)
@@ -44,16 +44,16 @@ const MilitarySpendingChart = memo(function MilitarySpendingChart({
 
   if (!data || data.length === 0) {
     return (
-      <div className="bg-white rounded-lg border p-4">
-        <h3 className="text-lg font-semibold mb-3">{title}</h3>
-        <p className="text-gray-500 text-sm">No military spending data available</p>
+      <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4">
+        <h3 className="text-lg font-semibold mb-3 dark:text-white">{title}</h3>
+        <p className="text-gray-500 dark:text-gray-400 text-sm">No military spending data available</p>
       </div>
     )
   }
 
   return (
-    <div className="bg-white rounded-lg border p-4">
-      <h3 className="text-lg font-semibold mb-3">{title}</h3>
+    <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4">
+      <h3 className="text-lg font-semibold mb-3 dark:text-white">{title}</h3>
       <ResponsiveContainer width="100%" height={300}>
         <ComposedChart data={sortedData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
@@ -77,10 +77,11 @@ const MilitarySpendingChart = memo(function MilitarySpendingChart({
             />
           )}
           <Tooltip
-            formatter={(value: number, name: string) => {
-              if (name === 'Spending') return [formatSpending(value), name]
-              if (name === '% of GDP') return [value.toFixed(2) + '%', name]
-              return [value.toLocaleString(), name]
+            formatter={(value, name) => {
+              const numValue = Number(value) || 0
+              if (name === 'Spending') return [formatSpending(numValue), name]
+              if (name === '% of GDP') return [numValue.toFixed(2) + '%', name]
+              return [numValue.toLocaleString(), name]
             }}
           />
           <Legend />

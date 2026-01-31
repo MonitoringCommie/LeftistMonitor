@@ -108,3 +108,29 @@ async def get_book(
         raise NotFoundError(f"Book {book_id} not found")
 
     return book
+
+
+@router.get("/people", response_model=PaginatedResponse[PersonListItem])
+async def list_all_people(
+    person_type: Optional[str] = Query(None),
+    search: Optional[str] = Query(None),
+    page: int = Query(1, ge=1),
+    per_page: int = Query(50, ge=1, le=100),
+    db: AsyncSession = Depends(get_db),
+):
+    """Get all people with optional filtering."""
+    service = PeopleService(db)
+    people, total = await service.get_all_people(
+        person_type=person_type,
+        search=search,
+        page=page,
+        per_page=per_page,
+    )
+
+    return PaginatedResponse.create(
+        items=[PersonListItem.model_validate(p) for p in people],
+        total=total,
+        page=page,
+        per_page=per_page,
+    )
+

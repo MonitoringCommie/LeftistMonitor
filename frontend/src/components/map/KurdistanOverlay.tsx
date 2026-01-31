@@ -1,6 +1,7 @@
 import { useEffect, useMemo } from 'react'
 import maplibregl from 'maplibre-gl'
-import { useKurdistanEventsGeoJSON } from '../../api/territories'
+import { useQuery } from '@tanstack/react-query'
+import { apiClient } from '../../api/client'
 
 interface KurdistanOverlayProps {
   map: maplibregl.Map | null
@@ -8,56 +9,151 @@ interface KurdistanOverlayProps {
 }
 
 const COLORS = {
-  destroyed_village: '#8B4513',    // Saddle brown - destroyed villages
-  military_installation: '#2F4F4F', // Dark slate gray - military
-  dam_project: '#4169E1',          // Royal blue - dams flooding lands
-  massacre: '#DC143C',             // Crimson - massacres
-  political_imprisonment: '#800080', // Purple - political prisoners
-  cultural_suppression: '#FF8C00', // Dark orange - cultural suppression
+  destroyedVillage: '#8B0000', // Dark red - destroyed villages
+  military: '#000080', // Navy - military installations
+  dam: '#4169E1', // Blue - dams
+  iraqi: '#228B22', // Green - Iraqi Kurdistan
 }
 
-const EVENT_LABELS: Record<string, string> = {
-  destroyed_village: 'Destroyed Villages',
-  military_installation: 'Military Installations',
-  dam_project: 'Dam Projects',
-  massacre: 'Massacres',
-  political_imprisonment: 'Political Imprisonment',
-  cultural_suppression: 'Cultural Suppression',
+function useDestroyedVillages() {
+  return useQuery({
+    queryKey: ['kurd-destroyed-villages'],
+    queryFn: async () => {
+      const { data } = await apiClient.get('/territories/kurdistan/destroyed-villages/geojson')
+      return data
+    },
+    staleTime: 1000 * 60 * 60,
+  })
+}
+
+function useMilitary() {
+  return useQuery({
+    queryKey: ['kurd-military'],
+    queryFn: async () => {
+      const { data } = await apiClient.get('/territories/kurdistan/military/geojson')
+      return data
+    },
+    staleTime: 1000 * 60 * 60,
+  })
+}
+
+function useDams() {
+  return useQuery({
+    queryKey: ['kurd-dams'],
+    queryFn: async () => {
+      const { data } = await apiClient.get('/territories/kurdistan/dams/geojson')
+      return data
+    },
+    staleTime: 1000 * 60 * 60,
+  })
+}
+
+function useIraqiKurdistan() {
+  return useQuery({
+    queryKey: ['iraqi-kurdistan'],
+    queryFn: async () => {
+      const { data } = await apiClient.get('/territories/kurdistan/iraqi-kurdistan/geojson')
+      return data
+    },
+    staleTime: 1000 * 60 * 60,
+  })
 }
 
 export default function KurdistanOverlay({ map, visible }: KurdistanOverlayProps) {
-  const { data: events } = useKurdistanEventsGeoJSON()
+  const { data: destroyedVillages } = useDestroyedVillages()
+  const { data: military } = useMilitary()
+  const { data: dams } = useDams()
+  const { data: iraqi } = useIraqiKurdistan()
 
   useEffect(() => {
     if (!map) return
 
     const initLayers = () => {
-      if (!map.getSource('kurdistan-events')) {
-        map.addSource('kurdistan-events', {
+      // Iraqi Kurdistan
+      if (!map.getSource('iraqi-kurdistan')) {
+        map.addSource('iraqi-kurdistan', {
           type: 'geojson',
           data: { type: 'FeatureCollection', features: [] }
         })
+        map.addLayer({
+          id: 'iraqi-kurdistan-fill',
+          type: 'fill',
+          source: 'iraqi-kurdistan',
+          paint: {
+            'fill-color': COLORS.iraqi,
+            'fill-opacity': 0.2
+          },
+          layout: { visibility: 'none' }
+        })
+        map.addLayer({
+          id: 'iraqi-kurdistan-line',
+          type: 'line',
+          source: 'iraqi-kurdistan',
+          paint: {
+            'line-color': COLORS.iraqi,
+            'line-width': 2
+          },
+          layout: { visibility: 'none' }
+        })
       }
 
-      if (!map.getLayer('kurdistan-events-layer')) {
+      // Destroyed Villages
+      if (!map.getSource('kurd-destroyed')) {
+        map.addSource('kurd-destroyed', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        })
         map.addLayer({
-          id: 'kurdistan-events-layer',
+          id: 'kurd-destroyed-layer',
           type: 'circle',
-          source: 'kurdistan-events',
+          source: 'kurd-destroyed',
+          paint: {
+            'circle-radius': 5,
+            'circle-color': COLORS.destroyedVillage,
+            'circle-opacity': 0.8,
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#fff'
+          },
+          layout: { visibility: 'none' }
+        })
+      }
+
+      // Military
+      if (!map.getSource('kurd-military')) {
+        map.addSource('kurd-military', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        })
+        map.addLayer({
+          id: 'kurd-military-layer',
+          type: 'circle',
+          source: 'kurd-military',
           paint: {
             'circle-radius': 6,
-            'circle-color': [
-              'match', ['get', 'category'],
-              'destroyed_village', COLORS.destroyed_village,
-              'military_installation', COLORS.military_installation,
-              'dam_project', COLORS.dam_project,
-              'massacre', COLORS.massacre,
-              'political_imprisonment', COLORS.political_imprisonment,
-              'cultural_suppression', COLORS.cultural_suppression,
-              '#888888'
-            ],
-            'circle-opacity': 0.85,
-            'circle-stroke-width': 1.5,
+            'circle-color': COLORS.military,
+            'circle-opacity': 0.8,
+            'circle-stroke-width': 2,
+            'circle-stroke-color': '#fff'
+          },
+          layout: { visibility: 'none' }
+        })
+      }
+
+      // Dams
+      if (!map.getSource('kurd-dams')) {
+        map.addSource('kurd-dams', {
+          type: 'geojson',
+          data: { type: 'FeatureCollection', features: [] }
+        })
+        map.addLayer({
+          id: 'kurd-dams-layer',
+          type: 'circle',
+          source: 'kurd-dams',
+          paint: {
+            'circle-radius': 8,
+            'circle-color': COLORS.dam,
+            'circle-opacity': 0.9,
+            'circle-stroke-width': 2,
             'circle-stroke-color': '#fff'
           },
           layout: { visibility: 'none' }
@@ -75,26 +171,46 @@ export default function KurdistanOverlay({ map, visible }: KurdistanOverlayProps
   useEffect(() => {
     if (!map) return
 
-    const updateSource = () => {
-      if (events && map.getSource('kurdistan-events')) {
-        (map.getSource('kurdistan-events') as maplibregl.GeoJSONSource).setData(events as any)
+    const updateSources = () => {
+      if (destroyedVillages && map.getSource('kurd-destroyed')) {
+        (map.getSource('kurd-destroyed') as maplibregl.GeoJSONSource).setData(destroyedVillages as any)
+      }
+      if (military && map.getSource('kurd-military')) {
+        (map.getSource('kurd-military') as maplibregl.GeoJSONSource).setData(military as any)
+      }
+      if (dams && map.getSource('kurd-dams')) {
+        (map.getSource('kurd-dams') as maplibregl.GeoJSONSource).setData(dams as any)
+      }
+      if (iraqi && map.getSource('iraqi-kurdistan')) {
+        (map.getSource('iraqi-kurdistan') as maplibregl.GeoJSONSource).setData(iraqi as any)
       }
     }
 
     if (map.isStyleLoaded()) {
-      updateSource()
+      updateSources()
     } else {
-      map.once('load', updateSource)
+      map.once('load', updateSources)
     }
-  }, [map, events])
+  }, [map, destroyedVillages, military, dams, iraqi])
 
   useEffect(() => {
     if (!map) return
 
     const setVisibility = () => {
-      if (map.getLayer('kurdistan-events-layer')) {
-        map.setLayoutProperty('kurdistan-events-layer', 'visibility', visible ? 'visible' : 'none')
-      }
+      const vis = visible ? 'visible' : 'none'
+      const layers = [
+        'iraqi-kurdistan-fill',
+        'iraqi-kurdistan-line',
+        'kurd-destroyed-layer',
+        'kurd-military-layer',
+        'kurd-dams-layer',
+      ]
+
+      layers.forEach(layer => {
+        if (map.getLayer(layer)) {
+          map.setLayoutProperty(layer, 'visibility', vis)
+        }
+      })
     }
 
     if (map.isStyleLoaded()) {
@@ -104,37 +220,40 @@ export default function KurdistanOverlay({ map, visible }: KurdistanOverlayProps
     }
   }, [map, visible])
 
-  const stats = useMemo(() => {
-    if (!events?.features) return {}
-    return events.features.reduce((acc, f) => {
-      const type = f.properties.category
-      acc[type] = (acc[type] || 0) + 1
-      return acc
-    }, {} as Record<string, number>)
-  }, [events])
+  const stats = useMemo(() => ({
+    destroyedVillages: destroyedVillages?.features?.length || 0,
+    military: military?.features?.length || 0,
+    dams: dams?.features?.length || 0,
+  }), [destroyedVillages, military, dams])
 
   if (!visible) return null
 
   return (
     <div className="absolute bottom-4 right-4 bg-white rounded-lg shadow-lg p-3 z-10 max-w-xs">
-      <div className="text-sm font-bold text-gray-800 mb-2">Kurdistan: Oppression Data</div>
-      <div className="text-xs text-gray-500 mb-2">~4,000 villages destroyed by Turkey</div>
+      <div className="text-sm font-bold text-gray-800 mb-2">Kurdistan: Multi-State Oppression</div>
+      <div className="text-xs text-gray-500 mb-2">Source: OpenStreetMap</div>
 
       <div className="space-y-1.5 text-xs">
-        {Object.entries(COLORS).map(([type, color]) => {
-          const count = stats[type] || 0
-          if (count === 0) return null
-          return (
-            <div key={type} className="flex items-center gap-2">
-              <div className="w-3 h-3 rounded-full" style={{ backgroundColor: color }} />
-              <span className="text-gray-700">{EVENT_LABELS[type] || type} ({count})</span>
-            </div>
-          )
-        })}
+        <div className="flex items-center gap-2">
+          <div className="w-3 h-3 rounded-full" style={{ backgroundColor: COLORS.destroyedVillage }} />
+          <span className="text-gray-700">Destroyed Villages ({stats.destroyedVillages})</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <div className="w-3 h-3 rounded-full" style={{ backgroundColor: COLORS.military }} />
+          <span className="text-gray-700">Military Installations ({stats.military})</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <div className="w-3 h-3 rounded-full" style={{ backgroundColor: COLORS.dam }} />
+          <span className="text-gray-700">Dam Projects ({stats.dams})</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <div className="w-3 h-3 rounded" style={{ backgroundColor: COLORS.iraqi, opacity: 0.4 }} />
+          <span className="text-gray-700">Iraqi Kurdistan Region</span>
+        </div>
       </div>
 
       <div className="mt-2 pt-2 border-t border-gray-200 text-xs text-gray-500">
-        Click features for details
+        ~4,000 villages destroyed in Turkey
       </div>
     </div>
   )

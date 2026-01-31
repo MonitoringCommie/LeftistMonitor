@@ -1,0 +1,88 @@
+{
+  "title": "Palestine Occupation Infrastructure GeoJSON Data",
+  "description": "Geographic data on West Bank occupation infrastructure from OCHA, HDX, and OpenStreetMap",
+  "generated": "2026-01-31T23:11:10.687204",
+  "sources": [
+    {
+      "name": "OCHA occupied Palestinian territory (oPt)",
+      "url": "https://data.humdata.org/organization/ocha-opt",
+      "datasets": [
+        "West Bank Separation Barrier (January 2018)",
+        "Oslo Agreement Areas (A, B, C, H1, H2)",
+        "Closures 2022 (Checkpoints, Road Gates, Roadblocks)",
+        "Israeli Firing Zones"
+      ]
+    },
+    {
+      "name": "OpenStreetMap via Overpass API",
+      "url": "https://overpass-api.de",
+      "datasets": [
+        "Checkpoints and border crossings",
+        "Gates, roadblocks, barriers",
+        "Settlements and populated places with Hebrew names"
+      ]
+    }
+  ],
+  "files": {
+    "separation_barrier.geojson": {
+      "description": "West Bank Separation Barrier/Wall - lines showing constructed and planned sections",
+      "feature_count": 261,
+      "format": "GeoJSON (WGS84/EPSG:4326)"
+    },
+    "oslo_areas_abc.geojson": {
+      "description": "Oslo Agreement zones - Areas A, B, C, H1, H2, East Jerusalem, Nature Reserves",
+      "feature_count": 8,
+      "format": "GeoJSON (WGS84/EPSG:4326)"
+    },
+    "checkpoints.geojson": {
+      "description": "OCHA Checkpoints - staffed military checkpoints",
+      "feature_count": 77,
+      "format": "GeoJSON (WGS84/EPSG:4326)"
+    },
+    "road_gates.geojson": {
+      "description": "Road Gates - gates controlling access to roads",
+      "feature_count": 165,
+      "format": "GeoJSON (WGS84/EPSG:4326)"
+    },
+    "roadblocks_earthmounds.geojson": {
+      "description": "Roadblocks and earthmounds - physical barriers",
+      "feature_count": 325,
+      "format": "GeoJSON (WGS84/EPSG:4326)"
+    },
+    "linear_closures.geojson": {
+      "description": "Linear closures - road segments with access restrictions",
+      "feature_count": 78,
+      "format": "GeoJSON (WGS84/EPSG:4326)"
+    },
+    "israeli_firing_zones.geojson": {
+      "description": "Israeli Firing Zones (Closed Military Areas)",
+      "feature_count": 58,
+      "format": "GeoJSON (WGS84/EPSG:4326)"
+    },
+    "osm_checkpoints.geojson": {
+      "description": "OpenStreetMap checkpoints",
+      "feature_count": 13,
+      "format": "GeoJSON (WGS84/EPSG:4326)"
+    },
+    "osm_gates.geojson": {
+      "description": "OpenStreetMap gates",
+      "feature_count": 3365,
+      "format": "GeoJSON (WGS84/EPSG:4326)"
+    },
+    "osm_blocks.geojson": {
+      "description": "OpenStreetMap blocks/barriers",
+      "feature_count": 216,
+      "format": "GeoJSON (WGS84/EPSG:4326)"
+    },
+    "osm_walls_barriers.geojson": {
+      "description": "OpenStreetMap walls and barrier infrastructure",
+      "feature_count": 20,
+      "format": "GeoJSON (WGS84/EPSG:4326)"
+    },
+    "osm_settlements_places.geojson": {
+      "description": "OpenStreetMap settlements and places (all places with Hebrew names in West Bank area)",
+      "feature_count": 1711,
+      "format": "GeoJSON (WGS84/EPSG:4326)"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+[out:json][timeout:300];
+// West Bank bounding box approximately: 31.2-32.6 lat, 34.8-35.6 lon
+(
+  // Checkpoints and border crossings
+  node["barrier"="checkpoint"](31.2,34.8,32.6,35.6);
+  node["border"="checkpoint"](31.2,34.8,32.6,35.6);
+  node["checkpoint"](31.2,34.8,32.6,35.6);
+  way["barrier"="checkpoint"](31.2,34.8,32.6,35.6);
+  
+  // Israeli settlements
+  node["place"]["settlement_type"="israeli_settlement"](31.2,34.8,32.6,35.6);
+  node["place"~"town|village|neighbourhood"]["operator"="Israel"](31.2,34.8,32.6,35.6);
+  
+  // Barriers and walls
+  way["barrier"="wall"](31.2,34.8,32.6,35.6);
+  way["barrier"="fence"]["fence_type"="separation_barrier"](31.2,34.8,32.6,35.6);
+  way["name"~"Separation Barrier|West Bank barrier"](31.2,34.8,32.6,35.6);
+  
+  // Roadblocks and gates
+  node["barrier"="gate"](31.2,34.8,32.6,35.6);
+  node["barrier"="block"](31.2,34.8,32.6,35.6);
+);
+out body;
+>;
+out skel qt;

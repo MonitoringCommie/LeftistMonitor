@@ -1,0 +1,36 @@
+{
+    "region": "Ireland",
+    "context": "British colonialism and partition (1921-present)",
+    "description": "Geographic data related to the British occupation and partition of Ireland",
+    "source": "OpenStreetMap Overpass API",
+    "bounding_box": {
+        "south": 51,
+        "west": -11,
+        "north": 56,
+        "east": -5
+    },
+    "download_date": "2026-01-31",
+    "files": [
+        {
+            "filename": "peace_walls_belfast.json",
+            "description": "Peace walls and interface barriers in Belfast",
+            "element_count": 4343
+        },
+        {
+            "filename": "military_installations.json",
+            "description": "Military installations, forts, and castles in Northern Ireland",
+            "element_count": 3564
+        },
+        {
+            "filename": "border_checkpoints.json",
+            "description": "Border checkpoints, customs posts, and boundary markers",
+            "element_count": 93
+        },
+        {
+            "filename": "partition_boundary.json",
+            "description": "Administrative boundary of Northern Ireland representing the 1921 partition",
+            "element_count": 39296
+        }
+    ],
+    "license": "ODbL"
+}

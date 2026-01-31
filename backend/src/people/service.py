@@ -350,3 +350,34 @@ class PeopleService:
             "isbn": book.isbn,
             "authors": authors,
         }
+
+    async def get_all_people(
+        self,
+        person_type: Optional[str] = None,
+        search: Optional[str] = None,
+        page: int = 1,
+        per_page: int = 50,
+    ) -> tuple[List[Person], int]:
+        """Get all people with optional filtering."""
+        query = select(Person)
+
+        # Filter by type
+        if person_type:
+            query = query.where(Person.person_types.contains([person_type]))
+
+        # Search by name
+        if search:
+            query = query.where(func.lower(Person.name).like(f"%{search.lower()}%"))
+
+        # Get total count
+        count_query = select(func.count()).select_from(query.subquery())
+        total = await self.db.scalar(count_query) or 0
+
+        # Apply pagination and ordering
+        query = query.order_by(Person.name)
+        query = query.offset((page - 1) * per_page).limit(per_page)
+
+        result = await self.db.execute(query)
+        people = result.scalars().all()
+
+        return list(people), total

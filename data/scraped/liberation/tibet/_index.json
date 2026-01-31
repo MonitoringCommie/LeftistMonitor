@@ -1,0 +1,36 @@
+{
+    "region": "Tibet",
+    "context": "Chinese Occupation since 1950",
+    "description": "Geographic data related to Tibet under Chinese occupation",
+    "source": "OpenStreetMap Overpass API",
+    "bounding_box": {
+        "south": 26,
+        "west": 78,
+        "north": 36,
+        "east": 99
+    },
+    "download_date": "2026-01-31",
+    "files": [
+        {
+            "filename": "monasteries_temples.json",
+            "description": "Buddhist monasteries and temples",
+            "element_count": 14311
+        },
+        {
+            "filename": "military_installations.json",
+            "description": "Military installations and bases",
+            "element_count": 24906
+        },
+        {
+            "filename": "railway_infrastructure.json",
+            "description": "Railway lines and stations",
+            "element_count": 118498
+        },
+        {
+            "filename": "prisons_detention.json",
+            "description": "Prisons and detention facilities",
+            "element_count": 892
+        }
+    ],
+    "license": "ODbL"
+}

@@ -1,0 +1,13 @@
+[out:json][timeout:300];
+// West Bank proper (excluding most of Israel)
+(
+  // Search for places with Hebrew names or Israeli administration markers
+  node["place"~"city|town|village|neighbourhood|hamlet"]["name:he"](31.3,34.95,32.55,35.55);
+  way["place"~"city|town|village|neighbourhood|hamlet"]["name:he"](31.3,34.95,32.55,35.55);
+  relation["place"~"city|town|village|neighbourhood|hamlet"]["name:he"](31.3,34.95,32.55,35.55);
+  
+  // Known settlement areas and outposts
+  node["landuse"="residential"]["name:he"](31.3,34.95,32.55,35.55);
+  way["landuse"="residential"]["name:he"](31.3,34.95,32.55,35.55);
+);
+out body center;

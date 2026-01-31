@@ -14,7 +14,10 @@ const Header = memo(function Header() {
   const logout = useLogout()
 
   const navLinks = [
-    { to: '/', label: 'Map' },
+    { to: '/', label: 'Hub' },
+    { to: '/map', label: 'Map' },
+    { to: '/people', label: 'People' },
+    
     { to: '/frontlines', label: 'Frontlines' },
     { to: '/books', label: 'Books' },
     { to: '/glossary', label: 'Glossary' },

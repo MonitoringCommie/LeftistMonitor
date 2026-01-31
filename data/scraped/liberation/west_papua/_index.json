@@ -1,0 +1,31 @@
+{
+    "region": "West Papua",
+    "context": "Indonesian Occupation since 1963",
+    "description": "Geographic data related to West Papua under Indonesian occupation",
+    "source": "OpenStreetMap Overpass API",
+    "bounding_box": {
+        "south": -9,
+        "west": 130,
+        "north": 0,
+        "east": 141
+    },
+    "download_date": "2026-01-31",
+    "files": [
+        {
+            "filename": "freeport_mine.json",
+            "description": "Mining operations including Grasberg/Freeport mine",
+            "element_count": 587
+        },
+        {
+            "filename": "military_installations.json",
+            "description": "Military installations and bases",
+            "element_count": 1284
+        },
+        {
+            "filename": "settlements.json",
+            "description": "Villages, hamlets, and residential areas including transmigration settlements",
+            "element_count": 108191
+        }
+    ],
+    "license": "ODbL"
+}
