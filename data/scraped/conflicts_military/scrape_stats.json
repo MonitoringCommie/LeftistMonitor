@@ -1,0 +1,20 @@
+{
+  "conflicts": 32419,
+  "military": 16625,
+  "stats": {
+    "conflicts": {
+      "wars": 3362,
+      "civil_wars": 417,
+      "armed_conflicts": 18326,
+      "rebellions": 1944,
+      "genocides": 202,
+      "military_operations": 18226
+    },
+    "military": {
+      "military_bases": 16413,
+      "military_alliances": 265,
+      "coups": 1165
+    }
+  },
+  "scraped_at": "2026-01-31T02:27:24.938729"
+}

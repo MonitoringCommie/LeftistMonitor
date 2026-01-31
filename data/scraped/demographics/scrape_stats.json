@@ -1,0 +1,12 @@
+{
+  "total": 27205,
+  "categories": {
+    "countries": 300,
+    "cities": 6433,
+    "ethnic_groups": 10475,
+    "languages": 11671,
+    "religions": 1109,
+    "refugee_camps": 4124
+  },
+  "scraped_at": "2026-01-31T02:29:57.540344"
+}

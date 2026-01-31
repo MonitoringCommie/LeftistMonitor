@@ -1,0 +1,17 @@
+{
+  "elections": 30008,
+  "parties": 19819,
+  "stats": {
+    "elections": {
+      "general_elections": 43813,
+      "presidential_elections": 872,
+      "referendums": 637
+    },
+    "parties": {
+      "all_parties": 29290,
+      "communist_parties": 581,
+      "socialist_parties": 392
+    }
+  },
+  "scraped_at": "2026-01-31T02:25:46.937044"
+}

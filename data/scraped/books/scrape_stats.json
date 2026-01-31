@@ -1,0 +1,21 @@
+{
+  "total": 18146,
+  "stats": {
+    "wikidata": {
+      "political_books": 506,
+      "history_books": 1353,
+      "philosophy_books": 5097
+    },
+    "open_library": {
+      "history": 2000,
+      "politics": 2000,
+      "socialism": 2000,
+      "communism": 2000,
+      "revolution": 2000,
+      "economics": 2000,
+      "war": 2000,
+      "colonialism": 2000
+    }
+  },
+  "scraped_at": "2026-01-31T02:29:10.536980"
+}

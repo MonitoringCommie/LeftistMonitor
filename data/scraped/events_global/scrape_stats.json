@@ -1,0 +1,15 @@
+{
+  "total": 34058,
+  "categories": {
+    "revolutions": 205,
+    "wars": 3341,
+    "battles": 18815,
+    "coups": 801,
+    "protests": 4961,
+    "strikes": 883,
+    "massacres": 2333,
+    "treaties": 6198,
+    "independence": 82
+  },
+  "scraped_at": "2026-01-31T02:25:18.632675"
+}

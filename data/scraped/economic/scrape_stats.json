@@ -1,0 +1,12 @@
+{
+  "total": 53542,
+  "categories": {
+    "economic_crises": 11591,
+    "trade_agreements": 868,
+    "nationalizations": 0,
+    "sanctions": 101,
+    "companies": 40532,
+    "labor_unions": 5313
+  },
+  "scraped_at": "2026-01-31T02:29:45.734660"
+}
