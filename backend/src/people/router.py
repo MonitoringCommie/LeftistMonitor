@@ -44,7 +44,7 @@ async def list_people_by_country(
     )
 
 
-@router.get("/people/{person_id}", response_model=PersonResponse)
+@router.get("/{person_id}", response_model=PersonResponse)
 async def get_person(
     person_id: UUID,
     db: AsyncSession = Depends(get_db),
@@ -59,7 +59,7 @@ async def get_person(
     return person
 
 
-@router.get("/people/{person_id}/connections", response_model=ConnectionGraphResponse)
+@router.get("/{person_id}/connections", response_model=ConnectionGraphResponse)
 async def get_person_connections(
     person_id: UUID,
     depth: int = Query(2, ge=1, le=4),
@@ -110,7 +110,7 @@ async def get_book(
     return book
 
 
-@router.get("/people", response_model=PaginatedResponse[PersonListItem])
+@router.get("/", response_model=PaginatedResponse[PersonListItem])
 async def list_all_people(
     person_type: Optional[str] = Query(None),
     search: Optional[str] = Query(None),

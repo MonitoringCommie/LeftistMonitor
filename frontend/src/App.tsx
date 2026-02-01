@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { lazy, Suspense } from 'react'
 import Layout from './components/layout/Layout'
 import { usePrefetchBorders } from './api/geography'
+import ErrorBoundary from './components/ErrorBoundary'
 
 // Lazy load pages for code splitting
 const HomePage = lazy(() => import('./pages/HomePage'))
@@ -21,6 +22,15 @@ const GlobalStatsPage = lazy(() => import('./pages/GlobalStatsPage'))
 const PersonDetailPage = lazy(() => import('./pages/PersonDetailPage'))
 const BookDetailPage = lazy(() => import('./pages/BookDetailPage'))
 const EventDetailPage = lazy(() => import('./pages/EventDetailPage'))
+
+// Movement pages
+const FeministMovementsPage = lazy(() => import('./pages/FeministMovementsPage'))
+const CivilRightsPage = lazy(() => import('./pages/CivilRightsPage'))
+const LaborMovementsPage = lazy(() => import('./pages/LaborMovementsPage'))
+
+// History pages
+const SlaveryHistoryPage = lazy(() => import('./pages/SlaveryHistoryPage'))
+const ElectionsPage = lazy(() => import('./pages/ElectionsPage'))
 
 // Loading fallback component
 function PageLoader() {
@@ -57,6 +67,15 @@ function AppContent() {
           <Route path="admin" element={<AdminPage />} />
           <Route path="login" element={<LoginPage />} />
           <Route path="stats" element={<GlobalStatsPage />} />
+
+          {/* Movement pages */}
+          <Route path="movements/feminist" element={<FeministMovementsPage />} />
+          <Route path="movements/civil-rights" element={<CivilRightsPage />} />
+          <Route path="movements/labor" element={<LaborMovementsPage />} />
+
+          {/* History pages */}
+          <Route path="history/slavery" element={<SlaveryHistoryPage />} />
+          <Route path="elections" element={<ElectionsPage />} />
         </Route>
       </Routes>
     </Suspense>
@@ -65,9 +84,11 @@ function AppContent() {
 
 function App() {
   return (
-    <BrowserRouter>
-      <AppContent />
-    </BrowserRouter>
+    <ErrorBoundary>
+      <BrowserRouter>
+        <AppContent />
+      </BrowserRouter>
+    </ErrorBoundary>
   )
 }
 

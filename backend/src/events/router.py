@@ -44,7 +44,7 @@ async def list_events_by_country(
     )
 
 
-@router.get("/events/{event_id}", response_model=EventResponse)
+@router.get("/{event_id}", response_model=EventResponse)
 async def get_event(
     event_id: UUID,
     db: AsyncSession = Depends(get_db),
@@ -84,7 +84,7 @@ async def list_conflicts_by_country(
     )
 
 
-@router.get("/conflicts/{conflict_id}", response_model=ConflictResponse)
+@router.get("/conflict/{conflict_id}", response_model=ConflictResponse)
 async def get_conflict(
     conflict_id: UUID,
     db: AsyncSession = Depends(get_db),
@@ -121,3 +121,48 @@ async def get_global_events_by_year(
     service = EventsService(db)
     events = await service.get_global_events_by_year(year, limit)
     return [EventListItem.model_validate(e) for e in events]
+
+
+@router.get("/", response_model=PaginatedResponse[EventListItem])
+async def list_all_events(
+    search: Optional[str] = Query(None),
+    category: Optional[str] = Query(None),
+    page: int = Query(1, ge=1),
+    per_page: int = Query(50, ge=1, le=100),
+    db: AsyncSession = Depends(get_db),
+):
+    """Get all events with optional filtering."""
+    from sqlalchemy import select, func, or_
+    from .models import Event
+    
+    query = select(Event)
+    
+    if search:
+        search_term = f"%{search}%"
+        query = query.where(
+            or_(
+                Event.title.ilike(search_term),
+                Event.description.ilike(search_term)
+            )
+        )
+    
+    if category:
+        query = query.where(Event.category == category)
+    
+    # Count total
+    count_query = select(func.count()).select_from(query.subquery())
+    total_result = await db.execute(count_query)
+    total = total_result.scalar() or 0
+    
+    # Get page
+    offset = (page - 1) * per_page
+    query = query.order_by(Event.start_date.desc().nullslast()).offset(offset).limit(per_page)
+    result = await db.execute(query)
+    events = result.scalars().all()
+    
+    return PaginatedResponse.create(
+        items=[EventListItem.model_validate(e) for e in events],
+        total=total,
+        page=page,
+        per_page=per_page,
+    )

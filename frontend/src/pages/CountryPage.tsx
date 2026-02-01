@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import { useCountry } from '../api/geography'
 import { useSelectedYear } from '../stores/mapStore'
 import CountryTabs from '../components/country/CountryTabs'
+import ErrorBoundary from '../components/ErrorBoundary'
 
 // Lazy load all tab components for better initial load
 const OverviewTab = lazy(() => import('../components/country/OverviewTab'))
@@ -30,6 +31,16 @@ function TabSkeleton() {
         <div className="h-32 bg-gray-200 rounded"></div>
         <div className="h-32 bg-gray-200 rounded"></div>
       </div>
+    </div>
+  )
+}
+
+// Tab error fallback
+function TabErrorFallback() {
+  return (
+    <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-center">
+      <p className="text-yellow-800 font-medium">Unable to load this tab</p>
+      <p className="text-yellow-600 text-sm mt-1">Try selecting a different tab or refresh the page.</p>
     </div>
   )
 }
@@ -208,11 +219,13 @@ export default function CountryPage() {
         </div>
       </div>
 
-      {/* Tab content with Suspense for lazy loading */}
+      {/* Tab content with Suspense for lazy loading and ErrorBoundary for error handling */}
       <div className="container mx-auto px-4 py-6">
-        <Suspense fallback={<TabSkeleton />}>
-          {tabContent}
-        </Suspense>
+        <ErrorBoundary fallback={<TabErrorFallback />}>
+          <Suspense fallback={<TabSkeleton />}>
+            {tabContent}
+          </Suspense>
+        </ErrorBoundary>
       </div>
     </div>
   )

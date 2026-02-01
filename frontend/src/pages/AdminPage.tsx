@@ -176,31 +176,149 @@ function EditUserModal({
   )
 }
 
+// Entity form fields configuration
+const ENTITY_FIELDS: Record<string, { name: string; type: string; required?: boolean }[]> = {
+  books: [
+    { name: 'title', type: 'text', required: true },
+    { name: 'author', type: 'text' },
+    { name: 'publication_year', type: 'number' },
+    { name: 'book_type', type: 'text' },
+    { name: 'description', type: 'textarea' },
+    { name: 'topics', type: 'text' },
+  ],
+  people: [
+    { name: 'name', type: 'text', required: true },
+    { name: 'nationality', type: 'text' },
+    { name: 'birth_year', type: 'number' },
+    { name: 'death_year', type: 'number' },
+    { name: 'description', type: 'textarea' },
+  ],
+  events: [
+    { name: 'name', type: 'text', required: true },
+    { name: 'start_date', type: 'date' },
+    { name: 'end_date', type: 'date' },
+    { name: 'category', type: 'text' },
+    { name: 'description', type: 'textarea' },
+    { name: 'location', type: 'text' },
+  ],
+  conflicts: [
+    { name: 'name', type: 'text', required: true },
+    { name: 'start_date', type: 'date' },
+    { name: 'end_date', type: 'date' },
+    { name: 'conflict_type', type: 'text' },
+    { name: 'description', type: 'textarea' },
+  ],
+}
+
+// Edit/Create Modal
+function EntityModal({
+  entityType,
+  item,
+  onClose,
+  onSave,
+}: {
+  entityType: string
+  item: any | null
+  onClose: () => void
+  onSave: (data: any) => void
+}) {
+  const [formData, setFormData] = useState<any>(item || {})
+  const [saving, setSaving] = useState(false)
+  const fields = ENTITY_FIELDS[entityType] || []
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setSaving(true)
+    await onSave(formData)
+    setSaving(false)
+  }
+
+  return (
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+      <div className="bg-white dark:bg-gray-800 rounded-lg w-full max-w-2xl max-h-[90vh] overflow-y-auto">
+        <div className="p-4 border-b dark:border-gray-700 flex justify-between items-center">
+          <h3 className="text-lg font-semibold dark:text-white">
+            {item ? 'Edit' : 'Create'} {entityType.slice(0, -1)}
+          </h3>
+          <button onClick={onClose} className="text-gray-500 hover:text-gray-700 dark:text-gray-400 text-2xl">&times;</button>
+        </div>
+        <form onSubmit={handleSubmit} className="p-4 space-y-4">
+          {fields.map((field) => (
+            <div key={field.name}>
+              <label className="block text-sm font-medium mb-1 dark:text-gray-300 capitalize">
+                {field.name.replace(/_/g, ' ')}
+                {field.required && <span className="text-red-500 ml-1">*</span>}
+              </label>
+              {field.type === 'textarea' ? (
+                <textarea
+                  value={formData[field.name] || ''}
+                  onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })}
+                  rows={3}
+                  className="w-full border dark:border-gray-600 rounded-lg px-3 py-2 dark:bg-gray-700 dark:text-white"
+                />
+              ) : field.type === 'number' ? (
+                <input
+                  type="number"
+                  value={formData[field.name] || ''}
+                  onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value ? Number(e.target.value) : null })}
+                  className="w-full border dark:border-gray-600 rounded-lg px-3 py-2 dark:bg-gray-700 dark:text-white"
+                />
+              ) : field.type === 'date' ? (
+                <input
+                  type="date"
+                  value={formData[field.name]?.slice(0, 10) || ''}
+                  onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })}
+                  className="w-full border dark:border-gray-600 rounded-lg px-3 py-2 dark:bg-gray-700 dark:text-white"
+                />
+              ) : (
+                <input
+                  type="text"
+                  value={formData[field.name] || ''}
+                  onChange={(e) => setFormData({ ...formData, [field.name]: e.target.value })}
+                  required={field.required}
+                  className="w-full border dark:border-gray-600 rounded-lg px-3 py-2 dark:bg-gray-700 dark:text-white"
+                />
+              )}
+            </div>
+          ))}
+          <div className="flex gap-3 pt-4">
+            <button type="submit" disabled={saving} className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 disabled:opacity-50">
+              {saving ? 'Saving...' : 'Save'}
+            </button>
+            <button type="button" onClick={onClose} className="px-4 py-2 border dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 dark:text-gray-300">
+              Cancel
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  )
+}
+
 // Data management panel (generic for books, people, events, conflicts)
-function DataManagementPanel({ 
-  entityType, 
-  title 
-}: { 
+function DataManagementPanel({
+  entityType,
+  title
+}: {
   entityType: 'books' | 'people' | 'events' | 'conflicts'
-  title: string 
+  title: string
 }) {
   const [search, setSearch] = useState('')
   const [items, setItems] = useState<any[]>([])
   const [loading, setLoading] = useState(false)
   const [total, setTotal] = useState(0)
   const [page, setPage] = useState(0)
+  const [editItem, setEditItem] = useState<any | null>(null)
+  const [showModal, setShowModal] = useState(false)
+  const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null)
   const limit = 20
   const { token } = useAuthStore()
 
   const fetchItems = async () => {
     setLoading(true)
     try {
-      const params = new URLSearchParams({
-        skip: String(page * limit),
-        limit: String(limit),
-      })
+      const params = new URLSearchParams({ skip: String(page * limit), limit: String(limit) })
       if (search) params.append('search', search)
-      
       const res = await fetch(`/api/v1/admin/${entityType}?${params}`, {
         headers: { Authorization: `Bearer ${token}` }
       })
@@ -215,6 +333,30 @@ function DataManagementPanel({
     setLoading(false)
   }
 
+  const handleSave = async (data: any) => {
+    try {
+      const isUpdate = !!data.id
+      const url = isUpdate ? `/api/v1/admin/${entityType}/${data.id}` : `/api/v1/admin/${entityType}`
+      const res = await fetch(url, {
+        method: isUpdate ? 'PUT' : 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify(data)
+      })
+      if (res.ok) {
+        setMessage({ type: 'success', text: `${isUpdate ? 'Updated' : 'Created'} successfully!` })
+        setShowModal(false)
+        setEditItem(null)
+        fetchItems()
+        setTimeout(() => setMessage(null), 3000)
+      } else {
+        const err = await res.json()
+        setMessage({ type: 'error', text: err.detail || 'Failed to save' })
+      }
+    } catch {
+      setMessage({ type: 'error', text: 'Network error' })
+    }
+  }
+
   const handleDelete = async (id: string) => {
     if (!confirm('Are you sure you want to delete this item?')) return
     try {
@@ -223,23 +365,33 @@ function DataManagementPanel({
         headers: { Authorization: `Bearer ${token}` }
       })
       if (res.ok) {
+        setMessage({ type: 'success', text: 'Deleted successfully!' })
         fetchItems()
+        setTimeout(() => setMessage(null), 3000)
       }
-    } catch (err) {
-      console.error('Failed to delete', err)
+    } catch {
+      setMessage({ type: 'error', text: 'Failed to delete' })
     }
   }
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700">
+      {message && (
+        <div className={`p-3 text-sm ${message.type === 'success' ? 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300' : 'bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-300'}`}>
+          {message.text}
+        </div>
+      )}
+      
       <div className="p-4 border-b dark:border-gray-700 flex justify-between items-center">
         <h2 className="text-xl font-semibold dark:text-white">{title}</h2>
-        <button 
-          onClick={fetchItems}
-          className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700"
-        >
-          Load Data
-        </button>
+        <div className="flex gap-2">
+          <button onClick={() => { setEditItem(null); setShowModal(true) }} className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700">
+            + Create New
+          </button>
+          <button onClick={fetchItems} className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">
+            Load Data
+          </button>
+        </div>
       </div>
 
       <div className="p-4 border-b dark:border-gray-700 flex gap-4">
@@ -251,10 +403,7 @@ function DataManagementPanel({
           onKeyDown={(e) => e.key === 'Enter' && fetchItems()}
           className="border dark:border-gray-600 rounded-lg px-4 py-2 w-64 dark:bg-gray-700 dark:text-white"
         />
-        <button
-          onClick={fetchItems}
-          className="px-4 py-2 border dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 dark:text-gray-300"
-        >
+        <button onClick={fetchItems} className="px-4 py-2 border dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 dark:text-gray-300">
           Search
         </button>
       </div>
@@ -275,22 +424,22 @@ function DataManagementPanel({
               <tbody>
                 {items.map((item) => (
                   <tr key={item.id} className="border-b dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700">
-                    <td className="px-4 py-3 dark:text-white">
-                      {item.title || item.name}
-                    </td>
+                    <td className="px-4 py-3 dark:text-white">{item.title || item.name}</td>
                     <td className="px-4 py-3 text-sm text-gray-500 dark:text-gray-400">
                       {entityType === 'books' && `${item.publication_year || 'N/A'} | ${item.book_type || 'N/A'}`}
-                      {entityType === 'people' && `${item.nationality || 'N/A'} | ${item.birth_date?.slice(0, 4) || 'N/A'}`}
+                      {entityType === 'people' && `${item.nationality || 'N/A'} | ${item.birth_year || 'N/A'}`}
                       {entityType === 'events' && `${item.start_date?.slice(0, 10) || 'N/A'} | ${item.category || 'N/A'}`}
                       {entityType === 'conflicts' && `${item.start_date?.slice(0, 10) || 'N/A'} | ${item.conflict_type || 'N/A'}`}
                     </td>
                     <td className="px-4 py-3">
-                      <button
-                        onClick={() => handleDelete(item.id)}
-                        className="px-3 py-1 text-sm bg-red-50 text-red-600 rounded hover:bg-red-100 dark:bg-red-900 dark:text-red-300"
-                      >
-                        Delete
-                      </button>
+                      <div className="flex gap-2">
+                        <button onClick={() => { setEditItem(item); setShowModal(true) }} className="px-3 py-1 text-sm bg-blue-50 text-blue-600 rounded hover:bg-blue-100 dark:bg-blue-900 dark:text-blue-300">
+                          Edit
+                        </button>
+                        <button onClick={() => handleDelete(item.id)} className="px-3 py-1 text-sm bg-red-50 text-red-600 rounded hover:bg-red-100 dark:bg-red-900 dark:text-red-300">
+                          Delete
+                        </button>
+                      </div>
                     </td>
                   </tr>
                 ))}
@@ -302,20 +451,8 @@ function DataManagementPanel({
               Showing {page * limit + 1}-{Math.min((page + 1) * limit, total)} of {total}
             </span>
             <div className="flex gap-2">
-              <button
-                onClick={() => { setPage(p => Math.max(0, p - 1)); fetchItems() }}
-                disabled={page === 0}
-                className="px-3 py-1 border dark:border-gray-600 rounded disabled:opacity-50 dark:text-gray-300"
-              >
-                Previous
-              </button>
-              <button
-                onClick={() => { setPage(p => p + 1); fetchItems() }}
-                disabled={(page + 1) * limit >= total}
-                className="px-3 py-1 border dark:border-gray-600 rounded disabled:opacity-50 dark:text-gray-300"
-              >
-                Next
-              </button>
+              <button onClick={() => { setPage(p => Math.max(0, p - 1)); fetchItems() }} disabled={page === 0} className="px-3 py-1 border dark:border-gray-600 rounded disabled:opacity-50 dark:text-gray-300">Previous</button>
+              <button onClick={() => { setPage(p => p + 1); fetchItems() }} disabled={(page + 1) * limit >= total} className="px-3 py-1 border dark:border-gray-600 rounded disabled:opacity-50 dark:text-gray-300">Next</button>
             </div>
           </div>
         </>
@@ -324,10 +461,18 @@ function DataManagementPanel({
           Click "Load Data" to fetch {entityType}
         </div>
       )}
+
+      {showModal && (
+        <EntityModal
+          entityType={entityType}
+          item={editItem}
+          onClose={() => { setShowModal(false); setEditItem(null) }}
+          onSave={handleSave}
+        />
+      )}
     </div>
   )
 }
-
 // Audit log panel
 function AuditLogPanel() {
   const [logs, setLogs] = useState<any[]>([])

@@ -127,6 +127,7 @@ app.include_router(
 )
 
 from .core.citations import router as citations_router
+from .stats.router import router as stats_router
 
 app.include_router(
     citations_router,
@@ -244,4 +245,11 @@ app.include_router(
     admin_router,
     prefix=f"{settings.api_v1_prefix}/admin",
     tags=["admin"],
+)
+
+# Stats router
+app.include_router(
+    stats_router,
+    prefix=f"{settings.api_v1_prefix}/stats",
+    tags=["stats"],
 )
