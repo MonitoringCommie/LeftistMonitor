@@ -1,0 +1,18 @@
+{
+  "home": "首页",
+  "map": "地图",
+  "hub": "中心",
+  "timeline": "时间线",
+  "people": "人物",
+  "events": "事件",
+  "books": "书籍",
+  "conflicts": "冲突",
+  "movements": "运动",
+  "about": "关于",
+  "login": "登录",
+  "logout": "退出",
+  "register": "注册",
+  "profile": "个人资料",
+  "settings": "设置",
+  "language": "语言"
+}

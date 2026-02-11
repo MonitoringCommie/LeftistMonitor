@@ -1,0 +1,25 @@
+{
+  "title": "Carte Interactive",
+  "layers": "Couches de la Carte",
+  "legend": "Legende",
+  "controls": {
+    "zoomIn": "Zoom Avant",
+    "zoomOut": "Zoom Arriere",
+    "reset": "Reinitialiser la Vue",
+    "fullscreen": "Plein Ecran"
+  },
+  "filters": {
+    "title": "Filtres",
+    "dateRange": "Periode",
+    "category": "Categorie",
+    "region": "Region"
+  },
+  "categories": {
+    "revolutions": "Revolutions",
+    "strikes": "Greves",
+    "protests": "Manifestations",
+    "massacres": "Massacres",
+    "liberation": "Mouvements de Liberation",
+    "conflicts": "Conflits Armes"
+  }
+}

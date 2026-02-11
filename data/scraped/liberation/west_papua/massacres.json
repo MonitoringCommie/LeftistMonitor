@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Biak Massacre",
+    "date": "1998-07-06",
+    "location": {"lat": -1.1792, "lon": 136.1054},
+    "description": "Indonesian military opened fire on pro-independence protesters raising the Morning Star flag",
+    "estimated_deaths": "100-200",
+    "survivors_accounts": "Bodies dumped at sea"
+  },
+  {
+    "name": "Wamena Massacre",
+    "date": "2019-09-23",
+    "location": {"lat": -4.1000, "lon": 138.9500},
+    "description": "Violence following racist incidents, dozens killed in military crackdown",
+    "estimated_deaths": "30+"
+  },
+  {
+    "name": "Wasior Massacre",
+    "date": "2001-06-13",
+    "location": {"lat": -2.7500, "lon": 134.5000},
+    "description": "Military operation killing civilians in retaliation for OPM activity",
+    "estimated_deaths": "Unknown, many tortured"
+  },
+  {
+    "name": "Paniai Killings",
+    "date": "2014-12-08",
+    "location": {"lat": -3.9000, "lon": 136.3500},
+    "description": "Security forces opened fire on peaceful protesters",
+    "estimated_deaths": "4 confirmed, many wounded"
+  }
+]

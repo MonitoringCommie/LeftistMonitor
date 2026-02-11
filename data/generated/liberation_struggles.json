@@ -1,0 +1,273 @@
+{
+  "struggles": [
+    {
+      "id": "palestine",
+      "name": "Palestinian Liberation Struggle",
+      "start_year": 1948,
+      "status": "ongoing",
+      "description": "Struggle for Palestinian self-determination and statehood against Israeli occupation",
+      "key_cities": [
+        {"name": "Gaza City", "lat": 31.5167, "lng": 34.4500, "type": "city", "significance": "Palestinian administrative center"},
+        {"name": "Ramallah", "lat": 31.9454, "lng": 35.1997, "type": "city", "significance": "Palestinian Authority headquarters"},
+        {"name": "Jenin", "lat": 32.2730, "lng": 35.2680, "type": "city", "significance": "Resistance stronghold"},
+        {"name": "Bethlehem", "lat": 31.9454, "lng": 35.2038, "type": "city", "significance": "Occupied Palestinian city"}
+      ],
+      "important_sites": [
+        {"name": "West Bank Barrier/Wall", "lat": 31.95, "lng": 35.25, "type": "checkpoint", "significance": "Israeli separation wall"},
+        {"name": "Qalandia Checkpoint", "lat": 31.9620, "lng": 35.2042, "type": "checkpoint", "significance": "Major crossing point"},
+        {"name": "Golan Heights", "lat": 33.0000, "lng": 35.8000, "type": "occupied_territory", "significance": "Syrian territory occupied since 1967"},
+        {"name": "Birzeit University", "lat": 31.9394, "lng": 35.2040, "type": "institution", "significance": "Center of resistance organizing"}
+      ],
+      "key_events": [
+        {"name": "Nakba (Palestinian Exodus)", "year": 1948, "lat": 31.85, "lng": 35.15, "significance": "700,000+ Palestinians displaced"},
+        {"name": "First Intifada", "year": 1987, "lat": 31.95, "lng": 35.20, "significance": "Mass popular uprising"},
+        {"name": "Second Intifada", "year": 2000, "lat": 31.95, "lng": 35.20, "significance": "Armed uprising and resistance"},
+        {"name": "Gaza Siege", "year": 2007, "lat": 31.5167, "lng": 34.4500, "significance": "Israeli blockade begins"}
+      ],
+      "key_figures": ["Yasser Arafat", "Mahmoud Abbas", "Ghassan Kanafani", "Leila Khaled"],
+      "organizations": ["PLO", "Hamas", "Fatah", "Palestinian Authority", "BDS Movement"]
+    },
+    {
+      "id": "kurdistan",
+      "name": "Kurdish Liberation Struggle",
+      "start_year": 1920,
+      "status": "ongoing",
+      "description": "Struggle for Kurdish independence and self-determination across Turkey, Iraq, Syria, and Iran",
+      "key_cities": [
+        {"name": "Erbil", "country": "Iraq", "lat": 36.1914, "lng": 44.0055, "type": "city", "significance": "Kurdish regional capital"},
+        {"name": "Diyarbakır", "country": "Turkey", "lat": 37.9078, "lng": 40.2251, "type": "city", "significance": "Kurdish cultural center"},
+        {"name": "Qamishli", "country": "Syria", "lat": 37.2189, "lng": 41.2073, "type": "city", "significance": "Kurdish majority city"},
+        {"name": "Sulaymaniyah", "country": "Iraq", "lat": 35.5628, "lng": 45.4325, "type": "city", "significance": "Kurdish intellectual center"}
+      ],
+      "important_sites": [
+        {"name": "Kandil Mountains", "lat": 36.7667, "lng": 44.3333, "type": "military_base", "significance": "PKK stronghold"},
+        {"name": "Anfal Genocide Sites", "lat": 36.0, "lng": 44.0, "type": "genocide_site", "significance": "Over 100,000 killed 1988-1989"},
+        {"name": "Halabja", "lat": 35.2019, "lng": 45.9933, "type": "genocide_site", "significance": "Chemical weapons attack 1988"},
+        {"name": "Destroyed Villages Region", "lat": 37.5, "lng": 40.5, "type": "military_zone", "significance": "4,000+ villages destroyed by Turkey"}
+      ],
+      "key_events": [
+        {"name": "Treaty of Sèvres Promise", "year": 1920, "lat": 36.5, "lng": 42.5, "significance": "Promised Kurdish state never created"},
+        {"name": "Anfal Campaign", "year": 1988, "lat": 36.0, "lng": 44.0, "significance": "Genocide of Iraqi Kurds"},
+        {"name": "Gulf War Kurdish Uprising", "year": 1991, "lat": 36.1914, "lng": 44.0055, "significance": "Mass refugee crisis"},
+        {"name": "Syrian Uprising Participation", "year": 2012, "lat": 37.2189, "lng": 41.2073, "significance": "Kurdish YPG formation"}
+      ],
+      "key_figures": ["Ibrahim Kaypakkaya", "Mulla Mustafa Barzani", "Abdullah Öcalan", "Hadija Ismael"],
+      "organizations": ["PKK", "KDP", "PUK", "YPG/SDF", "PAJK"]
+    },
+    {
+      "id": "kashmir",
+      "name": "Kashmir Independence Movement",
+      "start_year": 1947,
+      "status": "ongoing",
+      "description": "Struggle for Kashmiri self-determination contested by India and Pakistan",
+      "key_cities": [
+        {"name": "Srinagar", "country": "India", "lat": 34.0837, "lng": 74.7973, "type": "city", "significance": "Kashmir valley capital"},
+        {"name": "Leh", "country": "India", "lat": 34.1526, "lng": 77.5770, "type": "city", "significance": "Ladakh administrative center"},
+        {"name": "Jammu", "country": "India", "lat": 32.7266, "lng": 75.8472, "type": "city", "significance": "Winter capital"},
+        {"name": "Muzaffarabad", "country": "Pakistan", "lat": 34.3667, "lng": 73.4667, "type": "city", "significance": "Azad Kashmir capital"}
+      ],
+      "important_sites": [
+        {"name": "Line of Control (LoC)", "lat": 34.5, "lng": 74.5, "type": "border", "significance": "India-Pakistan ceasefire line"},
+        {"name": "Gulag-style Detention Centers", "lat": 34.0, "lng": 75.0, "type": "prison", "significance": "Mass detention of protesters"},
+        {"name": "Siachen Glacier", "lat": 35.4667, "lng": 77.1333, "type": "military_zone", "significance": "Contested highest battlefield"},
+        {"name": "Mass Grave Sites", "lat": 34.1, "lng": 74.9, "type": "genocide_site", "significance": "Unmarked graves of disappeared"}
+      ],
+      "key_events": [
+        {"name": "Partition and Anbil War", "year": 1947, "lat": 34.3, "lng": 74.5, "significance": "Division of Kashmir between India and Pakistan"},
+        {"name": "1965 Indo-Pakistani War", "year": 1965, "lat": 34.3, "lng": 74.5, "significance": "Second Kashmir war"},
+        {"name": "1999 Kargil War", "year": 1999, "lat": 34.2, "lng": 77.6, "significance": "Military conflict in Ladakh"},
+        {"name": "2019 Lockdown and Revocation of Article 370", "year": 2019, "lat": 34.0837, "lng": 74.7973, "significance": "Removal of Kashmir autonomy"}
+      ],
+      "key_figures": ["Maqbool Butt", "Muhammad Maqbool Butt", "Mirwaiz Farooq", "Geelani Syed"],
+      "organizations": ["All Parties Hurriyat Conference", "Jamaat-e-Islami", "JKLF", "JKFL"]
+    },
+    {
+      "id": "tibet",
+      "name": "Tibetan Freedom Struggle",
+      "start_year": 1951,
+      "status": "ongoing",
+      "description": "Struggle for Tibetan independence and cultural autonomy from Chinese rule",
+      "key_cities": [
+        {"name": "Lhasa", "country": "China", "lat": 29.6470, "lng": 91.1210, "type": "city", "significance": "Tibetan capital and spiritual center"},
+        {"name": "Shigatse", "country": "China", "lat": 28.7600, "lng": 88.8680, "type": "city", "significance": "Second largest Tibetan city"},
+        {"name": "Chamdo", "country": "China", "lat": 31.8000, "lng": 97.8000, "type": "city", "significance": "Eastern Tibetan hub"},
+        {"name": "Gyantse", "country": "China", "lat": 28.3833, "lng": 89.6000, "type": "city", "significance": "Historic Tibetan town"}
+      ],
+      "important_sites": [
+        {"name": "Jokhang Temple", "lat": 29.6519, "lng": 91.1324, "type": "monastery", "significance": "Most sacred Tibetan Buddhist temple"},
+        {"name": "Potala Palace", "lat": 29.6567, "lng": 91.1157, "type": "monastery", "significance": "Dalai Lama's former residence"},
+        {"name": "Sera Monastery", "lat": 29.6667, "lng": 91.1333, "type": "monastery", "significance": "Major monastic seminary"},
+        {"name": "Surveillance Checkpoints", "lat": 29.65, "lng": 91.13, "type": "military_base", "significance": "Heavy Han Chinese military presence"}
+      ],
+      "key_events": [
+        {"name": "1951 Chinese Occupation", "year": 1951, "lat": 29.6470, "lng": 91.1210, "significance": "Chinese military takeover of Tibet"},
+        {"name": "1959 Lhasa Uprising", "year": 1959, "lat": 29.6470, "lng": 91.1210, "significance": "Tibetan rebellion and Chinese crackdown"},
+        {"name": "1989 Martial Law", "year": 1989, "lat": 29.6470, "lng": 91.1210, "significance": "Military rule imposed after protests"},
+        {"name": "2008 Lhasa Riots", "year": 2008, "lat": 29.6470, "lng": 91.1210, "significance": "Mass protests during Olympic year"}
+      ],
+      "key_figures": ["Dalai Lama XIV", "Thupten Ngodrup", "Kelsang Namtso", "Gendun Choekyi Nyima"],
+      "organizations": ["Tibetan Government in Exile", "Tibetan Youth Congress", "Students for a Free Tibet", "Rangzen"]
+    },
+    {
+      "id": "western_sahara",
+      "name": "Sahrawi Arab Democratic Republic Independence",
+      "start_year": 1975,
+      "status": "ongoing",
+      "description": "Struggle for Western Sahara independence from Moroccan occupation",
+      "key_cities": [
+        {"name": "Laayoune", "country": "Disputed", "lat": 27.1242, "lng": -13.2034, "type": "city", "significance": "Administrative capital"},
+        {"name": "Dakhla", "country": "Disputed", "lat": 23.6585, "lng": -15.9284, "type": "city", "significance": "Second largest city"},
+        {"name": "Tifariti", "country": "Disputed", "lat": 24.6667, "lng": -9.8000, "type": "city", "significance": "SADR capital"},
+        {"name": "Smara", "country": "Disputed", "lat": 26.6667, "lng": -13.1667, "type": "city", "significance": "Refugee camp center"}
+      ],
+      "important_sites": [
+        {"name": "Berm/Sand Wall", "lat": 25.5, "lng": -12.0, "type": "military_barrier", "significance": "Moroccan defensive wall"},
+        {"name": "Minefield Zones", "lat": 25.5, "lng": -11.5, "type": "military_zone", "significance": "Over 2 million mines"},
+        {"name": "Refugee Camps", "lat": 27.0689, "lng": -8.1381, "type": "refugee_camp", "significance": "Tindouf camps in Algeria"},
+        {"name": "Phosphate Mines", "lat": 26.0000, "lng": -13.2000, "type": "resource", "significance": "Disputed resource extraction"}
+      ],
+      "key_events": [
+        {"name": "Morocco Occupation", "year": 1975, "lat": 27.1242, "lng": -13.2034, "significance": "Morocco's Green March invasion"},
+        {"name": "POLISARIO Front Armed Struggle", "year": 1976, "lat": 24.6667, "lng": -9.8000, "significance": "Independence war begins"},
+        {"name": "UN Referendum Promised", "year": 1991, "lat": 27.1242, "lng": -13.2034, "significance": "Ceasefire agreement signed"},
+        {"name": "Refugee Camp Standoff", "year": 2000, "lat": 27.0689, "lng": -8.1381, "significance": "Refugee situation continues 25+ years"}
+      ],
+      "key_figures": ["Mohamed Abdelaziz", "Ibrahim Ghali", "Aminata Haidar", "Sahrawi resistance leaders"],
+      "organizations": ["POLISARIO Front", "SADR Government", "Sahrawi National Council"]
+    },
+    {
+      "id": "west_papua",
+      "name": "West Papua Independence Movement",
+      "start_year": 1961,
+      "status": "ongoing",
+      "description": "Struggle against Indonesian occupation and colonization of West Papua",
+      "key_cities": [
+        {"name": "Jayapura", "country": "Indonesia", "lat": -2.5898, "lng": 140.6692, "type": "city", "significance": "Capital of Papua"},
+        {"name": "Port Numbay", "country": "Indonesia", "lat": -2.5898, "lng": 140.6692, "type": "city", "significance": "Port city"},
+        {"name": "Sorong", "country": "Indonesia", "lat": -0.8747, "lng": 131.2558, "type": "city", "significance": "Second largest city"},
+        {"name": "Manokwari", "country": "Indonesia", "lat": -0.8526, "lng": 134.0789, "type": "city", "significance": "Coastal town"}
+      ],
+      "important_sites": [
+        {"name": "Freeport-McMoRan Mine", "lat": -3.5667, "lng": 137.1500, "type": "resource", "significance": "World's largest gold mine, occupies Papuan land"},
+        {"name": "Indonesian Military Bases", "lat": -2.5, "lng": 140.5, "type": "military_base", "significance": "Heavy military occupation"},
+        {"name": "Massacre Sites (Biak, Lorentz)", "lat": -1.1847, "lng": 136.1089, "type": "genocide_site", "significance": "Mass killings of independence fighters"},
+        {"name": "Forest Deforestation Zone", "lat": -3.5, "lng": 138.0, "type": "environmental", "significance": "Logging and environmental destruction"}
+      ],
+      "key_events": [
+        {"name": "Dutch Decolonization Betrayal", "year": 1962, "lat": -2.5898, "lng": 140.6692, "significance": "Transfer to Indonesia instead of independence"},
+        {"name": "Act of Free Choice (Sham Vote)", "year": 1969, "lat": -2.5898, "lng": 140.6692, "significance": "Fraudulent referendum on incorporation"},
+        {"name": "Biak Massacre", "year": 1998, "lat": -1.1847, "lng": 136.1089, "significance": "Military killing of independence supporters"},
+        {"name": "Indonesian Transmigration Program", "year": 1980, "lat": -2.5, "lng": 140.0, "significance": "Settler colonialism dilutes Papuan population"}
+      ],
+      "key_figures": ["Ahmed Sukarno", "Theys Eluay", "Filep Karma", "Benny Wenda"],
+      "organizations": ["OPM (Organisasi Papua Merdeka)", "Free Papua Movement", "West Papua National Coalition for Liberation"]
+    },
+    {
+      "id": "ireland",
+      "name": "Irish and Northern Irish Struggle",
+      "start_year": 1798,
+      "status": "partially_resolved",
+      "description": "Struggle for Irish independence from British rule and Irish reunification",
+      "key_cities": [
+        {"name": "Dublin", "country": "Ireland", "lat": 53.3498, "lng": -6.2603, "type": "city", "significance": "Capital"},
+        {"name": "Belfast", "country": "UK", "lat": 54.5973, "lng": -5.9301, "type": "city", "significance": "Northern Irish capital"},
+        {"name": "Cork", "country": "Ireland", "lat": 51.8985, "lng": -8.4756, "type": "city", "significance": "Irish Republican stronghold"},
+        {"name": "Derry/Londonderry", "country": "UK", "lat": 55.0086, "lng": -7.3085, "type": "city", "significance": "Nationalist city"}
+      ],
+      "important_sites": [
+        {"name": "Border Wall/Peace Walls", "lat": 54.5, "lng": -5.9, "type": "barrier", "significance": "Segregation between communities"},
+        {"name": "Bloody Sunday Memorial (Derry)", "lat": 55.0086, "lng": -7.3085, "type": "genocide_site", "significance": "1972 massacre of 14 civilians"},
+        {"name": "Maze Prison (Long Kesh)", "lat": 54.4500, "lng": -6.0333, "type": "prison", "significance": "Political prisoner detention"},
+        {"name": "Bogside Murals", "lat": 55.0086, "lng": -7.3085, "type": "cultural_site", "significance": "Republican protest art"}
+      ],
+      "key_events": [
+        {"name": "1798 Rebellion", "year": 1798, "lat": 53.3498, "lng": -6.2603, "significance": "United Irishmen uprising"},
+        {"name": "1916 Easter Rising", "year": 1916, "lat": 53.3498, "lng": -6.2603, "significance": "Dublin rebellion against British rule"},
+        {"name": "The Troubles (1968-1998)", "year": 1968, "lat": 54.5973, "lng": -5.9301, "significance": "30-year conflict in Northern Ireland"},
+        {"name": "Bloody Sunday (1972)", "year": 1972, "lat": 55.0086, "lng": -7.3085, "significance": "Massacre of civil rights marchers"}
+      ],
+      "key_figures": ["Padraig Pearse", "Michael Collins", "Gerry Adams", "John Hume", "Bobby Sands"],
+      "organizations": ["Sinn Féin", "IRA", "Fianna Fáil", "SDLP"]
+    },
+    {
+      "id": "uyghur",
+      "name": "Uyghur Freedom Movement",
+      "start_year": 1949,
+      "status": "ongoing",
+      "description": "Struggle for Uyghur self-determination and independence from Chinese rule in Xinjiang",
+      "key_cities": [
+        {"name": "Urumqi", "country": "China", "lat": 43.8041, "lng": 87.5959, "type": "city", "significance": "Regional capital"},
+        {"name": "Kashgar", "country": "China", "lat": 39.4751, "lng": 75.9369, "type": "city", "significance": "Uyghur cultural center"},
+        {"name": "Hotan", "country": "China", "lat": 37.1197, "lng": 79.2329, "type": "city", "significance": "Uyghur city in south Xinjiang"},
+        {"name": "Kashgar Old City", "country": "China", "lat": 39.4751, "lng": 75.9369, "type": "city", "significance": "Historic trade center"}
+      ],
+      "important_sites": [
+        {"name": "Detention/Re-education Camps", "lat": 43.8, "lng": 87.6, "type": "prison", "significance": "Estimated 1+ million Uyghurs detained"},
+        {"name": "Surveillance Camera Network", "lat": 43.8, "lng": 87.6, "type": "military_base", "significance": "Mass surveillance of Uyghur population"},
+        {"name": "Han Chinese Settlement Areas", "lat": 43.5, "lng": 87.0, "type": "military_zone", "significance": "Han migration and settlement"},
+        {"name": "Petrochemical Industrial Zones", "lat": 44.5, "lng": 85.0, "type": "resource", "significance": "Han Chinese economic control"}
+      ],
+      "key_events": [
+        {"name": "Chinese Occupation", "year": 1949, "lat": 43.8041, "lng": 87.5959, "significance": "PLA takeover of East Turkestan"},
+        {"name": "Cultural Revolution Suppression", "year": 1966, "lat": 43.8041, "lng": 87.5959, "significance": "Uyghur culture attacked"},
+        {"name": "1997 Gulja Uprising", "year": 1997, "lat": 44.9000, "lng": 81.3000, "significance": "Mass protests and military crackdown"},
+        {"name": "Mass Detention Campaign", "year": 2015, "lat": 43.8041, "lng": 87.5959, "significance": "Systematic detention begins"}
+      ],
+      "key_figures": ["Dolkun Isa", "Abdulrehim Qadeer", "Iminay Akbar", "Rebiya Kadeer"],
+      "organizations": ["Uyghur Congress", "World Uyghur Congress", "Uyghur Human Rights Project"]
+    },
+    {
+      "id": "chechnya",
+      "name": "Chechen Independence Struggle",
+      "start_year": 1991,
+      "status": "suppressed",
+      "description": "Struggle for Chechen independence from Russian Federation",
+      "key_cities": [
+        {"name": "Grozny", "country": "Russia", "lat": 43.3167, "lng": 45.6981, "type": "city", "significance": "Chechen capital, heavily destroyed"},
+        {"name": "Argun", "country": "Russia", "lat": 43.2667, "lng": 45.7167, "type": "city", "significance": "Chechen stronghold"},
+        {"name": "Gudermes", "country": "Russia", "lat": 43.4667, "lng": 46.5000, "type": "city", "significance": "Second largest city"},
+        {"name": "Vladikavkaz", "country": "Russia", "lat": 43.2442, "lng": 44.6761, "type": "city", "significance": "Regional capital"}
+      ],
+      "important_sites": [
+        {"name": "Grozny Ruins", "lat": 43.3167, "lng": 45.6981, "type": "war_site", "significance": "90% of city destroyed in wars"},
+        {"name": "Filtration Camps", "lat": 43.3, "lng": 45.7, "type": "prison", "significance": "Torture and disappearance centers"},
+        {"name": "Mountains Strongholds", "lat": 43.5, "lng": 45.0, "type": "military_zone", "significance": "Resistance strongholds"},
+        {"name": "Memorial Sites of Disappeared", "lat": 43.3167, "lng": 45.6981, "type": "genocide_site", "significance": "Thousands of 'disappeared' persons"}
+      ],
+      "key_events": [
+        {"name": "Declaration of Independence", "year": 1991, "lat": 43.3167, "lng": 45.6981, "significance": "Chechnya declares independence from USSR"},
+        {"name": "First Chechen War", "year": 1994, "lat": 43.3167, "lng": 45.6981, "significance": "Russian invasion and 2-year war"},
+        {"name": "Second Chechen War", "year": 1999, "lat": 43.3167, "lng": 45.6981, "significance": "Russian re-invasion and occupation"},
+        {"name": "Filtration Camp Era", "year": 1999, "lat": 43.3, "lng": 45.7, "significance": "Systematic torture and disappearances"}
+      ],
+      "key_figures": ["Dzhokhar Dudayev", "Aslan Maskhadov", "Shamil Basayev", "Akhmad Kadyrov"],
+      "organizations": ["Chechen Independence Movement", "Islamic Emirate of the Caucasus"]
+    },
+    {
+      "id": "east_timor",
+      "name": "East Timorese Independence",
+      "start_year": 1974,
+      "end_year": 2002,
+      "status": "achieved",
+      "description": "Struggle for East Timor independence from Indonesian occupation",
+      "key_cities": [
+        {"name": "Dili", "country": "East Timor", "lat": -8.5589, "lng": 125.5603, "type": "city", "significance": "Capital"},
+        {"name": "Baucau", "country": "East Timor", "lat": -8.4667, "lng": 126.4333, "type": "city", "significance": "Second largest city"},
+        {"name": "Lospalos", "country": "East Timor", "lat": -8.4500, "lng": 126.9833, "type": "city", "significance": "Eastern town"}
+      ],
+      "important_sites": [
+        {"name": "Cristo Rei Statue", "lat": -8.5589, "lng": 125.5603, "type": "monument", "significance": "Symbol of independence"},
+        {"name": "Santa Cruz Massacre Site", "lat": -8.5667, "lng": 125.5833, "type": "genocide_site", "significance": "1991 massacre of 250+ civilians"},
+        {"name": "Resistance Safe Havens", "lat": -8.5, "lng": 126.0, "type": "military_zone", "significance": "Mountain sanctuaries"}
+      ],
+      "key_events": [
+        {"name": "Portuguese Decolonization", "year": 1974, "lat": -8.5589, "lng": 125.5603, "significance": "Portugal withdraws from Timor"},
+        {"name": "Indonesian Invasion", "year": 1975, "lat": -8.5589, "lng": 125.5603, "significance": "300,000+ killed during occupation"},
+        {"name": "Santa Cruz Massacre", "year": 1991, "lat": -8.5667, "lng": 125.5833, "significance": "International attention gained"},
+        {"name": "UN-backed Referendum", "year": 1999, "lat": -8.5589, "lng": 125.5603, "significance": "Vote for independence"}
+      ],
+      "key_figures": ["Xanana Gusmão", "José Ramos-Horta", "Constancio Pinto", "Filomeno dos Santos"],
+      "organizations": ["Timorese National Resistance (CNRT)", "FALINTIL (Armed Forces)", "FRETILIN"]
+    }
+  ]
+}

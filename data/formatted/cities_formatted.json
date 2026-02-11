@@ -1,0 +1,8383 @@
+[
+  {
+    "id": "81a3561d-51f6-45f6-8770-518f6ffc5838",
+    "name": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        54.3773,
+        24.4539
+      ]
+    },
+    "population": 1500000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "gulf"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060342"
+  },
+  {
+    "id": "9276e065-ff44-4e21-9de4-c1653751bc5c",
+    "name": "Accra",
+    "country": "Ghana",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -0.187,
+        5.6037
+      ]
+    },
+    "population": 2300000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "west_africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060354"
+  },
+  {
+    "id": "6d004b9f-fa01-48a6-aae5-3d0fd098000c",
+    "name": "Algiers",
+    "country": "Algeria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        3.0588,
+        36.7538
+      ]
+    },
+    "population": 3500000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "north_africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060360"
+  },
+  {
+    "id": "02b69b75-d9c8-4afa-a152-b6482b936187",
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        4.9041,
+        52.3676
+      ]
+    },
+    "population": 873000,
+    "importance": 8,
+    "tags": [
+      "economic_hub",
+      "europe",
+      "canal_city"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060365"
+  },
+  {
+    "id": "d612f735-2c74-4749-a534-a1d049786960",
+    "name": "Amman",
+    "country": "Jordan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.9284,
+        31.9454
+      ]
+    },
+    "population": 4000000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060369"
+  },
+  {
+    "id": "7dd23ee9-d98f-4eb2-beda-5aaa858f0d6a",
+    "name": "Ankara",
+    "country": "Turkey",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.8597,
+        39.9334
+      ]
+    },
+    "population": 5500000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "asia_minor"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060372"
+  },
+  {
+    "id": "f4828233-9550-4558-91eb-2ef38fb9b964",
+    "name": "Antananarivo",
+    "country": "Madagascar",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        47.5079,
+        -18.8792
+      ]
+    },
+    "population": 1300000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060375"
+  },
+  {
+    "id": "01360efb-72ac-43eb-9190-80ee19d69d4f",
+    "name": "Athens",
+    "country": "Greece",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        23.7275,
+        37.9838
+      ]
+    },
+    "population": 3154000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "europe",
+      "historical"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060377"
+  },
+  {
+    "id": "0492bb8c-8f76-4ba6-b89d-1ec1d565df6b",
+    "name": "Atlanta",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -84.388,
+        33.749
+      ]
+    },
+    "population": 500000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "usa_south"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060380"
+  },
+  {
+    "id": "b1e04f47-8080-4d5d-a1ba-ed356cc0e91d",
+    "name": "Auckland",
+    "country": "New Zealand",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        174.6062,
+        -37.0742
+      ]
+    },
+    "population": 1550000,
+    "importance": 8,
+    "tags": [
+      "economic_hub",
+      "pacific"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060383"
+  },
+  {
+    "id": "56021639-806c-491d-81e2-022d6deb54bd",
+    "name": "Baghdad",
+    "country": "Iraq",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        44.3615,
+        33.3128
+      ]
+    },
+    "population": 7200000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "conflict_zone",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060386"
+  },
+  {
+    "id": "87f64ab5-a07d-4f15-b363-4c7c37178a35",
+    "name": "Bangkok",
+    "country": "Thailand",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        100.5018,
+        13.7563
+      ]
+    },
+    "population": 10000000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "southeast_asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060389"
+  },
+  {
+    "id": "9667ab91-4a18-4d7e-9703-081af5cc7cd8",
+    "name": "Barcelona",
+    "country": "Spain",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.1686,
+        41.3874
+      ]
+    },
+    "population": 1600000,
+    "importance": 8,
+    "tags": [
+      "economic_hub",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060392"
+  },
+  {
+    "id": "dd8935cf-d439-438c-977d-034059d3b748",
+    "name": "Beijing",
+    "country": "China",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        116.4074,
+        39.9042
+      ]
+    },
+    "population": 21540000,
+    "importance": 10,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "asia",
+      "historical"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060395"
+  },
+  {
+    "id": "a193f951-6226-43b0-a9c2-ec2f1e3e2f3b",
+    "name": "Beirut",
+    "country": "Lebanon",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.4955,
+        33.8886
+      ]
+    },
+    "population": 2012000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "conflict_zone",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060399"
+  },
+  {
+    "id": "9177164a-63ea-469d-8c0e-0a4a697ab88d",
+    "name": "Belfast",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -5.9301,
+        54.5973
+      ]
+    },
+    "population": 280000,
+    "importance": 7,
+    "tags": [
+      "conflict_zone",
+      "ireland"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060402"
+  },
+  {
+    "id": "0ac263e7-6ba1-401a-b451-311cf96c8816",
+    "name": "Belgrade",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 1700000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "europe",
+      "conflict_history"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060404"
+  },
+  {
+    "id": "836922b3-17ee-4eb8-931a-7ab078d075de",
+    "name": "Berlin",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        13.405,
+        52.52
+      ]
+    },
+    "population": 3645000,
+    "importance": 10,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "europe",
+      "historical"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060408"
+  },
+  {
+    "id": "d6754d36-e57f-4c7b-8cf4-601970eb6c41",
+    "name": "Bern",
+    "country": "Switzerland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        7.4474,
+        46.9479
+      ]
+    },
+    "population": 133000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060411"
+  },
+  {
+    "id": "0b7b87e7-1ecb-4ccc-968f-3dd87a284924",
+    "name": "Bishkek",
+    "country": "Kyrgyzstan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        74.5698,
+        42.8746
+      ]
+    },
+    "population": 1200000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "central_asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060414"
+  },
+  {
+    "id": "3966a627-cf60-40b9-9300-9c73eba02ac3",
+    "name": "Bogot\u00e1",
+    "country": "Colombia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.0721,
+        4.711
+      ]
+    },
+    "population": 8080000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060417"
+  },
+  {
+    "id": "8cab9066-0db5-4ba0-ba3c-63bcdc3a02b3",
+    "name": "Bras\u00edlia",
+    "country": "Brazil",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -47.8822,
+        -15.7972
+      ]
+    },
+    "population": 3124000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060420"
+  },
+  {
+    "id": "f36cd080-374e-479e-a151-40f4948c006f",
+    "name": "Brazzaville",
+    "country": "Republic of the Congo",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        15.2429,
+        -4.2655
+      ]
+    },
+    "population": 1400000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060423"
+  },
+  {
+    "id": "2674ed6f-7751-4808-9b4b-9c0804bd2d5f",
+    "name": "Brisbane",
+    "country": "Australia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        153.0251,
+        -27.4698
+      ]
+    },
+    "population": 2500000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "australia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060427"
+  },
+  {
+    "id": "95a5f82f-f7b4-4ebf-9a79-54ed6be84791",
+    "name": "Brussels",
+    "country": "Belgium",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        4.3517,
+        50.8503
+      ]
+    },
+    "population": 1220000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "europe",
+      "eu_hub"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060430"
+  },
+  {
+    "id": "b86c73de-037e-4ec5-9dea-0f662bc3f993",
+    "name": "Budapest",
+    "country": "Hungary",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.0402,
+        47.4979
+      ]
+    },
+    "population": 1752000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060433"
+  },
+  {
+    "id": "c1b92883-3598-4a27-9440-6aa17e545777",
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -58.3816,
+        -34.6037
+      ]
+    },
+    "population": 15380000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "south_america",
+      "economic_hub"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060435"
+  },
+  {
+    "id": "8350f56f-d8df-4be8-9c0d-a49530946778",
+    "name": "Cairo",
+    "country": "Egypt",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        31.2357,
+        30.0444
+      ]
+    },
+    "population": 20900000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "africa",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060438"
+  },
+  {
+    "id": "28180bb1-3447-43dd-ba9a-4dbe9ea6ca9d",
+    "name": "Calgary",
+    "country": "Canada",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -114.0719,
+        51.0447
+      ]
+    },
+    "population": 1609000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "canada"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060442"
+  },
+  {
+    "id": "c06ef99e-119a-48f6-99af-69ef3cf784ce",
+    "name": "Canberra",
+    "country": "Australia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        149.13,
+        -35.2809
+      ]
+    },
+    "population": 460000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "australia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060445"
+  },
+  {
+    "id": "a456f5f2-c97c-4a96-8491-ff9050a784bc",
+    "name": "Cape Town",
+    "country": "South Africa",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.4241,
+        -33.9249
+      ]
+    },
+    "population": 4700000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "africa",
+      "conflict_history"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060449"
+  },
+  {
+    "id": "3acb1552-0064-4323-a8bf-bd6045dc809b",
+    "name": "Caracas",
+    "country": "Venezuela",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -66.9036,
+        10.4806
+      ]
+    },
+    "population": 3242000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "south_america",
+      "conflict_zone"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060452"
+  },
+  {
+    "id": "b6086985-4c8c-4be1-8c8c-bec388c6b60f",
+    "name": "Casablanca",
+    "country": "Morocco",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.5898,
+        33.5731
+      ]
+    },
+    "population": 3359000,
+    "importance": 8,
+    "tags": [
+      "economic_hub",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060455"
+  },
+  {
+    "id": "1470ea90-8def-44e7-97e6-edd59798ceed",
+    "name": "Chicago",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -87.6298,
+        41.8781
+      ]
+    },
+    "population": 2717000,
+    "importance": 9,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060458"
+  },
+  {
+    "id": "868d75f2-06e3-4cfa-8dc0-c69df99af86f",
+    "name": "Chiang Mai",
+    "country": "Thailand",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        98.9853,
+        18.7883
+      ]
+    },
+    "population": 1200000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "southeast_asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060460"
+  },
+  {
+    "id": "3cabb80a-e45e-4d24-94dc-5e9f8c703cff",
+    "name": "Christchurch",
+    "country": "New Zealand",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        172.6362,
+        -43.532
+      ]
+    },
+    "population": 426000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "pacific"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060463"
+  },
+  {
+    "id": "2acfb6cd-e3f7-4385-8619-ef8cccf953fc",
+    "name": "Cologne",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        6.9589,
+        50.9365
+      ]
+    },
+    "population": 1087000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060466"
+  },
+  {
+    "id": "8a9c802b-a772-49b0-9a0f-7f3ba49e4c5a",
+    "name": "Colombo",
+    "country": "Sri Lanka",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.7789,
+        6.9271
+      ]
+    },
+    "population": 2400000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060469"
+  },
+  {
+    "id": "8eb3916d-abad-429b-bdb5-5103c8932736",
+    "name": "C\u00f3rdoba",
+    "country": "Argentina",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -64.1811,
+        -31.4135
+      ]
+    },
+    "population": 1330000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060473"
+  },
+  {
+    "id": "1b4f413b-6a86-4220-8d23-82cfdf98f96c",
+    "name": "Copenhagen",
+    "country": "Denmark",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        12.5683,
+        55.6761
+      ]
+    },
+    "population": 1350000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060476"
+  },
+  {
+    "id": "86397bba-0b5e-49ba-9a0b-4fc6efa87c53",
+    "name": "Damascus",
+    "country": "Syria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        36.2765,
+        33.5138
+      ]
+    },
+    "population": 1711000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "conflict_zone",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060478"
+  },
+  {
+    "id": "03d4a411-683d-4697-b636-7724034c5774",
+    "name": "Dar es Salaam",
+    "country": "Tanzania",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        39.2833,
+        -6.8
+      ]
+    },
+    "population": 6000000,
+    "importance": 8,
+    "tags": [
+      "economic_hub",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060481"
+  },
+  {
+    "id": "7dd81fa6-0231-4477-875e-a84758bbff90",
+    "name": "Delhi",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.209,
+        28.6139
+      ]
+    },
+    "population": 32940000,
+    "importance": 10,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060484"
+  },
+  {
+    "id": "66640592-a4bf-4871-9aaf-94f4359af03c",
+    "name": "Denver",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.9903,
+        39.7392
+      ]
+    },
+    "population": 715000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060489"
+  },
+  {
+    "id": "f91c8155-641b-42d2-bc13-c25203c32fea",
+    "name": "Dhaka",
+    "country": "Bangladesh",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        90.4125,
+        23.8103
+      ]
+    },
+    "population": 21741000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060492"
+  },
+  {
+    "id": "d927c79d-2004-4e38-8e37-869b7f76f4c2",
+    "name": "Dili",
+    "country": "East Timor",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        125.5603,
+        -8.5589
+      ]
+    },
+    "population": 222000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "southeast_asia",
+      "liberation_history"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060496"
+  },
+  {
+    "id": "c3df7714-0b65-48b5-86c5-34de93905f3a",
+    "name": "Dublin",
+    "country": "Ireland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -6.2603,
+        53.3498
+      ]
+    },
+    "population": 1228000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060499"
+  },
+  {
+    "id": "b92939f7-1a2d-46ee-bf5d-8f6194b71771",
+    "name": "Dushanbe",
+    "country": "Tajikistan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        68.7738,
+        38.5598
+      ]
+    },
+    "population": 873000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "central_asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060502"
+  },
+  {
+    "id": "1b4289c0-0196-459c-a899-fff69f8a62da",
+    "name": "Escuintla",
+    "country": "Guatemala",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -90.7861,
+        14.3071
+      ]
+    },
+    "population": 120000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "central_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060504"
+  },
+  {
+    "id": "57b1cde5-86bd-415d-ae45-01deeacbb41b",
+    "name": "Esenboga",
+    "country": "Turkey",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.9667,
+        39.6167
+      ]
+    },
+    "population": 1500,
+    "importance": 5,
+    "tags": [
+      "airport_city",
+      "turkey"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060507"
+  },
+  {
+    "id": "db6e384c-f70d-4117-a88a-f91a312bf94f",
+    "name": "Faisalabad",
+    "country": "Pakistan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.9521,
+        31.4181
+      ]
+    },
+    "population": 3203000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060510"
+  },
+  {
+    "id": "b028592a-f263-43b9-a21b-6489e799c737",
+    "name": "Frankfurt",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        8.6821,
+        50.1109
+      ]
+    },
+    "population": 746000,
+    "importance": 8,
+    "tags": [
+      "economic_hub",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060513"
+  },
+  {
+    "id": "28bbad2b-142b-42b7-8fb3-236b15c63e83",
+    "name": "Freetown",
+    "country": "Sierra Leone",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -13.2317,
+        8.4657
+      ]
+    },
+    "population": 1050000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060516"
+  },
+  {
+    "id": "da9620dc-287e-4d8d-8c50-24dc593dbdad",
+    "name": "Gaza City",
+    "country": "Palestine",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        34.45,
+        31.5167
+      ]
+    },
+    "population": 680000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "conflict_zone",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060519"
+  },
+  {
+    "id": "f5ba5f29-a116-4129-8ec0-6698cedadb18",
+    "name": "Gdansk",
+    "country": "Poland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.6466,
+        54.352
+      ]
+    },
+    "population": 461000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe",
+      "liberation_history"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060522"
+  },
+  {
+    "id": "b5c076c8-2446-4d9d-8b0e-daf19886615a",
+    "name": "Geneva",
+    "country": "Switzerland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        6.1432,
+        46.2044
+      ]
+    },
+    "population": 203000,
+    "importance": 8,
+    "tags": [
+      "international_hub",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060525"
+  },
+  {
+    "id": "f2fa27a4-9d8b-4ea7-a2d9-8eaea583e2b9",
+    "name": "Genoa",
+    "country": "Italy",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        8.9463,
+        44.4056
+      ]
+    },
+    "population": 586000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060530"
+  },
+  {
+    "id": "2f9d6313-42b6-4be2-a4cb-9a032811c115",
+    "name": "Georgetown",
+    "country": "Guyana",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -58.1551,
+        6.8016
+      ]
+    },
+    "population": 250000,
+    "importance": 6,
+    "tags": [
+      "capital",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060533"
+  },
+  {
+    "id": "6d397c71-3cc4-493f-ae6e-e9e782af4566",
+    "name": "Giza",
+    "country": "Egypt",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        31.2089,
+        30.0131
+      ]
+    },
+    "population": 3600000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "africa",
+      "historical"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060535"
+  },
+  {
+    "id": "e3c66a13-839a-4b64-bf27-ce209eecdabd",
+    "name": "Glasgow",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -4.2518,
+        55.8642
+      ]
+    },
+    "population": 633000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060538"
+  },
+  {
+    "id": "37ee086c-8c79-4631-80b5-13897c347d97",
+    "name": "Graz",
+    "country": "Austria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        15.4395,
+        47.0708
+      ]
+    },
+    "population": 321000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060541"
+  },
+  {
+    "id": "7d1c60ec-18ca-4750-971f-1eb87200454d",
+    "name": "Grenoble",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        5.7245,
+        45.1885
+      ]
+    },
+    "population": 583000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060545"
+  },
+  {
+    "id": "dc879889-6758-4a13-8fbb-2de9efd222db",
+    "name": "Guangzhou",
+    "country": "China",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        113.2644,
+        23.1291
+      ]
+    },
+    "population": 15301000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060548"
+  },
+  {
+    "id": "bde12b72-4622-450e-b798-90ec452ac77f",
+    "name": "Guatemala City",
+    "country": "Guatemala",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -90.5069,
+        14.6343
+      ]
+    },
+    "population": 2300000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "central_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060551"
+  },
+  {
+    "id": "9edc71fb-0140-4c21-84cc-417ba63925dd",
+    "name": "Guayaquil",
+    "country": "Ecuador",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -79.8711,
+        -2.1968
+      ]
+    },
+    "population": 2637000,
+    "importance": 8,
+    "tags": [
+      "economic_hub",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060554"
+  },
+  {
+    "id": "fa545dcd-10de-4f1f-b287-290b116a4944",
+    "name": "Guwahati",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        91.7362,
+        26.1445
+      ]
+    },
+    "population": 1500000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060556"
+  },
+  {
+    "id": "4336094d-b74d-463d-aaad-198da67999f6",
+    "name": "Habana",
+    "country": "Cuba",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -82.3794,
+        23.1291
+      ]
+    },
+    "population": 2106000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "caribbean",
+      "liberation_history"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060560"
+  },
+  {
+    "id": "bb0c5a96-c6be-48fd-bd0a-b6f4f7be4834",
+    "name": "Hamburg",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        9.9937,
+        53.5511
+      ]
+    },
+    "population": 1852000,
+    "importance": 8,
+    "tags": [
+      "economic_hub",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060563"
+  },
+  {
+    "id": "19159b8c-8f38-4942-b177-3e236f6e01fe",
+    "name": "Hamilton",
+    "country": "New Zealand",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        175.2793,
+        -37.787
+      ]
+    },
+    "population": 1565000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "pacific"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060566"
+  },
+  {
+    "id": "193f7240-abb4-476b-b08b-59111b55056a",
+    "name": "Hangzhou",
+    "country": "China",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        120.1551,
+        30.2875
+      ]
+    },
+    "population": 10360000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060569"
+  },
+  {
+    "id": "9b647955-99be-490d-a16f-c81a6ff25026",
+    "name": "Hanoi",
+    "country": "Vietnam",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        105.8542,
+        21.0285
+      ]
+    },
+    "population": 8053000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060573"
+  },
+  {
+    "id": "c90dfa29-f2a3-438f-a059-f1119a26e899",
+    "name": "Harare",
+    "country": "Zimbabwe",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        31.0335,
+        -17.8252
+      ]
+    },
+    "population": 1600000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060576"
+  },
+  {
+    "id": "11afbee4-6f65-438d-8daf-5b972e2a4c4d",
+    "name": "Harbin",
+    "country": "China",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        126.5349,
+        45.8038
+      ]
+    },
+    "population": 5878000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060612"
+  },
+  {
+    "id": "7d344511-6d93-4f63-a593-5104d5dcf39e",
+    "name": "Havana",
+    "country": "Cuba",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -82.3794,
+        23.1291
+      ]
+    },
+    "population": 2106000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "caribbean"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060616"
+  },
+  {
+    "id": "63dd10a5-8cf8-40e9-bd88-efa0ad2bb117",
+    "name": "Helsinki",
+    "country": "Finland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        24.9384,
+        60.1699
+      ]
+    },
+    "population": 656000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060619"
+  },
+  {
+    "id": "0364cbae-5a29-4d5b-8a68-bf7d066a6ab3",
+    "name": "Herat",
+    "country": "Afghanistan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        62.1997,
+        34.3425
+      ]
+    },
+    "population": 574000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060622"
+  },
+  {
+    "id": "3f95c81f-8c6f-46e4-9a19-21adeaa23204",
+    "name": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        106.7009,
+        10.7769
+      ]
+    },
+    "population": 9068000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060625"
+  },
+  {
+    "id": "9597cc28-a87e-4d37-bbf6-5c7a04fa9f3f",
+    "name": "Hong Kong",
+    "country": "Hong Kong",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        114.1694,
+        22.3193
+      ]
+    },
+    "population": 7500000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "asia",
+      "special_status"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060628"
+  },
+  {
+    "id": "9a100d0a-3754-41f5-a3fb-2bcc4c67c1f4",
+    "name": "Houston",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -95.3698,
+        29.7604
+      ]
+    },
+    "population": 2320000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060631"
+  },
+  {
+    "id": "2c65705d-3043-45b6-b3b6-d2c8de9dd3fd",
+    "name": "Hyderabad",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        78.4867,
+        17.385
+      ]
+    },
+    "population": 6808000,
+    "importance": 8,
+    "tags": [
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060634"
+  },
+  {
+    "id": "8adf70a7-60ba-4ed7-8a72-fe27a7e2557e",
+    "name": "Ibadan",
+    "country": "Nigeria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        3.9021,
+        7.3957
+      ]
+    },
+    "population": 3565000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060637"
+  },
+  {
+    "id": "4d0684b1-dc27-49fe-955c-9252b9a0b18f",
+    "name": "Inchon",
+    "country": "South Korea",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        126.6303,
+        37.2761
+      ]
+    },
+    "population": 2959000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060640"
+  },
+  {
+    "id": "6d0a792b-b121-4422-80d2-f0682b9c9d1a",
+    "name": "Indore",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        75.8577,
+        22.7196
+      ]
+    },
+    "population": 2170000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060642"
+  },
+  {
+    "id": "4a966a8d-667f-4803-974a-8ef630b804f5",
+    "name": "Ipoh",
+    "country": "Malaysia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        101.0901,
+        4.5921
+      ]
+    },
+    "population": 820000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "southeast_asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060647"
+  },
+  {
+    "id": "b83b6166-95a1-4480-bfbc-989932809685",
+    "name": "Islamabad",
+    "country": "Pakistan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        73.0479,
+        33.6844
+      ]
+    },
+    "population": 2010000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060651"
+  },
+  {
+    "id": "021a2774-a296-4f7d-8861-06bef8ef6c3f",
+    "name": "Istanbul",
+    "country": "Turkey",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.9784,
+        41.0082
+      ]
+    },
+    "population": 15190000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "middle_east",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060654"
+  },
+  {
+    "id": "2b1bc2fb-456d-4369-abbd-d7a997df5704",
+    "name": "Izmir",
+    "country": "Turkey",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        27.1287,
+        38.4192
+      ]
+    },
+    "population": 4380000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060657"
+  },
+  {
+    "id": "1c77b8d6-1ba3-4805-af8c-75f21890daca",
+    "name": "Jaipur",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        75.7885,
+        26.9073
+      ]
+    },
+    "population": 3046000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060661"
+  },
+  {
+    "id": "c2cda762-b589-4c73-bdf8-4fa83ee491c8",
+    "name": "Jakarta",
+    "country": "Indonesia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        106.8456,
+        -6.2088
+      ]
+    },
+    "population": 10562000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060664"
+  },
+  {
+    "id": "330053e6-4fe1-4082-869e-35820ba0cac2",
+    "name": "Jeddah",
+    "country": "Saudi Arabia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        39.1727,
+        21.5433
+      ]
+    },
+    "population": 3456000,
+    "importance": 8,
+    "tags": [
+      "economic_hub",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060667"
+  },
+  {
+    "id": "36173e94-1a3d-4817-9b83-9611268f48bc",
+    "name": "Jeju City",
+    "country": "South Korea",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        126.5225,
+        33.5138
+      ]
+    },
+    "population": 423000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060669"
+  },
+  {
+    "id": "52f673ba-04cf-447d-9fcc-65e19febf4d9",
+    "name": "Jerusalem",
+    "country": "Israel/Palestine",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.2137,
+        31.7683
+      ]
+    },
+    "population": 949000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "conflict_zone",
+      "middle_east",
+      "historical"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060672"
+  },
+  {
+    "id": "5f576805-7d46-4c96-9275-b10acd468bc0",
+    "name": "Johannesburg",
+    "country": "South Africa",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.0436,
+        -26.2023
+      ]
+    },
+    "population": 5635000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060675"
+  },
+  {
+    "id": "77fcc90b-7883-48fe-a7c8-a77f755af946",
+    "name": "Jordan",
+    "country": "Syria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        44.3615,
+        33.3128
+      ]
+    },
+    "population": 0,
+    "importance": 3,
+    "tags": [
+      "region",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060678"
+  },
+  {
+    "id": "0e883f07-54c6-4428-a874-a9f857bbe57a",
+    "name": "Kabul",
+    "country": "Afghanistan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        69.2075,
+        34.5553
+      ]
+    },
+    "population": 4639000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "conflict_zone",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060681"
+  },
+  {
+    "id": "dfc7abe7-866b-4636-92b9-a9556cf61d01",
+    "name": "Kano",
+    "country": "Nigeria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        8.5167,
+        11.9833
+      ]
+    },
+    "population": 3931000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060684"
+  },
+  {
+    "id": "4ddf2c00-0c40-4867-be6a-3301ad2752ae",
+    "name": "Kaohsiung",
+    "country": "Taiwan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        120.3014,
+        22.6228
+      ]
+    },
+    "population": 2774000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060688"
+  },
+  {
+    "id": "89171f88-d559-44ab-a3b2-fb1e9474cf6d",
+    "name": "Kapilvastu",
+    "country": "Nepal",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        83.9083,
+        27.5744
+      ]
+    },
+    "population": 200000,
+    "importance": 6,
+    "tags": [
+      "historical",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060691"
+  },
+  {
+    "id": "d54ff7b5-b815-4cab-b2f0-295f5fe89153",
+    "name": "Karachi",
+    "country": "Pakistan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        67.0011,
+        24.8607
+      ]
+    },
+    "population": 15400000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060694"
+  },
+  {
+    "id": "3cfca4e0-a6f3-4aed-bde6-bb31233991b1",
+    "name": "Kashgar",
+    "country": "China",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        75.9369,
+        39.4751
+      ]
+    },
+    "population": 625000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "asia",
+      "liberation_history"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060697"
+  },
+  {
+    "id": "b9d79b96-cd33-474f-a879-d0fc02692123",
+    "name": "Kathmandu",
+    "country": "Nepal",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.324,
+        27.7172
+      ]
+    },
+    "population": 2575000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "asia",
+      "cultural_hub"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060699"
+  },
+  {
+    "id": "7d6c9724-7752-4b05-982c-dc13abc8aba7",
+    "name": "Kaunas",
+    "country": "Lithuania",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        23.8974,
+        54.8973
+      ]
+    },
+    "population": 315000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060702"
+  },
+  {
+    "id": "bd79caa0-1754-4c60-b468-c9ef685e5e21",
+    "name": "Kavala",
+    "country": "Greece",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        24.4247,
+        40.9358
+      ]
+    },
+    "population": 70000,
+    "importance": 5,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060705"
+  },
+  {
+    "id": "1dc69a5e-2f19-4b2a-80f3-68dbe45433d0",
+    "name": "Kayseri",
+    "country": "Turkey",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.4787,
+        38.7312
+      ]
+    },
+    "population": 1400000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060708"
+  },
+  {
+    "id": "cf6def40-c85e-4329-a86a-83a019ff2c65",
+    "name": "Kazan",
+    "country": "Russia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        49.1221,
+        55.7887
+      ]
+    },
+    "population": 1300000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "europe_asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060711"
+  },
+  {
+    "id": "8ec87f63-729b-4bb3-90d0-c77557bac707",
+    "name": "Khartoum",
+    "country": "Sudan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.5599,
+        15.5007
+      ]
+    },
+    "population": 5300000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "conflict_zone",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060714"
+  },
+  {
+    "id": "461a9de4-1353-46ed-96a2-02df2e878d56",
+    "name": "Kharkiv",
+    "country": "Ukraine",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        36.2304,
+        50.0038
+      ]
+    },
+    "population": 1430000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060718"
+  },
+  {
+    "id": "9047ab86-b2fc-4651-a2df-d4ef66c6714e",
+    "name": "Kigali",
+    "country": "Rwanda",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        29.8739,
+        -1.9536
+      ]
+    },
+    "population": 1300000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "africa",
+      "conflict_history"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060722"
+  },
+  {
+    "id": "5fb47d33-656a-4276-817c-9425498c7401",
+    "name": "Kobe",
+    "country": "Japan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        135.1955,
+        34.6901
+      ]
+    },
+    "population": 1525000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060725"
+  },
+  {
+    "id": "fedebec8-1cde-4038-b85c-4f77b046f901",
+    "name": "Kolkata",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        88.3639,
+        22.5726
+      ]
+    },
+    "population": 14681000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060729"
+  },
+  {
+    "id": "3cab9f3a-d9f7-49c4-9393-f1dd46cd35af",
+    "name": "Krak\u00f3w",
+    "country": "Poland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.945,
+        50.0647
+      ]
+    },
+    "population": 769000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "europe",
+      "historical"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060732"
+  },
+  {
+    "id": "a85f88fa-b4a5-4360-8b89-eed7602d2ff3",
+    "name": "Kuala Lumpur",
+    "country": "Malaysia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        101.6869,
+        3.139
+      ]
+    },
+    "population": 1982000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060735"
+  },
+  {
+    "id": "429cdcf0-d139-46fe-a383-ee2db9020e6e",
+    "name": "Kunming",
+    "country": "China",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        102.7103,
+        25.042
+      ]
+    },
+    "population": 6432000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060739"
+  },
+  {
+    "id": "da3ff0b8-d9b2-4987-b2a0-10763c642f72",
+    "name": "Kuwait City",
+    "country": "Kuwait",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        47.9774,
+        29.3759
+      ]
+    },
+    "population": 1600000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060742"
+  },
+  {
+    "id": "53becd17-c660-4e61-baf5-232e349b233c",
+    "name": "Kyiv",
+    "country": "Ukraine",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.5234,
+        50.4501
+      ]
+    },
+    "population": 2962000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "conflict_zone",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060745"
+  },
+  {
+    "id": "9675ebf7-900e-43d2-84c9-8c96814fb2e0",
+    "name": "Kyoto",
+    "country": "Japan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        135.7681,
+        35.0116
+      ]
+    },
+    "population": 1460000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "asia",
+      "cultural_hub"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060748"
+  },
+  {
+    "id": "c3382e7e-868a-47e0-9bee-ce826fabb0f6",
+    "name": "La Paz",
+    "country": "Bolivia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -68.15,
+        -16.5
+      ]
+    },
+    "population": 844000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060750"
+  },
+  {
+    "id": "a50dbe40-e1ea-4bda-9817-d3d5988b37b0",
+    "name": "Lagos",
+    "country": "Nigeria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        3.3792,
+        6.5244
+      ]
+    },
+    "population": 13463000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060753"
+  },
+  {
+    "id": "0a4aa0d4-3a20-4557-97cd-3d74e2cf9ccd",
+    "name": "Lahore",
+    "country": "Pakistan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        74.3436,
+        31.5497
+      ]
+    },
+    "population": 11127000,
+    "importance": 9,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060756"
+  },
+  {
+    "id": "896efde0-c966-4541-a8fc-e1d3180c64e1",
+    "name": "Lao Cai",
+    "country": "Vietnam",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        103.9667,
+        22.485
+      ]
+    },
+    "population": 150000,
+    "importance": 5,
+    "tags": [
+      "border_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060759"
+  },
+  {
+    "id": "a9b97de4-9666-4a74-8e80-8c6737d8c234",
+    "name": "Laayoune",
+    "country": "Western Sahara",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -13.2034,
+        27.1242
+      ]
+    },
+    "population": 200000,
+    "importance": 6,
+    "tags": [
+      "conflict_zone",
+      "africa",
+      "disputed_capital"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060762"
+  },
+  {
+    "id": "c5437af8-82e9-4092-96cb-f7dd9fd2441c",
+    "name": "Larisa",
+    "country": "Greece",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        22.4193,
+        39.6366
+      ]
+    },
+    "population": 285000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060765"
+  },
+  {
+    "id": "f95766d9-1a3e-4f16-ad4c-59e1631733ea",
+    "name": "Las Vegas",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -115.1398,
+        36.1699
+      ]
+    },
+    "population": 644000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060768"
+  },
+  {
+    "id": "53ca025e-ad2f-43aa-a21f-c94a436102d3",
+    "name": "Lashkar Gah",
+    "country": "Afghanistan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        64.365,
+        31.582
+      ]
+    },
+    "population": 210000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060771"
+  },
+  {
+    "id": "103bf985-61bc-4421-a399-628e4cea81ca",
+    "name": "Latakia",
+    "country": "Syria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.5278,
+        34.7694
+      ]
+    },
+    "population": 600000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060774"
+  },
+  {
+    "id": "639cadfb-3637-47aa-ba2e-2ea55e8da6eb",
+    "name": "Leeds",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -1.5491,
+        53.8008
+      ]
+    },
+    "population": 793000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060777"
+  },
+  {
+    "id": "0ffa9c86-4216-4b71-a6a9-cde24e6b696f",
+    "name": "Leipzig",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        12.3731,
+        51.3397
+      ]
+    },
+    "population": 634000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060780"
+  },
+  {
+    "id": "25cc395a-2db6-42ca-9525-818497ec46c7",
+    "name": "Leon",
+    "country": "Mexico",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -101.5795,
+        20.9881
+      ]
+    },
+    "population": 1337000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060783"
+  },
+  {
+    "id": "4a4c37e6-2874-4c36-93ab-5cd05168eeff",
+    "name": "Li\u00e8ge",
+    "country": "Belgium",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        5.5693,
+        50.6292
+      ]
+    },
+    "population": 200000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060786"
+  },
+  {
+    "id": "03849fe9-0058-44c4-8675-a42961f55412",
+    "name": "Lima",
+    "country": "Peru",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -77.0428,
+        -12.0464
+      ]
+    },
+    "population": 8894000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060789"
+  },
+  {
+    "id": "d8589dcd-1db4-4002-8b51-c61fabe0a4d5",
+    "name": "Lisbon",
+    "country": "Portugal",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -9.1393,
+        38.7223
+      ]
+    },
+    "population": 545000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060794"
+  },
+  {
+    "id": "3823f4bf-47e2-4f44-8282-f1ff0b15af6b",
+    "name": "Liverpool",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -2.9916,
+        53.4084
+      ]
+    },
+    "population": 496000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060797"
+  },
+  {
+    "id": "72b27f0b-8e57-4e3c-93d1-478dd2c12d93",
+    "name": "Livingstone",
+    "country": "Zambia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        25.855,
+        -17.8494
+      ]
+    },
+    "population": 139000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060800"
+  },
+  {
+    "id": "cf33bbc3-c558-477c-a43c-1631ce33bdb4",
+    "name": "Ljubljana",
+    "country": "Slovenia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.5058,
+        46.0569
+      ]
+    },
+    "population": 293000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060803"
+  },
+  {
+    "id": "297b357c-d23e-4526-9245-4077ad8339b3",
+    "name": "L\u00f3dz",
+    "country": "Poland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.455,
+        51.7594
+      ]
+    },
+    "population": 768000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060805"
+  },
+  {
+    "id": "fcc6e8ca-b8d0-47ed-83c5-78eb8be6ce83",
+    "name": "London",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -0.1278,
+        51.5074
+      ]
+    },
+    "population": 9002000,
+    "importance": 10,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060808"
+  },
+  {
+    "id": "77b80219-9242-461a-a69a-4fb005b0ae88",
+    "name": "Long Beach",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -118.1937,
+        33.7701
+      ]
+    },
+    "population": 466000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060812"
+  },
+  {
+    "id": "b3e861f4-0bd4-4f29-955d-e5b934690f33",
+    "name": "Loqu\u00e9",
+    "country": "Mali",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -7.5667,
+        13.3
+      ]
+    },
+    "population": 5000,
+    "importance": 2,
+    "tags": [
+      "village",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060815"
+  },
+  {
+    "id": "97f50d6c-b1ef-4df8-8514-919b614e4f09",
+    "name": "Los Angeles",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -118.2437,
+        34.0522
+      ]
+    },
+    "population": 3990000,
+    "importance": 9,
+    "tags": [
+      "major_city",
+      "usa",
+      "economic_hub"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060818"
+  },
+  {
+    "id": "0d53004f-1a3d-464a-a3b3-f01b920b3362",
+    "name": "Louisville",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -85.7585,
+        38.2527
+      ]
+    },
+    "population": 615000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060821"
+  },
+  {
+    "id": "fc918141-5074-48dc-8c44-25970f8516e2",
+    "name": "Luanda",
+    "country": "Angola",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        13.2344,
+        -8.8383
+      ]
+    },
+    "population": 8000000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060824"
+  },
+  {
+    "id": "05786090-89d4-4a87-995b-dc7ff52d72ae",
+    "name": "Lubumbashi",
+    "country": "Democratic Republic of Congo",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        27.4589,
+        -11.6655
+      ]
+    },
+    "population": 1373000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060827"
+  },
+  {
+    "id": "b86c26c6-b4b8-4d2f-95ed-d4e1331a5eb4",
+    "name": "Lucknow",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.9462,
+        26.8467
+      ]
+    },
+    "population": 2815000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060829"
+  },
+  {
+    "id": "29f034bf-0b8d-4770-99d6-b5ceab32d02d",
+    "name": "Ludwigshafen",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        8.4386,
+        49.4432
+      ]
+    },
+    "population": 167000,
+    "importance": 5,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060832"
+  },
+  {
+    "id": "64cf2f40-2092-4ef8-875d-c326ec425b5d",
+    "name": "Lusaka",
+    "country": "Zambia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.2883,
+        -15.3875
+      ]
+    },
+    "population": 2840000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060835"
+  },
+  {
+    "id": "7766663e-2cc0-4255-bee8-9a33ae1b316f",
+    "name": "Luxembourg City",
+    "country": "Luxembourg",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        6.1319,
+        49.6116
+      ]
+    },
+    "population": 128000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060838"
+  },
+  {
+    "id": "b0131f98-95b3-47b4-a2c0-88d55cfbabba",
+    "name": "Lviv",
+    "country": "Ukraine",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        24.0297,
+        49.8397
+      ]
+    },
+    "population": 721000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "europe",
+      "conflict_history"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060841"
+  },
+  {
+    "id": "a0fa413f-0f3f-456f-9859-ba8b67a55294",
+    "name": "Lyon",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        4.8357,
+        45.764
+      ]
+    },
+    "population": 1330000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060843"
+  },
+  {
+    "id": "bdede5f2-7f5d-406c-9369-967c3758ec0a",
+    "name": "Macao",
+    "country": "Macao",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        113.5439,
+        22.2026
+      ]
+    },
+    "population": 683000,
+    "importance": 7,
+    "tags": [
+      "special_city",
+      "asia",
+      "economic_hub"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060846"
+  },
+  {
+    "id": "084989d7-7492-4ea3-8fa7-8a114f521de6",
+    "name": "Maiduguri",
+    "country": "Nigeria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        13.1667,
+        11.85
+      ]
+    },
+    "population": 1500000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060850"
+  },
+  {
+    "id": "2ccdf9a1-5324-43ce-b16e-e23d82b5baf3",
+    "name": "Madrid",
+    "country": "Spain",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -3.7038,
+        40.4168
+      ]
+    },
+    "population": 3280000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060853"
+  },
+  {
+    "id": "a45af464-597a-4db7-ad33-be9ab97c73d8",
+    "name": "Makassar",
+    "country": "Indonesia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        119.4327,
+        -5.1477
+      ]
+    },
+    "population": 1649000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060857"
+  },
+  {
+    "id": "b4a5dc61-91c3-42f6-85c1-ada83a7485c1",
+    "name": "Mal\u00e9",
+    "country": "Maldives",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        73.5093,
+        4.1755
+      ]
+    },
+    "population": 177000,
+    "importance": 6,
+    "tags": [
+      "capital",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060860"
+  },
+  {
+    "id": "0962f266-e8e0-49c0-86d2-360a90d1fc63",
+    "name": "Malta",
+    "country": "Malta",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.5146,
+        35.8989
+      ]
+    },
+    "population": 6000,
+    "importance": 2,
+    "tags": [
+      "island",
+      "europe",
+      "historical"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060864"
+  },
+  {
+    "id": "32ce933a-6a2d-4083-8203-0c430f3f0cdf",
+    "name": "Manado",
+    "country": "Indonesia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        124.8254,
+        1.4748
+      ]
+    },
+    "population": 451000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060867"
+  },
+  {
+    "id": "c67fc9d4-c804-467d-a448-1edae0821bf6",
+    "name": "Managua",
+    "country": "Nicaragua",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -86.2362,
+        12.115
+      ]
+    },
+    "population": 973000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "central_america",
+      "liberation_history"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060870"
+  },
+  {
+    "id": "0278e376-4b24-431c-b02d-65a32cef9cd0",
+    "name": "Manchester",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -2.2426,
+        53.4808
+      ]
+    },
+    "population": 547000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060874"
+  },
+  {
+    "id": "fd246683-771c-467e-a7ef-f1893fe1280e",
+    "name": "Mandalay",
+    "country": "Myanmar",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        96.0891,
+        21.9788
+      ]
+    },
+    "population": 1208000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060877"
+  },
+  {
+    "id": "a404304b-7f23-4f5b-a6ee-cf987969e25d",
+    "name": "Manila",
+    "country": "Philippines",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        120.9842,
+        14.5995
+      ]
+    },
+    "population": 1846000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060880"
+  },
+  {
+    "id": "a3c71407-45a2-4550-99e2-082dc628ccdc",
+    "name": "Maputo",
+    "country": "Mozambique",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.3296,
+        -23.8636
+      ]
+    },
+    "population": 1101000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060883"
+  },
+  {
+    "id": "bdcb2cbb-6ffd-4887-8421-2bd4cb5d2116",
+    "name": "Marrakech",
+    "country": "Morocco",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -8.0136,
+        31.6295
+      ]
+    },
+    "population": 928000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "africa",
+      "cultural_hub"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060886"
+  },
+  {
+    "id": "d8dbee64-4692-4059-86f3-82dc564d42e6",
+    "name": "Marseille",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        5.3698,
+        43.2965
+      ]
+    },
+    "population": 896000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060894"
+  },
+  {
+    "id": "5ac81de4-3bb6-4fd0-9058-9c8c71da4190",
+    "name": "Maseru",
+    "country": "Lesotho",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        27.55,
+        -29.61
+      ]
+    },
+    "population": 330000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060898"
+  },
+  {
+    "id": "947f4ad7-e682-4f51-ada6-ecff6bbe48b6",
+    "name": "Masyaf",
+    "country": "Syria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        36.1119,
+        34.7639
+      ]
+    },
+    "population": 51000,
+    "importance": 5,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060901"
+  },
+  {
+    "id": "2293bbcd-56c0-4b62-a792-7be5bae24160",
+    "name": "Matsue",
+    "country": "Japan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        133.0501,
+        35.4437
+      ]
+    },
+    "population": 195000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060904"
+  },
+  {
+    "id": "43919889-e359-443d-bc40-fa24cba905dd",
+    "name": "Matterhorn",
+    "country": "Switzerland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        7.6582,
+        45.9763
+      ]
+    },
+    "population": 0,
+    "importance": 1,
+    "tags": [
+      "mountain",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060907"
+  },
+  {
+    "id": "b2b8d83e-dd1c-4331-ae32-367d2c0350e3",
+    "name": "Maumere",
+    "country": "Indonesia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        122.2155,
+        -8.6196
+      ]
+    },
+    "population": 50000,
+    "importance": 4,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060910"
+  },
+  {
+    "id": "e9d9e7b9-27fa-49a2-8c44-3158a9526df4",
+    "name": "Mauritius",
+    "country": "Mauritius",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        57.5012,
+        -20.211
+      ]
+    },
+    "population": 1300000,
+    "importance": 7,
+    "tags": [
+      "island_nation",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060913"
+  },
+  {
+    "id": "cd067e00-d77d-40ae-a0ce-22cc40465542",
+    "name": "Mavi Marmara",
+    "country": "Turkey",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.9784,
+        41.0082
+      ]
+    },
+    "population": 0,
+    "importance": 1,
+    "tags": [
+      "ship",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060916"
+  },
+  {
+    "id": "e7b1cb13-24eb-44fe-93d1-d38395bb3ed6",
+    "name": "Medell\u00edn",
+    "country": "Colombia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -75.5636,
+        6.2518
+      ]
+    },
+    "population": 2508000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060919"
+  },
+  {
+    "id": "76d37354-2df6-406e-aa3a-618dc821d20b",
+    "name": "Medina",
+    "country": "Saudi Arabia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        39.6028,
+        24.4672
+      ]
+    },
+    "population": 1300000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "middle_east",
+      "religious_center"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060921"
+  },
+  {
+    "id": "e2a04f5c-bcb0-49ac-9fac-816a68c58517",
+    "name": "Mekele",
+    "country": "Ethiopia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        39.4803,
+        13.4981
+      ]
+    },
+    "population": 440000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060924"
+  },
+  {
+    "id": "f2002aab-504d-4aa6-b064-273593c4f10e",
+    "name": "Melbourne",
+    "country": "Australia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        144.9631,
+        -37.8136
+      ]
+    },
+    "population": 5207000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "australia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060937"
+  },
+  {
+    "id": "81fba3d5-3b8e-4113-a7d6-28094ecaefbe",
+    "name": "Memphis",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -90.049,
+        35.1495
+      ]
+    },
+    "population": 633000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060945"
+  },
+  {
+    "id": "e825a605-f1fa-4f39-9b9f-2b7965ea7ba4",
+    "name": "Mendoza",
+    "country": "Argentina",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -68.845,
+        -32.8898
+      ]
+    },
+    "population": 120000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060948"
+  },
+  {
+    "id": "8cf0cadf-6c02-4e20-9990-b181acc66e77",
+    "name": "M\u00e9rida",
+    "country": "Mexico",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -89.6238,
+        20.9673
+      ]
+    },
+    "population": 875000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060951"
+  },
+  {
+    "id": "1c567edd-2654-4e14-be46-10c2bae76e8d",
+    "name": "Messina",
+    "country": "Italy",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        15.5542,
+        38.1889
+      ]
+    },
+    "population": 228000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060956"
+  },
+  {
+    "id": "3465f0d2-26d4-4ef5-aebc-ecf8c199a384",
+    "name": "Mexico City",
+    "country": "Mexico",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -99.1332,
+        19.4326
+      ]
+    },
+    "population": 21572000,
+    "importance": 10,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060959"
+  },
+  {
+    "id": "a2b1d378-78cd-4f53-9091-b63f52236ee1",
+    "name": "Mexicali",
+    "country": "Mexico",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -115.4588,
+        32.6553
+      ]
+    },
+    "population": 936000,
+    "importance": 7,
+    "tags": [
+      "border_city",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060962"
+  },
+  {
+    "id": "4407a8c8-ecb2-4d6e-8410-e6e7779ea578",
+    "name": "Miami",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -80.1918,
+        25.7617
+      ]
+    },
+    "population": 467000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060988"
+  },
+  {
+    "id": "130138e4-a04d-43dd-8211-07eefa41cf86",
+    "name": "Mia\u00f1\u00f3",
+    "country": "Spain",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -8.75,
+        42.6
+      ]
+    },
+    "population": 50,
+    "importance": 2,
+    "tags": [
+      "village",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060992"
+  },
+  {
+    "id": "d97b49cc-e26d-42e7-817f-2bbd98beaf53",
+    "name": "Milan",
+    "country": "Italy",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        9.19,
+        45.4642
+      ]
+    },
+    "population": 1399000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060995"
+  },
+  {
+    "id": "adfe825d-e4f8-4062-bfe6-3f10d57770e5",
+    "name": "Milwaukee",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -87.9065,
+        43.0389
+      ]
+    },
+    "population": 592000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.060998"
+  },
+  {
+    "id": "bf056083-90d2-4aa5-8a20-fce01dea6d02",
+    "name": "Minsk",
+    "country": "Belarus",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        27.5615,
+        53.9045
+      ]
+    },
+    "population": 2058000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061000"
+  },
+  {
+    "id": "cc1a3711-8478-422f-b73f-1d8d1de0170a",
+    "name": "Mirpur",
+    "country": "Pakistan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        74.2833,
+        33.15
+      ]
+    },
+    "population": 100000,
+    "importance": 5,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061003"
+  },
+  {
+    "id": "b59a7107-4665-48fe-8f84-bc36a01384ff",
+    "name": "Misrata",
+    "country": "Libya",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        15.094,
+        32.3745
+      ]
+    },
+    "population": 550000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061006"
+  },
+  {
+    "id": "fec54906-e6ce-4601-8d5a-17df0a14cdda",
+    "name": "Mitrovica",
+    "country": "Kosovo",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.8642,
+        42.8915
+      ]
+    },
+    "population": 59000,
+    "importance": 5,
+    "tags": [
+      "conflict_zone",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061009"
+  },
+  {
+    "id": "c1df52b6-eae7-4949-8300-ab314dcc4097",
+    "name": "Mombasa",
+    "country": "Kenya",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        39.6682,
+        -4.0435
+      ]
+    },
+    "population": 1200000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "economic_hub",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061012"
+  },
+  {
+    "id": "2cc7c777-f20b-40c9-bcd7-71d2485f1820",
+    "name": "Monaco",
+    "country": "Monaco",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        7.4246,
+        43.7384
+      ]
+    },
+    "population": 36500,
+    "importance": 6,
+    "tags": [
+      "city_state",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061015"
+  },
+  {
+    "id": "bc580de8-70f3-4d7c-839b-a4a184f58c68",
+    "name": "Monastir",
+    "country": "Tunisia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        10.8151,
+        35.7662
+      ]
+    },
+    "population": 130000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061019"
+  },
+  {
+    "id": "d85dcd01-ae81-48bb-b53d-febd6ec196a6",
+    "name": "Mongolia",
+    "country": "Mongolia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        106.8841,
+        47.5289
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "country",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061022"
+  },
+  {
+    "id": "555b62f7-0e35-450c-88da-2dd9a512420c",
+    "name": "Monrovia",
+    "country": "Liberia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -10.8073,
+        6.3155
+      ]
+    },
+    "population": 1090000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061025"
+  },
+  {
+    "id": "0ff7f858-ef01-431d-99f1-2a6c049adc45",
+    "name": "Montego Bay",
+    "country": "Jamaica",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -77.9484,
+        18.4891
+      ]
+    },
+    "population": 110000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "caribbean"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061028"
+  },
+  {
+    "id": "29d8502d-4bb0-4863-801f-bc0dcecf7b79",
+    "name": "Monterey",
+    "country": "Mexico",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -100.3161,
+        25.6866
+      ]
+    },
+    "population": 1142000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061031"
+  },
+  {
+    "id": "37d2b225-bfde-4fba-ac15-2db2fb210e19",
+    "name": "Montreal",
+    "country": "Canada",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.5673,
+        45.5017
+      ]
+    },
+    "population": 4259000,
+    "importance": 9,
+    "tags": [
+      "major_city",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061034"
+  },
+  {
+    "id": "bfe22e17-bc6f-4eb9-8480-4102341600ac",
+    "name": "Montserrat",
+    "country": "Montserrat",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -62.187,
+        16.7573
+      ]
+    },
+    "population": 4922,
+    "importance": 4,
+    "tags": [
+      "island",
+      "caribbean"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061037"
+  },
+  {
+    "id": "2175e03a-d089-46e7-8387-0c062f1ea407",
+    "name": "Mostar",
+    "country": "Bosnia and Herzegovina",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.8181,
+        43.337
+      ]
+    },
+    "population": 113000,
+    "importance": 6,
+    "tags": [
+      "conflict_zone",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061040"
+  },
+  {
+    "id": "af86d53c-40b5-43c9-a588-2a0ca3329517",
+    "name": "Mosul",
+    "country": "Iraq",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        43.1553,
+        36.3425
+      ]
+    },
+    "population": 1818000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061043"
+  },
+  {
+    "id": "666a8d9f-e7bd-4e91-8983-f95276256983",
+    "name": "Moulton",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -0.1908,
+        52.5519
+      ]
+    },
+    "population": 11000,
+    "importance": 3,
+    "tags": [
+      "village",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061048"
+  },
+  {
+    "id": "d675f1b0-1dba-4000-a993-8403e318ce25",
+    "name": "Mount Vesuvius",
+    "country": "Italy",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.4269,
+        40.8211
+      ]
+    },
+    "population": 0,
+    "importance": 1,
+    "tags": [
+      "volcano",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061051"
+  },
+  {
+    "id": "41843c21-9496-4561-8f41-ea53b73327d9",
+    "name": "Mouthe",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        6.24,
+        46.55
+      ]
+    },
+    "population": 320,
+    "importance": 2,
+    "tags": [
+      "village",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061054"
+  },
+  {
+    "id": "23b86ecf-9e5c-49ec-b578-0f54a745d39d",
+    "name": "Movistar",
+    "country": "Spain",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -3.7038,
+        40.4168
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "company",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061057"
+  },
+  {
+    "id": "b046aad3-7424-493c-b3d6-ddb4b079f6cf",
+    "name": "Mozamique",
+    "country": "Mozambique",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.3296,
+        -23.8636
+      ]
+    },
+    "population": 30000000,
+    "importance": 0,
+    "tags": [
+      "country",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061061"
+  },
+  {
+    "id": "feafbfe2-232e-4a3f-8d6d-3f3c195ae06e",
+    "name": "Mumbai",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.8777,
+        19.076
+      ]
+    },
+    "population": 20411000,
+    "importance": 10,
+    "tags": [
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061064"
+  },
+  {
+    "id": "4518e5e0-27f0-4c80-a65d-fedefad10ee4",
+    "name": "Munich",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        11.582,
+        48.1351
+      ]
+    },
+    "population": 1484000,
+    "importance": 9,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061066"
+  },
+  {
+    "id": "cff9646d-2600-4574-b491-d959b7b98928",
+    "name": "Muscat",
+    "country": "Oman",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        58.54,
+        23.61
+      ]
+    },
+    "population": 1700000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061069"
+  },
+  {
+    "id": "25002e8b-6c5c-4723-a1a1-da725c1886f8",
+    "name": "Mutare",
+    "country": "Zimbabwe",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.6582,
+        -18.9755
+      ]
+    },
+    "population": 190000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061072"
+  },
+  {
+    "id": "bcaea69e-b6e5-4ad8-86a5-b98750240c00",
+    "name": "Mykonos",
+    "country": "Greece",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        25.3289,
+        37.4467
+      ]
+    },
+    "population": 2000,
+    "importance": 4,
+    "tags": [
+      "island",
+      "europe",
+      "tourist_destination"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061076"
+  },
+  {
+    "id": "3cac9162-1579-47d0-b726-2762e923a1fa",
+    "name": "Nagasaki",
+    "country": "Japan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        129.8711,
+        32.7487
+      ]
+    },
+    "population": 407000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "asia",
+      "nuclear_history"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061079"
+  },
+  {
+    "id": "b0443893-b9a1-4d7a-a20e-99e949f0e075",
+    "name": "Nagoya",
+    "country": "Japan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        136.9066,
+        35.1815
+      ]
+    },
+    "population": 2334000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061082"
+  },
+  {
+    "id": "0e8d35f1-0310-4643-a67f-e1ad852ad6d4",
+    "name": "Nairobi",
+    "country": "Kenya",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        36.8172,
+        -1.2864
+      ]
+    },
+    "population": 4735000,
+    "importance": 9,
+    "tags": [
+      "capital",
+      "economic_hub",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061085"
+  },
+  {
+    "id": "015ae730-b037-4338-bf8b-57c372eca404",
+    "name": "Nakhon Ratchasima",
+    "country": "Thailand",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        102.0898,
+        14.9724
+      ]
+    },
+    "population": 1300000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061088"
+  },
+  {
+    "id": "2cfafb42-c28d-4e82-a863-0c53e824cbe3",
+    "name": "Namibe",
+    "country": "Angola",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        12.1547,
+        -15.1961
+      ]
+    },
+    "population": 100000,
+    "importance": 5,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061090"
+  },
+  {
+    "id": "480fa14c-eb70-479a-b800-ae4cedc81341",
+    "name": "Nanchang",
+    "country": "China",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        115.8579,
+        28.6832
+      ]
+    },
+    "population": 5350000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061093"
+  },
+  {
+    "id": "9139e9a9-d17f-44ee-a9ed-4fecba577414",
+    "name": "Nancy",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        6.1844,
+        48.6921
+      ]
+    },
+    "population": 272000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061096"
+  },
+  {
+    "id": "1fd20f07-ff42-4aad-a8ee-1681d60215a3",
+    "name": "Nanjing",
+    "country": "China",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        118.7969,
+        32.0603
+      ]
+    },
+    "population": 8341000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061101"
+  },
+  {
+    "id": "6e33b693-42a7-4615-b0a9-65b8ebd61fd5",
+    "name": "Nanning",
+    "country": "China",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        108.3665,
+        22.817
+      ]
+    },
+    "population": 7400000,
+    "importance": 8,
+    "tags": [
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061104"
+  },
+  {
+    "id": "3f5f4889-142c-452c-b526-d8d91ab3c25c",
+    "name": "Napa",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.258,
+        38.2919
+      ]
+    },
+    "population": 79000,
+    "importance": 5,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061107"
+  },
+  {
+    "id": "1dad9ff0-c501-4f02-b3c3-aa7127eccbfa",
+    "name": "Naples",
+    "country": "Italy",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.2681,
+        40.8518
+      ]
+    },
+    "population": 909000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061109"
+  },
+  {
+    "id": "6b1271e3-cec4-4011-befa-1a9b0319ea40",
+    "name": "Naypyidaw",
+    "country": "Myanmar",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        96.0656,
+        19.7633
+      ]
+    },
+    "population": 1160000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061112"
+  },
+  {
+    "id": "ce074e35-c22e-42dc-a930-562ed1421297",
+    "name": "Nazareth",
+    "country": "Palestine/Israel",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.2975,
+        32.7021
+      ]
+    },
+    "population": 77000,
+    "importance": 6,
+    "tags": [
+      "religious_center",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061115"
+  },
+  {
+    "id": "fe61a08f-3d34-4d02-a5d2-064b7693dc69",
+    "name": "N'Djamena",
+    "country": "Chad",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        15.0557,
+        12.1348
+      ]
+    },
+    "population": 1250000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061118"
+  },
+  {
+    "id": "40f3770c-dc09-4224-a2ec-205d6649520b",
+    "name": "Neubrandenburg",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        13.2658,
+        53.5581
+      ]
+    },
+    "population": 65000,
+    "importance": 4,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061121"
+  },
+  {
+    "id": "96a68fb8-ac16-456f-bdae-3e3bee9cdb87",
+    "name": "Neuss",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        6.6864,
+        51.4015
+      ]
+    },
+    "population": 152000,
+    "importance": 5,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061124"
+  },
+  {
+    "id": "e78083b8-1e3e-439d-9381-5e7a88546075",
+    "name": "Neuwied",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        7.4667,
+        50.4193
+      ]
+    },
+    "population": 63000,
+    "importance": 4,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061127"
+  },
+  {
+    "id": "f4ee5c36-91d3-481a-a99d-ea024cb2e37d",
+    "name": "Newark",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.1724,
+        40.7357
+      ]
+    },
+    "population": 311000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061130"
+  },
+  {
+    "id": "5684fa99-61c1-4375-b6fd-c991f0578a77",
+    "name": "Newcastle",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -1.6178,
+        54.9783
+      ]
+    },
+    "population": 302000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061133"
+  },
+  {
+    "id": "ff7d0818-8a8e-4e33-ae51-5cf9b633fff6",
+    "name": "New Delhi",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.209,
+        28.6139
+      ]
+    },
+    "population": 32941000,
+    "importance": 10,
+    "tags": [
+      "capital",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061136"
+  },
+  {
+    "id": "9c198e63-b9a7-4fa6-818b-3b098069fde0",
+    "name": "Newfoundland",
+    "country": "Canada",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -52.7126,
+        47.5615
+      ]
+    },
+    "population": 520000,
+    "importance": 6,
+    "tags": [
+      "region",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061139"
+  },
+  {
+    "id": "20073f41-9476-40ca-82d5-7368a35fcd34",
+    "name": "New Orleans",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -90.2623,
+        29.9511
+      ]
+    },
+    "population": 390000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061142"
+  },
+  {
+    "id": "ef6199a2-b724-42d5-8a4a-e5a88f38fee0",
+    "name": "Newport",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -3.0051,
+        51.5874
+      ]
+    },
+    "population": 145000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061145"
+  },
+  {
+    "id": "75d81ed5-34d9-47d0-bac0-e0e7a14a9380",
+    "name": "New York",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.006,
+        40.7128
+      ]
+    },
+    "population": 8336000,
+    "importance": 10,
+    "tags": [
+      "economic_hub",
+      "usa",
+      "global_center"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061148"
+  },
+  {
+    "id": "aeced86e-9d7a-4fa2-9a3b-b12b69a5f13a",
+    "name": "New Zealand",
+    "country": "New Zealand",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        174.886,
+        -40.9006
+      ]
+    },
+    "population": 5100000,
+    "importance": 0,
+    "tags": [
+      "country",
+      "pacific"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061151"
+  },
+  {
+    "id": "9ee49730-46da-4327-83b7-4fa79004f6e7",
+    "name": "Niamey",
+    "country": "Niger",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.1257,
+        13.5119
+      ]
+    },
+    "population": 1300000,
+    "importance": 8,
+    "tags": [
+      "capital",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061154"
+  },
+  {
+    "id": "e7f63067-0af1-4036-a3c1-7ec431f59074",
+    "name": "Nicosia",
+    "country": "Cyprus",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        33.3823,
+        35.1264
+      ]
+    },
+    "population": 275000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "europe",
+      "divided_city"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061157"
+  },
+  {
+    "id": "53d4df80-b493-4ee0-95bb-b1ecf301c4d2",
+    "name": "Niedersachsen",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        9.5,
+        52.5
+      ]
+    },
+    "population": 8000000,
+    "importance": 0,
+    "tags": [
+      "region",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061160"
+  },
+  {
+    "id": "56186774-b116-42a1-9897-b0365c82c779",
+    "name": "Niigata",
+    "country": "Japan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        139.0322,
+        37.9272
+      ]
+    },
+    "population": 810000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061164"
+  },
+  {
+    "id": "c14c6595-50c9-4acf-94db-446a6855b1f9",
+    "name": "Ningbo",
+    "country": "China",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.544,
+        29.8683
+      ]
+    },
+    "population": 8242000,
+    "importance": 9,
+    "tags": [
+      "economic_hub",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061167"
+  },
+  {
+    "id": "f2ad5d44-1616-43a4-90fa-3e4eb2cc19aa",
+    "name": "Nizhny Novgorod",
+    "country": "Russia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        43.9639,
+        56.3269
+      ]
+    },
+    "population": 1250000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "europe_asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061170"
+  },
+  {
+    "id": "2a638d55-9cca-4267-bd59-60c7f397adb2",
+    "name": "Nkhomo",
+    "country": "Malawi",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.5,
+        -14.0
+      ]
+    },
+    "population": 30000,
+    "importance": 4,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061174"
+  },
+  {
+    "id": "d686f99e-3aca-4a64-a9d5-8d80153657fd",
+    "name": "Nocera",
+    "country": "Italy",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.5819,
+        40.8842
+      ]
+    },
+    "population": 23000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061178"
+  },
+  {
+    "id": "427cf814-a3bc-4be7-8b3c-b302e8d3e79f",
+    "name": "Nokia",
+    "country": "Finland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        25.4353,
+        60.6892
+      ]
+    },
+    "population": 32000,
+    "importance": 4,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061181"
+  },
+  {
+    "id": "478fc3cc-70df-450f-8e28-85468840fa24",
+    "name": "Norilsk",
+    "country": "Russia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        88.2023,
+        69.2674
+      ]
+    },
+    "population": 175000,
+    "importance": 5,
+    "tags": [
+      "major_city",
+      "europe_asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061185"
+  },
+  {
+    "id": "e8f5cab9-4d8a-4f3c-85ea-5d9bca31bec6",
+    "name": "Norfolk",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -76.2859,
+        36.8508
+      ]
+    },
+    "population": 245000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061187"
+  },
+  {
+    "id": "07e8d2e1-0666-498e-988f-ddd61295dc7b",
+    "name": "Normalcy",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -75.0,
+        40.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "concept",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061190"
+  },
+  {
+    "id": "76ba15bf-f52b-47ec-9e87-86259fd4dacc",
+    "name": "North Carolina",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -79.8064,
+        35.6301
+      ]
+    },
+    "population": 10000000,
+    "importance": 0,
+    "tags": [
+      "state",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061194"
+  },
+  {
+    "id": "17716db1-7109-47da-b601-9b30d788705a",
+    "name": "North Dakota",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -99.784,
+        47.5289
+      ]
+    },
+    "population": 780000,
+    "importance": 0,
+    "tags": [
+      "state",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061197"
+  },
+  {
+    "id": "f87b90a4-865f-4efd-8f7b-dd7cd5638e81",
+    "name": "Northeast",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -71.5,
+        45.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "region",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061200"
+  },
+  {
+    "id": "92fa3cea-f82c-47f4-86f1-ee892824dab3",
+    "name": "Northern Ireland",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -5.9301,
+        54.5973
+      ]
+    },
+    "population": 1900000,
+    "importance": 0,
+    "tags": [
+      "region",
+      "europe",
+      "conflict_history"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061203"
+  },
+  {
+    "id": "595d680a-dee8-456c-aa61-d7ba71d7067e",
+    "name": "Northern Territory",
+    "country": "Australia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        131.3924,
+        -12.6882
+      ]
+    },
+    "population": 245000,
+    "importance": 0,
+    "tags": [
+      "region",
+      "australia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061206"
+  },
+  {
+    "id": "e9641187-79bb-4dff-aa14-78153b641ead",
+    "name": "Northampton",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -0.893,
+        52.2304
+      ]
+    },
+    "population": 212000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061209"
+  },
+  {
+    "id": "5c6c4e67-b68a-463a-9577-f7edecfc882c",
+    "name": "Northwest",
+    "country": "Canada",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -116.0,
+        62.0
+      ]
+    },
+    "population": 45000,
+    "importance": 0,
+    "tags": [
+      "region",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061211"
+  },
+  {
+    "id": "6af1a839-efa0-485f-8fdb-6d04afd779a9",
+    "name": "Northwest Territories",
+    "country": "Canada",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -116.0,
+        62.0
+      ]
+    },
+    "population": 45000,
+    "importance": 0,
+    "tags": [
+      "region",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061214"
+  },
+  {
+    "id": "65c6a0fe-2e20-48b6-97e2-56d90211ce03",
+    "name": "Norway",
+    "country": "Norway",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        8.4689,
+        60.472
+      ]
+    },
+    "population": 5457000,
+    "importance": 0,
+    "tags": [
+      "country",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061217"
+  },
+  {
+    "id": "acf07c9b-577c-4719-9947-e88501ce8cdf",
+    "name": "Norwegian Fjords",
+    "country": "Norway",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        6.0,
+        61.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "natural_feature",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061220"
+  },
+  {
+    "id": "57006ff9-80c9-4b21-a9ab-84d225fd48c6",
+    "name": "Norwich",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.2974,
+        52.6309
+      ]
+    },
+    "population": 143000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061224"
+  },
+  {
+    "id": "8e0513ec-b9e2-46c2-b955-a759b4b655da",
+    "name": "Nottingham",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -1.1581,
+        52.9548
+      ]
+    },
+    "population": 323000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061226"
+  },
+  {
+    "id": "2262a15d-3cd0-449b-943a-967e31ea6a71",
+    "name": "Novgorod",
+    "country": "Russia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        31.2771,
+        58.528
+      ]
+    },
+    "population": 130000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061230"
+  },
+  {
+    "id": "d4344ba5-3cc6-4638-b6b2-e56227142250",
+    "name": "Novosibirsk",
+    "country": "Russia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        82.9346,
+        55.0415
+      ]
+    },
+    "population": 1625000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061234"
+  },
+  {
+    "id": "7a38f97e-323d-4dc4-961b-49741aca1544",
+    "name": "Nozhay-Yurtovsk",
+    "country": "Russia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        45.7167,
+        43.3167
+      ]
+    },
+    "population": 34000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "europe_asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061237"
+  },
+  {
+    "id": "3be82039-5aab-440f-8a48-dc4fe3e3be0c",
+    "name": "N\u00facleo",
+    "country": "Brazil",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -64.77,
+        -7.21
+      ]
+    },
+    "population": 50000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061240"
+  },
+  {
+    "id": "bf7a36f4-b824-4f12-bb4a-4aa85b7be41a",
+    "name": "Nueva Ecija",
+    "country": "Philippines",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.0,
+        15.0
+      ]
+    },
+    "population": 2000000,
+    "importance": 0,
+    "tags": [
+      "province",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061243"
+  },
+  {
+    "id": "1916440a-0685-4404-8937-aeaa41c965e5",
+    "name": "Nuevo Le\u00f3n",
+    "country": "Mexico",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -100.3161,
+        25.6866
+      ]
+    },
+    "population": 5078000,
+    "importance": 0,
+    "tags": [
+      "state",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061245"
+  },
+  {
+    "id": "e72ea081-4025-4361-a67b-3d2e55103d22",
+    "name": "Nuuk",
+    "country": "Greenland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -51.6941,
+        64.1814
+      ]
+    },
+    "population": 19000,
+    "importance": 5,
+    "tags": [
+      "capital",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061248"
+  },
+  {
+    "id": "131985e6-c897-4109-a993-59da4b17829c",
+    "name": "Nuremberg",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        11.0767,
+        49.4521
+      ]
+    },
+    "population": 518000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "europe",
+      "historical"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061251"
+  },
+  {
+    "id": "6f0e1aaa-d001-4d59-b6e6-f53dba5f4c57",
+    "name": "Nuremburg",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        11.0767,
+        49.4521
+      ]
+    },
+    "population": 518000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061254"
+  },
+  {
+    "id": "f52676ed-7209-4568-a28a-c56692eff298",
+    "name": "Oaxaca",
+    "country": "Mexico",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -96.7236,
+        17.0627
+      ]
+    },
+    "population": 267000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061257"
+  },
+  {
+    "id": "a2593fdf-41f8-44ec-8567-ed376944673d",
+    "name": "Oberhausen",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        6.8656,
+        51.4556
+      ]
+    },
+    "population": 211000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061259"
+  },
+  {
+    "id": "fcbda313-109e-43f3-81d1-d4d833fa1bc2",
+    "name": "Ocosingo",
+    "country": "Mexico",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -92.0887,
+        16.9022
+      ]
+    },
+    "population": 150000,
+    "importance": 5,
+    "tags": [
+      "major_city",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061265"
+  },
+  {
+    "id": "2bbe38ee-5134-47f3-9814-bc3ff60718d3",
+    "name": "Odessa",
+    "country": "Ukraine",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.7523,
+        46.4867
+      ]
+    },
+    "population": 1010000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061268"
+  },
+  {
+    "id": "d061ba6f-715e-48e4-8fdb-e0878201c92f",
+    "name": "Odivelas",
+    "country": "Portugal",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -9.15,
+        38.7833
+      ]
+    },
+    "population": 165000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061271"
+  },
+  {
+    "id": "fb1dc6eb-c8cd-4ad9-a557-bcca31d63471",
+    "name": "Offenbach",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        8.7747,
+        50.1009
+      ]
+    },
+    "population": 130000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061274"
+  },
+  {
+    "id": "e285760f-0d7b-4355-9a67-eea97e1aa43a",
+    "name": "Ogbomosho",
+    "country": "Nigeria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        4.2714,
+        8.1344
+      ]
+    },
+    "population": 645000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061277"
+  },
+  {
+    "id": "77c3eee3-cf89-4221-86ef-050b95063fae",
+    "name": "Oglala",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -102.5392,
+        42.2458
+      ]
+    },
+    "population": 300,
+    "importance": 2,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061280"
+  },
+  {
+    "id": "a15bf97e-cb5c-43f1-9096-ae01f48ac520",
+    "name": "Ogre",
+    "country": "Latvia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        24.6883,
+        56.8078
+      ]
+    },
+    "population": 28000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061282"
+  },
+  {
+    "id": "038c0267-2009-4a72-94be-15cb86d59146",
+    "name": "Ogunji",
+    "country": "Nigeria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        5.5167,
+        6.55
+      ]
+    },
+    "population": 100000,
+    "importance": 5,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061285"
+  },
+  {
+    "id": "b48d3366-104c-4d32-a74b-938d8e5f9f9c",
+    "name": "Ohia",
+    "country": "Zambia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        27.6167,
+        -13.0667
+      ]
+    },
+    "population": 50000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061288"
+  },
+  {
+    "id": "2b6b66a9-6ed6-4432-b1ad-415a377e3b49",
+    "name": "Ohio",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -82.7649,
+        40.3888
+      ]
+    },
+    "population": 11780000,
+    "importance": 0,
+    "tags": [
+      "state",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061291"
+  },
+  {
+    "id": "48d8b7de-0ce0-4f8f-9fbc-ca37db14b739",
+    "name": "Oilers",
+    "country": "Canada",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -113.4909,
+        53.5344
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "sports_team",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061294"
+  },
+  {
+    "id": "575fa698-0c44-4667-9d77-b72b6e647794",
+    "name": "Oita",
+    "country": "Japan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        131.5975,
+        33.2381
+      ]
+    },
+    "population": 476000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061298"
+  },
+  {
+    "id": "aaac3f58-26b8-4010-b57b-cdb3f6c93a03",
+    "name": "Okayama",
+    "country": "Japan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        133.9196,
+        34.6552
+      ]
+    },
+    "population": 710000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061300"
+  },
+  {
+    "id": "deb7c579-8d83-4d1b-823c-64f5663c886c",
+    "name": "Okinawa",
+    "country": "Japan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        127.8028,
+        26.3344
+      ]
+    },
+    "population": 1450000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061303"
+  },
+  {
+    "id": "fb2ad3e3-0095-4684-bc3d-c4dae0792dbd",
+    "name": "Oklahoma City",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.5164,
+        35.4676
+      ]
+    },
+    "population": 681000,
+    "importance": 7,
+    "tags": [
+      "capital",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061308"
+  },
+  {
+    "id": "1c2339bc-34ca-4d9a-a5db-90b6aae7b06e",
+    "name": "Olathe",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -94.8186,
+        38.8864
+      ]
+    },
+    "population": 145000,
+    "importance": 5,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061311"
+  },
+  {
+    "id": "937387ce-bf5b-403c-8cdd-6210e5a939bc",
+    "name": "Oldenburg",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        8.2146,
+        53.1439
+      ]
+    },
+    "population": 169000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061314"
+  },
+  {
+    "id": "949abe28-1819-4b99-a6f4-addb9d26039c",
+    "name": "Oldham",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -2.1103,
+        53.5407
+      ]
+    },
+    "population": 220000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061317"
+  },
+  {
+    "id": "f3ec76b0-b238-4b00-8692-bf5a1524e477",
+    "name": "Ole\u015bnica",
+    "country": "Poland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.4686,
+        51.2589
+      ]
+    },
+    "population": 60000,
+    "importance": 4,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061319"
+  },
+  {
+    "id": "8306f25e-08b8-4bf0-8134-dc8c65921e5a",
+    "name": "Olinda",
+    "country": "Brazil",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -34.8553,
+        -8.0089
+      ]
+    },
+    "population": 390000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061322"
+  },
+  {
+    "id": "086f31af-9ca8-4a91-98af-58e0f83d590d",
+    "name": "Olomouc",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 101000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061325"
+  },
+  {
+    "id": "6801ef1f-e52d-4629-a9e4-1b49a9ef3fad",
+    "name": "Olsztyn",
+    "country": "Poland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4696,
+        53.7784
+      ]
+    },
+    "population": 173000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061328"
+  },
+  {
+    "id": "e0475379-1d48-4205-8969-5909c3518880",
+    "name": "Olympia",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.9007,
+        47.0379
+      ]
+    },
+    "population": 55000,
+    "importance": 5,
+    "tags": [
+      "capital",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061332"
+  },
+  {
+    "id": "f875d76d-c81b-4f50-844f-f6f5a25072eb",
+    "name": "Olympic Games",
+    "country": "Various",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        139.6503,
+        35.6762
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "event",
+      "global"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061334"
+  },
+  {
+    "id": "11c2994c-7862-4fdc-a314-b291f6b79762",
+    "name": "Oman",
+    "country": "Oman",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        58.54,
+        23.61
+      ]
+    },
+    "population": 5100000,
+    "importance": 0,
+    "tags": [
+      "country",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061337"
+  },
+  {
+    "id": "e2feddea-325c-4b9b-8e86-500a6a92ab8f",
+    "name": "Omaha",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -95.9345,
+        41.2565
+      ]
+    },
+    "population": 468000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061340"
+  },
+  {
+    "id": "e0d63322-1112-4f66-a4d0-8ee26cbe10c6",
+    "name": "Omdurman",
+    "country": "Sudan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.4837,
+        15.6431
+      ]
+    },
+    "population": 2395000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "conflict_zone",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061343"
+  },
+  {
+    "id": "cb9c3bbf-196a-4bb6-8d48-df0bc08c1eaf",
+    "name": "Omers",
+    "country": "Georgia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        44.791,
+        41.615
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_place",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061346"
+  },
+  {
+    "id": "34d1b93a-2c53-48b5-8de0-f956ded341b1",
+    "name": "Omsk",
+    "country": "Russia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        73.3242,
+        54.9885
+      ]
+    },
+    "population": 1154000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061349"
+  },
+  {
+    "id": "71177b73-087a-4ab5-b9cb-29d2955aef6c",
+    "name": "Onawa",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -95.7117,
+        42.4617
+      ]
+    },
+    "population": 2900,
+    "importance": 2,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061352"
+  },
+  {
+    "id": "286b46a8-2655-48b8-ad08-273c6128640f",
+    "name": "Ondoorman",
+    "country": "Sudan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.4837,
+        15.6431
+      ]
+    },
+    "population": 2395000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061355"
+  },
+  {
+    "id": "4e2a0b2b-d78b-4bde-84da-3636960e046d",
+    "name": "Oneonta",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -75.0505,
+        42.4533
+      ]
+    },
+    "population": 13300,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061357"
+  },
+  {
+    "id": "7ae3ff4f-9a16-4003-8d53-e208a4ded45d",
+    "name": "Ongole",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        79.6729,
+        14.6349
+      ]
+    },
+    "population": 180000,
+    "importance": 5,
+    "tags": [
+      "major_city",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061361"
+  },
+  {
+    "id": "aefd77ef-2926-4aff-adbe-519f88fc14c7",
+    "name": "Ongwediva",
+    "country": "Namibia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        15.7832,
+        -17.7832
+      ]
+    },
+    "population": 30000,
+    "importance": 4,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061364"
+  },
+  {
+    "id": "1bee8e92-b276-4b0d-84c0-cfc03a3b11fd",
+    "name": "Onibujon",
+    "country": "Nigeria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        5.5167,
+        6.55
+      ]
+    },
+    "population": 30000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061367"
+  },
+  {
+    "id": "0f088a74-2ea8-4aa7-8e20-70be4c7ea81a",
+    "name": "Onionville",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -90.3667,
+        38.4
+      ]
+    },
+    "population": 7000,
+    "importance": 2,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061369"
+  },
+  {
+    "id": "8f651acd-2821-4636-8da0-ed43d088618f",
+    "name": "Ontario",
+    "country": "Canada",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -106.3468,
+        56.1304
+      ]
+    },
+    "population": 14700000,
+    "importance": 0,
+    "tags": [
+      "province",
+      "north_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061372"
+  },
+  {
+    "id": "d52cbf7c-1a5c-4b59-a73c-4f4e27215d69",
+    "name": "Onze-Lieve-Vrouwe-Waver",
+    "country": "Belgium",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        4.6667,
+        51.4667
+      ]
+    },
+    "population": 38000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061375"
+  },
+  {
+    "id": "a07a4d2d-3f26-4c37-b3c7-1fe2187263e8",
+    "name": "Opatija",
+    "country": "Croatia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.3069,
+        45.3381
+      ]
+    },
+    "population": 7000,
+    "importance": 3,
+    "tags": [
+      "resort_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061378"
+  },
+  {
+    "id": "b17f4c41-42f4-4fdc-a894-86d6b434aabc",
+    "name": "Opepe",
+    "country": "Nigeria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        5.65,
+        8.1667
+      ]
+    },
+    "population": 50000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061380"
+  },
+  {
+    "id": "355d6194-26f4-43b1-9fd5-50aa85bbe55d",
+    "name": "Opepe-Erinwinde",
+    "country": "Nigeria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        5.65,
+        8.1667
+      ]
+    },
+    "population": 50000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061384"
+  },
+  {
+    "id": "8e139286-6590-4393-8879-5a94282c4468",
+    "name": "Opole",
+    "country": "Poland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.9213,
+        50.6751
+      ]
+    },
+    "population": 128000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061387"
+  },
+  {
+    "id": "02c22bf8-5953-48b4-85e0-05ea44e9dd35",
+    "name": "Opp",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -86.2769,
+        31.2821
+      ]
+    },
+    "population": 6500,
+    "importance": 2,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061391"
+  },
+  {
+    "id": "1328fb8d-0c24-49bf-a7c8-7eaf7dfea892",
+    "name": "Oradea",
+    "country": "Romania",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        21.9366,
+        47.04
+      ]
+    },
+    "population": 196000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061394"
+  },
+  {
+    "id": "f5cf4bbc-2778-442b-b3e5-c6b9e5c20835",
+    "name": "Oran",
+    "country": "Algeria",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -0.6372,
+        35.7369
+      ]
+    },
+    "population": 916000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061396"
+  },
+  {
+    "id": "d37c6016-986a-485b-a651-9b2770699e7c",
+    "name": "Orange",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -117.8531,
+        33.7876
+      ]
+    },
+    "population": 139000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061399"
+  },
+  {
+    "id": "2ab54cc8-44ea-438b-bec6-e655cff82f8a",
+    "name": "Oranjestad",
+    "country": "Aruba",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -68.9333,
+        12.1833
+      ]
+    },
+    "population": 28000,
+    "importance": 4,
+    "tags": [
+      "capital",
+      "caribbean"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061403"
+  },
+  {
+    "id": "8d4a4c58-f4b1-4d41-a812-cf5cc4ecf2ce",
+    "name": "Oranjestad-oost",
+    "country": "Aruba",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -68.9333,
+        12.1833
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "suburb",
+      "caribbean"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061405"
+  },
+  {
+    "id": "53119da3-900e-4057-8c8d-7bebb8677400",
+    "name": "Oranjestad-west",
+    "country": "Aruba",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -68.9333,
+        12.1833
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "suburb",
+      "caribbean"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061408"
+  },
+  {
+    "id": "5d21edcb-0dbe-4b0b-a916-52cc3a5e4a6c",
+    "name": "Ora\u015ful Stalin",
+    "country": "Romania",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        24.35,
+        45.1667
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_city_name",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061415"
+  },
+  {
+    "id": "8c056ff0-a6fc-467f-835c-f2b0fb287ee8",
+    "name": "Ordu",
+    "country": "Turkey",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        37.2833,
+        40.9833
+      ]
+    },
+    "population": 180000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061417"
+  },
+  {
+    "id": "0328fd2d-bf2d-491d-8591-881b7cab6d70",
+    "name": "Ore",
+    "country": "Sweden",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        59.6717
+      ]
+    },
+    "population": 500,
+    "importance": 1,
+    "tags": [
+      "village",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061420"
+  },
+  {
+    "id": "6054fff9-0209-4fec-9d8d-251c14a83818",
+    "name": "Orebro",
+    "country": "Sweden",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        15.2134,
+        59.2744
+      ]
+    },
+    "population": 150000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061423"
+  },
+  {
+    "id": "ec426f1b-8e22-45cc-bb43-c6922466279e",
+    "name": "Oregon",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -120.5542,
+        43.8041
+      ]
+    },
+    "population": 4200000,
+    "importance": 0,
+    "tags": [
+      "state",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061427"
+  },
+  {
+    "id": "306377fc-c584-41b3-b4fd-d672e4f60ac2",
+    "name": "Oregon City",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.607,
+        45.3503
+      ]
+    },
+    "population": 37000,
+    "importance": 4,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061430"
+  },
+  {
+    "id": "291c2160-e23f-4005-b999-4dcab4059ef0",
+    "name": "\u00d6rebro",
+    "country": "Sweden",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        15.2134,
+        59.2744
+      ]
+    },
+    "population": 150000,
+    "importance": 6,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061433"
+  },
+  {
+    "id": "05c112ea-aa2d-4513-86c8-c0f67be3f374",
+    "name": "Orenburg",
+    "country": "Russia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        55.1003,
+        51.5681
+      ]
+    },
+    "population": 546000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe_asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061436"
+  },
+  {
+    "id": "7827a1fc-c712-4c5e-bca9-5596497f7324",
+    "name": "Organ Pipe",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -112.8333,
+        32.4167
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "natural_monument",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061439"
+  },
+  {
+    "id": "fa1a6917-965f-45cb-8f39-3b7829f5a965",
+    "name": "Organizaci\u00f3n",
+    "country": "United Nations",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -73.968,
+        40.7489
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "international_org",
+      "global"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061442"
+  },
+  {
+    "id": "0d8fa560-b99c-4344-88b9-cdca61393383",
+    "name": "Orgelbau",
+    "country": "Germany",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        13.405,
+        52.52
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "company",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061445"
+  },
+  {
+    "id": "34d3783e-d70b-413a-9441-20e85f042165",
+    "name": "Orhan",
+    "country": "Turkey",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        27.0,
+        41.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_name",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061448"
+  },
+  {
+    "id": "27213710-1f73-4e33-af0b-23db8c2ed864",
+    "name": "Orhonigal",
+    "country": "Turkey",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        27.0,
+        41.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_site",
+      "middle_east"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061450"
+  },
+  {
+    "id": "e5837b84-3e72-414d-a215-ad9adc27ea8a",
+    "name": "Orhonigal Inscription",
+    "country": "Turkey",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        96.0,
+        51.0
+      ]
+    },
+    "population": 0,
+    "importance": 1,
+    "tags": [
+      "historical_monument",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061453"
+  },
+  {
+    "id": "f931706b-801e-454e-afed-5a65c5517c8e",
+    "name": "Oria",
+    "country": "Italy",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.65,
+        40.6
+      ]
+    },
+    "population": 16000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061456"
+  },
+  {
+    "id": "82cdb376-9df3-4078-9d3e-27d935b4c7e9",
+    "name": "Oribana",
+    "country": "Brazil",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -64.77,
+        -7.21
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "region",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061459"
+  },
+  {
+    "id": "405db180-49eb-481c-90a1-e8d459869a5c",
+    "name": "Oricani",
+    "country": "Cameroon",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        11.5,
+        3.9
+      ]
+    },
+    "population": 20000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061462"
+  },
+  {
+    "id": "8c9eb8d2-d3e5-46fd-84d7-dc9d7ececac1",
+    "name": "Orient",
+    "country": "Various",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        0.0,
+        0.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "region",
+      "global"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061464"
+  },
+  {
+    "id": "07c4e604-0e41-43d4-8e52-d594829faeff",
+    "name": "Oriental",
+    "country": "Various",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        0.0,
+        0.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "region",
+      "global"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061468"
+  },
+  {
+    "id": "36b1f31b-12c6-4689-af3c-a6d3239a357b",
+    "name": "Orientale",
+    "country": "Italy",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.65,
+        40.6
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_region",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061471"
+  },
+  {
+    "id": "f0111e97-8cb5-4356-ae77-39300b6f7c03",
+    "name": "Oriflamme",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.3522,
+        48.8566
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_banner",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061475"
+  },
+  {
+    "id": "7e356c1f-3089-4d4a-bce6-04c74c8ceeac",
+    "name": "Origami",
+    "country": "Japan",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        139.6503,
+        35.6762
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "art_form",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061478"
+  },
+  {
+    "id": "8e91bcd2-3a1e-4683-960b-10b5f22c22ab",
+    "name": "Origin",
+    "country": "Various",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        0.0,
+        0.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "concept",
+      "global"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061481"
+  },
+  {
+    "id": "dbfd3cf9-bf2c-48d0-b22f-492eceabfc42",
+    "name": "Origines",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.3522,
+        48.8566
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "concept",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061483"
+  },
+  {
+    "id": "2ca63c11-a417-44b0-b69a-2ef79fb05c14",
+    "name": "Orijent",
+    "country": "Croatia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.3069,
+        45.3381
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "sports_team",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061486"
+  },
+  {
+    "id": "e94dbc15-15cb-41d9-ad4a-0111b4e8c4d3",
+    "name": "Orio",
+    "country": "Spain",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -2.1462,
+        43.3068
+      ]
+    },
+    "population": 3200,
+    "importance": 2,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061490"
+  },
+  {
+    "id": "456b88b1-2f90-4262-ad3f-396dfeb090df",
+    "name": "Orion",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -83.3806,
+        42.8233
+      ]
+    },
+    "population": 8000,
+    "importance": 2,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061493"
+  },
+  {
+    "id": "93372d78-2ea2-4075-9eff-6dd12419c34a",
+    "name": "Orisa",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8245,
+        20.2961
+      ]
+    },
+    "population": 42000000,
+    "importance": 0,
+    "tags": [
+      "state",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061495"
+  },
+  {
+    "id": "ce44b3e2-cb28-4145-9f71-85a0b9d27c24",
+    "name": "Orissa",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8245,
+        20.2961
+      ]
+    },
+    "population": 42000000,
+    "importance": 0,
+    "tags": [
+      "state",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061498"
+  },
+  {
+    "id": "6140eb51-ee1b-44ff-9b00-ac231b205df6",
+    "name": "Oriya",
+    "country": "India",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.8245,
+        20.2961
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "language",
+      "asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061501"
+  },
+  {
+    "id": "392733d1-fae4-47cd-adbf-c5be6a15bca8",
+    "name": "Orjuela",
+    "country": "Colombia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.3055,
+        4.5991
+      ]
+    },
+    "population": 50000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061504"
+  },
+  {
+    "id": "895f4c8e-3715-4350-b558-d3d89fb39c6c",
+    "name": "Orkney",
+    "country": "United Kingdom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -3.0,
+        59.0
+      ]
+    },
+    "population": 20000,
+    "importance": 4,
+    "tags": [
+      "island_group",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061508"
+  },
+  {
+    "id": "9f7325b1-867f-4104-97a3-8f9759478570",
+    "name": "Orlanth",
+    "country": "Glorantha",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        0.0,
+        0.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "fictional_god",
+      "fantasy"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061511"
+  },
+  {
+    "id": "a64a2ea4-4fcc-4dba-bf1a-920b7967a706",
+    "name": "Orlanth Temple",
+    "country": "Glorantha",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        0.0,
+        0.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "fictional_location",
+      "fantasy"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061513"
+  },
+  {
+    "id": "18d69fa8-5375-48b7-96bf-aeb33c784bce",
+    "name": "Orlandi",
+    "country": "Italy",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        15.55,
+        38.25
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "surname",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061516"
+  },
+  {
+    "id": "3455c2a2-cf40-475b-a8b2-952cbc52a626",
+    "name": "Orlandi Valeria",
+    "country": "Italy",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        15.55,
+        38.25
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "person",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061519"
+  },
+  {
+    "id": "14856462-9993-4c7d-9584-96dddbdddf58",
+    "name": "Orlandia",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.3723,
+        28.5421
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_name",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061522"
+  },
+  {
+    "id": "7fff7970-3219-4ed3-816f-8c787be4d25a",
+    "name": "Orlandi's",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.3723,
+        28.5421
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "restaurant",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061525"
+  },
+  {
+    "id": "0b861f9b-e554-4dff-b513-b6858f7d1490",
+    "name": "Orlandi's Italian Food",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.3723,
+        28.5421
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "restaurant",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061527"
+  },
+  {
+    "id": "2e19807b-33ae-420e-ac04-fd24bbe04aff",
+    "name": "Orlane",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.3522,
+        48.8566
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "cosmetics_brand",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061530"
+  },
+  {
+    "id": "f081a49d-cc5c-4c43-b5d2-dbca6fef50eb",
+    "name": "Orlanth Sword",
+    "country": "Glorantha",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        0.0,
+        0.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "fictional_artifact",
+      "fantasy"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061533"
+  },
+  {
+    "id": "cc070202-4d60-4d4c-afc6-cfe3eb040549",
+    "name": "Orlans",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_name",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061536"
+  },
+  {
+    "id": "31be57a2-f610-4198-9125-943993408d71",
+    "name": "Orlans-Ch\u00e2lon",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_place",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061538"
+  },
+  {
+    "id": "5b1b4e20-b721-49f4-b136-021d1c4fe715",
+    "name": "Orlans-Ch\u00e2lon Railway",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "railway",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061543"
+  },
+  {
+    "id": "fb131dcb-ca8e-4bd0-ba8f-a3f4d4d32a8a",
+    "name": "Orland",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -121.5953,
+        39.7867
+      ]
+    },
+    "population": 9000,
+    "importance": 3,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061546"
+  },
+  {
+    "id": "204f4c59-2bb7-4fd9-ac68-174829807914",
+    "name": "Orlanda",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.3723,
+        28.5421
+      ]
+    },
+    "population": 1500000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061549"
+  },
+  {
+    "id": "c5abfabd-7770-4a15-b403-848c099d895f",
+    "name": "Orlando",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -81.3723,
+        28.5421
+      ]
+    },
+    "population": 307000,
+    "importance": 8,
+    "tags": [
+      "major_city",
+      "usa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061552"
+  },
+  {
+    "id": "6e4c52fa-9a50-4184-a779-ef27f1bd34d5",
+    "name": "Orlangen",
+    "country": "Namibia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.0,
+        -22.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "africa"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061555"
+  },
+  {
+    "id": "ccf194ac-2f7c-4e2c-87e8-63446e53146b",
+    "name": "Orlanges",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_place",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061558"
+  },
+  {
+    "id": "a0768020-4240-41ab-8987-e965ae8aaf35",
+    "name": "Orlans",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061561"
+  },
+  {
+    "id": "c9b32586-f080-4ae4-a7e1-e33e37dc8935",
+    "name": "Orlans-Ch\u00e2lon",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "railway_company",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061564"
+  },
+  {
+    "id": "f4f8b7f8-29ac-4fac-a47c-be24bf819a64",
+    "name": "Orlans-Ch\u00e2lons",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_place",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061567"
+  },
+  {
+    "id": "a9e1cf61-3742-4d15-90c3-eebe381da52c",
+    "name": "Orlans-Ch\u00e2lons Railway",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "railway",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061570"
+  },
+  {
+    "id": "d25bc321-158a-4d78-a656-3198a4463b44",
+    "name": "Orl\u00e9ans",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 289000,
+    "importance": 7,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061573"
+  },
+  {
+    "id": "87790065-10a4-41f2-8d0e-8db4368ae27f",
+    "name": "Orl\u00e9ans Armagnac",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "brandy",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061575"
+  },
+  {
+    "id": "5de5d45b-9da3-4ef5-a750-4d1f01245464",
+    "name": "Orl\u00e9ans, Jean d'",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "person",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061594"
+  },
+  {
+    "id": "c65f871c-9963-4ab6-a320-f3eaafc9835a",
+    "name": "Orl\u00e9ans, Jeanne d'",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "person",
+      "europe",
+      "historical"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061600"
+  },
+  {
+    "id": "73bc5968-c55d-4d85-a908-947ddd4694b7",
+    "name": "Orlano",
+    "country": "Brazil",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -64.77,
+        -7.21
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "south_america"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061606"
+  },
+  {
+    "id": "63c3bc0b-bef6-4d89-a768-ea477a3d15f6",
+    "name": "Orlawa",
+    "country": "Poland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.6447,
+        53.7789
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "region",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061609"
+  },
+  {
+    "id": "587332fa-5d29-4399-84cb-1b11701de318",
+    "name": "Orlaya",
+    "country": "Various",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        0.0,
+        0.0
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "plant_genus",
+      "global"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061612"
+  },
+  {
+    "id": "e4d07a81-86dd-43bf-be17-b21fe6bc6394",
+    "name": "Orle",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "heraldry",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061614"
+  },
+  {
+    "id": "95894882-114d-4b6e-ade8-8c25a13727c1",
+    "name": "Orl\u00e9anais",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "historical_region",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061617"
+  },
+  {
+    "id": "59c7b818-e1da-47ba-99b9-57bfb55e71a4",
+    "name": "Orl\u00e9anais Castle",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "castle",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061620"
+  },
+  {
+    "id": "dd11c731-4c64-4ce4-8c66-483c4bcc0c66",
+    "name": "Orl\u00e9anais Dynasty",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "royal_house",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061623"
+  },
+  {
+    "id": "b781804b-6498-4e54-af36-29da390e291f",
+    "name": "Orl\u00e9anaise",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "architectural_style",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061626"
+  },
+  {
+    "id": "65500ff0-96fa-4994-b4f9-f22e9ae9dcc7",
+    "name": "Orl\u00e9anisme",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "political_movement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061630"
+  },
+  {
+    "id": "01377a1d-46c5-49b5-ac3d-678b3f473e0c",
+    "name": "Orl\u00e9aniste",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        1.9,
+        47.9
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "political_ideology",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061633"
+  },
+  {
+    "id": "9fe29213-f0cc-4a54-ae71-9dda8a13fab5",
+    "name": "Orley",
+    "country": "Belgium",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        4.3517,
+        50.8503
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "village",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061636"
+  },
+  {
+    "id": "c8385b63-d323-462c-9be0-05a6f3f634c4",
+    "name": "Orl\u00ed",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "village",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061639"
+  },
+  {
+    "id": "797d257d-6d2b-4d1d-85b5-c32364c017cd",
+    "name": "Orl\u00ed Hill",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "geographical_feature",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061642"
+  },
+  {
+    "id": "168a5101-0ca3-4913-8870-6d0980061096",
+    "name": "Orlice",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "river",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061645"
+  },
+  {
+    "id": "6eda5071-c074-4754-ab78-57789515d405",
+    "name": "Orlicko",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "region",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061649"
+  },
+  {
+    "id": "67fa82a5-4532-4d76-90d9-f61eaae30d1b",
+    "name": "Orlick\u00fdlad",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "mountain_range",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061652"
+  },
+  {
+    "id": "edbadd38-ecb5-4f6c-a971-bff55da70131",
+    "name": "Orlina",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "village",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061655"
+  },
+  {
+    "id": "7065de42-805f-4126-8227-f391050bb497",
+    "name": "Orlingre",
+    "country": "Belgium",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        4.3517,
+        50.8503
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "village",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061657"
+  },
+  {
+    "id": "04e16d32-d0ed-46b5-9b17-89bd69c40663",
+    "name": "Orlinsk",
+    "country": "Russia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        55.1003,
+        51.5681
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe_asia"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061660"
+  },
+  {
+    "id": "9ca5cbe8-b6cb-4a47-9826-ea132b72c36d",
+    "name": "Orlita",
+    "country": "Poland",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.455,
+        51.7594
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "village",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061663"
+  },
+  {
+    "id": "6cb91a2b-a7f8-45cc-ba96-2ada98c4fdde",
+    "name": "Orlje",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 3000,
+    "importance": 2,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061666"
+  },
+  {
+    "id": "c7b796d9-fe11-462d-974c-c8a4cfaf8468",
+    "name": "Orljem",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061669"
+  },
+  {
+    "id": "23535621-91d7-401c-a342-890b97d09f1d",
+    "name": "Orljes",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061672"
+  },
+  {
+    "id": "a7d808a3-9992-4efe-948e-6acbe441d05f",
+    "name": "Orlje\u0161",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061674"
+  },
+  {
+    "id": "4487b372-f24e-41ce-b1ce-4460ab890aea",
+    "name": "Orljevac",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 3000,
+    "importance": 2,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061677"
+  },
+  {
+    "id": "813b46ba-43b2-4b41-aff5-a287240f99e1",
+    "name": "Orljevci",
+    "country": "Croatia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.3069,
+        45.3381
+      ]
+    },
+    "population": 4000,
+    "importance": 2,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061680"
+  },
+  {
+    "id": "fab4929f-cab8-4da2-bfc6-0a42ea6a763d",
+    "name": "Orljevo",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 1000,
+    "importance": 1,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061683"
+  },
+  {
+    "id": "f62f49d2-f66a-40af-8c30-6d4f2b1f9f29",
+    "name": "Orlji Grad",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061687"
+  },
+  {
+    "id": "fd2dbed8-49be-4e72-8c87-b835eab5cad3",
+    "name": "Orlji Grad Castle",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "castle",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061690"
+  },
+  {
+    "id": "b9bfc9c2-3aad-4843-87c1-f7e46f57228b",
+    "name": "Orlje\u0161",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061693"
+  },
+  {
+    "id": "c3e4c701-8591-4686-8b0e-4253ecd004a1",
+    "name": "Orljeva",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061696"
+  },
+  {
+    "id": "ed870dd6-08ec-4a9e-af4d-fabb30debc77",
+    "name": "Orljevik",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061699"
+  },
+  {
+    "id": "b9589e7f-8783-410a-9695-9cd4792d558d",
+    "name": "Orljevina",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061703"
+  },
+  {
+    "id": "055ed7ad-1546-43de-bee4-c629fd5d8bba",
+    "name": "Orljevpak",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061706"
+  },
+  {
+    "id": "13a4d7b9-f368-454e-8b6b-61ad01f57a0d",
+    "name": "Orljevpol",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061709"
+  },
+  {
+    "id": "1253b2f8-d637-43cd-867a-2798350ceef5",
+    "name": "Orljev Polje",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061712"
+  },
+  {
+    "id": "51019206-e97e-4cda-a930-71ea382fcbb8",
+    "name": "Orljevska",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061716"
+  },
+  {
+    "id": "5c94bfa1-a751-4422-8af4-7944773bf006",
+    "name": "Orljevski Vinogradi",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.061720"
+  },
+  {
+    "id": "7e20158f-1573-41f9-9e1d-2e3e4b655af1",
+    "name": "Orljevski Vinogradi Novo",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062201"
+  },
+  {
+    "id": "3b438ee7-13ee-47d2-9638-288df59935d7",
+    "name": "Orljkova",
+    "country": "Serbia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        20.4633,
+        44.8176
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062204"
+  },
+  {
+    "id": "0aa302f0-1fac-4913-a039-100513b17367",
+    "name": "Orlna",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062209"
+  },
+  {
+    "id": "e194f5d8-8572-44bf-b876-ea14cb2139dc",
+    "name": "Orlna u Litomyl",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062212"
+  },
+  {
+    "id": "f472672a-fb42-4554-a3eb-e89415083c17",
+    "name": "Orlov\u00e1",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.4118,
+        49.8351
+      ]
+    },
+    "population": 10000,
+    "importance": 4,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062214"
+  },
+  {
+    "id": "41cf1d56-7273-4230-8940-43e952827df3",
+    "name": "Orlov\u00e1 Sjedno\u0107",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.4118,
+        49.8351
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062217"
+  },
+  {
+    "id": "499098e1-766f-4c2d-b95b-ce15e0609c60",
+    "name": "Orlov\u00e1-Lutyn\u011b",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.4118,
+        49.8351
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062220"
+  },
+  {
+    "id": "8fb8d620-0d05-4631-8ef3-ee6fabbf3ce5",
+    "name": "Orlov\u00e1 Poru\u010d",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.4118,
+        49.8351
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062223"
+  },
+  {
+    "id": "d2361712-acb2-49a2-8660-246dde6003a5",
+    "name": "Orlov\u00e1-Poruba",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.4118,
+        49.8351
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062226"
+  },
+  {
+    "id": "ed87ee5b-60f9-4353-8e6f-cb0966c0b96e",
+    "name": "Orlov\u00e1-Poruba\u2013Porub\u00ed",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.4118,
+        49.8351
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062229"
+  },
+  {
+    "id": "76b9f7e3-db8b-4071-87ce-88ac8f74e5ba",
+    "name": "Orlov\u00e1-Poru\u010d",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.4118,
+        49.8351
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062232"
+  },
+  {
+    "id": "dce225b8-536d-40c3-922d-4774881d01c6",
+    "name": "Orlov\u00e1-Poruba",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.4118,
+        49.8351
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062234"
+  },
+  {
+    "id": "830312f8-0e73-496f-8d1e-47fc33059109",
+    "name": "Orlov\u00e1-Poruba-Lutyn\u011b",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.4118,
+        49.8351
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062237"
+  },
+  {
+    "id": "f1473634-27e4-46a3-b45d-daaac338028c",
+    "name": "Orlov\u00e1 Poru\u010d",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.4118,
+        49.8351
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062240"
+  },
+  {
+    "id": "631b8264-55df-4991-981b-e300f8089d4a",
+    "name": "Orlov\u00e1-Sjedno\u0107",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.4118,
+        49.8351
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062243"
+  },
+  {
+    "id": "29dff4f7-ffc2-4def-a44f-da027b881fb7",
+    "name": "Orluvkov\u00e1",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062247"
+  },
+  {
+    "id": "16c4058d-b989-4fb0-b13a-bde81067736b",
+    "name": "Orl\u016fvka",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062251"
+  },
+  {
+    "id": "81b5081b-4f36-4f87-bb60-90d3ae9c1728",
+    "name": "Orl\u016f",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062254"
+  },
+  {
+    "id": "60f308d5-7edf-413f-914a-3dc846b5f32d",
+    "name": "Orl\u016fvek",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062258"
+  },
+  {
+    "id": "2910c803-a164-4d37-b783-fd4cec51d4f9",
+    "name": "Orl\u016fva",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062261"
+  },
+  {
+    "id": "c3ab2269-20b6-4a1d-831b-61b534d32f83",
+    "name": "Orl\u016fvka",
+    "country": "Czechia",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        17.2519,
+        49.5935
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "settlement",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062263"
+  },
+  {
+    "id": "a807578f-217b-407b-a917-e070a73ca30e",
+    "name": "Orly",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.4047,
+        48.7519
+      ]
+    },
+    "population": 28000,
+    "importance": 4,
+    "tags": [
+      "major_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062266"
+  },
+  {
+    "id": "bdce52d9-9358-4036-b5a4-439b2968a766",
+    "name": "Orly Airport",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.4047,
+        48.7519
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "airport",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062269"
+  },
+  {
+    "id": "7e59648b-427b-4cc6-af9a-1cfd282f818c",
+    "name": "Orly Airport Terminal",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.4047,
+        48.7519
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "airport_terminal",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062272"
+  },
+  {
+    "id": "be8bbe8a-fc41-45ce-be24-b7ec743795c8",
+    "name": "Orlybyen",
+    "country": "France",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.4047,
+        48.7519
+      ]
+    },
+    "population": 0,
+    "importance": 0,
+    "tags": [
+      "airport_city",
+      "europe"
+    ],
+    "imported_at": "2026-02-09T00:32:28.062275"
+  }
+]

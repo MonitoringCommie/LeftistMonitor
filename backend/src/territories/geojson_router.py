@@ -442,3 +442,96 @@ async def get_ireland_file_summary(response: Response):
         with open(index_file, 'r') as f:
             return json.load(f)
     return {"error": "Index file not found"}
+
+
+# ==========================================
+# WEST PAPUA ENDPOINTS
+# ==========================================
+
+WEST_PAPUA_DIR = BASE_DIR / "west_papua"
+
+
+@router.get("/west-papua/overview")
+async def get_west_papua_overview(response: Response):
+    """Get West Papua occupation overview data."""
+    response.headers["Cache-Control"] = "public, max-age=86400"
+    return load_geojson(WEST_PAPUA_DIR / "overview.json")
+
+
+@router.get("/west-papua/massacres/geojson")
+async def get_west_papua_massacres(response: Response):
+    """Get West Papua massacres as GeoJSON."""
+    response.headers["Cache-Control"] = "public, max-age=86400"
+    return load_geojson(WEST_PAPUA_DIR / "massacres.geojson")
+
+
+@router.get("/west-papua/military/geojson")
+async def get_west_papua_military(response: Response):
+    """Get Indonesian military installations in West Papua as GeoJSON."""
+    response.headers["Cache-Control"] = "public, max-age=86400"
+    return load_geojson(WEST_PAPUA_DIR / "military.geojson")
+
+
+@router.get("/west-papua/extractive-industries/geojson")
+async def get_west_papua_extractive(response: Response):
+    """Get extractive industries (mines, gas) in West Papua as GeoJSON."""
+    response.headers["Cache-Control"] = "public, max-age=86400"
+    return load_geojson(WEST_PAPUA_DIR / "extractive_industries.geojson")
+
+
+# ==========================================
+# UYGHUR REGION / EAST TURKESTAN ENDPOINTS
+# ==========================================
+
+UYGHUR_DIR = BASE_DIR / "uyghur_region"
+
+
+@router.get("/uyghur-region/overview")
+async def get_uyghur_overview(response: Response):
+    """Get Uyghur Region overview data."""
+    response.headers["Cache-Control"] = "public, max-age=86400"
+    overview_file = UYGHUR_DIR / "overview.json"
+    if overview_file.exists():
+        with open(overview_file, "r") as f:
+            return json.load(f)
+    return {"error": "Overview file not found"}
+
+
+@router.get("/uyghur-region/detention-facilities/geojson")
+async def get_uyghur_detention_facilities(response: Response):
+    """Get detention/re-education facilities as GeoJSON."""
+    response.headers["Cache-Control"] = "public, max-age=86400"
+    return load_geojson(UYGHUR_DIR / "detention_facilities.geojson")
+
+
+@router.get("/uyghur-region/detention-facilities")
+async def get_uyghur_detention_list(response: Response):
+    """Get detention facilities as JSON list."""
+    response.headers["Cache-Control"] = "public, max-age=86400"
+    facilities_file = UYGHUR_DIR / "detention_facilities.json"
+    if facilities_file.exists():
+        with open(facilities_file, "r") as f:
+            return json.load(f)
+    return []
+
+
+@router.get("/uyghur-region/historical-events")
+async def get_uyghur_historical_events(response: Response):
+    """Get historical events timeline."""
+    response.headers["Cache-Control"] = "public, max-age=86400"
+    events_file = UYGHUR_DIR / "historical_events.json"
+    if events_file.exists():
+        with open(events_file, "r") as f:
+            return json.load(f)
+    return []
+
+
+@router.get("/uyghur-region/key-figures")
+async def get_uyghur_key_figures(response: Response):
+    """Get key figures (activists, scholars, political prisoners)."""
+    response.headers["Cache-Control"] = "public, max-age=86400"
+    figures_file = UYGHUR_DIR / "key_figures.json"
+    if figures_file.exists():
+        with open(figures_file, "r") as f:
+            return json.load(f)
+    return []

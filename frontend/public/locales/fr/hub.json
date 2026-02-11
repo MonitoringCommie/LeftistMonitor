@@ -1,0 +1,29 @@
+{
+  "title": "Explorer l Histoire",
+  "subtitle": "Parcourez les categories des mouvements de gauche et progressistes",
+  "categories": {
+    "people": {
+      "title": "Figures Historiques",
+      "description": "Revolutionnaires, activistes et penseurs qui ont faconne l histoire"
+    },
+    "events": {
+      "title": "Evenements Historiques",
+      "description": "Revolutions, greves, manifestations et moments decisifs"
+    },
+    "movements": {
+      "title": "Mouvements Sociaux",
+      "description": "Mouvements ouvriers, droits civiques, anticoloniaux et de liberation"
+    },
+    "conflicts": {
+      "title": "Conflits Armes",
+      "description": "Guerres revolutionnaires, luttes de liberation et conflits civils"
+    },
+    "books": {
+      "title": "Litterature",
+      "description": "Textes essentiels, manifestes et ouvrages theoriques"
+    }
+  },
+  "featured": "A la Une",
+  "recent": "Recemment Ajoute",
+  "popular": "Les Plus Vus"
+}

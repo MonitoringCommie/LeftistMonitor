@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dabancheng Detention Center",
+        "type": "detention",
+        "capacity_est": 10000,
+        "year_identified": 2018
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.31,
+          43.35
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Korla Vocational Skills Center",
+        "type": "reeducation",
+        "capacity_est": 5000,
+        "year_identified": 2018
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.15,
+          41.76
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kashgar Detention Facility",
+        "type": "detention",
+        "capacity_est": 8000,
+        "year_identified": 2017
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.08,
+          39.47
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotan City Facility",
+        "type": "reeducation",
+        "capacity_est": 3000,
+        "year_identified": 2018
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.92,
+          37.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aksu Facility",
+        "type": "detention",
+        "capacity_est": 4000,
+        "year_identified": 2018
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.26,
+          41.17
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Turpan Center",
+        "type": "reeducation",
+        "capacity_est": 2500,
+        "year_identified": 2019
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          89.18,
+          42.95
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Urumqi Center No. 3",
+        "type": "detention",
+        "capacity_est": 6000,
+        "year_identified": 2018
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.62,
+          43.82
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yining Facility",
+        "type": "reeducation",
+        "capacity_est": 3500,
+        "year_identified": 2018
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.33,
+          43.92
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shihezi Center",
+        "type": "detention",
+        "capacity_est": 2000,
+        "year_identified": 2019
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.04,
+          44.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karamay Facility",
+        "type": "reeducation",
+        "capacity_est": 1500,
+        "year_identified": 2019
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.86,
+          45.58
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "app": {
+    "title": "Monitor Esquerdista",
+    "subtitle": "Mapa Historico Mundial Interativo",
+    "description": "Documentando lutas de libertacao, movimentos anticoloniais e historia progressista mundial"
+  },
+  "actions": {
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "reset": "Redefinir",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "view": "Ver",
+    "back": "Voltar",
+    "next": "Proximo",
+    "previous": "Anterior",
+    "loading": "Carregando...",
+    "error": "Ocorreu um erro",
+    "retry": "Tentar novamente"
+  },
+  "time": {
+    "date": "Data",
+    "year": "Ano",
+    "month": "Mes",
+    "day": "Dia",
+    "from": "De",
+    "to": "Ate",
+    "present": "Presente"
+  }
+}

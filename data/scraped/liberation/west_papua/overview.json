@@ -1,0 +1,61 @@
+{
+  "name": "West Papua",
+  "official_name": "Papua and West Papua Provinces (Indonesia)",
+  "occupation": {
+    "start_year": 1963,
+    "occupying_power": "Indonesia",
+    "previous_status": "Netherlands New Guinea",
+    "act_of_free_choice": {
+      "year": 1969,
+      "description": "Fraudulent UN-supervised vote with only 1,025 hand-picked voters",
+      "total_population_at_time": 800000
+    }
+  },
+  "demographics": {
+    "indigenous_population": "Papuans (Melanesian)",
+    "estimated_indigenous": 1500000,
+    "transmigration_settlers": 2000000,
+    "notes": "Indonesian transmigration policy has altered demographics significantly"
+  },
+  "human_rights": {
+    "estimated_deaths_since_1963": "100,000-500,000",
+    "journalists_access": "Severely restricted",
+    "internet_blackouts": "Frequent during protests",
+    "political_prisoners": "Many, including Filep Karma (served 15 years)"
+  },
+  "key_issues": [
+    "Self-determination and independence",
+    "Killings by Indonesian military (TNI)",
+    "Extrajudicial executions",
+    "Torture and arbitrary detention",
+    "Restrictions on free speech and assembly",
+    "Environmental destruction from mining",
+    "Grasberg mine - largest gold mine in the world",
+    "Deforestation and palm oil plantations",
+    "Cultural suppression",
+    "Transmigration policy diluting indigenous population"
+  ],
+  "resistance_movements": [
+    {
+      "name": "OPM (Organisasi Papua Merdeka)",
+      "english": "Free Papua Movement",
+      "founded": 1965,
+      "type": "Armed resistance"
+    },
+    {
+      "name": "ULMWP (United Liberation Movement for West Papua)",
+      "founded": 2014,
+      "type": "Diplomatic coalition"
+    },
+    {
+      "name": "KNPB (West Papua National Committee)",
+      "founded": 2008,
+      "type": "Nonviolent resistance"
+    }
+  ],
+  "international_support": {
+    "msg_countries": ["Vanuatu", "Solomon Islands", "Tuvalu", "Tonga", "Nauru"],
+    "pacific_islands_forum": "Growing support",
+    "un_status": "Indonesia maintains control, self-determination denied"
+  }
+}

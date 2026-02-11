@@ -1,0 +1,33 @@
+{
+  "app": {
+    "title": "Leftist Monitor",
+    "subtitle": "Interactive Historical World Map",
+    "description": "Documenting liberation struggles, anti-colonial movements, and progressive history worldwide"
+  },
+  "actions": {
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry"
+  },
+  "time": {
+    "date": "Date",
+    "year": "Year",
+    "month": "Month",
+    "day": "Day",
+    "from": "From",
+    "to": "To",
+    "present": "Present"
+  }
+}

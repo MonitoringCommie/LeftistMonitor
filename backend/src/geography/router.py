@@ -1,9 +1,22 @@
-"""Geography API routes."""
+"""Geography API routes.
+
+OPTIMIZATION NOTES:
+- Composite indexes recommended:
+  * countries(valid_from, valid_to, entity_type)
+  * country_borders(country_id, valid_from, valid_to)
+  * country_capitals(country_id, valid_from, valid_to)
+  * country_relationships(country_a_id, country_b_id, valid_from, valid_to)
+  * events(primary_country_id, start_date, location)
+  * conflicts(start_date, end_date, conflict_type)
+- All queries use selectinload for N+1 prevention
+- Response compression enabled via GZipMiddleware
+"""
 from typing import Optional
 from uuid import UUID
 
 from fastapi import APIRouter, Depends, Query, Response
 from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.orm import selectinload
 
 from ..core.exceptions import NotFoundError
 from ..core.pagination import PaginatedResponse
@@ -19,6 +32,7 @@ router = APIRouter()
 
 @router.get("/countries", response_model=PaginatedResponse[CountryListItem])
 async def list_countries(
+    response: Response,
     year: Optional[int] = Query(None, ge=1800, le=2100, description="Filter by year"),
     search: Optional[str] = Query(None, min_length=1, description="Search by name"),
     page: int = Query(1, ge=1, description="Page number"),
@@ -31,6 +45,9 @@ async def list_countries(
     - **year**: Filter to countries existing in that year
     - **search**: Search by country name (case-insensitive)
     """
+    # Cache for 1 hour - countries rarely change
+    response.headers["Cache-Control"] = "public, max-age=3600"
+
     service = GeographyService(db)
     countries, total = await service.get_countries(
         year=year,

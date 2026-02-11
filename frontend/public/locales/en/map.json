@@ -1,0 +1,25 @@
+{
+  "title": "Interactive Map",
+  "layers": "Map Layers",
+  "legend": "Legend",
+  "controls": {
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "reset": "Reset View",
+    "fullscreen": "Fullscreen"
+  },
+  "filters": {
+    "title": "Filters",
+    "dateRange": "Date Range",
+    "category": "Category",
+    "region": "Region"
+  },
+  "categories": {
+    "revolutions": "Revolutions",
+    "strikes": "Strikes",
+    "protests": "Protests",
+    "massacres": "Massacres",
+    "liberation": "Liberation Movements",
+    "conflicts": "Armed Conflicts"
+  }
+}

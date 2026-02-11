@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kodam XVII/Cenderawasih HQ",
+        "type": "military_command",
+        "city": "Jayapura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.7178, -2.5333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Korem 172/Praja Wira Yakthi",
+        "type": "military_command",
+        "city": "Jayapura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.6901, -2.5355]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Korem 173/Praja Vira Braja",
+        "type": "military_command",
+        "city": "Biak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.0778, -1.1736]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Korem 174/Anim Ti Waninggap",
+        "type": "military_command",
+        "city": "Merauke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [140.4000, -8.4930]
+      }
+    }
+  ]
+}

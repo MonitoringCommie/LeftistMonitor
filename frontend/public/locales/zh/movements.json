@@ -1,0 +1,37 @@
+{
+  "lgbtq": {
+    "title": "LGBTQ+解放运动",
+    "subtitle": "全球性别和性取向解放斗争",
+    "overview": "概述",
+    "timeline": "时间线",
+    "events": "关键事件",
+    "figures": "关键人物",
+    "books": "必读书籍"
+  },
+  "environmental": {
+    "title": "环境正义运动",
+    "subtitle": "生态与社会正义的交汇",
+    "overview": "概述",
+    "timeline": "时间线",
+    "events": "关键事件",
+    "figures": "关键人物",
+    "books": "必读书籍"
+  },
+  "indigenous": {
+    "title": "原住民运动",
+    "subtitle": "跨越各大洲的抵抗与坚韧",
+    "overview": "概述",
+    "regions": "按地区",
+    "events": "关键事件",
+    "figures": "关键人物",
+    "books": "必读书籍"
+  },
+  "labor": {
+    "title": "劳工运动",
+    "subtitle": "全球工人权利斗争"
+  },
+  "anticolonial": {
+    "title": "反殖民运动",
+    "subtitle": "反对帝国主义的解放斗争"
+  }
+}

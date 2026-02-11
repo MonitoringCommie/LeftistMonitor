@@ -1,0 +1,18 @@
+{
+  "home": "Inicio",
+  "map": "Mapa",
+  "hub": "Hub",
+  "timeline": "Linha do Tempo",
+  "people": "Pessoas",
+  "events": "Eventos",
+  "books": "Livros",
+  "conflicts": "Conflitos",
+  "movements": "Movimentos",
+  "about": "Sobre",
+  "login": "Entrar",
+  "logout": "Sair",
+  "register": "Registrar",
+  "profile": "Perfil",
+  "settings": "Configuracoes",
+  "language": "Idioma"
+}

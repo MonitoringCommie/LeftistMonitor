@@ -10,6 +10,7 @@ from datetime import date
 
 from ..database import get_db
 from ..core.pagination import PaginatedResponse
+from ..core.exceptions import NotFoundError
 from pydantic import BaseModel
 
 router = APIRouter()
@@ -32,6 +33,8 @@ class ConflictMapItem(BaseModel):
     conflict_type: Optional[str]
     intensity: Optional[str]
     countries: list[ConflictParticipantItem]
+    lat: Optional[float] = None  # Average latitude of conflict zone
+    lng: Optional[float] = None  # Average longitude of conflict zone
 
     class Config:
         from_attributes = True
@@ -39,7 +42,10 @@ class ConflictMapItem(BaseModel):
 
 def _build_conflict_response(conflict, country_names: dict) -> ConflictMapItem:
     """Build a ConflictMapItem from a Conflict with pre-loaded participants."""
+    from ..geography.cities import WORLD_CITIES
+
     countries = []
+    country_list = []
     for p in conflict.participants:
         country_name = country_names.get(p.country_id) if p.country_id else None
         countries.append(ConflictParticipantItem(
@@ -47,7 +53,22 @@ def _build_conflict_response(conflict, country_names: dict) -> ConflictMapItem:
             name=country_name or p.actor_name or "Unknown",
             side=p.side,
         ))
-    
+        if country_name:
+            country_list.append(country_name)
+
+    # Get coordinates from participating countries' cities
+    lat = None
+    lng = None
+    coords = []
+    for city in WORLD_CITIES:
+        if city["country"] in country_list:
+            coords.append((city["lat"], city["lng"]))
+
+    if coords:
+        # Average coordinates
+        lat = sum(c[0] for c in coords) / len(coords)
+        lng = sum(c[1] for c in coords) / len(coords)
+
     return ConflictMapItem(
         id=str(conflict.id),
         name=conflict.name,
@@ -56,6 +77,8 @@ def _build_conflict_response(conflict, country_names: dict) -> ConflictMapItem:
         conflict_type=conflict.conflict_type,
         intensity=conflict.intensity,
         countries=countries,
+        lat=lat,
+        lng=lng,
     )
 
 
@@ -147,7 +170,70 @@ async def get_all_conflicts(
         for p in conflict.participants:
             if p.country_id:
                 all_country_ids.add(p.country_id)
-    
+
     country_names = await _get_country_names(db, all_country_ids)
-    
+
     return [_build_conflict_response(c, country_names) for c in conflicts]
+
+
+@router.get("/{conflict_id}/coordinates", response_model=dict)
+async def get_conflict_coordinates(
+    conflict_id: UUID,
+    db: AsyncSession = Depends(get_db),
+):
+    """Get city-level coordinates for a specific conflict.
+
+    Returns all cities involved in the conflict with their coordinates.
+    """
+    from ..events.models import Conflict
+    from ..geography.cities import WORLD_CITIES
+
+    result = await db.execute(
+        select(Conflict)
+        .options(selectinload(Conflict.participants))
+        .where(Conflict.id == conflict_id)
+    )
+    conflict = result.scalars().first()
+
+    if not conflict:
+        raise NotFoundError(f"Conflict {conflict_id} not found")
+
+    # Get all country names from participants
+    all_country_ids = set()
+    for p in conflict.participants:
+        if p.country_id:
+            all_country_ids.add(p.country_id)
+
+    country_names = await _get_country_names(db, all_country_ids)
+
+    # Get cities for participating countries
+    cities = []
+    country_list = [country_names.get(cid) for cid in all_country_ids]
+    country_list = [c for c in country_list if c]
+
+    for city in WORLD_CITIES:
+        if city["country"] in country_list:
+            cities.append({
+                "name": city["name"],
+                "country": city["country"],
+                "lat": city["lat"],
+                "lng": city["lng"],
+                "importance": city["importance"],
+                "type": city["type"],
+            })
+
+    # Compute average coordinate
+    lat = None
+    lng = None
+    if cities:
+        lat = sum(c["lat"] for c in cities) / len(cities)
+        lng = sum(c["lng"] for c in cities) / len(cities)
+
+    return {
+        "conflict_id": str(conflict.id),
+        "conflict_name": conflict.name,
+        "center_lat": lat,
+        "center_lng": lng,
+        "cities": cities,
+        "city_count": len(cities),
+    }

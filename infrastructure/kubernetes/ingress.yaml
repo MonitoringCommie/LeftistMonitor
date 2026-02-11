@@ -1,0 +1,70 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: leftistmonitor-ingress
+  namespace: leftistmonitor
+  labels:
+    app.kubernetes.io/name: leftistmonitor
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/proxy-body-size: "10m"
+    nginx.ingress.kubernetes.io/rate-limit: "100"
+    nginx.ingress.kubernetes.io/rate-limit-window: "1m"
+    # Security headers
+    nginx.ingress.kubernetes.io/configuration-snippet: |
+      add_header X-Frame-Options "SAMEORIGIN" always;
+      add_header X-Content-Type-Options "nosniff" always;
+      add_header X-XSS-Protection "1; mode=block" always;
+      add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+spec:
+  tls:
+    - hosts:
+        - leftistmonitor.org
+        - www.leftistmonitor.org
+        - api.leftistmonitor.org
+      secretName: leftistmonitor-tls
+  rules:
+    # Main site
+    - host: leftistmonitor.org
+      http:
+        paths:
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: leftistmonitor-api
+                port:
+                  number: 8000
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: leftistmonitor-frontend
+                port:
+                  number: 80
+    
+    # WWW redirect handled by frontend
+    - host: www.leftistmonitor.org
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: leftistmonitor-frontend
+                port:
+                  number: 80
+    
+    # API subdomain
+    - host: api.leftistmonitor.org
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: leftistmonitor-api
+                port:
+                  number: 8000

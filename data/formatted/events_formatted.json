@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "a8556c93-c1d4-48d9-85cc-77a53f1fef70",
+    "title": "French Revolution",
+    "start_date": "1789-01-01",
+    "end_date": "1799-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Paris",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.3522,
+        48.8566
+      ]
+    },
+    "importance": 10,
+    "description": "Overthrow of feudal monarchy, establishment of republic, Declaration of Rights of Man",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.057983"
+  },
+  {
+    "id": "8d557d7c-01f9-49dd-8c9c-9e3f6dc98322",
+    "title": "Haitian Revolution",
+    "start_date": "1791-01-01",
+    "end_date": "1804-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Port-au-Prince",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -72.2852,
+        18.9712
+      ]
+    },
+    "importance": 9,
+    "description": "Enslaved Africans overthrow French colonial rule, first Black republic",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.057991"
+  },
+  {
+    "id": "66e0b830-5a57-497a-aa19-9965fd501215",
+    "title": "Latin American Independence Movements",
+    "start_date": "1810-01-01",
+    "end_date": "1825-12-31",
+    "category": "political",
+    "event_type": "independence",
+    "location_name": "Various Latin America",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -55.4915,
+        -8.7832
+      ]
+    },
+    "importance": 9,
+    "description": "Bolivar, San Martin, and others lead independence from Spanish/Portuguese rule",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.057995"
+  },
+  {
+    "id": "f1ef1a48-d408-48e1-9050-3f80058b0d21",
+    "title": "Greek War of Independence",
+    "start_date": "1821-01-01",
+    "end_date": "1829-12-31",
+    "category": "political",
+    "event_type": "independence",
+    "location_name": "Athens",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        23.7275,
+        37.9838
+      ]
+    },
+    "importance": 8,
+    "description": "Greeks rebel against Ottoman rule",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.057999"
+  },
+  {
+    "id": "257c7f42-7f44-4d96-95a9-b8326ca23528",
+    "title": "Russian December Uprising",
+    "start_date": "1825-01-01",
+    "end_date": "1825-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Saint Petersburg",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3609,
+        59.9311
+      ]
+    },
+    "importance": 7,
+    "description": "Decembrist officers attempt military coup",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058002"
+  },
+  {
+    "id": "610a7da4-1327-442b-8e3d-94983b723254",
+    "title": "Irish Famine",
+    "start_date": "1845-01-01",
+    "end_date": "1852-12-31",
+    "category": "social",
+    "event_type": "crisis",
+    "location_name": "Dublin",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -6.2603,
+        53.3498
+      ]
+    },
+    "importance": 8,
+    "description": "Potato famine kills 1+ million Irish, mass emigration",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058006"
+  },
+  {
+    "id": "a085fb3c-a684-4e20-a556-1dd820471067",
+    "title": "1848 Revolutions Across Europe",
+    "start_date": "1848-01-01",
+    "end_date": "1849-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Paris",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.3522,
+        48.8566
+      ]
+    },
+    "importance": 9,
+    "description": "Liberal and nationalist uprisings across Europe",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058010"
+  },
+  {
+    "id": "307e7695-1b62-4361-9da7-b2a994c62557",
+    "title": "Indian Rebellion (Sepoy Mutiny)",
+    "start_date": "1857-01-01",
+    "end_date": "1858-12-31",
+    "category": "political",
+    "event_type": "independence",
+    "location_name": "Delhi",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.209,
+        28.6139
+      ]
+    },
+    "importance": 8,
+    "description": "Indian soldiers rebel against British rule",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058014"
+  },
+  {
+    "id": "b5a75b12-2172-48b7-a474-cb90d2fc70db",
+    "title": "Paris Commune",
+    "start_date": "1871-01-01",
+    "end_date": "1871-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Paris",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.3522,
+        48.8566
+      ]
+    },
+    "importance": 9,
+    "description": "First socialist government, workers' revolutionary commune",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058017"
+  },
+  {
+    "id": "559b8fef-5751-4bb0-a196-c692dde4e8dd",
+    "title": "Philippine Revolution",
+    "start_date": "1896-01-01",
+    "end_date": "1902-12-31",
+    "category": "political",
+    "event_type": "independence",
+    "location_name": "Manila",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        120.9842,
+        14.5995
+      ]
+    },
+    "importance": 8,
+    "description": "Revolutionaries fight Spanish, then American colonial rule",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058020"
+  },
+  {
+    "id": "de1a6712-a987-4443-8ee8-6897ff10add2",
+    "title": "Russian Revolution (October)",
+    "start_date": "1917-01-01",
+    "end_date": "1917-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Petrograd",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.3609,
+        59.9311
+      ]
+    },
+    "importance": 10,
+    "description": "Bolshevik takeover, first communist state",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058023"
+  },
+  {
+    "id": "9dc69f5f-b4c1-4f7e-ba64-1231b408d949",
+    "title": "Mexican Revolution",
+    "start_date": "1910-01-01",
+    "end_date": "1920-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Mexico City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -99.1332,
+        19.4326
+      ]
+    },
+    "importance": 9,
+    "description": "Peasant and worker uprising against Diaz dictatorship",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058028"
+  },
+  {
+    "id": "c747d59a-d0c3-4a29-a9b6-3554fa127bde",
+    "title": "Chinese Revolution",
+    "start_date": "1911-01-01",
+    "end_date": "1912-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Beijing",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        116.4074,
+        39.9042
+      ]
+    },
+    "importance": 9,
+    "description": "Overthrow of Qing dynasty, establishment of republic",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058031"
+  },
+  {
+    "id": "4c6247f3-80fe-4129-af94-a12bc2a2c9a3",
+    "title": "Easter Rising",
+    "start_date": "1916-01-01",
+    "end_date": "1916-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Dublin",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -6.2603,
+        53.3498
+      ]
+    },
+    "importance": 8,
+    "description": "Irish rebellion against British rule",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058034"
+  },
+  {
+    "id": "48898e9d-943e-47e9-b12c-9f355085699b",
+    "title": "Cuban Revolution",
+    "start_date": "1953-01-01",
+    "end_date": "1959-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Havana",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -82.3794,
+        23.1291
+      ]
+    },
+    "importance": 9,
+    "description": "Castro and Guevara lead overthrow of Batista dictatorship",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058038"
+  },
+  {
+    "id": "43574397-63fd-4d44-ae66-bac9e963def9",
+    "title": "Chinese Communist Revolution",
+    "start_date": "1949-01-01",
+    "end_date": "1949-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Beijing",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        116.4074,
+        39.9042
+      ]
+    },
+    "importance": 10,
+    "description": "Communist Party victory in civil war",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058041"
+  },
+  {
+    "id": "c67d27d1-6c22-41b1-9f33-e95a905ba533",
+    "title": "Vietnamese August Revolution",
+    "start_date": "1945-01-01",
+    "end_date": "1945-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Hanoi",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        105.8542,
+        21.0285
+      ]
+    },
+    "importance": 8,
+    "description": "Ho Chi Minh declares independence from France and Japan",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058045"
+  },
+  {
+    "id": "3ab97d2c-8ff1-4ac4-9b58-e2ae9da75aa3",
+    "title": "Algerian War of Independence",
+    "start_date": "1954-01-01",
+    "end_date": "1962-12-31",
+    "category": "political",
+    "event_type": "independence",
+    "location_name": "Algiers",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        3.0588,
+        36.7538
+      ]
+    },
+    "importance": 9,
+    "description": "FLN leads armed struggle against French colonialism",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058048"
+  },
+  {
+    "id": "8feef4ac-3a6a-4521-8269-371c4335135f",
+    "title": "Indian Independence",
+    "start_date": "1947-01-01",
+    "end_date": "1947-12-31",
+    "category": "political",
+    "event_type": "independence",
+    "location_name": "New Delhi",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.209,
+        28.6139
+      ]
+    },
+    "importance": 10,
+    "description": "India gains independence from British rule under Gandhi and Nehru",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058051"
+  },
+  {
+    "id": "eb9a1070-016b-4b25-b0e8-3a32043cd3d7",
+    "title": "South African Anti-Apartheid Movement",
+    "start_date": "1948-01-01",
+    "end_date": "1994-12-31",
+    "category": "political",
+    "event_type": "independence",
+    "location_name": "Johannesburg",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.0436,
+        -26.2023
+      ]
+    },
+    "importance": 9,
+    "description": "Decades of resistance to apartheid system, ANC victory",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058055"
+  },
+  {
+    "id": "851236e0-523b-40d4-9ffa-c4cf02dcc349",
+    "title": "Hungarian Revolution",
+    "start_date": "1956-01-01",
+    "end_date": "1956-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Budapest",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        19.0402,
+        47.4979
+      ]
+    },
+    "importance": 8,
+    "description": "Uprising against Soviet occupation, crushed by tanks",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058058"
+  },
+  {
+    "id": "27154715-5f16-424c-b43a-79ee8f387f18",
+    "title": "Prague Spring",
+    "start_date": "1968-01-01",
+    "end_date": "1968-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Prague",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.4378,
+        50.0755
+      ]
+    },
+    "importance": 8,
+    "description": "Dubcek's reform movement crushed by Soviet invasion",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058061"
+  },
+  {
+    "id": "07d59aea-46b6-4fb3-a099-b038fe39c743",
+    "title": "Iranian Revolution",
+    "start_date": "1979-01-01",
+    "end_date": "1979-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Tehran",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        51.389,
+        35.6892
+      ]
+    },
+    "importance": 9,
+    "description": "Islamic Revolution overthrows Shah's dictatorship",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058066"
+  },
+  {
+    "id": "84095406-8af8-403b-a53c-d7fd05d43fe6",
+    "title": "Sandinista Revolution",
+    "start_date": "1979-01-01",
+    "end_date": "1979-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Managua",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -86.2362,
+        12.115
+      ]
+    },
+    "importance": 8,
+    "description": "FSLN overthrows Somoza dictatorship",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058069"
+  },
+  {
+    "id": "a58280ca-1c16-4c40-8dfb-48a058213a6c",
+    "title": "Fall of Berlin Wall",
+    "start_date": "1989-01-01",
+    "end_date": "1989-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Berlin",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        13.405,
+        52.52
+      ]
+    },
+    "importance": 9,
+    "description": "End of East German state and Communist bloc",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058072"
+  },
+  {
+    "id": "daff88c2-e6bb-443f-9406-1a1a689aefd1",
+    "title": "Tiananmen Square Protest",
+    "start_date": "1989-01-01",
+    "end_date": "1989-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Beijing",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        116.4074,
+        39.9042
+      ]
+    },
+    "importance": 8,
+    "description": "Pro-democracy student movement crushed by military",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058076"
+  },
+  {
+    "id": "a5c0daa4-b83c-4d10-91cb-96bb1607f4b7",
+    "title": "Arab Spring (Tunisia/Egypt)",
+    "start_date": "2010-01-01",
+    "end_date": "2012-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Tunis",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        10.1615,
+        36.8065
+      ]
+    },
+    "importance": 8,
+    "description": "Mass uprisings across Middle East/North Africa",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058079"
+  },
+  {
+    "id": "5a75649f-e6ab-45d8-8e77-508438a51b17",
+    "title": "Black Lives Matter Movement",
+    "start_date": "2013-01-01",
+    "end_date": null,
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Ferguson",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -90.2956,
+        38.7442
+      ]
+    },
+    "importance": 8,
+    "description": "Protests against police violence and systemic racism",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058083"
+  },
+  {
+    "id": "f7ef647c-cec3-4ce3-8691-53e7c0644d0d",
+    "title": "Russian Bolshevik Revolution",
+    "start_date": "1917-01-01",
+    "end_date": "1922-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Moscow",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        37.6173,
+        55.7558
+      ]
+    },
+    "importance": 10,
+    "description": "Communist takeover and civil war",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058086"
+  },
+  {
+    "id": "c05fd760-c019-4251-844c-00371e759fde",
+    "title": "May Fourth Movement",
+    "start_date": "1919-01-01",
+    "end_date": "1919-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Beijing",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        116.4074,
+        39.9042
+      ]
+    },
+    "importance": 7,
+    "description": "Nationalist student movement against imperialism",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058090"
+  },
+  {
+    "id": "c2759fbd-319c-43f2-b1c7-ff386a0f34b1",
+    "title": "Bonus Army March",
+    "start_date": "1932-01-01",
+    "end_date": "1932-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Washington DC",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -77.0369,
+        38.9072
+      ]
+    },
+    "importance": 6,
+    "description": "Veterans march on capital for benefits",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058093"
+  },
+  {
+    "id": "ec4a2f15-9541-42a4-8c38-78d77573dc8b",
+    "title": "Spanish Civil War",
+    "start_date": "1936-01-01",
+    "end_date": "1939-12-31",
+    "category": "political",
+    "event_type": "civil_war",
+    "location_name": "Madrid",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -3.7038,
+        40.4168
+      ]
+    },
+    "importance": 9,
+    "description": "Fascist Franco vs. Republican forces, international brigades",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058096"
+  },
+  {
+    "id": "73684ce6-7da9-47ee-b17c-78eaf24836e0",
+    "title": "Labor Uprisings in US",
+    "start_date": "1920-01-01",
+    "end_date": "1937-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Flint",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -83.6909,
+        43.0125
+      ]
+    },
+    "importance": 7,
+    "description": "Strikes including Flint sitdown strike against GM",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058099"
+  },
+  {
+    "id": "3721e8f4-fc1f-4bed-89f6-7e6fc1deab17",
+    "title": "Montgomery Bus Boycott",
+    "start_date": "1955-01-01",
+    "end_date": "1956-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Montgomery",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -86.3077,
+        32.3792
+      ]
+    },
+    "importance": 8,
+    "description": "African Americans boycott segregated buses",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058102"
+  },
+  {
+    "id": "33b6014c-1d56-4018-b1b2-c65ccb8657e7",
+    "title": "Civil Rights March on Washington",
+    "start_date": "1963-01-01",
+    "end_date": "1963-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Washington DC",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -77.0369,
+        38.9072
+      ]
+    },
+    "importance": 9,
+    "description": "250,000 march, MLK 'I Have a Dream' speech",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058105"
+  },
+  {
+    "id": "44c564ae-68cc-472b-b0c7-ca17426b09f6",
+    "title": "Assassination of MLK",
+    "start_date": "1968-01-01",
+    "end_date": "1968-12-31",
+    "category": "political",
+    "event_type": "assassination",
+    "location_name": "Memphis",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -90.049,
+        35.1495
+      ]
+    },
+    "importance": 9,
+    "description": "Martin Luther King Jr. assassinated",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058108"
+  },
+  {
+    "id": "db70a5cb-504b-4873-9e3c-96f434a24478",
+    "title": "Student Protests Against Vietnam War",
+    "start_date": "1965-01-01",
+    "end_date": "1972-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Berkeley",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.2727,
+        37.8716
+      ]
+    },
+    "importance": 8,
+    "description": "Anti-war movement across US universities",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058111"
+  },
+  {
+    "id": "f59a57fa-24cd-40fb-b4b4-1188c09f2e6e",
+    "title": "Assassination of Malcolm X",
+    "start_date": "1965-01-01",
+    "end_date": "1965-12-31",
+    "category": "political",
+    "event_type": "assassination",
+    "location_name": "New York",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.006,
+        40.7128
+      ]
+    },
+    "importance": 8,
+    "description": "Nation of Islam leader assassinated",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058115"
+  },
+  {
+    "id": "7536c622-d122-4383-9207-3a71da2b136d",
+    "title": "Stonewall Uprising",
+    "start_date": "1969-01-01",
+    "end_date": "1969-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "New York",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.006,
+        40.7128
+      ]
+    },
+    "importance": 8,
+    "description": "LGBTQ+ uprising against police harassment",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058119"
+  },
+  {
+    "id": "5959dc70-3e85-4b94-a705-1e76c75f989d",
+    "title": "Assassination of Che Guevara",
+    "start_date": "1967-01-01",
+    "end_date": "1967-12-31",
+    "category": "political",
+    "event_type": "assassination",
+    "location_name": "La Higuera",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -63.7,
+        -18.3333
+      ]
+    },
+    "importance": 8,
+    "description": "Revolutionary martyr executed",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058122"
+  },
+  {
+    "id": "5271c8ad-0975-49b8-adf1-37a632b20b3f",
+    "title": "Assassination of Salvador Allende",
+    "start_date": "1973-01-01",
+    "end_date": "1973-12-31",
+    "category": "political",
+    "event_type": "coup",
+    "location_name": "Santiago",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -70.6693,
+        -33.4489
+      ]
+    },
+    "importance": 8,
+    "description": "CIA-backed coup overthrows socialist president",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058125"
+  },
+  {
+    "id": "1db870a0-90d2-4495-800b-750d41e6da05",
+    "title": "Assassination of Gandhi",
+    "start_date": "1948-01-01",
+    "end_date": "1948-12-31",
+    "category": "political",
+    "event_type": "assassination",
+    "location_name": "New Delhi",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.209,
+        28.6139
+      ]
+    },
+    "importance": 9,
+    "description": "Mohandas Gandhi assassinated by Hindu extremist",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058128"
+  },
+  {
+    "id": "d9bea853-d2a1-41e7-bd47-b4608a8014b1",
+    "title": "Assassination of Leon Trotsky",
+    "start_date": "1940-01-01",
+    "end_date": "1940-12-31",
+    "category": "political",
+    "event_type": "assassination",
+    "location_name": "Mexico City",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -99.1332,
+        19.4326
+      ]
+    },
+    "importance": 7,
+    "description": "Bolshevik revolutionary killed by Stalin's agent",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058132"
+  },
+  {
+    "id": "30752105-d0df-49cf-b3be-84b72d5b7e4c",
+    "title": "Treaty of Versailles",
+    "start_date": "1919-01-01",
+    "end_date": "1919-12-31",
+    "category": "political",
+    "event_type": "treaty",
+    "location_name": "Paris",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.3522,
+        48.8566
+      ]
+    },
+    "importance": 9,
+    "description": "Post-WWI peace treaty, harsh terms for Germany",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058135"
+  },
+  {
+    "id": "333119ac-7fa1-4734-9f87-b7c01f1e5bb2",
+    "title": "Treaty of Paris (US Independence)",
+    "start_date": "1783-01-01",
+    "end_date": "1783-12-31",
+    "category": "political",
+    "event_type": "treaty",
+    "location_name": "Paris",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.3522,
+        48.8566
+      ]
+    },
+    "importance": 9,
+    "description": "Formal end of American Revolution, US independence",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058138"
+  },
+  {
+    "id": "ce68fbbc-d818-4f4d-a277-4c2ea6348841",
+    "title": "Treaty of Brest-Litovsk",
+    "start_date": "1918-01-01",
+    "end_date": "1918-12-31",
+    "category": "political",
+    "event_type": "treaty",
+    "location_name": "Brest",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        23.6877,
+        52.0951
+      ]
+    },
+    "importance": 7,
+    "description": "Soviet Russia withdraws from WWI",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058142"
+  },
+  {
+    "id": "3edc1100-bc54-4df1-aee5-04b2746b4519",
+    "title": "United Nations Founded",
+    "start_date": "1945-01-01",
+    "end_date": "1945-12-31",
+    "category": "political",
+    "event_type": "treaty",
+    "location_name": "San Francisco",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.4194,
+        37.7749
+      ]
+    },
+    "importance": 8,
+    "description": "Post-WWII international organization created",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058145"
+  },
+  {
+    "id": "82e6e074-1593-4cf7-8aff-8a4c205f0a33",
+    "title": "Hiroshima Atomic Bombing",
+    "start_date": "1945-01-01",
+    "end_date": "1945-12-31",
+    "category": "military",
+    "event_type": "nuclear",
+    "location_name": "Hiroshima",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        132.4553,
+        34.3853
+      ]
+    },
+    "importance": 9,
+    "description": "First atomic bomb dropped on city",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058148"
+  },
+  {
+    "id": "46c9ff4e-89ca-4690-8953-690e38250f79",
+    "title": "Nagasaki Atomic Bombing",
+    "start_date": "1945-01-01",
+    "end_date": "1945-12-31",
+    "category": "military",
+    "event_type": "nuclear",
+    "location_name": "Nagasaki",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        129.8711,
+        32.7487
+      ]
+    },
+    "importance": 9,
+    "description": "Second atomic bomb, further devastation",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058152"
+  },
+  {
+    "id": "524a5da6-20e9-463c-892d-41693a992568",
+    "title": "Chernobyl Nuclear Disaster",
+    "start_date": "1986-01-01",
+    "end_date": "1986-12-31",
+    "category": "crisis",
+    "event_type": "nuclear",
+    "location_name": "Chornobyl",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        30.1159,
+        51.3891
+      ]
+    },
+    "importance": 8,
+    "description": "Nuclear reactor explosion, mass evacuation",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058156"
+  },
+  {
+    "id": "08e3abd2-10e2-4e3c-a85c-afdaa003ddce",
+    "title": "Fukushima Nuclear Disaster",
+    "start_date": "2011-01-01",
+    "end_date": "2011-12-31",
+    "category": "crisis",
+    "event_type": "nuclear",
+    "location_name": "Fukushima",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        141.0476,
+        37.247
+      ]
+    },
+    "importance": 7,
+    "description": "Tsunami causes nuclear meltdown",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058160"
+  },
+  {
+    "id": "40f77a3e-fef2-40b0-908e-5b9311cf0adc",
+    "title": "Partition of India",
+    "start_date": "1947-01-01",
+    "end_date": "1947-12-31",
+    "category": "political",
+    "event_type": "independence",
+    "location_name": "New Delhi",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.209,
+        28.6139
+      ]
+    },
+    "importance": 9,
+    "description": "British India divided into India and Pakistan",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058163"
+  },
+  {
+    "id": "603eb26e-8fa7-4a51-b625-8d602119c355",
+    "title": "Israeli State Declared",
+    "start_date": "1948-01-01",
+    "end_date": "1948-12-31",
+    "category": "political",
+    "event_type": "independence",
+    "location_name": "Tel Aviv",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        34.7818,
+        32.0853
+      ]
+    },
+    "importance": 9,
+    "description": "State of Israel proclaimed, Palestinian displacement",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058166"
+  },
+  {
+    "id": "65570869-334c-4ef1-8ccc-360ac24ad375",
+    "title": "Korean Armistice",
+    "start_date": "1953-01-01",
+    "end_date": "1953-12-31",
+    "category": "political",
+    "event_type": "treaty",
+    "location_name": "Panmunjom",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        126.6709,
+        37.8622
+      ]
+    },
+    "importance": 8,
+    "description": "Korean War ceasefire signed",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058170"
+  },
+  {
+    "id": "c8899f9e-b893-4739-ba63-cb93059223cf",
+    "title": "Suez Crisis",
+    "start_date": "1956-01-01",
+    "end_date": "1956-12-31",
+    "category": "military",
+    "event_type": "conflict",
+    "location_name": "Suez",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.5498,
+        29.9668
+      ]
+    },
+    "importance": 8,
+    "description": "Anglo-French-Israeli invasion of Egypt",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058173"
+  },
+  {
+    "id": "328c7bb8-4638-4517-84c6-15302ae6452a",
+    "title": "Cuban Missile Crisis",
+    "start_date": "1962-01-01",
+    "end_date": "1962-12-31",
+    "category": "political",
+    "event_type": "crisis",
+    "location_name": "Havana",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -82.3794,
+        23.1291
+      ]
+    },
+    "importance": 9,
+    "description": "Nuclear standoff between USA and USSR",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058176"
+  },
+  {
+    "id": "0791a370-0c3c-4140-8bd0-9916c2ba0665",
+    "title": "Berlin Blockade",
+    "start_date": "1948-01-01",
+    "end_date": "1949-12-31",
+    "category": "political",
+    "event_type": "crisis",
+    "location_name": "Berlin",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        13.405,
+        52.52
+      ]
+    },
+    "importance": 8,
+    "description": "Soviet blockade of West Berlin, Western airlift",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058179"
+  },
+  {
+    "id": "c876eba0-68e8-455b-b5a0-3d1f350e9424",
+    "title": "Korean War Begins",
+    "start_date": "1950-01-01",
+    "end_date": "1950-12-31",
+    "category": "military",
+    "event_type": "conflict",
+    "location_name": "Seoul",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        126.978,
+        37.5665
+      ]
+    },
+    "importance": 8,
+    "description": "North Korea invades South Korea",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058182"
+  },
+  {
+    "id": "1ee9642b-8b31-46a8-a73c-e38f3d052869",
+    "title": "Velvet Revolution (Czechoslovakia)",
+    "start_date": "1989-01-01",
+    "end_date": "1989-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Prague",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        14.4378,
+        50.0755
+      ]
+    },
+    "importance": 8,
+    "description": "Peaceful anti-communist uprising",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058185"
+  },
+  {
+    "id": "ba067781-7f15-4815-8c18-9c0cf056eb28",
+    "title": "Fall of Soviet Union",
+    "start_date": "1991-01-01",
+    "end_date": "1991-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Moscow",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        37.6173,
+        55.7558
+      ]
+    },
+    "importance": 10,
+    "description": "Dissolution of USSR",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058190"
+  },
+  {
+    "id": "061ac274-b92b-4be6-b942-2082f314c8f1",
+    "title": "Solidarity Movement (Poland)",
+    "start_date": "1980-01-01",
+    "end_date": "1989-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Gdansk",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        18.6466,
+        54.352
+      ]
+    },
+    "importance": 8,
+    "description": "Trade union movement against communist rule",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058238"
+  },
+  {
+    "id": "d9bbcf49-62b8-4dea-8f17-f355bd4285a8",
+    "title": "Tienanmen Square Massacre",
+    "start_date": "1989-01-01",
+    "end_date": "1989-12-31",
+    "category": "political",
+    "event_type": "massacre",
+    "location_name": "Beijing",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        116.4074,
+        39.9042
+      ]
+    },
+    "importance": 8,
+    "description": "Military crackdown on pro-democracy protesters",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058241"
+  },
+  {
+    "id": "a78bbcc8-89d2-48b8-89f2-bc8b2263bf9e",
+    "title": "Fall of the Apartheid State",
+    "start_date": "1994-01-01",
+    "end_date": "1994-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Johannesburg",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.0436,
+        -26.2023
+      ]
+    },
+    "importance": 9,
+    "description": "First democratic elections, ANC victory",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058244"
+  },
+  {
+    "id": "7a568be6-fb69-40ba-bb01-fe17083037a3",
+    "title": "Mandela Elected President",
+    "start_date": "1994-01-01",
+    "end_date": "1994-12-31",
+    "category": "political",
+    "event_type": "independence",
+    "location_name": "Johannesburg",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        28.0436,
+        -26.2023
+      ]
+    },
+    "importance": 9,
+    "description": "Nelson Mandela becomes South African president",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058249"
+  },
+  {
+    "id": "15b16b45-7550-4b52-8176-0178ed81d46d",
+    "title": "Dayton Peace Accord (Bosnia)",
+    "start_date": "1995-01-01",
+    "end_date": "1995-12-31",
+    "category": "political",
+    "event_type": "treaty",
+    "location_name": "Paris",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        2.3522,
+        48.8566
+      ]
+    },
+    "importance": 8,
+    "description": "End of Yugoslav wars",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058253"
+  },
+  {
+    "id": "07a3fe52-eeae-4d82-8886-ad215e22d795",
+    "title": "Good Friday Agreement",
+    "start_date": "1998-01-01",
+    "end_date": "1998-12-31",
+    "category": "political",
+    "event_type": "treaty",
+    "location_name": "Belfast",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -5.9301,
+        54.5973
+      ]
+    },
+    "importance": 8,
+    "description": "Peace deal ending 30 years of conflict in Northern Ireland",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058257"
+  },
+  {
+    "id": "d7186019-8c25-40e8-a46d-dcce438b2a87",
+    "title": "Seattle WTO Protests",
+    "start_date": "1999-01-01",
+    "end_date": "1999-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Seattle",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -122.3321,
+        47.6062
+      ]
+    },
+    "importance": 7,
+    "description": "Anti-globalization and labor protests",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058260"
+  },
+  {
+    "id": "051980c5-0b53-4230-b918-87174af1d944",
+    "title": "September 11 Attacks",
+    "start_date": "2001-01-01",
+    "end_date": "2001-12-31",
+    "category": "political",
+    "event_type": "terrorist",
+    "location_name": "New York",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.006,
+        40.7128
+      ]
+    },
+    "importance": 9,
+    "description": "Al-Qaeda attacks on World Trade Center and Pentagon",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058263"
+  },
+  {
+    "id": "32f28519-21cc-4aa0-8ca7-637e06fee813",
+    "title": "US Invasion of Afghanistan",
+    "start_date": "2001-01-01",
+    "end_date": "2001-12-31",
+    "category": "military",
+    "event_type": "conflict",
+    "location_name": "Kabul",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        69.2075,
+        34.5553
+      ]
+    },
+    "importance": 8,
+    "description": "US-led invasion to overthrow Taliban",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058267"
+  },
+  {
+    "id": "91887944-e91f-405d-9353-0c4ef3e447e1",
+    "title": "US Invasion of Iraq",
+    "start_date": "2003-01-01",
+    "end_date": "2003-12-31",
+    "category": "military",
+    "event_type": "conflict",
+    "location_name": "Baghdad",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        44.3615,
+        33.3128
+      ]
+    },
+    "importance": 9,
+    "description": "US-led invasion of Iraq",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058270"
+  },
+  {
+    "id": "a4b349e5-04ac-4765-a8a6-60752caaaaa7",
+    "title": "Occupy Wall Street",
+    "start_date": "2011-01-01",
+    "end_date": "2012-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "New York",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -74.006,
+        40.7128
+      ]
+    },
+    "importance": 7,
+    "description": "Anti-capitalism protests against income inequality",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058273"
+  },
+  {
+    "id": "24c017bf-bea5-408c-a1d6-3aa770b4deb7",
+    "title": "Hong Kong Umbrella Movement",
+    "start_date": "2014-01-01",
+    "end_date": "2014-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Hong Kong",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        114.1694,
+        22.3193
+      ]
+    },
+    "importance": 7,
+    "description": "Pro-democracy protests against Chinese interference",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058276"
+  },
+  {
+    "id": "eeb57876-be57-40a6-8dd1-74342236db72",
+    "title": "Hong Kong National Security Law",
+    "start_date": "2020-01-01",
+    "end_date": "2020-12-31",
+    "category": "political",
+    "event_type": "crisis",
+    "location_name": "Hong Kong",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        114.1694,
+        22.3193
+      ]
+    },
+    "importance": 8,
+    "description": "China imposes security law ending Hong Kong autonomy",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058282"
+  },
+  {
+    "id": "3a6d224e-770b-47d9-9076-5ec0ac62942f",
+    "title": "Venezuelan Uprising",
+    "start_date": "2017-01-01",
+    "end_date": "2017-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Caracas",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -66.9036,
+        10.4806
+      ]
+    },
+    "importance": 7,
+    "description": "Mass protests against Maduro government",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058285"
+  },
+  {
+    "id": "676e59a2-1ae3-4937-8f91-6c9115e32b14",
+    "title": "Chilean October Uprisings",
+    "start_date": "2019-01-01",
+    "end_date": "2019-12-31",
+    "category": "social",
+    "event_type": "protest",
+    "location_name": "Santiago",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -70.6693,
+        -33.4489
+      ]
+    },
+    "importance": 7,
+    "description": "Mass protests against inequality and neoliberalism",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058288"
+  },
+  {
+    "id": "06da209b-c27d-469b-9a2e-348dec81d40d",
+    "title": "Myanmar Military Coup",
+    "start_date": "2021-01-01",
+    "end_date": "2021-12-31",
+    "category": "political",
+    "event_type": "coup",
+    "location_name": "Naypyidaw",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        96.0656,
+        19.7633
+      ]
+    },
+    "importance": 7,
+    "description": "Military overthrows elected government",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058291"
+  },
+  {
+    "id": "7f8c3af1-3b6e-4545-bf42-34b70fba06b8",
+    "title": "Sudan Transitional Government",
+    "start_date": "2019-01-01",
+    "end_date": "2021-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Khartoum",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        32.5599,
+        15.5007
+      ]
+    },
+    "importance": 7,
+    "description": "Protesters overthrow al-Bashir dictatorship",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058294"
+  },
+  {
+    "id": "20f245b7-f5de-4e15-8727-bd429b2a54f3",
+    "title": "Haitian Uprising 1791",
+    "start_date": "1791-01-01",
+    "end_date": "1791-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Port-au-Prince",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -72.2852,
+        18.9712
+      ]
+    },
+    "importance": 8,
+    "description": "Slave uprising begins",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058297"
+  },
+  {
+    "id": "c6cb7188-6a1a-450f-b664-29194451f6e6",
+    "title": "Bolshevik Takeover",
+    "start_date": "1917-01-01",
+    "end_date": "1922-12-31",
+    "category": "political",
+    "event_type": "revolution",
+    "location_name": "Moscow",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        37.6173,
+        55.7558
+      ]
+    },
+    "importance": 10,
+    "description": "Communist seizure of power in Russia",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058301"
+  },
+  {
+    "id": "74736a3d-0268-4e44-8eed-3ce7caa2e21b",
+    "title": "Long March",
+    "start_date": "1934-01-01",
+    "end_date": "1935-12-31",
+    "category": "political",
+    "event_type": "military",
+    "location_name": "Shaanxi",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        109.4999,
+        36.5964
+      ]
+    },
+    "importance": 8,
+    "description": "Communist retreat across China, consolidates Mao's leadership",
+    "progressive_analysis": "",
+    "tags": [],
+    "imported_at": "2026-02-09T00:32:28.058304"
+  }
+]

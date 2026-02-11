@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Ilham Tohti",
+    "role": "Economist and activist",
+    "status": "Imprisoned (life sentence since 2014)",
+    "description": "Uyghur economist who advocated for dialogue, awarded Sakharov Prize 2019"
+  },
+  {
+    "name": "Rebiya Kadeer",
+    "role": "Activist and former businesswoman",
+    "status": "Exile (USA)",
+    "description": "President of World Uyghur Congress, previously imprisoned in China"
+  },
+  {
+    "name": "Dolkun Isa",
+    "role": "Activist",
+    "status": "Exile (Germany)",
+    "description": "President of World Uyghur Congress since 2017"
+  },
+  {
+    "name": "Rushan Abbas",
+    "role": "Activist",
+    "status": "Exile (USA)",
+    "description": "Founder of Campaign for Uyghurs, sister detained in Xinjiang"
+  },
+  {
+    "name": "Gulchehra Hoja",
+    "role": "Journalist",
+    "status": "Exile (USA)",
+    "description": "Radio Free Asia journalist, family members detained"
+  },
+  {
+    "name": "Nury Turkel",
+    "role": "Lawyer and official",
+    "status": "Exile (USA)",
+    "description": "Commissioner on US Commission on International Religious Freedom"
+  }
+]

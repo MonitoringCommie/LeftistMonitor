@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biak Massacre",
+        "date": "1998-07-06",
+        "deaths": "100-200",
+        "type": "massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.1054, -1.1792]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wamena Massacre",
+        "date": "2019-09-23",
+        "deaths": "30+",
+        "type": "massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [138.9500, -4.1000]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wasior Massacre",
+        "date": "2001-06-13",
+        "type": "massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.5000, -2.7500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paniai Killings",
+        "date": "2014-12-08",
+        "deaths": "4+",
+        "type": "massacre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [136.3500, -3.9000]
+      }
+    }
+  ]
+}

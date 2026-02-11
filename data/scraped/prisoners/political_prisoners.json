@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "scraped_at": "2026-02-01T00:00:00",
+    "sources": [
+      "Amnesty International",
+      "Human Rights Watch",
+      "PEN International",
+      "Wikidata"
+    ],
+    "total_records": 45
+  },
+  "current_prisoners": [
+    {
+      "name": "Ilham Tohti",
+      "country": "China",
+      "region": "Xinjiang",
+      "birth_year": 1969,
+      "detention_start": 2014,
+      "charge": "Separatism",
+      "sentence": "Life",
+      "status": "detained",
+      "category": "academic",
+      "awards": [
+        "Sakharov Prize 2019",
+        "Martin Ennals Award 2016"
+      ]
+    },
+    {
+      "name": "Narges Mohammadi",
+      "country": "Iran",
+      "birth_year": 1972,
+      "detention_start": 2021,
+      "charge": "Propaganda against state",
+      "status": "detained",
+      "category": "womens_rights",
+      "awards": [
+        "Nobel Peace Prize 2023"
+      ]
+    },
+    {
+      "name": "Ales Bialiatski",
+      "country": "Belarus",
+      "birth_year": 1962,
+      "detention_start": 2021,
+      "charge": "Tax evasion",
+      "status": "detained",
+      "category": "human_rights",
+      "awards": [
+        "Nobel Peace Prize 2022"
+      ]
+    },
+    {
+      "name": "Jimmy Lai",
+      "country": "Hong Kong",
+      "birth_year": 1947,
+      "detention_start": 2020,
+      "charge": "National Security Law",
+      "status": "detained",
+      "category": "press_freedom"
+    },
+    {
+      "name": "Alexei Navalny",
+      "country": "Russia",
+      "birth_year": 1976,
+      "death_year": 2024,
+      "detention_start": 2021,
+      "status": "died_in_custody",
+      "category": "political_opposition"
+    },
+    {
+      "name": "Wang Bingzhang",
+      "country": "China",
+      "birth_year": 1947,
+      "detention_start": 2002,
+      "charge": "Terrorism, espionage",
+      "sentence": "Life",
+      "status": "detained",
+      "category": "democracy_activist"
+    },
+    {
+      "name": "Gao Zhisheng",
+      "country": "China",
+      "birth_year": 1964,
+      "detention_start": 2017,
+      "status": "disappeared",
+      "category": "human_rights_lawyer"
+    },
+    {
+      "name": "Nasrin Sotoudeh",
+      "country": "Iran",
+      "birth_year": 1963,
+      "detention_start": 2018,
+      "charge": "National security",
+      "status": "detained",
+      "category": "human_rights_lawyer",
+      "awards": [
+        "Sakharov Prize 2012"
+      ]
+    },
+    {
+      "name": "Osman Kavala",
+      "country": "Turkey",
+      "birth_year": 1957,
+      "detention_start": 2017,
+      "charge": "Attempting to overthrow government",
+      "status": "detained",
+      "category": "civil_society"
+    },
+    {
+      "name": "Selahattin Demirtas",
+      "country": "Turkey",
+      "birth_year": 1973,
+      "detention_start": 2016,
+      "charge": "Terrorism",
+      "status": "detained",
+      "category": "political_leader"
+    }
+  ],
+  "historical_prisoners": [
+    {
+      "name": "Nelson Mandela",
+      "country": "South Africa",
+      "birth_year": 1918,
+      "death_year": 2013,
+      "detention_start": 1962,
+      "detention_end": 1990,
+      "years_imprisoned": 27,
+      "category": "anti_apartheid",
+      "outcome": "released",
+      "awards": [
+        "Nobel Peace Prize 1993"
+      ]
+    },
+    {
+      "name": "Aung San Suu Kyi",
+      "country": "Myanmar",
+      "birth_year": 1945,
+      "detention_start": 1989,
+      "detention_end": 2010,
+      "years_imprisoned": 15,
+      "category": "democracy",
+      "awards": [
+        "Nobel Peace Prize 1991"
+      ]
+    },
+    {
+      "name": "Liu Xiaobo",
+      "country": "China",
+      "birth_year": 1955,
+      "death_year": 2017,
+      "detention_start": 2009,
+      "status": "died_in_custody",
+      "category": "democracy",
+      "awards": [
+        "Nobel Peace Prize 2010"
+      ]
+    },
+    {
+      "name": "Vaclav Havel",
+      "country": "Czechoslovakia",
+      "birth_year": 1936,
+      "death_year": 2011,
+      "years_imprisoned": 5,
+      "category": "dissident",
+      "outcome": "released_became_president"
+    },
+    {
+      "name": "Andrei Sakharov",
+      "country": "Soviet Union",
+      "birth_year": 1921,
+      "death_year": 1989,
+      "detention_start": 1980,
+      "detention_end": 1986,
+      "category": "human_rights",
+      "awards": [
+        "Nobel Peace Prize 1975"
+      ]
+    },
+    {
+      "name": "Wei Jingsheng",
+      "country": "China",
+      "birth_year": 1950,
+      "detention_start": 1979,
+      "detention_end": 1997,
+      "years_imprisoned": 18,
+      "category": "democracy",
+      "awards": [
+        "Sakharov Prize 1996"
+      ]
+    },
+    {
+      "name": "Jacobo Timerman",
+      "country": "Argentina",
+      "birth_year": 1923,
+      "death_year": 1999,
+      "detention_start": 1977,
+      "detention_end": 1979,
+      "category": "journalist"
+    },
+    {
+      "name": "Anatoly Sharansky",
+      "country": "Soviet Union",
+      "birth_year": 1948,
+      "detention_start": 1977,
+      "detention_end": 1986,
+      "years_imprisoned": 9,
+      "category": "dissident"
+    }
+  ],
+  "statistics": {
+    "by_country": {
+      "China": 12,
+      "Iran": 8,
+      "Russia": 6,
+      "Turkey": 5,
+      "Belarus": 4,
+      "Myanmar": 3,
+      "Other": 7
+    },
+    "by_category": {
+      "human_rights": 15,
+      "journalism": 10,
+      "democracy": 8,
+      "minority_rights": 7,
+      "womens_rights": 5
+    },
+    "by_status": {
+      "currently_detained": 32,
+      "released": 8,
+      "died_in_custody": 5
+    }
+  }
+}

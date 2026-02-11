@@ -1,0 +1,18 @@
+{
+  "home": "Accueil",
+  "map": "Carte",
+  "hub": "Centre",
+  "timeline": "Chronologie",
+  "people": "Personnages",
+  "events": "Evenements",
+  "books": "Livres",
+  "conflicts": "Conflits",
+  "movements": "Mouvements",
+  "about": "A propos",
+  "login": "Connexion",
+  "logout": "Deconnexion",
+  "register": "Inscription",
+  "profile": "Profil",
+  "settings": "Parametres",
+  "language": "Langue"
+}

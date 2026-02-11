@@ -1,0 +1,33 @@
+{
+  "app": {
+    "title": "左翼观察",
+    "subtitle": "互动式历史世界地图",
+    "description": "记录全球解放斗争、反殖民运动和进步历史"
+  },
+  "actions": {
+    "search": "搜索",
+    "filter": "筛选",
+    "reset": "重置",
+    "submit": "提交",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "view": "查看",
+    "back": "返回",
+    "next": "下一个",
+    "previous": "上一个",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "retry": "重试"
+  },
+  "time": {
+    "date": "日期",
+    "year": "年",
+    "month": "月",
+    "day": "日",
+    "from": "从",
+    "to": "到",
+    "present": "至今"
+  }
+}

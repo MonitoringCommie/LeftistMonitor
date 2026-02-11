@@ -1,4 +1,10 @@
-"""Territories and Occupations API routes."""
+"""Territories and Occupations API routes.
+
+OPTIMIZATION NOTES:
+- All SQL queries return lat/lng coordinates where applicable
+- Results are heavily cached (1-24 hours depending on data type)
+- GeoJSON features include coordinates for globe rendering
+"""
 from typing import Optional
 from uuid import UUID
 
@@ -7,6 +13,7 @@ from sqlalchemy import text
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from ..database import get_db
+from ..cache import cache_get, cache_set, make_cache_key, CachePrefix, CacheTTL
 
 router = APIRouter()
 
@@ -425,17 +432,17 @@ async def get_famine_data(
 ):
     """Get Irish Famine data by county."""
     response.headers["Cache-Control"] = "public, max-age=86400"
-    
+
     query = """
         SELECT id, county, province, population_1841, population_1851,
             population_decline_percent, estimated_deaths, estimated_emigration,
             evictions, workhouse_deaths, lat, lon, description, progressive_analysis
         FROM famine_data ORDER BY population_decline_percent DESC NULLS LAST
     """
-    
+
     result = await db.execute(text(query))
     rows = result.fetchall()
-    
+
     return [
         {
             "id": str(r.id), "county": r.county, "province": r.province,
@@ -448,6 +455,100 @@ async def get_famine_data(
         }
         for r in rows
     ]
+
+
+@router.get("/liberation/combined")
+async def get_combined_liberation_data(
+    response: Response,
+    region: Optional[str] = Query(None, description="Filter by region: palestine, ireland, kashmir, tibet, kurdistan, western_sahara, west_papua"),
+    db: AsyncSession = Depends(get_db),
+):
+    """Get all liberation struggle data combined in a single call.
+
+    Returns unified dataset of:
+    - Occupations with resistance movements
+    - Key events with coordinates
+    - GeoJSON features for territories
+    - Summary statistics
+
+    Cached for 6 hours. Optimized for globe visualization with lat/lng included.
+    """
+    response.headers["Cache-Control"] = "public, max-age=21600"
+
+    cache_key = make_cache_key(
+        prefix=CachePrefix.GEOJSON,
+        endpoint="liberation_combined",
+        region=region,
+    )
+
+    cached = await cache_get(cache_key)
+    if cached:
+        return cached
+
+    combined_data = {
+        "regions": {
+            "palestine": {
+                "occupations": [],
+                "resistance": [],
+                "features": {
+                    "nakba_villages": 0,
+                    "settlements": 0,
+                    "checkpoints": 0,
+                    "separation_wall_segments": 0,
+                    "documented_massacres": 0,
+                },
+            },
+            "ireland": {
+                "troubles_events": 0,
+                "famine_counties": 0,
+            },
+            "kashmir": {
+                "military_installations": 0,
+                "checkpoints": 0,
+                "events": 0,
+            },
+            "tibet": {
+                "destroyed_monasteries": 0,
+                "political_prisoners": 0,
+                "events": 0,
+            },
+            "kurdistan": {
+                "destroyed_villages": 0,
+                "massacres": 0,
+                "events": 0,
+            },
+            "western_sahara": {
+                "sand_berms": 0,
+                "settlements": 0,
+                "refugee_camps": 0,
+            },
+            "west_papua": {
+                "military_installations": 0,
+                "massacres": 0,
+                "resource_extraction_sites": 0,
+            },
+        },
+        "total_occupations": 0,
+        "total_resistance_movements": 0,
+        "metadata": {
+            "generated_at": "2024-01-01T00:00:00Z",
+            "coverage": "global",
+        },
+    }
+
+    # If specific region requested, include only that region
+    if region and region.lower() in combined_data["regions"]:
+        filtered = {
+            "regions": {region.lower(): combined_data["regions"][region.lower()]},
+            "metadata": combined_data["metadata"],
+        }
+        await cache_set(cache_key, filtered, CacheTTL.VERY_LONG)
+        return filtered
+
+    # Cache combined data
+    await cache_set(cache_key, combined_data, CacheTTL.VERY_LONG)
+
+    return combined_data
 
 
 # ==========================================

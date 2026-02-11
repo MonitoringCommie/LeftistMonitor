@@ -1,0 +1,25 @@
+{
+  "title": "Mapa Interativo",
+  "layers": "Camadas do Mapa",
+  "legend": "Legenda",
+  "controls": {
+    "zoomIn": "Aumentar Zoom",
+    "zoomOut": "Diminuir Zoom",
+    "reset": "Redefinir Visao",
+    "fullscreen": "Tela Cheia"
+  },
+  "filters": {
+    "title": "Filtros",
+    "dateRange": "Periodo",
+    "category": "Categoria",
+    "region": "Regiao"
+  },
+  "categories": {
+    "revolutions": "Revolucoes",
+    "strikes": "Greves",
+    "protests": "Protestos",
+    "massacres": "Massacres",
+    "liberation": "Movimentos de Libertacao",
+    "conflicts": "Conflitos Armados"
+  }
+}

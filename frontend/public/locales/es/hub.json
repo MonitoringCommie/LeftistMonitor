@@ -1,0 +1,29 @@
+{
+  "title": "Explorar Historia",
+  "subtitle": "Navega por categorias de movimientos izquierdistas y progresistas",
+  "categories": {
+    "people": {
+      "title": "Figuras Historicas",
+      "description": "Revolucionarios, activistas y pensadores que moldearon la historia"
+    },
+    "events": {
+      "title": "Eventos Historicos",
+      "description": "Revoluciones, huelgas, protestas y momentos decisivos"
+    },
+    "movements": {
+      "title": "Movimientos Sociales",
+      "description": "Movimientos laborales, de derechos civiles, anticoloniales y de liberacion"
+    },
+    "conflicts": {
+      "title": "Conflictos Armados",
+      "description": "Guerras revolucionarias, luchas de liberacion y conflictos civiles"
+    },
+    "books": {
+      "title": "Literatura",
+      "description": "Textos esenciales, manifiestos y obras teoricas"
+    }
+  },
+  "featured": "Destacado",
+  "recent": "Recien Agregado",
+  "popular": "Mas Vistos"
+}

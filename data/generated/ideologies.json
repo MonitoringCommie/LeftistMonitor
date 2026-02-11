@@ -1,0 +1,444 @@
+{
+  "ideologies": [
+    {
+      "id": "marxism",
+      "name": "Marxism",
+      "description": "Analytical framework and revolutionary theory based on historical materialism and class struggle. Emphasizes worker control of means of production.",
+      "left_right_position": -95,
+      "key_figures": ["Karl Marx", "Friedrich Engels", "Vladimir Lenin"],
+      "key_texts": ["The Communist Manifesto", "Capital Vol. 1", "The Holy Family"],
+      "variants": ["Marxism-Leninism", "Western Marxism", "Analytical Marxism"],
+      "core_concepts": ["historical_materialism", "class_struggle", "proletarian_revolution", "dictatorship_of_proletariat"]
+    },
+    {
+      "id": "marxism_leninism",
+      "name": "Marxism-Leninism",
+      "description": "Soviet interpretation of Marxism emphasizing vanguard party, centralized planning, and rapid industrialization.",
+      "left_right_position": -98,
+      "key_figures": ["Vladimir Lenin", "Joseph Stalin", "Leon Trotsky"],
+      "key_texts": ["The State and Revolution", "What Is to Be Done?", "Problems of Leninism"],
+      "variants": ["Stalinism", "Khrushchevism", "Brezhnevism"],
+      "core_concepts": ["vanguard_party", "democratic_centralism", "socialist_realism", "accelerated_industrialization"]
+    },
+    {
+      "id": "leninism",
+      "name": "Leninism",
+      "description": "Lenin's theory of revolution through a disciplined vanguard party and the dictatorship of proletariat.",
+      "left_right_position": -96,
+      "key_figures": ["Vladimir Lenin", "Grigory Zinoviev", "Georgy Plekhanov"],
+      "key_texts": ["What Is to Be Done?", "The State and Revolution", "Left-Wing Communism: An Infantile Disorder"],
+      "variants": ["Bolshevism", "Leninism-Luxemburgism"],
+      "core_concepts": ["vanguard_party", "proletarian_dictatorship", "national_self_determination", "workers_state"]
+    },
+    {
+      "id": "stalinism",
+      "name": "Stalinism",
+      "description": "Development of Marxism-Leninism emphasizing 'socialism in one country' and rapid industrialization.",
+      "left_right_position": -97,
+      "key_figures": ["Joseph Stalin", "Nikolai Bukharin", "Gregory Dimitrov"],
+      "key_texts": ["Problems of Leninism", "The Foundations of Leninism", "On the Question of the Policy of the Soviet Government"],
+      "variants": ["Soviet Socialism", "Stalinism-Hoxhaism"],
+      "core_concepts": ["socialism_in_one_country", "rapid_industrialization", "collective_farming", "great_purge"]
+    },
+    {
+      "id": "trotskyism",
+      "name": "Trotskyism",
+      "description": "Left communist theory emphasizing permanent revolution and international proletarian socialism against Stalin's nationalism.",
+      "left_right_position": -96,
+      "key_figures": ["Leon Trotsky", "James Cannon", "Ernest Mandel"],
+      "key_texts": ["The Revolution Betrayed", "The Permanent Revolution", "My Life: An Attempt at an Autobiography"],
+      "variants": ["Posadas-ism", "Pablism", "International Communist League"],
+      "core_concepts": ["permanent_revolution", "united_front", "world_revolution", "degenerated_workers_state"]
+    },
+    {
+      "id": "maoism",
+      "name": "Maoism",
+      "description": "Marxist-Leninist theory adapted for peasant-based revolution in agrarian societies, emphasizing protracted people's war.",
+      "left_right_position": -95,
+      "key_figures": ["Mao Zedong", "Deng Xiaoping", "Jiang Qing"],
+      "key_texts": ["On Guerrilla Warfare", "On Coalition Government", "Some Questions Concerning Methods of Leadership"],
+      "variants": ["Maoism-Third Worldism", "Hoxhaism", "Gonzaloism"],
+      "core_concepts": ["peasant_base", "protracted_peoples_war", "new_democracy", "mass_line"]
+    },
+    {
+      "id": "dengism",
+      "name": "Dengism (Socialism with Chinese Characteristics)",
+      "description": "Market socialism approach allowing capitalist economic elements within socialist framework. Associated with Deng Xiaoping reforms.",
+      "left_right_position": -75,
+      "key_figures": ["Deng Xiaoping", "Jiang Zemin", "Hu Jintao"],
+      "key_texts": ["Selected Works of Deng Xiaoping", "On the General Line of the Party"],
+      "variants": ["Chinese Socialism", "Market Socialism"],
+      "core_concepts": ["market_mechanisms", "special_economic_zones", "productivity_focus", "pragmatism"]
+    },
+    {
+      "id": "titoism",
+      "name": "Titoism (Market Socialism)",
+      "description": "Yugoslav model of decentralized socialism with workers' self-management and market mechanisms.",
+      "left_right_position": -70,
+      "key_figures": ["Josip Broz Tito", "Edvard Kardelj", "Boris Kidrič"],
+      "key_texts": ["New Class", "Essays on the Revolutionary Intellectual"],
+      "variants": ["Yugoslav Socialism", "Self-Management Socialism"],
+      "core_concepts": ["workers_councils", "market_socialism", "decentralization", "self_management"]
+    },
+    {
+      "id": "hoxhaism",
+      "name": "Hoxhaism",
+      "description": "Anti-revisionist Marxism-Leninism originating in Albania under Enver Hoxha, opposing both Soviet and Chinese revisionism.",
+      "left_right_position": -96,
+      "key_figures": ["Enver Hoxha", "Ramiz Alia"],
+      "key_texts": ["Imperialism and the Revolution", "The Khrushchevites", "With Stalin"],
+      "variants": ["Albanian Socialism", "Anti-Revisionist Marxism-Leninism"],
+      "core_concepts": ["anti_revisionism", "proletarian_internationalism", "workers_state"]
+    },
+    {
+      "id": "luxemburgism",
+      "name": "Luxemburgism",
+      "description": "Left communist theory emphasizing spontaneous mass action and workers' consciousness against Leninist vanguardism.",
+      "left_right_position": -92,
+      "key_figures": ["Rosa Luxemburg", "Karl Liebknecht", "Clara Zetkin"],
+      "key_texts": ["The Accumulation of Capital", "Reform or Revolution", "The Mass Strike"],
+      "variants": ["Left Communism", "Autonomist Marxism"],
+      "core_concepts": ["mass_action", "spontaneity", "internationalism", "permanent_revolution"]
+    },
+    {
+      "id": "left_communism",
+      "name": "Left Communism",
+      "description": "Critique of Leninism and Stalinism from revolutionary communist position, emphasizing workers' autonomy.",
+      "left_right_position": -94,
+      "key_figures": ["Amadeo Bordiga", "Paul Mattick", "Gilles Dauvé"],
+      "key_texts": ["The Inverted Mirror", "Council Communism and Decentralization", "The Eclipse and Re-emergence of the Communist Movement"],
+      "variants": ["Italian Left", "Dutch-German Left", "Bordigism"],
+      "core_concepts": ["workers_councils", "critique_of_leninism", "proletarian_autonomy"]
+    },
+    {
+      "id": "autonomist_marxism",
+      "name": "Autonomist Marxism",
+      "description": "Italian Marxist tendency emphasizing autonomous workers' movements independent of unions and parties.",
+      "left_right_position": -92,
+      "key_figures": ["Antonio Negri", "Mario Tronti", "Raniero Panzieri"],
+      "key_texts": ["Empire", "Autonomia: Post-Political Politics", "Workers and Capital"],
+      "variants": ["Workerism", "Operaismo"],
+      "core_concepts": ["autonomous_struggle", "composition_of_working_class", "refusal_of_work"]
+    },
+    {
+      "id": "autonomism",
+      "name": "Autonomism",
+      "description": "Anti-authoritarian tendency emphasizing self-management and direct action against state and capital structures.",
+      "left_right_position": -88,
+      "key_figures": ["Murray Bookchin", "Raoul Vaneigem", "Guy Debord"],
+      "key_texts": ["The Society of the Spectacle", "Post-Scarcity Anarchism", "The Revolution of Everyday Life"],
+      "variants": ["Anarcho-communism", "Situationism"],
+      "core_concepts": ["direct_action", "self_management", "anti_statism", "anti_capitalism"]
+    },
+    {
+      "id": "anarcho_communism",
+      "name": "Anarcho-Communism",
+      "description": "Anarchist tendency advocating abolition of state and private property, establishing communes of abundance.",
+      "left_right_position": -99,
+      "key_figures": ["Peter Kropotkin", "Errico Malatesta", "Emma Goldman"],
+      "key_texts": ["Mutual Aid: A Factor of Evolution", "Memoirs of a Revolutionist", "Conquest of Bread"],
+      "variants": ["Collectivist Anarchism", "Mutualism"],
+      "core_concepts": ["abolition_of_state", "abolition_of_property", "direct_action", "mutual_aid"]
+    },
+    {
+      "id": "anarcho_syndicalism",
+      "name": "Anarcho-Syndicalism",
+      "description": "Revolutionary trade unionism pursuing workers' control through syndicalist unions and general strike.",
+      "left_right_position": -90,
+      "key_figures": ["Rudolf Rocker", "Burnett Bolloten", "George Eltenton"],
+      "key_texts": ["Anarcho-Syndicalism", "The Spanish Civil War", "Syndicalism and the Transition to Socialism"],
+      "variants": ["Syndicalism", "Industrial Unionism"],
+      "core_concepts": ["general_strike", "workers_control", "direct_action", "federalism"]
+    },
+    {
+      "id": "syndicalism",
+      "name": "Syndicalism",
+      "description": "Labor movement theory using strikes and labor organization to achieve workers' control of industry.",
+      "left_right_position": -85,
+      "key_figures": ["Georges Sorel", "Hubert Lagardelle"],
+      "key_texts": ["Reflections on Violence", "Le Socialisme Ouvrier"],
+      "variants": ["Revolutionary Syndicalism", "Anarcho-Syndicalism"],
+      "core_concepts": ["general_strike", "labor_organization", "workers_control"]
+    },
+    {
+      "id": "council_communism",
+      "name": "Council Communism",
+      "description": "Marxist theory emphasizing workers' councils as organs of revolution and administration of society.",
+      "left_right_position": -93,
+      "key_figures": ["Anton Pannekoek", "Herman Gorter", "Karl Korsch"],
+      "key_texts": ["Workers Councils", "The Dutch-German Left", "Marxism and Philosophy"],
+      "variants": ["Left Communism", "Autonomist Marxism"],
+      "core_concepts": ["workers_councils", "workers_democracy", "anti_leninism"]
+    },
+    {
+      "id": "social_democracy",
+      "name": "Social Democracy",
+      "description": "Democratic socialist orientation seeking to build socialism through parliamentary means and gradual reform.",
+      "left_right_position": -65,
+      "key_figures": ["Eduard Bernstein", "Willy Brandt", "Olof Palme"],
+      "key_texts": ["Evolutionary Socialism", "Basic Program 1959"],
+      "variants": ["Democratic Socialism", "Labourism", "Eurocommunism"],
+      "core_concepts": ["parliamentary_democracy", "welfare_state", "mixed_economy", "reformism"]
+    },
+    {
+      "id": "democratic_socialism",
+      "name": "Democratic Socialism",
+      "description": "Socialism achieved through democratic processes with emphasis on political pluralism and decentralization.",
+      "left_right_position": -70,
+      "key_figures": ["Michael Harrington", "Eugen Lobl", "Roy Medvedev"],
+      "key_texts": ["Socialism: Past and Future", "What Socialists Should Do", "The Unknown Stalin"],
+      "variants": ["Eurosocialism", "Market Socialism"],
+      "core_concepts": ["pluralism", "democracy", "decentralization", "civil_liberties"]
+    },
+    {
+      "id": "eurocommunism",
+      "name": "Eurocommunism",
+      "description": "Western European communist parties' position accepting pluralism, democracy, and rejecting Soviet Soviet leadership.",
+      "left_right_position": -75,
+      "key_figures": ["Enrico Berlinguer", "Santiago Carrillo", "Marchais"],
+      "key_texts": ["The Historical Compromise", "Eurocommunism and the State"],
+      "variants": ["Reformist Communism"],
+      "core_concepts": ["liberal_democracy", "pluralism", "independence_from_ussr"]
+    },
+    {
+      "id": "labourism",
+      "name": "Labourism",
+      "description": "Political movement and ideology centered on labor unions and workers' parties pursuing reformist socialism.",
+      "left_right_position": -60,
+      "key_figures": ["Clement Attlee", "Tony Benn", "Keir Hardie"],
+      "key_texts": ["The Labour Party in Perspective", "Arguments for Socialism"],
+      "variants": ["British Labour", "Australian Labor"],
+      "core_concepts": ["union_power", "welfare_state", "full_employment", "progressive_taxation"]
+    },
+    {
+      "id": "anarchism",
+      "name": "Anarchism",
+      "description": "Ideology advocating abolition of all hierarchical authority and state structures in favor of voluntary cooperation.",
+      "left_right_position": -88,
+      "key_figures": ["Mikhail Bakunin", "Pierre-Joseph Proudhon", "Nestor Makhno"],
+      "key_texts": ["God and the State", "What is Property?", "Russian Nihilists"],
+      "variants": ["Anarcho-communism", "Individualist Anarchism", "Mutualism"],
+      "core_concepts": ["abolition_of_state", "voluntary_association", "direct_action"]
+    },
+    {
+      "id": "individualist_anarchism",
+      "name": "Individualist Anarchism",
+      "description": "Anarchist tendency emphasizing individual freedom and property rights against collectivist economics.",
+      "left_right_position": -60,
+      "key_figures": ["Max Stirner", "Benjamin Tucker", "Lysander Spooner"],
+      "key_texts": ["The Ego and Its Own", "Instead of a Book", "No Treason"],
+      "variants": ["Egoist Anarchism", "Agorist Anarchism"],
+      "core_concepts": ["individual_sovereignty", "voluntary_exchange", "egoism"]
+    },
+    {
+      "id": "mutualism",
+      "name": "Mutualism",
+      "description": "Economic system based on mutual aid, cooperation, and voluntary exchange without capitalist exploitation.",
+      "left_right_position": -70,
+      "key_figures": ["Pierre-Joseph Proudhon", "Kevin Carson"],
+      "key_texts": ["What is Property?", "The Conquest of Bread", "Studies in Mutualist Political Economy"],
+      "variants": ["Proudhonism", "Left-Libertarianism"],
+      "core_concepts": ["mutual_aid", "fair_exchange", "voluntary_association", "land_reform"]
+    },
+    {
+      "id": "libertarian_socialism",
+      "name": "Libertarian Socialism",
+      "description": "Socialist ideology emphasizing workers' control and direct democracy without centralized state authority.",
+      "left_right_position": -85,
+      "key_figures": ["William Morris", "Murray Bookchin", "Noam Chomsky"],
+      "key_texts": ["News from Nowhere", "The Ecology of Freedom", "At War with Asia"],
+      "variants": ["Anarcho-communism", "Autonomism"],
+      "core_concepts": ["workers_control", "direct_democracy", "decentralization"]
+    },
+    {
+      "id": "communalism",
+      "name": "Communalism",
+      "description": "Political philosophy advocating community autonomy, decentralized power, and mutual aid.",
+      "left_right_position": -80,
+      "key_figures": ["Murray Bookchin", "Lewis Mumford", "Paul Goodman"],
+      "key_texts": ["The Ecology of Freedom", "Technics and Civilization", "Growing Up Absurd"],
+      "variants": ["Eco-communalism", "Neo-Communalism"],
+      "core_concepts": ["community_autonomy", "decentralization", "mutual_aid", "ecology"]
+    },
+    {
+      "id": "feminism",
+      "name": "Feminism (Leftist/Socialist)",
+      "description": "Political ideology centered on women's liberation and equality, often integrated with socialist critique of patriarchy.",
+      "left_right_position": -75,
+      "key_figures": ["Simone de Beauvoir", "Angela Davis", "bell hooks"],
+      "key_texts": ["The Second Sex", "Women, Race, & Class", "Feminist Theory: From Margin to Center"],
+      "variants": ["Radical Feminism", "Black Feminism", "Intersectional Feminism"],
+      "core_concepts": ["gender_equality", "patriarchy_critique", "reproductive_rights", "intersectionality"]
+    },
+    {
+      "id": "intersectional_feminism",
+      "name": "Intersectional Feminism",
+      "description": "Feminist framework analyzing how multiple systems of oppression (race, class, gender) intersect and compound.",
+      "left_right_position": -78,
+      "key_figures": ["Kimberlé Crenshaw", "Audre Lorde", "Combahee River Collective"],
+      "key_texts": ["Demarginalizing the Intersection", "Sister Outsider", "Black Feminist Thought"],
+      "variants": ["Black Feminism", "Transnational Feminism"],
+      "core_concepts": ["intersectionality", "systemic_oppression", "identity_politics"]
+    },
+    {
+      "id": "anti_colonialism",
+      "name": "Anti-Colonialism",
+      "description": "Ideology opposing imperial domination and advocating independence for colonized nations.",
+      "left_right_position": -75,
+      "key_figures": ["Frantz Fanon", "Ho Chi Minh", "Che Guevara"],
+      "key_texts": ["The Wretched of the Earth", "The Combating Method", "Guerrilla Warfare"],
+      "variants": ["National Liberation", "Third Worldism"],
+      "core_concepts": ["anti_imperialism", "national_self_determination", "decolonization"]
+    },
+    {
+      "id": "third_worldism",
+      "name": "Third Worldism",
+      "description": "Ideology supporting liberation movements and development of non-aligned nations against imperialism.",
+      "left_right_position": -80,
+      "key_figures": ["Mahmoud Amin", "Samir Amin", "Jon Halliday"],
+      "key_texts": ["Modern Capitalism and Other Essays", "Delinking", "A Political Biography of Mao"],
+      "variants": ["Maoism-Third Worldism", "Non-Alignment"],
+      "core_concepts": ["imperialism_critique", "national_liberation", "unequal_development"]
+    },
+    {
+      "id": "black_radicalism",
+      "name": "Black Radicalism",
+      "description": "Revolutionary ideology centered on Black liberation, self-determination, and end to systemic racism.",
+      "left_right_position": -82,
+      "key_figures": ["Malcolm X", "Huey Newton", "Steve Biko"],
+      "key_texts": ["The Autobiography of Malcolm X", "Seize the Time", "I Write What I Like"],
+      "variants": ["Black Nationalism", "Black Consciousness"],
+      "core_concepts": ["black_liberation", "self_defense", "community_control", "anti_racism"]
+    },
+    {
+      "id": "indigenous_socialism",
+      "name": "Indigenous Socialism",
+      "description": "Socialism adapted to indigenous cultures, emphasizing land rights, self-determination, and traditional practices.",
+      "left_right_position": -80,
+      "key_figures": ["Evo Morales", "Tupac Amaru II", "Rigoberta Menchú"],
+      "key_texts": ["The Voice of the Indigenous", "I, Rigoberta Menchú"],
+      "variants": ["Inca Communism", "Andean Socialism"],
+      "core_concepts": ["land_rights", "indigenous_self_determination", "buen_vivir"]
+    },
+    {
+      "id": "eco_socialism",
+      "name": "Eco-Socialism",
+      "description": "Synthesis of socialism and ecology, critiquing capitalism's environmental destruction and promoting sustainable socialism.",
+      "left_right_position": -85,
+      "key_figures": ["Murray Bookchin", "James O'Connor", "Joel Kovel"],
+      "key_texts": ["The Ecology of Freedom", "The Second Contradiction of Capitalism", "The Enemy of Nature"],
+      "variants": ["Red-Green", "Deep Ecology Left"],
+      "core_concepts": ["environmental_protection", "ecological_sustainability", "anti_capitalism"]
+    },
+    {
+      "id": "queer_leftism",
+      "name": "Queer Leftism",
+      "description": "Political ideology opposing heteronormativity and patriarchy, fighting LGBTQ+ oppression within leftist framework.",
+      "left_right_position": -80,
+      "key_figures": ["Leslie Feinberg", "Audre Lorde", "Assata Shakur"],
+      "key_texts": ["Stone Butch Blues", "Sister Outsider", "Assata: An Autobiography"],
+      "variants": ["Queer Theory", "Radical Queer Politics"],
+      "core_concepts": ["queer_liberation", "gender_abolition", "anti_heteronormativity"]
+    },
+    {
+      "id": "disability_justice",
+      "name": "Disability Justice",
+      "description": "Political framework centered on disabled people's liberation, justice, and interdependence.",
+      "left_right_position": -78,
+      "key_figures": ["Patty Berne", "Sins Invalid", "Marta Russell"],
+      "key_texts": ["The Disability Justice Sourcebook", "Sins Invalid Anthology"],
+      "variants": ["Disability Rights Socialism"],
+      "core_concepts": ["disabled_liberation", "interdependence", "non_carceral_justice", "bodily_autonomy"]
+    },
+    {
+      "id": "decolonial_theory",
+      "name": "Decolonial Theory",
+      "description": "Framework analyzing and resisting the colonial matrix of power, centering knowledge from colonized peoples.",
+      "left_right_position": -82,
+      "key_figures": ["Walter Mignolo", "Aníbal Quijano", "Sylvia Wynter"],
+      "key_texts": ["The Darker Side of Western Modernity", "Coloniality and the Modern/Colonial World System", "On Being Human as Praxis"],
+      "variants": ["Pluriversality", "Epistemicide"],
+      "core_concepts": ["coloniality", "epistemic_justice", "pluriversalism"]
+    },
+    {
+      "id": "commons_movement",
+      "name": "Commons Movement",
+      "description": "Political movement advocating for collective stewardship and management of common resources against privatization.",
+      "left_right_position": -78,
+      "key_figures": ["David Bollier", "Silvia Federici", "Peter Linebaugh"],
+      "key_texts": ["Think Like a Commoner", "Caliban and the Witch", "The Magna Carta Manifesto"],
+      "variants": ["Digital Commons", "Land Commons"],
+      "core_concepts": ["common_property", "collective_stewardship", "degrowth"]
+    },
+    {
+      "id": "afro_communism",
+      "name": "Afro-Communism",
+      "description": "Communism developed in African context, emphasizing African dignity, self-determination, and collective liberation.",
+      "left_right_position": -92,
+      "key_figures": ["Kwame Nkrumah", "Frantz Fanon", "Thomas Sankara"],
+      "key_texts": ["Class Struggle in Africa", "The Wretched of the Earth", "Thomas Sankara Speaks"],
+      "variants": ["Pan-Africanism", "Nkrumahism"],
+      "core_concepts": ["african_unity", "anti_imperialism", "continental_integration"]
+    },
+    {
+      "id": "agrarian_socialism",
+      "name": "Agrarian Socialism",
+      "description": "Socialism emphasizing peasant and agricultural worker liberation, rural collectivization, and land redistribution.",
+      "left_right_position": -82,
+      "key_figures": ["Emiliano Zapata", "Lenin", "Vladimir Lenin"],
+      "key_texts": ["The Land and the Revolution", "Development of Capitalism in Russia", "Land, Freedom, Bread"],
+      "variants": ["Peasant Communism", "Agrarian Populism"],
+      "core_concepts": ["land_reform", "peasant_liberation", "agricultural_collectivization"]
+    },
+    {
+      "id": "autonomy_marxism",
+      "name": "Autonomy Marxism",
+      "description": "Marxist approach prioritizing working class autonomy independent of state and unions.",
+      "left_right_position": -91,
+      "key_figures": ["Raniero Panzieri", "Toni Negri", "Massimo De Carolis"],
+      "key_texts": ["Workers and Capital", "Commonwealth", "The Labor of Dionysus"],
+      "variants": ["Post-operaismo"],
+      "core_concepts": ["autonomous_struggle", "working_class_composition", "self_valorization"]
+    },
+    {
+      "id": "anarcho_pacifism",
+      "name": "Anarcho-Pacifism",
+      "description": "Anarchism combined with non-violence and pacifism, rejecting armed revolution in favor of peaceful transformation.",
+      "left_right_position": -82,
+      "key_figures": ["Leo Tolstoy", "Bart de Ligt", "Barbara Deming"],
+      "key_texts": ["On Civil Disobedience", "The Conquest of Violence", "Revolution and Equilibrium"],
+      "variants": ["Anarchist Nonviolence"],
+      "core_concepts": ["nonviolence", "direct_action", "civil_disobedience"]
+    },
+    {
+      "id": "socialized_medicine_advocates",
+      "name": "Socialized Medicine Advocates",
+      "description": "Movement advocating for healthcare as universal right, managed by society rather than profit-driven corporations.",
+      "left_right_position": -72,
+      "key_figures": ["Norman Bethune", "Salvador Allende", "Paul Farmer"],
+      "key_texts": ["The Medical World", "Medical Care for Democracy", "Infections and Inequalities"],
+      "variants": ["Health Justice", "Medical Autonomy"],
+      "core_concepts": ["healthcare_as_right", "medical_internationalism", "structural_change"]
+    },
+    {
+      "id": "progressive_populism",
+      "name": "Progressive Populism",
+      "description": "Populist movement emphasizing redistribution of power and wealth from elites to common people.",
+      "left_right_position": -65,
+      "key_figures": ["Bernie Sanders", "Naomi Klein", "Elizabeth Warren"],
+      "key_texts": ["The Shock Doctrine", "Our Revolution", "A Fighting Chance"],
+      "variants": ["Left Populism", "Democratic Populism"],
+      "core_concepts": ["anti_oligarchy", "wealth_redistribution", "direct_democracy"]
+    },
+    {
+      "id": "libertarian_left",
+      "name": "Libertarian Left",
+      "description": "Left-wing anti-statism prioritizing individual freedom and voluntary association within egalitarian framework.",
+      "left_right_position": -78,
+      "key_figures": ["Noam Chomsky", "Joseph Déjacque", "Voltairine de Cleyre"],
+      "key_texts": ["Propaganda", "The Anarchist", "Exquisite Rebel"],
+      "variants": ["Libertarian Socialism", "Left-Libertarianism"],
+      "core_concepts": ["anti_statism", "workers_control", "voluntary_association"]
+    }
+  ]
+}

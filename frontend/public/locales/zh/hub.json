@@ -1,0 +1,29 @@
+{
+  "title": "探索历史",
+  "subtitle": "浏览左翼和进步运动的各个类别",
+  "categories": {
+    "people": {
+      "title": "历史人物",
+      "description": "塑造历史的革命家、活动家和思想家"
+    },
+    "events": {
+      "title": "历史事件",
+      "description": "革命、罢工、抗议和关键时刻"
+    },
+    "movements": {
+      "title": "社会运动",
+      "description": "劳工、民权、反殖民和解放运动"
+    },
+    "conflicts": {
+      "title": "武装冲突",
+      "description": "革命战争、解放斗争和内战"
+    },
+    "books": {
+      "title": "文献",
+      "description": "重要文本、宣言和理论著作"
+    }
+  },
+  "featured": "精选",
+  "recent": "最近添加",
+  "popular": "最多浏览"
+}

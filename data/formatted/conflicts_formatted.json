@@ -1,0 +1,1329 @@
+[
+  {
+    "id": "d963334f-741c-4881-9527-d77b65b2330f",
+    "name": "World War I",
+    "start_date": "1914-01-01",
+    "end_date": "1918-12-31",
+    "conflict_type": "interstate",
+    "intensity": "major",
+    "casualties_low": 15000000,
+    "casualties_high": 20000000,
+    "description": "First World War involving European powers, Ottoman Empire, and global colonial powers",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Verdun",
+        "country": "France",
+        "lat": 49.1603,
+        "lng": 5.3953,
+        "role": "major_battle"
+      },
+      {
+        "name": "Somme",
+        "country": "France",
+        "lat": 50.0,
+        "lng": 2.5,
+        "role": "major_battle"
+      },
+      {
+        "name": "Ypres",
+        "country": "Belgium",
+        "lat": 50.871,
+        "lng": 2.885,
+        "role": "major_battle"
+      },
+      {
+        "name": "Passchendaele",
+        "country": "Belgium",
+        "lat": 50.8972,
+        "lng": 2.8975,
+        "role": "major_battle"
+      },
+      {
+        "name": "Brussels",
+        "country": "Belgium",
+        "lat": 50.8503,
+        "lng": 4.3517,
+        "role": "capital"
+      },
+      {
+        "name": "Berlin",
+        "country": "Germany",
+        "lat": 52.52,
+        "lng": 13.405,
+        "role": "capital"
+      },
+      {
+        "name": "Paris",
+        "country": "France",
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "role": "capital"
+      },
+      {
+        "name": "Petrograd",
+        "country": "Russia",
+        "lat": 59.9311,
+        "lng": 30.3609,
+        "role": "capital"
+      },
+      {
+        "name": "Vienna",
+        "country": "Austria-Hungary",
+        "lat": 48.2082,
+        "lng": 16.3738,
+        "role": "capital"
+      },
+      {
+        "name": "Istanbul",
+        "country": "Ottoman Empire",
+        "lat": 41.0082,
+        "lng": 28.9784,
+        "role": "capital"
+      },
+      {
+        "name": "Gallipoli",
+        "country": "Ottoman Empire",
+        "lat": 40.3505,
+        "lng": 26.1864,
+        "role": "campaign"
+      },
+      {
+        "name": "Baghdad",
+        "country": "Ottoman Empire",
+        "lat": 33.3128,
+        "lng": 44.3615,
+        "role": "campaign"
+      },
+      {
+        "name": "Tannenberg",
+        "country": "East Prussia",
+        "lat": 54.0,
+        "lng": 21.5833,
+        "role": "major_battle"
+      },
+      {
+        "name": "Brusilov",
+        "country": "Ukraine",
+        "lat": 49.7294,
+        "lng": 25.3451,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056214"
+  },
+  {
+    "id": "d74758ee-2500-4ce7-b3b9-b1edbf9f1de2",
+    "name": "Russian Civil War",
+    "start_date": "1918-01-01",
+    "end_date": "1922-12-31",
+    "conflict_type": "civil_war",
+    "intensity": "major",
+    "casualties_low": 5000000,
+    "casualties_high": 9000000,
+    "description": "War between Bolsheviks and White Army forces",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Moscow",
+        "country": "Russia",
+        "lat": 55.7558,
+        "lng": 37.6173,
+        "role": "capital"
+      },
+      {
+        "name": "Petrograd",
+        "country": "Russia",
+        "lat": 59.9311,
+        "lng": 30.3609,
+        "role": "major_battle"
+      },
+      {
+        "name": "Volgograd",
+        "country": "Russia",
+        "lat": 48.7086,
+        "lng": 44.5026,
+        "role": "major_battle"
+      },
+      {
+        "name": "Novorossiysk",
+        "country": "Russia",
+        "lat": 44.7228,
+        "lng": 37.7689,
+        "role": "major_battle"
+      },
+      {
+        "name": "Vladivostok",
+        "country": "Russia",
+        "lat": 43.1056,
+        "lng": 131.8735,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056302"
+  },
+  {
+    "id": "53bcfbc2-e240-4741-b3d6-a50c41f4bcb1",
+    "name": "World War II",
+    "start_date": "1939-01-01",
+    "end_date": "1945-12-31",
+    "conflict_type": "interstate",
+    "intensity": "major",
+    "casualties_low": 70000000,
+    "casualties_high": 85000000,
+    "description": "Second World War involving Axis and Allied powers across Europe, Asia, and Africa",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Stalingrad",
+        "country": "Soviet Union",
+        "lat": 48.7086,
+        "lng": 44.5026,
+        "role": "major_battle"
+      },
+      {
+        "name": "Berlin",
+        "country": "Germany",
+        "lat": 52.52,
+        "lng": 13.405,
+        "role": "capital"
+      },
+      {
+        "name": "Moscow",
+        "country": "Soviet Union",
+        "lat": 55.7558,
+        "lng": 37.6173,
+        "role": "defended"
+      },
+      {
+        "name": "Leningrad",
+        "country": "Soviet Union",
+        "lat": 59.9311,
+        "lng": 30.3609,
+        "role": "major_battle"
+      },
+      {
+        "name": "Warsaw",
+        "country": "Poland",
+        "lat": 52.2297,
+        "lng": 21.0122,
+        "role": "major_battle"
+      },
+      {
+        "name": "Paris",
+        "country": "France",
+        "lat": 48.8566,
+        "lng": 2.3522,
+        "role": "capital"
+      },
+      {
+        "name": "London",
+        "country": "United Kingdom",
+        "lat": 51.5074,
+        "lng": -0.1278,
+        "role": "capital"
+      },
+      {
+        "name": "Coventry",
+        "country": "United Kingdom",
+        "lat": 52.4081,
+        "lng": -1.5105,
+        "role": "bombing"
+      },
+      {
+        "name": "Tokyo",
+        "country": "Japan",
+        "lat": 35.6762,
+        "lng": 139.6503,
+        "role": "capital"
+      },
+      {
+        "name": "Hiroshima",
+        "country": "Japan",
+        "lat": 34.3853,
+        "lng": 132.4553,
+        "role": "atomic_bomb"
+      },
+      {
+        "name": "Nagasaki",
+        "country": "Japan",
+        "lat": 32.7487,
+        "lng": 129.8711,
+        "role": "atomic_bomb"
+      },
+      {
+        "name": "Dresden",
+        "country": "Germany",
+        "lat": 51.0504,
+        "lng": 13.7373,
+        "role": "bombing"
+      },
+      {
+        "name": "Auschwitz",
+        "country": "Poland",
+        "lat": 50.0308,
+        "lng": 19.1857,
+        "role": "genocide"
+      },
+      {
+        "name": "Dunkirk",
+        "country": "France",
+        "lat": 51.0345,
+        "lng": 2.3769,
+        "role": "evacuation"
+      },
+      {
+        "name": "Malta",
+        "country": "Malta",
+        "lat": 35.8989,
+        "lng": 14.5146,
+        "role": "strategic"
+      },
+      {
+        "name": "El Alamein",
+        "country": "Egypt",
+        "lat": 30.8078,
+        "lng": 28.9784,
+        "role": "major_battle"
+      },
+      {
+        "name": "Kursk",
+        "country": "Soviet Union",
+        "lat": 51.7343,
+        "lng": 36.1933,
+        "role": "major_battle"
+      },
+      {
+        "name": "Budapest",
+        "country": "Hungary",
+        "lat": 47.4979,
+        "lng": 19.0402,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056308"
+  },
+  {
+    "id": "7027195f-1a93-43de-a733-cd5188a03372",
+    "name": "Korean War",
+    "start_date": "1950-01-01",
+    "end_date": "1953-12-31",
+    "conflict_type": "interstate",
+    "intensity": "major",
+    "casualties_low": 2500000,
+    "casualties_high": 3500000,
+    "description": "War between North Korea (with Soviet/Chinese support) and South Korea (with UN/US support)",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Seoul",
+        "country": "South Korea",
+        "lat": 37.5665,
+        "lng": 126.978,
+        "role": "capital"
+      },
+      {
+        "name": "Pyongyang",
+        "country": "North Korea",
+        "lat": 39.0392,
+        "lng": 125.7625,
+        "role": "capital"
+      },
+      {
+        "name": "Busan",
+        "country": "South Korea",
+        "lat": 35.1795,
+        "lng": 129.0756,
+        "role": "major_battle"
+      },
+      {
+        "name": "Inchon",
+        "country": "South Korea",
+        "lat": 37.2761,
+        "lng": 126.6303,
+        "role": "major_battle"
+      },
+      {
+        "name": "Wonsan",
+        "country": "North Korea",
+        "lat": 39.1839,
+        "lng": 127.4328,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056312"
+  },
+  {
+    "id": "a57dfb9a-4f80-4164-91bc-69b11b664d7d",
+    "name": "Vietnam War",
+    "start_date": "1955-01-01",
+    "end_date": "1975-12-31",
+    "conflict_type": "civil_war",
+    "intensity": "major",
+    "casualties_low": 1300000,
+    "casualties_high": 2200000,
+    "description": "War between North Vietnam (communist) and South Vietnam (US-backed) and communist insurgents",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Hanoi",
+        "country": "North Vietnam",
+        "lat": 21.0285,
+        "lng": 105.8542,
+        "role": "capital"
+      },
+      {
+        "name": "Ho Chi Minh City",
+        "country": "South Vietnam",
+        "lat": 10.7769,
+        "lng": 106.7009,
+        "role": "capital"
+      },
+      {
+        "name": "Da Nang",
+        "country": "South Vietnam",
+        "lat": 16.0544,
+        "lng": 108.2022,
+        "role": "major_battle"
+      },
+      {
+        "name": "Hue",
+        "country": "South Vietnam",
+        "lat": 16.4637,
+        "lng": 107.5909,
+        "role": "major_battle"
+      },
+      {
+        "name": "Khe Sanh",
+        "country": "South Vietnam",
+        "lat": 16.6417,
+        "lng": 106.8097,
+        "role": "major_battle"
+      },
+      {
+        "name": "Dien Bien Phu",
+        "country": "North Vietnam",
+        "lat": 21.3869,
+        "lng": 103.0126,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056315"
+  },
+  {
+    "id": "08ec4687-bac2-44dc-95aa-e6f2925f628b",
+    "name": "Six-Day War (1967 Arab-Israeli War)",
+    "start_date": "1967-01-01",
+    "end_date": "1967-12-31",
+    "conflict_type": "interstate",
+    "intensity": "major",
+    "casualties_low": 15000,
+    "casualties_high": 20000,
+    "description": "War between Israel and Arab states (Egypt, Syria, Jordan)",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Jerusalem",
+        "country": "Israel/Palestine",
+        "lat": 31.7683,
+        "lng": 35.2137,
+        "role": "capital"
+      },
+      {
+        "name": "Cairo",
+        "country": "Egypt",
+        "lat": 30.0444,
+        "lng": 31.2357,
+        "role": "capital"
+      },
+      {
+        "name": "Damascus",
+        "country": "Syria",
+        "lat": 33.5138,
+        "lng": 36.2765,
+        "role": "capital"
+      },
+      {
+        "name": "Amman",
+        "country": "Jordan",
+        "lat": 31.9454,
+        "lng": 35.9284,
+        "role": "capital"
+      },
+      {
+        "name": "Tel Aviv",
+        "country": "Israel",
+        "lat": 32.0853,
+        "lng": 34.7818,
+        "role": "capital"
+      },
+      {
+        "name": "Suez",
+        "country": "Egypt",
+        "lat": 29.9668,
+        "lng": 32.5498,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056319"
+  },
+  {
+    "id": "71fe34e2-b59c-428b-a096-caf21aa8e338",
+    "name": "Yom Kippur War (1973 Arab-Israeli War)",
+    "start_date": "1973-01-01",
+    "end_date": "1973-12-31",
+    "conflict_type": "interstate",
+    "intensity": "major",
+    "casualties_low": 15000,
+    "casualties_high": 25000,
+    "description": "War between Israel and Egypt/Syria",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Jerusalem",
+        "country": "Israel/Palestine",
+        "lat": 31.7683,
+        "lng": 35.2137,
+        "role": "capital"
+      },
+      {
+        "name": "Cairo",
+        "country": "Egypt",
+        "lat": 30.0444,
+        "lng": 31.2357,
+        "role": "capital"
+      },
+      {
+        "name": "Golan Heights",
+        "country": "Syria/Israel",
+        "lat": 33.0,
+        "lng": 35.8,
+        "role": "major_battle"
+      },
+      {
+        "name": "Sinai",
+        "country": "Egypt",
+        "lat": 29.5,
+        "lng": 33.5,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056323"
+  },
+  {
+    "id": "95a1abf5-d636-4fd9-a4e6-929fae72d6a0",
+    "name": "Indo-Pakistani War (1971)",
+    "start_date": "1971-01-01",
+    "end_date": "1971-12-31",
+    "conflict_type": "interstate",
+    "intensity": "major",
+    "casualties_low": 300000,
+    "casualties_high": 3000000,
+    "description": "War between India and Pakistan over Bangladesh independence",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Dhaka",
+        "country": "Bangladesh",
+        "lat": 23.8103,
+        "lng": 90.4125,
+        "role": "capital"
+      },
+      {
+        "name": "Islamabad",
+        "country": "Pakistan",
+        "lat": 33.6844,
+        "lng": 73.0479,
+        "role": "capital"
+      },
+      {
+        "name": "New Delhi",
+        "country": "India",
+        "lat": 28.6139,
+        "lng": 77.209,
+        "role": "capital"
+      },
+      {
+        "name": "Karachi",
+        "country": "Pakistan",
+        "lat": 24.8607,
+        "lng": 67.0011,
+        "role": "capital"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056326"
+  },
+  {
+    "id": "961246ca-f110-4a65-85b7-20e11fef6664",
+    "name": "Iran-Iraq War",
+    "start_date": "1980-01-01",
+    "end_date": "1988-12-31",
+    "conflict_type": "interstate",
+    "intensity": "major",
+    "casualties_low": 500000,
+    "casualties_high": 1000000,
+    "description": "War between Iran and Iraq over territorial and regional disputes",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Tehran",
+        "country": "Iran",
+        "lat": 35.6892,
+        "lng": 51.389,
+        "role": "capital"
+      },
+      {
+        "name": "Baghdad",
+        "country": "Iraq",
+        "lat": 33.3128,
+        "lng": 44.3615,
+        "role": "capital"
+      },
+      {
+        "name": "Basra",
+        "country": "Iraq",
+        "lat": 30.4969,
+        "lng": 47.8092,
+        "role": "major_battle"
+      },
+      {
+        "name": "Khuzestan",
+        "country": "Iran",
+        "lat": 32.0,
+        "lng": 48.5,
+        "role": "major_battle"
+      },
+      {
+        "name": "Khorramshahr",
+        "country": "Iran",
+        "lat": 30.4417,
+        "lng": 48.2556,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056329"
+  },
+  {
+    "id": "41f8ec6e-0577-4bf8-948b-679efa6d256e",
+    "name": "Gulf War (1990-1991)",
+    "start_date": "1990-01-01",
+    "end_date": "1991-12-31",
+    "conflict_type": "interstate",
+    "intensity": "major",
+    "casualties_low": 100000,
+    "casualties_high": 200000,
+    "description": "War between Iraq and US-led coalition over Kuwait invasion",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Kuwait City",
+        "country": "Kuwait",
+        "lat": 29.3759,
+        "lng": 47.9774,
+        "role": "capital"
+      },
+      {
+        "name": "Baghdad",
+        "country": "Iraq",
+        "lat": 33.3128,
+        "lng": 44.3615,
+        "role": "capital"
+      },
+      {
+        "name": "Basra",
+        "country": "Iraq",
+        "lat": 30.4969,
+        "lng": 47.8092,
+        "role": "major_battle"
+      },
+      {
+        "name": "Riyadh",
+        "country": "Saudi Arabia",
+        "lat": 24.7136,
+        "lng": 46.6753,
+        "role": "coalition_base"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056332"
+  },
+  {
+    "id": "9c811635-8ced-48d1-8dfe-8b221ca587a8",
+    "name": "Yugoslav Wars",
+    "start_date": "1991-01-01",
+    "end_date": "2001-12-31",
+    "conflict_type": "civil_war",
+    "intensity": "major",
+    "casualties_low": 130000,
+    "casualties_high": 300000,
+    "description": "Series of ethnic conflicts following the breakup of Yugoslavia",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Belgrade",
+        "country": "Serbia",
+        "lat": 44.8176,
+        "lng": 20.4633,
+        "role": "capital"
+      },
+      {
+        "name": "Sarajevo",
+        "country": "Bosnia",
+        "lat": 43.8564,
+        "lng": 18.4131,
+        "role": "major_battle"
+      },
+      {
+        "name": "Srebrenica",
+        "country": "Bosnia",
+        "lat": 43.7967,
+        "lng": 19.2947,
+        "role": "genocide"
+      },
+      {
+        "name": "Zagreb",
+        "country": "Croatia",
+        "lat": 45.815,
+        "lng": 15.9819,
+        "role": "capital"
+      },
+      {
+        "name": "Vukovar",
+        "country": "Croatia",
+        "lat": 45.3571,
+        "lng": 19.0405,
+        "role": "major_battle"
+      },
+      {
+        "name": "Pristina",
+        "country": "Kosovo",
+        "lat": 42.6629,
+        "lng": 21.1639,
+        "role": "capital"
+      },
+      {
+        "name": "Prizren",
+        "country": "Kosovo",
+        "lat": 42.1875,
+        "lng": 20.7394,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056335"
+  },
+  {
+    "id": "47f3cd3c-33ae-4e26-88b5-5b64f33cd486",
+    "name": "Rwandan Genocide",
+    "start_date": "1994-01-01",
+    "end_date": "1994-12-31",
+    "conflict_type": "civil_war",
+    "intensity": "major",
+    "casualties_low": 500000,
+    "casualties_high": 1000000,
+    "description": "Genocide of Tutsi population by Hutu extremists",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Kigali",
+        "country": "Rwanda",
+        "lat": -1.9536,
+        "lng": 29.8739,
+        "role": "capital"
+      },
+      {
+        "name": "Butare",
+        "country": "Rwanda",
+        "lat": -2.5953,
+        "lng": 29.74,
+        "role": "major_battle"
+      },
+      {
+        "name": "Kibuye",
+        "country": "Rwanda",
+        "lat": -1.9583,
+        "lng": 29.2667,
+        "role": "major_battle"
+      },
+      {
+        "name": "Gitarama",
+        "country": "Rwanda",
+        "lat": -1.945,
+        "lng": 29.745,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056339"
+  },
+  {
+    "id": "c45b0058-fca5-4523-8cd0-2ff1aa6ed8e0",
+    "name": "War in Afghanistan (US War on Terror)",
+    "start_date": "2001-01-01",
+    "end_date": "2021-12-31",
+    "conflict_type": "civil_war",
+    "intensity": "major",
+    "casualties_low": 150000,
+    "casualties_high": 250000,
+    "description": "US-led invasion and occupation of Afghanistan against Taliban and Al-Qaeda",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Kabul",
+        "country": "Afghanistan",
+        "lat": 34.5553,
+        "lng": 69.2075,
+        "role": "capital"
+      },
+      {
+        "name": "Kandahar",
+        "country": "Afghanistan",
+        "lat": 31.5204,
+        "lng": 65.7094,
+        "role": "major_battle"
+      },
+      {
+        "name": "Herat",
+        "country": "Afghanistan",
+        "lat": 34.3425,
+        "lng": 62.1997,
+        "role": "major_battle"
+      },
+      {
+        "name": "Jalalabad",
+        "country": "Afghanistan",
+        "lat": 34.4169,
+        "lng": 70.458,
+        "role": "major_battle"
+      },
+      {
+        "name": "Tora Bora",
+        "country": "Afghanistan",
+        "lat": 34.1222,
+        "lng": 69.2489,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056345"
+  },
+  {
+    "id": "0428c05b-2ed8-450c-b95c-c5042f5be62c",
+    "name": "Iraq War",
+    "start_date": "2003-01-01",
+    "end_date": "2011-12-31",
+    "conflict_type": "interstate",
+    "intensity": "major",
+    "casualties_low": 150000,
+    "casualties_high": 600000,
+    "description": "US-led invasion of Iraq and occupation",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Baghdad",
+        "country": "Iraq",
+        "lat": 33.3128,
+        "lng": 44.3615,
+        "role": "capital"
+      },
+      {
+        "name": "Fallujah",
+        "country": "Iraq",
+        "lat": 33.3844,
+        "lng": 43.7667,
+        "role": "major_battle"
+      },
+      {
+        "name": "Mosul",
+        "country": "Iraq",
+        "lat": 36.3425,
+        "lng": 43.1553,
+        "role": "major_battle"
+      },
+      {
+        "name": "Basra",
+        "country": "Iraq",
+        "lat": 30.4969,
+        "lng": 47.8092,
+        "role": "major_battle"
+      },
+      {
+        "name": "Kirkuk",
+        "country": "Iraq",
+        "lat": 35.4669,
+        "lng": 44.4039,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056348"
+  },
+  {
+    "id": "8e66bc24-7158-4030-bfb0-1e2eb5180773",
+    "name": "Syrian Civil War",
+    "start_date": "2011-01-01",
+    "end_date": null,
+    "conflict_type": "civil_war",
+    "intensity": "major",
+    "casualties_low": 350000,
+    "casualties_high": 610000,
+    "description": "Multi-sided civil war in Syria involving government, opposition, and ISIS",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Damascus",
+        "country": "Syria",
+        "lat": 33.5138,
+        "lng": 36.2765,
+        "role": "capital"
+      },
+      {
+        "name": "Aleppo",
+        "country": "Syria",
+        "lat": 36.2021,
+        "lng": 37.1343,
+        "role": "major_battle"
+      },
+      {
+        "name": "Homs",
+        "country": "Syria",
+        "lat": 34.7324,
+        "lng": 36.7137,
+        "role": "siege"
+      },
+      {
+        "name": "Idlib",
+        "country": "Syria",
+        "lat": 35.9306,
+        "lng": 36.6339,
+        "role": "last_stronghold"
+      },
+      {
+        "name": "Raqqa",
+        "country": "Syria",
+        "lat": 35.9594,
+        "lng": 39.01,
+        "role": "isis_capital"
+      },
+      {
+        "name": "Deir ez-Zor",
+        "country": "Syria",
+        "lat": 35.3269,
+        "lng": 40.1453,
+        "role": "major_battle"
+      },
+      {
+        "name": "Palmyra",
+        "country": "Syria",
+        "lat": 34.5548,
+        "lng": 38.2708,
+        "role": "major_battle"
+      },
+      {
+        "name": "Latakia",
+        "country": "Syria",
+        "lat": 34.7694,
+        "lng": 35.5278,
+        "role": "strategic"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056352"
+  },
+  {
+    "id": "00f754e6-f5e6-47d4-a6ae-6662f9149dd9",
+    "name": "Yemen Civil War",
+    "start_date": "2014-01-01",
+    "end_date": null,
+    "conflict_type": "civil_war",
+    "intensity": "major",
+    "casualties_low": 200000,
+    "casualties_high": 380000,
+    "description": "Civil war between Houthi movement and Saudi-backed government",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Sanaa",
+        "country": "Yemen",
+        "lat": 15.3694,
+        "lng": 48.2219,
+        "role": "capital"
+      },
+      {
+        "name": "Aden",
+        "country": "Yemen",
+        "lat": 12.7835,
+        "lng": 45.3569,
+        "role": "major_battle"
+      },
+      {
+        "name": "Taiz",
+        "country": "Yemen",
+        "lat": 13.5769,
+        "lng": 44.0164,
+        "role": "major_battle"
+      },
+      {
+        "name": "Hodeidah",
+        "country": "Yemen",
+        "lat": 14.8029,
+        "lng": 42.9521,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056355"
+  },
+  {
+    "id": "132554fb-8fe1-426b-add4-e12de41599ba",
+    "name": "Russo-Ukrainian War",
+    "start_date": "2022-01-01",
+    "end_date": null,
+    "conflict_type": "interstate",
+    "intensity": "major",
+    "casualties_low": 100000,
+    "casualties_high": 200000,
+    "description": "Russian invasion of Ukraine",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Kyiv",
+        "country": "Ukraine",
+        "lat": 50.4501,
+        "lng": 30.5234,
+        "role": "capital"
+      },
+      {
+        "name": "Kharkiv",
+        "country": "Ukraine",
+        "lat": 50.0038,
+        "lng": 36.2304,
+        "role": "major_battle"
+      },
+      {
+        "name": "Mariupol",
+        "country": "Ukraine",
+        "lat": 47.0958,
+        "lng": 37.5407,
+        "role": "major_battle"
+      },
+      {
+        "name": "Severodonetsk",
+        "country": "Ukraine",
+        "lat": 48.9314,
+        "lng": 38.4676,
+        "role": "major_battle"
+      },
+      {
+        "name": "Kherson",
+        "country": "Ukraine",
+        "lat": 46.6354,
+        "lng": 32.6169,
+        "role": "major_battle"
+      },
+      {
+        "name": "Donetsk",
+        "country": "Ukraine",
+        "lat": 48.0159,
+        "lng": 37.8019,
+        "role": "major_battle"
+      },
+      {
+        "name": "Luhansk",
+        "country": "Ukraine",
+        "lat": 48.574,
+        "lng": 39.335,
+        "role": "major_battle"
+      },
+      {
+        "name": "Zaporizhzhia",
+        "country": "Ukraine",
+        "lat": 47.8389,
+        "lng": 35.1396,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056358"
+  },
+  {
+    "id": "4e271839-42d6-4115-aa00-3abbb8ebfa23",
+    "name": "Israel-Palestine War (2023-2024)",
+    "start_date": "2023-01-01",
+    "end_date": null,
+    "conflict_type": "civil_war",
+    "intensity": "major",
+    "casualties_low": 40000,
+    "casualties_high": 50000,
+    "description": "Israeli military campaign in Gaza following Hamas attack",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Gaza City",
+        "country": "Palestine",
+        "lat": 31.5167,
+        "lng": 34.45,
+        "role": "capital"
+      },
+      {
+        "name": "Khan Yunis",
+        "country": "Palestine",
+        "lat": 31.3429,
+        "lng": 34.3078,
+        "role": "major_battle"
+      },
+      {
+        "name": "Rafah",
+        "country": "Palestine",
+        "lat": 31.2859,
+        "lng": 34.266,
+        "role": "major_battle"
+      },
+      {
+        "name": "Shati",
+        "country": "Palestine",
+        "lat": 31.4969,
+        "lng": 34.4656,
+        "role": "major_battle"
+      },
+      {
+        "name": "Tel Aviv",
+        "country": "Israel",
+        "lat": 32.0853,
+        "lng": 34.7818,
+        "role": "capital"
+      },
+      {
+        "name": "Jerusalem",
+        "country": "Israel",
+        "lat": 31.7683,
+        "lng": 35.2137,
+        "role": "capital"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056361"
+  },
+  {
+    "id": "fcb4d1f0-0fb5-4e41-a44b-2cea8298a285",
+    "name": "Sudan Civil War",
+    "start_date": "2023-01-01",
+    "end_date": null,
+    "conflict_type": "civil_war",
+    "intensity": "major",
+    "casualties_low": 10000,
+    "casualties_high": 50000,
+    "description": "Conflict between Sudanese Armed Forces and RSF militia",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Khartoum",
+        "country": "Sudan",
+        "lat": 15.5007,
+        "lng": 32.5599,
+        "role": "capital"
+      },
+      {
+        "name": "Omdurman",
+        "country": "Sudan",
+        "lat": 15.6431,
+        "lng": 32.4837,
+        "role": "major_battle"
+      },
+      {
+        "name": "Darfur",
+        "country": "Sudan",
+        "lat": 13.1939,
+        "lng": 24.4155,
+        "role": "region"
+      },
+      {
+        "name": "Port Sudan",
+        "country": "Sudan",
+        "lat": 19.6173,
+        "lng": 37.2169,
+        "role": "strategic"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056364"
+  },
+  {
+    "id": "3340fa22-5c13-4e06-b76d-f70a250fb5a7",
+    "name": "Myanmar Civil War",
+    "start_date": "2021-01-01",
+    "end_date": null,
+    "conflict_type": "civil_war",
+    "intensity": "major",
+    "casualties_low": 5000,
+    "casualties_high": 20000,
+    "description": "Armed conflict following military coup in Myanmar",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Naypyidaw",
+        "country": "Myanmar",
+        "lat": 19.7633,
+        "lng": 96.0656,
+        "role": "capital"
+      },
+      {
+        "name": "Yangon",
+        "country": "Myanmar",
+        "lat": 16.8661,
+        "lng": 96.1951,
+        "role": "capital"
+      },
+      {
+        "name": "Mandalay",
+        "country": "Myanmar",
+        "lat": 21.9788,
+        "lng": 96.0891,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056367"
+  },
+  {
+    "id": "7d7bb3cb-6f12-4af5-b627-9ae2a234eed5",
+    "name": "Ethiopian Tigray War",
+    "start_date": "2020-01-01",
+    "end_date": "2022-12-31",
+    "conflict_type": "civil_war",
+    "intensity": "major",
+    "casualties_low": 100000,
+    "casualties_high": 600000,
+    "description": "Conflict between Ethiopian federal government and Tigray People's Liberation Front",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Addis Ababa",
+        "country": "Ethiopia",
+        "lat": 9.032,
+        "lng": 38.7469,
+        "role": "capital"
+      },
+      {
+        "name": "Mekele",
+        "country": "Ethiopia",
+        "lat": 13.4981,
+        "lng": 39.4803,
+        "role": "capital"
+      },
+      {
+        "name": "Adwa",
+        "country": "Ethiopia",
+        "lat": 14.1695,
+        "lng": 38.8921,
+        "role": "major_battle"
+      },
+      {
+        "name": "Axum",
+        "country": "Ethiopia",
+        "lat": 14.126,
+        "lng": 38.7232,
+        "role": "major_battle"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056370"
+  },
+  {
+    "id": "37c6fee1-3afb-49a9-98f6-b8b28e62a789",
+    "name": "First Indochina War",
+    "start_date": "1946-01-01",
+    "end_date": "1954-12-31",
+    "conflict_type": "colonial",
+    "intensity": "major",
+    "casualties_low": 300000,
+    "casualties_high": 500000,
+    "description": "Colonial war between France and Vietnamese independence forces",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Hanoi",
+        "country": "Vietnam",
+        "lat": 21.0285,
+        "lng": 105.8542,
+        "role": "capital"
+      },
+      {
+        "name": "Ho Chi Minh City",
+        "country": "Vietnam",
+        "lat": 10.7769,
+        "lng": 106.7009,
+        "role": "capital"
+      },
+      {
+        "name": "Dien Bien Phu",
+        "country": "Vietnam",
+        "lat": 21.3869,
+        "lng": 103.0126,
+        "role": "major_battle"
+      },
+      {
+        "name": "Haiphong",
+        "country": "Vietnam",
+        "lat": 20.8448,
+        "lng": 106.6836,
+        "role": "strategic"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056374"
+  },
+  {
+    "id": "1b6542ba-c547-4b6a-b9a4-03166b80959a",
+    "name": "Chinese Civil War",
+    "start_date": "1927-01-01",
+    "end_date": "1949-12-31",
+    "conflict_type": "civil_war",
+    "intensity": "major",
+    "casualties_low": 2000000,
+    "casualties_high": 3000000,
+    "description": "War between Chinese Communists and Nationalist Party",
+    "progressive_analysis": "",
+    "outcome": "",
+    "cities": [
+      {
+        "name": "Beijing",
+        "country": "China",
+        "lat": 39.9042,
+        "lng": 116.4074,
+        "role": "capital"
+      },
+      {
+        "name": "Shanghai",
+        "country": "China",
+        "lat": 31.2304,
+        "lng": 121.4737,
+        "role": "major_battle"
+      },
+      {
+        "name": "Yan'an",
+        "country": "China",
+        "lat": 36.5964,
+        "lng": 109.4999,
+        "role": "communist_base"
+      },
+      {
+        "name": "Chongqing",
+        "country": "China",
+        "lat": 29.563,
+        "lng": 106.5516,
+        "role": "nationalist_base"
+      }
+    ],
+    "imported_at": "2026-02-09T00:32:28.056377"
+  }
+]

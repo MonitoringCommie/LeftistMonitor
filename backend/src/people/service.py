@@ -5,7 +5,7 @@ from uuid import UUID
 
 from sqlalchemy import and_, or_, select, func, desc
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy.orm import selectinload
+from sqlalchemy.orm import selectinload, joinedload
 
 from .models import Person, PersonConnection, PersonPosition, Book, BookAuthor
 from ..geography.models import Country
@@ -32,6 +32,12 @@ class PeopleService:
     ) -> tuple[List[Person], int]:
         """Get people associated with a country."""
         query = select(Person).where(Person.primary_country_id == country_id)
+
+        # Eager load connections to avoid N+1 queries
+        query = query.options(
+            selectinload(Person.connections_from),
+            selectinload(Person.connections_to)
+        )
 
         # Filter by year (person must be alive)
         if year:
@@ -360,6 +366,12 @@ class PeopleService:
     ) -> tuple[List[Person], int]:
         """Get all people with optional filtering."""
         query = select(Person)
+
+        # Eager load connections to avoid N+1 queries
+        query = query.options(
+            selectinload(Person.connections_from),
+            selectinload(Person.connections_to)
+        )
 
         # Filter by type
         if person_type:

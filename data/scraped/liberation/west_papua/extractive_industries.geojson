@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grasberg Mine",
+        "type": "gold_copper_mine",
+        "operator": "Freeport-McMoRan (majority Indonesian government)",
+        "status": "World's largest gold mine",
+        "environmental_impact": "Massive tailings, river destruction",
+        "notes": "Source of major revenue for Indonesia and human rights concerns"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [137.1167, -4.0556]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BP Tangguh LNG",
+        "type": "natural_gas",
+        "operator": "BP",
+        "status": "Operating"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [134.2500, -2.8500]
+      }
+    }
+  ]
+}

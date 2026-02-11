@@ -1,0 +1,37 @@
+{
+  "lgbtq": {
+    "title": "Movimentos de Libertacao LGBTQ+",
+    "subtitle": "A luta global pela libertacao de genero e sexual",
+    "overview": "Visao Geral",
+    "timeline": "Linha do Tempo",
+    "events": "Eventos Chave",
+    "figures": "Figuras Chave",
+    "books": "Leitura Essencial"
+  },
+  "environmental": {
+    "title": "Movimentos de Justica Ambiental",
+    "subtitle": "A intersecao de ecologia e justica social",
+    "overview": "Visao Geral",
+    "timeline": "Linha do Tempo",
+    "events": "Eventos Chave",
+    "figures": "Figuras Chave",
+    "books": "Leitura Essencial"
+  },
+  "indigenous": {
+    "title": "Movimentos dos Povos Indigenas",
+    "subtitle": "Resistencia e resiliencia atraves dos continentes",
+    "overview": "Visao Geral",
+    "regions": "Por Regiao",
+    "events": "Eventos Chave",
+    "figures": "Figuras Chave",
+    "books": "Leitura Essencial"
+  },
+  "labor": {
+    "title": "Movimentos Trabalhistas",
+    "subtitle": "A luta pelos direitos dos trabalhadores em todo o mundo"
+  },
+  "anticolonial": {
+    "title": "Movimentos Anticoloniais",
+    "subtitle": "Lutas de libertacao contra o imperialismo"
+  }
+}

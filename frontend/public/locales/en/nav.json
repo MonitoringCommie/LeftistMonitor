@@ -1,0 +1,18 @@
+{
+  "home": "Home",
+  "map": "Map",
+  "hub": "Hub",
+  "timeline": "Timeline",
+  "people": "People",
+  "events": "Events",
+  "books": "Books",
+  "conflicts": "Conflicts",
+  "movements": "Movements",
+  "about": "About",
+  "login": "Login",
+  "logout": "Logout",
+  "register": "Register",
+  "profile": "Profile",
+  "settings": "Settings",
+  "language": "Language"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Explore History",
+  "subtitle": "Browse through categories of leftist and progressive movements",
+  "categories": {
+    "people": {
+      "title": "Historical Figures",
+      "description": "Revolutionaries, activists, and thinkers who shaped history"
+    },
+    "events": {
+      "title": "Historical Events",
+      "description": "Revolutions, strikes, protests, and pivotal moments"
+    },
+    "movements": {
+      "title": "Social Movements",
+      "description": "Labor, civil rights, anti-colonial, and liberation movements"
+    },
+    "conflicts": {
+      "title": "Armed Conflicts",
+      "description": "Revolutionary wars, liberation struggles, and civil conflicts"
+    },
+    "books": {
+      "title": "Literature",
+      "description": "Essential texts, manifestos, and theoretical works"
+    }
+  },
+  "featured": "Featured",
+  "recent": "Recently Added",
+  "popular": "Most Viewed"
+}

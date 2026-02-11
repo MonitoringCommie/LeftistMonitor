@@ -1,0 +1,33 @@
+{
+  "app": {
+    "title": "Moniteur de Gauche",
+    "subtitle": "Carte Historique Mondiale Interactive",
+    "description": "Documentation des luttes de liberation, des mouvements anticoloniaux et de l histoire progressive mondiale"
+  },
+  "actions": {
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "reset": "Reinitialiser",
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Precedent",
+    "loading": "Chargement...",
+    "error": "Une erreur s est produite",
+    "retry": "Reessayer"
+  },
+  "time": {
+    "date": "Date",
+    "year": "Annee",
+    "month": "Mois",
+    "day": "Jour",
+    "from": "De",
+    "to": "A",
+    "present": "Present"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "خريطة تفاعلية",
+  "layers": "طبقات الخريطة",
+  "legend": "دليل الرموز",
+  "controls": {
+    "zoomIn": "تكبير",
+    "zoomOut": "تصغير",
+    "reset": "إعادة تعيين العرض",
+    "fullscreen": "ملء الشاشة"
+  },
+  "filters": {
+    "title": "تصفية",
+    "dateRange": "نطاق التاريخ",
+    "category": "الفئة",
+    "region": "المنطقة"
+  },
+  "categories": {
+    "revolutions": "ثورات",
+    "strikes": "إضرابات",
+    "protests": "احتجاجات",
+    "massacres": "مجازر",
+    "liberation": "حركات التحرر",
+    "conflicts": "نزاعات مسلحة"
+  }
+}

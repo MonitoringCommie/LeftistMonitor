@@ -1,0 +1,178 @@
+name: CD
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'backend/**'
+      - 'frontend/**'
+      - 'infrastructure/kubernetes/**'
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - staging
+          - production
+
+env:
+  CLUSTER_NAME: leftistmonitor-cluster
+  CLUSTER_REGION: us-east-1
+
+jobs:
+  deploy-staging:
+    name: Deploy to Staging
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' || github.event.inputs.environment == 'staging'
+    environment: staging
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.CLUSTER_REGION }}
+      
+      - name: Update kubeconfig
+        run: |
+          aws eks update-kubeconfig --name ${{ env.CLUSTER_NAME }}-staging --region ${{ env.CLUSTER_REGION }}
+      
+      - name: Deploy to staging
+        run: |
+          # Update image tags
+          cd infrastructure/kubernetes
+          kustomize edit set image leftistmonitor/api=ghcr.io/${{ github.repository }}/api:${{ github.sha }}
+          kustomize edit set image leftistmonitor/frontend=ghcr.io/${{ github.repository }}/frontend:${{ github.sha }}
+          
+          # Apply manifests
+          kubectl apply -k overlays/staging/
+      
+      - name: Wait for rollout
+        run: |
+          kubectl rollout status deployment/leftistmonitor-api -n leftistmonitor-staging --timeout=300s
+          kubectl rollout status deployment/leftistmonitor-frontend -n leftistmonitor-staging --timeout=300s
+      
+      - name: Run smoke tests
+        run: |
+          STAGING_URL=$(kubectl get ingress leftistmonitor-ingress -n leftistmonitor-staging -o jsonpath='{.spec.rules[0].host}')
+          curl -f https://$STAGING_URL/healthz || exit 1
+          curl -f https://$STAGING_URL/api/v1/health || exit 1
+
+  deploy-production:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+    needs: deploy-staging
+    if: github.event.inputs.environment == 'production'
+    environment: production
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.CLUSTER_REGION }}
+      
+      - name: Update kubeconfig
+        run: |
+          aws eks update-kubeconfig --name ${{ env.CLUSTER_NAME }}-prod --region ${{ env.CLUSTER_REGION }}
+      
+      - name: Deploy to production
+        run: |
+          cd infrastructure/kubernetes
+          kustomize edit set image leftistmonitor/api=ghcr.io/${{ github.repository }}/api:${{ github.sha }}
+          kustomize edit set image leftistmonitor/frontend=ghcr.io/${{ github.repository }}/frontend:${{ github.sha }}
+          
+          kubectl apply -k overlays/production/
+      
+      - name: Wait for rollout
+        run: |
+          kubectl rollout status deployment/leftistmonitor-api -n leftistmonitor --timeout=600s
+          kubectl rollout status deployment/leftistmonitor-frontend -n leftistmonitor --timeout=600s
+      
+      - name: Verify deployment
+        run: |
+          curl -f https://leftistmonitor.org/healthz || exit 1
+          curl -f https://api.leftistmonitor.org/health || exit 1
+      
+      - name: Create Sentry release
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+          SENTRY_ORG: leftistmonitor
+          SENTRY_PROJECT: api
+        run: |
+          curl -sL https://sentry.io/get-cli/ | bash
+          sentry-cli releases new ${{ github.sha }}
+          sentry-cli releases set-commits ${{ github.sha }} --auto
+          sentry-cli releases finalize ${{ github.sha }}
+          sentry-cli releases deploys ${{ github.sha }} new -e production
+      
+      - name: Notify on success
+        uses: slackapi/slack-github-action@v1
+        with:
+          payload: |
+            {
+              "text": "Deployment to production successful",
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "✅ *LeftistMonitor* deployed to production\nCommit: `${{ github.sha }}`\nBy: ${{ github.actor }}"
+                  }
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  rollback:
+    name: Rollback
+    runs-on: ubuntu-latest
+    if: failure()
+    needs: [deploy-production]
+    environment: production
+    
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.CLUSTER_REGION }}
+      
+      - name: Update kubeconfig
+        run: |
+          aws eks update-kubeconfig --name ${{ env.CLUSTER_NAME }}-prod --region ${{ env.CLUSTER_REGION }}
+      
+      - name: Rollback deployment
+        run: |
+          kubectl rollout undo deployment/leftistmonitor-api -n leftistmonitor
+          kubectl rollout undo deployment/leftistmonitor-frontend -n leftistmonitor
+      
+      - name: Notify on rollback
+        uses: slackapi/slack-github-action@v1
+        with:
+          payload: |
+            {
+              "text": "⚠️ Production deployment failed - rolled back",
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "⚠️ *LeftistMonitor* production deployment failed\nRolled back to previous version\nCommit: `${{ github.sha }}`"
+                  }
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}

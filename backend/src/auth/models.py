@@ -1,9 +1,10 @@
 """User and permission models."""
 import uuid
+import secrets
 from datetime import datetime
 from enum import Enum
 from typing import Optional, List
-from sqlalchemy import Column, String, Boolean, DateTime, ForeignKey, Table, Enum as SQLEnum
+from sqlalchemy import Column, String, Boolean, DateTime, ForeignKey, Table, Enum as SQLEnum, Text
 from sqlalchemy.dialects.postgresql import UUID, ARRAY
 from sqlalchemy.orm import relationship
 from pydantic import BaseModel, EmailStr, Field
@@ -27,7 +28,7 @@ class Permission(str, Enum):
     READ_PUBLIC = "read:public"
     READ_PRIVATE = "read:private"
     READ_ADMIN = "read:admin"
-    
+
     # Write permissions
     WRITE_PEOPLE = "write:people"
     WRITE_EVENTS = "write:events"
@@ -36,20 +37,20 @@ class Permission(str, Enum):
     WRITE_COUNTRIES = "write:countries"
     WRITE_ELECTIONS = "write:elections"
     WRITE_PARTIES = "write:parties"
-    
+
     # Edit permissions
     EDIT_PEOPLE = "edit:people"
     EDIT_EVENTS = "edit:events"
     EDIT_BOOKS = "edit:books"
     EDIT_CONFLICTS = "edit:conflicts"
     EDIT_COUNTRIES = "edit:countries"
-    
+
     # Delete permissions
     DELETE_PEOPLE = "delete:people"
     DELETE_EVENTS = "delete:events"
     DELETE_BOOKS = "delete:books"
     DELETE_CONFLICTS = "delete:conflicts"
-    
+
     # Admin permissions
     MANAGE_USERS = "manage:users"
     MANAGE_ROLES = "manage:roles"
@@ -58,7 +59,7 @@ class Permission(str, Enum):
     VIEW_ANALYTICS = "view:analytics"
     EXPORT_DATA = "export:data"
     IMPORT_DATA = "import:data"
-    
+
     # System permissions
     SYSTEM_CONFIG = "system:config"
     SYSTEM_BACKUP = "system:backup"
@@ -141,39 +142,49 @@ ROLE_PERMISSIONS = {
 class User(Base):
     """User database model."""
     __tablename__ = "users"
-    
+
     id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
     email = Column(String(255), unique=True, nullable=False, index=True)
     username = Column(String(100), unique=True, nullable=False, index=True)
     hashed_password = Column(String(255), nullable=False)
-    
+
     # Profile
     display_name = Column(String(255))
     avatar_url = Column(String(500))
     bio = Column(String(1000))
-    
+
     # Role and permissions
     role = Column(SQLEnum(UserRole), default=UserRole.VIEWER, nullable=False)
     extra_permissions = Column(ARRAY(String), default=[])
     denied_permissions = Column(ARRAY(String), default=[])
-    
+
     # Status
     is_active = Column(Boolean, default=True)
     is_verified = Column(Boolean, default=False)
-    
+
+    # Two-Factor Authentication (2FA)
+    two_factor_enabled = Column(Boolean, default=False)
+    two_factor_secret = Column(String(255), nullable=True)  # Encrypted TOTP secret
+    two_factor_backup_codes = Column(ARRAY(String), default=[])  # Hashed backup codes
+    two_factor_verified_at = Column(DateTime, nullable=True)
+
+    # Refresh Token tracking (for token family/rotation)
+    refresh_token_family = Column(String(64), nullable=True, index=True)
+    refresh_token_issued_at = Column(DateTime, nullable=True)
+
     # Timestamps
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
     last_login = Column(DateTime)
-    
+
     # Audit trail
     created_by_id = Column(UUID(as_uuid=True), ForeignKey("users.id"), nullable=True)
-    
+
     def get_permissions(self) -> List[Permission]:
         """Get all permissions for this user."""
         # Start with role permissions
         perms = set(ROLE_PERMISSIONS.get(self.role, []))
-        
+
         # Add extra permissions
         if self.extra_permissions:
             for p in self.extra_permissions:
@@ -181,7 +192,7 @@ class User(Base):
                     perms.add(Permission(p))
                 except ValueError:
                     pass
-        
+
         # Remove denied permissions
         if self.denied_permissions:
             for p in self.denied_permissions:
@@ -189,13 +200,13 @@ class User(Base):
                     perms.discard(Permission(p))
                 except ValueError:
                     pass
-        
+
         return list(perms)
-    
+
     def has_permission(self, permission: Permission) -> bool:
         """Check if user has a specific permission."""
         return permission in self.get_permissions()
-    
+
     def has_role(self, role: UserRole) -> bool:
         """Check if user has at least the specified role level."""
         role_hierarchy = [
@@ -209,6 +220,17 @@ class User(Base):
         user_level = role_hierarchy.index(self.role)
         required_level = role_hierarchy.index(role)
         return user_level >= required_level
+
+    def generate_refresh_token_family(self) -> str:
+        """Generate a new refresh token family ID."""
+        self.refresh_token_family = secrets.token_hex(32)
+        self.refresh_token_issued_at = datetime.utcnow()
+        return self.refresh_token_family
+
+    def invalidate_refresh_tokens(self):
+        """Invalidate all refresh tokens for this user."""
+        self.refresh_token_family = None
+        self.refresh_token_issued_at = None
 
 
 # Pydantic schemas
@@ -247,10 +269,11 @@ class UserResponse(BaseModel):
     role: UserRole
     is_active: bool
     is_verified: bool
+    two_factor_enabled: bool = False
     created_at: datetime
     last_login: Optional[datetime]
     permissions: List[str] = []
-    
+
     class Config:
         from_attributes = True
 
@@ -258,12 +281,43 @@ class UserResponse(BaseModel):
 class TokenResponse(BaseModel):
     """Schema for token response."""
     access_token: str
+    refresh_token: Optional[str] = None
     token_type: str = "bearer"
     expires_in: int
     user: UserResponse
+
+
+class RefreshTokenRequest(BaseModel):
+    """Schema for refresh token request."""
+    refresh_token: str
 
 
 class LoginRequest(BaseModel):
     """Schema for login request."""
     email: EmailStr
     password: str
+    totp_code: Optional[str] = None  # Required if 2FA is enabled
+
+
+# 2FA Schemas
+class TwoFactorSetupResponse(BaseModel):
+    """Response for 2FA setup initiation."""
+    secret: str
+    qr_code_uri: str
+    backup_codes: List[str]
+
+
+class TwoFactorVerifyRequest(BaseModel):
+    """Request to verify and enable 2FA."""
+    totp_code: str
+
+
+class TwoFactorDisableRequest(BaseModel):
+    """Request to disable 2FA."""
+    password: str
+    totp_code: Optional[str] = None  # Or backup code
+
+
+class BackupCodeVerifyRequest(BaseModel):
+    """Request to verify using backup code."""
+    backup_code: str

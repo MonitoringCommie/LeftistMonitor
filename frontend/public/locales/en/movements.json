@@ -1,0 +1,37 @@
+{
+  "lgbtq": {
+    "title": "LGBTQ+ Liberation Movements",
+    "subtitle": "The global struggle for gender and sexual liberation",
+    "overview": "Overview",
+    "timeline": "Timeline",
+    "events": "Key Events",
+    "figures": "Key Figures",
+    "books": "Essential Reading"
+  },
+  "environmental": {
+    "title": "Environmental Justice Movements",
+    "subtitle": "The intersection of ecology and social justice",
+    "overview": "Overview",
+    "timeline": "Timeline",
+    "events": "Key Events",
+    "figures": "Key Figures",
+    "books": "Essential Reading"
+  },
+  "indigenous": {
+    "title": "Indigenous Peoples Movements",
+    "subtitle": "Resistance and resilience across continents",
+    "overview": "Overview",
+    "regions": "By Region",
+    "events": "Key Events",
+    "figures": "Key Figures",
+    "books": "Essential Reading"
+  },
+  "labor": {
+    "title": "Labor Movements",
+    "subtitle": "The struggle for workers rights worldwide"
+  },
+  "anticolonial": {
+    "title": "Anti-Colonial Movements",
+    "subtitle": "Liberation struggles against imperialism"
+  }
+}
