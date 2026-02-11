@@ -50,16 +50,16 @@ const ConflictTimelineChart = memo(function ConflictTimelineChart({
 
   if (!data || data.length === 0) {
     return (
-      <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4">
-        <h3 className="text-lg font-semibold mb-3 dark:text-white">{title}</h3>
-        <p className="text-gray-500 dark:text-gray-400 text-sm">No conflict data available</p>
+      <div className="bg-white rounded-lg border p-4">
+        <h3 className="text-lg font-semibold mb-3">{title}</h3>
+        <p className="text-gray-500 text-sm">No conflict data available</p>
       </div>
     )
   }
 
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4">
-      <h3 className="text-lg font-semibold mb-3 dark:text-white">{title}</h3>
+    <div className="bg-white rounded-lg border p-4">
+      <h3 className="text-lg font-semibold mb-3">{title}</h3>
       <ResponsiveContainer width="100%" height={300}>
         <BarChart data={sortedData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
@@ -120,7 +120,7 @@ const ConflictTimelineChart = memo(function ConflictTimelineChart({
           )}
         </BarChart>
       </ResponsiveContainer>
-      <div className="flex justify-center gap-4 mt-2 text-xs dark:text-gray-300">
+      <div className="flex justify-center gap-4 mt-2 text-xs">
         <span className="flex items-center gap-1">
           <span className="w-3 h-3 rounded" style={{ backgroundColor: INTENSITY_COLORS.low }}></span>
           Low Intensity

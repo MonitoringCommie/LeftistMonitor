@@ -112,12 +112,12 @@ const OverviewSkeleton = memo(function OverviewSkeleton() {
     <div className="space-y-6 animate-pulse">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {[...Array(4)].map((_, i) => (
-          <div key={i} className="h-24 bg-gray-200 rounded-lg" />
+          <div key={i} className="h-24 rounded-lg skeleton" />
         ))}
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="h-80 bg-gray-200 rounded-lg" />
-        <div className="h-80 bg-gray-200 rounded-lg" />
+        <div className="h-80 rounded-lg skeleton" />
+        <div className="h-80 rounded-lg skeleton" />
       </div>
     </div>
   )

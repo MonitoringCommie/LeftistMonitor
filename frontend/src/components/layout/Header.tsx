@@ -1,28 +1,26 @@
 import { memo, useState } from 'react'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import SearchBar from '../ui/SearchBar'
-import { useThemeStore } from '../../stores/themeStore'
 import { useAuthStore, useLogout } from '../../api/auth'
 
 const Header = memo(function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false)
   const location = useLocation()
-  const navigate = useNavigate()
-  const { isDark, toggleTheme } = useThemeStore()
   const { user, isAuthenticated, hasRole } = useAuthStore()
   const logout = useLogout()
 
   const navLinks = [
-    { to: '/', label: 'Hub' },
+    { to: '/', label: 'Home' },
     { to: '/map', label: 'Map' },
     { to: '/people', label: 'People' },
-    
-    { to: '/frontlines', label: 'Frontlines' },
     { to: '/books', label: 'Books' },
-    { to: '/glossary', label: 'Glossary' },
-    { to: '/stats', label: 'Statistics' },
+    { to: '/frontlines', label: 'Frontlines' },
+    { to: '/compare', label: 'Compare' },
     { to: '/about', label: 'About' },
+    { to: '/glossary', label: 'Glossary' },
+    { to: '/stats', label: 'Stats' },
+    { to: '/elections', label: 'Elections' },
   ]
 
   const isActive = (path: string) => {
@@ -33,16 +31,34 @@ const Header = memo(function Header() {
   const handleLogout = () => {
     logout()
     setIsUserMenuOpen(false)
-    navigate('/')
   }
 
+  const headerStyles = {
+    background: 'linear-gradient(135deg, #8B1A1A 0%, #C41E3A 50%, #8B1A1A 100%)',
+    borderBottom: '4px solid #D4A017',
+    boxShadow: '0 4px 12px rgba(139, 26, 26, 0.3)',
+  }
+
+  const navLinkStyles = (isActivePath: boolean) => ({
+    color: isActivePath ? '#D4A017' : 'rgba(255,255,255,0.75)',
+    transition: 'color 0.2s ease',
+  })
+
   return (
-    <header className="bg-red-700 dark:bg-gray-900 text-white shadow-lg relative z-50">
+    <header
+      className="text-white shadow-lg relative z-50"
+      style={headerStyles}
+    >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-14 gap-4">
+        <div className="flex items-center justify-between h-16 gap-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 shrink-0">
-            <span className="text-xl font-bold">Leftist Monitor</span>
+            <span
+              className="text-xl font-bold"
+              style={{ color: '#fff', letterSpacing: '2px', textTransform: 'uppercase', fontFamily: 'Georgia, serif', textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}
+            >
+              {'\u2606'} LeftistMonitor {'\u2606'}
+            </span>
           </Link>
 
           {/* Search - hidden on mobile */}
@@ -51,68 +67,100 @@ const Header = memo(function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-3 shrink-0">
+          <nav className="hidden md:flex items-center space-x-1 shrink-0">
             {navLinks.map((link) => (
               <Link
                 key={link.to}
                 to={link.to}
-                className={`hover:text-red-200 transition-colors px-2 py-1 text-sm ${
-                  isActive(link.to) ? 'text-white font-semibold' : 'text-red-100'
-                }`}
+                className="px-3 py-2 text-sm transition-colors rounded-md"
+                style={navLinkStyles(isActive(link.to))}
+                onMouseEnter={(e) => {
+                  if (!isActive(link.to)) {
+                    e.currentTarget.style.color = '#fff'
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (!isActive(link.to)) {
+                    e.currentTarget.style.color = 'rgba(255,255,255,0.75)'
+                  }
+                }}
               >
                 {link.label}
               </Link>
             ))}
 
-            {/* Dark Mode Toggle */}
-            <button
-              onClick={toggleTheme}
-              className="p-2 hover:bg-red-600 dark:hover:bg-gray-700 rounded-lg transition-colors ml-1"
-              aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-              title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-            >
-              {isDark ? (
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
-              ) : (
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                </svg>
-              )}
-            </button>
-
             {/* User Menu */}
             {isAuthenticated() ? (
-              <div className="relative">
+              <div className="relative ml-4">
                 <button
                   onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
-                  className="flex items-center gap-2 px-3 py-1.5 bg-red-600 dark:bg-gray-700 hover:bg-red-500 dark:hover:bg-gray-600 rounded-lg transition-colors"
+                  className="flex items-center gap-2 px-3 py-1.5 rounded-lg transition-colors text-sm font-medium"
+                  style={{
+                    background: 'rgba(255, 255, 255, 0.15)',
+                    border: '1px solid rgba(212, 160, 23, 0.5)',
+                    color: '#F5DEB3',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.25)'
+                    e.currentTarget.style.color = '#fff'
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.15)'
+                    e.currentTarget.style.color = '#F5DEB3'
+                  }}
                 >
-                  <span className="text-sm font-medium">{user?.username}</span>
+                  <span>{user?.username}</span>
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
 
                 {isUserMenuOpen && (
-                  <div className="absolute right-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-1 z-50">
-                    <div className="px-4 py-2 border-b border-gray-200 dark:border-gray-700">
-                      <p className="text-sm font-medium text-gray-900 dark:text-white">{user?.display_name || user?.username}</p>
-                      <p className="text-xs text-gray-500 dark:text-gray-400 capitalize">{user?.role}</p>
+                  <div
+                    className="absolute right-0 mt-2 w-48 rounded-lg shadow-lg border py-1 z-50"
+                    style={{
+                      background: '#fff',
+                      border: '1px solid #E8C8C8',
+                      boxShadow: '0 4px 16px rgba(139, 26, 26, 0.15)',
+                    }}
+                  >
+                    <div
+                      className="px-4 py-2 border-b"
+                      style={{ borderColor: '#E8C8C8' }}
+                    >
+                      <p className="text-sm font-medium" style={{ color: '#2C1810' }}>
+                        {user?.display_name || user?.username}
+                      </p>
+                      <p className="text-xs capitalize" style={{ color: '#8B7355' }}>
+                        {user?.role}
+                      </p>
                     </div>
                     {hasRole('admin') && (
                       <Link
                         to="/admin"
                         onClick={() => setIsUserMenuOpen(false)}
-                        className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                        className="block px-4 py-2 text-sm transition-colors"
+                        style={{ color: '#5C3D2E' }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.background = '#FDEAED'
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.background = 'transparent'
+                        }}
                       >
                         Admin Dashboard
                       </Link>
                     )}
                     <button
                       onClick={handleLogout}
-                      className="w-full text-left px-4 py-2 text-sm text-red-600 dark:text-red-400 hover:bg-gray-100 dark:hover:bg-gray-700"
+                      className="w-full text-left px-4 py-2 text-sm transition-colors"
+                      style={{ color: '#C41E3A' }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.background = '#FDEAED'
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.background = 'transparent'
+                      }}
                     >
                       Sign Out
                     </button>
@@ -122,7 +170,20 @@ const Header = memo(function Header() {
             ) : (
               <Link
                 to="/login"
-                className="px-3 py-1.5 bg-white text-red-700 hover:bg-red-100 rounded-lg transition-colors text-sm font-medium"
+                className="px-3 py-1.5 rounded-lg transition-colors text-sm font-medium ml-4"
+                style={{
+                  background: 'rgba(255, 255, 255, 0.15)',
+                  border: '1px solid rgba(212, 160, 23, 0.5)',
+                  color: '#F5DEB3',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.25)'
+                  e.currentTarget.style.color = '#fff'
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.15)'
+                  e.currentTarget.style.color = '#F5DEB3'
+                }}
               >
                 Sign In
               </Link>
@@ -131,26 +192,20 @@ const Header = memo(function Header() {
 
           {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center gap-2">
-            {/* Mobile Dark Mode Toggle */}
-            <button
-              onClick={toggleTheme}
-              className="p-2 hover:bg-red-600 dark:hover:bg-gray-700 rounded-lg transition-colors"
-              aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-            >
-              {isDark ? (
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-                </svg>
-              ) : (
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                </svg>
-              )}
-            </button>
-
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-2 hover:bg-red-600 dark:hover:bg-gray-700 rounded-lg transition-colors"
+              className="p-2 rounded-lg transition-colors"
+              style={{
+                color: 'rgba(255,255,255,0.75)',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = 'rgba(255, 255, 255, 0.15)'
+                e.currentTarget.style.color = '#fff'
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = 'transparent'
+                e.currentTarget.style.color = 'rgba(255,255,255,0.75)'
+              }}
               aria-label="Toggle menu"
               aria-expanded={isMenuOpen}
             >
@@ -169,9 +224,18 @@ const Header = memo(function Header() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-14 left-0 right-0 bg-red-700 dark:bg-gray-900 shadow-lg border-t border-red-600 dark:border-gray-700">
+          <div
+            className="md:hidden absolute top-16 left-0 right-0 shadow-lg border-t"
+            style={{
+              background: '#8B1A1A',
+              borderColor: '#D4A017',
+            }}
+          >
             {/* Mobile Search */}
-            <div className="p-4 border-b border-red-600 dark:border-gray-700">
+            <div
+              className="p-4 border-b"
+              style={{ borderColor: 'rgba(212, 160, 23, 0.4)' }}
+            >
               <SearchBar />
             </div>
 
@@ -182,9 +246,24 @@ const Header = memo(function Header() {
                   key={link.to}
                   to={link.to}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`px-4 py-3 hover:bg-red-600 dark:hover:bg-gray-700 transition-colors border-b border-red-600 dark:border-gray-700 ${
-                    isActive(link.to) ? 'bg-red-600 dark:bg-gray-700 font-semibold' : ''
-                  }`}
+                  className="px-4 py-3 text-sm transition-colors border-b"
+                  style={{
+                    color: isActive(link.to) ? '#D4A017' : 'rgba(255,255,255,0.75)',
+                    background: isActive(link.to) ? 'rgba(255, 255, 255, 0.1)' : 'transparent',
+                    borderColor: 'rgba(212, 160, 23, 0.2)',
+                  }}
+                  onMouseEnter={(e) => {
+                    if (!isActive(link.to)) {
+                      e.currentTarget.style.color = '#fff'
+                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.08)'
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (!isActive(link.to)) {
+                      e.currentTarget.style.color = 'rgba(255,255,255,0.75)'
+                      e.currentTarget.style.background = 'transparent'
+                    }
+                  }}
                 >
                   {link.label}
                 </Link>
@@ -197,7 +276,17 @@ const Header = memo(function Header() {
                     <Link
                       to="/admin"
                       onClick={() => setIsMenuOpen(false)}
-                      className="px-4 py-3 hover:bg-red-600 dark:hover:bg-gray-700 transition-colors border-b border-red-600 dark:border-gray-700"
+                      className="px-4 py-3 text-sm transition-colors border-b"
+                      style={{
+                        color: '#F5DEB3',
+                        borderColor: 'rgba(212, 160, 23, 0.2)',
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)'
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.background = 'transparent'
+                      }}
                     >
                       Admin Dashboard
                     </Link>
@@ -207,7 +296,16 @@ const Header = memo(function Header() {
                       handleLogout()
                       setIsMenuOpen(false)
                     }}
-                    className="px-4 py-3 hover:bg-red-600 dark:hover:bg-gray-700 transition-colors text-left"
+                    className="px-4 py-3 text-left text-sm transition-colors"
+                    style={{
+                      color: '#F5DEB3',
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)'
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.background = 'transparent'
+                    }}
                   >
                     Sign Out ({user?.username})
                   </button>
@@ -216,7 +314,18 @@ const Header = memo(function Header() {
                 <Link
                   to="/login"
                   onClick={() => setIsMenuOpen(false)}
-                  className="px-4 py-3 hover:bg-red-600 dark:hover:bg-gray-700 transition-colors"
+                  className="px-4 py-3 text-sm transition-colors"
+                  style={{
+                    color: '#F5DEB3',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)'
+                    e.currentTarget.style.color = '#fff'
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = 'transparent'
+                    e.currentTarget.style.color = '#F5DEB3'
+                  }}
                 >
                   Sign In
                 </Link>

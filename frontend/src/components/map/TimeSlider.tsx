@@ -194,7 +194,8 @@ export default function TimeSlider() {
           max={MAX_YEAR}
           value={displayYear}
           onChange={handleSliderChange}
-          className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-red-600"
+          className="w-full h-2 rounded-lg appearance-none cursor-pointer accent-red-600"
+            style={{ background: '#E8C8C8' }}
         />
 
         {/* Historical markers */}

@@ -47,7 +47,8 @@ export class ErrorBoundary extends Component<Props, State> {
               </button>
               <Link
                 to="/"
-                className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors"
+                className="px-4 py-2 rounded-lg transition-colors"
+                style={{ background: 'rgba(196, 30, 58, 0.08)', color: '#5C3D2E', border: '1px solid #E8C8C8' }}
               >
                 Go Home
               </Link>

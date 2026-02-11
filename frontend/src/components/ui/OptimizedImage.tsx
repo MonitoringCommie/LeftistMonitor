@@ -69,7 +69,7 @@ const OptimizedImage = memo(function OptimizedImage({
     <div className="relative" style={{ width, height }}>
       {!isLoaded && (
         <div 
-          className={`absolute inset-0 bg-gray-200 animate-pulse ${className}`}
+          className={`absolute inset-0 animate-pulse skeleton ${className}`}
           style={{ width, height }}
         />
       )}

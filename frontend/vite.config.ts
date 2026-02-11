@@ -15,12 +15,15 @@ export default defineConfig({
     allowedHosts: ['.trycloudflare.com'],
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'http://localhost:8001',
         changeOrigin: true,
       },
     },
   },
   build: {
+    target: 'ES2020',
+    minify: 'terser',
+    sourcemap: false,
     rollupOptions: {
       output: {
         manualChunks: {
@@ -29,6 +32,7 @@ export default defineConfig({
           'vendor-maplibre': ['maplibre-gl'],
           'vendor-recharts': ['recharts'],
           'vendor-d3': ['d3-selection', 'd3-force', 'd3-zoom', 'd3-drag'],
+          'vendor-three': ['three'],
         },
       },
     },

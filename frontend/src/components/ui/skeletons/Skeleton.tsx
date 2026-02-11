@@ -8,9 +8,10 @@ export function Skeleton({ className }: SkeletonProps) {
   return (
     <div
       className={cn(
-        'animate-pulse rounded-md bg-gray-200 dark:bg-gray-700',
+        'animate-pulse rounded-md',
         className
       )}
+      style={{ background: 'rgba(196, 30, 58, 0.08)' }}
     />
   )
 }
@@ -33,7 +34,7 @@ export function SkeletonText({ className, lines = 1 }: SkeletonProps & { lines?:
 
 export function SkeletonCard({ className }: SkeletonProps) {
   return (
-    <div className={cn('rounded-lg border border-gray-200 p-4 space-y-3', className)}>
+    <div className={cn('rounded-lg p-4 space-y-3', className)} style={{ border: '1px solid #E8C8C8' }}>
       <Skeleton className="h-5 w-2/3" />
       <SkeletonText lines={2} />
       <Skeleton className="h-4 w-1/4" />

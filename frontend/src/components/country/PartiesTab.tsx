@@ -187,11 +187,11 @@ const PartiesTab = memo(function PartiesTab({ countryId, year }: PartiesTabProps
 
       {isLoading ? (
         <div className="animate-pulse space-y-4">
-          <div className="h-24 bg-gray-200 rounded-lg"></div>
-          <div className="h-16 bg-gray-200 rounded-lg"></div>
+          <div className="h-24 rounded-lg skeleton"></div>
+          <div className="h-16 rounded-lg skeleton"></div>
           <div className="space-y-2">
             {[1, 2, 3, 4, 5].map(i => (
-              <div key={i} className="h-16 bg-gray-200 rounded-lg"></div>
+              <div key={i} className="h-16 rounded-lg skeleton"></div>
             ))}
           </div>
         </div>

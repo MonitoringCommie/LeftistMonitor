@@ -362,7 +362,8 @@ export default function BorderDevelopmentTab({ countryId, countryName }: BorderD
             max={yearRange.max}
             value={selectedYear}
             onChange={(e) => setSelectedYear(Number(e.target.value))}
-            className="flex-1 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
+            className="flex-1 h-2 rounded-lg appearance-none cursor-pointer"
+            style={{ background: '#E8C8C8' }}
           />
           <span className="text-sm text-gray-500 w-12 text-right">{yearRange.max}</span>
         </div>

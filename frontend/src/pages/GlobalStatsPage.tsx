@@ -16,7 +16,7 @@ interface CountryStats {
   military_spending_pct?: number
 }
 
-const COLORS = ['#dc2626', '#ea580c', '#ca8a04', '#16a34a', '#0891b2', '#2563eb', '#7c3aed', '#c026d3']
+const RED_COLORS = ['#C41E3A', '#E8485C', '#8B1A1A', '#D4A017', '#A52A2A', '#DC3545', '#B22222', '#CD5C5C']
 
 type StatCategory = 'gdp' | 'population' | 'military'
 
@@ -24,11 +24,28 @@ export default function GlobalStatsPage() {
   const [category, setCategory] = useState<StatCategory>('gdp')
   const [limit, setLimit] = useState(20)
 
+  const { data: overview } = useQuery({
+    queryKey: ['stats-overview'],
+    queryFn: async () => {
+      const { data } = await apiClient.get<{ countries: number; people: number; books: number; events: number; conflicts: number; elections: number }>('/stats/overview')
+      return data
+    },
+    staleTime: 1000 * 60 * 30,
+  })
+
   const { data: stats, isLoading } = useQuery({
     queryKey: ['global-stats'],
     queryFn: async () => {
       const { data } = await apiClient.get<CountryStats[]>('/geography/countries/stats')
-      return data
+      // Deduplicate by country name — keep entry with most data
+      const byName = new Map<string, CountryStats>()
+      for (const item of data) {
+        const existing = byName.get(item.name)
+        if (!existing || (item.gdp && !existing.gdp) || (item.population && !existing.population)) {
+          byName.set(item.name, item)
+        }
+      }
+      return Array.from(byName.values())
     },
     staleTime: 1000 * 60 * 30,
   })
@@ -77,17 +94,17 @@ export default function GlobalStatsPage() {
     return sortedData.slice(0, 8).map((item, index) => ({
       name: item.name,
       value: item.value,
-      color: COLORS[index % COLORS.length],
+      color: RED_COLORS[index % RED_COLORS.length],
     }))
   }, [sortedData])
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <div className="min-h-screen pb-8" style={{ backgroundColor: '#FFF5F6' }}>
         <div className="container mx-auto px-4 py-8">
           <div className="animate-pulse space-y-6">
-            <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded w-1/3"></div>
-            <div className="h-96 bg-gray-200 dark:bg-gray-700 rounded"></div>
+            <div className="h-8 rounded w-1/3" style={{ backgroundColor: 'rgba(196, 30, 58, 0.1)' }}></div>
+            <div className="h-96 rounded" style={{ backgroundColor: 'rgba(196, 30, 58, 0.1)' }}></div>
           </div>
         </div>
       </div>
@@ -95,63 +112,57 @@ export default function GlobalStatsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pb-8">
+    <div className="min-h-screen pb-8" style={{ backgroundColor: '#FFF5F6' }}>
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8">
           <nav className="mb-4">
-            <Link to="/" className="text-red-600 hover:text-red-700 font-medium">World Map</Link>
-            <span className="mx-2 text-gray-400">/</span>
-            <span className="text-gray-600 dark:text-gray-300">Global Statistics</span>
+            <Link to="/" className="font-medium" style={{ color: '#C41E3A' }}>World Map</Link>
+            <span className="mx-2" style={{ color: '#8B7355' }}>/</span>
+            <span style={{ color: '#8B7355' }}>Global Statistics</span>
           </nav>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Global Statistics</h1>
-          <p className="text-gray-600 dark:text-gray-400 mt-2">Compare countries by economic and demographic metrics</p>
+          <h1 className="text-3xl font-bold" style={{ color: '#8B1A1A' }}>Global Statistics</h1>
+          <p className="mt-2" style={{ color: '#5C3D2E' }}>Compare countries by economic and demographic metrics</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border dark:border-gray-700">
-            <p className="text-sm text-gray-500">Countries</p>
-            <p className="text-2xl font-bold text-gray-900 dark:text-white">710</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border dark:border-gray-700">
-            <p className="text-sm text-gray-500">People</p>
-            <p className="text-2xl font-bold text-purple-600">104,453</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border dark:border-gray-700">
-            <p className="text-sm text-gray-500">Events</p>
-            <p className="text-2xl font-bold text-blue-600">81,096</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border dark:border-gray-700">
-            <p className="text-sm text-gray-500">Conflicts</p>
-            <p className="text-2xl font-bold text-red-600">21,045</p>
-          </div>
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border dark:border-gray-700">
-            <p className="text-sm text-gray-500">Books</p>
-            <p className="text-2xl font-bold text-green-600">21,036</p>
-          </div>
+          {[
+            { label: 'Countries', value: overview?.countries, color: '#2C1810' },
+            { label: 'People', value: overview?.people, color: '#C41E3A' },
+            { label: 'Events', value: overview?.events, color: '#C41E3A' },
+            { label: 'Conflicts', value: overview?.conflicts, color: '#8B1A1A' },
+            { label: 'Books', value: overview?.books, color: '#C41E3A' },
+          ].map((stat) => (
+            <div key={stat.label} className="rounded-lg p-4" style={{ backgroundColor: '#FFFFFF', border: '1px solid #E8C8C8', borderTop: '3px solid #C41E3A', boxShadow: '0 2px 8px rgba(139, 26, 26, 0.08)' }}>
+              <p className="text-sm" style={{ color: '#8B7355' }}>{stat.label}</p>
+              <p className="text-2xl font-bold" style={{ color: stat.color }}>{stat.value?.toLocaleString() ?? '...'}</p>
+            </div>
+          ))}
         </div>
 
-        <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4 mb-6">
+        <div className="rounded-lg p-4 mb-6" style={{ backgroundColor: '#FFFFFF', border: '1px solid #E8C8C8', borderLeft: '4px solid #C41E3A', boxShadow: '0 2px 8px rgba(139, 26, 26, 0.08)' }}>
           <div className="flex flex-wrap gap-2">
             {(Object.keys(categoryLabels) as StatCategory[]).map((cat) => (
               <button
                 key={cat}
                 onClick={() => setCategory(cat)}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                className="px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+                style={
                   category === cat
-                    ? 'bg-red-600 text-white'
-                    : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200'
-                }`}
+                    ? { background: '#C41E3A', color: '#FFFFFF', border: '1px solid #C41E3A' }
+                    : { background: 'rgba(196, 30, 58, 0.08)', color: '#C41E3A', border: '1px solid rgba(196, 30, 58, 0.3)' }
+                }
               >
                 {categoryLabels[cat]}
               </button>
             ))}
           </div>
           <div className="mt-4 flex items-center gap-4">
-            <label className="text-sm text-gray-600 dark:text-gray-400">Show top:</label>
+            <label className="text-sm" style={{ color: '#5C3D2E' }}>Show top:</label>
             <select
               value={limit}
               onChange={(e) => setLimit(Number(e.target.value))}
-              className="border rounded px-3 py-1 text-sm bg-white dark:bg-gray-700"
+              className="rounded px-3 py-1 text-sm"
+              style={{ backgroundColor: '#FFFFFF', border: '1px solid #E8C8C8', color: '#2C1810' }}
             >
               <option value={10}>10</option>
               <option value={20}>20</option>
@@ -161,25 +172,25 @@ export default function GlobalStatsPage() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4">
-            <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#FFFFFF', border: '1px solid #E8C8C8', borderLeft: '4px solid #C41E3A', boxShadow: '0 2px 8px rgba(139, 26, 26, 0.08)' }}>
+            <h3 className="text-lg font-semibold mb-4" style={{ color: '#8B1A1A' }}>
               Top {limit} by {categoryLabels[category]}
             </h3>
             <div className="h-[500px]">
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={sortedData} layout="vertical" margin={{ left: 80, right: 30 }}>
-                  <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis type="number" tickFormatter={(v) => formatValue(v)} />
-                  <YAxis type="category" dataKey="name" width={75} tick={{ fontSize: 11 }} />
-                  <Tooltip formatter={(value) => [formatValue(value as number), categoryLabels[category]]} />
-                  <Bar dataKey="value" fill="#dc2626" />
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(196, 30, 58, 0.1)" />
+                  <XAxis type="number" tickFormatter={(v) => formatValue(v)} stroke="rgba(139, 115, 85, 0.5)" />
+                  <YAxis type="category" dataKey="name" width={75} tick={{ fontSize: 11, fill: '#5C3D2E' }} stroke="rgba(139, 115, 85, 0.5)" />
+                  <Tooltip formatter={(value) => [formatValue(value as number), categoryLabels[category]]} contentStyle={{ backgroundColor: '#FFFFFF', border: '1px solid #E8C8C8', borderRadius: '8px', color: '#2C1810' }} />
+                  <Bar dataKey="value" fill="#C41E3A" />
                 </BarChart>
               </ResponsiveContainer>
             </div>
           </div>
 
-          <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4">
-            <h3 className="text-lg font-semibold mb-4 text-gray-900 dark:text-white">Distribution (Top 8)</h3>
+          <div className="rounded-lg p-4" style={{ backgroundColor: '#FFFFFF', border: '1px solid #E8C8C8', borderLeft: '4px solid #C41E3A', boxShadow: '0 2px 8px rgba(139, 26, 26, 0.08)' }}>
+            <h3 className="text-lg font-semibold mb-4" style={{ color: '#8B1A1A' }}>Distribution (Top 8)</h3>
             <div className="h-[500px]">
               <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
@@ -189,36 +200,36 @@ export default function GlobalStatsPage() {
                       <Cell key={index} fill={entry.color} />
                     ))}
                   </Pie>
-                  <Tooltip formatter={(value) => formatValue(Number(value) || 0)} />
-                  <Legend />
+                  <Tooltip formatter={(value) => formatValue(Number(value) || 0)} contentStyle={{ backgroundColor: '#FFFFFF', border: '1px solid #E8C8C8', borderRadius: '8px', color: '#2C1810' }} />
+                  <Legend wrapperStyle={{ color: '#5C3D2E' }} />
                 </PieChart>
               </ResponsiveContainer>
             </div>
           </div>
         </div>
 
-        <div className="mt-6 bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 overflow-hidden">
-          <div className="p-4 border-b dark:border-gray-700">
-            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Rankings</h3>
+        <div className="mt-6 rounded-lg overflow-hidden" style={{ backgroundColor: '#FFFFFF', border: '1px solid #E8C8C8', boxShadow: '0 2px 8px rgba(139, 26, 26, 0.08)' }}>
+          <div className="p-4" style={{ borderBottom: '1px solid #E8C8C8' }}>
+            <h3 className="text-lg font-semibold" style={{ color: '#8B1A1A' }}>Rankings</h3>
           </div>
           <table className="w-full">
-            <thead className="bg-gray-50 dark:bg-gray-700">
+            <thead style={{ background: 'rgba(196, 30, 58, 0.06)' }}>
               <tr>
-                <th className="px-4 py-3 text-left text-sm font-medium text-gray-500">Rank</th>
-                <th className="px-4 py-3 text-left text-sm font-medium text-gray-500">Country</th>
-                <th className="px-4 py-3 text-right text-sm font-medium text-gray-500">{categoryLabels[category]}</th>
+                <th className="px-4 py-3 text-left text-sm font-medium" style={{ color: '#5C3D2E' }}>Rank</th>
+                <th className="px-4 py-3 text-left text-sm font-medium" style={{ color: '#5C3D2E' }}>Country</th>
+                <th className="px-4 py-3 text-right text-sm font-medium" style={{ color: '#5C3D2E' }}>{categoryLabels[category]}</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-gray-200 dark:divide-gray-700">
+            <tbody>
               {sortedData.map((item, index) => (
-                <tr key={item.id} className="hover:bg-gray-50 dark:hover:bg-gray-700/50">
-                  <td className="px-4 py-3 text-sm text-gray-500">{index + 1}</td>
+                <tr key={item.id} style={{ borderBottom: '1px solid #E8C8C8' }} className="hover:bg-red-50">
+                  <td className="px-4 py-3 text-sm" style={{ color: '#8B7355' }}>{index + 1}</td>
                   <td className="px-4 py-3">
-                    <Link to={'/country/' + item.id} className="text-red-600 hover:text-red-700 font-medium">
+                    <Link to={'/country/' + item.id} className="font-medium" style={{ color: '#C41E3A' }}>
                       {item.name}
                     </Link>
                   </td>
-                  <td className="px-4 py-3 text-right text-sm font-medium">{formatValue(item.value)}</td>
+                  <td className="px-4 py-3 text-right text-sm font-medium" style={{ color: '#2C1810' }}>{formatValue(item.value)}</td>
                 </tr>
               ))}
             </tbody>

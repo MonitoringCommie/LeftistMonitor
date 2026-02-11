@@ -39,7 +39,7 @@ const glossaryTerms: GlossaryTerm[] = [
     relatedTerms: ["Genocide", "Forced Displacement", "Population Transfer"],
     examples: ["1948 Nakba", "Bosnian War", "Rohingya in Myanmar"]
   },
-  
+
   // Palestine-specific
   {
     term: "Nakba",
@@ -81,7 +81,7 @@ const glossaryTerms: GlossaryTerm[] = [
     category: "Palestine",
     relatedTerms: ["Resistance", "Occupation", "Oslo Accords"]
   },
-  
+
   // Leftist Theory
   {
     term: "Imperialism",
@@ -121,7 +121,7 @@ const glossaryTerms: GlossaryTerm[] = [
     category: "Leftist Theory",
     relatedTerms: ["Historical Materialism", "Marxism", "Hegelian Dialectics"]
   },
-  
+
   // Resistance & Liberation
   {
     term: "Liberation Movement",
@@ -142,7 +142,7 @@ const glossaryTerms: GlossaryTerm[] = [
     category: "Resistance & Liberation",
     relatedTerms: ["Resistance", "Resilience", "Palestinian Identity"]
   },
-  
+
   // International Law
   {
     term: "Geneva Conventions",
@@ -162,7 +162,7 @@ const glossaryTerms: GlossaryTerm[] = [
     category: "International Law",
     relatedTerms: ["UN", "International Law", "Legal Rulings"]
   },
-  
+
   // Human Rights
   {
     term: "Collective Punishment",
@@ -195,7 +195,7 @@ const GlossaryPage = memo(function GlossaryPage() {
   const [expandedTerm, setExpandedTerm] = useState<string | null>(null)
 
   const filteredTerms = glossaryTerms.filter(term => {
-    const matchesSearch = searchQuery === '' || 
+    const matchesSearch = searchQuery === '' ||
       term.term.toLowerCase().includes(searchQuery.toLowerCase()) ||
       term.definition.toLowerCase().includes(searchQuery.toLowerCase())
     const matchesCategory = !selectedCategory || term.category === selectedCategory
@@ -203,20 +203,25 @@ const GlossaryPage = memo(function GlossaryPage() {
   })
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div style={{ backgroundColor: '#FFF5F6' }} className="min-h-screen">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Header */}
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+          <h1 className="text-4xl font-bold mb-4" style={{ color: '#8B1A1A' }}>
             Glossary
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300">
+          <p className="text-xl" style={{ color: '#5C3D2E' }}>
             Key terms for understanding colonialism, occupation, resistance, and leftist theory.
           </p>
         </div>
 
         {/* Search and Filter */}
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 mb-6">
+        <div style={{
+          background: '#FFFFFF',
+          border: '1px solid #E8C8C8',
+          borderLeft: '4px solid #C41E3A',
+          borderRadius: '10px'
+        }} className="p-4 mb-6">
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex-1">
               <input
@@ -224,19 +229,30 @@ const GlossaryPage = memo(function GlossaryPage() {
                 placeholder="Search terms..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg 
-                         bg-white dark:bg-gray-700 text-gray-900 dark:text-white
-                         focus:ring-2 focus:ring-red-500 focus:border-transparent"
+                style={{
+                  background: '#FFF5F6',
+                  borderColor: 'rgba(196, 30, 58, 0.3)',
+                  color: '#2C1810'
+                }}
+                className="w-full px-4 py-2 border rounded-lg focus:outline-none"
+                onFocus={(e) => {
+                  e.currentTarget.style.borderColor = '#C41E3A'
+                }}
+                onBlur={(e) => {
+                  e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.3)'
+                }}
               />
             </div>
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setSelectedCategory(null)}
-                className={`px-3 py-1 rounded-full text-sm transition-colors ${
-                  !selectedCategory 
-                    ? 'bg-red-600 text-white' 
-                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                }`}
+                style={{
+                  background: !selectedCategory ? '#C41E3A' : 'rgba(196, 30, 58, 0.08)',
+                  color: !selectedCategory ? '#fff' : '#C41E3A',
+                  border: !selectedCategory ? '1px solid #C41E3A' : '1px solid rgba(196, 30, 58, 0.3)',
+                  borderRadius: '9999px'
+                }}
+                className="px-3 py-1 text-sm transition-colors"
               >
                 All
               </button>
@@ -244,11 +260,13 @@ const GlossaryPage = memo(function GlossaryPage() {
                 <button
                   key={cat}
                   onClick={() => setSelectedCategory(cat)}
-                  className={`px-3 py-1 rounded-full text-sm transition-colors ${
-                    selectedCategory === cat 
-                      ? 'bg-red-600 text-white' 
-                      : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                  }`}
+                  style={{
+                    background: selectedCategory === cat ? '#C41E3A' : 'rgba(196, 30, 58, 0.08)',
+                    color: selectedCategory === cat ? '#fff' : '#C41E3A',
+                    border: selectedCategory === cat ? '1px solid #C41E3A' : '1px solid rgba(196, 30, 58, 0.3)',
+                    borderRadius: '9999px'
+                  }}
+                  className="px-3 py-1 text-sm transition-colors"
                 >
                   {cat}
                 </button>
@@ -258,7 +276,7 @@ const GlossaryPage = memo(function GlossaryPage() {
         </div>
 
         {/* Terms Count */}
-        <p className="text-gray-600 dark:text-gray-400 mb-4">
+        <p style={{ color: '#8B7355' }} className="mb-4">
           Showing {filteredTerms.length} of {glossaryTerms.length} terms
         </p>
 
@@ -267,24 +285,34 @@ const GlossaryPage = memo(function GlossaryPage() {
           {filteredTerms.map((term) => (
             <div
               key={term.term}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden"
+              style={{
+                background: '#FFFFFF',
+                border: '1px solid #E8C8C8',
+                borderLeft: '4px solid #C41E3A',
+                borderRadius: '10px',
+                overflow: 'hidden'
+              }}
             >
               <button
                 onClick={() => setExpandedTerm(expandedTerm === term.term ? null : term.term)}
-                className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
+                className="w-full px-6 py-4 text-left flex items-center justify-between transition-colors"
+                style={{ background: 'transparent' }}
+                onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(196, 30, 58, 0.04)'}
+                onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
               >
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                  <h3 className="text-xl font-bold" style={{ color: '#2C1810' }}>
                     {term.term}
                   </h3>
-                  <span className="text-sm text-red-600 dark:text-red-500">
+                  <span style={{ color: '#C41E3A' }} className="text-sm uppercase tracking-wide">
                     {term.category}
                   </span>
                 </div>
                 <svg
-                  className={`w-5 h-5 text-gray-500 transition-transform ${
+                  className={`w-5 h-5 transition-transform ${
                     expandedTerm === term.term ? 'rotate-180' : ''
                   }`}
+                  style={{ color: '#8B7355' }}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -294,15 +322,17 @@ const GlossaryPage = memo(function GlossaryPage() {
               </button>
 
               {expandedTerm === term.term && (
-                <div className="px-6 pb-4 border-t border-gray-200 dark:border-gray-700">
-                  <p className="text-gray-700 dark:text-gray-300 mt-4 text-lg leading-relaxed">
+                <div style={{
+                  borderTopColor: '#E8C8C8'
+                }} className="px-6 pb-4 border-t">
+                  <p style={{ color: '#5C3D2E' }} className="mt-4 text-lg leading-relaxed">
                     {term.definition}
                   </p>
 
                   {term.examples && term.examples.length > 0 && (
                     <div className="mt-4">
-                      <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Examples:</h4>
-                      <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-1">
+                      <h4 className="font-semibold mb-2 uppercase text-sm" style={{ color: '#C41E3A' }}>Examples:</h4>
+                      <ul className="list-disc list-inside space-y-1" style={{ color: '#5C3D2E' }}>
                         {term.examples.map((example, i) => (
                           <li key={i}>{example}</li>
                         ))}
@@ -312,7 +342,7 @@ const GlossaryPage = memo(function GlossaryPage() {
 
                   {term.relatedTerms && term.relatedTerms.length > 0 && (
                     <div className="mt-4">
-                      <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Related Terms:</h4>
+                      <h4 className="font-semibold mb-2 uppercase text-sm" style={{ color: '#C41E3A' }}>Related Terms:</h4>
                       <div className="flex flex-wrap gap-2">
                         {term.relatedTerms.map((related, i) => (
                           <button
@@ -321,8 +351,13 @@ const GlossaryPage = memo(function GlossaryPage() {
                               setSearchQuery(related)
                               setExpandedTerm(null)
                             }}
-                            className="px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 
-                                     rounded-full text-sm hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
+                            style={{
+                              background: 'rgba(196, 30, 58, 0.1)',
+                              color: '#C41E3A',
+                              border: '1px solid rgba(196, 30, 58, 0.3)',
+                              borderRadius: '9999px'
+                            }}
+                            className="px-3 py-1 text-sm transition-colors"
                           >
                             {related}
                           </button>
@@ -338,7 +373,7 @@ const GlossaryPage = memo(function GlossaryPage() {
 
         {filteredTerms.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-gray-500 dark:text-gray-400 text-lg">
+            <p style={{ color: '#8B7355' }} className="text-lg">
               No terms found matching your search.
             </p>
           </div>
@@ -348,7 +383,11 @@ const GlossaryPage = memo(function GlossaryPage() {
         <div className="text-center mt-8">
           <Link
             to="/"
-            className="inline-block bg-red-700 hover:bg-red-800 text-white font-bold py-3 px-6 rounded-lg transition-colors"
+            style={{
+              background: '#C41E3A',
+              color: '#fff'
+            }}
+            className="inline-block font-bold py-3 px-6 rounded-lg transition-opacity hover:opacity-80"
           >
             Explore the Map
           </Link>

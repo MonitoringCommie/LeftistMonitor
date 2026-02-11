@@ -24,7 +24,7 @@ const STATUS_COLORS: Record<string, string> = {
 }
 
 function getProgressiveColor(score: number | undefined): string {
-  if (score === undefined) return "bg-gray-200"
+  if (score === undefined) return "bg-gray-300"
   if (score >= 50) return "bg-green-500"
   if (score >= 20) return "bg-green-300"
   if (score >= -20) return "bg-yellow-300"

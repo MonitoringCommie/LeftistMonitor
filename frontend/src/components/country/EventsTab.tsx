@@ -123,9 +123,9 @@ const EventsTab = memo(function EventsTab({ countryId }: EventsTabProps) {
 
       {isLoading ? (
         <div className="animate-pulse space-y-4">
-          <div className="h-6 bg-gray-200 rounded w-20"></div>
+          <div className="h-6 rounded skeleton w-20"></div>
           {[1, 2, 3, 4, 5].map(i => (
-            <div key={i} className="h-20 bg-gray-200 rounded-lg"></div>
+            <div key={i} className="h-20 rounded-lg skeleton"></div>
           ))}
         </div>
       ) : events.length === 0 ? (

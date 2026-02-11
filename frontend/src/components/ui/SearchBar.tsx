@@ -65,7 +65,7 @@ const SearchResultItem = memo(function SearchResultItem({
         <span className="sr-only">{TYPE_LABELS[result.type]}:</span>
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2">
-            <span className="font-medium text-gray-900 dark:text-white truncate">
+            <span className="font-medium text-gray-900 text-gray-900 truncate">
               {result.title}
             </span>
             <span
@@ -82,7 +82,7 @@ const SearchResultItem = memo(function SearchResultItem({
             )}
           </div>
           {result.subtitle && (
-            <div className="text-sm text-gray-500 dark:text-gray-300 truncate">
+            <div className="text-sm text-gray-500 text-gray-500 truncate">
               {result.subtitle}
             </div>
           )}
@@ -280,7 +280,8 @@ const SearchBar = memo(function SearchBar() {
           id={listboxId}
           role="listbox"
           aria-label="Search results"
-          className="absolute z-[100] w-full mt-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg max-h-96 overflow-y-auto"
+          className="absolute z-[100] w-full mt-1 bg-white rounded-lg shadow-lg max-h-96 overflow-y-auto"
+          style={{ border: '1px solid #E8C8C8' }}
         >
           {results.length === 0 && !isLoading && (
             <li className="px-4 py-3 text-sm text-gray-500" role="status">

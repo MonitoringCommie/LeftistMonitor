@@ -170,7 +170,7 @@ const PeopleTab = memo(function PeopleTab({ countryId, year }: PeopleTabProps) {
       {isLoading ? (
         <div className="animate-pulse space-y-3">
           {[1, 2, 3, 4, 5].map(i => (
-            <div key={i} className="h-24 bg-gray-200 rounded-lg"></div>
+            <div key={i} className="h-24 rounded-lg skeleton"></div>
           ))}
         </div>
       ) : people.length === 0 ? (

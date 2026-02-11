@@ -21,15 +21,15 @@ const OccupationsTab = lazy(() => import('../components/country/OccupationsTab')
 function TabSkeleton() {
   return (
     <div className="animate-pulse space-y-4">
-      <div className="h-6 bg-gray-200 rounded w-1/4"></div>
+      <div className="h-6 rounded w-1/4" style={{ backgroundColor: 'rgba(196, 30, 58, 0.1)' }}></div>
       <div className="space-y-3">
-        <div className="h-4 bg-gray-200 rounded w-full"></div>
-        <div className="h-4 bg-gray-200 rounded w-5/6"></div>
-        <div className="h-4 bg-gray-200 rounded w-4/6"></div>
+        <div className="h-4 rounded w-full" style={{ backgroundColor: 'rgba(196, 30, 58, 0.08)' }}></div>
+        <div className="h-4 rounded w-5/6" style={{ backgroundColor: 'rgba(196, 30, 58, 0.08)' }}></div>
+        <div className="h-4 rounded w-4/6" style={{ backgroundColor: 'rgba(196, 30, 58, 0.08)' }}></div>
       </div>
       <div className="grid grid-cols-2 gap-4 mt-6">
-        <div className="h-32 bg-gray-200 rounded"></div>
-        <div className="h-32 bg-gray-200 rounded"></div>
+        <div className="h-32 rounded" style={{ backgroundColor: 'rgba(196, 30, 58, 0.08)' }}></div>
+        <div className="h-32 rounded" style={{ backgroundColor: 'rgba(196, 30, 58, 0.08)' }}></div>
       </div>
     </div>
   )
@@ -38,9 +38,9 @@ function TabSkeleton() {
 // Tab error fallback
 function TabErrorFallback() {
   return (
-    <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-center">
-      <p className="text-yellow-800 font-medium">Unable to load this tab</p>
-      <p className="text-yellow-600 text-sm mt-1">Try selecting a different tab or refresh the page.</p>
+    <div className="rounded-lg p-6 text-center" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderLeft: '4px solid #D4A017' }}>
+      <p className="font-medium" style={{ color: '#8B1A1A' }}>Unable to load this tab</p>
+      <p className="text-sm mt-1" style={{ color: '#5C3D2E' }}>Try selecting a different tab or refresh the page.</p>
     </div>
   )
 }
@@ -102,15 +102,15 @@ export default function CountryPage() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen pb-4" style={{ backgroundColor: '#FFF5F6' }}>
         <div className="container mx-auto px-4 py-8">
           <div className="animate-pulse">
-            <div className="h-8 bg-gray-200 rounded w-1/3 mb-4"></div>
-            <div className="h-4 bg-gray-200 rounded w-1/2 mb-8"></div>
+            <div className="h-8 rounded w-1/3 mb-4" style={{ backgroundColor: 'rgba(196, 30, 58, 0.1)' }}></div>
+            <div className="h-4 rounded w-1/2 mb-8" style={{ backgroundColor: 'rgba(196, 30, 58, 0.08)' }}></div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="h-32 bg-gray-200 rounded"></div>
-              <div className="h-32 bg-gray-200 rounded"></div>
-              <div className="h-32 bg-gray-200 rounded"></div>
+              <div className="h-32 rounded" style={{ backgroundColor: 'rgba(196, 30, 58, 0.08)' }}></div>
+              <div className="h-32 rounded" style={{ backgroundColor: 'rgba(196, 30, 58, 0.08)' }}></div>
+              <div className="h-32 rounded" style={{ backgroundColor: 'rgba(196, 30, 58, 0.08)' }}></div>
             </div>
           </div>
         </div>
@@ -120,16 +120,17 @@ export default function CountryPage() {
 
   if (error || !country) {
     return (
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen pb-4" style={{ backgroundColor: '#FFF5F6' }}>
         <div className="container mx-auto px-4 py-8">
-          <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-            <h2 className="text-red-800 font-semibold text-xl">Country not found</h2>
-            <p className="text-red-600 mt-2">
+          <div className="rounded-lg p-6" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderLeft: '4px solid #C41E3A', boxShadow: '0 1px 3px rgba(139, 26, 26, 0.08)' }}>
+            <h2 className="font-semibold text-xl" style={{ color: '#8B1A1A' }}>Country not found</h2>
+            <p className="mt-2" style={{ color: '#5C3D2E' }}>
               The country you are looking for does not exist or has been removed.
             </p>
             <Link
               to="/"
-              className="inline-block mt-4 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
+              className="inline-block mt-4 px-4 py-2 text-white rounded-lg transition-colors font-medium"
+              style={{ backgroundColor: '#C41E3A' }}
             >
               Back to Map
             </Link>
@@ -140,39 +141,39 @@ export default function CountryPage() {
   }
 
   return (
-    <div className="bg-gray-50 pb-4">
+    <div className="pb-4" style={{ backgroundColor: '#FFF5F6' }}>
       {/* Header */}
-      <div className="bg-white border-b shadow-sm">
+      <div style={{ borderBottom: '1px solid #E8C8C8', background: '#FFFFFF', boxShadow: '0 1px 3px rgba(139, 26, 26, 0.08)' }}>
         <div className="container mx-auto px-4 py-6">
           {/* Breadcrumb */}
           <nav className="mb-4">
-            <Link to="/" className="text-red-600 hover:text-red-700 hover:underline font-medium">
+            <Link to="/" className="font-medium" style={{ color: '#C41E3A' }}>
               World Map
             </Link>
-            <span className="mx-2 text-gray-400">/</span>
-            <span className="text-gray-600">{country.name_en}</span>
+            <span className="mx-2" style={{ color: '#8B7355' }}>/</span>
+            <span style={{ color: '#5C3D2E' }}>{country.name_en}</span>
           </nav>
 
           {/* Country title and info */}
           <div className="flex items-start justify-between flex-wrap gap-4">
             <div>
-              <h1 className="text-4xl font-bold text-gray-900 mb-2">
+              <h1 className="text-4xl font-bold mb-2" style={{ color: '#8B1A1A' }}>
                 {country.name_en}
               </h1>
               {country.name_native && country.name_native !== country.name_en && (
-                <p className="text-xl text-gray-500 mb-2">{country.name_native}</p>
+                <p className="text-xl mb-2" style={{ color: '#5C3D2E' }}>{country.name_native}</p>
               )}
               <div className="flex items-center flex-wrap gap-2 text-sm">
                 {country.iso_alpha2 && (
-                  <span className="bg-gray-100 px-2 py-1 rounded font-mono">{country.iso_alpha2}</span>
+                  <span className="px-2 py-1 rounded font-mono" style={{ background: 'rgba(196, 30, 58, 0.1)', color: '#C41E3A' }}>{country.iso_alpha2}</span>
                 )}
                 {country.iso_alpha3 && (
-                  <span className="bg-gray-100 px-2 py-1 rounded font-mono">{country.iso_alpha3}</span>
+                  <span className="px-2 py-1 rounded font-mono" style={{ background: 'rgba(196, 30, 58, 0.1)', color: '#C41E3A' }}>{country.iso_alpha3}</span>
                 )}
-                <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded capitalize">
+                <span className="px-2 py-1 rounded capitalize" style={{ background: 'rgba(212, 160, 23, 0.15)', color: '#8B6914' }}>
                   {country.entity_type.replace('_', ' ')}
                 </span>
-                <span className="text-gray-500">
+                <span style={{ color: '#8B7355' }}>
                   {new Date(country.valid_from).getFullYear()}
                   {country.valid_to
                     ? ' - ' + new Date(country.valid_to).getFullYear()
@@ -184,7 +185,7 @@ export default function CountryPage() {
 
             {/* Year indicator and external links */}
             <div className="flex flex-col items-end gap-2">
-              <div className="bg-red-100 text-red-800 px-3 py-1 rounded-lg font-semibold">
+              <div className="px-3 py-1 rounded-lg font-semibold" style={{ background: 'rgba(212, 160, 23, 0.15)', color: '#8B6914', border: '1px solid rgba(212, 160, 23, 0.3)' }}>
                 Viewing: {selectedYear}
               </div>
               <div className="flex gap-2">
@@ -193,7 +194,7 @@ export default function CountryPage() {
                     href={'https://www.wikidata.org/wiki/' + country.wikidata_id}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-3 py-1.5 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 text-sm font-medium"
+                    className="px-3 py-1.5 rounded-lg text-sm font-medium" style={{ background: 'rgba(196, 30, 58, 0.08)', color: '#C41E3A', border: '1px solid rgba(196, 30, 58, 0.3)' }}
                   >
                     Wikidata
                   </a>
@@ -202,7 +203,7 @@ export default function CountryPage() {
                   href={'https://en.wikipedia.org/wiki/' + encodeURIComponent(country.name_en)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-3 py-1.5 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 text-sm font-medium"
+                  className="px-3 py-1.5 rounded-lg text-sm font-medium" style={{ background: 'rgba(196, 30, 58, 0.08)', color: '#C41E3A', border: '1px solid rgba(196, 30, 58, 0.3)' }}
                 >
                   Wikipedia
                 </a>
@@ -213,7 +214,7 @@ export default function CountryPage() {
       </div>
 
       {/* Tabs navigation */}
-      <div className="bg-white border-b sticky top-0 z-10">
+      <div style={{ borderBottom: '1px solid #E8C8C8', background: '#FFFFFF' }} className="sticky top-0 z-10">
         <div className="container mx-auto px-4">
           <CountryTabs tabs={TABS} activeTab={activeTab} onTabChange={handleTabChange} />
         </div>

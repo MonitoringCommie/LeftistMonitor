@@ -41,16 +41,16 @@ const PopulationChart = memo(function PopulationChart({
 
   if (!data || data.length === 0) {
     return (
-      <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4">
-        <h3 className="text-lg font-semibold mb-3 dark:text-white">{title}</h3>
-        <p className="text-gray-500 dark:text-gray-400 text-sm">No population data available</p>
+      <div className="bg-white rounded-lg border p-4">
+        <h3 className="text-lg font-semibold mb-3">{title}</h3>
+        <p className="text-gray-500 text-sm">No population data available</p>
       </div>
     )
   }
 
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg border dark:border-gray-700 p-4">
-      <h3 className="text-lg font-semibold mb-3 dark:text-white">{title}</h3>
+    <div className="bg-white rounded-lg border p-4">
+      <h3 className="text-lg font-semibold mb-3">{title}</h3>
       <ResponsiveContainer width="100%" height={300}>
         <AreaChart data={sortedData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
           <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />

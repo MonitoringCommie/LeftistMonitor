@@ -119,10 +119,11 @@ export default function CareerTimeline({
               Life
             </div>
             <div
-              className="absolute h-4 top-1 bg-gray-200 rounded-full"
+              className="absolute h-4 top-1 rounded-full"
               style={{
                 left: `${getPosition(birthYear)}%`,
                 width: `${getWidth(birthYear, deathYear || new Date().getFullYear())}%`,
+                background: 'rgba(196, 30, 58, 0.1)',
               }}
             >
               {birthYear && (

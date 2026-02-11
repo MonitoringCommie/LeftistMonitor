@@ -64,20 +64,29 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center py-12 px-4">
+    <div style={{ backgroundColor: '#FFF5F6' }} className="min-h-screen flex items-center justify-center py-12 px-4">
       <div className="max-w-md w-full">
         <div className="text-center mb-8">
-          <Link to="/" className="text-3xl font-bold text-red-600">
+          <Link to="/" className="text-3xl font-bold" style={{ color: '#C41E3A' }}>
             LeftistMonitor
           </Link>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2" style={{ color: '#8B7355' }}>
             {isRegistering ? 'Create an account to contribute' : 'Sign in to your account'}
           </p>
         </div>
 
-        <div className="bg-white rounded-lg shadow-md p-8">
+        <div style={{
+          background: '#FFFFFF',
+          border: '1px solid #E8C8C8',
+          borderLeft: '4px solid #C41E3A',
+          borderRadius: '10px'
+        }} className="p-8">
           {error && (
-            <div className="mb-4 p-3 bg-red-50 border border-red-200 text-red-700 rounded-lg text-sm">
+            <div style={{
+              background: 'rgba(196, 30, 58, 0.08)',
+              border: '1px solid rgba(196, 30, 58, 0.3)',
+              color: '#C41E3A'
+            }} className="mb-4 p-3 rounded-lg text-sm">
               {error}
             </div>
           )}
@@ -85,7 +94,7 @@ export default function LoginPage() {
           {isRegistering ? (
             <form onSubmit={handleRegister} className="space-y-4">
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="email" className="block text-sm font-medium mb-1" style={{ color: '#5C3D2E' }}>
                   Email
                 </label>
                 <input
@@ -93,13 +102,26 @@ export default function LoginPage() {
                   name="email"
                   type="email"
                   required
-                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500"
+                  style={{
+                    background: '#FFF5F6',
+                    borderColor: 'rgba(196, 30, 58, 0.3)',
+                    color: '#2C1810'
+                  }}
+                  className="w-full px-4 py-2 border rounded-lg focus:outline-none"
                   placeholder="you@example.com"
+                  onFocus={(e) => {
+                    e.currentTarget.style.borderColor = '#C41E3A'
+                    e.currentTarget.style.boxShadow = '0 0 0 2px rgba(196, 30, 58, 0.2)'
+                  }}
+                  onBlur={(e) => {
+                    e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.3)'
+                    e.currentTarget.style.boxShadow = 'none'
+                  }}
                 />
               </div>
 
               <div>
-                <label htmlFor="username" className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="username" className="block text-sm font-medium mb-1" style={{ color: '#5C3D2E' }}>
                   Username
                 </label>
                 <input
@@ -108,13 +130,26 @@ export default function LoginPage() {
                   type="text"
                   required
                   minLength={3}
-                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500"
+                  style={{
+                    background: '#FFF5F6',
+                    borderColor: 'rgba(196, 30, 58, 0.3)',
+                    color: '#2C1810'
+                  }}
+                  className="w-full px-4 py-2 border rounded-lg focus:outline-none"
                   placeholder="username"
+                  onFocus={(e) => {
+                    e.currentTarget.style.borderColor = '#C41E3A'
+                    e.currentTarget.style.boxShadow = '0 0 0 2px rgba(196, 30, 58, 0.2)'
+                  }}
+                  onBlur={(e) => {
+                    e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.3)'
+                    e.currentTarget.style.boxShadow = 'none'
+                  }}
                 />
               </div>
 
               <div>
-                <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="password" className="block text-sm font-medium mb-1" style={{ color: '#5C3D2E' }}>
                   Password
                 </label>
                 <input
@@ -123,13 +158,26 @@ export default function LoginPage() {
                   type="password"
                   required
                   minLength={8}
-                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500"
+                  style={{
+                    background: '#FFF5F6',
+                    borderColor: 'rgba(196, 30, 58, 0.3)',
+                    color: '#2C1810'
+                  }}
+                  className="w-full px-4 py-2 border rounded-lg focus:outline-none"
                   placeholder="********"
+                  onFocus={(e) => {
+                    e.currentTarget.style.borderColor = '#C41E3A'
+                    e.currentTarget.style.boxShadow = '0 0 0 2px rgba(196, 30, 58, 0.2)'
+                  }}
+                  onBlur={(e) => {
+                    e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.3)'
+                    e.currentTarget.style.boxShadow = 'none'
+                  }}
                 />
               </div>
 
               <div>
-                <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="confirmPassword" className="block text-sm font-medium mb-1" style={{ color: '#5C3D2E' }}>
                   Confirm Password
                 </label>
                 <input
@@ -138,15 +186,32 @@ export default function LoginPage() {
                   type="password"
                   required
                   minLength={8}
-                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500"
+                  style={{
+                    background: '#FFF5F6',
+                    borderColor: 'rgba(196, 30, 58, 0.3)',
+                    color: '#2C1810'
+                  }}
+                  className="w-full px-4 py-2 border rounded-lg focus:outline-none"
                   placeholder="********"
+                  onFocus={(e) => {
+                    e.currentTarget.style.borderColor = '#C41E3A'
+                    e.currentTarget.style.boxShadow = '0 0 0 2px rgba(196, 30, 58, 0.2)'
+                  }}
+                  onBlur={(e) => {
+                    e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.3)'
+                    e.currentTarget.style.boxShadow = 'none'
+                  }}
                 />
               </div>
 
               <button
                 type="submit"
                 disabled={register.isPending || login.isPending}
-                className="w-full py-2 px-4 bg-red-600 text-white rounded-lg hover:bg-red-700 disabled:opacity-50 disabled:cursor-not-allowed font-medium"
+                style={{
+                  background: '#C41E3A',
+                  color: '#fff'
+                }}
+                className="w-full py-2 px-4 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed font-medium hover:opacity-90 transition-opacity"
               >
                 {register.isPending || login.isPending ? 'Creating account...' : 'Create Account'}
               </button>
@@ -154,7 +219,7 @@ export default function LoginPage() {
           ) : (
             <form onSubmit={handleLogin} className="space-y-4">
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="email" className="block text-sm font-medium mb-1" style={{ color: '#5C3D2E' }}>
                   Email
                 </label>
                 <input
@@ -162,13 +227,26 @@ export default function LoginPage() {
                   name="email"
                   type="email"
                   required
-                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500"
+                  style={{
+                    background: '#FFF5F6',
+                    borderColor: 'rgba(196, 30, 58, 0.3)',
+                    color: '#2C1810'
+                  }}
+                  className="w-full px-4 py-2 border rounded-lg focus:outline-none"
                   placeholder="you@example.com"
+                  onFocus={(e) => {
+                    e.currentTarget.style.borderColor = '#C41E3A'
+                    e.currentTarget.style.boxShadow = '0 0 0 2px rgba(196, 30, 58, 0.2)'
+                  }}
+                  onBlur={(e) => {
+                    e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.3)'
+                    e.currentTarget.style.boxShadow = 'none'
+                  }}
                 />
               </div>
 
               <div>
-                <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="password" className="block text-sm font-medium mb-1" style={{ color: '#5C3D2E' }}>
                   Password
                 </label>
                 <input
@@ -176,15 +254,32 @@ export default function LoginPage() {
                   name="password"
                   type="password"
                   required
-                  className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-red-500 focus:border-red-500"
+                  style={{
+                    background: '#FFF5F6',
+                    borderColor: 'rgba(196, 30, 58, 0.3)',
+                    color: '#2C1810'
+                  }}
+                  className="w-full px-4 py-2 border rounded-lg focus:outline-none"
                   placeholder="********"
+                  onFocus={(e) => {
+                    e.currentTarget.style.borderColor = '#C41E3A'
+                    e.currentTarget.style.boxShadow = '0 0 0 2px rgba(196, 30, 58, 0.2)'
+                  }}
+                  onBlur={(e) => {
+                    e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.3)'
+                    e.currentTarget.style.boxShadow = 'none'
+                  }}
                 />
               </div>
 
               <button
                 type="submit"
                 disabled={login.isPending}
-                className="w-full py-2 px-4 bg-red-600 text-white rounded-lg hover:bg-red-700 disabled:opacity-50 disabled:cursor-not-allowed font-medium"
+                style={{
+                  background: '#C41E3A',
+                  color: '#fff'
+                }}
+                className="w-full py-2 px-4 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed font-medium hover:opacity-90 transition-opacity"
               >
                 {login.isPending ? 'Signing in...' : 'Sign In'}
               </button>
@@ -197,7 +292,8 @@ export default function LoginPage() {
                 setIsRegistering(!isRegistering)
                 setError(null)
               }}
-              className="text-red-600 hover:text-red-700 text-sm"
+              style={{ color: '#C41E3A' }}
+              className="hover:opacity-80 text-sm transition-opacity"
             >
               {isRegistering
                 ? 'Already have an account? Sign in'
@@ -206,8 +302,8 @@ export default function LoginPage() {
           </div>
         </div>
 
-        <p className="mt-4 text-center text-sm text-gray-500">
-          <Link to="/" className="hover:text-red-600">
+        <p className="mt-4 text-center text-sm" style={{ color: '#8B7355' }}>
+          <Link to="/" style={{ color: '#C41E3A' }} className="hover:opacity-80">
             Back to Map
           </Link>
         </p>

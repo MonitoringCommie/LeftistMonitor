@@ -30,36 +30,48 @@ const icons = {
   election: 'M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4',
 }
 
+// Color palette for category accents (warm muted tones for light theme)
+const accentColors = [
+  '#8B1A1A', // deep red
+  '#6B3A3A', // muted rose
+  '#8B6914', // dark gold
+  '#5C3D2E', // warm brown
+  '#7A4A5A', // dusty rose
+  '#6A4A3A', // warm stone
+  '#5A6A4A', // olive
+  '#6A3A5A', // plum
+]
+
 const categories: CategorySection[] = [
   {
     title: 'Explore',
     topics: [
       {
         title: 'World Map',
-        description: 'Interactive map with historical borders and geopolitical data',
+        description: 'Explore wars, conflicts, borders, and liberation struggles across the world',
         path: '/map',
-        accent: 'border-l-rose-600',
-        iconPath: icons.map,
+        accent: '#C41E3A',
+        iconPath: 'M21 12a9 9 0 11-18 0 9 9 0 0118 0z M3.6 9h16.8 M3.6 15h16.8 M12 3a15.3 15.3 0 014 9 15.3 15.3 0 01-4 9 15.3 15.3 0 01-4-9 15.3 15.3 0 014-9z',
       },
       {
         title: 'Books & Literature',
         description: 'Political texts, revolutionary writings, and theory',
         path: '/books',
-        accent: 'border-l-amber-600',
+        accent: '#8B6914',
         iconPath: icons.book,
       },
       {
         title: 'People & Figures',
         description: 'Political leaders, activists, theorists, and movements',
         path: '/people',
-        accent: 'border-l-violet-600',
+        accent: '#8B1A1A',
         iconPath: icons.people,
       },
       {
         title: 'Statistics',
         description: 'GDP, demographics, military spending, and global data',
         path: '/stats',
-        accent: 'border-l-sky-600',
+        accent: '#C41E3A',
         iconPath: icons.chart,
       },
     ],
@@ -71,29 +83,50 @@ const categories: CategorySection[] = [
         title: 'Conflicts & Wars',
         description: 'Armed conflicts, frontlines, and military operations',
         path: '/frontlines',
-        accent: 'border-l-orange-600',
+        accent: '#C41E3A',
         iconPath: icons.conflict,
       },
       {
         title: 'Feminist Movements',
         description: "Women's liberation, suffrage, and gender equality struggles",
         path: '/movements/feminist',
-        accent: 'border-l-fuchsia-600',
+        accent: '#8B1A1A',
         iconPath: icons.feminist,
       },
       {
         title: 'Civil Rights',
         description: 'Racial justice, anti-colonialism, and liberation movements',
         path: '/movements/civil-rights',
-        accent: 'border-l-emerald-600',
+        accent: '#D4A017',
         iconPath: icons.fist,
       },
       {
         title: 'Labor & Unions',
         description: 'Worker movements, strikes, and union organizing',
         path: '/movements/labor',
-        accent: 'border-l-red-600',
+        accent: '#C41E3A',
         iconPath: icons.labor,
+      },
+      {
+        title: 'LGBTQ+ Movements',
+        description: 'Pride history, Stonewall, marriage equality, and transgender rights',
+        path: '/movements/lgbtq',
+        accent: '#8B1A1A',
+        iconPath: icons.people,
+      },
+      {
+        title: 'Environmental',
+        description: 'Climate justice, indigenous land defense, and ecological movements',
+        path: '/movements/environmental',
+        accent: '#8B6914',
+        iconPath: icons.map,
+      },
+      {
+        title: 'Indigenous Peoples',
+        description: 'Land rights, sovereignty, and resistance to colonialism worldwide',
+        path: '/movements/indigenous',
+        accent: '#D4A017',
+        iconPath: icons.fist,
       },
     ],
   },
@@ -104,28 +137,28 @@ const categories: CategorySection[] = [
         title: 'Slavery & Economics',
         description: 'The economics of slavery, colonialism, and exploitation',
         path: '/history/slavery',
-        accent: 'border-l-stone-600',
+        accent: '#8B1A1A',
         iconPath: icons.chains,
       },
       {
         title: 'Elections',
         description: 'Electoral history, voting patterns, and political parties',
         path: '/elections',
-        accent: 'border-l-blue-600',
+        accent: '#C41E3A',
         iconPath: icons.election,
       },
       {
         title: 'Compare Countries',
         description: 'Side-by-side analysis across multiple metrics',
         path: '/compare',
-        accent: 'border-l-purple-600',
+        accent: '#8B6914',
         iconPath: icons.compare,
       },
       {
         title: 'Glossary',
         description: 'Political concepts, terminology, and theory explained',
         path: '/glossary',
-        accent: 'border-l-teal-600',
+        accent: '#D4A017',
         iconPath: icons.glossary,
       },
     ],
@@ -133,7 +166,7 @@ const categories: CategorySection[] = [
 ]
 
 const liberationStruggles = [
-  'Palestine', 'Ireland', 'Kurdistan', 'Kashmir', 
+  'Palestine', 'Ireland', 'Kurdistan', 'Kashmir',
   'Tibet', 'Western Sahara', 'West Papua', 'Puerto Rico'
 ]
 
@@ -178,51 +211,80 @@ export default function HubPage() {
   }
 
   return (
-    <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950">
-      <header className="border-b border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
-        <div className="max-w-7xl mx-auto px-6 py-12">
-          <div className="flex items-center gap-3 mb-3">
-            <div className="w-10 h-10 bg-rose-600 rounded-lg flex items-center justify-center">
-              <span className="text-white text-xl font-bold">L</span>
+    <div style={{ backgroundColor: '#FFF5F6', minHeight: '100vh' }}>
+      {/* Header Section */}
+      <header style={{
+        borderBottom: '1px solid #E8C8C8',
+        background: '#FFFFFF',
+        boxShadow: '0 1px 3px rgba(139, 26, 26, 0.08)'
+      }}>
+        <div style={{ maxWidth: '80rem', margin: '0 auto', padding: '3rem 1.5rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
+            <div style={{
+              width: '2.5rem',
+              height: '2.5rem',
+              background: '#C41E3A',
+              borderRadius: '0.5rem',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              boxShadow: '0 2px 8px rgba(196, 30, 58, 0.3)'
+            }}>
+              <span style={{ color: '#fff', fontSize: '1.25rem', fontWeight: 'bold' }}>L</span>
             </div>
-            <h1 className="text-3xl font-semibold text-neutral-900 dark:text-neutral-100 tracking-tight">
+            <h1 style={{
+              fontSize: '2.25rem',
+              fontWeight: '600',
+              color: '#8B1A1A',
+              letterSpacing: '-0.02em'
+            }}>
               Leftist Monitor
             </h1>
           </div>
-          <p className="text-neutral-600 dark:text-neutral-400 max-w-2xl text-lg">
+          <p style={{
+            color: '#5C3D2E',
+            maxWidth: '40rem',
+            fontSize: '0.95rem',
+            lineHeight: '1.6'
+          }}>
             A comprehensive database of global political history, liberation movements, and social struggles.
           </p>
         </div>
       </header>
 
-      <div className="border-b border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex flex-wrap gap-8 text-sm">
+      {/* Stats Section */}
+      <div style={{
+        borderBottom: '1px solid #E8C8C8',
+        background: '#FFFFFF',
+        borderTop: '3px solid #C41E3A'
+      }}>
+        <div style={{ maxWidth: '80rem', margin: '0 auto', padding: '1rem 1.5rem' }}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', fontSize: '0.875rem' }}>
             {stats && (
               <>
-                <div className="flex items-center gap-2">
-                  <span className="text-neutral-500">Countries</span>
-                  <span className="font-semibold text-neutral-900 dark:text-neutral-100">{formatNumber(stats.countries)}</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <span style={{ color: '#8B7355' }}>Countries</span>
+                  <span style={{ fontWeight: '600', color: '#2C1810' }}>{formatNumber(stats.countries)}</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-neutral-500">People</span>
-                  <span className="font-semibold text-neutral-900 dark:text-neutral-100">{formatNumber(stats.people)}</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <span style={{ color: '#8B7355' }}>People</span>
+                  <span style={{ fontWeight: '600', color: '#2C1810' }}>{formatNumber(stats.people)}</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-neutral-500">Books</span>
-                  <span className="font-semibold text-neutral-900 dark:text-neutral-100">{formatNumber(stats.books)}</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <span style={{ color: '#8B7355' }}>Books</span>
+                  <span style={{ fontWeight: '600', color: '#2C1810' }}>{formatNumber(stats.books)}</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-neutral-500">Events</span>
-                  <span className="font-semibold text-neutral-900 dark:text-neutral-100">{formatNumber(stats.events)}</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <span style={{ color: '#8B7355' }}>Events</span>
+                  <span style={{ fontWeight: '600', color: '#2C1810' }}>{formatNumber(stats.events)}</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-neutral-500">Conflicts</span>
-                  <span className="font-semibold text-neutral-900 dark:text-neutral-100">{formatNumber(stats.conflicts)}</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <span style={{ color: '#8B7355' }}>Conflicts</span>
+                  <span style={{ fontWeight: '600', color: '#2C1810' }}>{formatNumber(stats.conflicts)}</span>
                 </div>
-                <div className="flex items-center gap-2">
-                  <span className="text-neutral-500">Elections</span>
-                  <span className="font-semibold text-neutral-900 dark:text-neutral-100">{formatNumber(stats.elections)}</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <span style={{ color: '#8B7355' }}>Elections</span>
+                  <span style={{ fontWeight: '600', color: '#2C1810' }}>{formatNumber(stats.elections)}</span>
                 </div>
               </>
             )}
@@ -230,28 +292,102 @@ export default function HubPage() {
         </div>
       </div>
 
-      <main className="max-w-7xl mx-auto px-6 py-12">
-        {categories.map((category) => (
-          <section key={category.title} className="mb-12">
-            <h2 className="text-xs font-semibold uppercase tracking-wider text-neutral-500 mb-4">
+      {/* Main Content */}
+      <main style={{ maxWidth: '80rem', margin: '0 auto', padding: '3rem 1.5rem' }}>
+        {categories.map((category, categoryIndex) => (
+          <section key={category.title} style={{ marginBottom: '3rem' }}>
+            <h2 style={{
+              fontSize: '0.6875rem',
+              textTransform: 'uppercase',
+              color: '#8B1A1A',
+              fontWeight: '600',
+              letterSpacing: '0.05em',
+              marginBottom: '1rem'
+            }}>
               {category.title}
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+              gap: '1rem'
+            }}>
               {category.topics.map((topic) => (
                 <Link
                   key={topic.path}
                   to={topic.path}
-                  className={`group block p-5 rounded-lg border-l-4 ${topic.accent} bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700 transition-all duration-150 hover:shadow-sm`}
+                  style={{ textDecoration: 'none', color: 'inherit' }}
                 >
-                  <div className="flex items-start gap-4">
-                    <div className="shrink-0 w-10 h-10 rounded-lg bg-neutral-100 dark:bg-neutral-800 flex items-center justify-center group-hover:bg-neutral-200 dark:group-hover:bg-neutral-700 transition-colors">
-                      <svg className="w-5 h-5 text-neutral-600 dark:text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                  <div
+                    style={{
+                      background: '#FFFFFF',
+                      border: '1px solid #E8C8C8',
+                      borderLeft: `4px solid ${topic.accent}`,
+                      borderRadius: '10px',
+                      padding: '1.25rem',
+                      display: 'flex',
+                      gap: '1rem',
+                      alignItems: 'flex-start',
+                      transition: 'all 0.3s ease',
+                      cursor: 'pointer',
+                      height: '100%',
+                      boxSizing: 'border-box',
+                      boxShadow: '0 1px 3px rgba(139, 26, 26, 0.06)'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.borderColor = topic.accent;
+                      e.currentTarget.style.background = 'rgba(196, 30, 58, 0.03)';
+                      e.currentTarget.style.boxShadow = `0 4px 12px rgba(196, 30, 58, 0.1)`;
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.borderColor = '#E8C8C8';
+                      e.currentTarget.style.borderLeftColor = topic.accent;
+                      e.currentTarget.style.background = '#FFFFFF';
+                      e.currentTarget.style.boxShadow = '0 1px 3px rgba(139, 26, 26, 0.06)';
+                    }}
+                  >
+                    {/* Icon Container */}
+                    <div style={{
+                      width: '2.5rem',
+                      height: '2.5rem',
+                      minWidth: '2.5rem',
+                      borderRadius: '0.5rem',
+                      background: `rgba(196, 30, 58, 0.08)`,
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      transition: 'all 0.3s ease'
+                    }}>
+                      <svg style={{
+                        width: '1.25rem',
+                        height: '1.25rem',
+                        color: topic.accent
+                      }} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                         <path strokeLinecap="round" strokeLinejoin="round" d={topic.iconPath} />
                       </svg>
                     </div>
-                    <div className="min-w-0">
-                      <h3 className="font-medium text-neutral-900 dark:text-neutral-100 mb-1">{topic.title}</h3>
-                      <p className="text-sm text-neutral-500 line-clamp-2">{topic.description}</p>
+
+                    {/* Content */}
+                    <div style={{ minWidth: '0', flex: '1' }}>
+                      <h3 style={{
+                        fontWeight: '600',
+                        color: '#2C1810',
+                        marginBottom: '0.5rem',
+                        fontSize: '0.95rem'
+                      }}>
+                        {topic.title}
+                      </h3>
+                      <p style={{
+                        fontSize: '0.85rem',
+                        color: '#8B7355',
+                        lineHeight: '1.4',
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        display: '-webkit-box',
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: 'vertical'
+                      }}>
+                        {topic.description}
+                      </p>
                     </div>
                   </div>
                 </Link>
@@ -260,28 +396,86 @@ export default function HubPage() {
           </section>
         ))}
 
-        <section className="mb-12">
-          <h2 className="text-xs font-semibold uppercase tracking-wider text-neutral-500 mb-4">Liberation Struggles</h2>
-          <div className="flex flex-wrap gap-2">
+        {/* Liberation Struggles Section */}
+        <section style={{ marginBottom: '3rem' }}>
+          <h2 style={{
+            fontSize: '0.6875rem',
+            textTransform: 'uppercase',
+            color: '#8B1A1A',
+            fontWeight: '600',
+            letterSpacing: '0.05em',
+            marginBottom: '1rem'
+          }}>
+            Liberation Struggles
+          </h2>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
             {liberationStruggles.map((struggle) => (
               <Link
                 key={struggle}
                 to={`/map?focus=${struggle.toLowerCase().replace(' ', '-')}`}
-                className="px-4 py-2 text-sm font-medium rounded-full bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 hover:bg-rose-100 dark:hover:bg-rose-900/30 hover:text-rose-700 dark:hover:text-rose-400 border border-neutral-200 dark:border-neutral-700 hover:border-rose-300 dark:hover:border-rose-800 transition-colors"
+                style={{ textDecoration: 'none' }}
               >
-                {struggle}
+                <div
+                  style={{
+                    padding: '0.5rem 1rem',
+                    fontSize: '0.875rem',
+                    fontWeight: '500',
+                    borderRadius: '9999px',
+                    background: 'rgba(196, 30, 58, 0.08)',
+                    color: '#C41E3A',
+                    border: '1px solid rgba(196, 30, 58, 0.3)',
+                    transition: 'all 0.3s ease',
+                    cursor: 'pointer'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.6)';
+                    e.currentTarget.style.background = 'rgba(196, 30, 58, 0.15)';
+                    e.currentTarget.style.color = '#8B1A1A';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.3)';
+                    e.currentTarget.style.background = 'rgba(196, 30, 58, 0.08)';
+                    e.currentTarget.style.color = '#C41E3A';
+                  }}
+                >
+                  {struggle}
+                </div>
               </Link>
             ))}
           </div>
         </section>
 
-        <section className="pt-8 border-t border-neutral-200 dark:border-neutral-800">
-          <div className="flex items-center justify-between">
-            <p className="text-sm text-neutral-500">Data from Wikidata, World Bank, UCDP, and open sources.</p>
-            <Link to="/about" className="text-sm font-medium text-rose-600 hover:text-rose-700 dark:text-rose-500 dark:hover:text-rose-400">
+        {/* Footer Section */}
+        <section style={{
+          paddingTop: '2rem',
+          borderTop: '1px solid #E8C8C8',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between'
+        }}>
+          <p style={{
+            fontSize: '0.875rem',
+            color: '#8B7355'
+          }}>
+            Data from Wikidata, World Bank, UCDP, and open sources.
+          </p>
+          <Link to="/about" style={{ textDecoration: 'none' }}>
+            <div style={{
+              fontSize: '0.875rem',
+              fontWeight: '600',
+              color: '#C41E3A',
+              transition: 'color 0.3s ease',
+              cursor: 'pointer'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.color = '#8B1A1A';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.color = '#C41E3A';
+            }}>
               About this project
-            </Link>
-          </div>
+            </div>
+          </Link>
         </section>
       </main>
     </div>
