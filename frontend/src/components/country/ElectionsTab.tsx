@@ -39,7 +39,10 @@ export default function ElectionsTab({ countryId, year }: ElectionsTabProps) {
   const { data: electionsData, isLoading: loadingElections } = useElections(countryId)
   const { data: electionDetail } = useElection(selectedElectionId || '')
 
-  const elections = electionsData?.items || []
+  const elections = useMemo(() => {
+    const items = electionsData?.items || []
+    return [...items].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  }, [electionsData])
 
   const closestElection = elections.reduce((closest, election) => {
     const electionYear = new Date(election.date).getFullYear()
@@ -83,12 +86,12 @@ export default function ElectionsTab({ countryId, year }: ElectionsTabProps) {
             <button
               key={election.id}
               onClick={() => { setSelectedElectionId(election.id); setShowTrends(false); }}
-              className={`
-                px-3 py-1.5 text-sm rounded-full whitespace-nowrap transition-colors
-                ${selectedElectionId === election.id && !showTrends
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}
-              `}
+              className="px-3 py-1.5 text-sm rounded-full whitespace-nowrap transition-colors font-medium"
+              style={
+                selectedElectionId === election.id && !showTrends
+                  ? { background: '#C41E3A', color: '#FFFFFF' }
+                  : { background: 'rgba(196, 30, 58, 0.08)', color: '#5C3D2E', border: '1px solid #E8C8C8' }
+              }
             >
               {new Date(election.date).getFullYear()} {election.election_type}
             </button>
@@ -96,60 +99,63 @@ export default function ElectionsTab({ countryId, year }: ElectionsTabProps) {
         </div>
         <button
           onClick={() => setShowTrends(!showTrends)}
-          className={`ml-2 px-3 py-1.5 text-sm rounded-full whitespace-nowrap transition-colors ${
-            showTrends ? 'bg-purple-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-          }`}
+          className="ml-2 px-3 py-1.5 text-sm rounded-full whitespace-nowrap transition-colors font-medium"
+          style={
+            showTrends
+              ? { background: '#D4A017', color: '#FFFFFF' }
+              : { background: 'rgba(196, 30, 58, 0.08)', color: '#5C3D2E', border: '1px solid #E8C8C8' }
+          }
         >
           {showTrends ? 'Hide Trends' : 'Show Trends'}
         </button>
       </div>
 
       {loadingElections ? (
-        <div className="text-center py-8 text-gray-500">Loading elections...</div>
+        <div className="text-center py-8" style={{ color: '#8B7355' }}>Loading elections...</div>
       ) : elections.length === 0 ? (
-        <div className="text-center py-8 text-gray-500">No election data available.</div>
+        <div className="text-center py-8" style={{ color: '#8B7355' }}>No election data available.</div>
       ) : showTrends ? (
         <VotingTrends countryId={countryId} />
       ) : electionDetail ? (
         <>
-          <div className="bg-white rounded-lg border p-4">
-            <h3 className="font-semibold">{electionDetail.election_type} Election</h3>
-            <p className="text-sm text-gray-500">{formatDate(electionDetail.date)}</p>
+          <div className="rounded-lg p-4" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderLeft: '4px solid #C41E3A' }}>
+            <h3 className="font-semibold" style={{ color: '#8B1A1A' }}>{electionDetail.election_type} Election</h3>
+            <p className="text-sm" style={{ color: '#8B7355' }}>{formatDate(electionDetail.date)}</p>
             <div className="flex gap-6 mt-2 text-sm">
               {electionDetail.turnout_percent && (
                 <div>
-                  <span className="text-gray-500">Turnout:</span>
-                  <span className="ml-1 font-medium">{electionDetail.turnout_percent.toFixed(1)}%</span>
+                  <span style={{ color: '#8B7355' }}>Turnout:</span>
+                  <span className="ml-1 font-medium" style={{ color: '#2C1810' }}>{electionDetail.turnout_percent.toFixed(1)}%</span>
                 </div>
               )}
               {electionDetail.total_votes && (
                 <div>
-                  <span className="text-gray-500">Total Votes:</span>
-                  <span className="ml-1 font-medium">{electionDetail.total_votes.toLocaleString()}</span>
+                  <span style={{ color: '#8B7355' }}>Total Votes:</span>
+                  <span className="ml-1 font-medium" style={{ color: '#2C1810' }}>{electionDetail.total_votes.toLocaleString()}</span>
                 </div>
               )}
               {electionDetail.total_seats && (
                 <div>
-                  <span className="text-gray-500">Seats:</span>
-                  <span className="ml-1 font-medium">{electionDetail.total_seats}</span>
+                  <span style={{ color: '#8B7355' }}>Seats:</span>
+                  <span className="ml-1 font-medium" style={{ color: '#2C1810' }}>{electionDetail.total_seats}</span>
                 </div>
               )}
             </div>
           </div>
 
           {hemicycleData.length > 0 && (
-            <div className="bg-white rounded-lg border p-4">
-              <h4 className="text-sm font-medium mb-3 text-center">Parliament Composition</h4>
-              <ParliamentHemicycle 
-                parties={hemicycleData} 
+            <div className="rounded-lg p-4" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderLeft: '4px solid #C41E3A' }}>
+              <h4 className="text-sm font-medium mb-3 text-center" style={{ color: '#8B1A1A' }}>Parliament Composition</h4>
+              <ParliamentHemicycle
+                parties={hemicycleData}
                 totalSeats={electionDetail.total_seats || 0}
               />
             </div>
           )}
 
           {chartData.length > 0 && (
-            <div className="bg-white rounded-lg border p-4">
-              <h4 className="text-sm font-medium mb-3">Vote Share (%)</h4>
+            <div className="rounded-lg p-4" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderLeft: '4px solid #C41E3A' }}>
+              <h4 className="text-sm font-medium mb-3" style={{ color: '#8B1A1A' }}>Vote Share (%)</h4>
               <ResponsiveContainer width="100%" height={200}>
                 <BarChart data={chartData} layout="vertical">
                   <XAxis type="number" domain={[0, 'auto']} tickFormatter={(v) => `${v}%`} />
@@ -157,6 +163,7 @@ export default function ElectionsTab({ countryId, year }: ElectionsTabProps) {
                   <Tooltip
                     formatter={(value) => [`${Number(value).toFixed(1)}%`, 'Vote Share']}
                     labelFormatter={(label) => chartData.find(d => d.name === label)?.fullName || label}
+                    contentStyle={{ backgroundColor: '#FFFFFF', border: '1px solid #E8C8C8', borderRadius: '8px', color: '#2C1810' }}
                   />
                   <Bar dataKey="votes" radius={[0, 4, 4, 0]}>
                     {chartData.map((entry, index) => (
@@ -168,31 +175,31 @@ export default function ElectionsTab({ countryId, year }: ElectionsTabProps) {
             </div>
           )}
 
-          <div className="bg-white rounded-lg border overflow-hidden">
+          <div className="rounded-lg overflow-hidden" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderLeft: '4px solid #C41E3A' }}>
             <table className="w-full text-sm">
-              <thead className="bg-gray-50">
-                <tr>
-                  <th className="text-left px-3 py-2 font-medium">Party</th>
-                  <th className="text-right px-3 py-2 font-medium">Votes</th>
-                  <th className="text-right px-3 py-2 font-medium">%</th>
-                  <th className="text-right px-3 py-2 font-medium">Seats</th>
+              <thead>
+                <tr style={{ background: 'rgba(196, 30, 58, 0.06)' }}>
+                  <th className="text-left px-3 py-2 font-medium" style={{ color: '#8B1A1A' }}>Party</th>
+                  <th className="text-right px-3 py-2 font-medium" style={{ color: '#8B1A1A' }}>Votes</th>
+                  <th className="text-right px-3 py-2 font-medium" style={{ color: '#8B1A1A' }}>%</th>
+                  <th className="text-right px-3 py-2 font-medium" style={{ color: '#8B1A1A' }}>Seats</th>
                 </tr>
               </thead>
               <tbody>
                 {electionDetail.results.map((result, index) => (
-                  <tr key={result.id} className="border-t">
+                  <tr key={result.id} style={{ borderTop: '1px solid #E8C8C8' }}>
                     <td className="px-3 py-2">
                       <div className="flex items-center gap-2">
                         <div
                           className="w-3 h-3 rounded-full"
                           style={{ backgroundColor: getPartyColor(result.party_family, index) }}
                         />
-                        <span className="truncate max-w-[150px]">{result.party_name}</span>
+                        <span className="truncate max-w-[150px]" style={{ color: '#2C1810' }}>{result.party_name}</span>
                       </div>
                     </td>
-                    <td className="text-right px-3 py-2">{result.votes?.toLocaleString() || '-'}</td>
-                    <td className="text-right px-3 py-2">{result.vote_share?.toFixed(1) || '-'}%</td>
-                    <td className="text-right px-3 py-2">{result.seats || '-'}</td>
+                    <td className="text-right px-3 py-2" style={{ color: '#5C3D2E' }}>{result.votes?.toLocaleString() || '-'}</td>
+                    <td className="text-right px-3 py-2" style={{ color: '#5C3D2E' }}>{result.vote_share?.toFixed(1) || '-'}%</td>
+                    <td className="text-right px-3 py-2" style={{ color: '#5C3D2E' }}>{result.seats || '-'}</td>
                   </tr>
                 ))}
               </tbody>
@@ -214,7 +221,7 @@ function VotingTrends({ countryId }: { countryId: string }) {
 
     // Find parties that appear most frequently and have high vote shares
     const partyScores: Record<string, { count: number; totalVotes: number; name: string; short?: string; family?: string }> = {}
-    
+
     trends.forEach(election => {
       election.parties.forEach(party => {
         const id = party.party_id
@@ -245,8 +252,8 @@ function VotingTrends({ countryId }: { countryId: string }) {
       return point
     })
 
-    return { 
-      chartData: data, 
+    return {
+      chartData: data,
       topParties: sortedParties.map((p, i) => ({
         id: p.id,
         name: p.short || p.name.slice(0, 12),
@@ -258,7 +265,7 @@ function VotingTrends({ countryId }: { countryId: string }) {
 
   if (isLoading) {
     return (
-      <div className="bg-white rounded-lg border p-8 text-center text-gray-500">
+      <div className="rounded-lg p-8 text-center" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderLeft: '4px solid #C41E3A', color: '#8B7355' }}>
         Loading voting trends...
       </div>
     )
@@ -266,24 +273,25 @@ function VotingTrends({ countryId }: { countryId: string }) {
 
   if (!trends || trends.length < 2) {
     return (
-      <div className="bg-white rounded-lg border p-8 text-center text-gray-500">
+      <div className="rounded-lg p-8 text-center" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderLeft: '4px solid #C41E3A', color: '#8B7355' }}>
         Not enough election data for trends. Need at least 2 elections.
       </div>
     )
   }
 
   return (
-    <div className="bg-white rounded-lg border p-4">
-      <h4 className="text-sm font-medium mb-4">Voting Trends Over Time</h4>
+    <div className="rounded-lg p-4" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderLeft: '4px solid #C41E3A' }}>
+      <h4 className="text-sm font-medium mb-4" style={{ color: '#8B1A1A' }}>Voting Trends Over Time</h4>
       <ResponsiveContainer width="100%" height={300}>
         <LineChart data={chartData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-          <XAxis dataKey="year" />
-          <YAxis tickFormatter={(v) => `${v}%`} domain={[0, 'auto']} />
-          <Tooltip 
+          <XAxis dataKey="year" stroke="#8B7355" />
+          <YAxis tickFormatter={(v) => `${v}%`} domain={[0, 'auto']} stroke="#8B7355" />
+          <Tooltip
             formatter={(value) => [`${Number(value ?? 0).toFixed(1)}%`, '']}
             labelFormatter={(label) => `Election: ${label}`}
+            contentStyle={{ backgroundColor: '#FFFFFF', border: '1px solid #E8C8C8', borderRadius: '8px', color: '#2C1810' }}
           />
-          <Legend 
+          <Legend
             formatter={(value) => {
               const party = topParties.find(p => p.id === value)
               return party?.name || value
@@ -303,16 +311,16 @@ function VotingTrends({ countryId }: { countryId: string }) {
           ))}
         </LineChart>
       </ResponsiveContainer>
-      
+
       {/* Legend with full party names */}
       <div className="mt-4 flex flex-wrap gap-3 justify-center">
         {topParties.map((party) => (
           <div key={party.id} className="flex items-center gap-1 text-xs">
-            <div 
+            <div
               className="w-3 h-3 rounded-full"
               style={{ backgroundColor: party.color }}
             />
-            <span className="text-gray-700">{party.fullName}</span>
+            <span style={{ color: '#5C3D2E' }}>{party.fullName}</span>
           </div>
         ))}
       </div>

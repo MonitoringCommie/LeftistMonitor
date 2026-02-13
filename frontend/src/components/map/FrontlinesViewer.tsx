@@ -257,22 +257,22 @@ export default function FrontlinesViewer() {
 
   if (isLoading) {
     return (
-      <div className="flex items-center justify-center h-screen bg-gray-50">
-        <div className="text-gray-500">Loading frontlines data...</div>
+      <div className="flex items-center justify-center h-full" style={{ backgroundColor: '#FFF5F6' }}>
+        <div className="flex flex-col items-center gap-3">
+          <div className="w-10 h-10 border-4 rounded-full animate-spin" style={{ borderColor: '#E8C8C8', borderTopColor: '#C41E3A' }} />
+          <span style={{ color: '#5C3D2E' }}>Loading frontlines data...</span>
+        </div>
       </div>
     )
   }
 
   return (
-    <div className="flex flex-col h-screen">
-      {/* Header */}
-      <div className="bg-white border-b shadow-sm p-4">
-        <h1 className="text-2xl font-bold text-gray-900 mb-4">Historical War Frontlines</h1>
-
-        {/* Conflict selector */}
+    <div className="flex flex-col h-full">
+      {/* Controls bar */}
+      <div className="p-4" style={{ background: '#FFFFFF', borderBottom: '1px solid #E8C8C8' }}>
         <div className="flex flex-wrap gap-4 items-center">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium mb-1" style={{ color: '#8B1A1A', textTransform: 'uppercase', letterSpacing: '0.5px', fontSize: '0.75rem', fontWeight: '600' }}>
               Select Conflict
             </label>
             <select
@@ -282,7 +282,10 @@ export default function FrontlinesViewer() {
                 setSelectedConflict(conflict || null)
                 setIsPlaying(false)
               }}
-              className="block w-64 px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="block w-64 px-3 py-2 rounded-lg focus:outline-none"
+              style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', color: '#2C1810' }}
+              onFocus={(e) => e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.5)'}
+              onBlur={(e) => e.currentTarget.style.borderColor = '#E8C8C8'}
             >
               <option value="">Choose a conflict...</option>
               {conflicts.map((conflict) => (
@@ -296,7 +299,7 @@ export default function FrontlinesViewer() {
           {selectedConflict && dates.length > 0 && (
             <>
               <div className="flex-1 min-w-64">
-                <label className="block text-sm font-medium text-gray-700 mb-1">
+                <label className="block text-sm font-medium mb-1" style={{ color: '#8B1A1A', textTransform: 'uppercase', letterSpacing: '0.5px', fontSize: '0.75rem', fontWeight: '600' }}>
                   Date: {currentDate?.date || 'N/A'}
                 </label>
                 <div className="flex items-center gap-2">
@@ -311,11 +314,10 @@ export default function FrontlinesViewer() {
                   />
                   <button
                     onClick={() => setIsPlaying(!isPlaying)}
-                    className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                      isPlaying
-                        ? 'bg-red-600 text-white hover:bg-red-700'
-                        : 'bg-blue-600 text-white hover:bg-blue-700'
-                    }`}
+                    className="px-4 py-2 rounded-lg font-medium transition-colors text-white"
+                    style={{ background: isPlaying ? '#8B1A1A' : '#C41E3A' }}
+                    onMouseEnter={(e) => e.currentTarget.style.background = isPlaying ? '#6B1515' : '#8B1A1A'}
+                    onMouseLeave={(e) => e.currentTarget.style.background = isPlaying ? '#8B1A1A' : '#C41E3A'}
                   >
                     {isPlaying ? 'Stop' : 'Play'}
                   </button>
@@ -330,13 +332,35 @@ export default function FrontlinesViewer() {
       <div className="flex-1 relative">
         <div ref={mapContainer} className="w-full h-full" />
 
+        {/* Conflict info card */}
+        {selectedConflict && (
+          <div className="absolute top-4 left-4 rounded-lg p-4 max-w-xs" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderTop: '3px solid #C41E3A', boxShadow: '0 2px 8px rgba(139, 26, 26, 0.12)' }}>
+            <h3 className="font-semibold mb-1" style={{ color: '#8B1A1A' }}>
+              {selectedConflict.name}
+            </h3>
+            {selectedConflict.start_date && (
+              <p className="text-xs mb-2" style={{ color: '#8B7355' }}>
+                {selectedConflict.start_date}{selectedConflict.end_date ? ` — ${selectedConflict.end_date}` : ' — ongoing'}
+              </p>
+            )}
+            {selectedConflict.conflict_type && (
+              <span className="inline-block px-2 py-0.5 text-xs rounded-full font-medium" style={{ background: 'rgba(196, 30, 58, 0.1)', color: '#C41E3A' }}>
+                {selectedConflict.conflict_type.replace(/_/g, ' ')}
+              </span>
+            )}
+            <p className="text-xs mt-2" style={{ color: '#5C3D2E' }}>
+              {dates.length} frontline snapshots
+            </p>
+          </div>
+        )}
+
         {/* Legend */}
         {currentSides.length > 0 && (
-          <div className="absolute bottom-4 left-4 bg-white rounded-lg shadow-lg p-4 max-w-xs">
-            <h3 className="font-semibold text-gray-800 mb-2">
-              {selectedConflict?.name}
+          <div className="absolute bottom-4 left-4 rounded-lg p-4 max-w-xs" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderTop: '3px solid #C41E3A', boxShadow: '0 2px 8px rgba(139, 26, 26, 0.12)' }}>
+            <h3 className="font-semibold mb-1" style={{ color: '#8B1A1A', textTransform: 'uppercase', letterSpacing: '0.5px', fontSize: '0.7rem' }}>
+              Forces
             </h3>
-            <div className="text-sm text-gray-600 mb-3">
+            <div className="text-sm mb-3" style={{ color: '#8B7355' }}>
               {currentDate?.date}
             </div>
             <div className="space-y-2">
@@ -351,7 +375,7 @@ export default function FrontlinesViewer() {
                       className="w-4 h-4 rounded"
                       style={{ backgroundColor: color }}
                     />
-                    <span className="text-sm">
+                    <span className="text-sm" style={{ color: '#5C3D2E' }}>
                       {SIDE_LABELS[side] || side}
                     </span>
                   </div>
@@ -359,7 +383,7 @@ export default function FrontlinesViewer() {
               })}
             </div>
             {frontlineData?.features[0]?.properties.notes && (
-              <div className="mt-3 pt-3 border-t border-gray-200 text-xs text-gray-500">
+              <div className="mt-3 pt-3 text-xs" style={{ borderTop: '1px solid #E8C8C8', color: '#8B7355' }}>
                 {frontlineData.features[0].properties.notes}
               </div>
             )}
@@ -368,12 +392,12 @@ export default function FrontlinesViewer() {
 
         {/* No data message */}
         {!selectedConflict && (
-          <div className="absolute inset-0 flex items-center justify-center bg-black/10">
-            <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">
+          <div className="absolute inset-0 flex items-center justify-center" style={{ background: 'rgba(255, 245, 246, 0.6)' }}>
+            <div className="rounded-lg p-6 text-center" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderTop: '3px solid #C41E3A', boxShadow: '0 2px 8px rgba(139, 26, 26, 0.12)' }}>
+              <h3 className="text-lg font-semibold mb-2" style={{ color: '#8B1A1A' }}>
                 Select a Conflict
               </h3>
-              <p className="text-gray-600">
+              <p style={{ color: '#5C3D2E' }}>
                 Choose a conflict from the dropdown above to view historical frontlines
               </p>
             </div>

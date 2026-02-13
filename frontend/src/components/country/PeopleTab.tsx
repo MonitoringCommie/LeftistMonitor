@@ -2,6 +2,7 @@ import { useState, useMemo, useCallback, memo } from 'react'
 import { usePeople, usePerson, usePersonConnections } from '../../api/people'
 import ConnectionsGraph from './ConnectionsGraph'
 import OptimizedImage from '../ui/OptimizedImage'
+import CountryLink from '../ui/CountryLink'
 
 interface PeopleTabProps {
   countryId: string
@@ -105,7 +106,14 @@ const PeopleTab = memo(function PeopleTab({ countryId, year }: PeopleTabProps) {
   const { data: personDetail } = usePerson(selectedPersonId || '')
   const { data: connectionsData } = usePersonConnections(selectedPersonId || '', 2)
 
-  const people = useMemo(() => peopleData?.items || [], [peopleData])
+  const people = useMemo(() => {
+    const items = peopleData?.items || []
+    return [...items].sort((a, b) => {
+      const dateA = a.birth_date ? new Date(a.birth_date).getTime() : 0
+      const dateB = b.birth_date ? new Date(b.birth_date).getTime() : 0
+      return dateB - dateA
+    })
+  }, [peopleData])
 
   // Memoize alive check
   const wasAliveInYear = useCallback((person: typeof people[0]) => {
@@ -247,7 +255,7 @@ const PeopleTab = memo(function PeopleTab({ countryId, year }: PeopleTabProps) {
                 {personDetail.positions.map((pos: any) => (
                   <div key={pos.id} className="text-sm">
                     <span className="font-medium">{pos.title}</span>
-                    {pos.country_name && <span className="text-gray-500"> ({pos.country_name})</span>}
+                    {pos.country_name && <span className="text-gray-500"> (<CountryLink countryId={pos.country_id} countryName={pos.country_name} />)</span>}
                     <span className="text-gray-400 ml-2">
                       {pos.start_date && formatDate(pos.start_date)}
                       {pos.end_date && ` - ${formatDate(pos.end_date)}`}

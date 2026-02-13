@@ -12,12 +12,12 @@ const Header = memo(function Header() {
 
   const navLinks = [
     { to: '/', label: 'Home' },
-    { to: '/map', label: 'Map' },
+    { to: '/map', label: 'Globe' },
     { to: '/people', label: 'People' },
     { to: '/books', label: 'Books' },
+    { to: '/conflicts', label: 'Conflicts' },
     { to: '/frontlines', label: 'Frontlines' },
-    { to: '/compare', label: 'Compare' },
-    { to: '/about', label: 'About' },
+{ to: '/about', label: 'About' },
     { to: '/glossary', label: 'Glossary' },
     { to: '/stats', label: 'Stats' },
     { to: '/elections', label: 'Elections' },

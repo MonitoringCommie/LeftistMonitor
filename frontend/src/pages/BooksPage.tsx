@@ -242,7 +242,7 @@ const BooksPage = memo(function BooksPage() {
             Leftist Literature
           </h1>
           <p style={{ color: '#5C3D2E' }} className="text-xl">
-            Essential texts for understanding class struggle, imperialism, and liberation movements.
+            Browse {(books?.length ?? 0).toLocaleString()}+ political books, pamphlets, and writings from around the world.
           </p>
         </div>
 
@@ -420,9 +420,8 @@ const BooksPage = memo(function BooksPage() {
             Why These Books Matter
           </h2>
           <p style={{ color: '#5C3D2E' }}>
-            Understanding theory is essential for effective praxis. These texts provide the analytical
-            framework to understand capitalism, imperialism, and the strategies of liberation movements
-            throughout history. Many are available free at{' '}
+            These books cover political theory, history, economics, and social movements
+            from across the globe. Many are available free at{' '}
             <a
               href="https://www.marxists.org"
               target="_blank"

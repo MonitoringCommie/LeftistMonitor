@@ -14,11 +14,11 @@ INSERT INTO ideologies (id, name, description, color, left_right_position, liber
 ('550e8400-e29b-41d4-a716-446655440001', 'Marxism', 'The theoretical foundation of scientific socialism developed by Karl Marx and Friedrich Engels, emphasizing historical materialism, class struggle, and the dictatorship of the proletariat as a transitional stage toward communism.', '#ff0000', -95, -40),
 ('550e8400-e29b-41d4-a716-446655440002', 'Marxism-Leninism', 'The application of Marxist theory developed by Vladimir Lenin, emphasizing the role of a vanguard Communist Party in leading the proletarian revolution and building socialism in conditions of imperialism and capitalism.', '#cc0000', -98, -60),
 ('550e8400-e29b-41d4-a716-446655440003', 'Maoism', 'The adaptation of Marxist-Leninist theory by Mao Zedong emphasizing peasant revolution, protracted people''s war, continuous revolution, and cultural struggle as means to achieve communism, particularly applicable to agrarian societies.', '#b30000', -100, -70),
-('550e8400-e29b-41d4-a716-446655440004', 'Trotskyism', 'An interpretation of Marxism developed by Leon Trotsky advocating for permanent revolution, continuous international revolution, and opposition to Stalin''s theory of building socialism in one country.', -97, -50),
+('550e8400-e29b-41d4-a716-446655440004', 'Trotskyism', 'An interpretation of Marxism developed by Leon Trotsky advocating for permanent revolution, continuous international revolution, and opposition to Stalin''s theory of building socialism in one country.', '#cc3300', -97, -50),
 ('550e8400-e29b-41d4-a716-446655440005', 'Luxemburgism', 'The political thought of Rosa Luxemburg emphasizing the importance of spontaneous workers'' movements, internationalism, and democratic control alongside proletarian revolution.', '#ff1a1a', -94, -30),
 ('550e8400-e29b-41d4-a716-446655440006', 'Council Communism', 'A left communist current emphasizing workers'' councils as the basis for proletarian power and organization, opposed to both capitalism and Leninist vanguardism.', '#ff3333', -92, -25),
 ('550e8400-e29b-41d4-a716-446655440007', 'Autonomism', 'An Italian left-communist current emphasizing autonomous workers'' movements independent of traditional party structures and labor unions, focusing on self-managed territories and communities.', '#ff4444', -88, -20),
-('550e8400-e29b-41d4-a716-446655440008', 'Titoism', 'The system of socialism developed in Yugoslavia under Josip Broz Tito, emphasizing worker self-management, market socialism, and independence from Soviet control.', -85, -35),
+('550e8400-e29b-41d4-a716-446655440008', 'Titoism', 'The system of socialism developed in Yugoslavia under Josip Broz Tito, emphasizing worker self-management, market socialism, and independence from Soviet control.', '#990000', -85, -35),
 
 -- Anarchist variants
 ('550e8400-e29b-41d4-a716-446655440009', 'Anarcho-Communism', 'An anarchist ideology advocating for a stateless, classless society with common ownership of production means and distribution according to need, achieved through direct action and voluntary association.', '#000000', -99, 85),
@@ -82,7 +82,8 @@ INSERT INTO ideologies (id, name, description, color, left_right_position, liber
 ('550e8400-e29b-41d4-a716-446655440047', 'Syndicalism', 'A political ideology emphasizing revolutionary trade unions and direct action through labor unions as the primary means of social change and organization of society.', '#cc0000', -82, -20),
 ('550e8400-e29b-41d4-a716-446655440048', 'Anarchist Communism', 'A form of anarchism advocating for a society of common ownership, non-hierarchical organization, and distribution according to need, achieved through direct action and mutual aid.', '#000000', -99, 85),
 ('550e8400-e29b-41d4-a716-446655440049', 'Vegetarianism/Veganism as Leftism', 'A political stance combining animal liberation and anti-speciesism with socialist or anarchist principles, viewing veganism as part of ethical liberation and environmental sustainability.', '#00aa00', -78, 50),
-('550e8400-e29b-41d4-a716-446655440050', 'Anarcha-Feminism (combined entry)', 'The combined ideology of anarchism and feminism, viewing the struggle against patriarchy as inseparable from the struggle against all forms of hierarchy and domination.', '#ff00ff', -97, 85);
+('550e8400-e29b-41d4-a716-446655440050', 'Anarcha-Feminism (combined entry)', 'The combined ideology of anarchism and feminism, viewing the struggle against patriarchy as inseparable from the struggle against all forms of hierarchy and domination.', '#ff00ff', -97, 85)
+ON CONFLICT DO NOTHING;
 
 -- Verify inserts
 SELECT COUNT(*) as ideology_count FROM ideologies;

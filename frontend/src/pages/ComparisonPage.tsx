@@ -19,25 +19,44 @@ const COUNTRY_COLORS = [
 
 interface CountryOption {
   id: string
-  name: string
+  name_en: string
 }
 
 export default function ComparisonPage() {
   const [selectedCountries, setSelectedCountries] = useState<string[]>([])
   const [startYear, setStartYear] = useState(1900)
   const [endYear, setEndYear] = useState(2024)
-  const [comparisonType, setComparisonType] = useState<'elections' | 'left-performance' | 'ideology'>('left-performance')
+  const [comparisonType, setComparisonType] = useState<'elections' | 'left-performance' | 'ideology-trends'>('left-performance')
+  const [countrySearch, setCountrySearch] = useState('')
 
-  // Fetch countries for selection
+  // Fetch countries for selection — deduplicated by name
   const { data: countries } = useQuery({
     queryKey: ['countries-list'],
     queryFn: async () => {
       const { data } = await apiClient.get<{ items: CountryOption[] }>('/geography/countries', {
-        params: { limit: 200 }
+        params: { per_page: 1000 }
       })
       return data.items
     },
   })
+
+  const dedupedCountries = useMemo(() => {
+    if (!countries) return []
+    const seen = new Set<string>()
+    return countries.filter(c => {
+      if (seen.has(c.name_en)) return false
+      seen.add(c.name_en)
+      return true
+    })
+  }, [countries])
+
+  const filteredCountries = useMemo(() => {
+    if (!countrySearch) return dedupedCountries
+    const lower = countrySearch.toLowerCase()
+    return dedupedCountries.filter(c => c.name_en.toLowerCase().includes(lower))
+  }, [dedupedCountries, countrySearch])
+
+  const yearWarning = startYear >= endYear
 
   // Fetch comparison data
   const { data: comparisonData, isLoading } = useQuery({
@@ -53,7 +72,7 @@ export default function ComparisonPage() {
       })
       return data
     },
-    enabled: selectedCountries.length >= 2,
+    enabled: selectedCountries.length >= 2 && startYear < endYear,
   })
 
   // Process data for charts
@@ -129,9 +148,9 @@ export default function ComparisonPage() {
               min={1800}
               max={2024}
               className="w-full px-3 py-2 rounded-lg focus:outline-none"
-              style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', color: '#2C1810' }}
+              style={{ background: '#FFFFFF', border: `1px solid ${yearWarning ? '#C41E3A' : '#E8C8C8'}`, color: '#2C1810' }}
               onFocus={(e) => e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.5)'}
-              onBlur={(e) => e.currentTarget.style.borderColor = '#E8C8C8'}
+              onBlur={(e) => e.currentTarget.style.borderColor = yearWarning ? '#C41E3A' : '#E8C8C8'}
             />
           </div>
 
@@ -146,17 +165,22 @@ export default function ComparisonPage() {
               min={1800}
               max={2024}
               className="w-full px-3 py-2 rounded-lg focus:outline-none"
-              style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', color: '#2C1810' }}
+              style={{ background: '#FFFFFF', border: `1px solid ${yearWarning ? '#C41E3A' : '#E8C8C8'}`, color: '#2C1810' }}
               onFocus={(e) => e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.5)'}
-              onBlur={(e) => e.currentTarget.style.borderColor = '#E8C8C8'}
+              onBlur={(e) => e.currentTarget.style.borderColor = yearWarning ? '#C41E3A' : '#E8C8C8'}
             />
           </div>
 
           {/* Selected count */}
-          <div className="flex items-end">
+          <div className="flex flex-col justify-end">
             <div className="text-sm" style={{ color: '#8B7355' }}>
               {selectedCountries.length} / 10 countries selected
             </div>
+            {yearWarning && (
+              <div className="text-xs mt-1 font-medium" style={{ color: '#C41E3A' }}>
+                Start year must be before end year
+              </div>
+            )}
           </div>
         </div>
 
@@ -165,23 +189,29 @@ export default function ComparisonPage() {
           <label className="block text-sm font-medium mb-2" style={{ color: '#8B1A1A', letterSpacing: '0.5px', fontSize: '0.75rem', fontWeight: '600', textTransform: 'uppercase' }}>
             Select Countries (2-10)
           </label>
+          <input
+            type="text"
+            placeholder="Search countries..."
+            value={countrySearch}
+            onChange={(e) => setCountrySearch(e.target.value)}
+            className="w-full px-3 py-2 rounded-lg focus:outline-none mb-3"
+            style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', color: '#2C1810' }}
+            onFocus={(e) => e.currentTarget.style.borderColor = 'rgba(196, 30, 58, 0.5)'}
+            onBlur={(e) => e.currentTarget.style.borderColor = '#E8C8C8'}
+          />
           <div className="flex flex-wrap gap-2 max-h-40 overflow-y-auto p-2 rounded-lg" style={{ background: 'rgba(196, 30, 58, 0.04)' }}>
-            {countries?.map((country) => (
+            {filteredCountries.map((country) => (
               <button
                 key={country.id}
                 onClick={() => toggleCountry(country.id)}
-                className={`px-3 py-1 text-sm rounded-full transition-colors font-medium ${
-                  selectedCountries.includes(country.id)
-                    ? ''
-                    : 'hover:opacity-80'
-                }`}
+                className="px-3 py-1 text-sm rounded-full transition-colors font-medium hover:opacity-80"
                 style={
                   selectedCountries.includes(country.id)
                     ? { background: 'rgba(196, 30, 58, 0.15)', border: '1px solid rgba(196, 30, 58, 0.3)', color: '#C41E3A' }
                     : { border: '1px solid #E8C8C8', color: '#5C3D2E', background: '#FFFFFF' }
                 }
               >
-                {country.name}
+                {country.name_en}
               </button>
             ))}
           </div>
@@ -195,6 +225,12 @@ export default function ComparisonPage() {
             Select at least 2 countries to see comparison
           </p>
         </div>
+      ) : yearWarning ? (
+        <div className="rounded-lg p-6 text-center" style={{ background: 'rgba(196, 30, 58, 0.08)', border: '1px solid rgba(196, 30, 58, 0.3)' }}>
+          <p style={{ color: '#C41E3A' }}>
+            Start year must be before end year
+          </p>
+        </div>
       ) : isLoading ? (
         <div className="rounded-lg p-12 text-center" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', boxShadow: '0 1px 3px rgba(139, 26, 26, 0.08)' }}>
           <div className="animate-spin h-12 w-12 border-4 rounded-full mx-auto mb-4" style={{ borderColor: 'rgba(196, 30, 58, 0.4)', borderTopColor: 'transparent' }} />
@@ -204,7 +240,7 @@ export default function ComparisonPage() {
         <div className="rounded-lg p-6" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderTop: '3px solid #C41E3A', boxShadow: '0 1px 3px rgba(139, 26, 26, 0.08)' }}>
           <h2 className="text-xl font-semibold mb-4" style={{ color: '#8B1A1A' }}>
             {comparisonType === 'left-performance' && 'Left Party Vote Share Over Time'}
-            {comparisonType === 'ideology' && 'Party Family Trends'}
+            {comparisonType === 'ideology-trends' && 'Party Family Trends'}
             {comparisonType === 'elections' && 'Election Results'}
           </h2>
 
@@ -213,7 +249,7 @@ export default function ComparisonPage() {
               <LineChart data={chartData}>
                 <CartesianGrid strokeDasharray="3 3" stroke="rgba(196, 30, 58, 0.1)" />
                 <XAxis dataKey="year" stroke="#8B7355" />
-                <YAxis domain={[0, 100]} unit="%" stroke="#8B7355" />
+                <YAxis domain={[0, 'auto']} unit="%" stroke="#8B7355" />
                 <Tooltip contentStyle={{ backgroundColor: '#FFFFFF', border: '1px solid #E8C8C8', borderRadius: '8px', color: '#2C1810' }} />
                 <Legend wrapperStyle={{ color: '#5C3D2E' }} />
                 {countryNames.map((name: string, idx: number) => (
@@ -231,12 +267,12 @@ export default function ComparisonPage() {
             </ResponsiveContainer>
           </div>
 
-          {/* Summary */}
-          {comparisonData?.summary && (
+          {/* Summary — only show average_left_share_by_country for left-performance */}
+          {comparisonData?.summary && comparisonType === 'left-performance' && comparisonData.summary.average_left_share_by_country && (
             <div className="mt-6 pt-6" style={{ borderTop: '1px solid #E8C8C8' }}>
               <h3 className="font-medium mb-3" style={{ color: '#8B1A1A' }}>Summary</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {Object.entries(comparisonData.summary.average_left_share_by_country || {}).map(
+                {Object.entries(comparisonData.summary.average_left_share_by_country).map(
                   ([country, avg]) => (
                     <div key={country} className="rounded-lg p-3" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderTop: '3px solid #C41E3A' }}>
                       <div className="text-sm" style={{ color: '#5C3D2E' }}>{country}</div>

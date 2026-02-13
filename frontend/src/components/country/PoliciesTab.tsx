@@ -44,7 +44,14 @@ export default function PoliciesTab({ countryId, year }: PoliciesTabProps) {
     year: filterYear ? year : undefined,
   })
 
-  const policies = policiesData?.items || []
+  const policies = useMemo(() => {
+    const items = policiesData?.items || []
+    return [...items].sort((a, b) => {
+      const dateA = a.date_enacted ? new Date(a.date_enacted).getTime() : 0
+      const dateB = b.date_enacted ? new Date(b.date_enacted).getTime() : 0
+      return dateB - dateA
+    })
+  }, [policiesData])
 
   // Group topics by parent
   const topicTree = useMemo(() => {

@@ -58,12 +58,31 @@ export function useConflict(conflictId: string) {
   return useQuery({
     queryKey: ['conflict', conflictId],
     queryFn: async () => {
-      const { data } = await apiClient.get<Conflict>(`/events/conflicts/${conflictId}`)
+      const { data } = await apiClient.get<Conflict>(`/events/conflict/${conflictId}`)
       return data
     },
     enabled: !!conflictId,
     staleTime: 1000 * 60 * 60, // 1 hour - conflict details are static
     gcTime: 1000 * 60 * 60,
+  })
+}
+
+export function useConflictCoordinates(conflictId: string) {
+  return useQuery({
+    queryKey: ['conflict-coordinates', conflictId],
+    queryFn: async () => {
+      const { data } = await apiClient.get(`/conflicts/${conflictId}/coordinates`)
+      return data as {
+        conflict_id: string
+        conflict_name: string
+        center_lat: number | null
+        center_lng: number | null
+        cities: { name: string; country: string; lat: number; lng: number }[]
+        city_count: number
+      }
+    },
+    enabled: !!conflictId,
+    staleTime: Infinity,
   })
 }
 

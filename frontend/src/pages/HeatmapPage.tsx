@@ -83,7 +83,7 @@ export default function HeatmapPage() {
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-4xl font-bold mb-2" style={{ color: '#8B1A1A' }}>Global Resistance Heatmap</h1>
           <p className="text-lg" style={{ color: '#5C3D2E' }}>
-            Visualize the geography of protests, strikes, and revolutionary movements
+            Visualize the geography of protests, strikes, and political movements
           </p>
         </div>
       </div>

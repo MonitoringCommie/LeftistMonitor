@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { usePerson, usePersonConnections } from '../api/people'
+import CountryLink from '../components/ui/CountryLink'
 
 function formatDate(dateStr?: string): string {
   if (!dateStr) return 'Unknown'
@@ -125,7 +126,9 @@ export default function PersonDetailPage() {
                     <div>
                       <p className="font-medium" style={{ color: '#2C1810' }}>{pos.title}</p>
                       {pos.country_name && (
-                        <p className="text-sm" style={{ color: '#8B7355' }}>{pos.country_name}</p>
+                        <p className="text-sm" style={{ color: '#8B7355' }}>
+                          <CountryLink countryId={pos.country_id} countryName={pos.country_name} />
+                        </p>
                       )}
                     </div>
                     <div className="text-sm" style={{ color: '#8B7355' }}>

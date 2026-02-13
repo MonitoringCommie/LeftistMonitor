@@ -174,8 +174,13 @@ export default function ConflictsTab({ countryId, year }: ConflictsTabProps) {
   }, [])
 
   const { activeConflicts, historicalConflicts } = useMemo(() => {
-    const active = conflicts.filter((c: any) => isConflictActive(c, year))
-    const historical = conflicts.filter((c: any) => !isConflictActive(c, year))
+    const sortByDate = (a: any, b: any) => {
+      const dateA = a.start_date ? new Date(a.start_date).getTime() : 0
+      const dateB = b.start_date ? new Date(b.start_date).getTime() : 0
+      return dateB - dateA
+    }
+    const active = conflicts.filter((c: any) => isConflictActive(c, year)).sort(sortByDate)
+    const historical = conflicts.filter((c: any) => !isConflictActive(c, year)).sort(sortByDate)
     return { activeConflicts: active, historicalConflicts: historical }
   }, [conflicts, year, isConflictActive])
 

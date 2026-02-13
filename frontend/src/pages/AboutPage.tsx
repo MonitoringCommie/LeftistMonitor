@@ -252,15 +252,12 @@ const AboutPage = memo(function AboutPage() {
           borderRadius: '10px'
         }} className="p-6 mb-6">
           <h2 style={{ color: '#C41E3A' }} className="text-2xl font-bold mb-4">
-            Solidarity Forever
+            About This Project
           </h2>
-          <blockquote className="text-lg italic border-l-4 pl-4" style={{ borderLeftColor: '#C41E3A', color: '#2C1810' }}>
-            "The history of all hitherto existing society is the history of class struggles."
-            <footer style={{ color: '#8B7355' }} className="mt-2">- Karl Marx & Friedrich Engels, The Communist Manifesto</footer>
-          </blockquote>
           <p className="mt-4" style={{ color: '#5C3D2E' }}>
-            From Palestine to Ireland, from Kurdistan to Western Sahara, the struggles of
-            oppressed peoples are interconnected. An injury to one is an injury to all.
+            LeftistMonitor tracks left-wing political movements, parties, elections, conflicts,
+            and key figures across the world. The data covers historical and contemporary events
+            from dozens of countries.
           </p>
         </section>
 

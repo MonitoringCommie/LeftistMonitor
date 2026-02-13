@@ -247,8 +247,8 @@ const HistoricalGalleryPage: React.FC = () => {
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-4xl font-bold mb-4">Historical Gallery</h1>
           <p className="text-xl max-w-3xl" style={{ color: 'rgba(255,255,255,0.85)' }}>
-            A visual archive of liberation struggles, revolutionary movements,
-            and people's history through photographs, posters, documents, and maps.
+            Photographs, posters, documents, and maps from political movements
+            and historical events around the world.
           </p>
         </div>
       </div>

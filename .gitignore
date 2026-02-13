@@ -46,3 +46,8 @@ htmlcov/
 tmp/
 temp/
 *.tmp
+*.timestamp-*.mjs
+
+# Large globe textures (keep only 2k)
+frontend/public/globe/earth-4k.jpg
+frontend/public/globe/earth-8k.jpg

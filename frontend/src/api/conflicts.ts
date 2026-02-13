@@ -14,6 +14,8 @@ export interface ConflictMapItem {
   conflict_type: string | null
   intensity: string | null
   countries: ConflictParticipant[]
+  lat: number | null
+  lng: number | null
 }
 
 export async function getActiveConflicts(year?: number): Promise<ConflictMapItem[]> {

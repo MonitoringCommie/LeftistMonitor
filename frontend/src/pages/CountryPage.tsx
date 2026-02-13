@@ -47,15 +47,15 @@ function TabErrorFallback() {
 
 const TABS: Array<{ id: string; label: string }> = [
   { id: 'overview', label: 'Overview' },
-  { id: 'borders', label: 'Border Development' },
-  { id: 'occupations', label: 'Occupations' },
-  { id: 'elections', label: 'Elections' },
-  { id: 'parties', label: 'Parties' },
-  { id: 'policies', label: 'Policies' },
-  { id: 'people', label: 'People' },
-  { id: 'events', label: 'Events' },
   { id: 'conflicts', label: 'Conflicts' },
+  { id: 'borders', label: 'Border Changes' },
+  { id: 'events', label: 'Events & History' },
+  { id: 'elections', label: 'Elections' },
+  { id: 'parties', label: 'Political Parties' },
+  { id: 'policies', label: 'Key Policies' },
+  { id: 'people', label: 'People & Authors' },
   { id: 'books', label: 'Books' },
+  { id: 'occupations', label: 'Occupations' },
 ] as const
 
 export default function CountryPage() {

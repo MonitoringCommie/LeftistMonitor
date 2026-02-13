@@ -7,9 +7,9 @@ interface BorderDevelopmentTabProps {
   countryName: string
 }
 
-const MAIN_COUNTRY_COLOR = '#EF4444'
-const NEIGHBOR_COLOR = '#94A3B8'
-const BORDER_COLOR = '#1E293B'
+const MAIN_COUNTRY_COLOR = '#C41E3A'
+const NEIGHBOR_COLOR = '#E8C8C8'
+const BORDER_COLOR = '#8B1A1A'
 
 interface BorderFeature {
   type: 'Feature'
@@ -32,42 +32,42 @@ export default function BorderDevelopmentTab({ countryId, countryName }: BorderD
   const [selectedYear, setSelectedYear] = useState(new Date().getFullYear())
   const [isPlaying, setIsPlaying] = useState(false)
   const playIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null)
-  
+
   const { data: allBordersGeoJSON, isLoading } = useAllBordersGeoJSON()
 
   // Get available years for this country
   const yearRange = useMemo(() => {
     if (!allBordersGeoJSON?.features) return { min: 1900, max: new Date().getFullYear() }
-    
+
     const countryFeatures = (allBordersGeoJSON.features as BorderFeature[]).filter(
       f => f.properties.id === countryId
     )
-    
+
     if (countryFeatures.length === 0) return { min: 1900, max: new Date().getFullYear() }
-    
+
     let minYear = Infinity
     let maxYear = -Infinity
-    
+
     for (const feature of countryFeatures) {
       const from = new Date(feature.properties.valid_from || '1900-01-01').getFullYear()
-      const to = feature.properties.valid_to 
-        ? new Date(feature.properties.valid_to).getFullYear() 
+      const to = feature.properties.valid_to
+        ? new Date(feature.properties.valid_to).getFullYear()
         : new Date().getFullYear()
-      
+
       minYear = Math.min(minYear, from)
       maxYear = Math.max(maxYear, to)
     }
-    
+
     return { min: minYear, max: maxYear }
   }, [allBordersGeoJSON, countryId])
 
   // Filter borders for a specific year
   const filteredGeoJSON = useMemo(() => {
     if (!allBordersGeoJSON?.features) return null
-    
+
     const features = allBordersGeoJSON.features as BorderFeature[]
     const targetDate = selectedYear + '-07-01'
-    
+
     // Get the main country border
     const mainCountryFeature = features.find(f => {
       if (f.properties.id !== countryId) return false
@@ -77,12 +77,12 @@ export default function BorderDevelopmentTab({ countryId, countryName }: BorderD
       if (validTo && validTo < targetDate) return false
       return true
     })
-    
+
     if (!mainCountryFeature) return null
-    
+
     // Get main country bounding box to find neighbors
     let bbox: [number, number, number, number] = [180, 90, -180, -90]
-    
+
     const extractCoords = (coords: any): void => {
       if (typeof coords[0] === 'number') {
         bbox[0] = Math.min(bbox[0], coords[0])
@@ -95,14 +95,14 @@ export default function BorderDevelopmentTab({ countryId, countryName }: BorderD
         }
       }
     }
-    
+
     extractCoords(mainCountryFeature.geometry.coordinates)
-    
+
     // Expand bbox by 10 degrees to capture neighbors
     const expandedBbox: [number, number, number, number] = [
       bbox[0] - 10, bbox[1] - 10, bbox[2] + 10, bbox[3] + 10
     ]
-    
+
     // Find neighboring countries (those whose borders are within expanded bbox)
     const neighborFeatures = features.filter(f => {
       if (f.properties.id === countryId) return false
@@ -110,7 +110,7 @@ export default function BorderDevelopmentTab({ countryId, countryName }: BorderD
       const validTo = f.properties.valid_to
       if (validFrom > targetDate) return false
       if (validTo && validTo < targetDate) return false
-      
+
       // Check if any part of this country is in our expanded bbox
       let inBbox = false
       const checkInBbox = (coords: any): void => {
@@ -129,7 +129,7 @@ export default function BorderDevelopmentTab({ countryId, countryName }: BorderD
       checkInBbox(f.geometry.coordinates)
       return inBbox
     })
-    
+
     return {
       type: 'FeatureCollection' as const,
       features: [
@@ -145,15 +145,15 @@ export default function BorderDevelopmentTab({ countryId, countryName }: BorderD
   // Get border changes history
   const borderChanges = useMemo(() => {
     if (!allBordersGeoJSON?.features) return []
-    
+
     const features = allBordersGeoJSON.features as BorderFeature[]
-    
+
     return features
       .filter(f => f.properties.id === countryId)
       .map(f => ({
         validFrom: new Date(f.properties.valid_from || '1900-01-01').getFullYear(),
-        validTo: f.properties.valid_to 
-          ? new Date(f.properties.valid_to).getFullYear() 
+        validTo: f.properties.valid_to
+          ? new Date(f.properties.valid_to).getFullYear()
           : null
       }))
       .sort((a, b) => a.validFrom - b.validFrom)
@@ -270,7 +270,7 @@ export default function BorderDevelopmentTab({ countryId, countryName }: BorderD
           }
         }
         extractCoords(mainFeature.geometry.coordinates)
-        
+
         if (coords.length > 0) {
           const bounds = coords.reduce(
             (b, c) => {
@@ -282,7 +282,7 @@ export default function BorderDevelopmentTab({ countryId, countryName }: BorderD
             },
             [[180, 90], [-180, -90]] as [[number, number], [number, number]]
           )
-          
+
           mapInstance.fitBounds(bounds as maplibregl.LngLatBoundsLike, {
             padding: 50,
             maxZoom: 6
@@ -324,7 +324,10 @@ export default function BorderDevelopmentTab({ countryId, countryName }: BorderD
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-96">
-        <div className="animate-pulse text-gray-500">Loading border data...</div>
+        <div className="flex flex-col items-center gap-3">
+          <div className="w-10 h-10 border-4 rounded-full animate-spin" style={{ borderColor: '#E8C8C8', borderTopColor: '#C41E3A' }} />
+          <span style={{ color: '#5C3D2E' }}>Loading border data...</span>
+        </div>
       </div>
     )
   }
@@ -332,30 +335,29 @@ export default function BorderDevelopmentTab({ countryId, countryName }: BorderD
   return (
     <div className="space-y-4">
       {/* Map */}
-      <div className="bg-white rounded-lg shadow overflow-hidden">
+      <div className="rounded-lg overflow-hidden" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', boxShadow: '0 1px 3px rgba(139, 26, 26, 0.08)' }}>
         <div ref={mapContainer} className="h-96 w-full" />
       </div>
 
       {/* Time controls */}
-      <div className="bg-white rounded-lg shadow p-4">
+      <div className="rounded-lg p-4" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderTop: '3px solid #C41E3A', boxShadow: '0 1px 3px rgba(139, 26, 26, 0.08)' }}>
         <div className="flex items-center justify-between mb-3">
-          <h3 className="text-lg font-semibold text-gray-800">
+          <h3 className="text-lg font-semibold" style={{ color: '#8B1A1A' }}>
             {countryName} in {selectedYear}
           </h3>
           <button
             onClick={() => setIsPlaying(!isPlaying)}
-            className={'px-4 py-2 rounded-lg font-medium transition-colors ' + (
-              isPlaying 
-                ? 'bg-red-600 text-white hover:bg-red-700' 
-                : 'bg-blue-600 text-white hover:bg-blue-700'
-            )}
+            className="px-4 py-2 rounded-lg font-medium transition-colors text-white"
+            style={{ background: isPlaying ? '#8B1A1A' : '#C41E3A' }}
+            onMouseEnter={(e) => e.currentTarget.style.background = isPlaying ? '#6B1515' : '#8B1A1A'}
+            onMouseLeave={(e) => e.currentTarget.style.background = isPlaying ? '#8B1A1A' : '#C41E3A'}
           >
             {isPlaying ? 'Stop' : 'Play Animation'}
           </button>
         </div>
-        
+
         <div className="flex items-center space-x-4">
-          <span className="text-sm text-gray-500 w-12">{yearRange.min}</span>
+          <span className="text-sm w-12" style={{ color: '#8B7355' }}>{yearRange.min}</span>
           <input
             type="range"
             min={yearRange.min}
@@ -365,45 +367,49 @@ export default function BorderDevelopmentTab({ countryId, countryName }: BorderD
             className="flex-1 h-2 rounded-lg appearance-none cursor-pointer"
             style={{ background: '#E8C8C8' }}
           />
-          <span className="text-sm text-gray-500 w-12 text-right">{yearRange.max}</span>
+          <span className="text-sm w-12 text-right" style={{ color: '#8B7355' }}>{yearRange.max}</span>
         </div>
       </div>
 
       {/* Border history */}
       {borderChanges.length > 1 && (
-        <div className="bg-white rounded-lg shadow p-4">
-          <h3 className="text-lg font-semibold text-gray-800 mb-3">Border Changes</h3>
+        <div className="rounded-lg p-4" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderTop: '3px solid #C41E3A', boxShadow: '0 1px 3px rgba(139, 26, 26, 0.08)' }}>
+          <h3 className="text-lg font-semibold mb-3" style={{ color: '#8B1A1A' }}>Border Changes</h3>
           <div className="space-y-2">
-            {borderChanges.map((change, index) => (
-              <div 
-                key={index}
-                className={'p-3 rounded-lg cursor-pointer transition-colors ' + (
-                  selectedYear >= change.validFrom && (!change.validTo || selectedYear <= change.validTo)
-                    ? 'bg-red-100 border-2 border-red-500'
-                    : 'bg-gray-50 hover:bg-gray-100'
-                )}
-                onClick={() => setSelectedYear(change.validFrom)}
-              >
-                <span className="font-medium">
-                  {change.validFrom} - {change.validTo || 'Present'}
-                </span>
-              </div>
-            ))}
+            {borderChanges.map((change, index) => {
+              const isActive = selectedYear >= change.validFrom && (!change.validTo || selectedYear <= change.validTo)
+              return (
+                <div
+                  key={index}
+                  className="p-3 rounded-lg cursor-pointer transition-colors"
+                  style={
+                    isActive
+                      ? { background: 'rgba(196, 30, 58, 0.1)', border: '2px solid #C41E3A' }
+                      : { background: 'rgba(196, 30, 58, 0.03)', border: '1px solid #E8C8C8' }
+                  }
+                  onClick={() => setSelectedYear(change.validFrom)}
+                >
+                  <span className="font-medium" style={{ color: isActive ? '#C41E3A' : '#5C3D2E' }}>
+                    {change.validFrom} - {change.validTo || 'Present'}
+                  </span>
+                </div>
+              )
+            })}
           </div>
         </div>
       )}
 
       {/* Legend */}
-      <div className="bg-white rounded-lg shadow p-4">
-        <h3 className="text-sm font-semibold text-gray-700 mb-2">Legend</h3>
+      <div className="rounded-lg p-4" style={{ background: '#FFFFFF', border: '1px solid #E8C8C8', borderTop: '3px solid #C41E3A', boxShadow: '0 1px 3px rgba(139, 26, 26, 0.08)' }}>
+        <h3 className="text-sm font-semibold mb-2" style={{ color: '#8B1A1A', textTransform: 'uppercase', letterSpacing: '0.5px', fontSize: '0.75rem' }}>Legend</h3>
         <div className="flex space-x-6 text-sm">
           <div className="flex items-center space-x-2">
             <div className="w-4 h-4 rounded" style={{ backgroundColor: MAIN_COUNTRY_COLOR }}></div>
-            <span>{countryName}</span>
+            <span style={{ color: '#5C3D2E' }}>{countryName}</span>
           </div>
           <div className="flex items-center space-x-2">
             <div className="w-4 h-4 rounded" style={{ backgroundColor: NEIGHBOR_COLOR }}></div>
-            <span>Neighboring Countries</span>
+            <span style={{ color: '#5C3D2E' }}>Neighboring Countries</span>
           </div>
         </div>
       </div>

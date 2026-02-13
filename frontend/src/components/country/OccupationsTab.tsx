@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { useOccupations, useResistanceMovements, usePalestineSummary } from '../../api/territories'
+import CountryLink from '../ui/CountryLink'
 
 interface OccupationsTabProps {
   countryId?: string
@@ -76,7 +77,9 @@ export default function OccupationsTab({ countryId, countryName }: OccupationsTa
                   <div>
                     <h4 className="font-semibold text-gray-900">{occupation.name}</h4>
                     <div className="text-sm text-gray-600">
-                      <span className="font-medium">{occupation.occupier_name}</span>
+                      <span className="font-medium">
+                        <CountryLink countryId={occupation.occupier_country_id ?? undefined} countryName={occupation.occupier_name ?? ''} />
+                      </span>
                       {' → '}
                       <span>{occupation.occupied_territory}</span>
                     </div>

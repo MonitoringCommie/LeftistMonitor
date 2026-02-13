@@ -94,7 +94,10 @@ const BooksTab = memo(function BooksTab({ countryId, year }: BooksTabProps) {
   const { data: booksData, isLoading } = useBooks(countryId, filterType || undefined)
   const { data: bookDetail } = useBook(selectedBookId || '')
 
-  const books = useMemo(() => booksData?.items || [], [booksData])
+  const books = useMemo(() => {
+    const items = booksData?.items || []
+    return [...items].sort((a, b) => (b.publication_year || 0) - (a.publication_year || 0))
+  }, [booksData])
 
   // Memoize year check function
   const isNearYear = useCallback((publicationYear?: number) => {

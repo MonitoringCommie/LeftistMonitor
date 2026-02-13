@@ -3,15 +3,15 @@ import { lazy, Suspense } from "react"
 import Layout from "./components/layout/Layout"
 import { usePrefetchBorders } from "./api/geography"
 import ErrorBoundary from "./components/ErrorBoundary"
+import CommandPaletteProvider from "./components/ui/CommandPaletteProvider"
+import CommandPalette from "./components/ui/CommandPalette"
 
 // Lazy load pages for code splitting
-// GlobePage removed — single map at /map
-const MapPage = lazy(() => import("./pages/MapPage"))
+const GlobePage = lazy(() => import("./pages/GlobePage"))
 const HubPage = lazy(() => import("./pages/HubPage"))
 const PeoplePage = lazy(() => import("./pages/PeoplePage"))
 const CountryPage = lazy(() => import("./pages/CountryPage"))
 const FrontlinesPage = lazy(() => import("./pages/FrontlinesPage"))
-const ComparisonPage = lazy(() => import("./pages/ComparisonPage"))
 const AboutPage = lazy(() => import("./pages/AboutPage"))
 const GlossaryPage = lazy(() => import("./pages/GlossaryPage"))
 const BooksPage = lazy(() => import("./pages/BooksPage"))
@@ -23,6 +23,7 @@ const GlobalStatsPage = lazy(() => import("./pages/GlobalStatsPage"))
 const PersonDetailPage = lazy(() => import("./pages/PersonDetailPage"))
 const BookDetailPage = lazy(() => import("./pages/BookDetailPage"))
 const EventDetailPage = lazy(() => import("./pages/EventDetailPage"))
+const ConflictDetailPage = lazy(() => import("./pages/ConflictDetailPage"))
 
 // Movement pages
 const FeministMovementsPage = lazy(() => import("./pages/FeministMovementsPage"))
@@ -47,6 +48,7 @@ const PoliticalPrisonersPage = lazy(() => import("./pages/PoliticalPrisonersPage
 // History pages
 const SlaveryHistoryPage = lazy(() => import("./pages/SlaveryHistoryPage"))
 const ElectionsPage = lazy(() => import("./pages/ElectionsPage"))
+const ConflictsPage = lazy(() => import("./pages/ConflictsPage"))
 
 // Loading fallback component
 function PageLoader() {
@@ -66,8 +68,8 @@ function AppContent() {
   return (
     <Suspense fallback={<PageLoader />}>
       <Routes>
-        {/* Map page renders OUTSIDE Layout — full viewport, no header */}
-        <Route path="map" element={<MapPage />} />
+        {/* 3D Globe renders OUTSIDE Layout — full viewport, no header */}
+        <Route path="map" element={<GlobePage />} />
 
         <Route path="/" element={<Layout />}>
           <Route index element={<HubPage />} />
@@ -76,9 +78,9 @@ function AppContent() {
           <Route path="books" element={<BooksPage />} />
           <Route path="book/:id" element={<BookDetailPage />} />
           <Route path="event/:id" element={<EventDetailPage />} />
+          <Route path="conflict/:id" element={<ConflictDetailPage />} />
           <Route path="country/:id" element={<CountryPage />} />
           <Route path="frontlines" element={<FrontlinesPage />} />
-          <Route path="compare" element={<ComparisonPage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="glossary" element={<GlossaryPage />} />
           <Route path="admin" element={<AdminPage />} />
@@ -108,6 +110,7 @@ function AppContent() {
           {/* History pages */}
           <Route path="history/slavery" element={<SlaveryHistoryPage />} />
           <Route path="elections" element={<ElectionsPage />} />
+          <Route path="conflicts" element={<ConflictsPage />} />
         </Route>
       </Routes>
     </Suspense>
@@ -118,7 +121,10 @@ function App() {
   return (
     <ErrorBoundary>
       <BrowserRouter>
-        <AppContent />
+        <CommandPaletteProvider>
+          <AppContent />
+          <CommandPalette />
+        </CommandPaletteProvider>
       </BrowserRouter>
     </ErrorBoundary>
   )
